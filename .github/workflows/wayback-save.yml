@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - "requests/wayback/**"
+      - "src/ovigia_dados/wayback/**"
+      - "scripts/wayback/**"
+      - ".github/workflows/wayback-save.yml"
   workflow_dispatch:
     inputs:
       url:
@@ -51,22 +54,24 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
 
-      - name: Define immutable evidence path
-        run: echo "WAYBACK_REPORT=raw/wayback/runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json" >> "$GITHUB_ENV"
+      - name: Define immutable evidence paths
+        run: |
+          echo "WAYBACK_REPORT=raw/wayback/runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json" >> "$GITHUB_ENV"
+          echo "WAYBACK_SNAPSHOTS=raw/wayback/snapshots/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
 
       - name: Archive URL from dispatch/call
         if: ${{ github.event_name != 'push' && inputs.url != '' }}
-        run: uv run scripts/wayback/save.py --url "${{ inputs.url }}" --output-report "$WAYBACK_REPORT"
+        run: uv run scripts/wayback/save.py --url "${{ inputs.url }}" --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
 
       - name: Archive URL file from dispatch/call
         if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file != '' }}
-        run: uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report "$WAYBACK_REPORT"
+        run: uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
 
       - name: Drain versioned request files after merge
         if: ${{ github.event_name == 'push' }}
         run: |
           cat requests/wayback/*.txt > /tmp/wayback-urls.txt
-          uv run scripts/wayback/save.py --file /tmp/wayback-urls.txt --output-report "$WAYBACK_REPORT"
+          uv run scripts/wayback/save.py --file /tmp/wayback-urls.txt --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
 
       - name: Require dispatch/call input
         if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file == '' }}
@@ -83,14 +88,16 @@ jobs:
           fi
           git config user.name "O Vigia Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add "$WAYBACK_REPORT"
+          git add raw/wayback
           git commit -m "chore(wayback): preserve run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git push origin HEAD:main
 
-      - name: Upload preservation report
+      - name: Upload preservation evidence
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: wayback-preservation-report-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ env.WAYBACK_REPORT }}
+          name: wayback-preservation-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ env.WAYBACK_REPORT }}
+            ${{ env.WAYBACK_SNAPSHOTS }}
           if-no-files-found: ignore
