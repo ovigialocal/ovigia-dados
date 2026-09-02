@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://sapl.portovelho.ro.leg.br/ta/8321/text",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902194551/https://sapl.portovelho.ro.leg.br/ta/8321/text",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T19:51:04Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33675734273-1/5994b1f632dfd6f6766458d15569ab5233d3658ad54483249b153ebd716f59a9.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://www.portovelho.ro.gov.br/noticias/57820",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902194003/https://www.portovelho.ro.gov.br/noticias/57820",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T19:51:11Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33675734273-1/77142f13a7fc7d9b0d92e0c4fb2c3534ca780c6f3123530aa3b2e88f58442111.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://servicos.portovelho.ro.gov.br/semec/refis",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error timed out>",
+    "timestamp": "2026-09-02T19:52:54Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  }
+]
