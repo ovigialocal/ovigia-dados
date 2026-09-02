@@ -9,4 +9,4 @@ reason: material-source
 
 Preservação da comunicação pública usada como lead para apuração do Marco Legal de Liberdade Econômica de Porto Velho.
 
-Retry operacional direcionado após o primeiro drain terminar em falha de infraestrutura anterior à resposta do Internet Archive; identidade e metadados normativos permanecem inalterados.
+Retry operacional direcionado após drains anteriores terminarem em falha de infraestrutura anterior à resposta do Internet Archive; identidade e metadados normativos permanecem inalterados. Nova tentativa junto das páginas legislativas materiais.
