@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://www-storage.voxtecnologia.com.br/?f=269&i=publicado_116059_2026-05-06_ea307e619759232ed98614b1a6eaf601.pdf&m=sigpub.publicacao",
+    "status": "terminal_failure",
+    "archive_url": null,
+    "http_status": 523,
+    "error_message": "Save Page Now returned HTTP 523: UNKNOWN",
+    "timestamp": "2026-09-02T21:50:58Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": true,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  }
+]
