@@ -8,3 +8,5 @@ reason: material-source
 ---
 
 Preservação da página legislativa primária do Projeto de Lei Complementar nº 1469/2026.
+
+Retry operacional direcionado após o primeiro drain terminar em falha de infraestrutura anterior à resposta do Internet Archive; identidade e metadados normativos permanecem inalterados.
