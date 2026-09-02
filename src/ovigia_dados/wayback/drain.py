@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable
 
 from ovigia_dados.wayback.queue import ArchiveRequest, load_wayback_queue
 from ovigia_dados.wayback.save import WaybackSaveResult, save_to_wayback
