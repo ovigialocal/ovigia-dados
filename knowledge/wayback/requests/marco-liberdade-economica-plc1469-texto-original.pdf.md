@@ -8,3 +8,5 @@ reason: material-source
 ---
 
 Preservação do PDF primário efetivamente lido do PLC nº 1469/2026 (Marco Legal de Liberdade Econômica), separadamente da página da matéria no SAPL.
+
+Retry operacional direcionado após tentativas anteriores terminarem antes de resposta terminal do Internet Archive; identidade e metadados normativos permanecem inalterados.
