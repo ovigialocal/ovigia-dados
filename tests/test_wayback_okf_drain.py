@@ -114,3 +114,40 @@ def test_terminal_request_is_idempotently_skipped(tmp_path: Path) -> None:
         raise AssertionError("terminal request must not be retried")
 
     assert drain_wayback_queue(tmp_path, save=should_not_run) == []
+
+
+def test_request_path_filter_attempts_only_selected_pending_request(tmp_path: Path) -> None:
+    _request(tmp_path)
+    second = "knowledge/wayback/requests/second"
+    _write(
+        tmp_path,
+        f"{second}.md",
+        "---\n"
+        "type: archive-request\n"
+        "source_url: 'https://example.org/'\n"
+        "requested_at: '2026-09-02T12:02:00Z'\n"
+        "resource_kind: webpage\n"
+        "---\n",
+    )
+    attempted: list[str] = []
+
+    def save(url: str) -> WaybackSaveResult:
+        attempted.append(url)
+        return WaybackSaveResult(
+            url=url,
+            status="infrastructure_error",
+            error_message="local timeout",
+            timestamp="2026-09-02T12:03:00Z",
+            attempted=True,
+            reached_archive=False,
+            archive_failure=False,
+        )
+
+    written = drain_wayback_queue(
+        tmp_path,
+        save=save,
+        request_paths={f"{second}.md"},
+    )
+
+    assert written == []
+    assert attempted == ["https://example.org/"]
