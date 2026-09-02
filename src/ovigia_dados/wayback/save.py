@@ -1,12 +1,13 @@
 """Preservação de páginas e recursos no Wayback Machine (Internet Archive)."""
 
 import argparse
+import hashlib
 import json
 import logging
 import time
 import urllib.error
 import urllib.request
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -15,6 +16,7 @@ USER_AGENT = (
     "OVigiaDados/0.1.0 (+https://github.com/ovigialocal/ovigia-dados; contato@ovigia.local)"
 )
 WAYBACK_ROOT = "https://web.archive.org"
+_MAX_SNAPSHOT_BYTES = 5_000_000
 
 
 @dataclass
@@ -30,6 +32,8 @@ class WaybackSaveResult:
     attempted: bool = True
     reached_archive: bool = False
     archive_failure: bool = False
+    snapshot_evidence_path: str | None = None
+    snapshot_fetch_error: str | None = None
 
 
 def _now() -> str:
@@ -60,6 +64,30 @@ def _retry_delay(headers, attempt: int, initial_backoff: float) -> float:
         except ValueError:
             pass
     return initial_backoff * (2 ** (attempt - 1))
+
+
+def materialize_snapshot(result: WaybackSaveResult, root: Path) -> WaybackSaveResult:
+    """Persist a bounded replay body so downstream reviewers can inspect captured bytes."""
+    if result.status != "verified" or result.archive_url is None:
+        return result
+
+    request = urllib.request.Request(result.archive_url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:  # noqa: S310
+            body = response.read(_MAX_SNAPSHOT_BYTES + 1)
+        if len(body) > _MAX_SNAPSHOT_BYTES:
+            return replace(
+                result,
+                snapshot_fetch_error=f"snapshot exceeds {_MAX_SNAPSHOT_BYTES} byte evidence limit",
+            )
+        digest = hashlib.sha256(result.archive_url.encode("utf-8")).hexdigest()
+        filename = f"{digest}.html"
+        root.mkdir(parents=True, exist_ok=True)
+        path = root / filename
+        path.write_bytes(body)
+        return replace(result, snapshot_evidence_path=filename, snapshot_fetch_error=None)
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as exc:
+        return replace(result, snapshot_fetch_error=str(exc))
 
 
 def save_to_wayback(
@@ -134,6 +162,10 @@ def main() -> None:
     parser.add_argument("--url", help="URL única para arquivar")
     parser.add_argument("--file", help="Arquivo contendo lista de URLs (uma por linha)")
     parser.add_argument("--output-report", help="Caminho JSON para salvar relatório de execução")
+    parser.add_argument(
+        "--snapshot-dir",
+        help="Diretório para persistir cópias limitadas dos replays Wayback verificados",
+    )
     args = parser.parse_args()
 
     urls_to_save: list[str] = []
@@ -156,6 +188,17 @@ def main() -> None:
     for source_url in urls_to_save:
         print(f"Arquivando no Wayback: {source_url}...")
         result = save_to_wayback(source_url)
+        if args.snapshot_dir:
+            snapshot_root = Path(args.snapshot_dir)
+            materialized = materialize_snapshot(result, snapshot_root)
+            if materialized.snapshot_evidence_path is not None:
+                materialized = replace(
+                    materialized,
+                    snapshot_evidence_path=(
+                        snapshot_root / materialized.snapshot_evidence_path
+                    ).as_posix(),
+                )
+            result = materialized
         results.append(asdict(result))
         print(
             f"Resultado: {result.status} (HTTP {result.http_status}) -> "
