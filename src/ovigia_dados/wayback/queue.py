@@ -9,6 +9,8 @@ from typing import Any
 from okf_parser import concept, load_bundle, resolve_relations
 from okf_parser.models import ConceptRecord
 
+_WAYBACK_PREFIX = "knowledge/wayback/"
+
 
 class WaybackQueueError(ValueError):
     """Raised when Wayback queue concepts violate the public data contract."""
@@ -51,6 +53,20 @@ def _required_text(meta: dict[str, Any], field: str, *, path: str) -> str:
     if not isinstance(value, str) or not value.strip():
         raise WaybackQueueError(f"{path}: {field} must be non-empty text")
     return value.strip()
+
+
+def _require_wayback_okf_conformance(bundle) -> None:
+    violations = [
+        item
+        for item in bundle.validate()
+        if item.path.startswith(_WAYBACK_PREFIX) and item.severity.value == "error"
+    ]
+    if not violations:
+        return
+    rendered = "; ".join(
+        f"{item.code} {item.path}: {item.message}" for item in violations
+    )
+    raise WaybackQueueError(f"Wayback OKF namespace is not conformant: {rendered}")
 
 
 def _request(record: ConceptRecord) -> ArchiveRequest:
@@ -137,6 +153,7 @@ def _result(bundle, record: ConceptRecord, requests: dict[str, ArchiveRequest]) 
 def load_wayback_queue(bundle_root: Path) -> WaybackQueue:
     """Load and validate the public append-only Wayback queue."""
     bundle = load_bundle(bundle_root)
+    _require_wayback_okf_conformance(bundle)
     requests: dict[str, ArchiveRequest] = {}
     result_records: list[ConceptRecord] = []
 
