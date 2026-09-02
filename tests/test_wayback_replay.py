@@ -69,31 +69,90 @@ def test_replay_evidence_persists_html_and_exact_digest_comparison(tmp_path: Pat
     assert (tmp_path / report["replay_body_path"]).read_bytes() == body
 
 
-def test_binary_replay_records_digest_without_committing_body(tmp_path: Path) -> None:
+def test_pdf_replay_persists_bounded_exact_body(tmp_path: Path) -> None:
     result_path = _archived_bundle(
         tmp_path,
         source_url="https://example.com/document.pdf",
+    )
+    body = b"%PDF-exact-replay"
+
+    def fetch(url: str, *, keep_text_body: bool = False) -> FetchEvidence:
+        return FetchEvidence(
+            url=url,
+            content_type="application/pdf",
+            size=len(body),
+            sha256="pdf-digest",
+            body=body if keep_text_body else None,
+        )
+
+    written = materialize_replay_evidence(tmp_path, fetch=fetch, result_paths={result_path})
+    report = json.loads((tmp_path / "raw/wayback/replays/example.json").read_text())
+
+    assert written == [
+        "raw/wayback/replays/example.pdf",
+        "raw/wayback/replays/example.json",
+    ]
+    assert report["archive_content_type"] == "application/pdf"
+    assert report["byte_identical_to_source"] is True
+    assert report["replay_body_path"] == "raw/wayback/replays/example.pdf"
+    assert (tmp_path / report["replay_body_path"]).read_bytes() == body
+
+
+def test_existing_replay_report_can_backfill_matching_pdf_without_rewrite(tmp_path: Path) -> None:
+    result_path = _archived_bundle(tmp_path, source_url="https://example.com/document.pdf")
+    report_path = tmp_path / "raw/wayback/replays/example.json"
+    report = {
+        "archive_content_type": "application/pdf",
+        "archive_sha256": "pdf-digest",
+    }
+    _write(tmp_path, "raw/wayback/replays/example.json", json.dumps(report) + "\n")
+    original_report = report_path.read_bytes()
+    body = b"%PDF-exact-replay"
+
+    def fetch(url: str, *, keep_text_body: bool = False) -> FetchEvidence:
+        return FetchEvidence(
+            url=url,
+            content_type="application/pdf",
+            size=len(body),
+            sha256="pdf-digest",
+            body=body if keep_text_body else None,
+        )
+
+    written = materialize_replay_evidence(tmp_path, fetch=fetch, result_paths={result_path})
+
+    assert written == ["raw/wayback/replays/example.pdf"]
+    assert report_path.read_bytes() == original_report
+    assert (tmp_path / "raw/wayback/replays/example.pdf").read_bytes() == body
+
+
+def test_existing_replay_report_rejects_body_with_different_digest(tmp_path: Path) -> None:
+    result_path = _archived_bundle(tmp_path, source_url="https://example.com/document.pdf")
+    _write(
+        tmp_path,
+        "raw/wayback/replays/example.json",
+        json.dumps(
+            {
+                "archive_content_type": "application/pdf",
+                "archive_sha256": "expected-digest",
+            }
+        )
+        + "\n",
     )
 
     def fetch(url: str, *, keep_text_body: bool = False) -> FetchEvidence:
         return FetchEvidence(
             url=url,
             content_type="application/pdf",
-            size=1234,
-            sha256="pdf-digest",
+            size=4,
+            sha256="different-digest",
             body=b"%PDF" if keep_text_body else None,
         )
 
-    written = materialize_replay_evidence(tmp_path, fetch=fetch, result_paths={result_path})
-    report = json.loads((tmp_path / "raw/wayback/replays/example.json").read_text())
-
-    assert written == ["raw/wayback/replays/example.json"]
-    assert report["archive_content_type"] == "application/pdf"
-    assert report["byte_identical_to_source"] is True
-    assert report["replay_body_path"] is None
+    assert materialize_replay_evidence(tmp_path, fetch=fetch, result_paths={result_path}) == []
+    assert not (tmp_path / "raw/wayback/replays/example.pdf").exists()
 
 
-def test_existing_replay_report_is_append_only_and_not_refetched(tmp_path: Path) -> None:
+def test_existing_unknown_replay_report_is_append_only_and_not_refetched(tmp_path: Path) -> None:
     result_path = _archived_bundle(tmp_path)
     _write(tmp_path, "raw/wayback/replays/example.json", "{}\n")
 
