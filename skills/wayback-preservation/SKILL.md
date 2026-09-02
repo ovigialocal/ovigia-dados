@@ -16,8 +16,10 @@ Preservar URLs públicas materiais no Internet Archive sem confundir aceitação
 8. Respeite `429`, `Retry-After` e retries limitados.
 9. Preserve relatório e sidecars em `raw/wayback/` quando rodado pelo workflow.
 10. Trate PDF/anexo como URL própria quando esse for o recurso efetivamente usado.
-11. Entregue a evidência à Redação; não execute gate, não altere `source_digest` e não tome decisão editorial. A Redação é quem compara o sidecar com a fonte observada e confirma equivalência material.
+11. Request que terminou sem `archive-result` por DNS, timeout, socket, runner ou outro erro anterior à resposta do IA continua pendente. Depois de corrigir `src/ovigia_dados/wayback/**`, `scripts/wayback/**` ou o próprio workflow, a execução seguinte deve redrenar a fila pendente inteira sob a implementação nova; não exigir alteração artificial do request para tentar de novo.
+12. Em pushes que apenas adicionam requests, drene somente os requests novos/alterados para evitar repetição desnecessária. `workflow_dispatch` continua sendo recuperação explícita da fila pendente completa.
+13. Entregue a evidência à Redação; não execute gate, não altere `source_digest` e não tome decisão editorial. A Redação é quem compara o sidecar com a fonte observada e confirma equivalência material.
 
 ## Validation
 
-A implementação deve manter testes que provem: ausência de URL fabricada; separação entre `infrastructure_error` e `terminal_failure`; emissão de `verified` apenas para snapshot concreto; sidecar persistido quando o replay é legível; e ausência de equivalência fabricada quando a leitura do replay falha.
+A implementação deve manter testes que provem: ausência de URL fabricada; separação entre `infrastructure_error` e `terminal_failure`; emissão de `verified` apenas para snapshot concreto; sidecar persistido quando o replay é legível; ausência de equivalência fabricada quando a leitura do replay falha; e recuperação de requests pendentes depois de mudança material no worker sem reescrever a identidade do request.
