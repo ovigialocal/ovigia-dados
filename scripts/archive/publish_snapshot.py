@@ -3,17 +3,17 @@
 # dependencies = [
 #     "pydantic>=2.0.0",
 #     "internetarchive>=4.0.0",
-#     "ovigia-dados",
 # ]
-# [tool.uv.sources]
-# ovigia-dados = { path = "../.." }
 # ///
 """Script CLI para publicação idempotente de snapshots no Internet Archive."""
 
 import argparse
 import json
 import logging
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
 from ovigia_dados.archive.publisher import publish_snapshot_to_internet_archive
 from ovigia_dados.schemas import SnapshotManifest

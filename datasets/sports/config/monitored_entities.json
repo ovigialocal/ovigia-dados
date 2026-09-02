@@ -1,0 +1,90 @@
+{
+  "monitored_regions": [
+    {
+      "uf": "RO",
+      "municipality_name": "Porto Velho",
+      "municipality_code": "1100205"
+    }
+  ],
+  "leagues": [
+    {
+      "league_id": 662,
+      "name": "Rondoniense",
+      "country": "Brazil",
+      "type": "League",
+      "priority": "primary_local"
+    },
+    {
+      "league_id": 73,
+      "name": "Copa do Brasil",
+      "country": "Brazil",
+      "type": "Cup",
+      "priority": "national_cup"
+    },
+    {
+      "league_id": 74,
+      "name": "Serie D",
+      "country": "Brazil",
+      "type": "League",
+      "priority": "national_division"
+    },
+    {
+      "league_id": 598,
+      "name": "Copa Verde",
+      "country": "Brazil",
+      "type": "Cup",
+      "priority": "regional_cup"
+    }
+  ],
+  "teams": [
+    {
+      "team_id": 7780,
+      "name": "Porto Velho EC",
+      "city": "Porto Velho",
+      "uf": "RO",
+      "is_local_focus": true
+    },
+    {
+      "team_id": 7779,
+      "name": "Ji-Paraná FC",
+      "city": "Ji-Paraná",
+      "uf": "RO",
+      "is_local_focus": true
+    },
+    {
+      "team_id": 7784,
+      "name": "Real Ariquemes",
+      "city": "Ariquemes",
+      "uf": "RO",
+      "is_local_focus": true
+    },
+    {
+      "team_id": 7781,
+      "name": "Genus",
+      "city": "Porto Velho",
+      "uf": "RO",
+      "is_local_focus": true
+    },
+    {
+      "team_id": 7782,
+      "name": "Guajará EC",
+      "city": "Guajará-Mirim",
+      "uf": "RO",
+      "is_local_focus": true
+    },
+    {
+      "team_id": 7783,
+      "name": "União Cacoalense",
+      "city": "Cacoal",
+      "uf": "RO",
+      "is_local_focus": true
+    },
+    {
+      "team_id": 7785,
+      "name": "Vilhenense",
+      "city": "Vilhena",
+      "uf": "RO",
+      "is_local_focus": true
+    }
+  ]
+}

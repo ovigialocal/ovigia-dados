@@ -5,18 +5,18 @@
 #     "pyarrow>=15.0.0",
 #     "pydantic>=2.0.0",
 #     "internetarchive>=4.0.0",
-#     "ovigia-dados",
 # ]
-# [tool.uv.sources]
-# ovigia-dados = { path = "../.." }
 # ///
 """Pipeline diário de aquisição, normalização e detecção de contratos federais."""
 
 import argparse
 import json
 import logging
+import sys
 from datetime import UTC, datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
 from ovigia_dados.archive.publisher import compute_sha256
 from ovigia_dados.collectors.contracts import export_contracts_to_parquet, normalize_pncp_contract
@@ -127,7 +127,6 @@ def main():
     normalized = [normalize_pncp_contract(r, snapshot_id=args.snapshot_id) for r in raw_records]
     export_contracts_to_parquet(normalized, parquet_file)
 
-    # Gera manifesto
     manifest = SnapshotManifest(
         dataset_id="contracts",
         snapshot_id=args.snapshot_id,
@@ -140,7 +139,6 @@ def main():
     manifest_file.write_text(manifest.model_dump_json(indent=2), encoding="utf-8")
     logger.info(f"Manifesto gravado: {manifest_file}")
 
-    # Executa detector
     logger.info("Executando detector large-local-contract-v1...")
     detector = LargeLocalContractDetector(
         min_amount=1_000_000.0,
