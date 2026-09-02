@@ -1,2 +1,0 @@
-# Retry isolado: a execução anterior terminou como infrastructure_error antes de alcançar o Internet Archive.
-https://transparencia.portovelho.ro.gov.br/despesas/compras/8458
