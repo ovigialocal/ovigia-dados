@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://www.inovefit.com.br/e/corridaportovelho2026",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173609/https://www.inovefit.com.br/e/corridaportovelho2026",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:47:25Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33663205828-1/a906dcec6240400c460741969f4fb0860e6f2a360af2bcaef6f858f58d166ae1.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://www.portovelho.ro.gov.br/noticias/58108",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173644/https://www.portovelho.ro.gov.br/noticias/58108",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:47:33Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8458",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error [Errno 111] Connection refused>",
+    "timestamp": "2026-09-02T17:48:42Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/atas/1480",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error timed out>",
+    "timestamp": "2026-09-02T17:49:49Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  }
+]
