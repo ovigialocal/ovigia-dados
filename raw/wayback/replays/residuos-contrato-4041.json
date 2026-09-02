@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-contrato-4041",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/4041",
+  "archive_url": "https://web.archive.org/web/20260902213210/https://transparencia.portovelho.ro.gov.br/contratos/4041",
+  "verified_at": "2026-09-02T23:28:15Z",
+  "archive_content_type": "text/html",
+  "archive_size": 41767,
+  "archive_sha256": "ed0c6e39fa14660d3fee72bda7b91d3c68244e8803ebd7c2d296faec12ab856b",
+  "source_content_type": "text/html",
+  "source_size": 446320,
+  "source_sha256": "9757e962cc684124c24b8971cdcdd7c7c01ab7684c2c80cfafb01d252c7e4436",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-contrato-4041.html"
+}

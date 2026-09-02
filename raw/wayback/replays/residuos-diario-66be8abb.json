@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-diario-66be8abb",
+  "source_url": "https://www.diariomunicipal.com.br/arom/materia/66BE8ABB/03AFcWeA5OaoG1_RS8kSunoikOPFuKfOLdcCRZNHpMaBRk9Az95bjVFeXo3do",
+  "archive_url": "https://web.archive.org/web/20260902213906/https://www.diariomunicipal.com.br/arom/materia/66BE8ABB/03AFcWeA5OaoG1_RS8kSunoikOPFuKfOLdcCRZNHpMaBRk9Az95bjVFeXo3do",
+  "verified_at": "2026-09-02T23:28:17Z",
+  "archive_content_type": "text/html",
+  "archive_size": 26086,
+  "archive_sha256": "f756a47fdb7f53f279767b88a8155feec3e05a10ddd6b0cd86aaab8119b8bc61",
+  "source_content_type": "text/html",
+  "source_size": 79553,
+  "source_sha256": "f75012e16c49f28f69e660707bc5a3c760fe7e4554abdd7036479b699b9c2388",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-diario-66be8abb.html"
+}
