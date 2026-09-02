@@ -42,12 +42,12 @@ jobs:
       - name: Archive URL (Single)
         if: ${{ inputs.url != '' }}
         run: |
-          uv run python -m ovigia_dados.wayback.save --url "${{ inputs.url }}" --output-report wayback-report.json
+          uv run scripts/wayback/save.py --url "${{ inputs.url }}" --output-report wayback-report.json
 
       - name: Archive URLs (File)
         if: ${{ inputs.url_file != '' }}
         run: |
-          uv run python -m ovigia_dados.wayback.save --file "${{ inputs.url_file }}" --output-report wayback-report.json
+          uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report wayback-report.json
 
       - name: Upload Preservation Report
         uses: actions/upload-artifact@v4

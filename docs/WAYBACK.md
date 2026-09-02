@@ -19,13 +19,13 @@ O módulo de preservação no Wayback Machine (`Save Page Now`) garante que pág
 
 ## 2. Modos de Invocação
 
-### 2.1 Linha de Comando (CLI)
+### 2.1 Linha de Comando (CLI via PEP 723)
 ```bash
 # Salvar uma URL avulsa
-uv run python -m ovigia_dados.wayback.save --url "https://pncp.gov.br"
+uv run scripts/wayback/save.py --url "https://pncp.gov.br"
 
 # Salvar lote a partir de arquivo de texto
-uv run python -m ovigia_dados.wayback.save --file urls.txt --output-report report.json
+uv run scripts/wayback/save.py --file urls.txt --output-report report.json
 ```
 
 ### 2.2 GitHub Actions (`wayback-save.yml`)

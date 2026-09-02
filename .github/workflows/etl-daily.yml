@@ -29,16 +29,13 @@ jobs:
       - name: Setup Python
         run: uv python install 3.11
 
-      - name: Install dependencies
-        run: uv sync
-
       - name: Run Contracts Pipeline
         run: |
           SNAP="${{ inputs.snapshot_id }}"
           if [ -z "$SNAP" ]; then
             SNAP=$(date -u +%Y-%m)
           fi
-          uv run python scripts/datasets/run_contracts_pipeline.py --snapshot-id "$SNAP" --output-dir data/output/contracts
+          uv run scripts/datasets/run_contracts_pipeline.py --snapshot-id "$SNAP" --output-dir data/output/contracts
 
       - name: Upload Snapshot Parquet Artifacts
         uses: actions/upload-artifact@v4
@@ -54,16 +51,8 @@ jobs:
           IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
         run: |
           echo "Publicando snapshot verificado no Internet Archive..."
-          uv run python -c "
-          from pathlib import Path
-          from ovigia_dados.archive.publisher import publish_snapshot_to_internet_archive
-          from ovigia_dados.schemas import SnapshotManifest
-          import json
-
-          out_dir = Path('data/output/contracts')
-          manifest_data = json.loads((out_dir / 'manifest.json').read_text(encoding='utf-8'))
-          manifest = SnapshotManifest(**manifest_data)
-          item_id = f'ovigia-dados-contratos-federais-{manifest.snapshot_id}'
-          files = [out_dir / 'contracts.parquet', out_dir / 'manifest.json', Path('datasets/contracts/dictionary.md'), Path('datasets/contracts/catalog.sql')]
-          publish_snapshot_to_internet_archive(item_id, files, manifest)
-          "
+          uv run scripts/archive/publish_snapshot.py \
+            --manifest data/output/contracts/manifest.json \
+            --parquet data/output/contracts/contracts.parquet \
+            --dictionary datasets/contracts/dictionary.md \
+            --catalog datasets/contracts/catalog.sql

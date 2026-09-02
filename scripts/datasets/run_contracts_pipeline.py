@@ -1,3 +1,15 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "duckdb>=1.0.0",
+#     "pyarrow>=15.0.0",
+#     "pydantic>=2.0.0",
+#     "internetarchive>=4.0.0",
+#     "ovigia-dados",
+# ]
+# [tool.uv.sources]
+# ovigia-dados = { path = "../.." }
+# ///
 """Pipeline diário de aquisição, normalização e detecção de contratos federais."""
 
 import argparse
@@ -43,7 +55,6 @@ def main():
         raw_records = json.loads(Path(args.sample_data).read_text(encoding="utf-8"))
     else:
         logger.info("Executando simulação de dados amostrais para Porto Velho / RO")
-        # Amostra mínima de teste determinístico
         raw_records = [
             {
                 "orgaoEntidade": {

@@ -36,11 +36,4 @@ jobs:
         run: uv run pytest -v --cov=ovigia_dados
 
       - name: Validate DuckDB Schemas & SQL Contracts
-        run: |
-          uv run python -c "
-          import duckdb
-          con = duckdb.connect(':memory:')
-          with open('datasets/contracts/schema.sql', 'r', encoding='utf-8') as f:
-              con.execute(f.read())
-          print('Schema SQL validado com sucesso no DuckDB.')
-          "
+        run: uv run scripts/validate_schemas.py
