@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/marco-liberdade-economica-release",
+  "source_url": "https://semec.portovelho.ro.gov.br/noticias/58115",
+  "archive_url": "https://web.archive.org/web/20260902231043/https://semec.portovelho.ro.gov.br/noticias/58115",
+  "verified_at": "2026-09-02T23:43:07Z",
+  "archive_content_type": "text/html",
+  "archive_size": 27995,
+  "archive_sha256": "00a63b5dcda72134b9affbbffe1d15c71dc6b390b9ec2824008975a16d299713",
+  "source_content_type": "text/html",
+  "source_size": 289386,
+  "source_sha256": "492968ed37ec42ed594fc12ba0e44c654225a2ac078f2d3407db4fcef6bcfdc5",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/marco-liberdade-economica-release.html"
+}
