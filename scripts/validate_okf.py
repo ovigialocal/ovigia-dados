@@ -7,35 +7,29 @@
 # ///
 """Validação do bundle OKF e conferência de conformidade dos modelos."""
 
-import subprocess
-import sys
+from pathlib import Path
+
+from okf_parser import validate_path
+from okf_parser.schema_export import export_pydantic_source
 
 
-def main():
+def _validate(root: str) -> None:
+    report = validate_path(Path(root))
+    errors = [item for item in report.violations if item.severity.value == "error"]
+    if errors:
+        rendered = "\n".join(f"{item.path}: {item.code}: {item.message}" for item in errors)
+        raise SystemExit(f"Erro na validação de {root}:\n{rendered}")
+    print(f"OK: {root}/")
+
+
+def main() -> None:
     print("Executando validação OKF em specs/ e knowledge/...")
+    _validate("specs")
+    _validate("knowledge")
 
-    # Valida specs
-    cmd_specs = ["okf-parser", "check", "specs"]
-    res_specs = subprocess.run(cmd_specs, capture_output=True, text=True)
-    if res_specs.returncode != 0:
-        print("Erro na validação de specs:", res_specs.stderr or res_specs.stdout)
-        sys.exit(res_specs.returncode)
-    print("OK: specs/")
-
-    # Valida knowledge
-    cmd_know = ["okf-parser", "check", "knowledge"]
-    res_know = subprocess.run(cmd_know, capture_output=True, text=True)
-    if res_know.returncode != 0:
-        print("Erro na validação de knowledge:", res_know.stderr or res_know.stdout)
-        sys.exit(res_know.returncode)
-    print("OK: knowledge/")
-
-    # Valida exportação de schemas
-    cmd_schema = ["okf-parser", "schema", "--format", "pydantic", "knowledge"]
-    res_schema = subprocess.run(cmd_schema, capture_output=True, text=True)
-    if res_schema.returncode != 0:
-        print("Erro na geração de schemas pydantic:", res_schema.stderr)
-        sys.exit(res_schema.returncode)
+    source = export_pydantic_source("knowledge")
+    if not source.strip():
+        raise SystemExit("Erro na geração de schemas pydantic: saída vazia")
     print("OK: okf-parser schema generation")
 
 

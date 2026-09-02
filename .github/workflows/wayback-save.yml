@@ -1,25 +1,35 @@
 name: Wayback Machine Preservation
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "requests/wayback/**"
   workflow_dispatch:
     inputs:
       url:
-        description: 'URL única para salvar no Wayback Machine'
-        required: true
+        description: "URL única para salvar no Wayback Machine"
+        required: false
+        type: string
+      url_file:
+        description: "Arquivo versionado com URLs públicas, uma por linha"
+        required: false
         type: string
   workflow_call:
     inputs:
       url:
-        description: 'URL única para salvar no Wayback Machine'
         required: false
         type: string
       url_file:
-        description: 'Caminho do arquivo com URLs para arquivar'
         required: false
         type: string
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: wayback-preservation
+  cancel-in-progress: false
 
 jobs:
   wayback-save:
@@ -27,32 +37,60 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
 
       - name: Setup Python
-        run: uv python install 3.11
+        run: uv python install 3.12
 
       - name: Install dependencies
-        run: uv sync
+        run: uv sync --locked
 
-      - name: Archive URL (Single)
-        if: ${{ inputs.url != '' }}
+      - name: Define immutable evidence path
+        run: echo "WAYBACK_REPORT=raw/wayback/runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json" >> "$GITHUB_ENV"
+
+      - name: Archive URL from dispatch/call
+        if: ${{ github.event_name != 'push' && inputs.url != '' }}
+        run: uv run scripts/wayback/save.py --url "${{ inputs.url }}" --output-report "$WAYBACK_REPORT"
+
+      - name: Archive URL file from dispatch/call
+        if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file != '' }}
+        run: uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report "$WAYBACK_REPORT"
+
+      - name: Drain versioned request files after merge
+        if: ${{ github.event_name == 'push' }}
         run: |
-          uv run scripts/wayback/save.py --url "${{ inputs.url }}" --output-report wayback-report.json
+          cat requests/wayback/*.txt > /tmp/wayback-urls.txt
+          uv run scripts/wayback/save.py --file /tmp/wayback-urls.txt --output-report "$WAYBACK_REPORT"
 
-      - name: Archive URLs (File)
-        if: ${{ inputs.url_file != '' }}
+      - name: Require dispatch/call input
+        if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file == '' }}
         run: |
-          uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report wayback-report.json
+          echo "Provide url or url_file" >&2
+          exit 2
 
-      - name: Upload Preservation Report
+      - name: Persist raw preservation evidence
+        if: always()
+        run: |
+          if [ ! -f "$WAYBACK_REPORT" ]; then
+            echo "No preservation report produced."
+            exit 0
+          fi
+          git config user.name "O Vigia Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$WAYBACK_REPORT"
+          git commit -m "chore(wayback): preserve run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git push origin HEAD:main
+
+      - name: Upload preservation report
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: wayback-preservation-report
-          path: wayback-report.json
+          name: wayback-preservation-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ env.WAYBACK_REPORT }}
           if-no-files-found: ignore
