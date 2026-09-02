@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://www.inovefit.com.br/e/corridaportovelho2026",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173609/https://www.inovefit.com.br/e/corridaportovelho2026",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:36:28Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false
+  },
+  {
+    "url": "https://www.portovelho.ro.gov.br/noticias/58108",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error timed out>",
+    "timestamp": "2026-09-02T17:38:04Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8458",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173902/https://transparencia.portovelho.ro.gov.br/despesas/compras/8458",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:39:26Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/atas/1480",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173931/https://transparencia.portovelho.ro.gov.br/despesas/atas/1480",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:41:27Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false
+  }
+]
