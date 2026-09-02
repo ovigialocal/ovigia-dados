@@ -17,15 +17,15 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Setup uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
 
       - name: Setup Python
         run: uv python install 3.12
 
-      - name: Install dependencies
-        run: uv sync --dev
+      - name: Install locked dependencies including dev tooling
+        run: uv sync --locked --all-extras --dev
 
       - name: Run Ruff Linter & Format Check
         run: |
