@@ -8,3 +8,5 @@ reason: material-source
 ---
 
 Preservação da ordem do dia oficial da sessão legislativa usada para verificar a segunda votação dos PLCs 1468/2026 e 1469/2026.
+
+Retry operacional direcionado após tentativas anteriores terminarem antes de resposta terminal do Internet Archive; identidade e metadados normativos permanecem inalterados.
