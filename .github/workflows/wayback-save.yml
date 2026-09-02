@@ -44,43 +44,44 @@ jobs:
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "Manual recovery: draining the full pending queue."
             uv run scripts/wayback/drain.py
-            exit 0
+          else
+            mapfile -t requests < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'knowledge/wayback/requests/*.md')
+            if (( ${#requests[@]} == 0 )); then
+              echo "No new archive-request concepts in this push; preservation queue unchanged."
+            else
+              args=()
+              for request in "${requests[@]}"; do
+                args+=(--request-path "$request")
+              done
+              uv run scripts/wayback/drain.py "${args[@]}"
+            fi
           fi
-
-          mapfile -t requests < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'knowledge/wayback/requests/*.md')
-          if (( ${#requests[@]} == 0 )); then
-            echo "No new archive-request concepts in this push; nothing to preserve."
-            exit 0
-          fi
-
-          args=()
-          for request in "${requests[@]}"; do
-            args+=(--request-path "$request")
-          done
-          uv run scripts/wayback/drain.py "${args[@]}"
 
       - name: Validate governed Wayback OKF namespace after preservation
         run: uv run scripts/wayback/check.py
 
-      - name: Persist terminal archive-result concepts
+      - name: Materialize auditable replay evidence
+        run: uv run scripts/wayback/replay.py
+
+      - name: Persist archive results and replay evidence
         run: |
           set -euo pipefail
-          git add knowledge/wayback/results
-          if git diff --cached --quiet -- knowledge/wayback/results; then
-            echo "No terminal Wayback results produced; requests remain pending."
+          git add knowledge/wayback/results raw/wayback/replays
+          if git diff --cached --quiet -- knowledge/wayback/results raw/wayback/replays; then
+            echo "No terminal Wayback results or new replay evidence produced."
             exit 0
           fi
           git config user.name "O Vigia Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git commit -m "chore(wayback): persist archive results from run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git commit -m "chore(wayback): persist archive evidence from run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           for attempt in 1 2 3; do
             git fetch origin main
             git rebase origin/main
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Result push raced with main; retrying ($attempt/3)." >&2
+            echo "Archive evidence push raced with main; retrying ($attempt/3)." >&2
             sleep $((attempt * 2))
           done
-          echo "Could not persist Wayback results after 3 rebases." >&2
+          echo "Could not persist Wayback evidence after 3 rebases." >&2
           exit 1
