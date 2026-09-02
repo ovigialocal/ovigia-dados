@@ -80,11 +80,16 @@ def drain_wayback_queue(
     bundle_root: Path,
     *,
     save: Callable[[str], WaybackSaveResult] = save_to_wayback,
+    request_paths: set[str] | None = None,
 ) -> list[str]:
-    """Attempt every pending request and persist only terminal service outcomes."""
+    """Attempt pending requests, optionally restricted to explicit repo-relative paths."""
     queue = load_wayback_queue(bundle_root)
+    pending = queue.pending
+    if request_paths is not None:
+        pending = [request for request in pending if request.path in request_paths]
+
     written: list[str] = []
-    for request in queue.pending:
+    for request in pending:
         result = save(request.source_url)
         rendered = _render_result(request, result)
         if rendered is None:
