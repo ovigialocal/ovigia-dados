@@ -41,20 +41,39 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "Manual recovery: draining the full pending queue."
             uv run scripts/wayback/drain.py
+            exit 0
+          fi
+
+          mapfile -t changed < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}")
+          worker_changed=false
+          requests=()
+
+          for path in "${changed[@]}"; do
+            case "$path" in
+              src/ovigia_dados/wayback/*|scripts/wayback/*|.github/workflows/wayback-save.yml)
+                worker_changed=true
+                ;;
+              knowledge/wayback/requests/*.md)
+                requests+=("$path")
+                ;;
+            esac
+          done
+
+          if [[ "$worker_changed" == "true" ]]; then
+            echo "Wayback worker changed: retrying the full pending queue under the new implementation."
+            uv run scripts/wayback/drain.py
+          elif (( ${#requests[@]} > 0 )); then
+            args=()
+            for request in "${requests[@]}"; do
+              args+=(--request-path "$request")
+            done
+            uv run scripts/wayback/drain.py "${args[@]}"
           else
-            mapfile -t requests < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'knowledge/wayback/requests/*.md')
-            if (( ${#requests[@]} == 0 )); then
-              echo "No new archive-request concepts in this push; preservation queue unchanged."
-            else
-              args=()
-              for request in "${requests[@]}"; do
-                args+=(--request-path "$request")
-              done
-              uv run scripts/wayback/drain.py "${args[@]}"
-            fi
+            echo "No archive-request or worker changes in this push; preservation queue unchanged."
           fi
 
       - name: Validate governed Wayback OKF namespace after preservation
