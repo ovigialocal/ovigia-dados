@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/marco-liberdade-economica-lc906-2022",
+  "source_url": "https://sapl.portovelho.ro.leg.br/ta/2511/text",
+  "archive_url": "https://web.archive.org/web/20260902234247/https://sapl.portovelho.ro.leg.br/ta/2511/text",
+  "verified_at": "2026-09-02T23:43:24Z",
+  "archive_content_type": "text/html",
+  "archive_size": 34564,
+  "archive_sha256": "085ee0446e4ea72a5d706e0443f4b201e66d04eddee8ac9b8e94340d6be5d75b",
+  "source_content_type": "text/html",
+  "source_size": 247408,
+  "source_sha256": "4d46e7f413165e24f93db97de0e82b2a79e89c60957284d28ad3f8d138356435",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/marco-liberdade-economica-lc906-2022.html"
+}
