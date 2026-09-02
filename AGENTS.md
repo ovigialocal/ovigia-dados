@@ -36,6 +36,18 @@ observe/task
 - Every dataset/detector implementation should feed the loop: execution produces evidence; evidence updates the wiki; wiki may evolve skills.
 - `okf-parser` remains the structural authority for OKF bundles/specs and should be used when modeling new knowledge contracts.
 
+### Wayback preservation queue
+
+`ovigia-dados` is the public execution boundary for Wayback preservation requested by O Vigia. The queue is represented only as OKF concepts under `knowledge/wayback/`:
+
+- `archive-request` records a public URL to preserve;
+- `archive-result` records one terminal service outcome and must name the request's parser-owned `concept_id` in `request_concept_id` while also linking it through `sources[].resource`;
+- the pending queue is derived as requests without terminal results.
+
+Do not create or restore `.txt`, JSON or YAML queue files. Do not duplicate a request's identity with a `request_id` field. A transport/runtime failure before the Internet Archive answers leaves the request pending; it is not a terminal archive failure.
+
+The private newsroom may enqueue only public URLs here. It must not copy private story IDs, hypotheses, drafts, human-source identities or unpublished editorial strategy into this public repository.
+
 ### Per-session behavior
 
 At the start of a substantive agent session:
