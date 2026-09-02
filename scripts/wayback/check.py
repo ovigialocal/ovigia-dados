@@ -1,11 +1,3 @@
-# /// script
-# requires-python = ">=3.12"
-# dependencies = [
-#     "ovigia-dados",
-# ]
-# [tool.uv.sources]
-# ovigia-dados = { path = "../.." }
-# ///
 from pathlib import Path
 
 from ovigia_dados.wayback.queue import load_wayback_queue
