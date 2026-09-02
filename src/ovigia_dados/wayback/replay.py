@@ -12,7 +12,7 @@ from pathlib import Path
 
 from ovigia_dados.wayback.queue import ArchiveResult, load_wayback_queue
 
-_MAX_TEXT_BYTES = 5 * 1024 * 1024
+_MAX_REPLAY_BODY_BYTES = 5 * 1024 * 1024
 
 
 @dataclass(frozen=True, slots=True)
@@ -65,9 +65,9 @@ def _fetch(url: str, *, keep_text_body: bool = False, timeout: float = 60.0) -> 
         while chunk := response.read(1024 * 1024):
             digest.update(chunk)
             size += len(chunk)
-            if keep_text_body and size <= _MAX_TEXT_BYTES:
+            if keep_text_body and size <= _MAX_REPLAY_BODY_BYTES:
                 body_parts.append(chunk)
-    body = b"".join(body_parts) if keep_text_body and size <= _MAX_TEXT_BYTES else None
+    body = b"".join(body_parts) if keep_text_body and size <= _MAX_REPLAY_BODY_BYTES else None
     return FetchEvidence(
         url=url,
         content_type=content_type,
@@ -81,6 +81,31 @@ def _evidence_stem(result: ArchiveResult) -> str:
     return Path(result.path).stem
 
 
+def _body_suffix(content_type: str) -> str | None:
+    if content_type.startswith("text/"):
+        return ".html"
+    if content_type == "application/pdf":
+        return ".pdf"
+    return None
+
+
+def _persist_replay_body(
+    evidence_dir: Path,
+    stem: str,
+    replay: FetchEvidence,
+    bundle_root: Path,
+) -> str | None:
+    if replay.body is None:
+        return None
+    suffix = _body_suffix(replay.content_type)
+    if suffix is None:
+        return None
+    body_path = evidence_dir / f"{stem}{suffix}"
+    if not body_path.exists():
+        body_path.write_bytes(replay.body)
+    return body_path.relative_to(bundle_root).as_posix()
+
+
 def materialize_replay_evidence(
     bundle_root: Path,
     *,
@@ -89,10 +114,10 @@ def materialize_replay_evidence(
 ) -> list[str]:
     """Fetch archived replay bytes and persist audit evidence for archived results.
 
-    HTML/text replays are retained verbatim when bounded. Binary resources are not duplicated in Git;
-    their replay digest is compared with a fresh fetch of the canonical public source when possible.
-    A replay that is temporarily unreachable remains without evidence instead of poisoning another
-    archived result or fabricating editorial equivalence.
+    Bounded HTML/text and PDF replays are retained verbatim. Other binaries keep digest evidence only.
+    Existing JSON reports remain append-only; a later run may backfill the exact bounded replay body only
+    when its SHA-256 still matches the report already committed. A temporarily unreachable replay is
+    skipped instead of poisoning another result or fabricating editorial equivalence.
     """
     queue = load_wayback_queue(bundle_root)
     written: list[str] = []
@@ -106,7 +131,21 @@ def materialize_replay_evidence(
             continue
         stem = _evidence_stem(result)
         report_path = evidence_dir / f"{stem}.json"
+
         if report_path.exists():
+            report = json.loads(report_path.read_text(encoding="utf-8"))
+            suffix = _body_suffix(str(report.get("archive_content_type", "")))
+            if suffix is None or (evidence_dir / f"{stem}{suffix}").exists():
+                continue
+            try:
+                replay = fetch(_identity_replay_url(result.archive_url), keep_text_body=True)
+            except OSError:
+                continue
+            if replay.sha256 != report.get("archive_sha256"):
+                continue
+            body_relative = _persist_replay_body(evidence_dir, stem, replay, bundle_root)
+            if body_relative is not None:
+                written.append(body_relative)
             continue
 
         try:
@@ -114,11 +153,8 @@ def materialize_replay_evidence(
         except OSError:
             continue
 
-        body_relative: str | None = None
-        if replay.body is not None and replay.content_type.startswith("text/"):
-            body_path = evidence_dir / f"{stem}.html"
-            body_path.write_bytes(replay.body)
-            body_relative = body_path.relative_to(bundle_root).as_posix()
+        body_relative = _persist_replay_body(evidence_dir, stem, replay, bundle_root)
+        if body_relative is not None:
             written.append(body_relative)
 
         source: FetchEvidence | None
