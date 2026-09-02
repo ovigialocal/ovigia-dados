@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://www.inovefit.com.br/e/corridaportovelho2026",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173609/https://www.inovefit.com.br/e/corridaportovelho2026",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:51:34Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33663205828-2/a906dcec6240400c460741969f4fb0860e6f2a360af2bcaef6f858f58d166ae1.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://www.portovelho.ro.gov.br/noticias/58108",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173644/https://www.portovelho.ro.gov.br/noticias/58108",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:51:42Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33663205828-2/123bc2d50ef16043ae0e0665a7710f88efef5f702d062469abadeb6e1d84a6e7.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8458",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error timed out>",
+    "timestamp": "2026-09-02T17:53:25Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/atas/1480",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902173931/https://transparencia.portovelho.ro.gov.br/despesas/atas/1480",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T17:53:55Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33663205828-2/a3ce06c9ecd2b91a7231e9fe7bb07953284ab4df99c063eec6ba753e2adc93f9.html",
+    "snapshot_fetch_error": null
+  }
+]
