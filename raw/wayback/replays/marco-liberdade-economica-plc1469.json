@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/marco-liberdade-economica-plc1469",
+  "source_url": "https://sapl.portovelho.ro.leg.br/materia/46229",
+  "archive_url": "https://web.archive.org/web/20260902230550/https://sapl.portovelho.ro.leg.br/materia/46229",
+  "verified_at": "2026-09-02T23:24:49Z",
+  "archive_content_type": "text/html",
+  "archive_size": 4410,
+  "archive_sha256": "8de3078e238270a25442fefc253309dcdccd317f9a92ab2f8dd3bdc6711813a6",
+  "source_content_type": "text/html",
+  "source_size": 27428,
+  "source_sha256": "f00c5432541dc62e11dcea7e4680eaa9f9657354251ed5a71b3b28bda2044ae6",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/marco-liberdade-economica-plc1469.html"
+}

@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/marco-liberdade-economica-relatorio-0862102.pdf",
+  "source_url": "https://semec.portovelho.ro.gov.br/uploads/arquivos/2026/05/67765/1777914387sei-0862102-relatorio.pdf",
+  "archive_url": "https://web.archive.org/web/20260902231428/https://semec.portovelho.ro.gov.br/uploads/arquivos/2026/05/67765/1777914387sei-0862102-relatorio.pdf",
+  "verified_at": "2026-09-02T23:24:53Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 440054,
+  "archive_sha256": "98e1a4629f4d3e18a620394d219f148cdf6b6afb9a4fa60304d1de5d9adcfb47",
+  "source_content_type": "application/pdf",
+  "source_size": 527595,
+  "source_sha256": "39482ccb4b32358dd99b8c8f868dead115295bcb3de0446af52546ebe2674c23",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}

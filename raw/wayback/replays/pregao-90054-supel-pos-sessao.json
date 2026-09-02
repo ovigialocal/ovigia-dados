@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pregao-90054-supel-pos-sessao",
+  "source_url": "https://rondonia.ro.gov.br/licitacao/980312/",
+  "archive_url": "https://web.archive.org/web/20260902223751/https://rondonia.ro.gov.br/licitacao/980312/",
+  "verified_at": "2026-09-02T23:25:01Z",
+  "archive_content_type": "text/html",
+  "archive_size": 32030,
+  "archive_sha256": "2e7cf420274b9ea113ba0131e11ecf0ea11748c7e06934b92a751bd2a8bd3271",
+  "source_content_type": "text/html",
+  "source_size": 183031,
+  "source_sha256": "125c37af604b462fb6585e72e88fe68fdfa06b3b3f3531c6bd7880759748e5a2",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pregao-90054-supel-pos-sessao.html"
+}

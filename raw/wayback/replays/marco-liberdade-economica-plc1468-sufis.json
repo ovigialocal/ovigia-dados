@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/marco-liberdade-economica-plc1468-sufis",
+  "source_url": "https://sapl.portovelho.ro.leg.br/materia/46230",
+  "archive_url": "https://web.archive.org/web/20260902230516/https://sapl.portovelho.ro.leg.br/materia/46230",
+  "verified_at": "2026-09-02T23:24:47Z",
+  "archive_content_type": "text/html",
+  "archive_size": 4507,
+  "archive_sha256": "f409926a61928445ac0468bdf7c9e7ae3f5b60fa4c74dc89cc8d7afd449a2c7a",
+  "source_content_type": "text/html",
+  "source_size": 27645,
+  "source_sha256": "b086f291fff7f9ecf2621fef76e57dbf478158dc68a42394e78ba44b059f9121",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/marco-liberdade-economica-plc1468-sufis.html"
+}

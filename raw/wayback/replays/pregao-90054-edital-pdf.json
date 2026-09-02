@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pregao-90054-edital-pdf",
+  "source_url": "https://rondonia.ro.gov.br/wp-content/uploads/2026/08/ilovepdf_merged-90054-2026.pdf",
+  "archive_url": "https://web.archive.org/web/20260902224358/https://rondonia.ro.gov.br/wp-content/uploads/2026/08/ilovepdf_merged-90054-2026.pdf",
+  "verified_at": "2026-09-02T23:24:57Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 2402280,
+  "archive_sha256": "335c08d78b9e90c88913ce6e13b8e7ef5ff10f57acaf2b2f756a50ab494e77ba",
+  "source_content_type": "application/pdf",
+  "source_size": 2402280,
+  "source_sha256": "335c08d78b9e90c88913ce6e13b8e7ef5ff10f57acaf2b2f756a50ab494e77ba",
+  "byte_identical_to_source": true,
+  "replay_body_path": null
+}
