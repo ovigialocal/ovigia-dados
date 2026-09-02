@@ -63,9 +63,7 @@ def _require_wayback_okf_conformance(bundle) -> None:
     ]
     if not violations:
         return
-    rendered = "; ".join(
-        f"{item.code} {item.path}: {item.message}" for item in violations
-    )
+    rendered = "; ".join(f"{item.code} {item.path}: {item.message}" for item in violations)
     raise WaybackQueueError(f"Wayback OKF namespace is not conformant: {rendered}")
 
 
