@@ -31,7 +31,10 @@ class PdfTextEquivalence:
 
 def normalize_pdf_text(text: str) -> str:
     """Normalize layout-only whitespace while preserving textual content and order."""
-    return "\n".join(" ".join(line.split()) for line in text.splitlines() if line.strip()).strip() + "\n"
+    return (
+        "\n".join(" ".join(line.split()) for line in text.splitlines() if line.strip()).strip()
+        + "\n"
+    )
 
 
 def _sha256_text(text: str) -> str:
@@ -96,7 +99,9 @@ def materialize_pdf_text_equivalence(
             archive_text_sha256=_sha256_text(archive_text),
             source_page_count=source_extracted.page_count if source_extracted else None,
             source_text_sha256=_sha256_text(source_text) if source_text is not None else None,
-            text_identical_to_source=(archive_text == source_text) if source_text is not None else None,
+            text_identical_to_source=(archive_text == source_text)
+            if source_text is not None
+            else None,
             archive_text_path=archive_text_path.relative_to(bundle_root).as_posix(),
         )
         sidecar_path.write_text(
