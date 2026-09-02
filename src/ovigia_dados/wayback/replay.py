@@ -54,7 +54,9 @@ def _identity_replay_url(archive_url: str) -> str:
 
 
 def _fetch(url: str, *, keep_text_body: bool = False, timeout: float = 60.0) -> FetchEvidence:
-    request = urllib.request.Request(url, headers={"User-Agent": "O Vigia/1.0 (+https://ovigia.local)"})
+    request = urllib.request.Request(
+        url, headers={"User-Agent": "O Vigia/1.0 (+https://ovigia.local)"}
+    )
     digest = hashlib.sha256()
     body_parts: list[bytes] = []
     size = 0
