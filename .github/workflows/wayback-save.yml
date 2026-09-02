@@ -65,13 +65,13 @@ jobs:
       - name: Persist terminal archive-result concepts
         run: |
           set -euo pipefail
-          if git diff --quiet -- knowledge/wayback/results; then
+          git add knowledge/wayback/results
+          if git diff --cached --quiet -- knowledge/wayback/results; then
             echo "No terminal Wayback results produced; requests remain pending."
             exit 0
           fi
           git config user.name "O Vigia Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add knowledge/wayback/results
           git commit -m "chore(wayback): persist archive results from run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           for attempt in 1 2 3; do
             git fetch origin main
