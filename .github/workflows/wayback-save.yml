@@ -42,6 +42,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 2
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v6
@@ -67,10 +68,25 @@ jobs:
         if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file != '' }}
         run: uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
 
-      - name: Drain versioned request files after merge
+      - name: Drain only request files changed by this push
         if: ${{ github.event_name == 'push' }}
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          PUSH_SHA: ${{ github.sha }}
         run: |
-          cat requests/wayback/*.txt > /tmp/wayback-urls.txt
+          set -euo pipefail
+          mapfile -t request_files < <(
+            git diff --name-only --diff-filter=AM "$BEFORE_SHA" "$PUSH_SHA" -- 'requests/wayback/*.txt'
+          )
+          if [ "${#request_files[@]}" -eq 0 ]; then
+            echo "No new or modified Wayback request files in this push."
+            exit 0
+          fi
+          : > /tmp/wayback-urls.txt
+          for request_file in "${request_files[@]}"; do
+            cat "$request_file" >> /tmp/wayback-urls.txt
+            printf '\n' >> /tmp/wayback-urls.txt
+          done
           uv run scripts/wayback/save.py --file /tmp/wayback-urls.txt --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
 
       - name: Require dispatch/call input
