@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://www.diariomunicipal.com.br/arom/materia/66BE8ABB/03AFcWeA5OaoG1_RS8kSunoikOPFuKfOLdcCRZNHpMaBRk9Az95bjVFeXo3do",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902213906/https://www.diariomunicipal.com.br/arom/materia/66BE8ABB/03AFcWeA5OaoG1_RS8kSunoikOPFuKfOLdcCRZNHpMaBRk9Az95bjVFeXo3do",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T21:42:44Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33686589207-1/acbe4c39928cc653d7dd2f1cf3cabb119b263f710aa8a9a8670ec547f2ef34a0.html",
+    "snapshot_fetch_error": null
+  }
+]
