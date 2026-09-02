@@ -35,13 +35,13 @@ jobs:
         run: uv sync --locked
 
       - name: Validate governed Wayback OKF namespace before preservation
-        run: uv run scripts/wayback/check.py
+        run: uv run python scripts/wayback/check.py
 
       - name: Drain pending archive-request concepts
-        run: uv run scripts/wayback/drain.py
+        run: uv run python scripts/wayback/drain.py
 
       - name: Validate governed Wayback OKF namespace after preservation
-        run: uv run scripts/wayback/check.py
+        run: uv run python scripts/wayback/check.py
 
       - name: Persist terminal archive-result concepts
         run: |
