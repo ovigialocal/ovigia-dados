@@ -12,11 +12,15 @@ from pathlib import Path
 
 from pypdf import PdfReader
 
-from ovigia_dados.wayback.pdf_equivalence import ExtractedPdfText, materialize_pdf_text_equivalence
+from ovigia_dados.wayback.pdf_equivalence import (
+    ExtractedPdfText,
+    decode_pdf_transport,
+    materialize_pdf_text_equivalence,
+)
 
 
 def extract_pdf_text(data: bytes) -> ExtractedPdfText:
-    reader = PdfReader(BytesIO(data))
+    reader = PdfReader(BytesIO(decode_pdf_transport(data)))
     text = "\n".join(page.extract_text() or "" for page in reader.pages)
     return ExtractedPdfText(page_count=len(reader.pages), text=text)
 

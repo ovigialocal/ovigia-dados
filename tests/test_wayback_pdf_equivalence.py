@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+import gzip
 import json
 from pathlib import Path
 
 from ovigia_dados.wayback.pdf_equivalence import (
     ExtractedPdfText,
+    decode_pdf_transport,
     materialize_pdf_text_equivalence,
     normalize_pdf_text,
 )
@@ -37,6 +39,12 @@ def _pdf_report(root: Path) -> None:
 
 def test_normalize_pdf_text_ignores_layout_whitespace() -> None:
     assert normalize_pdf_text("A   B\n\n C\tD \n") == "A B\nC D\n"
+
+
+def test_decode_pdf_transport_unwraps_gzip_and_preserves_plain_pdf() -> None:
+    pdf = b"%PDF-1.7\nbody"
+    assert decode_pdf_transport(gzip.compress(pdf)) == pdf
+    assert decode_pdf_transport(pdf) == pdf
 
 
 def test_pdf_text_equivalence_persists_archive_text_and_match(tmp_path: Path) -> None:
