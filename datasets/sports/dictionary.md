@@ -1,3 +1,10 @@
+---
+okf_version: "0.2"
+title: "Dicionário de Dados: Esportes"
+description: "Dicionário formal de tipos e campos das tabelas teams, fixtures e standings."
+type: "documentation"
+---
+
 # Dicionário de Dados: `sports` (v1.0)
 
 ### Tabela `teams`

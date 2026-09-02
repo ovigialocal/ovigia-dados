@@ -3,7 +3,7 @@ name = "ovigia-dados"
 version = "0.1.0"
 description = "Infraestrutura pública de datasets, snapshots canônicos no Internet Archive, catálogo SQL e detectores determinísticos do O Vigia."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 license = { text = "MIT" }
 authors = [
     { name = "O Vigia", email = "contato@ovigia.local" }
@@ -30,7 +30,7 @@ build-backend = "hatchling.build"
 
 [tool.ruff]
 line-length = 100
-target-version = "py311"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "UP", "B"]
@@ -39,3 +39,8 @@ ignore = ["E501"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
+
+[dependency-groups]
+dev = [
+    "okf-parser>=0.45.2",
+]

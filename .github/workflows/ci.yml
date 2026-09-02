@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   test:
-    name: Lint, Test & Validate Schemas
+    name: Lint, Test, Schemas & OKF Validation
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,7 +22,7 @@ jobs:
           enable-cache: true
 
       - name: Setup Python
-        run: uv python install 3.11
+        run: uv python install 3.12
 
       - name: Install dependencies
         run: uv sync --dev
@@ -37,3 +37,6 @@ jobs:
 
       - name: Validate DuckDB Schemas & SQL Contracts
         run: uv run scripts/validate_schemas.py
+
+      - name: Validate OKF Bundle & Schemas
+        run: uv run scripts/validate_okf.py

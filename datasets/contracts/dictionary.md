@@ -1,3 +1,10 @@
+---
+okf_version: "0.2"
+title: "Dicionário de Dados: Contratos Federais"
+description: "Dicionário formal de tipos e campos da tabela contracts."
+type: "documentation"
+---
+
 # Dicionário de Dados: `contracts` (v1.0)
 
 | Coluna | Tipo SQL (DuckDB) | Tipo PyArrow | Descrição Semântica | Nulabilidade |
