@@ -8,3 +8,5 @@ reason: material-source
 ---
 
 Preservação do Relatório nº 0862102/2026/SEMEC-DEF, documento técnico primário usado na apuração.
+
+Retry operacional direcionado após o primeiro drain terminar em falha de infraestrutura anterior à resposta do Internet Archive; identidade e metadados normativos permanecem inalterados.
