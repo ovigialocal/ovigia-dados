@@ -35,13 +35,13 @@ jobs:
         run: uv sync --locked
 
       - name: Validate OKF bundle before preservation
-        run: uv run okf-parser check .
+        run: uv run scripts/validate_okf.py
 
       - name: Drain pending archive-request concepts
         run: uv run scripts/wayback/drain.py
 
       - name: Validate OKF bundle after preservation
-        run: uv run okf-parser check .
+        run: uv run scripts/validate_okf.py
 
       - name: Persist terminal archive-result concepts
         run: |
