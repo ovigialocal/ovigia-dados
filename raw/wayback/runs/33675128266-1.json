@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://sapl.portovelho.ro.leg.br/ta/9689/text",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902194526/https://sapl.portovelho.ro.leg.br/ta/9689/text",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T19:45:46Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33675128266-1/00199195a960b7bd42471996c529423147e5d5be902fedcc0c851f0328e28ebf.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://sapl.portovelho.ro.leg.br/ta/8321/text",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error [Errno 111] Connection refused>",
+    "timestamp": "2026-09-02T19:47:04Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://www.portovelho.ro.gov.br/noticias/57820",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error [Errno 111] Connection refused>",
+    "timestamp": "2026-09-02T19:48:03Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://servicos.portovelho.ro.gov.br/semec/refis",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error [Errno 111] Connection refused>",
+    "timestamp": "2026-09-02T19:49:13Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  }
+]
