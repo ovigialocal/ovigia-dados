@@ -89,6 +89,8 @@ def materialize_replay_evidence(
 
     HTML/text replays are retained verbatim when bounded. Binary resources are not duplicated in Git;
     their replay digest is compared with a fresh fetch of the canonical public source when possible.
+    A replay that is temporarily unreachable remains without evidence instead of poisoning another
+    archived result or fabricating editorial equivalence.
     """
     queue = load_wayback_queue(bundle_root)
     written: list[str] = []
@@ -105,7 +107,11 @@ def materialize_replay_evidence(
         if report_path.exists():
             continue
 
-        replay = fetch(_identity_replay_url(result.archive_url), keep_text_body=True)
+        try:
+            replay = fetch(_identity_replay_url(result.archive_url), keep_text_body=True)
+        except OSError:
+            continue
+
         body_relative: str | None = None
         if replay.body is not None and replay.content_type.startswith("text/"):
             body_path = evidence_dir / f"{stem}.html"
