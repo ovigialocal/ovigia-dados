@@ -108,7 +108,9 @@ def _result(bundle, record: ConceptRecord, requests: dict[str, ArchiveRequest]) 
     if status == "archived":
         archive_url = _required_text(meta, "archive_url", path=record.path)
         if not archive_url.startswith("https://web.archive.org/web/"):
-            raise WaybackQueueError(f"{record.path}: archive_url must be a concrete Wayback snapshot")
+            raise WaybackQueueError(
+                f"{record.path}: archive_url must be a concrete Wayback snapshot"
+            )
         if "failure" in meta:
             raise WaybackQueueError(f"{record.path}: archived result must not contain failure")
     elif status == "failed":
@@ -159,9 +161,7 @@ def load_wayback_queue(bundle_root: Path) -> WaybackQueue:
         terminal[result.request_concept_id] = result
 
     pending = tuple(
-        requests[concept_id]
-        for concept_id in sorted(requests)
-        if concept_id not in terminal
+        requests[concept_id] for concept_id in sorted(requests) if concept_id not in terminal
     )
     archived = tuple(
         terminal[concept_id]
