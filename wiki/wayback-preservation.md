@@ -20,3 +20,15 @@ Se a segunda leitura do replay falhar, o locator continua `verified`, mas `snaps
 Uma execução real em 2026-09-02 mostrou que um grupo global de `concurrency` não funciona como fila durável de requests: quando já existe um run em execução e outro pendente, a chegada de um terceiro evento pode cancelar o pendente anterior mesmo com `cancel-in-progress: false`. Nesse caso a URL versionada nunca chega ao Save Page Now e tampouco produz evidência operacional.
 
 Por isso o workflow de preservação não serializa todos os requests num único grupo. Runs podem coexistir; o cliente absorve `429`/5xx com `Retry-After`/backoff, e a persistência de `raw/wayback` reconcilia corridas com fetch, rebase e retry. Run cancelado ou falha do runner continua sendo problema de infraestrutura, jamais recusa do Internet Archive.
+
+## Correção do worker deve redrenar pendências
+
+Outra falha observada em 2026-09-03: um request que permanece sem resultado depois de `infrastructure_error` pode ficar encalhado se uma correção posterior do worker apenas disparar o workflow, mas a etapa de drain selecionar exclusivamente requests modificados naquele novo commit. O request antigo não mudou — corretamente — e por isso não seria tentado sob a implementação corrigida.
+
+A regra operacional é assimétrica:
+
+- push que somente adiciona/altera `knowledge/wayback/requests/*.md`: drena apenas os requests tocados;
+- push que altera `src/ovigia_dados/wayback/**`, `scripts/wayback/**` ou `.github/workflows/wayback-save.yml`: drena a fila pendente completa, porque a mudança pode ter removido o bloqueio que afetava requests anteriores;
+- `workflow_dispatch`: recuperação explícita da fila pendente completa.
+
+Não reescreva metadados ou identidade de um `archive-request` só para obter retry. A ausência de resultado terminal já é o estado canônico de pendência.
