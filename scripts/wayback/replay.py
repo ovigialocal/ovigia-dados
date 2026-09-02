@@ -12,6 +12,10 @@ from pathlib import Path
 from ovigia_dados.wayback.replay import materialize_replay_evidence
 
 
-if __name__ == "__main__":
+def main() -> None:
     for path in materialize_replay_evidence(Path.cwd()):
         print(path)
+
+
+if __name__ == "__main__":
+    main()
