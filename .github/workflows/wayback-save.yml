@@ -82,6 +82,9 @@ jobs:
       - name: Materialize auditable replay evidence
         run: uv run scripts/wayback/replay.py
 
+      - name: Decode stored text replay transport
+        run: uv run scripts/wayback/text_replay.py
+
       - name: Compare PDF replay text with live source
         run: uv run scripts/wayback/pdf_equivalence.py
 
