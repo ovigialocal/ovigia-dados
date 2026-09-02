@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v6
@@ -38,7 +38,26 @@ jobs:
         run: uv run scripts/wayback/check.py
 
       - name: Drain pending archive-request concepts
-        run: uv run scripts/wayback/drain.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "Manual recovery: draining the full pending queue."
+            uv run scripts/wayback/drain.py
+            exit 0
+          fi
+
+          mapfile -t requests < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'knowledge/wayback/requests/*.md')
+          if (( ${#requests[@]} == 0 )); then
+            echo "No new archive-request concepts in this push; nothing to preserve."
+            exit 0
+          fi
+
+          args=()
+          for request in "${requests[@]}"; do
+            args+=(--request-path "$request")
+          done
+          uv run scripts/wayback/drain.py "${args[@]}"
 
       - name: Validate governed Wayback OKF namespace after preservation
         run: uv run scripts/wayback/check.py
