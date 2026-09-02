@@ -4,35 +4,18 @@ on:
   push:
     branches: [main]
     paths:
-      - "requests/wayback/**"
+      - "knowledge/wayback/requests/**/*.md"
       - "src/ovigia_dados/wayback/**"
       - "scripts/wayback/**"
       - ".github/workflows/wayback-save.yml"
   workflow_dispatch:
-    inputs:
-      url:
-        description: "URL única para salvar no Wayback Machine"
-        required: false
-        type: string
-      url_file:
-        description: "Arquivo versionado com URLs públicas, uma por linha"
-        required: false
-        type: string
-  workflow_call:
-    inputs:
-      url:
-        required: false
-        type: string
-      url_file:
-        required: false
-        type: string
 
 permissions:
   contents: write
 
 jobs:
   wayback-save:
-    name: Save to Wayback Machine
+    name: Drain OKF Wayback queue
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -51,76 +34,34 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
 
-      - name: Define immutable evidence paths
-        run: |
-          echo "WAYBACK_REPORT=raw/wayback/runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json" >> "$GITHUB_ENV"
-          echo "WAYBACK_SNAPSHOTS=raw/wayback/snapshots/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
+      - name: Validate OKF bundle before preservation
+        run: uv run okf-parser check .
 
-      - name: Archive URL from dispatch/call
-        if: ${{ github.event_name != 'push' && inputs.url != '' }}
-        run: uv run scripts/wayback/save.py --url "${{ inputs.url }}" --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
+      - name: Drain pending archive-request concepts
+        run: uv run scripts/wayback/drain.py
 
-      - name: Archive URL file from dispatch/call
-        if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file != '' }}
-        run: uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
+      - name: Validate OKF bundle after preservation
+        run: uv run okf-parser check .
 
-      - name: Drain only request files changed by this push
-        if: ${{ github.event_name == 'push' }}
-        env:
-          BEFORE_SHA: ${{ github.event.before }}
-          PUSH_SHA: ${{ github.sha }}
+      - name: Persist terminal archive-result concepts
         run: |
           set -euo pipefail
-          mapfile -t request_files < <(
-            git diff --name-only --diff-filter=AM "$BEFORE_SHA" "$PUSH_SHA" -- 'requests/wayback/*.txt'
-          )
-          if [ "${#request_files[@]}" -eq 0 ]; then
-            echo "No new or modified Wayback request files in this push."
-            exit 0
-          fi
-          : > /tmp/wayback-urls.txt
-          for request_file in "${request_files[@]}"; do
-            cat "$request_file" >> /tmp/wayback-urls.txt
-            printf '\n' >> /tmp/wayback-urls.txt
-          done
-          uv run scripts/wayback/save.py --file /tmp/wayback-urls.txt --output-report "$WAYBACK_REPORT" --snapshot-dir "$WAYBACK_SNAPSHOTS"
-
-      - name: Require dispatch/call input
-        if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file == '' }}
-        run: |
-          echo "Provide url or url_file" >&2
-          exit 2
-
-      - name: Persist raw preservation evidence
-        if: always()
-        run: |
-          set -euo pipefail
-          if [ ! -f "$WAYBACK_REPORT" ]; then
-            echo "No preservation report produced."
+          if git diff --quiet -- knowledge/wayback/results; then
+            echo "No terminal Wayback results produced; requests remain pending."
             exit 0
           fi
           git config user.name "O Vigia Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add raw/wayback
-          git commit -m "chore(wayback): preserve run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git add knowledge/wayback/results
+          git commit -m "chore(wayback): persist archive results from run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           for attempt in 1 2 3; do
             git fetch origin main
             git rebase origin/main
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Evidence push raced with main; retrying ($attempt/3)." >&2
+            echo "Result push raced with main; retrying ($attempt/3)." >&2
             sleep $((attempt * 2))
           done
-          echo "Could not persist preservation evidence after 3 rebases." >&2
+          echo "Could not persist Wayback results after 3 rebases." >&2
           exit 1
-
-      - name: Upload preservation evidence
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: wayback-preservation-evidence-${{ github.run_id }}-${{ github.run_attempt }}
-          path: |
-            ${{ env.WAYBACK_REPORT }}
-            ${{ env.WAYBACK_SNAPSHOTS }}
-          if-no-files-found: ignore

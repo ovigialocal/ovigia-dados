@@ -31,6 +31,45 @@ O `ovigia-dados` é a camada aberta de engenharia de dados do O Vigia. Ele é re
 * **DuckDB como Motor**: DuckDB é o motor de consulta efêmero do pipeline e dos analistas, não um formato de distribuição canônico.
 * **Preservação de Fontes Web**: O [Wayback Machine](https://web.archive.org) é acionado para preservar as páginas e portais governamentais de onde os dados foram extraídos.
 
+### Fila Wayback em OKF
+
+A fila de preservação não usa `.txt`, JSON ou YAML avulso. Cada unidade é um concept OKF em `knowledge/wayback/`.
+
+Pedido:
+
+```yaml
+---
+okf_version: "0.2"
+type: archive-request
+source_url: "https://example.gov.br/documento.pdf"
+requested_at: "2026-09-02T21:40:00Z"
+resource_kind: pdf
+reason: material-source
+---
+```
+
+A identidade do pedido é o `concept_id` derivado pelo `okf-parser` do caminho do arquivo. Não existe `request_id` duplicado.
+
+Resultado terminal:
+
+```yaml
+---
+okf_version: "0.2"
+type: archive-result
+request_concept_id: "knowledge/wayback/requests/exemplo"
+source_url: "https://example.gov.br/documento.pdf"
+attempted_at: "2026-09-02T21:41:00Z"
+status: archived
+archive_url: "https://web.archive.org/web/.../https://example.gov.br/documento.pdf"
+sources:
+  - resource: "knowledge/wayback/requests/exemplo"
+---
+```
+
+`request_concept_id` e `sources[].resource` devem apontar para o mesmo request. `status: failed` só é produzido depois de falha real do serviço; falha de rede/runtime anterior à resposta do Internet Archive mantém o request pendente.
+
+O workflow `wayback-save.yml` deriva a fila com `okf-parser`, drena apenas requests pendentes e persiste `archive-result` em `knowledge/wayback/results/`.
+
 ---
 
 ## 4. Datasets Disponíveis
@@ -46,7 +85,6 @@ O `ovigia-dados` é a camada aberta de engenharia de dados do O Vigia. Ele é re
 Você pode consultar os datasets diretamente via DuckDB em sua máquina ou terminal SQL:
 
 ```sql
--- Exemplo: Consultar contratos de Porto Velho/RO diretamente do snapshot público
 SELECT
     contract_id,
     contract_number,
@@ -74,7 +112,7 @@ Os detectores operam sobre os dados normalizados e produzem artefatos estruturad
 
 ## 7. Workflows do GitHub Actions
 
-1. **`wayback-save.yml`**: Salva URLs de referência e páginas de origem no Wayback Machine com User-Agent rastreável e backoff adaptativo.
+1. **`wayback-save.yml`**: drena a fila OKF em `knowledge/wayback/requests/`, salva URLs no Wayback e persiste resultados terminais como concepts OKF.
 2. **`etl-daily.yml`**: Orquestra a coleta diária, checagem de mudanças (`no_source_change`), normalização para Parquet, validação de integridade, publicação no Internet Archive e disparo de detectores.
 3. **`ci.yml`**: Executa Ruff, suíte de testes com `pytest`, validação de schemas SQL DuckDB, manifestos e dicionários.
 
