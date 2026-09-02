@@ -10,3 +10,5 @@ reason: material-source
 Preservação do PDF oficial efetivamente lido do Pregão 90054/2026.
 
 Retry operacional direcionado após a correção do drain de backlog; identidade, URL e instante original do request permanecem inalterados.
+
+Segundo retry operacional após a correção da persistência de `archive-result` novos; identidade e metadados normativos permanecem inalterados.
