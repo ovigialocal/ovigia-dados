@@ -98,6 +98,7 @@ jobs:
       - name: Persist raw preservation evidence
         if: always()
         run: |
+          set -euo pipefail
           if [ ! -f "$WAYBACK_REPORT" ]; then
             echo "No preservation report produced."
             exit 0
@@ -106,7 +107,17 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add raw/wayback
           git commit -m "chore(wayback): preserve run ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
-          git push origin HEAD:main
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Evidence push raced with main; retrying ($attempt/3)." >&2
+            sleep $((attempt * 2))
+          done
+          echo "Could not persist preservation evidence after 3 rebases." >&2
+          exit 1
 
       - name: Upload preservation evidence
         uses: actions/upload-artifact@v4
