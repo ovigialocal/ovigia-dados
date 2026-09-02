@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://cgp.portovelho.ro.gov.br/pagina/mip-005-2025-residuos-solidos-urbanos",
+    "status": "terminal_failure",
+    "archive_url": null,
+    "http_status": 520,
+    "error_message": "Save Page Now returned HTTP 520: UNKNOWN",
+    "timestamp": "2026-09-02T21:45:21Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": true,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://www-storage.voxtecnologia.com.br/?f=269&i=publicado_116059_2026-05-06_ea307e619759232ed98614b1a6eaf601.pdf&m=sigpub.publicacao",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error timed out>",
+    "timestamp": "2026-09-02T21:46:58Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://cgp.portovelho.ro.gov.br/uploads/editor/files/2026_05_19_RSU-PVHRO_P4ESTUDOSOCIOAMBIENTAL_v2.pdf",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error timed out>",
+    "timestamp": "2026-09-02T21:48:34Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  }
+]
