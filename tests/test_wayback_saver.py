@@ -2,16 +2,26 @@ from email.message import Message
 from unittest.mock import patch
 from urllib.error import HTTPError, URLError
 
-from ovigia_dados.wayback.save import WaybackSaveResult, save_to_wayback
+from ovigia_dados.wayback.save import (
+    WaybackSaveResult,
+    materialize_snapshot,
+    save_to_wayback,
+)
 
 
 class FakeResponse:
     def __init__(
-        self, *, status=200, headers=None, url="https://web.archive.org/save/https://example.com"
+        self,
+        *,
+        status=200,
+        headers=None,
+        url="https://web.archive.org/save/https://example.com",
+        body=b"<html><body>material evidence</body></html>",
     ):
         self.status = status
         self.headers = headers or Message()
         self._url = url
+        self._body = body
 
     def __enter__(self):
         return self
@@ -21,6 +31,9 @@ class FakeResponse:
 
     def geturl(self):
         return self._url
+
+    def read(self, _limit=None):
+        return self._body
 
 
 def test_result_structure_accepts_verified_snapshot():
@@ -90,3 +103,42 @@ def test_terminal_http_refusal_is_real_archive_failure():
     assert result.http_status == 403
     assert result.reached_archive is True
     assert result.archive_failure is True
+
+
+def test_materialize_snapshot_persists_body_and_links_report(tmp_path):
+    result = WaybackSaveResult(
+        url="https://example.com",
+        status="verified",
+        archive_url="https://web.archive.org/web/20260902120000/https://example.com",
+        reached_archive=True,
+    )
+    with patch(
+        "ovigia_dados.wayback.save.urllib.request.urlopen",
+        return_value=FakeResponse(
+            url=result.archive_url,
+            body=b"<html><body>price R$ 50 and Kids esgotado</body></html>",
+        ),
+    ):
+        enriched = materialize_snapshot(result, tmp_path)
+
+    assert enriched.snapshot_evidence_path is not None
+    path = tmp_path / enriched.snapshot_evidence_path
+    assert path.read_bytes().startswith(b"<html>")
+    assert enriched.snapshot_fetch_error is None
+
+
+def test_materialize_snapshot_failure_does_not_fake_equivalence(tmp_path):
+    result = WaybackSaveResult(
+        url="https://example.com",
+        status="verified",
+        archive_url="https://web.archive.org/web/20260902120000/https://example.com",
+        reached_archive=True,
+    )
+    with patch(
+        "ovigia_dados.wayback.save.urllib.request.urlopen",
+        side_effect=URLError("snapshot fetch failed"),
+    ):
+        enriched = materialize_snapshot(result, tmp_path)
+
+    assert enriched.snapshot_evidence_path is None
+    assert "snapshot fetch failed" in (enriched.snapshot_fetch_error or "")
