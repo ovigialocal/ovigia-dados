@@ -111,7 +111,9 @@ def save_to_wayback(
                 archive_failure=True,
             )
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
-            logger.warning("Infraestrutura local falhou antes de resposta do IA para %s: %s", url, exc)
+            logger.warning(
+                "Infraestrutura local falhou antes de resposta do IA para %s: %s", url, exc
+            )
             if attempt < max_retries:
                 time.sleep(initial_backoff * (2 ** (attempt - 1)))
                 continue
