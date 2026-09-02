@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import gzip
 import hashlib
 import json
 import urllib.request
@@ -35,6 +36,13 @@ def normalize_pdf_text(text: str) -> str:
         "\n".join(" ".join(line.split()) for line in text.splitlines() if line.strip()).strip()
         + "\n"
     )
+
+
+def decode_pdf_transport(data: bytes) -> bytes:
+    """Decode gzip content-coding when replay evidence retained transport bytes verbatim."""
+    if data.startswith(b"\x1f\x8b"):
+        return gzip.decompress(data)
+    return data
 
 
 def _sha256_text(text: str) -> str:
