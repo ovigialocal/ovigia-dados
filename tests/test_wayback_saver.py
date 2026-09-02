@@ -6,7 +6,9 @@ from ovigia_dados.wayback.save import WaybackSaveResult, save_to_wayback
 
 
 class FakeResponse:
-    def __init__(self, *, status=200, headers=None, url="https://web.archive.org/save/https://example.com"):
+    def __init__(
+        self, *, status=200, headers=None, url="https://web.archive.org/save/https://example.com"
+    ):
         self.status = status
         self.headers = headers or Message()
         self._url = url
@@ -58,10 +60,13 @@ def test_content_location_yields_verified_snapshot():
 
 
 def test_dns_or_transport_failure_is_infrastructure_error_not_archive_failure():
-    with patch(
-        "ovigia_dados.wayback.save.urllib.request.urlopen",
-        side_effect=URLError("dns failure"),
-    ), patch("ovigia_dados.wayback.save.time.sleep"):
+    with (
+        patch(
+            "ovigia_dados.wayback.save.urllib.request.urlopen",
+            side_effect=URLError("dns failure"),
+        ),
+        patch("ovigia_dados.wayback.save.time.sleep"),
+    ):
         result = save_to_wayback("https://example.com", max_retries=1)
 
     assert result.status == "infrastructure_error"
