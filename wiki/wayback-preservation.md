@@ -9,4 +9,8 @@ Estados reutilizáveis:
 - `terminal_failure`: a requisição alcançou o Internet Archive e terminou em resposta HTTP após a política de retry; pode sustentar `archive_failure` editorial;
 - `infrastructure_error`: DNS, timeout, socket ou falha local anterior a resposta do IA; não é `archive_failure` e deve permanecer pendente para nova execução.
 
-Cada execução versionada deve persistir relatório imutável em `raw/wayback/runs/<github-run-id>-<attempt>.json`. O relatório é evidência operacional pública; a Redação continua responsável por verificar equivalência material do snapshot antes de usar `archive_url` como provenance editorial.
+Cada execução versionada persiste relatório imutável em `raw/wayback/runs/<github-run-id>-<attempt>.json`. Quando um locator `verified` também puder ser reaberto pelo runner, uma cópia limitada do replay é persistida em `raw/wayback/snapshots/<run>-<attempt>/` e o relatório ganha `snapshot_evidence_path`.
+
+O sidecar resolve um problema prático: consumidores que não alcançam `web.archive.org` podem inspecionar pelo GitHub os bytes que o próprio runner obteve do locator. Ele não converte automaticamente `verified` em equivalência editorial. A Redação ainda compara esses bytes com a fonte observada e decide se sustentam materialmente os fatos usados.
+
+Se a segunda leitura do replay falhar, o locator continua `verified`, mas `snapshot_evidence_path` permanece ausente e `snapshot_fetch_error` registra a falha. Não se inventa equivalência.
