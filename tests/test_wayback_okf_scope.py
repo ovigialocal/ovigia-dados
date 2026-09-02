@@ -28,9 +28,7 @@ def test_unrelated_non_okf_markdown_does_not_invalidate_queue(tmp_path: Path) ->
 
     queue = load_wayback_queue(tmp_path)
 
-    assert [item.concept_id for item in queue.pending] == [
-        "knowledge/wayback/requests/example"
-    ]
+    assert [item.concept_id for item in queue.pending] == ["knowledge/wayback/requests/example"]
 
 
 def test_parser_error_inside_wayback_namespace_fails_closed(tmp_path: Path) -> None:
