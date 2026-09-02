@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/contratos/4041",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902213210/https://transparencia.portovelho.ro.gov.br/contratos/4041",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T21:32:33Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33685573439-1/61129ca14c030639ab103439a5eb705c584427a5472eedd517d2161f4e4d5432.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://anexos.portovelho.ro.gov.br/contratos/4041/CONTRATO_029.PGM.2026___SISTEMMA_29_29_29_assinado.pdf",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error timed out>",
+    "timestamp": "2026-09-02T21:34:09Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8330",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902213425/https://transparencia.portovelho.ro.gov.br/despesas/compras/8330",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T21:34:44Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33685573439-1/60bd83e821ddc71417d765c3f471783efe2a71b6fac7bd56a88bf25de4bcfa09.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://anexos.portovelho.ro.gov.br/compras/8330/29943/Decis%C3%A3o.pdf",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902213446/https://anexos.portovelho.ro.gov.br/compras/8330/29943/Decis%C3%A3o.pdf",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T21:34:55Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://www.diariomunicipal.com.br/arom/materia/66BE8ABB/03AFcWeA5OaoG1_RS8kSunoikOPFuKfOLdcCRZNHpMaBRk9Az95bjVFeXo3do",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+    "timestamp": "2026-09-02T21:37:04Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/7655",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902213740/https://transparencia.portovelho.ro.gov.br/despesas/compras/7655",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T21:37:55Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33685573439-1/4c1a9fcd9e0b49148b663d0fdc673545d47d8545879eba2610b7cddd0008817c.html",
+    "snapshot_fetch_error": null
+  }
+]
