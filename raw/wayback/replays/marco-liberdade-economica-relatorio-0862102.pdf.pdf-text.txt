@@ -1,0 +1,1265 @@
+Relatório Nº 0862102/2026/SEMEC-DEF
+Porto Velho, 04 de maio de 2026.
+GRUPO DE TRABALHO
+DESBUROCRATIZAÇÃO E APERFEIÇOAMENTO
+DO SISTEMA DE LICENCIAMENTO MUNICIPAL
+RELATÓRIO FINAL DOS TRABALHOS
+Decreto Municipal nº 21.456/2025 — Prorrogado pelo Decreto nº 21.730/2026
+Processo SEI nº 020.001593/2025-50 (documentação original)
+Processo SEI nº 020.001298/2026-84 (prestação de contas)
+Vigência do Grupo de Trabalho: 23 de outubro de 2025 a 25 de abril de 2026
+Porto Velho - RO
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 1
+SUMÁRIO
+SUMÁRIO EXECUTIVO..........................................................................................................
+5
+Estratégia integrada................................................................................................................
+5
+Produtos entregues.................................................................................................................
+5
+Quadro consolidado de custos.................................................................................................
+6
+Pendências externas ao Grupo de Trabalho..............................................................................
+6
+PARTE I — MANDATO, COMPOSIÇÃO E METODOLOGIA...............................................
+7
+1. Instituição, mandato e prorrogação......................................................................................
+7
+2. Composição do Grupo de Trabalho......................................................................................
+7
+3. Metodologia......................................................................................................................
+8
+4. Síntese cronológica dos trabalhos........................................................................................
+9
+5. Pesquisa de boas práticas....................................................................................................
+9
+PARTE II — DIAGNÓSTICO E CAUSA RAIZ......................................................................
+10
+1. Diagnóstico consolidado...................................................................................................
+10
+2. Indicadores quantitativos consolidados...............................................................................
+10
+3. Causa raiz: a fragmentação organizacional.........................................................................
+11
+4. Implicações estratégicas para o desenho da reforma............................................................
+12
+PARTE III — EIXO NORMATIVO........................................................................................
+12
+1. Visão geral do marco regulatório integrado........................................................................
+12
+2. Marco Legal de Liberdade Econômica...............................................................................
+12
+3. Estratégia de revogação seletiva da Lei Complementar nº 906/2022.....................................
+14
+4. Lei Complementar de criação da SUFIS e da JURPA..........................................................
+15
+5. Consulta complementar aos membros (Google Form)..........................................................
+15
+6. Conformidade federativa e constitucional...........................................................................
+17
+PARTE IV — EIXO TECNOLÓGICO....................................................................................
+18
+1. Trajetória decisória...........................................................................................................
+18
+2. Recomendação unânime do SLIN......................................................................................
+18
+3. Inexigibilidade de licitação................................................................................................
+19
+4. Estratégia de custeio interinstitucional................................................................................
+19
+5. Cronograma SLIN/SUL....................................................................................................
+20
+PARTE V — EIXO ORGANIZACIONAL...............................................................................
+20
+1. Visão geral do redesenho organizacional............................................................................
+20
+2. Superintendência Municipal de Fiscalização Integrada — SUFIS.........................................
+21
+3. Junta Revisora de Penalidades Administrativas — JURPA..................................................
+21
+4. Articulação com o Grupo Funcional dos Fiscais Municipais — GFISC.................................
+22
+5. Articulação com as secretarias finalísticas..........................................................................
+22
+6. Tratamento institucional do Fiscal de Tributos....................................................................
+22
+PARTE VI — IMPLEMENTAÇÃO, CUSTOS E INDICADORES..........................................
+23
+1. Plano de implementação...................................................................................................
+23
+2. Quadro de custos..............................................................................................................
+24
+3. Indicadores de monitoramento...........................................................................................
+25
+4. Antecipação de questionamentos.......................................................................................
+26
+5. Plano de comunicação institucional....................................................................................
+27
+PARTE VII — RECOMENDAÇÕES AO SENHOR PREFEITO MUNICIPAL.......................
+27
+1. Atos de imediata pertinência.............................................................................................
+27
+2. Atos a serem praticados após a publicação das leis complementares.....................................
+28
+3. Pendências externas à competência do Grupo de Trabalho...................................................
+28
+4. Sugestão de governança da fase de implantação..................................................................
+28
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 2
+PARTE VIII — CONSIDERAÇÕES FINAIS...........................................................................
+29
+1. Lições aprendidas e recomendações institucionais...............................................................
+29
+2. Encerramento...................................................................................................................
+29
+QUADRO DE PRODUTOS E REFERÊNCIAS........................................................................
+32
+1. Produtos consolidados pelo Grupo de Trabalho...................................................................
+32
+LISTA DE SIGLAS
+SUMÁRIO EXECUTIVO
+O Município de Porto Velho convive com um sistema de licenciamento municipal cuja disfunção operacional está rigorosamente diagnosticada e
+cuja causa raiz foi identificada: a fragmentação organizacional dos órgãos de licenciamento e fiscalização. Os indicadores apurados pelo Grupo
+de Trabalho são unívocos: 77,5% de insatisfação dos usuários; tempo médio de processamento que varia de trinta a cento e oitenta dias; doze
+meses para a obtenção de alvará definitivo nas atividades de médio e alto risco; estimativa de apenas 5% das decisões finais proferidas dentro
+do prazo legal. O quadro fragiliza a posição do Município no ambiente de negócios, induz à informalidade econômica e expõe a Administração ao
+risco prescricional sistêmico das penalidades aplicadas.
+A reforma proposta pelo Grupo de Trabalho responde simultaneamente em três eixos articulados — normativo, tecnológico e organizacional —
+porque a causa raiz é estrutural e não admite remédio parcial. O eixo normativo entrega dois anteprojetos de Lei Complementar: o Marco Legal
+de Liberdade Econômica do Município de Porto Velho, com quarenta e oito artigos distribuídos em cinco Títulos, e a Lei Complementar de
+criação da Superintendência Municipal de Fiscalização Integrada (SUFIS) e da Junta Revisora de Penalidades Administrativas (JURPA). O eixo
+tecnológico recomenda, por unanimidade, a contratação do Sistema de Licenciamento Integrado Municipal — SLIN — pela inexigibilidade
+prevista no art. 74 da Lei nº 14.133/2021, com economia de R$ 6.399.960,00 em quarenta e oito meses na comparação com a alternativa
+avaliada. O eixo organizacional consolida fiscalização e licenciamento na SUFIS, vinculada à Secretaria de Governo, com os fiscais do GFISC
+redistribuídos sem alteração de vencimentos, gratificações ou direitos.
+A reforma administrativa tem custo com pessoal zero: os cargos comissionados são remanejados sem alteração dos quantitativos totais, os
+fiscais municipais são redistribuídos sem ônus adicional, e os jetons da JURA, que são verbas eventuais indenizatórias, não compõem despesa de
+pessoal nos termos da Lei de Responsabilidade Fiscal. As únicas despesas correntes não relacionadas a pessoal são as decorrentes da instalação
+física da SUFIS — aluguel, caso se opte pela locação, rede lógica e material de expediente —, dado que os equipamentos básicos acompanham
+os servidores remanejados. Em contrapartida, a reforma produz ganhos operacionais e qualitativos mensuráveis e, ao facilitar e incentivar a
+AFC
+Autorização de Funcionamento Condicionada
+ARDPV
+Agência Reguladora e de Desenvolvimento de Porto Velho
+BPM
+Business Process Management (Gestão de Processos de Negócio)
+CGSIM
+Comitê para Gestão da Rede Nacional para a Simplificação do Registro e da Legalização de Empresas e
+Negócios
+CNAE
+Classificação Nacional de Atividades Econômicas
+COMSIM
+Comitê Municipal para a Simplificação de Registro e da Legalização de Empresas, Negócios e Atividades
+de Porto Velho
+DAM
+Documento de Arrecadação Municipal
+FEMAT
+Fundo Especial da Modernização da Administração Tributária
+GFISC
+Grupo Funcional dos Fiscais Municipais
+JUCER
+Junta Comercial do Estado de Rondônia
+JURPA
+Junta Revisora de Penalidades Administrativas
+LIM
+Licenciamento Integrado Municipal
+LINDB
+Lei de Introdução às Normas do Direito Brasileiro
+MEI
+Microempreendedor Individual
+PGM
+Procuradoria-Geral do Município
+REDESIM
+Rede Nacional para a Simplificação do Registro e da Legalização de Empresas e Negócios
+SEI
+Sistema Eletrônico de Informações
+SEMA
+Secretaria Municipal do Meio Ambiente e Desenvolvimento Sustentável
+SEMEC
+Secretaria Municipal de Economia
+SERM
+Secretaria Executiva da Receita Municipal
+SGOV
+Secretaria de Governo
+SLIN
+Sistema de Licenciamento Integrado Municipal
+SMTI
+Superintendência Municipal de Tecnologia da Informação e Pesquisa
+SUFIS
+Superintendência Municipal de Fiscalização Integrada
+SUL
+Sistema Único de Licenciamento
+TCE-RO
+Tribunal de Contas do Estado de Rondônia
+TCO
+Total Cost of Ownership (Custo Total de Propriedade)
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 3
+formalização de negócios, contribui para a dinamização da economia municipal, com reflexos positivos sobre geração de emprego, renda e, por
+consequência, base tributária.
+Estratégia integrada
+Produtos entregues
+A versão consolidada da minuta do Marco Legal de Liberdade Econômica está disponível para acesso e edição pelo Gabinete e pelos órgãos
+competentes no link
+Marco Legal — versão final
+. A versão definitiva, é a integrante do Processo SEI nº 020.001593/2025-50.
+A minuta da Lei Complementar de criação da SUFIS e da JURPA está disponível, no mesmo regime, no link
+LC SUFIS/JURPA — versão final
+.
+Quadro consolidado de custos
+Pendências externas ao Grupo de Trabalho
+Três encaminhamentos extrapolam a competência do colegiado e dependem de manifestação de órgãos autônomos: o parecer da Procuradoria-
+Geral do Município sobre o enquadramento do SLIN por inexigibilidade; a deliberação do Conselho Gestor do FEMAT sobre o rateio do custeio
+da plataforma; e a apreciação dos anteprojetos pela Câmara Municipal, após o encaminhamento pelo Senhor Prefeito. A instrução técnica e
+processual encontra-se completa, cabendo apenas a tramitação ordinária pelos órgãos competentes.
+A agenda decisória recomendada ao Senhor Prefeito Municipal, com a sequência sugerida dos atos de governo, encontra-se detalhada na Parte
+VII deste Relatório.
+PARTE I — MANDATO, COMPOSIÇÃO E METODOLOGIA
+1. Instituição, mandato e prorrogação
+O Grupo de Trabalho de Desburocratização e Aperfeiçoamento do Sistema de Licenciamento Municipal foi instituído pelo Decreto Municipal nº
+21.456, de 22 de outubro de 2025, com mandato originário de noventa dias. Em razão da complexidade técnica do diagnóstico, da necessidade
+de pesquisa documental ampliada, do impacto do recesso administrativo de Natal e Ano Novo e da extensão dos produtos a serem entregues, o
+prazo foi prorrogado, por igual período, pelo Decreto Municipal nº 21.730, de 23 de janeiro de 2026, perfazendo vigência total de cento e oitenta
+dias, com termo final em 25 de abril de 2026.
+O mandato do Grupo, fixado no art. 1º do Decreto instituidor, é o de discutir e propor soluções para a desburocratização e o aperfeiçoamento do
+sistema de licenciamento municipal, contemplando, em sua amplitude máxima, os aspectos normativo, tecnológico e organizacional do ciclo de
+licenciamento e fiscalização das atividades econômicas no Município de Porto Velho. A documentação dos trabalhos consta de dois processos
+administrativos: o Processo SEI nº 020.001593/2025-50, que reúne a documentação técnica e operacional, e o Processo SEI nº
+020.001298/2026-84, que abriga a prestação mensal de contas das atividades do colegiado.
+O presente Relatório Final, produzido em cumprimento ao art. 4º do Decreto nº 21.730/2026, consolida a integralidade dos trabalhos
+desenvolvidos pelo Grupo de Trabalho ao longo de seis fases metodológicas, dezenove reuniões ordinárias e seis relatórios parciais, com a
+entrega articulada de minutas normativas, especificações técnicas, recomendações organizacionais e plano de implementação, organizados em
+três eixos estratégicos integrados.
+2. Composição do Grupo de Trabalho
+O colegiado é integrado por oito servidores, designados em razão da função institucional ou da expertise técnica detida no âmbito do ciclo de
+licenciamento e fiscalização. A composição reflete a natureza intersetorial da matéria, com representação das secretarias e órgãos diretamente
+envolvidos na cadeia de atos públicos de liberação.
+Eixo
+Solução proposta
+Normativo
+Marco Legal de Liberdade Econômica (48 artigos) + Lei Complementar de criação da SUFIS e da
+JURPA (12 artigos), com revogação seletiva e diferida da LC nº 906/2022.
+Tecnológico
+Contratação do SLIN/Vox por inexigibilidade (art. 74, Lei nº 14.133/2021), com participação
+proporcional do FEMAT no custeio das funcionalidades tributárias; SUL como sistema oficial e
+definitivo do Município, em desenvolvimento paralelo.
+Organizacional
+Centralização da fiscalização e do licenciamento na SUFIS (novo órgão), vinculada à SGOV; criação
+da JURPA como colegiado recursal especializado; secretarias finalísticas mantêm suas competências
+de políticas públicas, de normatização técnica e, ainda, de participação institucional na SUFIS.
+Categoria
+Posição
+Custo estrutural permanente
+Próximo a zero — cargos remanejados, fiscais redistribuídos, equipamentos
+transferidos com os servidores; jetons da JURPA não compõem despesa de pessoal.
+Custos de implantação a apurar
+Aluguel do imóvel da SUFIS, instalação de rede lógica e material de expediente, a
+serem dimensionados pela SEMAD e pela SMTI na fase de implantação.
+Plataforma SLIN
+R$ 85.667,50/mês — custeio com possibilidade de rateio com o FEMAT pela parcela
+tributária, conforme provocação ao Conselho Gestor pelo Ofício nº
+1011/2026/SEMEC-DEF.
+Custos evitados
+R$ 6.399.960,00 em 48 meses, na comparação com a alternativa avaliada
+(Aprova/BB Governo Digital).
+Membro
+Origem institucional
+Matrícula
+Romulo Barbosa Maltez (Coordenador)
+SEMEC
+249.161
+Huéliton Mendes Rodrigues
+SEINFRA
+52.283
+Felipe Santiago Sampaio
+SEMA
+314.948
+Antônio Marreiros de Souza Neto
+SEMEC
+33.118
+Cezar Eduardo Dondoni Marini
+SMTI
+10.078.190
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 4
+A integração do membro Valdir Antônio Vargas Junior, representante da Agência Reguladora e de Desenvolvimento de Porto Velho — ARDPV,
+deu-se mediante o Decreto Municipal nº 21.741, de 28 de janeiro de 2026, em reforço à estrutura colegial originária. A presença de dois
+representantes da SMTI e de dois da SEMEC, conjugada à representação das demais secretarias finalísticas, conferiu ao colegiado a
+capilaridade técnica necessária ao tratamento simultâneo dos eixos normativo, tecnológico e organizacional.
+Os trabalhos do Grupo foram desenvolvidos em horário extraordinário ao expediente regular dos seus membros, na forma do parágrafo único do
+art. 2º do Decreto nº 21.456/2025, ensejando o pagamento de gratificação mensal nos termos do art. 76 da Lei Complementar nº 385, de 2 de
+junho de 2010, condicionada à apresentação tempestiva de relatório parcial das atividades — regime que conferiu disciplina à cadência das
+entregas e robustez à prestação de contas.
+3. Metodologia
+O Grupo de Trabalho adotou metodologia fundada na Gestão de Processos de Negócio (BPM), estruturada em ciclos sucessivos de planejamento,
+mapeamento, análise, desenho de soluções, validação e consolidação. A condução metodológica observou quatro pilares operacionais: reuniões
+ordinárias semanais com pauta previamente divulgada e ata formalmente registrada; distribuição de responsabilidades entre os membros
+segundo a expertise institucional; construção colaborativa das proposições com validação coletiva; registro processual integral das deliberações
+no Sistema Eletrônico de Informações; e discussões constantes no grupo de chat virtual do GT.
+O ciclo de trabalho foi organizado em seis fases, conforme o Plano de Trabalho originário aprovado em 27 de outubro de 2025 e o Plano de
+Trabalho Ajustado aprovado pela 8ª Reunião Ordinária em 30 de janeiro de 2026:
+•
+Fase 1 — Planejamento e Diagnóstico (Semanas 1 a 2): elaboração dos formulários de diagnóstico, aplicação a usuários internos e
+externos, consolidação da base de dados e elaboração do 1º Relatório Parcial.
+•
+Fase 2 — Mapeamento e Análise (Semanas 3 a 5): análise consolidada dos diagnósticos, identificação da causa raiz e elaboração do 2º
+Relatório Parcial e do Relatório Complementar de Diagnóstico Interno.
+•
+Fase 3 — Desenvolvimento de Soluções (Semanas 6 a 9): elaboração do formulário de benchmarking, definição metodológica e elaboração
+do 3º Relatório Parcial.
+•
+Fase 4 — Pesquisa de Boas Práticas e Soluções (fevereiro de 2026): pesquisa documental, apresentações técnicas das soluções
+tecnológicas, deliberação sobre o sistema oficial e expedição de ofícios para propostas comparativas.
+•
+Fase 5 — Elaboração de Propostas Finais (março e abril de 2026): consolidação da matriz comparativa de sistemas, recomendação
+tecnológica unânime, redação coletiva das minutas normativas e validação interna das propostas.
+•
+Fase 6 — Consolidação e Entrega (abril de 2026): redação do presente Relatório Final, consolidação dos produtos e protocolo à Secretaria
+de Governo.
+A inflexão metodológica de maior consequência foi deliberada na 8ª Reunião Ordinária, em 30 de janeiro de 2026: por recomendação do
+membro Hueliton Mendes e com aprovação unânime do colegiado, optou-se por trabalhar concomitantemente nos três eixos estratégicos —
+Marco Regulatório, Integração Tecnológica e Reestruturação Organizacional — em vez de fazê-lo sequencialmente, conforme inicialmente
+previsto. A decisão produziu ganhos expressivos de produtividade, viabilizou a interlocução técnica cruzada entre os eixos e permitiu a
+recuperação do tempo consumido pelo recesso administrativo de fim de exercício.
+4. Síntese cronológica dos trabalhos
+Ao longo dos cento e oitenta dias de vigência, foram realizadas dezenove reuniões ordinárias, das quais resultaram dezenove atas formalmente
+registradas no Processo SEI nº 020.001593/2025-50, e foram entregues seis relatórios parciais à Secretaria de Governo. As principais marcas
+decisórias do percurso foram:
+A cronologia detalhada das dezenove reuniões — datas, horários, modalidade, pautas e deliberações — encontra-se registrada nas respectivas
+atas, todas integrantes do Processo SEI nº 020.001593/2025-50. Os relatórios parciais 4, 5 e 6, que cobrem o período de 9 de janeiro a 30 de
+março de 2026, contêm o detalhamento das atividades das Fases 4 e 5, e são incorporados por referência ao presente documento.
+5. Pesquisa de boas práticas
+A estratégia de pesquisa de boas práticas, originalmente concebida com fundamento em visitas técnicas presenciais, foi recalibrada em razão de
+restrições orçamentárias e do baixo índice de resposta de outros municípios, ao formulário de benchmarking online. A reorientação
+metodológica privilegiou a pesquisa documental direta, com análise da legislação, dos sistemas, dos portais de licenciamento, dos diários oficiais
+e dos estudos técnicos disponíveis sobre os modelos de licenciamento e fiscalização adotados em municípios de referência.
+André Henrique da Silva Santos
+SMTI
+10.079.096
+Jeová Lima D'Avila Júnior
+SGOV
+10.078.299
+Valdir Antônio Vargas Junior
+ARDPV
+00.006
+Data / Marco
+Deliberação ou produto
+Outubro de 2025
+Instituição do GT (Decreto nº 21.456/2025) e aprovação do Plano de Trabalho originário.
+Novembro de 2025
+Aplicação dos diagnósticos interno (29 questões / 16 servidores) e externo (19 questões / 80 usuários).
+Dezembro de 2025
+Identificação da causa raiz dos problemas: a fragmentação organizacional dos órgãos de licenciamento e
+fiscalização.
+Janeiro de 2026
+Prorrogação do prazo (Decreto nº 21.730/2026); aprovação do Plano de Trabalho Ajustado; deliberação
+por trabalho concomitante nos três eixos.
+Fevereiro de 2026
+Apresentações técnicas dos sistemas Aprova, SLIN e SUL; declaração do SUL como sistema oficial e
+definitivo do Município; expedição de ofícios para propostas comparativas.
+Março de 2026
+Apreciação da matriz comparativa SLIN × Aprova; recomendação unânime de contratação do SLIN;
+conclusão do eixo tecnológico.
+Abril de 2026
+Consolidação do Marco Legal de Liberdade Econômica em cinco sessões deliberativas; consolidação da
+Lei Complementar de criação da SUFIS e da JURPA; consulta complementar aos membros via Google
+Forms; redação do presente Relatório Final.
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 5
+Foram estudados oito municípios — Joinville/SC, Vitória/ES, São Paulo/SP, Florianópolis/SC, Curitiba/PR, Belo Horizonte/MG, Fortaleza/CE e
+Manaus/AM — selecionados pela diversidade de arranjos institucionais, pela maturidade dos sistemas tecnológicos adotados e pelo desempenho
+relativo no Ranking das Capitais e Cidades Mais Competitivas do País, do Centro de Liderança Pública. Cada referência contribuiu, em medida
+específica, para o desenho final das propostas: Florianópolis e Belo Horizonte forneceram parâmetros de licenciamento automatizado e de
+matriz de risco; Joinville e Curitiba ofereceram modelos de simplificação procedimental e de classificação de atividades; Fortaleza, com a
+AGEFIS, e Belo Horizonte, com a SUFIS, serviram de referência para o desenho organizacional centralizado da fiscalização integrada; Vitória e
+Manaus contribuíram com a experiência de integração à REDESIM e de articulação intergovernamental.
+Adicionalmente, o Grupo recebeu apresentações técnicas de fornecedores de soluções tecnológicas — Aprova Digital S.A., Vox Soluções
+Tecnológicas Ltda. e Superintendência Municipal de Tecnologia da Informação — e analisou a literatura especializada sobre desburocratização
+do licenciamento municipal, abrangendo a Lei Federal nº 13.874/2019 (Liberdade Econômica), a Lei Estadual nº 5.918/2024, a Lei
+Complementar Federal n° 123/2006 e Municipal nº 214/2025 e as Resoluções do Comitê para Gestão da Rede Nacional para a Simplificação do
+Registro e da Legalização de Empresas e Negócios — CGSIM e do COMSIM, o Comitê Municipal para a Simplificação De Registro e da
+Legalização de Empresa, Negócios e Atividades.
+PARTE II — DIAGNÓSTICO E CAUSA RAIZ
+1. Diagnóstico consolidado
+O diagnóstico produzido pelo Grupo de Trabalho fundou-se em três fontes complementares, aplicadas entre novembro de 2025 e janeiro de
+2026: o diagnóstico externo, instrumentalizado por formulário com dezenove questões aplicado a oitenta usuários do sistema de licenciamento
+municipal — empreendedores, contadores, despachantes e profissionais técnicos; o diagnóstico interno, instrumentalizado por formulário com
+vinte e nove questões aplicado a dezesseis servidores das secretarias finalísticas; e o relatório complementar de diagnóstico interno, fundado em
+entrevistas presenciais conduzidas in loco com técnicos e fiscais municipais pelos membros Huéliton Mendes Rodrigues, Felipe Santiago
+Sampaio e Antônio Marreiros de Souza Neto.
+O conjunto totalizou noventa e seis instrumentos formais, complementados por entrevistas qualitativas, e produziu base de dados consolidada
+que sustenta as conclusões deste Relatório. O detalhamento estatístico dos resultados consta da Análise Consolidada dos Diagnósticos Interno e
+Externo, documento técnico de quarenta páginas integrante do Processo SEI nº 020.001593/2025-50, e do Dashboard de Gráficos Estatísticos
+com oito gráficos analíticos e sete tabelas de dados estruturadas.
+2. Indicadores quantitativos consolidados
+Os indicadores apurados oferecem retrato preciso do estado atual do sistema de licenciamento municipal e fundamentam tecnicamente a
+urgência da reforma proposta:
+Os indicadores convergem, sem ambiguidade, para um quadro de severa disfunção do sistema vigente: insatisfação que ultrapassa três quartos
+da base de usuários, processamento que pode estender-se por até 12 meses, taxa de cumprimento do prazo legal próxima da residual, e
+descompasso significativo entre o instrumento provisório (oferecido com presteza) e o instrumento definitivo (concedido após doze meses
+adicionais). Essa configuração fragiliza a posição relativa do Município no ambiente de negócios, induz à informalidade econômica, expõe a
+Administração a passivos prescricionais e compromete a percepção de eficiência da gestão pública municipal.
+3. Causa raiz: a fragmentação organizacional
+A análise integrada das três fontes diagnósticas, complementada pela pesquisa de boas práticas em municípios de referência, conduziu o Grupo
+de Trabalho à identificação inequívoca da causa raiz dos problemas: a fragmentação organizacional dos órgãos de licenciamento e fiscalização
+do Município. A constatação foi formalizada no 2º Relatório Parcial, em dezembro de 2025, e reiterada nas fases subsequentes.
+Por fragmentação organizacional, entende-se a configuração institucional na qual atribuições materialmente conexas — análise técnica
+documental, vistoria de campo, lavratura de auto de infração, julgamento de defesa, aplicação de penalidade e expedição de ato de liberação —
+estão distribuídas, sem integração estrutural ou processual, entre múltiplas secretarias e órgãos, cada um operando segundo lógica setorial
+própria, sistemas informacionais isolados, fluxos procedimentais distintos e cronogramas independentes. Como consequência, o requerente é
+compelido a percorrer, sequencialmente, um circuito multi-secretarial em que cada órgão reinaugura a análise documental, reapura a
+viabilidade e reaplica seus próprios prazos, sem aproveitamento dos atos já praticados nas etapas anteriores.
+Importa registrar que a causa raiz identificada não decorre de insuficiência técnica das secretarias, tampouco de despreparo dos servidores
+envolvidos. A capacidade técnica setorial é, em geral, adequada às exigências de cada matéria. O que compromete o sistema é a ausência de
+coordenação operacional entre essas capacidades — vale dizer, é a arquitetura institucional, e não o capital humano, que produz a disfunção
+observada. Esse diagnóstico tem consequência diretiva precisa: a reforma necessária não é de qualificação técnica, mas de redesenho
+organizacional, complementado por marco regulatório integrado e plataforma tecnológica unificada.
+4. Implicações estratégicas para o desenho da reforma
+A identificação da causa raiz produziu três implicações estratégicas que orientaram a integralidade dos trabalhos subsequentes do Grupo.
+Primeiro, a reforma deve ser estruturalmente integrada — não bastam ajustes pontuais em cada secretaria, sob pena de perpetuar a
+fragmentação que se pretende superar. Segundo, a reforma deve atuar simultaneamente sobre três eixos articulados — o normativo, o
+Indicador
+Resultado apurado
+Insatisfação geral com o sistema de licenciamento (diagnóstico
+externo)
+77,5%
+Crítica específica ao tempo de processamento
+81,2%
+Crítica à ausência de integração entre os órgãos
+80,0%
+Avaliação favorável ao sistema atual
+22,5%
+Tempo médio de processamento pela ótica dos servidores públicos do
+licenciamento
+30 a 180 dias
+Tempo médio para alvará definitivo de atividade de alto risco (dado
+oficial Jucer)
+12 meses (dado 2026, Vox/JUCER)
+Tempo médio para alvará definitivo ( dado oficial Jucer)
+12 meses
+Consulta prévia de viabilidade locacional
+24 horas
+Atividades dispensadas de licenciamento
+522 de 1.332 (39,2%)
+Estimativa de decisões finais proferidas no prazo legal
+aproximadamente 5%
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 6
+tecnológico e o organizacional — porque atuar sobre apenas um deles produziria resultado parcial e insustentável. Terceiro, a reforma deve
+preservar a competência técnica setorial das secretarias finalísticas no que diz respeito à formulação de políticas públicas, à normatização
+específica e ao conhecimento especializado, centralizando tão somente a coordenação operacional do licenciamento e da fiscalização.
+Essas três premissas estratégicas são o fundamento da arquitetura tripartite das propostas finais, detalhada nas Partes III, IV e V do presente
+Relatório, e da articulação implementacional descrita na Parte VI.
+PARTE III — EIXO NORMATIVO
+1. Visão geral do marco regulatório integrado
+O eixo normativo da reforma estrutura-se em duas leis complementares articuladas, redigidas pelo Grupo de Trabalho ao longo das Fases 5 e 6.
+A primeira, de natureza substantiva, institui o Marco Legal de Liberdade Econômica do Município de Porto Velho, fixando princípios, definições,
+atos públicos de liberação, regime de fiscalização orientadora, prescrição e instrumentos de proteção ao empreendedor. A segunda, de natureza
+institucional, cria a Superintendência Municipal de Fiscalização Integrada (SUFIS) e a Junta Revisora de Penalidades Administrativas (JURPA), e
+altera cinco diplomas vigentes para compatibilizar o ordenamento municipal com a nova arquitetura.
+A divisão entre os dois diplomas observa a melhor técnica legislativa: a substantiva no Marco Legal — que detém durabilidade e estabilidade de
+princípios; a institucional na lei de criação — sujeita a eventuais ajustes organizacionais sem necessidade de revisitar o regime substantivo. Esta
+separação preserva a estabilidade do Marco Legal e confere flexibilidade institucional suficiente para a evolução da estrutura administrativa.
+2. Marco Legal de Liberdade Econômica
+O anteprojeto do Marco Legal de Liberdade Econômica do Município de Porto Velho consolida-se em quarenta e oito artigos, distribuídos em
+cinco Títulos: Título I — Disposições Preliminares; Título II — Do Licenciamento Integrado Municipal; Título III — Da Fiscalização de
+Policiamento Urbano; Título IV — Da Proteção à Liberdade Econômica e da Desburocratização; e Título V — Das Disposições Finais e
+Transitórias. A redação foi consolidada na 13ª Reunião Ordinária, ao cabo de cinco sessões deliberativas, e revisada nas 16ª, 17ª, 18ª e 19ª
+Reuniões, com aprovação unânime da versão final para a minuta da Lei de criação da SUFIS/JURPA e por maioria para a minuta do Marco Legal
+da Liberdade Econômica. Ressalta-se que a parte da minuta com divergências pontuais diz respeito tão somente aos dispositivos a serem
+revogados na LC 906/2022. O membro Huéliton Mendes Rodrigues concorda com alguns dispositivos e discorda de outros, sendo-lhe facultado
+apresentar sua manifestação apartada.
+A versão final consolidada da minuta encontra-se disponível para acesso, download e edição pelo Gabinete e pelos órgãos competentes no link
+Marco Legal — versão final
+. A versão definitiva é a integrante do Processo SEI nº 020.001593/2025-50.
+Mantida a fidelidade ao desenho federal e estadual da liberdade econômica, o Marco Legal incorpora um conjunto de inovações substantivas que
+merecem registro específico:
+•
+Classificação de risco em três níveis (baixo, médio e alto), com dispensa imediata para baixo risco, autodeclaração para médio risco e
+análise prévia para alto risco, observada a meta legal de 50% de dispensa (art. 8º, V) e os critérios da Resolução CGSIM nº 51/2019.
+•
+Silêncio positivo qualificado (art. 11, § 3º): decorrido o prazo legal de quarenta e cinco dias sem manifestação conclusiva da Administração
+em processos de alto risco, o empreendedor pode iniciar suas atividades mediante autodeclaração de responsabilidade
+, sem prejuízo da vistoria
+e resultado do licenciamento.
+•
+Dupla visita orientadora (art. 15) como regra de fiscalização, com a primeira visita destinada exclusivamente à orientação e ao
+saneamento da irregularidade, e penalização condicionada à persistência da conduta após prazo razoável de adequação.
+•
+Autorização de Funcionamento Condicionada — AFC (art. 12), que permite o funcionamento de atividade econômica em edificação com
+pendência de regularização edilícia ou fundiária, mediante laudo técnico de segurança estrutural e comprovação de processo de regularização
+em andamento.
+•
+Cadastro do Bom Empreendedor (art. 31), com benefícios objetivos a empreendedores adimplentes — renovação automática, desconto de
+50% em multas não graves, e prioridade no atendimento.
+•
+Áreas Especiais Incentivadas (art. 33), por decreto, para a reativação econômica de regiões com baixa ocupação comercial, com benefícios
+de isenção tributária ressalvada, prazos diferenciados e regime simplificado de abertura.
+•
+Sandbox regulatório (art. 34), no modelo da Lei Complementar Federal nº 182/2021, para testagem temporária de modelos de negócio
+inovadores em escala urbana, com participação do COMSIM.
+•
+Licenciamento store-in-store (art. 30, §§ 10 e 11), com aproveitamento gradativo das condicionantes do estabelecimento hospedeiro pelo
+hospedado, e responsabilidade solidária do hospedeiro pela segurança do espaço compartilhado.
+•
+Pejotização e terceirização da prestação efetiva (art. 30, § 9º), assegurando o direito de licenciamento ainda quando a atividade econômica
+seja executada por terceiro contratado pelo titular.
+•
+Prescrição quinquenal estruturada (arts. 22 a 27), com regramento autônomo das ações punitiva e executória, hipóteses de interrupção e
+suspensão e arquivamento de ofício de procedimentos paralisados há mais de três anos.
+•
+Diferimento das taxas de
+poder de polícia p
+or doze meses contados da abertura (art. 39), com prazo reduzido a seis meses para
+regularização de atividades em desconformidade que iniciarem licenciamento sob a nova lei.
+3. Estratégia de revogação seletiva da Lei Complementar nº 906/2022
+A Lei Complementar nº 906, de 7 de julho de 2022, dispõe sobre normas gerais de licenciamento e fiscalização de atividades econômicas no
+Município de Porto Velho. Parcela substancial de seu conteúdo conflita com o Marco Legal e deve ser revogada; outra parcela, contudo,
+disciplina matérias específicas — dispensas setoriais, regime do Microempreendedor Individual, escritório virtual, atividades em residência,
+horário de funcionamento, publicidade externa e tipificação de infrações setoriais — não plenamente abrangidas pelo Marco Legal. A simples
+revogação total produziria vácuo normativo inadmissível.
+Para enfrentar a complexidade, o Grupo de Trabalho desenvolveu, ao longo das 18ª e 19ª Reuniões Ordinárias, metodologia classificatória em
+quatro categorias, fundada na teoria do diferimento de eficácia normativa e na vedação constitucional ao vácuo regulatório, materializada no
+art. 47 da minuta:
+Categoria
+Escopo e fundamento
+Revogação imediata
+Dispositivos cuja matéria é integralmente substituída pela minuta ou por outras normas gerais (Lei da
+REDESIM, Lei Federal de Liberdade Econômica, Lei Estadual nº 5.918/2024). Abrange os arts. 1º a
+15, 17, 18, 22, 24 a 28, 33 a 37, 68 a 76 e 78 a 80 da LC nº 906/2022.
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 7
+A votação ponto a ponto da matriz analítica de revogação foi conduzida na 19ª Reunião Ordinária, em 24 de abril de 2026, com aprovação por
+unanimidade ou maioria conforme o item, registradas as posições individuais. Subsequentemente, em revisão final, o Coordenador identificou a
+oportunidade de aperfeiçoamento técnico do art. 47 e da inclusão de cláusula transitória de proteção operacional (novo art. 46), submetendo as
+alterações à ratificação dos membros via consulta complementar, conforme item 5 desta Parte.
+4. Lei Complementar de criação da SUFIS e da JURPA
+O segundo anteprojeto, de natureza institucional, consolida-se em doze artigos, integralmente analisados e aprovados na 15ª Reunião Ordinária,
+após revisão de compatibilização com a redação vigente da Lei Complementar nº 1.000, de 7 de janeiro de 2025, deliberada na 14ª Reunião. A
+minuta cria dois órgãos novos — a SUFIS, como Superintendência vinculada à Secretaria de Governo, e a JURPA, como colegiado recursal
+especializado em matéria de poder de polícia administrativa — e altera cinco diplomas para compatibilizar o ordenamento com a nova
+arquitetura institucional:
+•
+Lei Complementar nº 138, de 6 de dezembro de 2001 (Código Ambiental do Município) — para deslocar a competência decisória recursal
+em matéria ambiental para a JURPA e a competência fiscalizatória para a SUFIS;
+•
+Lei Complementar nº 391, de 6 de julho de 2010 (carreira do GFISC) — para alterar o Anexo de atribuições, com lotação dos cargos de
+Fiscal de Meio Ambiente, Obras, Posturas, Transportes, Vigilância Sanitária e Tributos na SUFIS;
+•
+Lei Complementar nº 873, de 15 de dezembro de 2021 (Código de Posturas Urbanas) — para deslocar a competência recursal em matéria
+de posturas para a JURPA, observada a forma de seu regimento interno;
+•
+Lei Complementar nº 1.000, de 7 de janeiro de 2025 (Lei de Organização Básica) — para inserir a SUFIS na estrutura da SGOV como
+órgão auxiliar e fixar suas competências na qualidade de órgão central do LIM;
+•
+Lei nº 1.562, de 10 de dezembro de 2003 (Código Sanitário) — para deslocar a competência recursal em matéria sanitária para a JURPA e
+harmonizar o rito de impugnação aos autos de infração.
+A versão final consolidada da minuta encontra-se disponível em
+LC SUFIS/JURPA — versão final
+, sendo a versão definitiva a integrante do
+Processo SEI nº 020.001593/2025-50.
+Aspectos institucionais relevantes do desenho proposto: a SUFIS opera como órgão central do LIM, com autonomia técnica no exercício de suas
+atribuições, sendo responsável pela coordenação e execução do licenciamento e da fiscalização integrados, pela operacionalização da plataforma
+tecnológica, pela edição de instruções normativas operacionais e pela resolução de conflitos de competência entre as áreas setoriais; a JURPA é
+composta por Câmaras Temáticas (instância de primeiro grau) e pelo Plenário (instância recursal e final), com membros indicados pelo Prefeito
+e remunerados por jeton equivalente a cinco UPFs por sessão efetivamente participada — modalidade que, nos termos da Lei de
+Responsabilidade Fiscal, não compõe despesa de pessoal; a implementação dar-se-á em até cento e vinte dias, prazo no qual o Município deverá
+apresentar o plano de implantação da SUFIS e da JURPA.
+5. Consulta complementar aos membros (Google Form)
+Encerrada a fase deliberativa do Grupo na 19ª Reunião Ordinária, o Coordenador, em revisão final da minuta, identificou a conveniência de duas
+alterações técnicas: a inclusão de cláusula transitória de proteção operacional (novo art. 46), destinada a impedir restrições ao exercício de
+atividades durante o período de parametrização da plataforma tecnológica, e o aperfeiçoamento redacional do art. 47, com explicitação dos
+parágrafos relativos à interpretação do diferimento, à manutenção transitória dos dispositivos não revogados e à preservação das revogações
+operadas pelo art. 82 da LC nº 906/2022.
+Em respeito ao princípio da colegialidade que orientou a integralidade dos trabalhos, as alterações foram submetidas aos demais membros, por
+meio de formulário eletrônico estruturado em seis questões correspondentes aos blocos das alterações. O resultado da consulta, no momento da
+redação deste Relatório Final, é o seguinte:
+Nota interpretativa.
+Os campos com travessão (“—”) correspondem às manifestações pendentes no momento da redação deste Relatório. Os
+membros que não se manifestaram formalmente e não apresentaram relatório apartado, serão considerados como concordantes por silêncio
+qualificado.
+Revogação diferida
+Dispositivos cuja aplicação concreta depende de parâmetros operacionais a serem fixados no decreto
+regulamentador. A revogação produz efeitos com a publicação do referido ato infralegal. Abrange os
+arts. 16, 19 a 21 e 23 da LC nº 906/2022.
+Revogação parcial
+Recortes cirúrgicos em incisos ou parágrafos específicos: inciso I do art. 29; inciso II do § 2º do art.
+32; parágrafo único do art. 63; inciso V do art. 64.
+Manutenção transitória
+Dispositivos que tratam de matérias específicas reservadas ao futuro Código de Posturas e aos
+códigos temáticos setoriais, cuja vigência permanece preservada até a edição daqueles diplomas —
+arts. 29 a 32, 38 a 67, 77 e 81. Preservadas, ainda, as revogações expressas operadas pelo art. 82 da
+LC nº 906/2022, observada a salvaguarda do art. 6º, § 3º, da LINDB.
+Membro
+Q1 — Art. 46
+(transição)
+Q2 —
+Revogação
+imediata
+Q3 —
+Revogação
+diferida
+Q4 — Recortes
+cirúrgicos
+Q5 — Manutenção
+expressa
+Q6 — Salvaguarda
+LINDB
+Romulo (SEMEC)
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Antônio Marreiros
+(SEMEC)
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+André Henrique
+(SMTI)
+Aprovo c/
+ressalvas
+Aprovo c/
+ressalvas
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Huéliton (SEINFRA)
+—
+—
+—
+—
+—
+—
+Felipe (SEMA)
+—
+—
+—
+—
+—
+—
+Cezar (SMTI)
+—
+—
+—
+—
+—
+—
+Jeová (SGOV)
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Aprovo
+Valdir (ARDPV)
+—
+—
+—
+—
+—
+—
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 8
+Tratamento das ressalvas formuladas pelo membro André Henrique da Silva Santos. À questão referente ao novo art. 46, o membro registrou
+ressalva condicionada à hipótese de existir, no Marco Legal, novidade procedimental dependente de regulamento futuro sem cobertura nos
+regulamentos vigentes — situação na qual a cláusula geral de supletividade poderia ser insuficiente. A análise técnica conduzida pelo
+Coordenador conclui que a redação consolidada do art. 46 endereça a hipótese pelas vias da supletividade ampla, consignada no caput, e pela
+vedação expressa, no § 1º, a qualquer ato administrativo que importe restrição, suspensão, indeferimento ou retardamento do exercício de
+atividade econômica em razão de incompatibilidade entre o sistema vigente e o novo regime. A ressalva está, portanto, materialmente atendida
+pela própria fórmula geral, sem necessidade de alteração textual da minuta.
+À questão referente à revogação imediata, o membro registrou ressalva quanto à oportunidade da revogação dos arts. 68 e 69 da LC nº
+906/2022, condicionada à entrada em vigor concomitante da Lei Complementar de criação da SUFIS e da JURPA. A observação é tecnicamente
+fundada: o contencioso fiscal previsto naqueles dispositivos é deslocado, na arquitetura proposta, para a JURPA. Caso o Marco Legal entre em
+vigor antes da Lei Complementar institucional, haveria descontinuidade procedimental momentânea. A solução institucional, recomendada na
+Parte VII deste Relatório, é o encaminhamento conjunto e simultâneo das duas minutas à Câmara Municipal, neutralizando o risco apontado.
+Por fim, registra-se que o membro Huéliton Mendes Rodrigues, ao final da 19ª Reunião Ordinária, manifestou intenção de apresentar relatório
+apartado expondo posições divergentes pontuais, particularmente quanto à matéria da revogação. Conforme deliberação do colegiado e
+expressa orientação do membro, o relatório apartado será entregue diretamente à Secretaria de Governo, pelo próprio autor, em peça autônoma
+à este Relatório Final.
+6. Conformidade federativa e constitucional
+A arquitetura normativa proposta foi desenhada em estrita conformidade com a Constituição Federal, com a legislação federal e estadual de
+liberdade econômica e com as resoluções do Comitê Nacional e do Municipal para Gestão da REDESIM. O quadro a seguir registra os principais
+vínculos de conformidade:
+PARTE IV — EIXO TECNOLÓGICO
+1. Trajetória decisória
+O eixo tecnológico foi conduzido sob protocolo decisório rigoroso, fundado em apresentações técnicas isonômicas, análise comparativa
+documentada e diligências de esclarecimento formalmente registradas. Ao longo do mês de fevereiro de 2026, o Grupo de Trabalho recebeu três
+apresentações técnicas, deliberadas em sessão pública na 9ª Reunião Ordinária, em 26 de fevereiro de 2026:
+•
+Sistema Aprova, da Aprova Digital S.A. (CNPJ 24.757.040/0001-40), apresentado em 5 de fevereiro de 2026, com referências operacionais
+em São Paulo/SP, Florianópolis/SC e demais municípios de grande porte;
+•
+Sistema SLIN, da Vox Soluções Tecnológicas Ltda. (CNPJ 00.684.621/0001-31), apresentado em 10 de fevereiro de 2026, com a singular
+condição de operador efetivo do integrador estadual da REDESIM em Rondônia (Empresa Fácil RO), por intermédio da JUCER;
+•
+Sistema SUL, de propriedade do Município de Porto Velho, desenvolvido pela SMTI, apresentado em 26 de fevereiro de 2026, em estágio
+inicial de desenvolvimento e sem integração à REDESIM.
+A 9ª Reunião Ordinária deliberou, por unanimidade, três encaminhamentos estruturantes: (i) a declaração do Sistema SUL como política de
+Estado do Município, adotando-o como sistema oficial e definitivo de licenciamento integrado, condicionada sua entrada em operação plena ao
+desenvolvimento até o nível de integração total com a REDESIM; (ii) o reconhecimento dos sistemas SLIN e Aprova como soluções de mercado
+com referências positivas verificadas, aptas a atender, a priori, às necessidades do Município; e (iii) a determinação ao Coordenador para
+elaboração de matriz comparativa entre os sistemas SLIN e Aprova, com base em propostas comerciais solicitadas com escopo idêntico,
+garantindo a comparabilidade dos dados.
+2. Recomendação unânime do SLIN
+Em cumprimento à deliberação, foram expedidos em 27 de fevereiro de 2026 os Ofícios nº 577/2026/SEMEC-DEF (à Aprova Digital) e nº
+578/2026/SEMEC-DEF (à Vox Tecnologia), estruturados em seis blocos padronizados — contratação e modelo comercial; custos e investimento;
+escopo funcional e aderência ao modelo de Porto Velho; integração com sistemas existentes; implantação e prazo operacional; e suporte,
+manutenção e continuidade. As propostas foram recebidas, respectivamente, em 11 e 6 de março de 2026.
+A matriz comparativa, elaborada pelo Coordenador e aprovada como documento técnico de referência na 10ª Reunião Ordinária, em 12 de
+março de 2026, evidenciou diferença significativa no bloco de custos:
+Norma de referência
+Aderência da reforma proposta
+Constituição Federal (arts. 5º, 23, 30 e
+170)
+Liberdade de iniciativa econômica preservada; competência municipal sobre interesse local
+exercida; observância dos princípios da Administração Pública (legalidade, impessoalidade,
+moralidade, publicidade, eficiência).
+Lei Federal nº 13.874/2019 (Liberdade
+Econômica)
+Adoção integral dos institutos federais — classificação por risco, autodeclaração, dispensa de
+baixo risco, silêncio positivo qualificado, dupla visita orientadora.
+Lei Federal nº 11.598/2007 (REDESIM)
+Integração nativa do LIM ao sistema integrador estadual Empresa Fácil RO, por intermédio
+do SLIN/Vox e da JUCER.
+Lei Estadual nº 5.918/2024
+Adesão à Declaração de Direitos de Liberdade Econômica do Estado de Rondônia, com
+observância dos institutos estaduais e do regulamento.
+Lei Federal nº 9.784/1999 (Processo
+Administrativo)
+Aplicação subsidiária ao processo administrativo municipal de poder de polícia, observados
+os ritos específicos definidos pela JURPA em seu regimento interno.
+Resoluções do CGSIM e do COMSIM
+Adesão às resoluções do Comitê federal — em especial à Resolução CGSIM nº 51/2019 —
+quanto à classificação de risco e à meta de dispensa para baixo risco. E das resoluções do
+COMSIM, especialmente a de n° 002/2020.
+Lei Complementar Federal nº 182/2021
+Modelagem do Sandbox Regulatório municipal pelo regime federal de ambientes
+experimentais de inovação, com flexibilização controlada e participação do COMSIM.
+Lei nº 14.133/2021 (Nova Lei de
+Licitações)
+Recomendação tecnológica fundada no art. 74 (inexigibilidade), com instrução processual
+completa e remissão à manifestação prévia da Procuradoria-Geral do Município.
+Item
+SLIN / Vox
+Aprova / BB Governo Digital
+Custo mensal
+R$ 85.667,50
+R$ 219.000,00
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 9
+A diligência de esclarecimento formal, conduzida com a Aprova/BB Governo Digital, e a manifestação técnica subsequente da SMTI, na pessoa
+do membro Cezar Eduardo Dondoni Marini, apuraram que o valor mensal da proposta Aprova/BB contempla módulos adicionais de governo
+digital (portal de serviços, gestão de processos, tramitação eletrônica, formulários digitais) que apresentam sobreposição funcional com
+sistemas municipais em operação, notadamente o Sistema Eletrônico de Informações — SEI. Os módulos adicionais não se justificariam sob a
+ótica da economicidade e da eficiência administrativa, e a decisão sobre eventual contratação de plataforma de governo digital de alcance
+institucional transcenderia a competência do Grupo de Trabalho.
+Na 11ª Reunião Ordinária, em 26 de março de 2026, o Grupo deliberou por unanimidade recomendar a contratação do Sistema SLIN, fornecido
+pela Vox Soluções Tecnológicas Ltda., com fundamento na diferença de TCO em quarenta e oito meses, na integração nativa do SLIN à
+REDESIM por sua condição de operador efetivo do integrador estadual, na aderência integral do escopo funcional do SLIN às competências e ao
+objeto do GT e na sobreposição funcional dos módulos adicionais do BB Governo Digital com sistemas em operação.
+3. Inexigibilidade de licitação
+A formalização da contratação observará o enquadramento por inexigibilidade de licitação, com fundamento no art. 74 da Lei nº 14.133, de 1º
+de abril de 2021. A condição de inexigibilidade decorre de circunstância institucional específica e demonstrável: a Vox Soluções Tecnológicas
+Ltda. é o operador efetivo do sistema integrador estadual da REDESIM em Rondônia (Empresa Fácil RO), por intermédio da Junta Comercial do
+Estado de Rondônia (JUCER), em arquitetura institucional construída ao longo de sucessivos convênios e contratos ainda vigentes. Vale dizer, a
+integração nativa à REDESIM, sem custos adicionais de adaptação e sem redundância de cadastros, depende, no caso concreto, do mesmo
+operador tecnológico — o que configura inviabilidade de competição em sentido material.
+A formalização contratual recomendada pelo Grupo é, em consequência, a celebração de convênio entre a Prefeitura do Município de Porto
+Velho e a JUCER, ou de aditamento aos instrumentos vigentes, visando a expansão dos serviços da REDESIM para o âmbito municipal de
+licenciamento e fiscalização integrados, com observância da inexigibilidade. A contratação está condicionada a parecer prévio favorável da
+Procuradoria-Geral do Município, encaminhamento que extrapola a competência do Grupo e cuja tramitação independe deste Relatório.
+4. Estratégia de custeio interinstitucional
+No curso da avaliação técnica do SLIN, foi identificada a presença de funcionalidades que atendem diretamente à Administração Tributária
+municipal, destacando-se o Módulo 1.2 (Tributário), responsável pela inscrição fiscal municipal, pela geração de Documentos de Arrecadação
+Municipal (DAM) para a Taxa de Licença de Localização e Funcionamento, pela Taxa de Vistoria e demais taxas de poder de polícia, pela baixa
+automática de pagamento e pela vinculação de obrigações acessórias. Os submódulos Financeiros dos demais módulos (Planejamento Urbano,
+Vigilância Sanitária e Meio Ambiente) processam, igualmente, a geração de DAM e a baixa automática de pagamento de taxas de poder de
+polícia, cuja arrecadação é de competência da Secretaria Executiva da Receita Municipal. A integração nativa com a REDESIM/Empresa Fácil
+RO opera, ainda, a constituição do sujeito passivo tributário no cadastro mobiliário fiscal, incluindo eventos do Simples Nacional e do MEI, e a
+vinculação do Domicílio Tributário Eletrônico e da Nota Fiscal de Serviços Eletrônica.
+Em razão dessa configuração, o Coordenador, na qualidade de Auditor Fiscal da Receita Municipal, encaminhou em 17 de abril de 2026, ao
+Senhor Coordenador do Conselho Gestor do FEMAT, o Ofício nº 1011/2026/SEMEC-DEF, comunicando a recomendação unânime de contratação
+do SLIN e provocando o Conselho a avaliar a viabilidade jurídica e financeira da participação do Fundo no custeio proporcional da contratação,
+nos termos do art. 3º, incisos I, II e VI, da Lei Complementar nº 690/2017, com redação dada pela Lei Complementar nº 1.006/2025. A
+provocação institucional limita-se ao âmbito da competência própria do Conselho Gestor, ao qual cabe conduzir o estudo técnico de rateio e a
+deliberação cabível, com base em metodologia objetiva e auditável, sem que o Grupo de Trabalho sugira percentual de participação.
+A estratégia de custeio interinstitucional aqui registrada é elemento de articulação financeira madura: reconhece, com a precisão técnica
+devida, que o SLIN opera, simultaneamente, infraestrutura de licenciamento e infraestrutura tributária, e propõe a distribuição proporcional do
+custeio entre as fontes de financiamento competentes, mitigando o impacto sobre a unidade orçamentária da SUFIS/SGOV.
+5. Cronograma SLIN/SUL
+O Grupo de Trabalho recomendou, ainda, a observância dos seguintes parâmetros de transição entre o SLIN e o SUL: prazo contratual inicial de
+vinte e quatro meses, prorrogável por igual período, totalizando até quarenta e oito meses; manutenção do desenvolvimento paralelo do SUL, na
+condição de sistema oficial e definitivo do Município, com a infraestrutura técnica conduzida pela SMTI; e cronograma integrado SLIN/SUL
+definido pela Administração Municipal segundo a maturidade do desenvolvimento do SUL e a evolução da integração à REDESIM. A operação
+concomitante dos dois sistemas, no período de transição, assegura a continuidade do serviço sem interrupção do atendimento ao empreendedor
+e ao cidadão.
+PARTE V — EIXO ORGANIZACIONAL
+1. Visão geral do redesenho organizacional
+O redesenho organizacional da fiscalização e do licenciamento municipais é a resposta direta à causa raiz identificada no diagnóstico — a
+fragmentação organizacional. A solução proposta combina centralização operacional com preservação da expertise setorial: cria-se um órgão
+central para a coordenação e execução do licenciamento e da fiscalização integrados; instaura-se um colegiado recursal especializado em poder
+de polícia administrativa; e mantém-se, na competência das secretarias finalísticas, a formulação de políticas, a normatização específica e o
+conhecimento técnico setorial. A arquitetura é tripartite — SUFIS, JURPA, secretarias finalísticas —, com fluxos institucionais claros entre os
+três pólos.
+2. Superintendência Municipal de Fiscalização Integrada — SUFIS
+A SUFIS é instituída como órgão auxiliar da Secretaria de Governo, na qualidade de órgão central do Licenciamento Integrado Municipal,
+dotada de autonomia técnica no exercício de suas atribuições. Suas competências, fixadas no art. 5º, § 5º, da Lei Complementar nº 1.000/2025
+com a redação dada pela minuta da Lei Complementar SUFIS/JURPA, abrangem: a coordenação, execução e operacionalização do LIM,
+incluindo a análise técnica documental e a emissão dos atos públicos de liberação; o planejamento, a coordenação e a execução das ações
+integradas de fiscalização de policiamento urbano; a realização de vistorias e ações de fiscalização de campo, multidisciplinares, pelos fiscais
+municipais nela lotados; a aplicação das sanções administrativas previstas na legislação setorial; a operacionalização da plataforma tecnológica
+de integração; a resolução de conflitos de competência entre as áreas de licenciamento e fiscalização; a edição de instruções normativas
+operacionais; a capacitação contínua dos fiscais e analistas; a elaboração anual do plano de fiscalização e dos relatórios estatísticos e gerenciais;
+a promoção de campanhas educativas; e a utilização de tecnologias de monitoramento remoto, observada a Lei Geral de Proteção de Dados.
+O Superintendente Municipal de Fiscalização Integrada será nomeado pelo Prefeito, dentre cidadãos com notório conhecimento em matéria de
+liberdade econômica, ordenamento urbano ou gestão pública. Os cargos em comissão necessários ao funcionamento da SUFIS serão providos
+mediante remanejamento de cargos existentes na estrutura dos órgãos cujas atribuições de licenciamento e fiscalização forem para ela
+transferidas, nos termos do art. 47 da Lei Complementar nº 1.000/2025, sem alteração dos quantitativos totais e, portanto, sem aumento de
+despesa com pessoal.
+TCO em 48 meses
+R$ 4.112.040,00
+R$ 10.512.000,00
+Diferença em 48 meses
+—
+R$ 6.399.960,00 (+155%)
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 10
+3. Junta Revisora de Penalidades Administrativas — JURPA
+A JURPA é instituída como órgão colegiado de caráter permanente, dotado de autonomia decisória, vinculado à SUFIS, destinado a processar e
+julgar o contencioso administrativo decorrente do exercício do poder de polícia no âmbito do Município, abrangendo multas, interdições,
+apreensões, suspensão ou cassação de alvarás e licenças, embargos, demolições e demais penalidades de natureza administrativa previstas na
+legislação municipal de policiamento urbano. Excluem-se de sua competência o contencioso tributário e as penalidades de trânsito tipificadas no
+Código de Trânsito Brasileiro.
+A composição da JURPA dá-se em duas estruturas: as Câmaras Temáticas, competentes para o julgamento em primeira instância recursal,
+organizadas por área de poder de polícia (ambiental, sanitária, posturas, obras, transportes), e o Plenário, competente para o julgamento em
+segunda e última instância administrativa, com competência recursal das decisões das Câmaras e prerrogativa de editar súmulas
+administrativas para uniformização de entendimentos. Os membros são designados pelo Prefeito, dentre cidadãos com formação jurídica ou
+notório saber na matéria de julgamento, e fazem jus a jeton de cinco UPFs por sessão de julgamento de que efetivamente participem —
+modalidade de remuneração que, nos termos da Lei de Responsabilidade Fiscal, não compõe despesa de pessoal. Os procedimentos de
+interposição, instrução e julgamento de recursos, os prazos processuais e demais regras de funcionamento serão disciplinados em regimento
+interno aprovado por decreto do Poder Executivo.
+A criação da JURPA opera, ainda, a transferência do contencioso atualmente conduzido por colegiados setoriais — em particular o Conselho de
+Recursos Fiscais do órgão gestor das Posturas Urbanas, instituído pelo art. 239 da LC nº 873/2021, e as julgadorias monocráticas do Gestor da
+Vigilância Sanitária, previstas no art. 98 da Lei nº 1.562/2003. Os processos com instrução concluída até a data de instalação da JURPA serão
+julgados pelo órgão colegiado originalmente competente, no prazo de noventa dias; os processos pendentes de instrução serão redistribuídos à
+JURPA. A continuidade do Conselho Municipal de Meio Ambiente — COMDEMA — é preservada no exercício de suas demais competências
+legais, cessada apenas sua competência contenciosa em matéria de policiamento ambiental.
+4. Articulação com o Grupo Funcional dos Fiscais Municipais — GFISC
+O Anexo de atribuições da Lei Complementar nº 391/2010 é alterado pela minuta da Lei Complementar SUFIS/JURPA para fixar a lotação dos
+cargos de Fiscal Municipal de Meio Ambiente, de Obras, de Posturas, de Transportes, de Vigilância Sanitária e de Tributos na SUFIS. A
+redistribuição dos fiscais para a SUFIS é movimento institucional, e não pessoal: os servidores permanecem como efetivos do Município, na
+mesma carreira (GFISC), no mesmo regime previdenciário (Regime Próprio de Previdência Social — IPAM) e na mesma estrutura
+remuneratória, sem alteração de vencimentos, gratificações, direitos ou vantagens, conforme expresso no art. 10, § 3º, da minuta. A
+redistribuição amplia a capacidade operacional dos fiscais, ao habilitá-los a atuar de forma multidisciplinar em ações integradas, sob
+coordenação unificada e com utilização compartilhada da plataforma tecnológica.
+O cadastramento da estrutura de vigilância sanitária no Sistema de Cadastro Nacional de Estabelecimentos de Saúde (SCNES) e a alimentação
+do Sistema de Informação Ambulatorial (SIA/SUS), conforme portarias do Ministério da Saúde, são preservados, com a SUFIS atuando como
+entidade executora de licenciamento e fiscalização nas qualidades de integrante do Sistema Nacional de Vigilância Sanitária (SNVS) e do
+Sistema Nacional de Meio Ambiente (SISNAMA), na forma do art. 17 do Marco Legal.
+5. Articulação com as secretarias finalísticas
+A centralização operacional na SUFIS preserva integralmente a competência política e técnica das secretarias finalísticas. A Secretaria
+Municipal do Meio Ambiente (SEMA) mantém a finalidade de formulação de políticas e diretrizes, gestão e implementação da política de
+proteção, conservação e melhoria do meio ambiente do Município, com a redação do art. 17-A da Lei Complementar nº 1.000/2025 ajustada pela
+minuta para refletir essa especialização. As demais secretarias setoriais permanecem como órgãos ambiental e sanitário capacitados para fins
+de integração ao SISNAMA e ao SNVS, preservando a competência de formulação de políticas públicas, normatização e emissão de normas
+técnicas em suas respectivas áreas de atuação. A representação institucional das secretarias setoriais nos colegiados consultivos previstos na lei
+de criação da SUFIS é assegurada na minuta.
+6. Tratamento institucional do Fiscal de Tributos
+O cargo de Fiscal Municipal de Tributos, integrante da carreira do GFISC, é alcançado pela redistribuição operada pela minuta da Lei
+Complementar SUFIS/JURPA, com lotação na SUFIS. A redistribuição encontra fundamento institucional consolidado: a Lei Complementar nº
+1.033/2025, ao alterar a LC nº 391/2010, já prevê a lotação do Fiscal de Tributos na secretaria responsável pela fiscalização do alvará de
+funcionamento. Adicionalmente, o Parecer SEI nº 0414907 da Procuradoria-Geral do Município, assinado por sete autoridades, dentre as quais o
+Secretário Municipal de Economia, o Procurador-Geral e o Secretário de Governo, registra perante o Tribunal de Contas do Estado de Rondônia
+que o cargo de Fiscal de Tributos não integra a Administração Tributária em sentido estrito, dedicando-se à fiscalização do poder de polícia
+administrativa em matéria de alvará de funcionamento. A redistribuição proposta é, portanto, conforme à arquitetura institucional já
+consolidada, sem inovação que demande nova manifestação institucional.
+PARTE VI — IMPLEMENTAÇÃO, CUSTOS E INDICADORES
+1. Plano de implementação
+A implementação da reforma observa duas camadas distintas, regidas por lógicas diferentes. A primeira camada, denominada pré-publicação,
+abrange os atos sob plena governabilidade do Senhor Prefeito Municipal, anteriores à sanção das duas leis complementares; a segunda camada,
+denominada pós-publicação, abrange os atos cuja prática observa prazos já fixados nas próprias minutas, e nos quais o Relatório se limita a
+remeter aos prazos legais.
+1.1. Camada A — atos pré-publicação
+Sob plena governabilidade do Executivo, o Grupo de Trabalho recomenda a seguinte sequência de atos:
+•
+Encaminhamento conjunto e simultâneo dos dois anteprojetos (Marco Legal e LC SUFIS/JURPA) à Câmara Municipal, com exposição de
+motivos articulada — solução que neutraliza o risco de descontinuidade procedimental apontado pelo membro André Henrique e preserva a
+coerência da reforma.
+•
+Designação, por ato administrativo do Poder Executivo, de coordenação provisória do LIM, na forma do art. 45, § 2º, do Marco Legal e do
+art. 10, § 2º, da LC SUFIS/JURPA, até a plena instalação da SUFIS.
+•
+Instauração, pela Procuradoria-Geral do Município, do procedimento de análise da inexigibilidade prevista no art. 74 da Lei nº
+14.133/2021 para a contratação do SLIN, com a instrução processual já completa no Processo SEI nº 020.001593/2025-50.
+•
+Aguardo da deliberação do Conselho Gestor do FEMAT sobre a viabilidade de participação proporcional no custeio da plataforma, na
+forma do Ofício nº 1011/2026/SEMEC-DEF.
+1.2. Camada B — atos pós-publicação
+Após a sanção das leis complementares, observam-se os prazos já fixados nas próprias minutas, sem que o Grupo recomende prazos próprios. O
+quadro a seguir consolida os prazos legais aplicáveis:
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 11
+2. Quadro de custos
+O quadro de custos da reforma estrutura-se em três blocos: custos estruturais permanentes, custos de implantação e custos da plataforma SLIN,
+com a tese de fundo de que o custo estrutural permanente é próximo a zero.
+2.1. Custos estruturais permanentes — próximos a zero
+A criação da SUFIS opera mediante remanejamento dos cargos comissionados existentes na estrutura dos órgãos cujas atribuições de
+licenciamento e fiscalização lhe são transferidas, sem alteração dos quantitativos totais constantes do Anexo I da Lei Complementar nº
+1.000/2025. A redistribuição dos fiscais municipais — Fiscais de Meio Ambiente, Obras, Posturas, Transportes, Vigilância Sanitária e Tributos —
+observa o art. 10, § 3º, da minuta, segundo o qual não há alteração de vencimentos, gratificações, direitos ou vantagens dos servidores. Os
+equipamentos básicos de trabalho dos servidores remanejados (computadores, mobiliário e demais bens) acompanham o servidor na
+transferência institucional, sem implicação de novas aquisições.
+Quanto à JURPA, a remuneração de seus membros se dá exclusivamente por jeton, no valor de cinco UPFs por sessão efetivamente participada,
+modalidade que, nos termos consolidados pela jurisprudência do Tribunal de Contas e pela doutrina da Lei de Responsabilidade Fiscal, não
+integra a despesa de pessoal — equiparando-se aos honorários de outros conselhos municipais de natureza similar. Os custos de secretaria,
+protocolo e apoio administrativo são absorvidos pela própria SUFIS, sem necessidade de estrutura paralela.
+2.2. Custos de implantação a apurar
+Três rubricas de custos de implantação não estruturais devem ser dimensionadas pela Administração na fase de implantação, e não são
+quantificáveis pelo Grupo de Trabalho dada a natureza específica de cada item: (i) o aluguel do imóvel destinado à acomodação física da SUFIS,
+a ser apurado pela Secretaria Municipal de Administração (SEMAD) segundo a oferta imobiliária no mercado local e a metragem requerida para
+a equipe consolidada; (ii) a instalação da rede lógica do imóvel, a ser apurada pela SMTI segundo o projeto de infraestrutura e o número de
+pontos de rede necessários; e (iii) o material de expediente para o início das operações, a ser apurado pela SUFIS provisória segundo o
+cronograma de implantação. À exceção do custo de aluguel, caso opte por uma locação imobiliária, os custos têm caráter pontual, não
+integrando a estrutura de despesa permanente, e não comprometem a tese de “custo estrutural próximo a zero”.
+2.3. Custos da plataforma SLIN
+O custo mensal da plataforma SLIN é de R$ 85.667,50, totalizando R$ 4.112.040,00 em 48 meses. Conforme exposto na Parte IV, item 4, parcela
+das funcionalidades atende diretamente à Administração Tributária, fundamentando a provocação institucional ao Conselho Gestor do FEMAT,
+pelo Ofício nº 1011/2026/SEMEC-DEF, para avaliação da viabilidade de participação proporcional no custeio. A definição do percentual de rateio
+compete ao Conselho Gestor, na forma do art. 3º, incisos I, II e VI, da Lei Complementar nº 690/2017, com redação dada pela Lei Complementar
+nº 1.006/2025, com base em metodologia objetiva e auditável.
+2.4. Custos evitados
+A escolha do SLIN, em detrimento da alternativa Aprova/BB Governo Digital, evita despesa de R$ 6.399.960,00 em quarenta e oito meses,
+conforme matriz comparativa aprovada na 10ª Reunião Ordinária. A diferença, por si só, supera consideravelmente o universo de custos de
+implantação a apurar, fundamentando a sustentabilidade financeira da reforma.
+3. Indicadores de monitoramento
+O Grupo de Trabalho propõe, à Administração Municipal, conjunto de indicadores objetivos para o monitoramento ex post da reforma. Os
+indicadores são apresentados como sugestão, com baselines apurados ou estimados pelo Grupo e metas para seis e doze meses fundadas em
+parâmetros de benchmarking, ficando reservada à Administração a competência para revisitar baselines, ajustar metas e definir a periodicidade
+de aferição. Recomenda-se que o COMSIM seja a instância colegiada de acompanhamento do conjunto.
+4. Antecipação de questionamentos
+Reformas de larga escala enfrentam objeções previsíveis, cujo enfrentamento técnico antecipado favorece a tramitação ordenada das
+proposições. O Grupo de Trabalho registra, a seguir, as respostas técnicas às objeções de maior probabilidade:
+Ato
+Prazo legal
+Fundamento
+Plano de implantação da SUFIS e da JURPA
+120 dias
+LC SUFIS/JURPA, art. 10
+Decreto regulamentador do Marco Legal
+90 dias
+Marco Legal, art. 44
+Decreto da matriz de classificação de risco
+90 dias
+Marco Legal, art. 8º
+Regimento interno da JURPA
+decreto regulamentador
+LC SUFIS/JURPA, art. 6º, § 7º
+Projeto de lei de atualização dos códigos setoriais
+180 dias
+Marco Legal, art. 41
+Consolidação das normas infralegais
+12 meses
+Marco Legal, art. 42, § 4º
+Encerramento do regime transitório
+publicação do regulamento +
+operacionalização da plataforma
+Marco Legal, art. 46, § 2º
+Indicador
+Baseline 2026
+Meta 6 meses
+Meta 12 meses
+Consulta prévia de viabilidade locacional
+24 horas
+≤ 12 horas
+Imediato (automatizado)
+Atos de liberação para baixo risco
+Imediato (dispensa)
+Manter, ampliando base
+Manter, ampliando base
+Atividades dispensadas (% sobre 1.332)
+39,2% (522)
+≥ 45%
+≥ 50%
+Médio risco — alvará definitivo
+12 meses
+Imediato (autodeclaração)
+Imediato (autodeclaração)
+Alto risco — emissão do ato de liberação
+12 meses
+≤ 60 dias
+≤ 45 dias
+Decisões finais dentro do prazo legal
+≈ 5%
+50%
+80%
+Satisfação do usuário externo
+22,5%
+50%
+70%
+Aprovação geral do LIM
+≈ 0%
+30%
+70%
+Objeção previsível
+Resposta técnica
+“A reforma cria nova burocracia.”
+A SUFIS opera por remanejamento — não cria cargos novos, não amplia o
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 12
+5. Plano de comunicação institucional
+Recomenda-se que a Administração, por intermédio da Assessoria de Comunicação da Prefeitura, articule plano de comunicação institucional
+para os quatro públicos relevantes da reforma: os servidores municipais — em especial os fiscais do GFISC, com ênfase na preservação integral
+dos direitos, vencimentos e gratificações; os empresários, contadores e despachantes — com ênfase nas inovações de simplificação (silêncio
+positivo, dupla visita orientadora, AFC, store-in-store) e nos novos prazos; os vereadores municipais — com ênfase na fundamentação técnica da
+reforma, no conjunto de indicadores e na metodologia de elaboração das minutas; e a sociedade em geral, por meio dos canais ordinários de
+imprensa institucional, com ênfase no impacto sobre o ambiente de negócios e a qualidade do serviço público.
+A comunicação aos servidores merece especial cuidado e antecedência. A redistribuição operacional, embora não afete direitos individuais, será
+sensível institucionalmente. O sucesso da implementação depende, em significativa medida, da adesão dos servidores à nova arquitetura, e a
+comunicação oportuna e transparente é instrumento crítico de mitigação dessa sensibilidade.
+PARTE VII — RECOMENDAÇÕES AO SENHOR PREFEITO MUNICIPAL
+Concluídos os trabalhos do Grupo de Trabalho e consolidados os produtos técnicos, formulam-se ao Senhor Prefeito Municipal as
+recomendações que seguem, organizadas em quatro blocos. Os blocos respeitam a competência decisória do Executivo e a hierarquia entre os
+atos de governo aplicáveis.
+1. Atos de imediata pertinência
+Recomenda-se ao Senhor Prefeito a prática dos seguintes atos, na fase pré-publicação das leis complementares:
+•
+Encaminhamento conjunto e simultâneo, à Câmara Municipal, dos anteprojetos do Marco Legal de Liberdade Econômica e da Lei
+Complementar de criação da SUFIS e da JURPA, acompanhados de exposição de motivos articulada que enfatize a complementaridade entre os
+dois diplomas.
+•
+Designação formal, por ato administrativo, de coordenação provisória do Licenciamento Integrado Municipal, com mandato até a plena
+instalação da SUFIS, conforme o art. 45, § 2º, do Marco Legal e o art. 10, § 2º, da LC SUFIS/JURPA.
+•
+Determinação à Procuradoria-Geral do Município, por meio do canal institucional próprio, de elaboração de parecer sobre o
+enquadramento da contratação do SLIN por inexigibilidade, mediante aditamento do
+Convênio com a JUCER para
+uso do sistema
+integrador
+estadual,
+na forma do art. 74 da Lei nº 14.133/2021, observada a instrução processual completa constante do Processo SEI nº 020.001593/2025-
+50.
+•
+Articulação com a Secretaria Municipal de Economia para o acompanhamento da deliberação do Conselho Gestor do FEMAT sobre a
+viabilidade de participação proporcional no custeio da plataforma SLIN, em resposta ao Ofício nº 1011/2026/SEMEC-DEF.
+2. Atos a serem praticados após a publicação das leis complementares
+Após a sanção e publicação das duas leis complementares, observam-se os prazos legais fixados nas próprias minutas. O Grupo de Trabalho, por
+respeito à competência regulamentar do Executivo, limita-se a indicar a sequência sugerida dos atos infralegais, sem propor prazos próprios:
+•
+Edição do regulamento geral do Marco Legal (decreto), no prazo legal de noventa dias contados da publicação da lei (art. 44 do Marco
+Legal).
+•
+Edição do decreto da matriz de classificação de risco, no prazo legal de noventa dias (art. 8º do Marco Legal).
+•
+Edição do regimento interno da JURPA por decreto do Poder Executivo (art. 6º, § 7º, da LC SUFIS/JURPA), e do plano de implantação da
+SUFIS e da JURPA no prazo legal de cento e vinte dias (art. 10 da LC SUFIS/JURPA).
+•
+Encaminhamento à Câmara Municipal do projeto de lei de atualização dos códigos setoriais (Código de Meio Ambiente, Código de
+Posturas Urbanas, Código de Vigilância Sanitária, Código de Obras e Edificações), no prazo legal de cento e oitenta dias (art. 41 do Marco
+Legal).
+•
+Consolidação das normas infralegais vigentes editadas pelos órgãos municipais de poder de polícia, no prazo legal de doze meses (art. 42,
+§ 4º, do Marco Legal).
+3. Pendências externas à competência o Grupo de Trabalho
+Três encaminhamentos extrapolam a competência do colegiado e dependem de manifestação institucional autônoma:
+•
+O parecer da Procuradoria-Geral do Município sobre o enquadramento da contratação do SLIN por inexigibilidade — ato vinculado à
+quantitativo total de cargos comissionados, não exige concurso adicional. Todas as
+funções absorvidas já existem na estrutura municipal, hoje fragmentadas; a reforma
+reduz, e não amplia, a complexidade institucional.
+“A reforma centraliza demais e enfraquece as
+secretarias setoriais.”
+As secretarias finalísticas mantêm integralmente a competência política, normativa e
+técnica; o que é centralizado é apenas a coordenação operacional do licenciamento e
+da fiscalização. As Câmaras Temáticas da JURPA, organizadas por área setorial,
+preservam a expertise especializada nas decisões recursais.
+“É inviável implementar tudo isso.”
+O cronograma é segmentado em prazos crescentes (90, 120 e 180 dias), articulados
+nas próprias minutas. A operação concomitante SLIN/SUL e a coordenação
+provisória do LIM, prevista expressamente, asseguram continuidade do serviço
+durante a transição. O modelo é o já implementado, com sucesso, em municípios
+como Belo Horizonte (SUFIS) e Fortaleza (AGEFIS).
+“A inexigibilidade pode ser questionada.”
+A condição de inexigibilidade é institucionalmente demonstrável: a Vox/JUCER opera
+o integrador estadual da REDESIM. Não se trata de exclusividade contratual
+conferida arbitrariamente, mas de exclusividade material decorrente da arquitetura
+federativa da REDESIM. A instrução processual está completa, e o ato administrativo
+é condicionado a parecer prévio favorável da PGM.
+“As gratificações do GT.”
+O regime das gratificações observa estritamente o art. 76 da LC nº 385/2010 e o
+Decreto nº 21.456/2025. As prestações mensais de contas estão regularmente
+registradas no Processo SEI nº 020.001298/2026-84, com a substantividade
+documental dos seis relatórios parciais.
+“O remanejamento de cargos.”
+O remanejamento observa o art. 47 da LC nº 1.000/2025, sem alteração dos
+quantitativos totais e sem aumento de despesa com pessoal. Os direitos individuais
+dos servidores são integralmente preservados pelo art. 10, § 3º, da minuta da LC
+SUFIS/JURPA.
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 13
+instrução já completa, cuja tramitação independe de novo concurso de elementos.
+•
+A deliberação do Conselho Gestor do FEMAT sobre a viabilidade de participação proporcional no custeio da plataforma — ato sob a
+competência específica do Conselho, com base em metodologia técnica de rateio.
+•
+A apreciação dos anteprojetos pela Câmara Municipal de Porto Velho, observado o procedimento legislativo ordinário das leis
+complementares municipais.
+4. Sugestão de governança da fase de implantação
+Sugere-se ao Senhor Prefeito que, no ato da designação da coordenação provisória do LIM, considere a criação de comitê de acompanhamento
+da implantação, com participação institucional da SGOV, da SEMEC, da SMTI, da SEMA, da SEINFRA e demais órgãos diretamente impactados
+pela reforma. O comitê funcionaria como fórum de monitoramento e ajustes finos durante o período de transição, com reuniões periódicas,
+registro formal de decisões e prestação de contas trimestral ao Gabinete. A continuidade desse comitê pelo prazo de até vinte e quatro meses,
+equivalente ao termo inicial da contratação do SLIN, asseguraria a sustentação institucional do projeto na fase mais crítica de seu ciclo.
+Recomenda-se, ainda, que a coordenação provisória do LIM seja exercida por servidor com perfil técnico-institucional adequado à matéria —
+preferencialmente integrante do próprio Grupo de Trabalho ora encerrado, em razão do conhecimento acumulado ao longo dos cento e oitenta
+dias de trabalhos —, ou, alternativamente, por servidor com igual familiaridade técnica indicado pela SGOV.
+PARTE VIII — CONSIDERAÇÕES FINAIS
+1. Lições aprendidas e recomendações institucionais
+O percurso do Grupo de Trabalho, ao longo dos cento e oitenta dias de vigência, oferece lições institucionais que podem ser de utilidade para a
+constituição de futuros colegiados municipais com objetivos análogos:
+•
+A estratégia de paralelismo entre eixos — adotada na 8ª Reunião Ordinária — foi determinante para a recuperação do tempo consumido
+pelo recesso administrativo e para a interlocução técnica cruzada entre as proposições normativas, tecnológicas e organizacionais.
+•
+A pesquisa documental direta superou, em efetividade, o benchmarking online, cuja taxa de retorno foi residual. A análise direta de
+legislação, sistemas, portais
+online
+e estudos técnicos disponíveis demonstrou-se mais produtiva, com aderência metodológica à matéria objeto
+do Grupo.
+•
+A designação formal de um Coordenador com tempo dedicado à matéria é elemento crítico de cadência. O regime de gratificação previsto
+na LC nº 385/2010, condicionado à apresentação tempestiva de relatório parcial, conferiu disciplina à entrega e robustez à prestação de contas.
+•
+A construção colaborativa das proposições, com discussão coletiva precedendo a redação técnica, produziu apropriação institucional dos
+produtos pelos membros e qualidade técnica superior à que se obteria por redação solitária seguida de mera ratificação.
+•
+A documentação processual rigorosa no Sistema Eletrônico de Informações, com registro formal de todas as deliberações, atas, ofícios e
+relatórios parciais, conferiu rastreabilidade integral aos trabalhos e proporciona, ao destinatário deste Relatório Final, base documental sólida
+para a fase de implementação.
+2. Encerramento
+O Grupo de Trabalho encerra seus trabalhos com a entrega do presente Relatório Final, em estrito cumprimento do mandato fixado pelos
+Decretos Municipais nº 21.456/2025 e nº 21.730/2026. A integralidade dos produtos consolidados — diagnóstico, pesquisa de boas práticas,
+marco legal substantivo, marco legal institucional, recomendação tecnológica fundamentada, plano de implementação, indicadores de
+monitoramento e antecipação de questionamentos — encontra-se à disposição do Senhor Prefeito Municipal e dos órgãos institucionais
+subsequentes para a tramitação ordinária dos atos de governo recomendados.
+Os membros do colegiado registram seus agradecimentos institucionais ao Senhor Prefeito Municipal, pela confiança depositada na constituição
+do Grupo, e às respectivas Secretarias e órgãos de origem, pelo apoio técnico e operacional ao longo dos cento e oitenta dias de trabalhos.
+Registram, ainda, reconhecimento mútuo entre os membros, pelo rigor técnico, pela urbanidade no debate e pela disposição construtiva à
+divergência fundamentada — atributos sem os quais a complexidade da matéria tratada não teria recebido o tratamento institucional devido.
+O Município de Porto Velho dispõe, nesta data, das condições normativas, tecnológicas e institucionais para implementar reforma estrutural do
+seu sistema de licenciamento, com efeitos mensuráveis sobre o ambiente de negócios local, a eficiência da gestão pública e a satisfação do
+cidadão e do empreendedor com o serviço público municipal. A consecução desses efeitos depende, doravante, dos atos de governo
+subsequentes recomendados na Parte VII.
+ASSINATURAS DOS MEMBROS DO GRUPO DE TRABALHO
+ROMULO BARBOSA MALTEZ
+Coordenador do Grupo de Trabalho
+Matrícula nº 249.161
+HUÉLITON MENDES RODRIGUES
+Membro — SEINFRA
+Matrícula nº 52.283
+FELIPE SANTIAGO SAMPAIO
+Membro — SEMA
+Matrícula nº 314.948
+ANTÔNIO MARREIROS DE SOUZA NETO
+Membro — SEMEC
+Matrícula nº 33.118
+CEZAR EDUARDO DONDONI MARINI
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 14
+Membro — SMTI
+Matrícula nº 10.078.190
+ANDRÉ HENRIQUE DA SILVA SANTOS
+Membro — SMTI
+Matrícula nº 10.079.096
+JEOVÁ LIMA D'AVILA JÚNIOR
+Membro — SGOV
+Matrícula nº 10.078.299
+VALDIR ANTÔNIO VARGAS JUNIOR
+Membro — ARDPV
+Matrícula nº 00.006
+QUADRO DE PRODUTOS E REFERÊNCIAS
+1. Produtos consolidados pelo Grupo de Trabalho
+Nota institucional.
+A integralidade da documentação produzida pelo Grupo de Trabalho consta dos Processos SEI nº 020.001593/2025-50
+(documentação técnica e operacional) e nº 020.001298/2026-84 (prestação de contas), aos quais este Relatório Final faz expressa remissão para
+fins de instrução processual. Não há, portanto, anexos físicos ao presente documento, dado que toda a documentação encontra-se
+eletronicamente disponível nos referidos processos administrativos.
+Documento assinado eletronicamente por
+Romulo Barbosa Maltez
+,
+Diretor(a)
+, em 04/05/2026, às 09:35, conforme art. 17, § 1º, do
+Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por
+André Henrique da Silva Santos
+,
+Diretor(a)
+, em 04/05/2026, às 09:56, conforme art. 17, § 1º,
+do Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por
+Cezar Eduardo Dondoni Marini
+,
+Superintendente
+, em 04/05/2026, às 10:06, conforme art. 17,
+§ 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por
+Antônio Marreiros de Souza Neto
+,
+Gerente
+, em 04/05/2026, às 10:09, conforme art. 17, § 1º, do
+Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por
+Valdir Antônio de Vargas Júnior
+,
+Diretor(a)
+, em 04/05/2026, às 10:41, conforme art. 17, § 1º,
+do Decreto nº 21.393, de 07 de outubro de 2025.
+Produto
+Localização / Referência
+Marco Legal de Liberdade Econômica
+— versão final (48 artigos, 5 Títulos)
+Processo SEI nº 020.001593/2025-50; versão editável:
+docs.google.com/document/d/1wTby80DL8GgR4YEswIWmpzr3mSa4VAhQPAkaziv5N8I
+LC de criação da SUFIS e da JURPA
+— versão final (12 artigos)
+Processo SEI nº 020.001593/2025-50; versão editável:
+docs.google.com/document/d/1sKC6pg7cTWTl5tIM1ZMmm5U_W6Qi-uCzOzpgdWrVQvY
+Matriz analítica de revogação da LC
+nº 906/2022
+Anexo I à Ata da 19ª Reunião Ordinária — Processo SEI nº 020.001593/2025-50
+Matriz comparativa SLIN × Aprova (7
+blocos)
+Acostada à Ata nº 010/2026 — Processo SEI nº 020.001593/2025-50
+Análise consolidada dos diagnósticos
+interno e externo
+Documento técnico de 40 páginas — Processo SEI nº 020.001593/2025-50
+Dashboard de gráficos estatísticos
+8 gráficos analíticos e 7 tabelas de dados — Processo SEI nº 020.001593/2025-50
+Relatório complementar de
+diagnóstico interno
+Entregue na 6ª Reunião Ordinária — Processo SEI nº 020.001593/2025-50
+Plano de Trabalho Ajustado
+SEI 0481642 — Processo SEI nº 020.001593/2025-50
+Atas das 19 Reuniões Ordinárias
+SEI nº 020.001593/2025-50 (atas 001/2025 a 019/2026)
+6 Relatórios Parciais
+Processo SEI nº 020.001298/2026-84
+Ofício nº 1011/2026/SEMEC-DEF
+(FEMAT)
+SEI 0807344 — Processo SEI nº 020.004360/2026-90
+Proposta Comercial Vox nº 4/2026
+(SLIN)
+Processo SEI nº 020.001593/2025-50
+Manifestação técnica da SMTI sobre
+sistemas adicionais
+Apresentada na 11ª Reunião Ordinária — Processo SEI nº 020.001593/2025-50
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 15
+Documento assinado eletronicamente por
+Jeova Lima D'avila Junior
+,
+Assessor(a)
+, em 04/05/2026, às 12:58, conforme art. 17, § 1º, do
+Decreto nº 21.393, de 07 de outubro de 2025.
+A autenticidade do documento pode ser conferida no site https://www.portovelho.ro.gov.br/sei informando o código verificador
+0862102
+e o
+código CRC
+8E30FA70
+.
+020.001593/2025-50
+0862102v4
+Relatório Final (0862102) SEI 020.001593/2025-50 / pg. 16
