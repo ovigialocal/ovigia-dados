@@ -1,0 +1,69 @@
+name: Daily Datasets ETL & Detectors
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Executa diariamente às 04:00 UTC
+  workflow_dispatch:
+    inputs:
+      snapshot_id:
+        description: 'Identificador do snapshot (ex: 2026-09)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  contracts-etl:
+    name: Contracts Acquisition, Normalization & Detectors
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv python install 3.11
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run Contracts Pipeline
+        run: |
+          SNAP="${{ inputs.snapshot_id }}"
+          if [ -z "$SNAP" ]; then
+            SNAP=$(date -u +%Y-%m)
+          fi
+          uv run python scripts/datasets/run_contracts_pipeline.py --snapshot-id "$SNAP" --output-dir data/output/contracts
+
+      - name: Upload Snapshot Parquet Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: contracts-snapshot-artifacts
+          path: data/output/contracts/
+          retention-days: 30
+
+      - name: Publish to Internet Archive
+        if: env.IA_ACCESS_KEY != '' && env.IA_SECRET_KEY != ''
+        env:
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+        run: |
+          echo "Publicando snapshot verificado no Internet Archive..."
+          uv run python -c "
+          from pathlib import Path
+          from ovigia_dados.archive.publisher import publish_snapshot_to_internet_archive
+          from ovigia_dados.schemas import SnapshotManifest
+          import json
+
+          out_dir = Path('data/output/contracts')
+          manifest_data = json.loads((out_dir / 'manifest.json').read_text(encoding='utf-8'))
+          manifest = SnapshotManifest(**manifest_data)
+          item_id = f'ovigia-dados-contratos-federais-{manifest.snapshot_id}'
+          files = [out_dir / 'contracts.parquet', out_dir / 'manifest.json', Path('datasets/contracts/dictionary.md'), Path('datasets/contracts/catalog.sql')]
+          publish_snapshot_to_internet_archive(item_id, files, manifest)
+          "

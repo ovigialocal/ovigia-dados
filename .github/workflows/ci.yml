@@ -1,0 +1,46 @@
+name: CI / Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Lint, Test & Validate Schemas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv python install 3.11
+
+      - name: Install dependencies
+        run: uv sync --dev
+
+      - name: Run Ruff Linter & Format Check
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+
+      - name: Run Pytest Suite
+        run: uv run pytest -v --cov=ovigia_dados
+
+      - name: Validate DuckDB Schemas & SQL Contracts
+        run: |
+          uv run python -c "
+          import duckdb
+          con = duckdb.connect(':memory:')
+          with open('datasets/contracts/schema.sql', 'r', encoding='utf-8') as f:
+              con.execute(f.read())
+          print('Schema SQL validado com sucesso no DuckDB.')
+          "

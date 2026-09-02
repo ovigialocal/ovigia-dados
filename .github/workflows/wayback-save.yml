@@ -1,0 +1,58 @@
+name: Wayback Machine Preservation
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL única para salvar no Wayback Machine'
+        required: true
+        type: string
+  workflow_call:
+    inputs:
+      url:
+        description: 'URL única para salvar no Wayback Machine'
+        required: false
+        type: string
+      url_file:
+        description: 'Caminho do arquivo com URLs para arquivar'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  wayback-save:
+    name: Save to Wayback Machine
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv python install 3.11
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Archive URL (Single)
+        if: ${{ inputs.url != '' }}
+        run: |
+          uv run python -m ovigia_dados.wayback.save --url "${{ inputs.url }}" --output-report wayback-report.json
+
+      - name: Archive URLs (File)
+        if: ${{ inputs.url_file != '' }}
+        run: |
+          uv run python -m ovigia_dados.wayback.save --file "${{ inputs.url_file }}" --output-report wayback-report.json
+
+      - name: Upload Preservation Report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wayback-preservation-report
+          path: wayback-report.json
+          if-no-files-found: ignore
