@@ -1,6 +1,10 @@
 name: Wayback Machine Preservation
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "requests/wayback/**"
   workflow_dispatch:
     inputs:
       url:
@@ -22,6 +26,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: wayback-preservation
+  cancel-in-progress: false
 
 jobs:
   wayback-save:
@@ -46,16 +54,22 @@ jobs:
       - name: Define immutable evidence path
         run: echo "WAYBACK_REPORT=raw/wayback/runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json" >> "$GITHUB_ENV"
 
-      - name: Archive URL
-        if: ${{ inputs.url != '' }}
+      - name: Archive URL from dispatch/call
+        if: ${{ github.event_name != 'push' && inputs.url != '' }}
         run: uv run scripts/wayback/save.py --url "${{ inputs.url }}" --output-report "$WAYBACK_REPORT"
 
-      - name: Archive URL file
-        if: ${{ inputs.url == '' && inputs.url_file != '' }}
+      - name: Archive URL file from dispatch/call
+        if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file != '' }}
         run: uv run scripts/wayback/save.py --file "${{ inputs.url_file }}" --output-report "$WAYBACK_REPORT"
 
-      - name: Require an input
-        if: ${{ inputs.url == '' && inputs.url_file == '' }}
+      - name: Drain versioned request files after merge
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          cat requests/wayback/*.txt > /tmp/wayback-urls.txt
+          uv run scripts/wayback/save.py --file /tmp/wayback-urls.txt --output-report "$WAYBACK_REPORT"
+
+      - name: Require dispatch/call input
+        if: ${{ github.event_name != 'push' && inputs.url == '' && inputs.url_file == '' }}
         run: |
           echo "Provide url or url_file" >&2
           exit 2
