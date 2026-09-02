@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://servicos.portovelho.ro.gov.br/semec/refis",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902194253/https://servicos.portovelho.ro.gov.br/semec/refis",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T19:55:32Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33676178934-1/f20a017aad23a90c1643c50855539ccb2f5a836e3680f12ed8c3bd23dfac783e.html",
+    "snapshot_fetch_error": null
+  }
+]
