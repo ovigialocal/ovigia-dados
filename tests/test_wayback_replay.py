@@ -100,4 +100,7 @@ def test_existing_replay_report_is_append_only_and_not_refetched(tmp_path: Path)
     def should_not_fetch(_url: str, *, keep_text_body: bool = False) -> FetchEvidence:
         raise AssertionError("existing replay evidence must not be rewritten")
 
-    assert materialize_replay_evidence(tmp_path, fetch=should_not_fetch, result_paths={result_path}) == []
+    assert (
+        materialize_replay_evidence(tmp_path, fetch=should_not_fetch, result_paths={result_path})
+        == []
+    )
