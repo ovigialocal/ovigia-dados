@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://anexos.portovelho.ro.gov.br/contratos/4041/CONTRATO_029.PGM.2026___SISTEMMA_29_29_29_assinado.pdf",
+    "status": "verified",
+    "archive_url": "https://web.archive.org/web/20260902213358/https://anexos.portovelho.ro.gov.br/contratos/4041/CONTRATO_029.PGM.2026___SISTEMMA_29_29_29_assinado.pdf",
+    "http_status": 200,
+    "error_message": null,
+    "timestamp": "2026-09-02T21:38:59Z",
+    "attempted": true,
+    "reached_archive": true,
+    "archive_failure": false,
+    "snapshot_evidence_path": "raw/wayback/snapshots/33686255320-1/4059bbd218d85342f761ca0aa706173fe736b864c361709647428eca6e0aed5b.html",
+    "snapshot_fetch_error": null
+  },
+  {
+    "url": "https://www.diariomunicipal.com.br/arom/materia/66BE8ABB/03AFcWeA5OaoG1_RS8kSunoikOPFuKfOLdcCRZNHpMaBRk9Az95bjVFeXo3do",
+    "status": "infrastructure_error",
+    "archive_url": null,
+    "http_status": null,
+    "error_message": "<urlopen error [Errno 111] Connection refused>",
+    "timestamp": "2026-09-02T21:40:15Z",
+    "attempted": true,
+    "reached_archive": false,
+    "archive_failure": false,
+    "snapshot_evidence_path": null,
+    "snapshot_fetch_error": null
+  }
+]
