@@ -10,6 +10,13 @@ on:
       - ".github/workflows/wayback-save.yml"
   workflow_dispatch:
 
+# Results and replay evidence are append-only writes to main. Serializing the
+# worker prevents concurrent runs from generating the same replay paths and
+# colliding during the persistence rebase.
+concurrency:
+  group: wayback-preservation-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
