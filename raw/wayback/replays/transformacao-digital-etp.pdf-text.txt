@@ -1,0 +1,1633 @@
+ESTUDO TÉCNICO PRELIMINAR - ETP
+Nº0191212/2025 - SMTI-GAB
+Porto Velho, 11 de novembro de 2025.
+ESTUDO TÉCNICO PRELIMINAR (ETP)
+Nº 0153901/2025 - SMTI-GAB
+PROCESSO ADMINISTRATIVO Nº 003.000184/2025-44
+OBJETO: CONTRATAÇÃO DE CONSULTORIA TÉCNICA ESPECIALIZADA NA ACELERAÇÃO DA TRANSFORMAÇÃO DIGITAL DOS SERVIÇOS
+PÚBLICOS DO MUNICÍPIO DE PORTO VELHO
+Data: 31 de Outubro de 2025 (Reestruturado em 10 de novembro de 2025)
+Responsável: Erick Arruda Alves Saraiva e Luiz Felipe Ferreira Brito
+Cargo(s): Assessor Técnico I (Ambos)
+Matrícula: 263682 e 10074078
+E-mail:
+erick.saraiva@portovelho.ro.gov.br
+e
+luiz.brito@portovelho.ro.gov.br
+Telefone: (69) 3901-3048
+Órgão: Superintendência Municipal de Tecnologia da Informação e Pesquisa (SMTI)
+NOTA INTRODUTÓRIA:
+Este Estudo Técnico Preliminar foi reestruturado para atender às exigências do Decreto Municipal nº 20.964, de 07
+de maio de 2025 (Anexo XXVII) e às orientações da Análise Processual da Superintendência Municipal de Licitações -
+SML (e-doc. 0180616), mantendo integralmente o conteúdo técnico original elaborado pela SMTI, mas
+reorganizando-o segundo a estrutura padronizada exigida para processos de inexigibilidade de licitação.
+1. DESCRIÇÃO DO OBJETO
+Contratação de empresa especializada para prestação de consultoria técnica especializada na aceleração da
+transformação digital dos serviços públicos do Município de Porto Velho, com foco na modernização de processos,
+integração de sistemas, digitalização de serviços e criação de uma cultura de inovação na administração pública
+municipal.
+1.1. Especificação do Objeto
+O objeto compreende a contratação de consultoria técnica especializada para implementação de um programa
+abrangente de transformação digital, conforme metodologia e escopo detalhados na proposta técnica apresentada
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 1
+pela empresa LEGALTECH AI COMPANY LTDA (CNPJ nº 50.336.412/0001-75), denominada "Transformação Digital,
+do Zero ao Infinito" (e-doc. 0166390).
+1.2. Quantitativo
+O objeto é indivisível e compreende a prestação de serviço de consultoria técnica especializada, com as seguintes
+entregas principais:
+1.3. Unidade de Medida
+Serviço (contratação única, indivisível)
+1.4. Metodologia de Cálculo
+A metodologia de cálculo foi baseada na proposta técnica e comercial apresentada pela empresa especializada,
+considerando:
+Complexidade e abrangência do escopo de serviços
+Expertise técnica necessária
+Prazo de execução estimado
+Entregas esperadas
+Transferência de tecnologia e conhecimento
+2. DESCRIÇÃO DA NECESSIDADE DE CONTRATAÇÃO
+2.1. Análise da Situação Atual
+A administração municipal de Porto Velho enfrenta um cenário complexo e multifacetado de desafios estruturais que
+comprometem significativamente sua capacidade de entregar serviços públicos de qualidade à população. O
+diagnóstico situacional revela problemas sistêmicos que transcendem questões meramente tecnológicas, abrangendo
+aspectos organizacionais, processuais e culturais que demandam intervenção especializada e estruturada.
+A fragmentação operacional entre secretarias constitui o problema central identificado. Embora a administração
+municipal tenha investido em soluções tecnológicas importantes como o sistema FarmaPub, Meu Exame On,
+Matrículas Online, e-Saúde, e mais recentemente o Sistema Eletrônico de Informações (SEI) implementado em
+setembro de 2025, essas iniciativas permanecem operando de forma isolada e desarticulada.
+As estruturas organizacionais atuais não favorecem a transversalidade de informações entre secretarias, criando
+redundâncias operacionais custosas e desperdício sistemático de recursos humanos e tecnológicos. O cidadão, por
+sua vez, enfrenta uma experiência fragmentada e frustrante, sendo frequentemente obrigado a fornecer as mesmas
+informações múltiplas vezes para diferentes órgãos da mesma administração.
+2.2. Oportunidade Estratégica com o SEI
+A implementação recente do Sistema Eletrônico de Informações (SEI) em setembro de 2025 representa uma
+oportunidade estratégica única para modernização dos processos administrativos, em especial por este sistema já
+ser comprovadamente utilizado em todos os poderes Federais (Executivo, Legislativo e Judiciário) e possuir
+integração ao barramento nacional. Contudo, a fim de aprimorar sua otimização, ou seja, elaborar processos que
+atendam ao cidadão, é necessário que exista uma rede específica em integração de sistemas (serviços digitalizados
+e/ou digitais), redesenho de processos e gestão de mudanças organizacionais. A ausência de uma estratégia
+estruturada para aproveitamento pleno das capacidades do SEI pode resultar em subutilização crítica das
+possibilidades de uso do sistema na Administração Pública Municipal, perpetuando ineficiências operacionais que
+comprometem a qualidade dos serviços prestados à população.
+2.3. Fundamentação Conceitual e Metodológica
+2.3.1. Evolução do Conceito de Transformação Digital
+A situação atual demanda evolução urgente do conceito de simples digitalização de serviços públicos para uma
+abordagem mais abrangente que envolva reformulação completa de processos e integração de tecnologias digitais
+em todos os aspectos da administração municipal. Esta transformação representa uma mudança cultural e
+tecnológica que vai além da simples digitalização de processos, buscando reformulação completa da experiência de
+interação do munícipe com o poder público municipal.
+2.3.2. Proposta de Governo: Zero Clique
+Diagnóstico situacional da Carta de Serviços Municipal
+Capacitação da Alta Gestão e Rede de Transformação Digital
+Estruturação do Censo de Serviços Municipais
+Implantação de Plataforma Integradora de Serviços (web e mobile)
+Clusterização e priorização da digitalização de serviços
+Desenvolvimento do Cadastro Único Municipal
+Implantação de sistema de atendimento ao cidadão com IA
+Modelagem de casos de uso intersetoriais
+Implantação de Agentes de IA no fluxo de trabalho
+Sistema de geração de carteiras funcionais digitais
+Sistema de Marketing Figital via QR Codes dinâmicos
+Elaboração de minutas de Portaria e Decreto de Transformação Digital
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+6
+)
+7
+)
+8
+)
+9
+)
+10
+)
+11
+)
+12
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 2
+Em alinhamento a este ETP, a estratégia proposta alinha-se com a implementação do conceito inovador de "governo
+zero clique", que representa uma ruptura paradigmática na prestação de serviços públicos. Este modelo evolui de
+um paradigma reativo, onde o poder público atua apenas mediante provocação e solicitação do cidadão, para um
+modelo proativo onde a administração assume a responsabilidade de antecipar a disponibilização dos direitos do
+cidadão de forma automática.
+A abordagem busca romper o conceito estático de apenas fornecer serviços digitais reativos na web ou por
+aplicativos, levando os serviços públicos para plataformas de comunicação massivamente utilizadas pela população,
+como o WhatsApp. Esta estratégia permite desburocratização significativa do acesso a serviços e uma ruptura
+inovadora na forma de interação da prefeitura com seus munícipes, facilitando especialmente o acesso para classes
+sociais vulneráveis.
+A utilização de agentes de inteligência artificial para atendimento possibilita massiva inclusão digital, tanto de
+cidadãos em estado de vulnerabilidade quanto de analfabetos, através de recursos de reconhecimento de fala por IA.
+Esta abordagem democratiza o acesso aos serviços públicos e promove inclusão social através da tecnologia.
+2.4. Alinhamento com o Plano de Governo
+Este projeto alinha-se com diversos pontos propostos no Plano de Governo do Prefeito (Fonte:
+https://sempog.portovelho.ro.gov.br/uploads/arquivos/2025/01/71934/1737382840plano-de-governoleo-morais.pdf
+),
+conforme detalhamento a seguir:
+Eixo 1: GESTÃO
+1.1 Porto Velho com Desenvolvimento Econômico
+Parcerias Tecnológicas: Estabelecer parcerias tecnológicas com diversos setores industriais para impulsionar a inovação, aumentar a
+produção e a competitividade de Porto Velho.
+Investimento em Tecnologia Agrícola: Investir em tecnologia agrícola e na extensão rural, modernizando o setor e aumentando a
+produtividade das propriedades rurais.
+Fomento à Indústria Criativa: Investir na Indústria Criativa como política de inovação.
+1.2 Porto Velho com Serviços Públicos de Qualidade
+Gestão Integrada de Resíduos Sólidos
+Planta de Reaproveitamento de Materiais Orgânicos
+Projeto de Compostagem
+Usina de Processamento de Resíduos da Construção Civil
+1.3 Porto Velho com Administração Transparente e Humanizada
+Modernização Administrativa: Implementar o Sistema Eletrônico de Informação (SEI), eliminando gradualmente os processos físicos e
+capacitando os servidores municipais para o uso de tecnologias na administração pública.
+Transparência na Gestão: Modernizar o Portal da Transparência Municipal para facilitar o acesso da população às informações públicas.
+Eixo 2: CIDADE
+2.1 Porto Velho com Segurança Pública
+Uso de Tecnologia Avançada
+Centro Integrado de Comando e Controle Municipal
+Projeto "Porto Velho Mais Segura"
+Programa "Paz na Área"
+2.2 Porto Velho com Meio Ambiente Cuidado e Sustentabilidade
+Gestão de Resíduos com tecnologias avançadas
+Investimento em Energias Renováveis
+2.3 Porto Velho com Infraestrutura e Mobilidade Urbana
+Mobilidade Sustentável com telemetria veicular
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 3
+Infraestrutura Urbana: Modernização da iluminação pública
+2.4 Porto Velho com Agricultura Sustentável
+Integração de Tecnologias Modernas
+Eixo 3: PESSOAS
+3.1 Porto Velho com Saúde
+Fortalecimento das Unidades Básicas de Saúde: Implementar telemedicina, principalmente para áreas rurais.
+Modernização da Infraestrutura com novas tecnologias
+3.2 Porto Velho com as Mulheres
+Aplicativo de Segurança Maria da Penha com inteligência artificial
+3.3 Porto Velho com Atendimento Especializado para Pessoas com TEA
+Investimento em Tecnologia Assistiva
+3.6 Porto Velho com Educação de Qualidade
+Projeto Primeira Infância Assistida (PIA)
+Projeto Escola Tech (PET)
+Projeto Escola Monitorada (PEM)
+2.5. Justificativa da Necessidade
+Diante do exposto, a contratação de consultoria técnica especializada é necessária para:
+3. DESCRIÇÃO DOS REQUISITOS DA CONTRATAÇÃO
+Para o cumprimento adequado do objeto desta contratação, a empresa contratada deverá atender aos seguintes
+requisitos:
+3.1. Requisitos Técnicos
+Gestão pública e transformação digital
+Tecnologia da informação e desenvolvimento de sistemas
+Ciência de dados e inteligência artificial
+Design de serviços e experiência do usuário (UX/UI)
+Gestão de projetos e metodologias ágeis
+Gestão de mudança organizacional
+Superar a fragmentação operacional entre secretarias
+Aproveitar plenamente a oportunidade estratégica do SEI
+Implementar o conceito de "governo zero clique"
+Promover inclusão digital e democratização do acesso aos serviços públicos
+Alinhar a gestão municipal com as melhores práticas de transformação digital
+Cumprir os compromissos do Plano de Governo
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+6
+)
+Notória Especialização: Comprovar notória especialização em transformação digital no setor público, com experiência demonstrada em
+projetos de complexidade similar.
+1
+)
+Equipe Multidisciplinar: Dispor de equipe técnica qualificada e multidisciplinar, composta por profissionais com expertise em:
+2
+)
+Metodologia: Aplicar metodologias reconhecidas e comprovadas, incluindo:
+3
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 4
+First Principles Thinking (Pensamento Baseado em Primeiros Princípios)
+Design Thinking
+Metodologias Ágeis (Scrum, Kanban)
+Gamificação (framework Octalysis)
+Técnicas de Nudge
+Transferência de conhecimento e capacitação
+Escalabilidade e modularidade
+Segurança da informação
+Interoperabilidade com sistemas legados
+Arquitetura em nuvem
+Interface responsiva (web e mobile)
+Acessibilidade digital
+3.2. Requisitos de Conformidade
+3.3. Requisitos de Qualidade e Desempenho
+4. LEVANTAMENTO DE MERCADO
+Foi realizado levantamento de mercado para identificar alternativas viáveis para atender à necessidade de
+transformação digital da administração municipal de Porto Velho. O levantamento considerou três alternativas
+principais:
+4.1. Metodologia de Avaliação
+As alternativas foram avaliadas segundo os seguintes critérios:
+4.2. Alternativa 1: Capacitação e Desenvolvimento Interno
+Descrição: Investir na capacitação da equipe interna da SMTI para desenvolver e implementar internamente a
+transformação digital.
+Vantagens:
+Controle total sobre o processo
+Conhecimento retido internamente
+Custo inicial aparentemente menor
+Desvantagens:
+Prazo de implementação muito longo (estimado em 3 a 5 anos)
+Necessidade de contratação de novos servidores especializados
+Curva de aprendizado acentuada
+Risco de descontinuidade por rotatividade de pessoal
+Falta de expertise em metodologias avançadas de transformação digital
+Tecnologia: Fornecer soluções tecnológicas que atendam aos seguintes critérios:
+4
+)
+LGPD: Conformidade total com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018)
+Acessibilidade: Conformidade com a Lei Brasileira de Inclusão (Lei nº 13.146/2015) e normas de acessibilidade digital
+Segurança: Conformidade com normas de segurança da informação (ISO 27001 ou equivalente)
+Governo Digital: Alinhamento com a Estratégia de Governo Digital (Decreto Federal nº 10.332/2020)
+1
+)
+2
+)
+3
+)
+4
+)
+Disponibilidade: Garantia de disponibilidade mínima de 99,5% para os sistemas implantados
+Desempenho: Tempo de resposta inferior a 3 segundos para 95% das requisições
+Suporte: Suporte técnico durante toda a vigência do contrato
+Documentação: Documentação técnica completa e atualizada
+Capacitação: Transferência efetiva de conhecimento para a equipe da prefeitura
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+Viabilidade Técnica: Capacidade de atender aos requisitos técnicos e funcionais
+Viabilidade Econômica: Relação custo-benefício
+Prazo de Implementação: Tempo necessário para implementação completa
+Transferência de Conhecimento: Capacidade de capacitar a equipe interna
+Sustentabilidade: Capacidade de manutenção e evolução da solução a longo prazo
+Alinhamento Estratégico: Aderência aos objetivos estratégicos da prefeitura
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+6
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 5
+Dificuldade em acompanhar a evolução tecnológica
+Avaliação:
+Viabilidade Técnica: BAIXA
+Viabilidade Econômica: MÉDIA
+Prazo de Implementação: MUITO LONGO
+Transferência de Conhecimento: ALTA
+Sustentabilidade: MÉDIA
+Alinhamento Estratégico: BAIXO
+Conclusão: Alternativa INVIÁVEL devido ao prazo de implementação incompatível com a urgência da necessidade e
+à falta de expertise interna.
+4.3. Alternativa 2: Aquisição de Software de Prateleira (SaaS)
+Descrição: Contratar soluções de software como serviço (SaaS) disponíveis no mercado para digitalização de
+serviços públicos.
+Vantagens:
+Implementação relativamente rápida
+Custo previsível (modelo de assinatura)
+Atualizações automáticas
+Suporte técnico incluído
+Desvantagens:
+Baixa customização para necessidades específicas
+Dependência de fornecedor externo
+Dificuldade de integração com sistemas legados
+Limitações de interoperabilidade
+Não contempla a transformação cultural e organizacional
+Não oferece transferência de conhecimento
+Avaliação:
+Viabilidade Técnica: MÉDIA
+Viabilidade Econômica: MÉDIA
+Prazo de Implementação: MÉDIO
+Transferência de Conhecimento: BAIXA
+Sustentabilidade: BAIXA
+Alinhamento Estratégico: BAIXO
+Conclusão: Alternativa PARCIALMENTE VIÁVEL, mas insuficiente para atender à complexidade e abrangência da
+necessidade identificada.
+4.4. Alternativa 3: Consultoria Especializada com Transferência de Tecnologia e Conhecimento (ESCOLHIDA)
+Descrição: Contratar consultoria técnica especializada para implementação de programa abrangente de
+transformação digital, incluindo desenvolvimento de soluções customizadas, capacitação da equipe interna e
+transferência de tecnologia.
+Vantagens:
+Expertise comprovada em transformação digital no setor público
+Metodologia estruturada e testada
+Customização para necessidades específicas do município
+Transferência efetiva de conhecimento e capacitação
+Prazo de implementação compatível com a urgência
+Abordagem holística (tecnologia + processos + cultura)
+Integração com sistemas legados
+Suporte durante toda a implementação
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 6
+Desvantagens:
+Investimento inicial mais elevado
+Necessidade de gestão ativa do contrato
+Avaliação:
+Viabilidade Técnica: ALTA
+Viabilidade Econômica: ALTA
+Prazo de Implementação: ADEQUADO
+Transferência de Conhecimento: ALTA
+Sustentabilidade: ALTA
+Alinhamento Estratégico: ALTO
+Conclusão: Alternativa VIÁVEL E RECOMENDADA, por apresentar o melhor equilíbrio entre viabilidade técnica,
+econômica e alinhamento estratégico.
+4.5. Resultado do Levantamento de Mercado
+Com base na análise comparativa, a Alternativa 3 (Consultoria Especializada) foi selecionada como a mais adequada
+para atender às necessidades da Prefeitura de Porto Velho, considerando a complexidade do desafio, a urgência da
+implementação e a necessidade de transferência efetiva de conhecimento para a equipe interna.
+4.6. Análise Comparativa de Modelos de Contratação em Governo Digital
+A escolha do modelo de contratação é um fator determinante para o sucesso ou fracasso de uma iniciativa de
+governo digital. A análise de mercado revela três arquétipos predominantes, cada um com implicações distintas em
+termos de custo, autonomia e impacto estratégico, sendo tais arquétipos delimitados e pesquisados no PNPC, como
+se verá adiante
+Modelo 1: Consultoria Estratégica, Transferência de Conhecimento, Desenvolvimento e Análise
+Este modelo, objeto central deste parecer, foca na construção de capacidade institucional. Sua proposta de valor não
+reside na entrega de um software pronto, mas na execução de um plano de trabalho que habilita o município a gerir
+sua própria transformação. Os entregáveis são de natureza fundacional: Planejamento Estratégico, Diagnóstico de
+Maturidade Digital, Censo de Serviços, elaboração de arcabouço normativo (Decretos e Portarias) e, crucialmente, a
+prototipação de uma plataforma integradora (MVP) com a entrega do código-fonte ao município.
+Modelo 2: Locação de Software como Serviço - SaaS
+Este modelo é centrado na provisão de ferramentas tecnológicas específicas por meio de um contrato de locação. Os
+entregáveis típicos incluem módulos para Assinatura Digital, Diário Oficial e uma plataforma básica de Governo
+Digital. Embora funcional para resolver necessidades pontuais e imediatas, essa abordagem gera uma dependência
+contínua do fornecedor (vendor lock-in), pois o município não detém a propriedade intelectual da solução e fica
+sujeito a contratos de manutenção e atualização. Este modelo trata os sintomas da ineficiência (processos manuais)
+sem atacar a causa raiz (falta de estratégia e capacidade interna).
+Modelo 3: Licenciamento de Plataforma
+Caracterizado pela aquisição de uma licença perpétua de uma plataforma tecnológica de grande porte, este é um
+modelo de alto investimento de capital. No entanto, ele pode vincular a administração a um ecossistema tecnológico
+único (software proprietário), com riscos significativos de obsolescência tecnológica e custos elevados de
+manutenção e customização a longo prazo, além é claro, do licenciamento. Mais importante, este modelo geralmente
+pressupõe que a entidade contratante já possui uma estratégia digital madura, não incluindo as fases críticas de
+diagnóstico e planejamento estratégico que o Modelo 1 oferece.
+A comparação direta dos entregáveis evidencia a distinção fundamental entre as abordagens, conforme detalhado na
+tabela abaixo.
+Tabela 1: Matriz Comparativa de Escopo e Entregáveis
+Entregável
+Modelo 1
+Modelo 2
+Modelo 3
+Planejamento Estratégico / Roadmap
+✅
+❌
+✅
+Relatório de Diagnóstico / Maturidade Digital
+✅
+❌
+✅
+Elaboração de Decreto e Portaria (Governo Digital)
+✅
+❌
+❌
+Elaboração de Artefatos para Censo de Serviços
+✅
+❌
+❌
+Prototipação / Desenvolvimento de MVP
+✅
+❌
+❌
+Entrega do Código-Fonte
+✅
+❌
+✅
+¹
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 7
+Licença de Software/Plataforma
+❌
+(Locação)
+(Licença Perpétua)
+Módulo de Identidade Digital / Assinatura Digital
+❌
+✅
+✅
+Implantação de Módulo Diário Oficial
+❌
+✅
+❌
+A entrega do código-fonte pode ocorrer em alguns contratos de licenciamento, mas o foco principal é a aquisição da
+licença, não a capacitação para desenvolvimento autônomo.
+A análise comparativa revela uma escolha fundamental entre autonomia e dependência. O Modelo 1 investe na
+soberania do município sobre seu futuro digital, transferindo conhecimento e ativos tecnológicos (código-fonte),
+alinhando-se às melhores práticas de gestão de ativos públicos. Os Modelos 2 e 3, embora válidos em contextos
+específicos, tendem a criar uma relação de dependência perpétua, onde o investimento público se traduz em receita
+recorrente para o fornecedor, em vez de um ativo permanente para a administração.
+4.7 Análise de Compatibilidade de Preços
+Para aferir a razoabilidade do serviço a ser contratado, bem como a empresa capaz de executá-lo, foi realizada uma
+análise comparativa de preços com base em contratos para serviços de tecnologia e consultoria similares, mas NÃO
+IGUAIS, ao que se propõe no setor público, extraídos do PNCP. A metodologia adotada consistiu em selecionar um
+conjunto de contratos de escopo municipal ou de consultoria, e em seguida excluir deliberadamente as contratações
+estaduais de grande vulto para aquisição de plataformas (e.g., Rio de Janeiro, Goiás, Pernambuco - X-VIA), cujos
+valores multimilionários distorceriam a análise por se referirem escala distintas.
+Tabela da pesquisa:
+Objeto da contratação
+Ente
+Governamental
+Valor global
+(R$)
+Link do PNCP
+"Ata de Registro de Preços para solução de
+governo digital: plataforma (portal único +
+app), governança de dados e indicadores,
+customização, consultoria (transformação
+digital), treinamento e implantação/gestão de
+atendimento phygital"
+Estado do Rio
+de Janeiro –
+PRODERJ
+(CETIC/RJ)
+89.000.000,00
+https://pncp.gov.br/app/atas/42498600000171/2024/4163/1
+"Serviços de atendimento ao público em
+modelo omnichannel (contact center +
+multicanal), incluindo planejamento,
+integração, implantação, operação,
+sustentação e suporte; contempla URA,
+WhatsApp (robô e humano), chat/voicebot,
+app, vídeo, redes sociais e plataforma low-
+code"
+Estado de
+Goiás –
+Secretaria de
+Estado da
+Saúde
+(SES/GO)
+60.764.526,00
+https://pncp.gov.br/pncp-
+api/v1/orgaos/01409580000138/compras/2025/28/arquivos/1
+"Prestação de serviços de aquisição da
+Plataforma X-VIA e execução de serviços
+técnicos especializados , com foco na
+interoperabilidade segura entre sistemas e
+aplicações, incluindo a integração de dados e
+de serviços aplicativos por meio de
+comunicação segura, Interface digital
+multidispositivo, mecanismos de identificação
+digital unificada com assinatura eletrônica do
+cidadão e ferramentas de desenvolvimento
+ágil de alta performance (Highcode), a fim de
+atender as necessidades dos órgãos e
+secretarias do Poder Executivo do Estado de
+Pernambuco, nas condições estabelecidas no
+Termo de Referência, na proposta da
+CONTRATADA e nos demais documentos
+constantes do processo administrativo. -
+Inexigibilidade de Licitação nº 0375/2024,
+Processo nº 3219.2024.AC-
+10.IN.0375.SAD.ATI. [LEI Nº 14.133/2021]."
+Agência de
+Tecnologia de
+Pernambuco
+31.356.659,59
+https://pncp.gov.br/app/editais/10572022000180/2024/786
+Aquisição de Plataforma de Portal de Governo
+Digital Inteligente: Plataforma X-Via, com
+implantação, licenças perpetuas e
+personalização.
+ESTADO DO
+ESPIRITO
+SANTO
+15.962.000,00
+https://pncp.gov.br/app/editais/27080530001204/2024/11
+Transformação Digital Governamental
+Estado do
+Amapá
+11.546.541,63
+https://pncp.gov.br/app/editais/01591392000173/2024/17
+Consultoria Especializada em Gestão
+Município do
+Recife
+6.480.000,00
+https://pncp.gov.br/app/editais/105720/22000180/2024/818
+Implementação de solução tecnológica
+integrada (plataforma e serviços correlatos)
+Município de
+Ponta
+Grossa/PR
+3.651.020,82
+https://pncp.gov.br/pncp-
+api/v1/orgaos/32370759000152/compras/2025/42/arquivos/1
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 8
+"Central de atendimento (call center +
+atendimento eletrônico) com software para
+registro, encaminhamento e tratamento de
+demandas"
+Câmara
+Municipal de
+Fortaleza/CE
+3.343.999,68
+https://pncp.gov.br/pncp-
+api/v1/orgaos/06621791000153/compras/2024/6/arquivos/1
+"Call center para agendamento de consultas e
+exames (sistema informatizado –
+Dereg/Saúde)"
+Município de
+Santos/SP
+(SMS)
+2.853.008,28
+https://pncp.gov.br/pncp-
+api/v1/orgaos/58200015000183/compras/2025/386/arquivos/1
+Arquitetura de Soluções Digitais
+Pref. Pedro
+Leopoldo/MG
+2.182.800,00
+https://pncp.gov.br/app/editais/23456650000141/2025/8
+Consultoria em Transformação Digital
+Estado de
+Pernambuco
+1.816.320,00
+https://pncp.gov.br/app/editais/10572022000180/2024/818
+"Plataforma de Atendimento Multicanal
+(implantação, manutenção e suporte; gestão
+unificada de canais)"
+Município de
+Capinzal/SC
+1.163.055,00
+https://pncp.gov.br/pncp-
+api/v1/orgaos/82939406000107/compras/2025/75/arquivos/1
+Consultoria em Transformação Digital
+Estado do
+Ceará
+948.500,00
+https://pncp.gov.br/app/contratos/0795/4480000179/2024/27544
+contratação de empresa especializada para
+prestação de serviços profissionais de
+consultoria para implantação de uma
+estratégia de Transformação Digital,
+constituída como uma iniciativa inovadora
+voltada à modernização da gestão pública
+municipal, atendendo às necessidades da
+Secretaria Municipal de Governo de Luís
+Eduardo Magalhães/BA.
+MUNICIPIO
+DE LUIS
+EDUARDO
+MAGALHAES
+915.000,00
+https://pncp.gov.br/app/editais/04214419000105/2025/107
+Contratação de Empresa para implantação do
+"Plano de Consultoria Transformação Digital,
+do Zero ao Infinito" que é uma iniciativa
+visionária que redefine a forma como as
+administrações públicas operam e interagem
+com a população.
+MUNICIPIO
+DE IPOJUCA
+915.000,00
+https://pncp.gov.br/app/editais/11294386000108/2025/82
+Implantacao de estrategia de transformacao
+digital no setor publico, com foco na
+modernizacao da gestao, integracao de dados,
+automacao de processos e ampliacao do
+acesso a servicos digitais para o cidadao.
+MUNICIPIO
+DE TIMON
+915.000,00
+https://pncp.gov.br/app/editais/06115307000114/2025/117
+Contratação de empresa para prestação de
+serviços de locação, implantação e
+manutenção de sistema de gestão de
+Assinatura Digital, Módulo Diário Oficial e
+Plataforma Governo Digital
+MUNICIPIO
+DE PONTA
+GROSSA
+682.400,00
+https://pncp.gov.br/app/editais/76175884000187/2024/173
+Sistema de IA para Atendimento
+DETRAN-PR
+342.590,00
+https://pncp.gov.br/app/editais/78206513000140/2025/17
+Com base neste conjunto de 18 contratos, de escopo similar mas não igual, foram calculadas as seguintes métricas
+estatísticas:
+Preço Médio: R$ 13.567.896,85 (Treze milhões quinhentos e sessenta e sete mil oitocentos e noventa e seis reais e oitenta e cinco centavos)
+A análise posiciona o valor da inexigibilidade ser em até de R$ 13.567.896,85 (conforme pesquisa de municípios, sem
+levar em conta a população) de forma bastante favorável, pois o objeto dos editais pesquisados que melhor se
+enquadra na escolha tecnológica aqui descrita neste estudo. Ele se situa significativamente abaixo tanto da média
+quanto da mediana dos preços praticados em contratos comparáveis. A seguir, delimitou-se mais ainda quanto ao
+escopo dos contratos firmados pelos municípios, escolhendo-se aqueles que mais se enquadram na demanda
+proposta no DFD.
+4.8. Comparação de entregas
+A seguir estruturamos nossos estudos técnicos após análises de documentações disponíveis no PNCP, comparando
+as entregas de diversos contratos (sendo aqueles mais próximos as finalidades aqui descritas) a fim de verificar a
+aderência de diversas empresas quanto aos serviços que se pretendem contratar a aderência dos objetivos descritos
+no DFD:
+Bloco 1 - I. Estratégia, Planejamento e Documentação
+Entregável
+Ipojuca
+(LegalTech
+AI)
+Ponta Grossa
+(ELOTECH)
+PE (X-VIA)
+ES (X-
+VIA/Portal
+Inteligência)
+PE
+(EMPREL/LegalTech
+AI)
+RJ
+(Startups)
+PI
+(FINANCE)
+Estonia
+Hub
+(PE)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 9
+I. Estratégia, Planejamento e Documentação
+Planejamento Estratégico /
+Roadmap
+✅
+❌
+✅
+❌
+✅
+❌
+✅
+✅
+Relatório de Diagnóstico /
+Maturidade Digital
+✅
+❌
+✅
+❌
+✅
+❌
+❌
+✅
+Elaboração de Artefatos
+para Censo de Serviços
+✅
+❌
+(Mapeamento de
+20 serviços)
+❌
+❌
+❌
+❌
+❌
+Clusterização e Estratégia
+de Digitalização
+✅
+❌
+❌
+❌
+❌
+❌
+❌
+❌
+Elaboração de Decreto e
+Portaria (Governo Digital)
+✅
+❌
+❌
+❌
+❌
+❌
+❌
+❌
+Modelagem de Casos de
+Uso/Arquitetura de Solução
+(MVP)
+✅
+❌
+(Consultoria em
+arquitetura de
+software)
+❌
+✅
+❌
+❌
+❌
+Relatórios Finais /
+Avaliação Global
+✅
+❌
+✅
+✅
+✅
+✅
+✅
+✅
+Relatórios Trimestrais de
+Acompanhamento
+❌
+❌
+❌
+❌
+❌
+✅
+✅
+❌
+II. Sistemas, Plataformas e Implementação
+Licença de Software/Plataforma
+❌
+(Locação Módulos)
+(Licença Perpétua da Plataforma X-VIA)
+✅
+❌
+❌
+❌
+❌
+Implantação e Customização da Plataforma
+(MVP)
+✅
+✅
+✅
+✅
+❌
+❌
+❌
+Prototipação / Desenvolvimento de MVP
+✅
+❌
+❌
+❌
+✅
+❌
+❌
+❌
+Módulo de Identidade Digital / Assinatura Digital
+❌
+✅
+✅
+✅
+❌
+❌
+❌
+❌
+Implantação de Módulo Diário Oficial
+❌
+✅
+❌
+❌
+❌
+❌
+❌
+❌
+Legenda:
+✅
+- Contemplado
+❌
+- Não Contemplado
+• Ipojuca (LegalTech AI): Foca em entregáveis de Planejamento Estratégico, Capacitação e Diagnóstico, Modelagem
+de Casos de Uso (Fase 2), Estruturação do Censo de Serviços Municipais, Prototipação de Plataforma Integradora
+(MVP) com entrega do código-fonte, Criação de Cadastro Único, Suporte Jurídico e Normativo e Monitoramento e
+Avaliação Final.
+• Ponta Grossa (ELOTECH): O foco principal é a locação, implantação e treinamento de módulos de software
+específicos, incluindo Assinatura Digital, Diário Oficial e Plataforma Governo Digital.
+• PE (X-VIA): Inclui aquisição de Licença Perpétua e serviços técnicos especializados, Consultoria em arquitetura de
+software e IA, Treinamento especializado, e obrigação de entrega do código-fonte e bases de dados em formato
+aberto na transição contratual.
+• ES (X-VIA/Portal Inteligência): Prevê a aquisição da licença e implantação da plataforma, a utilização de Horas de
+Serviço Técnico Especializado (HSTE) para manutenção e evolução, Consultoria em IA Generativa (IAG) e
+Consultoria Jurídica. A contratante deve prever que os direitos de propriedade intelectual e código-fonte pertençam
+à Administração.
+• Estonia Hub (PE): Entregáveis focados em conhecimento e estratégia: Diagnóstico de Maturidade Digital,
+RoadMap Tecnológico, Mentoria de Lideranças, e Consultoria de Comunicação Estratégica.
+• PI (FINANCE): Concentra-se na entrega de estudos e relatórios específicos: Relatório 1, Relatório 2, e Relatório
+Final, com a contratação sendo medida em 900 horas de trabalho.
+• PE (EMPREL/LegalTech AI): Contratação similar à de Ipojuca, com foco em Capacitação e Diagnóstico, Modelagem
+de Casos de Uso e priorização de MVPs (mínimo de três casos de uso selecionados), Suporte Jurídico Contínuo,
+Monitoramento e Avaliação Global e obrigação de entregar toda a informação e material digital ao final.
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 10
+4.9. Conclusão para a Escolha da Empresa
+A análise detalhada da contratação da consultoria de "Transformação Digital” pelos municípios de Ipojuca, Luís
+Eduardo Magalhães e Timon (Recentemente Jaboatão), todas contratas por inexigibilidade, demonstram uma decisão
+administrativa madura, estratégica e alinhada às melhores práticas de gestão pública contemporâneas, em especial
+pela unicidade contratual de todos os serviços (consultoria voltada a resultados). A opção representa uma mudança
+de paradigma fundamental: da aquisição reativa de inteligência e tecnologia para o investimento proativo na
+construção de capacidade institucional, com a entrega de um MVP de licença perpétua a Prefeitura, que é detentora
+do código-fonte e que pode ela própria evoluir o software com o tempo.
+Os principais achados deste parecer são:
+Diante do exposto, este estudo conclui que a decisão de adotar este modelo de consultoria é a mais responsável,
+prudente e estrategicamente vantajosa para uma administração municipal comprometida em alcançar uma
+transformação digital genuína, centrada no cidadão e sustentável a longo prazo. A escolha não é meramente
+defensável; ela se apresenta como um caso exemplar de contratação pública orientada para resultados e para a
+construção de valor público permanente, sendo a empresa escolhida a Legal Tech Ai Company LTDA, em especial
+pelo fato da empresa possuir a maioria das entregáveis exigidos pela Alta Administração Pública (Superintendência
+de Tecnologia e Plano de Governo do Prefeito), a frente, se analisará a competência técnica da empresa escolhida.
+Um ponto importante é que anexo a este processo, está uma denuncia fato feita ao MPC do TCE-PE acerca da
+contratação por inexigibilidade, que foi devidamente arquivado, ou seja a empresa possui de fato notória
+especialização para a contratação na modalidade proposta para a prestação do serviço.
+5. DESCRIÇÃO DA SOLUÇÃO COMO UM TODO
+A solução proposta pela consultoria "Transformação Digital, do Zero ao Infinito" é uma abordagem completa e
+integrada que visa redefinir a forma como a administração pública de Porto Velho opera e interage com a população.
+5.1. Visão Geral da Solução
+A solução é estruturada em uma rota de 20 etapas sequenciais e interdependentes, que levam a organização aos
+mais altos níveis de maturidade digital:
+5.2. Componentes Principais da Solução
+5.2.1. Plataforma Integradora de Serviços ("Conecta")
+Plataforma digital que centraliza todos os serviços públicos municipais em um único ambiente integrado, acessível
+por meio de:
+Interface Web: Portal responsivo acessível por qualquer navegador
+Aplicativo Móvel: Apps nativos para Android e iOS
+WhatsApp: Atendimento via WhatsApp Oficial com IA
+Superioridade Estratégica: O modelo focado em diagnóstico, planejamento, capacitação, normatização e transferência de tecnologia é
+intrinsecamente superior a modelos baseados em locação ou licenciamento de software, pois promove a autonomia e a sustentabilidade da
+transformação digital.
+Compatibilidade de Preço: O valor de R$ 1.600.000,00 está abaixo da média e da mediana de mercado para serviços comparáveis e oferece
+um valor agregado excepcional, ao gerar ativos permanentes (conhecimento e código-fonte) para o município.
+Fundamentação Jurídica: A contratação por inexigibilidade de licitação está devidamente amparada pela Lei nº 14.133/2021, dada a
+natureza intelectual do serviço e a notória especialização da contratada, evidenciada por sua metodologia única e integrada que torna a
+competição inviável.
+Gestão de Riscos: O modelo mitiga proativamente os principais riscos de projetos de GovTech, como descontinuidade política, baixa adesão,
+dependência de fornecedor e desperdício de recursos.
+1
+)
+2
+)
+3
+)
+4
+)
+Criação de um núcleo de Transformação Digital
+Adesão à Rede Nacional de Governo Digital
+Solicitar integração com o login Gov.Br
+Reunião de Secretariado com a Consultoria
+Criação da Rede de Transformação Digital
+Capacitação da Rede de Transformação Digital
+Elaboração da Estratégia de Transformação Digital
+Levantamento dos Nomes dos Serviços
+Listagem dos nomes dos Locais de Mapa
+Detalhamento dos locais
+Detalhamento dos serviços
+Cadastro de Eventos da Cidade
+Desenvolvimento/Personalização do Conecta e Estratégias de lançamento
+Lançamento do Conecta (App + WhatsApp)
+Agrupamento de serviços por tipo
+Priorização da Digitalização de Serviços
+Digitalização dos serviços
+Avaliação para os serviços nativos
+Criação da base única de pessoas
+Entrega de serviços a zero clique
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+6
+)
+7
+)
+8
+)
+9
+)
+10
+)
+11
+)
+12
+)
+13
+)
+14
+)
+15
+)
+16
+)
+17
+)
+18
+)
+19
+)
+20
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 11
+Funcionalidades principais:
+Catálogo completo de serviços municipais
+Mapa interativo de equipamentos públicos
+Calendário de eventos municipais
+Formulários digitais para solicitações
+Acompanhamento de protocolos em tempo real
+Notificações push personalizadas
+Integração com login Gov.Br
+Painel administrativo para gestão
+5.2.2. Cadastro Único Municipal
+Base de dados unificada e interoperável que integra informações de diferentes sistemas municipais, incluindo:
+CadÚnico
+B-Cadastro
+Bolsa Família
+Matrículas escolares
+e-SUS
+Benefícios Locais
+Outras bases relevantes
+Benefícios:
+Eliminação de redundâncias
+Visão 360º do cidadão
+Governo de precisão
+Serviços proativos (zero clique)
+Conformidade com LGPD
+5.2.3. Sistema de Atendimento com Inteligência Artificial
+Solução de atendimento automatizado que utiliza IA generativa para:
+Atendimento 24/7 por texto e voz
+Compreensão de linguagem natural
+Respostas contextualizadas
+Escalação inteligente para atendimento humano
+Multimodalidade (texto, áudio, imagem)
+5.2.4. Agentes de IA no Fluxo de Trabalho
+Agentes de IA especializados que atuam como colaboradores virtuais, executando tarefas como:
+Validação automática de documentos
+Pré-análise de solicitações
+Elaboração de pareceres técnicos preliminares
+Verificação de conformidade
+Sugestões de decisão (com aprovação humana final)
+5.2.5. Programa de Capacitação e Gestão da Mudança
+Programa estruturado de capacitação e engajamento que inclui:
+Workshops para Alta Gestão (8h)
+Capacitação da Rede de Transformação Digital (8h)
+Treinamento em Digital Skills
+Formação em Inteligência Artificial
+Metodologias de First Principles Thinking
+Técnicas de Nudge e Gamificação
+5.3. Metodologia de Implementação
+A implementação seguirá metodologia ágil, com entregas incrementais e validação contínua:
+Fase 1 - Diagnóstico e Planejamento (Mês 1)
+1
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 12
+5.4. Justificativa Técnica e Econômica da Escolha
+Justificativa Técnica:
+A solução proposta é a única que atende integralmente aos requisitos identificados, oferecendo:
+Abordagem holística (tecnologia + processos + cultura)
+Expertise comprovada em transformação digital no setor público
+Metodologias avançadas e inovadoras
+Customização para necessidades específicas
+Transferência efetiva de conhecimento
+Justificativa Econômica:
+Embora o investimento inicial seja significativo, a solução apresenta excelente relação custo-benefício considerando:
+Redução de custos operacionais com automação
+Eliminação de redundâncias e desperdícios
+Aumento de produtividade dos servidores
+Melhoria na arrecadação municipal
+Redução de custos com papel e processos físicos
+Economia de escala com base única de dados
+6. ESTIMATIVA DAS QUANTIDADES PARA AQUISIÇÃO/CONTRATAÇÃO
+6.1. Metodologia de Cálculo
+O objeto da contratação é um serviço de consultoria técnica especializada, de natureza intelectual e singular.
+Portanto, a quantificação não se aplica em termos de unidades físicas, mas sim em termos de entregas e escopo de
+serviços.
+A metodologia de cálculo considerou:
+6.2. Detalhamento das Entregas
+Conforme proposta técnica (e-doc. 0166390), o escopo compreende as seguintes entregas:
+Item
+Entrega
+Descrição Resumida
+1
+Diagnóstico
+Diagnóstico situacional da Carta de Serviços
+2
+Capacitação
+Workshops para Alta Gestão e Rede de Transformação Digital
+3
+Censo de Serviços
+Estruturação e escrita da Carta de Serviços
+4
+Plataforma Integradora
+Desenvolvimento e implantação do "Conecta"
+5
+Clusterização
+Agrupamento e priorização de serviços
+6
+Implantação Assistida
+Acompanhamento e suporte inicial
+Fase 2 - Capacitação e Estruturação (Mês 1-2)
+Fase 3 - Desenvolvimento e Implantação (Mês 2-6)
+Fase 4 - Operação Assistida (Mês 6-12)
+2
+)
+3
+)
+4
+)
+Análise do escopo de serviços: Detalhamento de todas as entregas necessárias
+Estimativa de esforço: Horas técnicas necessárias por entrega
+Composição de equipe: Perfis profissionais e dedicação necessária
+Prazo de execução: Cronograma de implementação
+Complexidade técnica: Nível de especialização requerido
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 13
+7
+Estratégia e Normativos
+Elaboração de Estratégia e minutas de Decreto/Portaria
+8
+Cadastro Único
+Desenvolvimento da base única de dados
+9
+Atendimento ao Cidadão
+Sistema de atendimento com IA
+10
+WhatsApp Oficial
+Licença e implantação do WhatsApp Business
+11
+Casos de Uso
+Modelagem e implementação de casos intersetoriais
+12
+Agentes de IA
+Desenvolvimento de agentes especializados
+13
+Carteiras Digitais
+Sistema de emissão de carteiras funcionais
+14
+Marketing Figital
+Sistema de QR Codes dinâmicos
+6.3. Período de Execução
+Prazo total: 18 (dezoito) meses, contados da assinatura do contrato.
+6.4. Setor/Departamento Beneficiado
+A contratação beneficiará todas as Secretarias Municipais e, consequentemente, toda a população de Porto Velho.
+Os principais beneficiários diretos são:
+Superintendência Municipal de Tecnologia da Informação (SMTI) - coordenação
+Todas as Secretarias Municipais - implementação
+Gabinete do Prefeito - governança
+Cidadãos de Porto Velho - usuários finais
+6.5. Justificativa da Não Existência de Contratação Anterior
+Esta é a primeira contratação de consultoria especializada em transformação digital de forma abrangente e
+integrada no Município de Porto Velho. Embora tenham sido realizadas contratações pontuais de sistemas isolados
+no passado (FarmaPub, Meu Exame On, etc.), nunca houve uma iniciativa estruturada e holística de transformação
+digital que integrasse todos os serviços municipais.
+7. ESTIMATIVA DO VALOR DA CONTRATAÇÃO
+7.1. Valor Total Estimado
+O valor total estimado para a contratação é de R$ 1.600.000,00 (um milhão e seiscentos mil reais), conforme detalhamento da proposta de
+preços apresentada pela empresa LEGALTECH AI COMPANY LTDA (e-doc. 0166390).
+7.2. Detalhamento por Etapa
+Item
+Etapa do Projeto
+Valor Unitário (R$)
+01
+Diagnóstico
+R$ 25.000,00
+02
+Capacitação da Alta Gestão e Rede de Transformação Digital
+R$ 50.000,00
+03
+Estruturação do Censo de Serviços Municipais
+R$ 60.000,00
+04
+Plataforma Integradora
+R$ 340.000,00
+05
+Clusterização de serviços
+R$ 20.000,00
+06
+Implantação Assistida
+R$ 70.000,00
+07
+Elaboração de Minuta da Portaria e Estratégia
+R$ 30.000,00
+08
+Desenvolvimento do Cadastro Único Municipal
+R$ 300.000,00
+09
+Implantação de sistema de atendimento ao cidadão
+R$ 120.000,00
+10
+Implantação de solução de IA no atendimento
+R$ 140.000,00
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 14
+11
+Fornecimento anual de Licença WhatsApp
+R$ 52.000,00
+12
+Modelagem de Casos de Uso e Arquitetura
+R$ 40.000,00
+13
+Implantação de Agentes de IA no fluxo de trabalho
+R$ 188.000,00
+14
+Sistema de Geração de Carteiras Funcionais
+R$ 60.000,00
+15
+Sistema de Marketing Figital via QR Codes
+R$ 50.000,00
+TOTAL
+R$ 1.600.000,00
+7.3. Memória de Cálculo e Documentos de Suporte
+A estimativa de valor foi baseada na proposta comercial apresentada pela empresa LEGALTECH AI COMPANY LTDA
+(e-doc. 0166390), que detalha:
+Escopo de cada etapa do projeto
+Atividades e entregas específicas
+Precificação unitária por etapa
+Justificativa técnica de cada componente
+7.4. Fonte de Pesquisa
+A fonte de pesquisa de preços foi a proposta comercial apresentada pela empresa especializada, considerando:
+Singularidade do objeto
+Notória especialização da empresa
+Inexistência de parâmetros de comparação no mercado para objeto desta complexidade e abrangência
+Natureza intelectual do serviço
+O valor da presente contratação virá da fonte de recursos abaixo, frisa-se que o escopo definido neste ETP é maior
+do que os contratos anteriormente firmados em pesquisa ao portal do PNPC.
+8. JUSTIFICATIVA PARA O PARCELAMENTO
+O objeto desta contratação é um serviço de consultoria técnica especializada de natureza singular e indivisível, que
+exige uma abordagem integrada e multidisciplinar para alcançar os resultados pretendidos.
+8.1. Análise da Viabilidade de Divisão em Lotes
+Foi analisada a viabilidade de divisão do objeto em lotes, considerando os critérios estabelecidos no § 2º do art. 40
+da Lei nº 14.133/2021:
+I - Viabilidade da divisão do objeto em lotes:
+A divisão do objeto em lotes é INVIÁVEL pelos seguintes motivos:
+1. IDENTIFICAÇÃO
+Processo Administrativo:
+003.000184/2025-44
+Unidade Orçamentária:
+Superintendência Municipal de Tecnologia da Informação
+Projeto/Atividade/Operação Especial:
+Projeto Atividade
+02 81 19 572 0356 2.844 - Modernizar as Soluções e
+Ativos de TI
+Fonte
+1.500.0000.0000.0000
+Elemento de Despesa
+33.90.40 SERVIÇOS DE TECNOLOGIA DA
+INFORMAÇÃO E COMUNICAÇÃO - PJ
+Interdependência das entregas: Todas as etapas do projeto são interdependentes e sequenciais. A execução de uma etapa depende da
+conclusão da anterior e alimenta a próxima.
+1
+)
+Necessidade de visão holística: A transformação digital requer uma visão integrada e holística da administração municipal. A fragmentação
+em lotes comprometeria essa visão sistêmica.
+2
+)
+Transferência de conhecimento: A transferência de conhecimento para a equipe interna requer continuidade e consistência metodológica,
+3
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 15
+II - Aproveitamento das peculiaridades do mercado local:
+O mercado local não possui empresas com a expertise e a capacidade técnica necessárias para executar um projeto
+desta magnitude e complexidade. A consultoria especializada requer conhecimento específico em transformação
+digital no setor público, metodologias avançadas e experiência comprovada em projetos similares.
+III - Ampliação da competição e prevenção de concentração de mercado:
+Embora o princípio da ampliação da competição seja relevante, no caso de serviços de notória especialização (art.
+74, III,"a", "c" e "f" da Lei nº 14.133/2021), a singularidade do objeto e a necessidade de expertise específica
+justificam a contratação direta de empresa com comprovada especialização, sem que isso configure concentração
+indevida de mercado.
+8.2. Conclusão sobre Parcelamento
+Diante do exposto, conclui-se que o parcelamento do objeto é INVIÁVEL e PREJUDICIAL aos interesses da
+Administração, devendo a contratação ser realizada de forma integral e indivisível.
+9. CONTRATAÇÕES CORRELATAS E/OU INTERDEPENDENTES
+9.1. Análise de Contratações Correlatas
+Foram analisadas eventuais contratações correlatas ou interdependentes necessárias para a completa execução do
+objeto. A análise considerou:
+Necessidade de aquisição de equipamentos
+Necessidade de contratação de serviços complementares
+Necessidade de adequações de infraestrutura
+Necessidade de capacitações adicionais
+9.2. Resultado da Análise
+Não foram identificadas contratações correlatas ou interdependentes obrigatórias para a execução do objeto.
+A proposta da consultoria é autossuficiente e inclui:
+Fornecimento de toda a infraestrutura tecnológica necessária (em nuvem)
+Licenças de software necessárias
+Capacitação das equipes envolvidas
+Suporte técnico durante toda a vigência do contrato
+9.3. Ações Preparatórias da Administração
+Embora não haja contratações correlatas obrigatórias, a Administração deverá adotar algumas providências
+preparatórias, conforme detalhado no item 12 deste ETP (Providências a Serem Adotadas).
+10. DEMONSTRATIVO DA PREVISÃO DA CONTRATAÇÃO NO PLANO DE CONTRATAÇÕES ANUAL
+☐
+Sim, informar o ID do PCA: _______________________________
+☑
+Não
+10.1. Justificativa
+A presente contratação não estava prevista no Plano de Contratações Anual (PCA) da Prefeitura de Porto Velho.
+A necessidade da contratação surgiu a partir da identificação de uma oportunidade estratégica decorrente da
+recente implementação do Sistema Eletrônico de Informações (SEI) em setembro de 2025.
+que seria prejudicada pela divisão entre múltiplos fornecedores.
+Risco de descontinuidade: A divisão em lotes aumentaria significativamente o risco de descontinuidade do projeto, comprometendo os
+resultados.
+4
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 16
+A análise da situação atual revelou que, embora o SEI tenha sido implementado, seu pleno aproveitamento depende
+de uma estratégia abrangente de transformação digital que integre sistemas, processos e cultura organizacional.
+Esta constatação, aliada ao alinhamento com o Plano de Governo do Prefeito, motivou a elaboração deste Estudo
+Técnico Preliminar e a proposta de contratação de consultoria especializada.
+Trata-se, portanto, de uma necessidade superveniente, não prevista no planejamento anual, mas plenamente
+justificada pela urgência e relevância estratégica para a modernização da gestão pública municipal.
+11. DEMONSTRATIVO DOS RESULTADOS PRETENDIDOS
+A implementação da solução proposta visa alcançar resultados significativos em termos de economicidade e melhor
+aproveitamento dos recursos humanos, materiais e financeiros disponíveis.
+11.1. Resultados em Termos de Economicidade
+11.1.1. Redução de Custos Operacionais
+Estimativa de economia anual:
+Situação atual: Aproximadamente 500.000 folhas/mês em processos administrativos
+Redução esperada: 80% com digitalização completa
+Economia estimada: R$ 120.000,00/ano
+Economia estimada: R$ 80.000,00/ano
+Economia com espaço físico e arquivamento: R$ 50.000,00/ano
+Com serviços digitais, redução de deslocamentos desnecessários
+Benefício indireto para a população: Estimado em milhões de reais/ano
+Liberação de servidores de tarefas repetitivas para atividades estratégicas
+Ganho de produtividade estimado: 30%
+Economia total estimada: R$ 250.000,00/ano (custos diretos)
+Retorno do Investimento (ROI): Aproximadamente 6 anos (considerando apenas economias diretas, sem considerar
+benefícios intangíveis)
+11.1.2. Aumento de Arrecadação
+A melhoria na gestão de dados e a proatividade na comunicação com contribuintes pode resultar em:
+Redução de inadimplência tributária
+Aumento de arrecadação de IPTU, ISS e taxas municipais
+Estimativa conservadora: Aumento de 5% na arrecadação = R$ 10.000.000,00/ano
+11.2. Resultados em Termos de Aproveitamento de Recursos Humanos
+11.2.1. Ganho de Produtividade
+Automação de tarefas repetitivas: Liberação de aproximadamente 30% do tempo dos servidores
+Redução de retrabalho: Eliminação de redundâncias e duplicidades
+Redução de consumo de papel:
+1
+)
+Redução de custos com impressão e cópias:
+2
+)
+Redução de custos com armazenamento físico:
+3
+)
+Redução de custos com deslocamento de cidadãos:
+4
+)
+Otimização de recursos humanos:
+5
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 17
+Melhoria na comunicação interna: Integração entre secretarias
+11.2.2. Capacitação e Desenvolvimento
+Upskilling: Capacitação de servidores em competências digitais
+Cultura de inovação: Engajamento e motivação das equipes
+Retenção de talentos: Ambiente de trabalho mais moderno e estimulante
+11.3. Resultados em Termos de Aproveitamento de Recursos Materiais
+11.3.1. Otimização de Infraestrutura
+Consolidação de sistemas: Redução de licenças e contratos redundantes
+Uso eficiente de servidores: Migração para nuvem com otimização de recursos
+Redução de desperdícios: Gestão inteligente de ativos
+11.4. Resultados em Termos de Aproveitamento de Recursos Financeiros
+11.4.1. Melhor Alocação de Recursos
+Priorização baseada em dados: Decisões mais assertivas
+Transparência orçamentária: Controle e acompanhamento em tempo real
+Redução de desperdícios: Identificação de ineficiências
+11.5. Resultados Intangíveis
+Além dos resultados quantificáveis, a transformação digital proporcionará benefícios intangíveis significativos:
+11.6. Indicadores de Sucesso
+Para mensuração dos resultados, serão adotados os seguintes indicadores:
+Indicador
+Meta
+Prazo
+Serviços digitalizados
+80% dos serviços
+18 meses
+Satisfação do cidadão
+NPS > 70
+18 meses
+Redução de tempo de atendimento
+50%
+18 meses
+Uso da plataforma digital
+100.000 usuários
+18 meses
+Economia de papel
+80%
+18 meses
+Servidores capacitados
+500 servidores
+18 meses
+12. PROVIDÊNCIAS A SEREM ADOTADAS
+Para garantir o sucesso da contratação e a adequada execução do objeto, a Administração deverá adotar as
+seguintes providências previamente ou durante a execução do contrato:
+12.1. Providências Administrativas
+12.1.1. Designação de Gestor e Fiscal do Contrato
+Gestor do Contrato: Servidor com conhecimento técnico e autoridade para tomar decisões
+Fiscal do Contrato: Equipe técnica da SMTI para acompanhamento da execução
+Prazo: Imediatamente após assinatura do contrato
+12.1.2. Constituição do Núcleo de Transformação Digital
+Composição: Representantes da Alta Gestão e das principais Secretarias
+Atribuições: Governança do projeto e tomada de decisões estratégicas
+Prazo: Antes do início da execução
+12.1.3. Constituição da Rede de Transformação Digital
+Composição: Servidores de todas as Secretarias Municipais
+Melhoria da imagem institucional: Prefeitura moderna e inovadora
+Aumento da satisfação do cidadão: Serviços mais ágeis e acessíveis
+Transparência e accountability: Fortalecimento da democracia
+Inclusão digital: Democratização do acesso aos serviços públicos
+Atração de investimentos: Cidade inteligente e conectada
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 18
+Atribuições: Implementação operacional e disseminação da cultura de inovação
+Prazo: Primeiro mês de execução
+12.2. Providências Técnicas
+12.2.1. Disponibilização de Equipe Técnica
+Equipe da SMTI: Dedicação de servidores para apoio à implementação
+Equipes das Secretarias: Disponibilização de servidores para levantamento de requisitos
+Prazo: Durante toda a execução
+12.2.2. Garantia de Acesso a Informações e Sistemas
+Bases de dados: Acesso às bases de dados municipais para integração
+Sistemas legados: Acesso aos sistemas existentes para análise de integração
+Documentação: Disponibilização de documentação técnica existente
+Prazo: Conforme cronograma de execução
+12.2.3. Infraestrutura Básica
+Conectividade: Garantia de conectividade adequada para acesso aos sistemas em nuvem
+Equipamentos: Disponibilização de computadores para capacitações
+Espaço físico: Salas para reuniões e workshops
+Prazo: Conforme cronograma de execução
+12.3. Providências Normativas
+12.3.1. Elaboração e Publicação de Normativos
+Decreto Municipal de Transformação Digital: Formalização da política municipal
+Portaria de Instituição da Rede: Formalização dos membros da rede
+Regulamentação de processos: Normas internas para novos processos digitais
+Prazo: Conforme orientação da consultoria
+12.4. Providências de Capacitação
+12.4.1. Liberação de Servidores para Capacitação
+Workshops: Liberação para participação nos workshops
+Treinamentos: Disponibilidade para treinamentos específicos
+Prazo: Conforme cronograma de capacitação
+12.5. Providências de Comunicação
+12.5.1. Comunicação Interna
+Divulgação do projeto: Comunicação para todos os servidores
+Engajamento: Campanhas de sensibilização e engajamento
+Prazo: Durante toda a execução
+12.5.2. Comunicação Externa
+Divulgação para a população: Campanhas de lançamento da plataforma
+Educação digital: Orientação para uso dos novos canais digitais
+Prazo: Conforme cronograma de lançamento
+12.6. Providências Jurídicas
+12.6.1. Análise e Aprovação de Normativos
+Procuradoria Geral do Município: Análise das minutas de Decreto e Portaria
+Prazo: Conforme cronograma de elaboração
+12.6.2. Termos de Uso e Políticas de Privacidade
+Elaboração: Termos de uso da plataforma e política de privacidade (LGPD)
+Aprovação: Análise jurídica e aprovação
+Prazo: Antes do lançamento da plataforma
+12.7. Resumo das Providências
+Providência
+Responsável
+Prazo
+Designação de Gestor e Fiscal
+Gabinete do Prefeito
+Imediato
+Constituição do Núcleo de Transformação Digital
+Gabinete do Prefeito
+Antes do início
+Constituição da Rede de Transformação Digital
+SMTI
+1º mês
+Disponibilização de equipe técnica
+SMTI e Secretarias
+Durante execução
+Garantia de acesso a informações
+SMTI
+Conforme cronograma
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 19
+Infraestrutura básica
+SMTI
+Conforme cronograma
+Elaboração de normativos
+SMTI + PGM
+Conforme orientação
+Liberação para capacitação
+Secretarias
+Conforme cronograma
+Comunicação interna e externa
+SECOM
+Durante execução
+Análise jurídica
+PGM
+Conforme demanda
+13. DESCRIÇÃO DE POSSÍVEIS IMPACTOS AMBIENTAIS
+13.1. Natureza do Objeto
+O objeto desta contratação é um serviço de consultoria técnica especializada de natureza intelectual, que não
+envolve obras, instalações físicas ou atividades que gerem impactos ambientais diretos significativos.
+13.2. Impactos Ambientais Positivos
+A implementação da solução proposta gerará impactos ambientais positivos significativos:
+13.2.1. Redução do Consumo de Papel
+Situação atual: Consumo aproximado de 500.000 folhas/mês
+Redução esperada: 80% com digitalização completa
+Impacto: Redução de 400.000 folhas/mês = 4.800.000 folhas/ano
+Equivalente a: Aproximadamente 24 árvores/ano (estimativa conservadora)
+13.2.2. Redução de Resíduos
+Redução de descarte de papel: 4.800.000 folhas/ano
+Redução de cartuchos de tinta: Estimado em 80%
+Redução de outros materiais de escritório: Significativa
+13.2.3. Redução de Consumo de Energia
+Eliminação de impressoras: Redução de consumo de energia com equipamentos
+Otimização de servidores: Migração para nuvem com eficiência energética
+Redução de iluminação: Menor necessidade de espaço físico para arquivamento
+13.2.4. Redução de Deslocamentos
+Serviços digitais: Redução de deslocamentos de cidadãos até órgãos públicos
+Impacto: Redução de emissões de CO
+₂
+e congestionamentos
+Benefício adicional: Melhoria da qualidade do ar
+13.3. Medidas Mitigadoras
+Embora os impactos sejam predominantemente positivos, algumas medidas mitigadoras serão adotadas:
+13.3.1. Gestão de Resíduos Eletrônicos
+Descarte adequado: Equipamentos obsoletos serão descartados conforme legislação ambiental
+Logística reversa: Parcerias para destinação adequada de resíduos eletrônicos
+13.3.2. Eficiência Energética
+Infraestrutura em nuvem: Utilização de data centers com certificação de eficiência energética
+Otimização de recursos: Dimensionamento adequado para evitar desperdício
+13.3.3. Conscientização Ambiental
+Capacitação: Inclusão de temas de sustentabilidade nos treinamentos
+Comunicação: Divulgação dos benefícios ambientais da transformação digital
+13.4. Requisitos de Sustentabilidade
+A solução deverá atender aos seguintes requisitos de sustentabilidade:
+13.5. Conclusão sobre Impactos Ambientais
+A contratação apresenta impactos ambientais predominantemente positivos, contribuindo para:
+Baixo consumo de energia: Infraestrutura otimizada e eficiente
+Redução de papel: Processos 100% digitais
+Logística reversa: Plano de descarte adequado de equipamentos
+Certificações ambientais: Preferência por fornecedores com certificações (ISO 14001 ou similar)
+1
+)
+2
+)
+3
+)
+4
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 20
+Redução do consumo de recursos naturais (papel, água, energia)
+Redução de emissões de CO
+₂
+(menos deslocamentos)
+Redução de resíduos sólidos
+Promoção de práticas sustentáveis na administração pública
+14. DECLARAÇÃO DE VIABILIDADE DA SOLUÇÃO
+14.1. Análise de Viabilidade
+Após análise detalhada de todos os aspectos técnicos, econômicos, operacionais e estratégicos envolvidos nesta
+contratação, conclui-se que a solução proposta é VIÁVEL e se apresenta como a alternativa mais adequada para
+atender às necessidades da Prefeitura de Porto Velho.
+14.2. Fundamentos da Viabilidade
+14.2.1. Viabilidade Técnica
+A solução proposta é tecnicamente viável, considerando:
+Tecnologias maduras e comprovadas
+Expertise da empresa contratada
+Infraestrutura disponível
+Compatibilidade com sistemas legados
+Escalabilidade e sustentabilidade
+14.2.2. Viabilidade Econômica
+A solução é economicamente viável, considerando:
+Relação custo-benefício favorável
+Retorno do investimento em prazo razoável
+Economias operacionais significativas
+Potencial de aumento de arrecadação
+Benefícios intangíveis relevantes
+14.2.3. Viabilidade Operacional
+A solução é operacionalmente viável, considerando:
+Metodologia de implementação adequada
+Transferência de conhecimento efetiva
+Capacitação das equipes
+Suporte técnico durante a execução
+Gestão de mudança organizacional
+14.2.4. Viabilidade Estratégica
+A solução é estrategicamente viável, considerando:
+Alinhamento com o Plano de Governo
+Contribuição para modernização da gestão pública
+Posicionamento da cidade como referência em inovação
+Melhoria da qualidade de vida da população
+Fortalecimento da democracia e transparência
+14.3. Adequação ao Interesse Público
+A contratação atende plenamente ao interesse público, pois:
+14.4. Conformidade Legal
+A contratação está em conformidade com:
+Lei nº 14.133/2021: Inexigibilidade de licitação (art. 74, III, "f")
+Melhora a qualidade dos serviços públicos: Serviços mais ágeis, acessíveis e transparentes
+Promove inclusão digital: Democratização do acesso aos serviços
+Otimiza recursos públicos: Redução de desperdícios e aumento de eficiência
+Fortalece a cidadania: Maior participação e controle social
+Moderniza a gestão pública: Alinhamento com as melhores práticas nacionais e internacionais
+1
+)
+2
+)
+3
+)
+4
+)
+5
+)
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 21
+Decreto Municipal nº 20.964/2025: Procedimentos de contratação
+Lei nº 13.709/2018 (LGPD): Proteção de dados pessoais
+Decreto Federal nº 10.332/2020: Estratégia de Governo Digital
+Demais normativas aplicáveis
+14.5. Riscos e Mitigações
+Os principais riscos identificados e suas mitigações são:
+Risco
+Probabilidade
+Impacto
+Mitigação
+Resistência à mudança
+Média
+Alto
+Programa de gestão de mudança e capacitação
+Problemas de integração
+Baixa
+Médio
+Expertise da consultoria e testes
+Atraso no cronograma
+Média
+Médio
+Gestão ativa e acompanhamento
+Indisponibilidade de servidores
+Média
+Médio
+Planejamento e priorização
+Problemas de conectividade
+Baixa
+Baixo
+Infraestrutura redundante
+14.6. Declaração Final
+Diante de todo o exposto neste Estudo Técnico Preliminar, DECLARO que a contratação de consultoria técnica
+especializada para aceleração da transformação digital dos serviços públicos do Município de Porto Velho é:
+✅
+VIÁVEL sob todos os aspectos analisados (técnico, econômico, operacional, estratégico e legal)
+✅
+NECESSÁRIA para superar os desafios identificados e aproveitar a oportunidade estratégica
+✅
+ADEQUADA ao interesse público e aos objetivos da administração municipal
+✅
+OPORTUNA considerando o momento de implementação do SEI e o Plano de Governo
+✅
+RECOMENDADA como a melhor alternativa para atender às necessidades identificadas
+ASSINATURAS
+Responsáveis pela Elaboração:
+Erick Arruda Alves Saraiva Assessor Técnico I Matrícula: 263682
+Luiz Felipe Ferreira Brito Assessor Técnico I Matrícula: 10074078
+Aprovação:
+CESAR EDUARDO DONDONI MARINI
+Superintendente Municipal de Tecnologia da Informação - SMTI
+Porto Velho/RO, 10 de novembro de 2025.
+Documento assinado eletronicamente por
+Erick Arruda Alves Saraiva
+,
+Assessor Executivo Especial
+, em 12/11/2025, às 17:32, conforme
+art. 17, § 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 22
+Documento assinado eletronicamente por
+Luiz Felipe Ferreira Brito
+,
+Assessor (a)
+, em 12/11/2025, às 17:38, conforme art. 17, § 1º, do
+Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por
+Cezar Eduardo Dondoni Marini
+,
+Superintendente
+, em 12/11/2025, às 17:41, conforme art. 17,
+§ 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+A autenticidade do documento pode ser conferida no site https://www.portovelho.ro.gov.br/sei informando o código verificador
+0191212
+e o
+código CRC
+9EB72913
+.
+003.000184/2025-44
+0191212v17
+Estudo Técnico Preliminar - ETP 0191212 SEI 003.000184/2025-44 / pg. 23

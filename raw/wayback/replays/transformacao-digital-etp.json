@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/transformacao-digital-etp",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8240/29447/ETP.pdf",
+  "archive_url": "https://web.archive.org/web/20260903080922/https://anexos.portovelho.ro.gov.br/compras/8240/29447/ETP.pdf",
+  "verified_at": "2026-09-03T08:23:04Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 456326,
+  "archive_sha256": "3867a12ba95c1137bddb0a1499d2fa16c9208e2424f2e39a65a0705e9b50679b",
+  "source_content_type": "application/pdf",
+  "source_size": 567414,
+  "source_sha256": "28f89aeffa03803d3adbd53c486bd4e8d8913d076a55118245087a5a966bbcd7",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/transformacao-digital-etp.pdf"
+}

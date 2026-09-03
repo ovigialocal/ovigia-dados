@@ -1,0 +1,807 @@
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+CONTRATO QUE ENTRE SI CELEBRAM
+O MUNICÍPIO DE PORTO VELHO, POR
+INTERMÉDIO DA SUPERINTENDÊNCIA
+MUNICIPAL DE TECNOLOGIA DA
+INFORMAÇÃO E PESQUISA - SMTI DE
+UM LADO, E DO OUTRO A EMPRESA
+LEGALTECH AI COMPANY LTDA., PARA
+OS FINS QUE ESPECIFICAM.
+Aos sete dias do mês de janeiro do ano de dois mil e vinte e seis , o MUNICÍPIO DE
+PORTO VELHO, Pessoa Jurídica de Direito Público Interno, inscrito no CNPJ sob o nº
+05.903.125/0001-45, por intermédio da SUPERINTENDÊNCIA MUNICIPAL DE
+TECNOLOGIA DA INFORMAÇÃO E PESQUISA (SMTI) , com sede na Rua Dom
+Pedro II, nº 826, Bairro Centro, Porto Velho - RO, CEP 76.801-066, representada pelo seu
+Superintendente Sr. CEZAR EDUARDO DONDONI MARINI , doravante denominada
+CONTRATANTE; e a empresa LEGALTECH AI COMPANY LTDA. , inscrita no
+CNPJ sob o nº 50.336.412/0001-75, com sede na Av. Governador Agamenon Magalhães,
+nº 2864, Bairro Espinheiro, Recife - PE, CEP 52.020-000, neste ato legalmente
+representada por sua Sócia Administradora, Sra. LADY DIANA AQUINO BRITO ,
+doravante denominada CONTRATADA, resolvem celebrar o presente contrato,
+decorrente de Inexigibilidade de Licitação (Processo Administrativo nº 003.000184/2025-
+44), regido pela Lei nº 14.133/2021 e pelas cláusulas e condições seguintes:
+1. CLÁUSULA PRIMEIRA – DO OBJETO
+1.1. O objeto deste contrato é a prestação de serviço de consultoria técnica especializada
+na aceleração da transformação digital dos serviços públicos do Município de Porto Velho,
+com foco na modernização de processos, integração de sistemas, digitalização de serviços
+e criação de uma cultura de inovação na administração pública municipal, incluindo a
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+transferência de conhecimento e tecnologia para a equipe interna da SMTI.
+1.2. Integram este documento contratual, como parte indissociável, vinculando esta
+contratação, independentemente de transcrição, o Processo Administrativo nº
+003.000184/2025-44, em especial:
+a) Termo de Referência (ID 0230370);
+b) Autorização de Contratação por Inexigibilidade (0329646);
+c) Proposta da CONTRATADA (ID 0166390 e 0192240).
+1.2. O regime de execução é o de empreitada por preço global, compreendendo serviço
+técnico especializado de natureza intelectual, indivisível.
+2. CLÁUSULA SEGUNDA – DA VIGÊNCIA E DO REAJUSTE CONTRATUAL
+2.1. Da Vigência
+2.1.1. O prazo de vigência do contrato será de 18 (doze) meses, contados a partir da data
+de sua assinatura, podendo ser prorrogado nos termos do art. 111 da Lei n° 14.133, de
+2021.
+2.1.2. Quando a não conclusão decorrer de culpa do contratado:
+I - o contratado será constituído em mora, aplicáveis a ele as respectivas sanções
+administrativas;
+II - a Administração poderá optar pela extinção do contrato e, nesse caso, adotará as
+medidas admitidas em lei para a continuidade da execução contratual.
+2.2. Do Reajuste
+2.2.1. Após o interregno de um ano, e mediante requerimento da CONTRATADA
+devidamente assinado pelo seu responsável, os preços iniciais serão reajustados, mediante
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+a aplicação, pelo CONTRATANTE, do Índice de Custo da Tecnologia da Informação
+(ICTI), exclusivamente para as obrigações iniciadas e concluídas após a ocorrência da
+anualidade.
+2.2.2. O pedido de reajuste do contrato deverá ser instruído com planilha de custos
+demonstrando a equação inicial do contrato, quando esta já não constar do processo
+administrativo da contratação; e
+2.2.2.1. Planilha de custos demonstrando a equação atual do contrato, a qual deverá
+demonstrar a variação do preço, levando em consideração o índice de reajuste pré-fixado
+no contrato.
+2.2.3. Nos reajustes subsequentes ao primeiro, o interregno mínimo de um ano será
+contado a partir dos efeitos financeiros do último reajuste.
+2.2.4. No caso de atraso ou não divulgação do(s) índice (s) de reajustamento, o Contratante
+pagará ao Contratado a importância calculada pela última variação conhecida, liquidando a
+diferença correspondente tão logo seja(m) divulgado(s) o(s) índice(s) definitivo(s).
+2.2.5. Nas aferições finais, o(s) índice(s) utilizado(s) para reajuste será(ão),
+obrigatoriamente, o(s) definitivo(s).
+2.2.6. Caso o(s) índice(s) estabelecido(s) para reajustamento venha(m) a ser extinto(s) ou
+de qualquer forma não possa(m) mais ser utilizado(s), será(ão) adotado(s), em substituição,
+o(s) que vier(em) a ser determinado(s) pela legislação então em vigor.
+2.2.7. Na ausência de previsão legal quanto ao índice substituto, as partes elegerão novo
+índice oficial, para reajustamento do preço do valor remanescente, por meio de termo
+aditivo.
+2.2.8. O reajuste será realizado por apostilamento.
+2.2.9. Os reajustes a que o contratado fizer jus e que não forem solicitadas durante a
+vigência do contrato serão objeto de preclusão temporal com a assinatura da prorrogação
+contratual ou com o encerramento do contrato, salvo se, no caso de prorrogação contratual,
+constar cláusula específica resguardando o direito do contratado.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+3. CLÁUSULA TERCEIRA – DA EXECUÇÃO DO OBJETO E DA
+FISCALIZAÇÃO E GESTÃO CONTRATUAL
+3.1. A execução e a gestão do objeto contratado seguirá o disposto no Termo de Referência
+(ID 0230370).
+3.2. Gestão da contratação
+3.2.1. O contrato deverá ser executado fielmente pelas partes, de acordo com as cláusulas
+avençadas e as normas da Lei nº 14.133/2021, e cada parte responderá pelas consequências
+de sua inexecução total ou parcial;
+3.2.2. Em caso de impedimento, ordem de paralisação ou suspensão do contrato, o
+cronograma de execução será prorrogado automaticamente pelo tempo correspondente,
+anotadas tais circunstâncias mediante simples apostila;
+3.2.3. As comunicações entre o órgão ou entidade e a contratada devem ser realizadas por
+escrito sempre que o ato exigir tal formalidade, admitindo-se o uso de mensagem
+eletrônica para esse fim;
+3.2.4. O órgão ou entidade poderá convocar representante da empresa para adoção de
+providências que devam ser cumpridas de imediato.
+3.2.5. O órgão ou entidade poderá convocar representante da empresa para adoção de
+providências que devam ser cumpridas de imediato.
+3.2.6. A contratada deverá permitir acesso integral à documentação técnica e planilhas de
+cálculo durante todo o período contratual;
+3.2.7. Deverá ser designado Fiscal Técnico e Fiscal Administrativo para o
+acompanhamento das atividades, com reuniões de acompanhamento quinzenais ou
+mensais;
+3.2.8. A contratada deverá encaminhar relatórios de progresso com o registro das
+atividades executadas, conclusões parciais e pendências;
+3.2.9. Todos os produtos intermediários deverão ser aprovados formalmente pelo Fiscal do
+Contrato antes da evolução para a etapa seguinte;
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+3.2.10. A contratada deverá disponibilizar ambiente colaborativo digital (plataforma de
+trabalho remoto ou compartilhamento seguro de dados) para acompanhamento e validação
+dos produtos.
+3.3. Da Fiscalização
+3.3.1. A execução do contrato deverá ser acompanhada e fiscalizada pelo fiscal do contrato
+nomeado pela SUPERINTENDÊNCIA MUNICIPAL DE TECNOLOGIA DA
+INFORMAÇÃO E PESQUISA (SMTI), ou pelos respectivos substitutos, onde registrará
+todas as ocorrências, determinando o que for necessário à regularização das faltas
+observadas.
+3.3.2. O fiscal do contrato acompanhará a execução do contrato, para que sejam cumpridas
+todas as condições estabelecidas no contrato, de modo a assegurar os melhores resultados
+para a Administração.
+3.3.3. O fiscal do contrato anotará no histórico de gerenciamento do contrato todas as
+ocorrências relacionadas à execução do contrato, com a descrição do que for necessário
+para a regularização das faltas ou dos defeitos observados.
+3.3.4. Identificada qualquer inexatidão ou irregularidade, o fiscal do contrato emitirá
+notificações para a correção da execução do contrato, determinando prazo para a correção.
+3.3.5. O fiscal do contrato informará ao gestor do contrato, em tempo hábil, a situação que
+demandar decisão ou adoção de medidas que ultrapassem sua competência, para que adote
+as medidas necessárias e saneadoras, se for o caso.
+3.3.6. No caso de ocorrências que possam inviabilizar a execução do contrato nas datas
+aprazadas, o fiscal do contrato comunicará o fato imediatamente ao gestor do contrato;
+3.3.7. O fiscal do contrato comunicará ao gestor do contrato, em tempo hábil, o término do
+contrato sob sua responsabilidade, com vistas à renovação tempestiva ou à prorrogação
+contratual.
+3.3.8. O fiscal do contrato verificará a manutenção das condições de habilitação da
+contratada, acompanhará o empenho, o pagamento, as garantias, as glosas e a formalização
+de apostilamento e termos aditivos, solicitando quaisquer documentos comprobatórios
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+pertinentes, caso necessário.
+3.3.9. Caso ocorra descumprimento das obrigações contratuais, o fiscal do contrato atuará
+tempestivamente na solução do problema, reportando ao gestor do contrato para que tome
+as providências cabíveis, quando ultrapassar a sua competência.
+3.4. Do Gestor do Contrato
+3.4.1. O gestor do contrato coordenará a atualização do processo de acompanhamento e
+fiscalização do contrato contendo todos os registros formais da execução no histórico de
+gerenciamento do contrato, a exemplo da ordem de serviço, do registro de ocorrências, das
+alterações e das prorrogações contratuais, elaborando relatório com vistas à verificação da
+necessidade de adequações do contrato para fins de atendimento da finalidade da
+administração.
+3.4.2. O gestor do contrato acompanhará os registros realizados pelos fiscais do contrato,
+de todas as ocorrências relacionadas à execução do contrato e as medidas adotadas,
+informando, se for o caso, à autoridade superior àquelas que ultrapassarem a sua
+competência.
+3.4.3. O gestor do contrato acompanhará a manutenção das condições de habilitação da
+contratada, para fins de empenho de despesa e pagamento, e anotará os problemas que
+obstem o fluxo normal da liquidação e do pagamento da despesa no relatório de riscos
+eventuais.
+3.4.4. O gestor do contrato emitirá documento comprobatório da avaliação realizada pelos
+fiscais técnico, administrativo e setorial quanto ao cumprimento de obrigações assumidas
+pelo contratado, com menção ao seu desempenho na execução contratual, baseado nos
+indicadores objetivamente definidos e aferidos, e a eventuais penalidades aplicadas,
+devendo constar do cadastro de atesto de cumprimento de obrigações.
+3.4.5. O gestor do contrato tomará providências para a formalização de processo
+administrativo de responsabilização para fins de aplicação de sanções, a ser conduzido pela
+comissão de que trata o art. 158 da Lei nº 14.133, de 2021, ou pelo agente ou pelo setor
+com competência para tal, conforme o caso.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+3.4.6. O gestor do contrato deverá enviar a documentação pertinente ao setor de contratos
+para a formalização dos procedimentos de liquidação e pagamento, no valor dimensionado
+pela fiscalização e gestão nos termos do contrato.
+4. CLÁUSULA QUARTA – SUBCONTRATAÇÃO, CESSÃO E/OU
+TRANSFERÊNCIA
+4.1. É vedada a subcontratação, cessão e/ou transferência total ou parcial do objeto deste
+termo.
+5. CLÁUSULA QUINTA – DO PREÇO
+5.1. Pela execução do objeto do presente contrato a Contratada será remunerada no valor
+de R$ 1.600.000,00 (Um milhão e seiscentos mil reais), da seguinte forma e condições:
+5.1.1. O pagamento será efetuado em 18 (dezoito) parcelas mensais no valor de
+R$ 88.888,88 (oitenta e oito mil, oitocentos e oitenta e oito reais e oitenta e oito
+centavos).
+5.1.2. O prazo para pagamento é de até 30 (trinta) dias após a apresentação da nota fiscal,
+solicitada pela comissão de fiscalização.
+5.1.3. A nota fiscal deverá vir acompanhada de:
+a) Relatório mensal de atividades;
+b) Comprovação das entregas realizadas;
+c) Ateste de conformidade emitido pelo fiscal;
+d) Certidões de regularidade fiscal (FGTS, INSS, Fazendas Federal, Estadual e Municipal)
+6. CLÁUSULA SEXTA – DOS CRITÉRIOS DE PAGAMENTO
+6.1. O pagamento do serviço prestado, técnica especializada na aceleração da
+transformação digital dos serviços públicos do Município de Porto Velho, com foco na
+modernização de processos, integração de sistemas, digitalização de serviços e criação de
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+uma cultura de inovação na administração pública municipal, incluindo a transferência de
+conhecimento e tecnologia para a equipe interna da SMTI será feito 30 dias após a
+solicitação da nota fiscal pela comissão de fiscalização.
+6.2. Recebida a nota fiscal ou documento de cobrança equivalente, correrá o prazo de 10
+(úteis) dias úteis para fins de liquidação, prorrogáveis por igual.
+6.3. Para fins de liquidação, o setor competente verificará se a nota fiscal ou instrumento
+de cobrança equivalente apresentado expressa os elementos necessários e essenciais do
+documento, tais como:
+a) O prazo de validade;
+b) O data da emissão;
+c) Os dados do contratado e da contratante;
+d) O período respectivo de execução do contrato;
+e) As quantidades;
+f) O valor unitário e total a pagar;
+g) O número do empenho; e
+h) Eventual destaque do valor de retenções tributárias cabíveis
+6.4. A nota fiscal deverá ser emitida pela própria contratada, obrigatoriamente com o
+número de inscrição no CNPJ apresentado nos documentos de habilitação e das propostas
+de preços, não se admitindo notas fiscais/faturas emitidas com outros CNPJs, exceto se,
+comprovadamente, demonstrar que o recolhimento de contribuições (Certidão Conjunta de
+Débitos Relativos a Tributos Federais e à Dívida Ativa da União e FGTS) e/ou balanço é
+centralizado que poderão pertencer a matriz ou a filial.
+6.5. Havendo erro na apresentação da nota fiscal ou instrumento de cobrança equivalente,
+ou circunstância que impeça a liquidação da despesa, esta ficará sobrestada até que a
+contratada providencie as medidas saneadoras, reiniciando-se o prazo após a comprovação
+da regularização da situação, sem ônus à contratante.
+6.6. A nota fiscal ou instrumento de cobrança equivalente deverá ser obrigatoriamente
+acompanhada da comprovação da regularidade fiscal, constatada por meio de consulta on-
+line aos sítios eletrônicos oficiais.
+6.7. A contratante deverá verificar a manutenção das condições de habilitação exigidas
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+bem como identificar possível razão que impeça a participação em licitação, no âmbito do
+órgão ou entidade, que implique proibição de contratar com o Poder Público, bem como
+ocorrências impeditivas indiretas.
+6.8. Constatando-se, a situação de irregularidade da contratada, será providenciada sua
+notificação, por escrito, para que, no prazo de 5 (cinco) dias úteis, regularize sua situação
+ou, no mesmo prazo, apresente sua defesa. O prazo poderá ser prorrogado uma vez, por
+igual período, a critério da contratante.
+6.9. Não havendo regularização ou sendo a defesa considerada improcedente, a contratante
+deverá comunicar aos órgãos responsáveis pela fiscalização da regularidade fiscal quanto à
+inadimplência da contratada, bem como quanto à existência de pagamento a ser efetuado,
+para que sejam acionados os meios pertinentes e necessários para garantir o recebimento
+de seus créditos.
+6.10. Persistindo a irregularidade, a contratante deverá adotar as medidas necessárias à
+rescisão contratual nos autos do processo administrativo correspondente, assegurada à
+contratada a ampla defesa.
+6.11. Havendo a efetiva execução do objeto, os pagamentos serão realizados normalmente,
+até que se decida pela rescisão do contrato, caso a contratada não regularize sua situação.
+6.12. A NF-e deverá atender a legislação tributária vigente e ser emitida em única via,
+devendo conter em seu corpo a descrição do objeto, o número do contrato e o número da
+conta bancária da contratada para depósito do pagamento, e acompanhada dos respectivos
+comprovantes e recolhimento dos tributos, e ainda, obrigatoriamente, dos seguintes
+documentos:
+a) Certidão Conjunta Negativa de Débitos Relativos a Tributos Federais e à Dívida Ativa
+da União;
+b) Certificado de Regularidade com o Fundo de Garantia por Tempo de Serviço (FGTS);
+c) Certidão Negativa de Débitos Trabalhistas (CNDT);
+d) Certidão Negativa de Débitos com a Fazenda Estadual;
+e) Certidão Negativa de Débitos com a Fazenda Municipal.
+f) As certidões elencadas acima podem ser positivas com efeito de negativas.
+g) A Nota Fiscal deverá ser emitida em nome da SUPERINTENDÊNCIA MUNICIPAL
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+DE TECNOLOGIA DA INFORMAÇÃO E PESQUISA (SMTI) , com sede na Rua Dom
+Pedro II, nº 826, Bairro Centro, Porto Velho - RO, CEP 76.801-066.
+h) Na hipótese das Notas Fiscais/Faturas apresentarem erros ou dúvidas quanto à exatidão
+ou documentação, a CONTRATANTE poderá pagar apenas a parcela não controvertida no
+prazo fixado para pagamento, ressalvado o direito da CONTRATADA de reapresentar,
+para cobrança as partes controvertidas com as devidas justificativas, nestes casos a
+CONTRATANTE terá o prazo de 05 (cinco) dias úteis, a partir do recebimento, para
+efetuar uma análise e o respectivo pagamento.
+6.13. A SMTI poderá deduzir do montante a pagar os valores correspondentes a multas ou
+indenizações devidas pela CONTRATADA, nos termos do Termo de Referência.
+6.14. Quando da ocorrência de eventuais atrasos de pagamento provocados exclusivamente
+pela Administração, o valor devido deverá ser acrescido de atualização financeira, e sua
+apuração se fará desde a data de seu vencimento até a data do efetivo pagamento, em que
+os juros de mora serão calculados à taxa de 0,5% (meio por cento) ao mês, ou 6% (seis por
+cento) ao ano, mediante aplicação das seguintes fórmulas:
+EM = I x N x VP
+Onde: EM = Encargos moratórios;
+N = Número de dias entre a data prevista para o pagamento e a do efetivo pagamento;
+VP valor da parcela paga;
+I = Índice de compensação financeira = 0,00016438, assim apurado:
+I = (TX) I = (6/100) I = 0,00016438
+365 365
+TX = Percentual da taxa anual = 6%
+6.15. Na hipótese de pagamento de juros de mora e demais encargos por atraso, os autos
+deverão ser instruídos com as justificativas e motivos, submetido para apreciação da
+autoridade superior competente, que adotará as providências para verificar se é ou não
+caso de apuração de responsabilidade, identificação dos envolvidos e imputação de ônus a
+quem deu causa.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+6.16. A CONTRATADA não poderá se valer de eventual contrato para assumir obrigações
+perante terceiros, dando-o como garantia, nem utilizar os direitos de crédito a serem
+auferidos em função dos materiais, em quaisquer operações de desconto bancário, sem
+prévia autorização do Ordenador de Despesas.
+6.17. A CONTRATANTE não se responsabilizará por qualquer despesa que venha a ser
+efetuada pela CONTRATADA, que porventura não tenha sido acordada.
+6.18. Considerar-se-á como data de pagamento a data da emissão da respectiva ordem
+bancária.
+6.19. Quando do pagamento, será efetuada a retenção tributária prevista na legislação
+aplicável, quando cabível.
+6.20. A contratada amparada por isenção, não incidência ou alíquota zero do IR deve
+informar essa condição nos documentos fiscais, inclusive o enquadramento legal, sob pena
+de, se não o fizer, sujeitar-se à retenção do IR sobre o valor total do documento fiscal, no
+percentual total correspondente à natureza do bem ou serviço.
+6.21. Em hipótese alguma será concedido reajustamento dos preços propostos e o valor
+constante da Nota Fiscal, quando da sua apresentação, não sofrerá qualquer atualização
+monetária até o efetivo pagamento.
+7. CLÁUSULA SÉTIMA – OBRIGAÇÕES DA CONTRATADA
+7.1. Além das obrigações resultantes da aplicação da Lei nº. 14.133/2021 e demais normas
+pertinentes a legislação brasileira, bem como, as normas previstas no Termo de Referência
+e seus Anexos, são obrigações da CONTRATADA:
+7.1.1. Cumprir e fazer cumprir todos os prazos e condições estabelecidas neste Instrumento
+e na proposta;
+7.1.2. A Contratada deverá arcar com todas as despesas, diretas e indiretas, decorrentes do
+cumprimento das obrigações assumidas no contrato, sem qualquer ônus à Contratante;
+7.1.3. Fica expressamente estipulado que não se estabelece por força do fornecimento do
+objeto do Termo de Referência qualquer relação de emprego entre a Contratante e os
+empregados do Contratado;
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+7.1.4. Respeitar as normas e procedimentos de controle e acesso às dependências da
+Contratante;
+7.1.5. Acatar todas as orientações da Contratante, emanadas pelo fiscal do contrato,
+sujeitando-se à ampla e irrestrita fiscalização, prestando todos os esclarecimentos
+solicitados e atendendo às reclamações formuladas;
+7.1.6. Refazer os serviços licitados reprovados no aceite provisório, caso estejam em
+desacordo com as especificações técnicas exigidas no Termo de Referência ou com a
+Proposta de Preços, no prazo de até 20 (vinte) dias, contados a partir da respectiva
+Notificação;
+7.1.7. Não transferir a terceiros, no todo ou em parte, o objeto do Contrato;
+7.1.8. Designar preposto para resolver todos os assuntos relativos à execução deste
+Contrato, indicando seus endereços físico e eletrônico (e-mail), telefone e/ou celular;
+7.1.9. Executar o objeto do Termo de Referência, em conformidade com as especificações,
+quantidades e preços constantes na proposta comercial, operando com organização e
+fornecendo produtos e serviços de qualidade;
+7.1.10. Cumprir o objeto do Termo de Referência, entregando fielmente os produtos e
+serviços descritos na proposta comercial;
+7.1.11. Cumprir toda a legislação (federal, estadual e municipal) aplicável aos produtos e
+serviços e responsabilizar-se por todos os danos decorrentes das infrações que houver dado
+causa;
+7.1.12. Responsabilizar-se pelos danos causados ao CONTRATANTE ou a terceiros,
+decorrentes de sua culpa ou dolo na execução dos serviços ora contratados.
+7.1.13. Responsabilizar-se por quaisquer ônus decorrentes de omissões ou erros na
+elaboração de estimativa de custos e que redundem em majoração de despesas ao
+CONTRATANTE;
+7.1.14. Não transferir ou ceder, a qualquer título, os direitos e obrigações decorrentes deste
+Contrato, sob pena de rescisão unilateral do ajuste.
+7.1.15. Manter, durante a execução do Contrato, em compatibilidade com as obrigações
+por ela assumidas, todas as condições de habilitação e qualificação exigidas no Estudo
+Técnico Preliminar e Termo de Referência; Na hipótese de eventuais irregularidades não
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+sanadas pela CONTRATADA, o fiscal ou gestor do contratante reduzirá a termo os fatos
+ocorridos e enviará à autoridade superior para procedimentos inerentes à aplicação das
+penalidades;
+7.1.16. Não contratar, na vigência deste Contrato, empregados ou admitir em seu quadro
+societário pessoas que sejam cônjuges, companheiros ou parentes em linha reta, colateral
+ou por afinidade, até o terceiro grau, inclusive, de ocupantes de cargos de direção e de
+assessoramento, de membros ou juízes vinculados a esta Superintendência, comunicando
+imediatamente a SMTI sobre a possibilidade de tais ocorrências;
+7.1.17. Aceitar, nas mesmas condições contratuais, e mediante Termo Aditivo, os
+acréscimos e supressões que se fizerem necessárias, no montante de até 25% (vinte e cinco
+por cento) do valor inicial atualizado do Contrato, de acordo com o parágrafo primeiro do
+Art. 125 da Lei nº 14.133, de 2021;
+7.1.18. Emitir nota fiscal/fatura, nos moldes estabelecidos nesta contratação; Cumprir as
+demais obrigações impostas contratualmente pela Secretaria;
+7.1.19. Apresentar a Declaração de cumprimento do disposto no inciso XXXIII do art. 7º
+da Constituição Federal;
+7.1.20. Apresentar a Declaração de Fato Superveniente;
+7.1.21. Comprovar experiência anterior na de consultorias de transformação digitais
+públicas;
+7.1.22. Demonstrar capacidade técnica operacional para elaboração dos serviços de
+transformação digital;
+7.1.23. Sigilo e confidencialidade, com observância da Lei Geral de Proteção de Dados
+(LGPD – Lei nº 13.709/2018);
+7.1.24. Utilização de metodologia científica e técnica reconhecida, com base em dados
+oficiais, indicadores financeiros e parâmetros de mercado;
+7.1.25. Disponibilidade para acompanhamento presencial ou remoto durante todas as fases
+do processo. A contratada deve cumprir rigorosamente os serviços dentro dos prazos
+estabelecidos além de apresentar a equipe multidisciplinar da proposta.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+8. CLÁUSULA OITAVA – OBRIGAÇÕES DA CONTRATANTE
+8.1. Oferecer todas as informações necessárias para que a CONTRATADA possa fornecer
+os objetos dentro das especificações e proporcionar todas as facilidades necessárias ao
+bom andamento do objeto contratado.
+8.2. Exigir o cumprimento de todas as obrigações assumidas pela CONTRATADA, de
+acordo com as cláusulas contratuais e os termos de sua proposta.
+8.3. Efetuar os pagamentos nas condições e preços pactuados à CONTRATADA, após
+aceitação dos serviços. Rejeitar, no todo ou em parte, os materiais entregues em desacordo
+com as obrigações assumidas pela CONTRATADA.
+8.4. Comunicar à CONTRATADA toda e qualquer ocorrência relacionada com a entrega
+dos objetos.
+8.5. Aplicar as sanções que couberem às inadimplências da CONTRATADA, garantidos a
+ampla defesa e o contraditório.
+8.6. Observar as leis, decretos, regulamentos, portarias e normas federais, estaduais e
+municipais direta e indiretamente aplicáveis ao objeto deste Termo.
+8.7. Comunicar imediatamente o Contratado sobre qualquer incorreção apresentada com o
+objeto entregue. Proporcionar todas as facilidades necessárias á boa execução do objeto.
+8.8. Permitir acesso aos funcionários do Contratado, desde que devidamente identificados,
+nas dependências da Contratante, nos horários de expediente normal ou em outros horários
+constantes em acordos firmados entre as partes.
+8.9. Acompanhar, fiscalizar e avaliar o fornecimento do item pelo Contratado, por
+intermédio de servidor designado para atuar como fiscal do contrato, que será responsável
+por comunicações, notificações, solicitações, requisições e demais atos relativos à
+ex1cução do contrato, anotando em registro próprio as ocorrências da relação contratual.
+8.10. Prestar quaisquer esclarecimentos que venham a ser formalmente solicitados pelo
+Contratado, desde que pertinente ao objeto deste Termo de Referência.
+8.11. Zelar para que, durante a vigência do contrato, sejam cumpridas as obrigações
+assumidas pelo Contratado, bem como sejam mantidas todas as condições de habilitação e
+qualificação exigidas na prestação dos serviços
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+8.12. Efetuar o pagamento do Contratado nos termos pactuados no Contrato e nos prazos
+definidos neste Termo de Referência.
+9. CLÁUSULA NOVE – OBRIGAÇÕES PERTINENTES À LGPD
+9.1. As partes deverão cumprir a Lei nº 13.709, de 14 de agosto de 2018 (LGPD) , quanto a
+todos os dados pessoais a que tenham acesso em razão do certame ou do contrato
+administrativo que eventualmente venha a ser firmado, a partir da apresentação da
+proposta no procedimento de contratação, independentemente de declaração ou de
+aceitação expressa.
+9.2. Os dados obtidos somente poderão ser utilizados para as finalidades que justificaram
+seu acesso e de acordo com a boa-fé e com os princípios do art. 6º da LGPD .
+9.3. É vedado o compartilhamento com terceiros dos dados obtidos fora das hipóteses
+permitidas em Lei.
+9.4. A Administração deverá ser informada no prazo de 5 (cinco) dias úteis sobre todos os
+contratos de suboperação firmados ou que venham a ser celebrados pelo Contratado.
+9.5. Terminado o tratamento dos dados nos termos do art. 15 da LGPD , é dever do
+contratado eliminá-los, com exceção das hipóteses do art. 16 da LGPD , incluindo aquelas
+em que houver necessidade de guarda de documentação para fins de comprovação do
+cumprimento de obrigações legais ou contratuais e somente enquanto não prescritas essas
+obrigações.
+9.6. É dever do contratado orientar e treinar seus empregados sobre os deveres, requisitos e
+responsabilidades decorrentes da LGPD.
+9.7. O Contratado deverá prestar, no prazo fixado pelo Contratante, prorrogável
+justificadamente, quaisquer informações acerca dos dados pessoais para cumprimento da
+LGPD, inclusive quanto a eventual descarte realizado.
+9.8. O Contratante poderá realizar diligência para aferir o cumprimento dessa cláusula,
+devendo o Contratado atender prontamente eventuais pedidos de comprovação
+formulados.
+9.9. O Contratado deverá prestar, no prazo fixado pelo Contratante, prorrogável
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+justificadamente, quaisquer informações acerca dos dados pessoais para cumprimento da
+LGPD, inclusive quanto a eventual descarte realizado.
+9.10. O contrato está sujeito a ser alterado nos procedimentos pertinentes ao tratamento de
+dados pessoais, quando indicado pela autoridade competente, em especial a ANPD por
+meio de opiniões técnicas ou recomendações, editadas na forma da LGPD.
+10. CLÁUSULA DÉCIMA – DA GARANTIA CONTRATUAL
+10.1. Não haverá exigência da garantia da contratação dos art. 96 e seguintes da Lei nº
+14.133, de 2021.
+11. CLÁUSULA DÉCIMA PRIMEIRA – DAS INFRAÇÕES E SANÇÕES
+ADMINISTRATIVAS
+11.1. O descumprimento total ou parcial das obrigações assumidas sujeitará a Contratada
+às sanções previstas no Capítulo IV da Lei nº 14.133/2021. A aplicação de sanções será
+baseada em critérios objetivos, vinculados aos indicadores de desempenho definidos nesta
+seção, garantindo o contraditório e a ampla defesa.
+11.2. Níveis de Serviço e Indicadores de Desempenho (KPIs)
+A fiscalização do contrato será baseada nos seguintes Indicadores de Desempenho (KPIs),
+que serão mensurados mensalmente pela comissão de fiscalização:
+ID Indicador Métrica Meta Tolerância Penalidade
+Aplicável
+KPI-
+01
+Cumprimento de
+Prazos Mensais
+Percentual de entregas do
+mês concluídas no prazo 100% Atraso de até
+5 dias úteis
+Multa por
+Atraso
+KPI-
+02
+Qualidade das
+Entregas
+Técnicas
+Percentual de conformidade
+com os requisitos técnicos ≥ 95% 90% a 94,9%
+Multa por
+Inexecução
+Parcial
+KPI-
+03
+Satisfação dos
+Usuários
+Percentual de satisfação
+(notas 4 ou 5) nas pesquisas
+≥ 85% 80% a 84,9% Advertência
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+ID Indicador Métrica Meta Tolerância Penalidade
+Aplicável
+(Capacitação) de feedback
+KPI-
+04
+Disponibilidade
+da Plataforma
+(após Mês 3)
+Percentual de uptime
+mensal da plataforma
+≥
+99,5%
+99,0% a
+99,49%
+Multa por
+Inexecução
+Parcial
+KPI-
+05
+Qualidade do
+Atendimento e
+Suporte
+Percentual de avaliações
+positivas (bom/ótimo) nos
+canais de suporte
+≥ 90% 85% a 89,9% Advertência
+11.3. Critérios para Aplicação de Sanções
+As sanções serão aplicadas de forma gradual, conforme a gravidade e a reincidência da
+falha:
+a) Advertência:
+• Aplicada na primeira ocorrência de falha em que o indicador fique dentro da faixa
+de tolerância.
+• Aplicada na primeira ocorrência de descumprimento de obrigações contratuais de
+menor gravidade.
+b) Multa por Atraso (Mora):
+• Aplicada quando o KPI-01 não for atingido.
+• Corresponde a 0,5% (cinco décimos por cento) por dia de atraso, calculada sobre o
+valor da parcela mensal, limitada a 10% do valor da parcela.
+c) Multa por Inexecução Parcial:
+• Aplicada quando o KPI-02 ou o KPI-04 não atingirem a meta e ficarem abaixo da
+faixa de tolerância.
+• Corresponde a 10% (dez por cento) sobre o valor da parcela mensal
+correspondente.
+• Aplicada em caso de reincidência de falha que já tenha gerado advertência.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+d) Impedimento de Licitar e Contratar e Declaração de Inidoneidade:
+• Aplicadas em casos de inexecução total do contrato, fraudes, ou reincidência de
+falhas graves que demonstrem a incapacidade da contratada de cumprir o objeto,
+conforme art. 156 da Lei nº 14.133/2021.
+11.4. Metodologia de Cálculo das Multas
+As multas serão calculadas com base no valor da parcela mensal de R$ 88.888,88.
+• Exemplo de Multa por Atraso: Atraso de 10 dias na entrega do Relatório de
+Diagnóstico (Mês 2).
+• Cálculo: 0,5% x R$ 88.888,88 x 10 dias = R$ 4.444,44
+• Exemplo de Multa por Inexecução Parcial: Qualidade das entregas do Mês 5
+avaliada em 88% (abaixo da tolerância de 90%).
+• Cálculo: 10% x R$ 88.888,88 = R$ 8.888,88
+As multas poderão ser descontadas diretamente do valor da parcela mensal a ser paga à
+contratada.
+11.5. Parâmetros para o Relatório de Fiscalização Mensal
+A comissão de fiscalização deverá elaborar um relatório mensal de acompanhamento, que
+servirá de base para o ateste da nota fiscal. O relatório deverá conter, no mínimo, os
+seguintes parâmetros:
+a) Verificação das Entregas do Mês:
+• Lista de todas as entregas previstas no cronograma para o mês.
+• Confirmação de recebimento de cada entrega (Sim/Não).
+• Data do recebimento.
+• Observações sobre cada entrega.
+b) Apuração dos Indicadores de Desempenho (KPIs):
+• KPI-01 (Prazo): Atraso de ____ dias.
+• KPI-02 (Qualidade): Conformidade de ____%.
+• KPI-03 (Satisfação): Satisfação de ____%.
+• KPI-04 (Disponibilidade): Uptime de ____%.
+• KPI-05 (Atendimento): Avaliação positiva de ____%.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+c) Análise de Conformidade:
+• Análise da qualidade técnica das entregas.
+• Verificação do cumprimento das obrigações contratuais.
+• Registro de não conformidades identificadas.
+d) Recomendações e Conclusão:
+• Parecer sobre o aceite das entregas.
+• Recomendação para pagamento (integral ou com glosa).
+• Recomendação para aplicação de sanções (se aplicável).
+• Assinatura dos membros da comissão de fiscalização.
+Em caso de qualquer omissão de aplicação de penalidades, está complementada no Termo
+de Referência, parte integrante e essencial do presente contrato, dana a natureza do objeto.
+11.6. Caso a contratada deixar de entregar ou apresentar documentação falsa exigida,
+ensejar o retardamento da execução de seu objeto, não mantiver a proposta, falhar ou
+fraudar na execução do instrumento contratual, comportar-se de modo inidôneo ou
+cometer fraude fiscal, garantida a prévia e ampla defesa, ficará impedida de licitar e
+contratar com o Município de Porto Velho, e será descredenciado no Cadastro de
+Fornecedores, pelo prazo de até 03 (três) anos, sem prejuízo das multas previstas no Termo
+de Referência e das demais cominações legais, devendo ser incluída a penalidade no
+SICAF e no CAGEFIMP - Cadastro de Fornecedores Impedidos de Licitar e Contratar
+com a Administração Pública;
+11.7. A multa, eventualmente imposta à Contratada, será automaticamente descontada da
+fatura a que fizer jus, acrescida de juros moratórios de 1% (um por cento) ao mês. Caso a
+contratada não tenha nenhum valor a receber do Estado, ser-lhe-á concedido o prazo de 05
+(cinco) dia úteis, contados de sua intimação, para efetuar o pagamento da multa.
+Mantendo-se o insucesso, seus dados serão encaminhados ao órgão competente para que
+seja inscrita na dívida ativa, podendo, ainda a Administração proceder à cobrança judicial
+da multa;
+11.8. As multas previstas nesta seção não eximem contratada da reparação dos eventuais
+danos, perdas ou prejuízos que seu ato punível venha causar à Administração;
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+11.9. De acordo com a gravidade do descumprimento, poderá ainda a empresa se sujeitar à
+Declaração de inidoneidade para licitar ou contratar com a Administração Pública
+enquanto perdurarem os motivos determinantes da punição ou até que seja promovida a
+reabilitação perante a própria autoridade que aplicou a penalidade, que será concedida
+sempre que o contratado ressarcir a Administração pelos prejuízos resultantes e depois de
+decorrido o prazo da sanção aplicada com base na legislação vigente;
+11.10. A sanção denominada “Advertência” só terá lugar se emitida por escrito e quando
+se tratar de faltas leves, assim entendidas como aquelas que não acarretarem prejuízos
+significativos ao objeto da contratação, cabível somente até a segunda aplicação
+(reincidência) para a mesma infração, caso não se verifique a adequação da conduta por
+parte da Contratada, após o que deverão ser aplicadas sanções de grau mais significativo;
+11.11. São exemplos de infração administrativas penalizáveis, as previstas no art. 155 da Lei
+nº 14.133 de 2021.
+11.12. As sanções serão aplicadas, no que couber, sem prejuízo da responsabilidade civil e
+criminal que possa ser acionada em desfavor da Contratada, conforme infração cometida e
+prejuízos causados à administração ou a terceiros;
+11.13. Para efeito de aplicação de multas, às infrações são atribuídos graus, com
+percentuais de multa conforme a tabela apresentada, que elenca apenas as principais
+situações previstas, não eximindo de outras equivalentes que surgirem, conforme o caso.
+11.14. As sanções aqui previstas poderão ser aplicadas concomitantemente, facultada a
+defesa prévia do interessado, no respectivo processo, no prazo de 05 (cinco) dias úteis;
+11.15. Após 30 (trinta) dias da falta de execução do objeto, será considerada inexecução
+total do contrato, o que ensejará a rescisão contratual;
+11.16. As sanções de natureza pecuniária serão diretamente descontadas de créditos que
+eventualmente detenha a CONTRATADA ou efetuada a sua cobrança na forma prevista
+em lei;
+11.17. As sanções previstas não poderão ser relevadas, salvo ficar comprovada a
+ocorrência de situações que se enquadrem no conceito jurídico de casos fortuitos ou força
+maior, devidos e formalmente justificados e comprovados, e sempre a critério da
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+autoridade competente, conforme prejuízo auferido;
+11.18. A autoridade competente, na aplicação das sanções, levará em consideração a
+gravidade da conduta do infrator, o caráter educativo da pena, bem como o dano causado à
+Administração, observado o princípio da proporcionalidade;
+11.19. A aplicação de quaisquer das penalidades ora previstas não impede a rescisão
+contratual.
+11.20. A aplicação das penalidades será precedida da concessão de oportunidade para
+exercício da ampla defesa e do contraditório, por parte do contratado, na forma da lei.
+11.21. Reabilitação perante a autoridade que aplicou a penalidade será concedida sempre
+que o contratado ressarcir a Administração pelos prejuízos resultantes e após decorrido o
+prazo da sanção aplicada.
+11.22. A reabilitação alcança quaisquer penas aplicadas em decisão definitiva, assegurando
+ao licitante ou contratado o sigilo dos registros sobre o seu processo e condenação,
+conforme Decreto nº 18.892/2023, art. 130.
+11.23. Os prazos para adimplemento das obrigações consignadas no presente termo
+admitem prorrogação nos casos e condições especificados no art. 92 da Lei nº
+14.133/2021, devendo a solicitação dilatória, sempre por escrito, ser fundamentada e
+instruída com os documentos necessários à comprovação das alegações, recebida
+contemporaneamente ao fato que ensejá-la, sendo considerados injustificados os atrasos
+não precedidos da competente prorrogação.
+11.24. As multas, aplicadas após o regular processo administrativo, serão descontadas dos
+pagamentos eventualmente devidos ao contratado.
+11.25. O licitante e a contratada que incorram nas infrações previstas no art. 155 da Lei
+Federal nº 14.133, de 2021, apuradas em regular processo administrativo, sujeitam-se às
+sanções previstas no art. 156 da mesma Lei, conforme Decreto nº 18.892/2023, art. 95.
+11.26. Na aplicação das sanções serão considerados (art. 156, §1º, da Lei nº 14.133, de
+2021):
+a) A natureza e a gravidade da infração cometida;
+b) As peculiaridades do caso concreto;
+c) As circunstâncias agravantes ou atenuantes;
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+d) Os danos que dela provierem para o Contratante;
+11.27. Se a multa aplicada e as indenizações cabíveis forem superiores ao valor do
+pagamento eventualmente devido pelo Contratante ao Contratado, além da perda desse
+valor, a diferença será descontada da garantia prestada ou será cobrada judicialmente (art.
+156, § 8 da Lei n° 14.133/2021);
+11.28. O Contratante deverá, no prazo máximo de 15 (quinze) dias úteis, contado da data
+de aplicação da sanção, informar e manter atualizados os dados relativos às sanções por ela
+aplicadas, para fins de publicidade no Cadastro Nacional de Empresas Inidôneas e
+Suspensas (CEIS) e no Cadastro Nacional de Empresas Punidas (CNEP), instituídos no
+âmbito do Poder Executivo Municipal.
+11.29. As penalidades serão obrigatoriamente registradas no SICAF pela Contratante.
+11.30. No mais, em casos de inadimplemento, aplicam-se as sanções, as formas, os prazos
+e demais prerrogativas previstas nos arts. 95 à 130 do Decreto Municipal Lei 18.892/2023.
+12. CLÁUSULA DÉCIMA SEGUNDA – DA INEXECUÇÃO E EXTINÇÃO DO
+CONTRATO
+12.1. Ficará o presente contrato rescindido, a juízo da administração, mediante
+formalização, assegurado o contraditório e a ampla defesa, nas hipóteses previstas nos
+artigos 137 e 138 da Lei nº 14.133/2021.
+12.1.1. A inexecução total ou parcial do contrato ensejará a sua extinção com as
+consequências contratuais e as previstas em lei, com fulcro no Título III, Capítulo VIII da
+Lei n. 14.133/2021, nos seguintes modos:
+I – determinada por ato unilateral e escrito da Administração, exceto no caso de
+descumprimento decorrente de sua própria conduta;
+II – consensual, por acordo entre as partes, por conciliação, por mediação ou por comitê de
+resolução de disputas, desde que haja interesse da Administração;
+III – determinada por decisão arbitral, em decorrência de cláusula compromissória ou
+compromisso arbitral, ou por decisão judicial.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+12.2. Constituirão motivos para extinção do contrato, a qual deverá ser formalmente
+motivada nos autos do processo, assegurados o contraditório e a ampla defesa, as seguintes
+situações:
+I – não cumprimento ou cumprimento irregular de normas editalícias ou de cláusulas
+contratuais, de especificações, de projetos ou de prazos;
+II – desatendimento das determinações regulares emitidas pela autoridade designada para
+acompanhar e fiscalizar sua execução ou por autoridade superior;
+III – alteração social ou modificação da finalidade ou da estrutura da empresa que restrinja
+sua capacidade de concluir o contrato;
+IV – decretação de falência ou de insolvência civil, dissolução da sociedade ou
+falecimento do contratado;
+V – caso fortuito ou força maior, regularmente comprovados, impeditivos da execução do
+contrato;
+VI – atraso na obtenção da licença ambiental, ou impossibilidade de obtê-la, ou alteração
+substancial do anteprojeto que dela resultar, ainda que obtida no prazo previsto;
+VII – atraso na liberação das áreas sujeitas a desapropriação, a desocupação ou a servidão
+administrativa, ou impossibilidade de liberação dessas áreas;
+VIII – razões de interesse público, justificadas pela autoridade máxima do órgão ou da
+entidade contratante;
+IX – não cumprimento das obrigações relativas à reserva de cargos prevista em lei, bem
+como em outras normas específicas, para pessoa com deficiência, para reabilitado da
+Previdência Social ou para aprendiz.
+12.3. O descumprimento, por parte da CONTRATADA, de suas obrigações legais e/ou
+contratuais assegurará ao CONTRATANTE o direito de extinguir o contrato a qualquer
+tempo, independentemente de aviso, interpelação judicial e/ou extrajudicial.
+12.4. A extinção por ato unilateral do CONTRATANTE sujeitará a CONTRATADA à
+multa rescisória de até 10% (dez por cento) sobre o valor do saldo do contrato existente na
+data da extinção, independentemente de outras penalidades.
+12.5. Caso o valor do prejuízo do CONTRATANTE advindo da extinção contratual por
+culpa da CONTRATADA exceder o valor da Cláusula Penal prevista no parágrafo
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+anterior, esta valerá como mínimo de indenização, na forma do disposto no art. 416,
+parágrafo único, do Código Civil.
+12.6. A extinção determinada por ato unilateral da Administração e a extinção consensual
+deverão ser precedidas de autorização escrita e fundamentada da autoridade competente e
+reduzidas a termo no respectivo processo.
+13. CLÁUSULA DÉCIMA TERCEIRA – DOTAÇÃO ORÇAMENTÁRIA
+13.1. As despesas decorrentes desta contratação correrão por conta da Superintendência
+Municipal de Tecnologia da Informação e Pesquisa (SMTI), conforme a seguinte dotação
+orçamentária:
+Projeto/Atividade: 02.81.19.572.356.2.844 - Modernizar as Soluções de TI - Fonte:
+1.500.0000.0000.0000 - Elemento de Despesa: 3.3.90.35-04 - CONSULTORIA EM
+TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO, conforme Nota de Empenho
+nº 8385/2025 no valor de R$ 88.888,88 (oitenta e oito mil oitocentos e oitenta e oito reais
+e oitenta e oito centavos), ID 0260402.
+13.2. Os recursos remanescentes deverão ser empenhados e consignados pela secretaria
+quando da abertura do exercício financeiro presente, mediante termo de apostilamento.
+14. CLÁUSULA DÉCIMA QUARTA – DA ABERTURA DE PROCEDIMENTO
+ADMINISTRATIVO INADIMPLEMENTO
+14.1. No caso de abertura de procedimento administrativo para apuração de
+inadimplemento contratual deverá ser observado o procedimento estabelecido no art. 95 a
+130 do Decreto Municipal 18.892/2023.
+15. CLÁUSULA DÉCIMA QUINTA – DOS CASOS OMISSOS
+15.1. Os casos omissos serão decididos pela CONTRATANTE, segundo as disposições
+contidas no artigo 92, inciso III, da Lei nº 14.133/2021 de 01.04.2021, e demais normas
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+federais de licitações e contratos administrativos e, subsidiariamente, segundo as
+disposições contidas na Lei nº 8.078, de 1990 – Código de Defesa do Consumidor, e
+normas e princípios gerais aplicáveis.
+16. CLÁUSULA DÉCIMA SEXTA – DA ALTERAÇÃO DO CONTRATO
+16.1. Eventuais alterações contratuais reger-se-ão pela disciplina dos arts. 124 e seguintes
+da Lei nº 14.133, de 2021.
+16.2. O contratado é obrigado a aceitar, nas mesmas condições contratuais, os acréscimos
+ou supressões que se fizerem necessários, até o limite de 25% (vinte e cinco por cento) do
+valor inicial atualizado do contrato.
+16.3. As alterações contratuais deverão ser promovidas mediante celebração de termo
+aditivo, submetido à prévia aprovação da consultoria jurídica do contratante, salvo nos
+casos de justificada necessidade de antecipação de seus efeitos, hipótese em que a
+formalização do aditivo deverá ocorrer no prazo máximo de 1 (um) mês (art. 132 da Lei nº
+14.133, de 2021).
+16.4. Registros que não caracterizam alteração do contrato podem ser realizados por
+simples apostila, dispensada a celebração de termo aditivo, na forma do art. 136 da Lei nº
+14.133, de 2021.
+17. CLÁUSULA DÉCIMA SÉTIMA – DA HABILITAÇÃO
+17.1. A CONTRATADA obriga-se a manter as condições que a habilitaram na
+contratação, até o total cumprimento deste contrato.
+18. CLÁUSULA DÉCIMA OITAVA – DO FORO
+18.1. As partes elegem o Foro da Comarca de Porto Velho/RO para dirimir dúvidas e
+controvérsias oriundas do presente instrumento.
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 001/PGM/2026 – PROCESSO Nº 003.0000184/2024-44
+19. CLÁUSULA DÉCIMA NONA – DA PUBLICAÇÃO
+19.1. Após a assinatura deste contrato, o CONTRATANTE providenciará a publicação do
+mesmo ou de resumo no Portal Nacional de Contratações Públicas (PNCP), na forma
+prevista no art. 94 da Lei 14.133, de 2021 , bem como no respectivo Sítio Oficial na
+Internet do Município, em atenção ao art. 91, caput, da Lei n.º 14.133, de 2021.
+Para firmeza e como prova do acordado, é lavrado o presente contrato, que depois de lido e
+achado conforme é assinado pelas partes, dele sendo extraídas as cópias necessárias para
+seu fiel cumprimento, todas de igual teor e forma, devidamente certificadas pela
+Procuradoria Geral do Município.
+Porto Velho, 07 de janeiro de 2026.
+CEZAR EDUARDO DONDONI MARINI
+Superintendente Municipal de Tecnologia da Informação
+LADY DIANA AQUINO BRITO
+Sócia Administradora da Legaltech
+VISTO:
+FELIPPE IDAK AMORIM SANTOS
+SUBPROCURADOR ADMINISTRATIVO, CONVÊNIOS E CONTRATOS
+Assinado digitalmente por FELIPPE IDAK
+AMORIM SANTOS:84913657291
+ND: C=BR, O=ICP-Brasil, OU=AC SOLUTI
+Multipla v5, OU=39383509000104, OU=
+Videoconferencia, OU=Certificado PF A3, CN=
+FELIPPE IDAK AMORIM
+SANTOS:84913657291
+Razão: Eu sou o autor deste documento
+Localização:
+Data: 2026.01.07 11:01:57-04'00'
+Foxit PDF Reader Versão: 2024.4.0
+FELIPPE IDAK
+AMORIM
+SANTOS:849136
+57291

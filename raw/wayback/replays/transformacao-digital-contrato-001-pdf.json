@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/transformacao-digital-contrato-001-pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8240/29452/CONTRATO.pdf",
+  "archive_url": "https://web.archive.org/web/20260903080338/https://anexos.portovelho.ro.gov.br/compras/8240/29452/CONTRATO.pdf",
+  "verified_at": "2026-09-03T08:22:44Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 229149,
+  "archive_sha256": "6eca4cc5a759be0e09674efcf3439c49bce6e7da54821855b9baf6cf3c4e1a74",
+  "source_content_type": "application/pdf",
+  "source_size": 285160,
+  "source_sha256": "b7ffae1298cc0cfc1ac93c8632bdc04d057f188fe48b4ccd35c6b2e712189da2",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/transformacao-digital-contrato-001-pdf.pdf"
+}

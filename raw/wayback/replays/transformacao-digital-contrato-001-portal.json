@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/transformacao-digital-contrato-001-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/4007",
+  "archive_url": "https://web.archive.org/web/20260903081332/https://transparencia.portovelho.ro.gov.br/contratos/4007",
+  "verified_at": "2026-09-03T08:22:50Z",
+  "archive_content_type": "text/html",
+  "archive_size": 41445,
+  "archive_sha256": "6e6456788390ccb78aa40be26abeb943d10148d7569b4a66bc520697f594f839",
+  "source_content_type": "text/html",
+  "source_size": 450617,
+  "source_sha256": "b92ec09e6a6abf0fa7fea5d2db302db3278fc7b4d73ca77c14f17a9c7c94baee",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/transformacao-digital-contrato-001-portal.html"
+}
