@@ -21,6 +21,7 @@ def _archived_bundle(
     *,
     source_url: str = "https://example.com/page",
     stem: str = "example",
+    capture_timestamp: str = "20260902220100",
 ) -> str:
     _write(root, "index.md", "# bundle\n")
     request_id = f"knowledge/wayback/requests/{stem}"
@@ -44,7 +45,7 @@ def _archived_bundle(
         f"source_url: '{source_url}'\n"
         "attempted_at: '2026-09-02T22:01:00Z'\n"
         "status: archived\n"
-        f"archive_url: 'https://web.archive.org/web/20260902220100/{source_url}'\n"
+        f"archive_url: 'https://web.archive.org/web/{capture_timestamp}/{source_url}'\n"
         "sources:\n"
         f"  - resource: '{request_id}'\n"
         "---\n",
@@ -175,9 +176,24 @@ def test_existing_unknown_replay_report_is_append_only_and_not_refetched(tmp_pat
 
 
 def test_replay_selection_prioritizes_new_results_and_bounds_backfill(tmp_path: Path) -> None:
-    fresh = _archived_bundle(tmp_path, stem="fresh", source_url="https://example.com/fresh")
-    old_a = _archived_bundle(tmp_path, stem="old-a", source_url="https://example.com/old-a")
-    _archived_bundle(tmp_path, stem="old-b", source_url="https://example.com/old-b")
+    fresh = _archived_bundle(
+        tmp_path,
+        stem="fresh",
+        source_url="https://example.com/fresh",
+        capture_timestamp="20260902220300",
+    )
+    old_a = _archived_bundle(
+        tmp_path,
+        stem="old-a",
+        source_url="https://example.com/old-a",
+        capture_timestamp="20260902220200",
+    )
+    _archived_bundle(
+        tmp_path,
+        stem="old-b",
+        source_url="https://example.com/old-b",
+        capture_timestamp="20260902220100",
+    )
 
     selected = select_replay_result_paths(
         tmp_path,
@@ -188,6 +204,26 @@ def test_replay_selection_prioritizes_new_results_and_bounds_backfill(tmp_path: 
     assert fresh in selected
     assert old_a in selected
     assert len(selected) == 2
+
+
+def test_replay_backfill_prefers_most_recent_incomplete_capture(tmp_path: Path) -> None:
+    older = _archived_bundle(
+        tmp_path,
+        stem="aaa-older",
+        source_url="https://example.com/older",
+        capture_timestamp="20260902220100",
+    )
+    newest = _archived_bundle(
+        tmp_path,
+        stem="zzz-newest",
+        source_url="https://example.com/newest",
+        capture_timestamp="20260902220500",
+    )
+
+    selected = select_replay_result_paths(tmp_path, backfill_limit=1)
+
+    assert selected == {newest}
+    assert older not in selected
 
 
 def test_replay_selection_skips_archived_result_with_complete_evidence(tmp_path: Path) -> None:
