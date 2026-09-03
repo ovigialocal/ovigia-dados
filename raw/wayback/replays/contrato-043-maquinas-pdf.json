@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato-043-maquinas-pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/contratos/3934/contrato-n-043pgm2025.pdf",
+  "archive_url": "https://web.archive.org/web/20260903034432/https://anexos.portovelho.ro.gov.br/contratos/3934/contrato-n-043pgm2025.pdf",
+  "verified_at": "2026-09-03T03:51:18Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 739751,
+  "archive_sha256": "9cba81b302fc244f16a3869e803fbe75bc24bb38f85a92cea1df5f4df4054d08",
+  "source_content_type": "application/pdf",
+  "source_size": 1142730,
+  "source_sha256": "68ad111581358be2ba66a1832beadef9a8e1e3195b5249e2848b1ca0604297a0",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/contrato-043-maquinas-pdf.pdf"
+}

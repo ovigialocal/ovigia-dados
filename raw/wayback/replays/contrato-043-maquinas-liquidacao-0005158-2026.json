@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato-043-maquinas-liquidacao-0005158-2026",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/despesas/66b66a2e-73a2-407a-aef7-f3c18bc43e74",
+  "archive_url": "https://web.archive.org/web/20260903033958/https://transparencia.portovelho.ro.gov.br/despesas/despesas/66b66a2e-73a2-407a-aef7-f3c18bc43e74",
+  "verified_at": "2026-09-03T03:51:14Z",
+  "archive_content_type": "text/html",
+  "archive_size": 45405,
+  "archive_sha256": "8b389929764f85968f6b08c2a9230e5fb78f954cd9940040a60a861aea11c2a3",
+  "source_content_type": "text/html",
+  "source_size": 505405,
+  "source_sha256": "a430034b0972cf4507e1ce1141bb8b15de98a3c205353260af8a30ebc14e6bb9",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/contrato-043-maquinas-liquidacao-0005158-2026.html"
+}
