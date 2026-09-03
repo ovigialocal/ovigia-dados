@@ -1,0 +1,4608 @@
+1
+PROPOSTA JOF 3314/2021
+| PEZCO, RPG&REINFRA
+Rua Bela Cintra, 1200
+|
+1º andar
+|
+Cj
+.
+11
+|
+Jardim Paulista
+|
+São Paulo | SP
+CONSÓRCIO PEZCO
+-
+PSPHUB
+-
+MASTERPRO
+-
+APPARECIDO&CARVALHO PINTO ADVOGADOS
+P4:
+ESTUDO SOCIOAMBIENTAL
+ESTUDOS PARA ESTRUTURAÇÃO DE PARCERIA PÚBLICO
+-
+PRIVADA (PPP) NA MODALIDADE DE CONCESSÃO
+ADMINISTRATIVA DOS SERVIÇOS DE MANEJO DE RESÍDUOS
+SÓLIDOS URBANOS DO MUNICÍPIO DE PORTO VELHO
+ESTUDOS PARA A
+PREFEITURA DE PORTO VELHO
+:
+RESÍDUOS SÓLIDOS
+1ª VERSÃO: SÃO PAULO, 2
+8
+DE
+ABRIL
+DE 2026
+REVISADO EM: SÃO PAULO, 20 DE
+MAIO
+DE 2026
+licenciado em
+CC BY
+-
+NC
+-
+ND
+2
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+ÍNDICE DE CONTEÚDO
+SUMÁRIO EXECUTIVO
+................................
+................................
+................................
+................................
+.................
+6
+I.
+INTRODUÇÃO
+................................
+................................
+................................
+................................
+.......................
+7
+I.1.
+CONTEXTUALIZAÇÃO DO RELATÓRIO
+................................
+................................
+................................
+........
+7
+I.2.
+OBJETIVO DO RELATÓRIO
+................................
+................................
+................................
+.............................
+7
+I.3.
+ESTRUTURA DO DOCUMENTO
+................................
+................................
+................................
+.....................
+8
+II.
+METODOLOGIA
+................................
+................................
+................................
+................................
+................
+9
+II.1.
+LEVANTAMENTO DOS DADOS SECUNDÁRIOS
+................................
+................................
+..........................
+9
+II.2.
+LEVANTAMENTO DOS DADOS PRIMÁRIOS
+................................
+................................
+...............................
+9
+II.3.
+ANÁLISE CRÍTICA E CONSOLIDAÇÃO
+................................
+................................
+................................
+...........
+9
+III.
+DIAGNÓSTICO SOCIOAMBIENTAL DO SISTEMA ATUAL
+................................
+................................
+........
+10
+III.1.
+INVENTÁRIO E AVALIAÇÃO DAS INSTALAÇÕES DO SISTEMA DE RESÍDUOS SÓLIDOS URBANOS
+10
+III.2.
+DIAGNÓSTICO OPERACIONAL POR REGIÃO
+................................
+................................
+........................
+11
+III.3.
+DIAGNÓSTICO SOCIAL
+–
+CATADORES, COOPERATIVAS E COMUNIDADES VULNERÁVEIS
+.......
+12
+III.4.
+GARGALOS E MATRIZ DE CRITICIDADE DO SISTEMA ATUAL
+................................
+...........................
+13
+III.5.
+CONFORMIDADE LEGAL DO SISTEMA ATUAL
+................................
+................................
+.....................
+14
+III.6.
+SÍNTESE DO DIAGNÓSTICO E INTERFACES COM AS DEMAIS SEÇÕES
+................................
+..........
+16
+IV.
+IDENTIFICAÇÃO E AVALIAÇÃO DOS RISCOS E IMPACTOS AMBIENTAIS
+................................
+............
+18
+IV.1.
+METODOLOGIA DE AVALIAÇÃO
+................................
+................................
+................................
+..............
+18
+IV.2.
+MATRIZ DE IMPACTOS SOCIOAMBIENTAIS
+................................
+................................
+.........................
+19
+IV.3.
+IMPACTOS DA TRANSIÇÃO PARA O MODELO DE PPP
+................................
+................................
+......
+20
+V.
+VULNERABILIDADE SOCIAL E AVALIAÇÃO DOS IMPACTOS SOCIAIS
+................................
+..................
+21
+V.1.
+IDENTIFICAÇÃO E CARACTERIZAÇÃO DOS GRUPOS VULNERÁVEIS
+................................
+...................
+21
+V.2.
+ANÁLISE DA VULNERABILIDADE E IMPLICAÇÕES PARA O CONTRATO
+................................
+.............
+23
+V.3.
+BASELINE DE INDICADORES SOCIAIS
+................................
+................................
+................................
+.......
+23
+V.4.
+RISCOS SOCIAIS ESTRUTURAIS
+................................
+................................
+................................
+..................
+24
+V.5.
+IMPACTOS SOCIAIS DA TRANSIÇÃO PARA PPP
+................................
+................................
+......................
+25
+VI.
+ESTRATÉGIAS DE MITIGAÇÃO, COMPENSAÇÃO E CONTROLE AMBIENTAL
+................................
+.....
+25
+VI.1.
+PROGRAMAS AMBIENTAIS
+–
+PA
+-
+01 A PA
+-
+10
+................................
+................................
+...................
+25
+VI.2.
+ENCERRAMENTO TÉCNICO E RITO GAC DA LIXEIRA VILA PRINCESA
+................................
+............
+27
+VI.3.
+PLANO DE CONTINGÊNCIA OPERACIONAL SAZONAL
+................................
+................................
+.......
+29
+VII.
+ESTRATÉGIAS DE INCLUSÃO SOCIAL E ECONOMIA CIRCULAR
+................................
+............................
+30
+3
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+VII.1.
+DIAGNÓSTICO DA CADEIA DE RECICLÁVEIS
+................................
+................................
+........................
+30
+VIII.
+PLANO DE ENGAJAMENTO DE STAKEHOLDERS E COMUNICAÇÃO SOCIAL
+................................
+.
+34
+VIII.1.
+MAPEAMENTO DE STAKEHOLDERS
+................................
+................................
+................................
+.....
+34
+VIII.2.
+PLANO DE ENGAJAMENTO
+–
+CINCO FASES
+................................
+................................
+........................
+35
+VIII.3.
+PROGRAMA DE COMUNICAÇÃO SOCIAL
+................................
+................................
+..............................
+36
+VIII.4.
+PENDÊNCIAS PRÉ
+-
+EDITAL
+–
+CONDIÇÕES OBRIGATÓRIAS
+................................
+..............................
+37
+IX.
+CONSIDERAÇÕES FINAIS E RECOMENDAÇÕES
+................................
+................................
+......................
+37
+X.
+REFERÊNCIAS
+................................
+................................
+................................
+................................
+................
+39
+4
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+ÍNDICE DE FIGURAS
+F
+IGURA
+1
+–
+LIXEIRA VILA PRINCESA
+................................
+................................
+................................
+................................
+..................
+16
+F
+IGURA
+2
+–
+LIXEIRA
+VILA
+PRINCESA
+ANTES
+DA
+DESATIVAÇÃO
+................................
+................................
+.......................
+17
+F
+IGURA
+3
+–
+ATERRO
+JIRAU
+EM
+2015
+................................
+................................
+................................
+................................
+........
+17
+F
+IGURA
+4
+DESBARRACAMENTO,
+DISTRITO
+DE
+CALAMA
+................................
+................................
+................................
+...
+18
+F
+IGURA
+5
+–
+L
+OGOMARCA COOPERATIVA CATANORTE
+................................
+................................
+................................
+.....................
+22
+F
+IGURA
+6
+–
+FORMAÇÃO
+DE
+CATADORES
+................................
+................................
+................................
+................................
+22
+5
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+ÍNDICE DE QUADROS
+T
+ABELA
+1
+–
+I
+NVENTÁRIO DAS INSTALAÇÕES DO SISTEMA DE RESÍDUOS SÓLIDOS DE PORTO VELHO
+................................
+.............
+10
+T
+ABELA
+2
+–
+DIAGNÓSTICO
+OPERACIONAL
+POR
+REGIÃO
+................................
+................................
+................................
+....
+11
+T
+ABELA
+3
+–
+DIAGNÓSTICO
+SOCIAL
+................................
+................................
+................................
+................................
+............
+12
+T
+ABELA
+4
+–
+GARGALOS
+E
+MATRIZ
+DE
+CRITICIADADE
+DO
+SISTEMA
+ATUAL
+DE
+RSU
+................................
+...................
+13
+T
+ABELA
+5
+–
+CONFORMIDADE
+LEGAL
+DO
+SISTEMA
+ATUAL
+DE
+RSU
+................................
+................................
+.................
+15
+T
+ABELA
+6
+MATRIZ DE IMPACTOS SOCIOAMBIENTAIS DO SISTEMA DE RSU DE PORTO VELHO
+................................
+.........................
+19
+T
+ABELA
+7
+IMPACTOS
+SOCIOAMBIENTAIS
+DA
+TRANSIÇÃO
+PARA
+O
+MODELO
+DE
+PPP
+................................
+..............
+20
+T
+ABELA
+8
+BASELINE
+DE
+INDICADORES
+SOCIAIS
+DO
+SISTEMA
+DE
+RSU
+DE
+PORTO
+VELHO
+E
+METAS
+CONTRATUAIS
+PROPOSTAS
+................................
+................................
+................................
+................................
+............
+24
+T
+ABELA
+9
+–
+SÍNTESE
+DOS
+P
+ROGRAMAS AMBIENTAIS
+................................
+................................
+................................
+.................
+26
+T
+ABELA
+10
+R
+ITO
+GAC
+DA
+L
+IXEIRA DA
+V
+ILA
+P
+RINCESA
+:
+E
+TAPAS
+,
+R
+ESPONSÁVEIS E
+M
+ARCOS
+V
+ERIFICÁVEIS
+(CONAMA
+420/2009
+E
+N
+OTA
+T
+ÉCNICA Nº
+01/2023/SEMA
+-
+ERGASJPA)
+................................
+................................
+.....................
+27
+T
+ABELA
+11
+–
+PCOS
+DO
+BAIXO
+MADEIRA:
+4
+NÍVEIS
+OPERACIONAIS
+E
+PROCEDIMENTOS
+................................
+........
+29
+T
+ABELA
+12
+BENCHMARKS
+NACIONAIS
+DE
+INTEGRAÇÃO
+DE
+CATADORES
+................................
+................................
+..
+32
+T
+ABELA
+13
+–
+MAPEAMENTO DE STAKEHOLDERS
+:
+INFLUÊNCIA
+,
+POSICIONAMENTO E ESTRATÉGIA DE ENGAJAMENTO
+.................
+34
+T
+ABELA
+14
+–
+PLANO
+DE
+ENGAJAMENTO
+DE
+STAKEHOLDERS:
+FASES,
+ATIVIDADES
+E
+ENTREGÁVEIS
+................
+35
+6
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+SUMÁRIO EXECUTIVO
+O Caderno 4 Estudo Socioambiental integra os Estudos de Viabilidade Técnica, Econômico
+-
+Financeira, Jurídica
+e Socioambiental (EVTEA) para a estruturação da Parceria Público
+-
+Privada (PPP), na modalidade de
+concessão administrativa, destinada ao manejo de re
+síduos sólidos urbanos do Município de Porto Velho. O
+documento avalia as dimensões ambiental e social do sistema atual, propõe medidas de mitigação e controle
+e fornece os insumos técnicos e contratuais necessários para os Cadernos 2 a 7.
+Do ponto de vista ambiental, o sistema apresenta dois passivos críticos não remediados: a Lixeira da Vila
+Princesa, encerrada em novembro de 2023, com Avaliação Preliminar de Passivo Ambiental concluída em
+2024 (EcoRondônia/Neomax) e demais etapas do rito
+de Gerenciamento de Áreas Contaminadas (GAC) ainda
+pendentes; e o Aterro do Jirau, inoperante desde 2025 e com cinco Áreas Suspeitas de Contaminação (AS)
+confirmadas pelo laudo EcoRondônia (2024). O Aterro Sanitário Ecoparque é a única instalação com
+licen
+ciamento ambiental pleno (LAO válida até outubro de 2028), mas a ausência de Estações de Transbordo
+impõe Distâncias Médias de Transporte (DMT) de 255 a 378 km para os resíduos do Alto Madeira
+—
+condição
+operacionalmente insustentável. A singularidade fluv
+ial do Baixo Madeira, com variação de até 12 metros no
+nível do Rio Madeira, exige plano de contingência sazonal específico, sem equivalente em outros sistemas de
+PPP de RSU no Brasil.
+Do ponto de vista social, o encerramento da Lixeira afetou diretamente as famílias catadoras da comunidade
+Vila Princesa. Conforme o Relatório de Levantamento Socioeconômico das Famílias Residentes no Lixão Vila
+Princesa (SEMASF, 2023), foram cadastradas 2
+04 famílias (580 pessoas), das quais 157 declararam ter renda
+atrelada à coleta de resíduos sólidos. A Lei Complementar Municipal nº 984/2023 ("Mãos Dadas") reconheceu
+oficialmente 190 famílias como beneficiárias do auxílio emergencial. Embora os mecanismo
+s de transição
+implementados
+—
+o "Mãos Dadas" e o início da Coleta Seletiva Solidária prevista no PMSB
+—
+tenham
+mitigado parcialmente os impactos imediatos, sua escala mostrou
+-
+se incipiente e limitada frente ao universo
+total de catadores afetados. Estima
+-
+se que a população total de catadores informais do município se situe
+entre 350 e 600 pessoas, número a ser confirmado por cadastro georreferenciado integrado ao CadÚnico
+como condição suspensiva pré
+-
+edital. A Catanorte, única cooperativa de triagem do mun
+icípio, opera
+atualmente com efetivo de 13 a 14 cooperados ativos (cadastro histórico de 53), em condições precárias, com
+galpão inadequado, equipamentos obsoletos e material recebido misturado com orgânicos, e não dispõe de
+contrato formal de serviço de t
+riagem. A associação Recicla Mais conta com aproximadamente 10 associados,
+em fase de regularização institucional. As comunidades ribeirinhas dos quatro distritos do Baixo Madeira
+(4.940 habitantes) enfrentam isolamento estrutural agravado pela sazonalidad
+e hidrológica.
+A taxa de recuperação de recicláveis é de 1,35% (SNIS 2018) a nona mais baixa entre as capitais brasileiras
+—
+, a cobertura de coleta seletiva alcança apenas 31,67% da Sede Administrativa e a cobertura rural é de 0,00%
+(SINISA 2024).
+A estruturação da PPP surge como alternativa para remediar os passivos históricos, modernizar a
+infraestrutura de triagem, racionalizar a logística distrital e assegurar a inclusão produtiva dos catadores, em
+conformidade com a Lei nº 12.305/2010 (PNRS) e
+a Lei nº 14.026/2020 (Marco Legal do Saneamento Básico
+.
+7
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+I.
+INTRODUÇÃO
+I.1.
+CONTEXTUALIZAÇÃO DO RELATÓRIO
+A gestão integrada de RSU constitui pilar essencial da saúde pública, da qualidade ambiental e do
+desenvolvimento ordenado dos municípios. Porto Velho apresenta características que tornam esse desafio
+singular: 34.094 km² de extensão territorial, distritos
+organizados em três regiões operacionais distintas,
+sazonalidade hidrológica do Rio Madeira com variação de até 12 metros entre cheia e estiagem, e acúmulo
+de passivos ambientais históricos não remediados.
+Nesse contexto, o Caderno 4 Estudo Socioambiental é componente crítico do EVTEA. Sua função é identificar
+e avaliar os impactos e riscos ambientais e sociais do sistema atual; propor programas de mitigação e
+cláusulas contratuais vinculantes; e garantir qu
+e as dimensões ambiental e social estejam integradas às
+modelagens técnica, econômico
+-
+financeira e jurídica
+.
+I.2.
+OBJETIVO DO RELATÓRIO
+OBJETIVO GERAL
+Elaborar o Estudo Socioambiental integrado do sistema de RSU de Porto Velho, fornecendo os insumos
+técnicos, ambientais e sociais necessários para a estruturação do contrato de concessão
+.
+OBJETIVOS ESPECÍFICOS
+Os objetivos específicos podem ser assim definidos:
+▪
+Identificar, caracterizar e avaliar os riscos e impactos ambientais do sistema atual e do modelo
+de PPP projetado, vinculando cada impacto ao programa de mitigação correspondente;
+▪
+Avaliar a vulnerabilidade social das populações afetadas catadores, comunidades ribeirinhas e
+moradores do entorno da Lixeira
+e estabelecer o baseline de indicadores sociais para
+monitoramento contratual;
+▪
+Propor estratégias de inclusão produtiva de catadores e cooperativas, com metas quantitativas
+verificáveis e cláusulas sociais contratuais
+8
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+I.3.
+ESTRUTURA DO DOCUMENTO
+Este caderno foi sistematizado em capítulos para alinhar o produto ao escopo do projeto e atingir suas metas
+técnicas. Seu conteúdo elucida o funcionamento da gestão dos resíduos só
+lidos urbanos (RSU) em Porto
+Velho e distritos, fundamentando
+-
+se em Estudos Preliminares para traçar um panorama sobre a evolução do
+quadro atual.
+Os capítulos foram então, assim distribuídos:
+CAP.I: INTRODUÇÃO
+CAP.II: METODOLOGIA
+CAP.III: DIAGNÓSTICO SOCIOAMBIENTAL DO SISTEMA ATUAL
+CAP.IV: IDENTIFICAÇÃO E AVALIAÇÃO DE RISCOS E IMPACTOS AMBIENTAIS
+CAP.V: VULNERABILIDADE SOCIAL
+CAP.VI: ESTRATÉGIAS DE MITIGAÇÃO E CONTROLE AMBIENTAL
+CAP.VII: ESTRATÉGIAS DE INCLUSÃO SOCIAL E ECONOMIA CIRCULAR
+CAP.VIII: CONSIDERAÇÕES FINAIS E RECOMENDAÇÕES
+CAP. IX: REFERÊNCIAS BIBLIOGRÁFICAS
+9
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+II.
+METODOLOGIA
+A metodologia baseou
+-
+se em abordagem sistêmica e multidisciplinar, conduzida em três etapas
+complementares.
+Para garantir a consistência e a representatividade das informações, os trabalhos foram conduzidos em três
+etapas complementares:
+1.
+Levantamento de Dados Secundários (Pesquisa Documental e Análise de Legislação)
+2.
+Levantamento de Dados Primários (Investigação de Campo e Engajamento de Stakeholders)
+3.
+Análise Crítica e Consolidação Socioambiental
+II.1.
+LEVANTAMENTO DOS DADOS SECUNDÁRIOS
+Coleta e análise de: legislação federal, estadual e municipal aplicável; contratos de prestação de serviços
+vigentes; laudos de avaliação de passivo ambiental, com destaque para o Estudo de Avaliação Preliminar de
+Passivo Ambiental da Lixeira da Vila Princ
+esa, elaborado pela EcoRondônia/Neomax (2024) e submetido à
+SEMA/RO por meio do Processo SEI nº 0028.019984/2024
+-
+70, vinculado ao Processo SEI nº
+0028.025861/2023
+-
+97, na condição de primeira etapa do rito de Gerenciamento de Áreas Contaminadas
+(GAC) e cond
+icionante do Encerramento Técnico da Lixeira; Relatório de Ratificação do Licenciamento da CTR
+-
+PV (SEMPOG, 2024); dados do SINISA 2024, SNIS 2018 e IBGE 2022; Relatório de Levantamento
+Socioeconômico das Famílias Residentes no Lixão Vila Princesa (SEMASF,
+2023); Cadernos 1 e 3 do EVTEA; e
+instrumentos de planejamento (PNRS, PERS/RO, PMSB Porto Velho
+—
+Lei Complementar Municipal nº
+839/2021, com Revisão de 2024, Nota Técnica nº 01/2023/SEMA
+-
+ERGASJPA, e Resoluções CONAMA
+420/2009, 430/2011 e 358/2005).
+II.2.
+LEVANTAMENTO DOS DADOS PRIMÁRIOS
+Visitas técnicas presenciais realizadas entre 26 e 29 de janeiro de 2026, abrangendo a Sede Administrativa e
+os distritos do Alto, Médio e Baixo Madeira. As atividades compreenderam inspeção ambiental das
+instalações, verificação das condições operacionais
+da coleta e do transporte, e entrevistas com gestores,
+operadores e representantes da CATANORTE e RECICLAMAIS
+.
+II.3.
+ANÁLISE CRÍTICA E CONSOLIDAÇÃO
+Integração dos dados primários e secundários para identificação de impactos ambientais, vulnerabilidades
+sociais, gargalos operacionais e passivos jurídico
+-
+ambientais, com elaboração das matrizes de criticidade, de
+impactos e de conformidade legal
+.
+10
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+III.
+DIAGNÓSTICO SOCIOAMBIENTAL DO SISTEMA ATUAL
+III.1.
+INVENTÁRIO E AVALIAÇÃO DAS INSTALAÇÕES DO SISTEMA DE RESÍDUOS SÓLIDOS
+URBANOS
+O sistema de RSU de Porto Velho conta com um conjunto heterogêneo de instalações. Da análise integrada,
+ressaltam três constatações que orientam a leitura do inventário: apenas o Ecoparque opera com
+licenciamento ambiental pleno; a Lixeira da Vila Princesa
+permanece com apenas a primeira etapa do rito GAC
+concluída (Avaliação Preliminar EcoRondônia/Neomax, 2024), configurando o passivo ambiental de maior
+criticidade até a conclusão das etapas subsequentes; e o Centro de Triagem da CATANORTE opera em
+condiçõ
+es incompatíveis com o volume gerado e com as metas de inclusão social
+.
+A Tabela 1 apresenta uma análise referente as instalações dos sistemas de resíduos sólidos de Porto Velho,
+considerando as instalações analisadas.
+TABELA
+1
+–
+INVENTÁRIO DAS INSTALAÇÕES DO SISTEMA DE RESÍDUOS SÓLIDOS DE PORTO VELHO
+Instalação
+Função
+Status
+Diagnóstico
+Ecoparque
+—
+CTR
+Porto Velho S/A
+Disposição final
+de RSU
+Ativo
+(licenciado)
+LAO nº 016.00130.006/2024
+-
+SUL (válida até
+out./2028). Recebe toda a produção da Sede desde
+nov./2023. Obras de ampliação em andamento.
+CTR
+-
+PV Municipal
+(futuro)
+Tratamento
+integrado e
+disposição final
+Em
+implantação
+Localizado frente ao bairro Vila Princesa. Prevê
+triagem mecanizada, compostagem e autoclave.
+Entraves institucionais acumulados há mais de 10
+anos.
+Aterro do Jirau
+Disposição final
+—
+Alto Madeira
+Inoperante
+(2025)
+Inoperante desde 2025 por disputa administrativa.
+Laudo EcoRondônia 2024: 5 Áreas Suspeitas (AS1
+–
+AS5); recomenda 5 novos poços (CONAMA
+420/2009). Todo RSU do Alto Madeira segue ao
+Ecoparque (DMT 255
+–
+355 km).
+Lixeira da Vila Princesa
+Passivo
+ambiental
+—
+área a remediar
+Desativado
+(nov./2023)
+Encerrada pela Portaria nº 109/SEMUSB/2023.
+Submetida ao rito GAC (Processo SEI nº
+0028.019984/2024
+-
+70 e nº 0028.025861/2023
+-
+97,
+SEMA/RO); Avaliação Preliminar concluída pela
+EcoRondônia/Neomax (2024); demais etapas
+pendentes. Constatações da Avaliação Pre
+liminar:
+sem impermeabilização, drenagem, coleta de
+chorume ou captação de biogás; APP de igarapé
+afetada; áreas AP, AS e AC no entorno.
+Incinerador Municipal
+Tratamento
+térmico de RSS
+Inoperante
+Paralisado após anulação do Contrato nº
+019/PGM/2024. Balança, elevador de carga e
+11
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Instalação
+Função
+Status
+Diagnóstico
+software inativos ou removidos. RSS da ECOPVH
+enviado a incinerador particular.
+CATANORTE
+—
+Centro de Triagem
+Triagem e
+comercialização
+de recicláveis
+Ativo
+(precário)
+13 a 14 cooperados ativos (efetivo atual; cadastro
+histórico de 53). Fundada em 2010 (ASCAVIP +
+ASPROVEL + UNIDOS PELA VIDA). Galpão
+inadequado, equipamentos obsoletos, triagem
+manual, material recebido com orgânicos misturados.
+ETR São Carlos
+—
+Baixo Madeira
+Transbordo
+fluvial
+-
+rodoviário
+Operação
+informal
+Sem infraestrutura formal. Sem impermeabilização.
+RSS misturado com RSU. Sujeito à variação de 12 m
+do Rio Madeira.
+Ecopontos / PEVs (10
+unidades)
+Pontos de
+Entrega
+Voluntária
+Ativo
+Restritos à Sede Administrativa. Frequência de
+esvaziamento semanal. Ausência total de PEVs nos
+14 distritos.
+Fonte
+: Elaborado pela consultoria, 2026.
+III.2.
+DIAGNÓSTICO OPERACIONAL
+POR REGIÃO
+O sistema opera de forma qualitativamente distinta entre a Sede e os distritos, condicionado pelas
+características geográficas e hidrológicas de cada região
+.
+TABELA
+2
+–
+DIAGNÓSTICO OPERACIONAL POR REGIÃO
+Região
+Sistema de coleta
+Gargalos identificados
+Destinação atual
+Sede Administrativa
+(412.804 hab.)
+Coleta 2
+–
+3×/semana por
+setores diurnos e
+noturnos; coleta seletiva
+em 24 setores + 10
+Ecopontos.
+Cobertura irregular nos bairros periféricos
+(Castanheiras, Morar Melhor, Park
+Amazônia, Lagoa). Coleta seletiva restrita a
+31,67% da população. Contêineres
+subdimensionados em pontos de alta
+geração.
+Ecoparque (Contrato nº
+042/PGM/2023). Recicláveis à
+CATANORTE.
+Alto Madeira
+(24.499 hab.; DMT
+256
+–
+355 km)
+RSU e RSS: 2×/semana;
+coleta seletiva:
+1×/semana. Caminhões
+compactadores.
+Aterro do Jirau inoperante
+—
+todo RSU ao
+Ecoparque (DMT crítico). Estradas vicinais
+sem pavimentação
+—
+atoleiros no inverno.
+RSS em bombonas expostas ao sol com
+acesso irrestrito em Vista Alegre e Fortaleza
+do Abunã.
+Ecoparque (DMT 256
+–
+355 km).
+Médio Madeira
+(32.438 hab.; DMT
+86
+–
+223 km)
+RSU: 2×/semana; RSS
+regular nos distritos
+visitados; coleta seletiva:
+1×/semana.
+Crescimento acelerado em União
+Bandeirantes, Jaci
+-
+Paraná e Nova Mutum
+sem adequação de cobertura. Bairros
+periféricos sem atendimento. RSS
+armazenado sem controle de manifesto.
+Ecoparque (via BR
+-
+364).
+12
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Região
+Sistema de coleta
+Gargalos identificados
+Destinação atual
+Baixo Madeira
+(4.940 hab.; acesso
+fluvial exclusivo)
+Coleta diária por
+funcionários residentes;
+contêineres 5 m³ trocados
+2×/semana por balsa;
+quadriciclos e triciclos.
+Estiagem (jun
+–
+nov): nível do rio impede
+atracação
+—
+funcionários transportam
+bombonas a pé pela várzea. Calama: terras
+caídas comprometem pontos de acesso.
+Agrovila Rio Verde: sem coleta. RSS
+misturado com RSU em São Carlos.
+Transbordo informal em São Carlos
+→
+caminh
+õ
+es roll
+-
+on roll
+-
+off →
+Ecoparque.
+Fonte
+: Elaborado pela consultoria, 2026.
+III.3.
+DIAGNÓSTICO SOCIAL
+–
+CATADORES, COOPERATIVAS E COMUNIDADES
+VULNERÁVEIS
+O diagnóstico social revela que a vulnerabilidade associada ao sistema de RSU de Porto Velho é
+multidimensional, econômica, ocupacional e territorial, e afeta grupos distintos com diferentes capacidades
+de resposta (tabela 3).
+A CATANORTE, única cooperativa formal do município, coletou aproximadamente 45 toneladas de recicláveis
+em agosto de 2025, gerando receita de R$ 40.000,00. A renda média dos cooperados é inferior a um salário
+mínimo. O diagnóstico situacional do SEBRAE Pró
+-
+Catadores (setembro de 2025) identificou também a
+associação RECICLA MAIS, com 10 associados, operando sem CNPJ adequado e sem estrutura formal de
+gestão.
+O encerramento da Lixeira em 2023 afetou diretamente a renda de uma população estimada entre 350 e 600
+catadores informais. Foram implementados mecanismos institucionais de transição
+—
+em especial o
+Programa "Mãos Dadas" (Lei Complementar Municipal nº 984/
+2023) e o início da Coleta Seletiva Solidária
+prevista no PMSB de Porto Velho
+—
+, cuja escala mostrou
+-
+se incipiente e limitada frente ao universo total de
+catadores afetados. A cobertura de coleta seletiva restringe
+-
+se a 31,67% da Sede, sem extensão aos dis
+tritos
+.
+TABELA
+3
+–
+DIAGNÓSTICO SOCIAL
+Grupo
+Caracterização
+Diagnóstico socioambiental
+CATANORTE
+13 a 14 cooperados ativos
+(efetivo atual, fev./2026).
+Fundada 2010. Localizada
+ao lado da Lixeira
+desativada. Cadastro
+histórico mais amplo (53
+cooperados em registros
+anteriores), atualmente
+reduzido pelo desligamento
+progressivo após o
+encerramento da li
+xeira em
+nov./2023.
+Galpão precário; equipamentos antigos e obsoletos; processo de
+triagem 100% manual; material recebido com orgânicos
+misturados; sem contrato formal de serviço de triagem; barreira
+logística (3.500 km dos centros de reciclagem) inviabiliza
+comercialização d
+e plásticos e vidros.
+RECICLA MAIS
+10 cooperados ativos
+A Associação de Catadores, mulheres, artesãos e coleta seletiva e
+materiais recicláveis de Rondônia
+-
+Recicla Mais
+13
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Grupo
+Caracterização
+Diagnóstico socioambiental
+Catadores informais
+350 a 600 pessoas
+(estimativa convergente de
+quatro métodos
+—
+cadastro
+SEMASF 2023, geração
+t/dia, % população, censo
+direto Catanorte; a ser
+confirmado por cadastro
+georreferenciado integrado
+ao CadÚnico como condição
+suspensiva pré
+-
+edital).
+Com o fechamento da Lixeira (2023), a principal fonte de renda foi
+eliminada sem alternativa formal. Risco de exclusão total na
+transição para PPP se a Cláusula Social CS
+-
+01 não for incluída no
+edital.
+Moradores entorno
+da Lixeira
+580 a 800 hab. residentes na
+comunidade Vila Princesa
+stricto sensu (cadastro
+SEMASF/2023: 204 famílias
+/ 580 pessoas; faixa superior
+estimada para domicílios
+não cobertos pelo cadastro).
+A 15 km do Centro, na BR
+-
+364 sentido Acre, próxima
+ao campus UNIR.
+Exposição crônica a odores, vetores e contaminação de solo e
+água subterrânea. Áreas Contaminadas confirmadas pelo laudo
+EcoRondônia 2024. Nível elevado de desconfiança institucional
+acumulada.
+Trabalhadores de
+coleta
+127 trabalhadores formais
+na Sede (P3, Tab. 17
+–
+19).
+Equipe: 1 motorista + 2
+coletores/caminhão.
+Fornecimento irregular de EPI. Ausência de programa sistemático
+de saúde ocupacional. Riscos: cortes por perfurocortantes,
+atropelamentos, quedas e exposição a agentes patogênicos.
+Comunidades
+ribeirinhas
+—
+Baixo
+Madeira
+4.940 hab. em 4 distritos.
+Acesso exclusivamente
+fluvial.
+Isolamento sazonal na estiagem. Sem coleta seletiva ou PEVs.
+RSS inadequadamente armazenado. Agrovila Rio Verde: sem
+coleta
+—
+moradores descartam irregularmente.
+Fonte
+: Elaborado pela consultoria, 2026.
+III.4.
+GARGALOS E MATRIZ DE CRITICIDADE DO SISTEMA ATUAL
+A consolidação do diagnóstico, (conforme tabela 4 abaixo) permite hierarquizar os principais gargalos do
+sistema atual, associando cada um ao tipo de impacto, ao prazo de resolução recomendado e aos
+desdobramentos em caso de omissão
+.
+TABELA
+4
+–
+GARGALOS E MATRIZ DE CRITICIADADE DO SISTEMA ATUAL DE RSU
+Gargalo
+Tipo
+Criticidade
+Prazo
+Desdobramentos se não resolvido
+Passivo ambiental da
+Lixeira da Vila Princesa
+(rito GAC em andamento
+—
+apenas Avaliação
+Preliminar concluída)
+Ambiental /
+Jurídico
+CRÍTICO
+Imediato
+(pré
+-
+PPP)
+Risco de ação judicial; contaminação de solo, água
+subterrânea e APP; exposição de 580 a 800
+habitantes residentes na comunidade Vila
+Princesa stricto sensu (SEMASF, 2023). Passivo
+jurídico para o concessionário.
+14
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Gargalo
+Tipo
+Criticidade
+Prazo
+Desdobramentos se não resolvido
+Aterro do Jirau
+inoperante
+—
+DMT
+255
+–
+355 km para Alto
+Madeira
+Logístico /
+Ambiental
+CRÍTICO
+Curto prazo
+(até 2 anos)
+Custo logístico insustentável; risco de
+derramamento de chorume na BR
+-
+364; emissões
+de GEE desproporcionais por tonelada
+transportada.
+Acesso fluvial crítico ao
+Baixo Madeira na
+estiagem (12 m de
+variação)
+Operacional
+/ Social
+CRÍTICO
+Pré
+-
+operação
+(PCOS
+obrigatório)
+Interrupção do serviço; acúmulo de resíduos; risco
+sanitário para 4.940 hab. sem alternativa de
+descarte.
+Ausência de ETRs no
+Alto, Médio e Baixo
+Madeira
+Logístico
+ALTO
+Curto prazo
+Caminhões compactadores em longas rotas
+—
+inadequado e antieconômico. Inviabilidade
+operacional do sistema distrital.
+Centro de Triagem
+CATANORTE precário
+Social /
+Operacional
+ALTO
+Curto prazo
+(CAPEX
+concessão)
+Sistema de triagem ineficiente; exclusão dos
+catadores; perda de receita de recicláveis;
+cumprimento parcial da PNRS.
+Incinerador Municipal
+inoperante
+Operacional
+/ Sanitário
+ALTO
+Médio
+prazo
+RSS destinado a operador particular
+—
+custo
+elevado e sem controle municipal. Risco sanitário
+caso o contrato particular seja descontinuado.
+Baixa cobertura de
+coleta seletiva (31,67%
+—
+sem extensão
+distrital)
+Ambiental /
+Social
+ALTO
+Longo
+prazo
+(meta:
+100% em
+2040)
+Perda de potencial de reciclagem; manutenção da
+taxa de recuperação de 1,35%; não conformidade
+com PLANARES Meta 3.1.
+RSS armazenado
+inadequadamente nos
+distritos
+Sanitário
+ALTO
+Imediato
+Risco de acidente biológico; descumprimento da
+CONAMA 358/2005 e RDC ANVISA 222/2018.
+RSS coletado junto com
+RSU em São Carlos
+(Baixo Madeira)
+Sanitário /
+Legal
+ALTO
+Imediato
+Descumprimento legal; risco de contaminação de
+trabalhadores e do Rio Madeira.
+Disposição irregular em
+igarapés, várzeas e
+terrenos baldios
+Ambiental
+ALTO
+Contínuo
+Contaminação de corpos hídricos; proliferação de
+vetores; comprometimento da pesca de
+subsistência.
+Fonte
+: Elaborado pela consultoria, 2026.
+III.5.
+CONFORMIDADE LEGAL DO SISTEMA ATUAL
+A Tabela 5, apresenta a Conformidade Legal avalia a adequação do sistema atual às principais obrigações do
+marco regulatório aplicável. Cinco situações de não conformidade configuram passivos jurídicos que precisam
+ser alocados contratualmente antes da pub
+licação do edital.
+15
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+TABELA
+5
+–
+CONFORMIDADE LEGAL DO SISTEMA ATUAL DE RSU
+Obrigação legal
+Instrumento
+Situação
+Diagnóstico
+Fechamento do lixão
+(FIGURA 1) e
+disposição em aterro
+licenciado
+PNRS art. 54;
+Decreto
+10.936/2022
+CONFORME
+Lixeira encerrada nov./2023; RSU da Sede destinado ao
+Ecoparque (LAO válida até out./2028).
+Encerramento técnico
+da Lixeira
+—
+Rito GAC
+(Gerenciamento de
+Áreas Contaminadas)
+PNRS; CONAMA
+420/2009; Lei
+12.651/2012
+NÃO
+CONFORME
+Lixeira encerrada com apenas a Avaliação Preliminar do
+rito GAC concluída (EcoRondônia/Neomax, 2024).
+Processo SEI nº 0028.019984/2024
+-
+70 e nº
+0028.025861/2023
+-
+97 em tramitação na SEMA/RO.
+Demais etapas (Investigação Confirmatória, Investigação
+Detalhada,
+Avaliação de Risco, Monitoramento e
+Medidas de Intervenção) pendentes. APP afetada sem
+recuperação.
+Controle e tratamento
+de biogás
+—
+Lixeira e
+Aterro Jirau
+NBR 13.896;
+PLANARES
+Meta 8
+NÃO
+CONFORME
+Ausência de sistema de drenos e flare nas duas
+instalações. Emissões de CH
+₄
+não controladas. Risco de
+explosão e incêndio.
+Coleta e tratamento
+de lixiviado
+—
+Lixeira
+e Aterro Jirau
+CONAMA
+430/2011
+NÃO
+CONFORME
+Ausência de impermeabilização de base, drenagem e
+coleta de lixiviado na Lixeira (EcoRondônia 2024). Aterro
+Jirau: sem monitoramento pós
+-
+encerramento conforme
+CONAMA 420/2009.
+Monitoramento
+ambiental
+—
+Ecoparque
+LAI/LAO;
+CONAMA
+430/2011
+CONFORME
+LAO exige relatórios anuais de monitoramento, obras
+complementares e manutenção de certificações.
+Condicionantes vigentes.
+Gestão de RSS
+—
+segregação,
+transporte e
+destinação
+CONAMA
+358/2005; RDC
+ANVISA
+222/2018
+PARCIALMENTE
+CONFORME
+ECOPVH envia RSS a incinerador particular licenciado.
+Entretanto: bombonas expostas ao sol em Fortaleza do
+Abunã, Vista Alegre e São Carlos; RSS misturado com
+RSU em São Carlos; sem controle de manifesto nos
+distritos.
+Inclusão de catadores
+na gestão de RSU
+PNRS arts. 7º e
+8º; PLANARES
+Meta 5
+PARCIALMENTE
+CONFORME
+CATANORTE integrada ao sistema de coleta seletiva
+como canal de triagem. Entretanto: sem contrato formal
+de serviço; infraestrutura precária; catadores informais
+sem integração.
+Cobertura universal de
+coleta
+—
+universalização
+PNRS; Marco
+Legal do
+Saneamento
+(Lei
+14.026/2020)
+NÃO
+CONFORME
+Cobertura rural: 0,00% (SINISA 2024). Agrovila Rio Verde
+sem coleta. Prazo de universalização: 2033.
+Fonte
+: Elaborado pela consultoria, 2026.
+16
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+FIGURA
+1
+–
+LIXEIRA VILA PRINCESA
+Fonte
+: Elaborado pela consultoria, 2026.
+III.6.
+SÍNTESE DO DIAGNÓSTICO E INTERFACES COM AS DEMAIS SEÇÕES
+O diagnóstico evidencia um sistema em transição: avançou com o encerramento da Lixeira e o início da
+destinação no Ecoparque em 2023, mas carrega passivos históricos críticos e gargalos estruturais de difícil
+resolução no curto pra
+z
+o. Cinco conclusões orientam a modelagem do contrato de concessão:
+▪
+O passivo da Lixeira da Vila Princesa é o item de maior criticidade ambiental e jurídica: a ausência de
+implementação do rito de Gerenciamento de Áreas Contaminadas (GAC), nos termos da Resolução
+CONAMA nº 420/2009 e da Nota Técnica nº 01/2023/SEMA
+-
+ERGASJP
+A, configura não
+conformidade legal imediata e expõe os 580 a 800 habitantes residentes na comunidade Vila
+Princesa stricto sensu (SEMASF, 2023) a riscos documentados;
+▪
+A desativação do Aterro do Jirau criou o principal gargalo logístico
+-
+ambiental: a DMT de 255 a 355
+km é operacionalmente inadequada, economicamente inviável e ambientalmente insustentável
+(figura 3);
+▪
+A singularidade fluvial do Baixo Madeira exige soluções operacionais sem equivalente no arcabouço
+técnico nacional de PPPs de RSU, incluindo Plano de Contingência Operacional Sazonal (PCOS) como
+condição pré
+-
+operacional (figura 4);
+▪
+A CATANORTE é o único elo formal da cadeia de reciclagem frágil e insuficiente para o porte do
+município e precisa de investimento estrutural em CAPEX e de contrato formal de triagem;
+17
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+▪
+As não conformidades legais documentadas configuram passivos jurídicos que precisam ser
+alocados contratualmente antes da publicação do edital.
+FIGURA
+2
+–
+LIXEIRA VILA PRINCESA ANTES DA DESATIVAÇÃO
+Fonte: https://g1.globo.com/ro/rondonia/noticia/2023/08/30/desativacao
+-
+do
+-
+lixao
+-
+da
+-
+vila
+-
+princesa
+-
+inicia
+-
+em
+-
+1o
+-
+de
+-
+setembro
+-
+em
+-
+porto
+-
+velho.ghtml
+FIGURA
+3
+–
+ATERRO JIRAU
+18
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Fonte:
+Registro fotográfico realizado pela equipe técnica do Consórcio
+durante visita técnica em Porto Velho/RO, jan.
+2026
+.
+FIGURA
+4
+DESBARRACAMENTO, DISTRITO DE CALAMA
+Fonte: https://g1.globo.com/ro/rondonia/noticia/2013/03/fenomeno
+-
+terras
+-
+caidas
+-
+faz
+-
+porto
+-
+velho
+-
+acionar
+-
+defesa
+-
+civil
+-
+nacional.html
+IV.
+IDENTIFICAÇÃO E AVALIAÇÃO DOS RISCOS E IMPACTOS AMBIENTAIS
+IV.1.
+METODOLOGIA DE AVALIAÇÃO
+Os impactos ambientais foram identificados com base nos dados operacionais reais do sistema (frota, rotas,
+instalações e passivos) levantados no Caderno 1, avaliados segundo critérios de magnitude (baixa / média /
+alta), reversibilidade e abrangência espac
+ial, e classificados por nível de risco (baixo / médio / alto / crítico).
+Cada impacto é vinculado à medida de controle e mitigação correspondente nos Programas Ambientais da
+Seção VI.
+19
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+IV.2.
+MATRIZ DE IMPACTOS SOCIOAMBIENTAIS
+TABELA
+6
+MATRIZ DE IMPACTOS SOCIOAMBIENTAIS DO SISTEMA DE RSU DE PORTO VELHO
+Atividade
+-
+fonte
+Impacto
+identificado
+Magnitude
+/ Risco
+Medida de controle / mitigação
+Coleta convencional
+—
+Sede (17
+caminhões, frota
+diesel)
+Emissão de GEE (CO
+₂
+,
+CH
+₄
+)
+Média /
+Médio
+Programa de renovação e manutenção
+preventiva da frota; estudo de viabilidade de
+biocombustíveis (GNV/biodiesel).
+Coleta convencional
+—
+Sede
+Derramamento de
+chorume em vias
+urbanas
+Média /
+Médio
+Veículos com sistema de vedação e coleta de
+chorume; vistoria mensal da integridade da frota.
+Coleta convencional
+—
+Sede
+Ruído e vibração
+(operação noturna)
+Baixa /
+Baixo
+Manutenção preventiva; rotas noturnas limitadas
+a vias arteriais.
+Coleta distrital
+—
+Alto
+e Médio Madeira
+(DMT 255
+–
+378 km,
+BR
+-
+364)
+Derramamento de
+chorume em rodovias
+(risco singular Porto
+Velho)
+Alta /
+CRÍTICO
+Exigência contratual de caminhões com dupla
+vedação e tanque de chorume; monitoramento
+de rota por GPS; inspeção antes de cada viagem
+distrital.
+Coleta distrital
+—
+Alto
+e Médio Madeira
+Emissão de GEE em
+longas distâncias
+Alta / Alto
+Ativação do Aterro do Jirau como prioridade;
+implantação de ETRs regionais.
+Coleta fluvial
+—
+Baixo
+Madeira
+Derramamento
+acidental de RSU no
+Rio Madeira
+Alta / Alto
+Contêineres vedados e amarrados; equipe
+treinada em manejo fluvial; protocolo de
+emergência para derrames.
+Coleta fluvial
+—
+Baixo
+Madeira
+Restrição operacional
+na estiagem (nível cai
+até 12 m)
+Alta /
+CRÍTICO
+PCOS com 4 níveis de acionamento automático
+por cota hidrométrica (Seção VI.3).
+ETR São Carlos
+—
+transbordo fluvial
+-
+rodoviário
+Chorume e lixiviado
+no ponto de
+transbordo
+Alta / Alto
+Impermeabilização do pátio; sistema de
+drenagem e coleta de lixiviado; distância mínima
+de corpos hídricos.
+Triagem
+—
+CATANORTE (taxa
+atual: 1,35%)
+Geração de rejeitos
+não aproveitados
+(68% da fração
+reciclável potencial)
+Média /
+Médio
+Metas contratuais de recuperação de secos: 5,2%
+(2028) →
+11,2% (2040); triagem mecanizada;
+integra
+çã
+o de cooperativas.
+Triagem
+—
+saúde
+ocupacional dos
+catadores
+Risco de acidentes e
+doenças infecciosas
+Alta / Alto
+EPI obrigatório; treinamento NR
+-
+15; programa
+de saúde ocupacional; auditorias anuais.
+20
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Atividade
+-
+fonte
+Impacto
+identificado
+Magnitude
+/ Risco
+Medida de controle / mitigação
+Disposição final
+—
+Ecoparque / Aterro
+Jirau
+Biogás não
+controlado (CH
+₄
+, CO
+₂
+,
+H
+₂
+S)
+—
+composição:
+51% orgânicos
+Alta /
+CRÍTICO
+Sistema de drenos e flare ou aproveitamento
+energético; potencial estimado de 4.851 kWh/dia
+no Ano 1 (P3); prazo máximo: M24 da concessão.
+Disposição final
+—
+Ecoparque / Aterro
+Jirau
+Lixiviado / percolado
+Alta / Alto
+Impermeabilização; sistema de drenagem e
+tratamento de lixiviado; monitoramento
+trimestral de poços.
+Passivo
+—
+Lixeira da
+Vila Princesa
+(EcoRondônia 2024)
+Contaminação
+histórica de solo,
+subsolo e APP de
+igarapé
+Alta /
+CRÍTICO
+Execução das etapas pendentes do rito GAC
+(Investigação Confirmatória, Detalhada,
+Avaliação de Risco e Medidas de Intervenção)
+com cronograma e financiamento garantido;
+cercamento imediato; monitoramento semestral
+(Seção VI.2).
+Passivo
+—
+Aterro do
+Jirau pós
+-
+encerramento
+(EcoRondônia 2024)
+Biogás residual e
+lixiviado pós
+-
+encerramento por
+décadas
+Média / Alto
+Monitoramento pós
+-
+encerramento por 20 anos;
+5 novos poços (CONAMA 420/2009); queima de
+biogás residual; vedação e revegetação.
+Fonte
+: Elaborado pela consultoria, 2026.
+IV.3.
+IMPACTOS DA TRANSIÇÃO PARA O MODELO DE PPP
+Além dos impactos do sistema atual, a transição para o modelo de PPP gera riscos ambientais e sociais
+específicos no período de implantação
+—
+os primeiros 24 meses de concessão. O período mais crítico é o
+intervalo entre o Mês 1 e o Mês 6, quando a respons
+abilidade pelos passivos ambientais muda de titularidade,
+as obras de implantação são iniciadas e o risco de descontinuidade da coleta de RSS é máximo.
+TABELA
+7
+IMPACTOS SOCIOAMBIENTAIS DA TRANSIÇÃO PARA O MODELO DE PPP
+Impacto da transição
+Grupo afetado
+Probabilidade
+Medida de mitigação
+Descontinuidade da
+coleta de RSS no Baixo
+Madeira durante troca de
+operador
+4.940 hab. Baixo
+Madeira
+Alta (M1
+–
+M3)
+Sobreposição obrigatória de 30 dias entre operador
+cessante (ECOPVH) e a nova concessionária
+—
+cláusula mandatória no contrato.
+Exclusão de catadores
+informais do novo
+sistema sem mecanismo
+de integração
+~350 a 600
+catadores
+informais
+Alta (sem CS
+-
+01)
+CS
+-
+01 calibrada antes do edital com base no cadastro
+georreferenciado.
+Ruptura de renda da
+CATANORTE durante
+13 a 14
+cooperados
+Média
+Contrato de prestação de serviço de triagem a partir do
+Mês 1 da concessão.
+21
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Impacto da transição
+Grupo afetado
+Probabilidade
+Medida de mitigação
+mudança de fluxo de
+material
+ativos
+CATANORTE
+Resistência comunitária
+no entorno da Lixeira ao
+início das intervenções
+do rito GAC
+~580 a 800 hab.
+comunidade Vila
+Princesa
+Média (sem
+consulta
+prévia)
+Consulta comunitária presencial antes das
+intervenções do rito GAC Fase 1 do Plano de
+Engajamento.
+Passivos ambientais
+anteriores à concessão
+atribuídos ao novo
+concessionário
+CGP/PVH /
+Concessionário
+Média (sem
+cláusula de
+alocação)
+Inventário de Passivos Ambientais entregue antes do
+Dia 1;.
+Obras de implantação
+com supressão de
+vegetação em APP
+(Lixeira / CTR
+-
+PV)
+APP igarapé
+adjacente à
+Lixeira
+Baixa (com
+rito GAC)
+PA
+-
+07: recuperação de APPs; licenciamento ambiental
+prévio de todas as obras de implantação.
+Fonte
+: Elaborado pela consultoria, 2026.
+V.
+VULNERABILIDADE SOCIAL E AVALIAÇÃO DOS IMPACTOS SOCIAIS
+V.1.
+IDENTIFICAÇÃO E CARACTERIZAÇÃO DOS GRUPOS VULNERÁVEIS
+A análise identificou cinco grupos populacionais com vulnerabilidade direta ao sistema de RSU de Porto Velho,
+cada um com fatores de exposição e capacidade de resposta distintos
+.
+V.1.1.
+Catadores informais
+—
+ex
+-
+trabalhadores da Lixeira da Vila Princesa
+O fechamento definitivo da Lixeira afetou diretamente a renda de uma população estimada entre 350 e 600
+catadores informais. Foram implementados mecanismos institucionais de transição
+—
+em especial o
+Programa "Mãos Dadas" (Lei Complementar Municipal nº 984
+/2023) e o início da Coleta Seletiva Solidária
+prevista no PMSB de Porto Velho
+—
+, cuja escala mostrou
+-
+se incipiente e limitada frente ao universo total de
+catadores afetados. A ausência de cadastro georreferenciado atualizado constitui lacuna crítica para
+a
+modelagem do contrato. Sem o cadastro concluído antes do edital, o contrato será publicado com uma
+obrigação social que não pode ser mensurada nem verificada
+.
+V.1.2.
+Cooperados da CATANORTE
+Os
+Os 13 a 14 cooperados ativos da CATANORTE operam com renda média inferior a um salário mínimo, em
+condições insalubres documentadas nas visitas técnicas. O efetivo atual é significativamente menor que o
+cadastro histórico de 53 cooperados, refletindo o pro
+cesso de desligamento progressivo verificado após o
+encerramento da lixeira em novembro de 2023. A barreira logística amazônica
+—
+aproximadamente 3.500
+km dos centros de reciclagem do Sul e Sudeste
+—
+inviabiliza a comercialização de plásticos, vidros e
+papelão,
+tornando o modelo insustentável sem pagamento pelo serviço de triagem (figura 5 e 6)
+.
+22
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+FIGURA
+5
+–
+LOGOMARCA COOPERATIVA CATANORTE
+Fonte: https://sapl.portovelho.ro.leg.br/media/sapl/public/materialegislativa/2024/19291/projeto_de_lei_4628_completo.pdf
+FIGURA
+6
+–
+FORMAÇÃO DE CATADORES
+Fonte: https://www.catanorte.com.br/category/noticias/imagens/
+V.1.3.
+Moradores do entorno da Lixeira da Vila Princesa
+A população residente na comunidade Vila Princesa stricto sensu, estimada entre 580 e 800 habitantes
+—
+com base nas 204 famílias / 580 pessoas cadastradas pela SEMASF em 2023, acrescida de margem para
+domicílios não cobertos pelo cadastro
+—
+, conviveu por d
+écadas com odores, vetores e contaminação sem
+intervenção remedial estruturada. Nota metodológica: a opção pelo dado do cadastro SEMASF 2023 em
+detrimento do recorte por setor censitário do IBGE 2022 decorre da maior precisão técnica do cadastro
+municipal
+porta a porta, com identificação nominal, georreferenciamento dos domicílios e caracterização
+socioeconômica detalhada (renda, composição familiar, escolaridade, condição de catador). O setor censitário
+do IBGE 2022 que abrange a Vila Princesa, por sua nat
+ureza rural e por englobar área substancialmente maior
+que a comunidade stricto sensu (incluindo trechos da BR
+-
+364 km 11 e adjacências do campus UNIR),
+capturaria população não diretamente afetada pelos passivos ambientais da Lixeira. A Avaliação Prelimina
+r
+de Passivo Ambiental elaborada pela EcoRondônia/Neomax (2024), submetida à SEMA/RO via Processo SEI
+nº 0028.019984/2024
+-
+70, confirmou Áreas Contaminadas (AC), Suspeitas (AS) e com Potencial de
+Contaminação (AP) no entorno, além da APP de igarapé afetada.
+O nível elevado de desconfiança institucional
+acumulada eleva o risco de resistência às intervenções do rito de Gerenciamento de Áreas Contaminadas
+(GAC) se não houver consulta comunitária prévia estruturada
+.
+V.1.4.
+Comunidades ribeirinhas dos distritos do Baixo Madeira
+23
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Os 4.940 habitantes dos quatro distritos do Baixo Madeira (São Carlos, Nazaré, Calama e Demarcação)
+enfrentam isolamento geográfico permanente
+—
+acesso exclusivamente fluvial, deslocamentos de 8 a 14
+horas da Sede
+—
+, dependência de economia de subsistência
+e sazonalidade hidrológica extrema. Qualquer
+interrupção da coleta de RSS durante a transição de operadores cria risco imediato de saúde pública, dado
+que não há alternativa de descarte disponível
+.
+Trabalhadores de coleta
+—
+coletores formais
+O sistema emprega aproximadamente 127 trabalhadores formais na Sede, com fornecimento irregular de EPI
+e ausência de programa sistemático de saúde ocupacional. A transição de operador cria incerteza sobre a
+continuidade dos postos, exigindo que o protocolo
+de transição inclua garantias explícitas de manutenção dos
+vínculos empregatícios
+.
+V.2.
+ANÁLISE DA VULNERABILIDADE E IMPLICAÇÕES
+PARA O CONTRATO
+Três prioridades de ação emergem do diagnóstico e estruturam a estratégia de inclusão social:
+Em primeiro lugar, catadores informais e moradores da Lixeira são os grupos de maior criticidade ambos com
+risco de alta probabilidade na transição para PPP. Para os catadores, o risco central é a exclusão definitiva do
+sistema formal se a CS
+-
+01 não for ca
+librada antes do edital. Para os moradores, o risco é de resistência às
+intervenções do rito GAC, com potencial de embargo judicial sobre o cronograma de remediação.
+Em segundo lugar, as comunidades do Baixo Madeira concentram vulnerabilidade múltipla: isolamento
+geográfico, sazonalidade extrema, ausência de saúde local e dependência de subsistência. A sobreposição
+obrigatória de 30 dias de operação entre o operador ce
+ssante e
+a
+nov
+a
+concessionária é a medida mais direta
+para mitigar o risco de descontinuidade na transição.
+Em terceiro lugar, a ausência do cadastro de catadores informais permanece a lacuna mais crítica. Sem dado
+primário confirmado, não pode ser calibrada e o contrato será publicado com obrigação social não verificável
+.
+V.3.
+BASELINE DE INDICADORES SOCIAIS
+A tabela
+8
+apresenta o baseline quantitativo dos indicadores sociais do sistema de RSU de Porto Velho, com
+as metas contratuais propostas para o 5º e o 15º ano de concessão. Esses indicadores constituem o sistema
+de monitoramento do desempenho social da PPP, a ser i
+ncorporado às obrigações de reporte semestral do
+concessionário ao Conselho Gestor do Programa de Parcerias Público
+-
+Privadas de Porto Velho (CGP/PVH).
+Os valores foram calibrados com base nos dados do SINISA 2024, do Plano Nacional de Resíduos Só
+lidos
+(PLANARES 2022). Articulação com o PMSB Porto Velho: os indicadores foram concebidos em harmonia com
+o Plano Municipal de Saneamento Básico e Gestão Integrada de Resíduos Sólidos de Porto Velho
+—
+PMSB
+-
+Porto Velho, instituído pela Lei Complementar Mun
+icipal nº 839, de 4 de fevereiro de 2021, e revisado em
+2024 sob coordenação do Grupo Técnico de Trabalho instituído pelo Decreto Municipal nº 18.135/2022 para
+adequação ao Novo Marco Legal do Saneamento (Lei Federal nº 14.026/2020). As metas observam o
+ho
+rizonte de 20 anos do PMSB
+-
+Porto Velho e o marco de universalização de 2033. A vinculação operacional
+entre os indicadores do EVTEA e os Quadros 5 a 10 do PMSB
+-
+Porto Velho deverá ser objeto de revisão técnica
+conjunta entre a concessionária, o CGP/PVH e a
+SEMUSB, em até 120 dias após o início da concessão, com
+produto consolidado em formato de matriz de correspondência publicada no portal da Prefeitura.
+24
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+TABELA
+8
+BASELINE DE INDICADORES SOCIAIS DO SISTEMA DE RSU DE PORTO VELHO E METAS
+CONTRATUAIS PROPOSTAS
+Indicador
+Baseline
+2025
+Meta Ano
+5 (2032)
+Meta Ano 15
+(2042)
+Fonte
+Taxa de recuperação de
+recicláveis (%)
+1,35%
+5,0%
+11,2%
+SNIS 2018
+Cobertura de coleta seletiva
+na Sede (%)
+31,67%
+70%
+100%
+SINISA 2024
+Cobertura de coleta rural (%)
+0,00%
+30%
+80%
+SINISA 2024
+Cooperados integrados ao
+sistema
+14
+40
+120
+Caderno 1 2026
+Renda média mensal dos
+cooperados (R$)
+~R$ 900
+(estim.)
+R$ 1.800
+R$ 2.400
+Estimativa interna
+% moradores Vila Princesa
+com rito GAC concluído
+0%
+100% (M36)
+100% + monit.
+EcoRondônia 2024
+Cobertura de coleta no Baixo
+Madeira (%)
+~60%
+90%
+100%
+Caderno 1 2026
+Taxa de internação por
+diarreia (/1.000 hab.)
+37,5
+25,0
+< 15,0
+IBGE 2024
+Fonte
+: Elaborado pela consultoria, 2026.
+V.4.
+RISCOS SOCIAIS ESTRUTURAIS
+Inviabilidade da cadeia de recicláveis: A distância de 3.500 km dos centros de reciclagem inviabiliza a
+comercialização de plásticos, vidros e papelão. O modelo de sustentabilidade das cooperativas exige
+pagamento contratual pelo serviço de triagem não pod
+e depender dos preços de mercado dos recicláveis.
+Sazonalidade hidrológica: A variação de até 12 metros no Rio Madeira não é evento excepcional é
+característica permanente do regime hidrológico amazônico. O contrato deve tratá
+-
+la como risco estrutural
+com protocolo operacional específico (PCOS), e não com
+o caso fortuito.
+Vácuo cadastral de catadores: Sem cadastro georreferenciado, as Cláusulas CS
+-
+01 e CS
+-
+02 não podem ser
+calibradas. O cadastro antes do edital é condição necessária não opcional. Articulação com a Parceria SEBRAE
+—
+Projeto Pró
+-
+Catadores: a execução do cadast
+ro georreferenciado pode ser potencializada pela articulação
+institucional com o Projeto Pró
+-
+Catadores, executado pelo SEBRAE em parceria com o Governo Federal e, em
+Rondônia, com a Secretaria de Estado da Mulher, da Família, da Assistência e do Desenvolvi
+mento Social
+(SEAS), à qual a adesão estadual ocorreu em outubro de 2023.
+O Pró
+-
+Catadores está presente em 18 estados brasileiros, com meta nacional de beneficiar 6.770 catadores
+e 336 cooperativas até 2027, e tem entre suas frentes prioritárias o mapeamento e diagnóstico dos resíduos
+sólidos no estado
+—
+etapa essencial para ide
+ntificar pontos de maior geração de resíduos, estruturar a cadeia
+25
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+de reciclagem, mapear a presença dos catadores e orientar políticas públicas. As primeiras ações em Rondônia
+foram iniciadas em 2024 com foco operacional na Cooperativa CATANORTE (Vila Princesa, BR
+-
+364, Km 11).
+Recomenda
+-
+se que a SEMASF e a SEMUSB articulem com o SEBRAE em Rondônia e com a SEAS
+-
+RO um
+Acordo de Cooperação Técnica específico para integração dos cadastros municipal (CadÚnico, CBO 5192
+-
+05),
+estadual (Programa Rondônia Recicla, SEAS) e do Pró
+-
+Catadore
+s (SEBRAE), com produto consolidado em
+base georreferenciada única antes da publicação do edital da PPP. O Pró
+-
+Catadores oferece, ainda, a
+possibilidade de contratação por dispensa de licitação (art. 75, j, da Lei nº 14.133/2021), mecanismo que pode
+aceler
+ar o ritmo de cadastramento e de capacitação técnica dos catadores informais a serem integrados à
+concessão por meio das Cláusulas Sociais CS
+-
+01 a CS
+-
+04.
+V.5.
+IMPACTOS SOCIAIS DA TRANSIÇÃO PARA PPP
+A transição para o modelo de concessão não é socialmente neutra. Três impactos sociais
+,
+de alta
+probabilidade
+,
+precisa
+m
+ser gerenciados no período de implantação (M1 a M24):
+Impacto 1
+—
+Catadores informais sem integração: Se as informações não for incluída no edital com
+parâmetro X calibrado, os catadores informais serão excluídos definitivamente do sistema formal de triagem.
+A janela de oportunidade é o período pré
+-
+edital dep
+ois disso, a reintegração exige renegociação contratual
+complexa.
+Impacto 2
+—
+Descontinuidade no Baixo Madeira: Qualquer interrupção na coleta de RSS durante a transição
+de operadores nos distritos do Baixo Madeira cria risco imediato de saúde pública, dado que não há alternativa
+de descarte disponível. A sobreposição ob
+rigatória de 30 dias entre operadores é a medida mais direta de
+mitigação e deve constar como cláusula mandatória no contrato.
+Impacto 3
+—
+Resistência às intervenções do rito GAC sem consulta prévia: Décadas de exposição sem
+resposta institucional geraram nível elevado de desconfiança na comunidade do entorno da Lixeira.
+Intervenções de remediação iniciadas sem processo de comunic
+ação estruturado podem resultar em
+mobilização contrária com potencial de embargo judicial sobre o cronograma do rito GAC.
+VI.
+ESTRATÉGIAS DE MITIGAÇÃO, COMPENSAÇÃO E CONTROLE
+AMBIENTAL
+O
+presente capítulo propõe os programas de mitigação e controle ambiental que deverão constar do contrato
+de concessão, seguindo a hierarquia: prevenção
+–
+minimização
+-
+mitigação
+-
+compensação
+-
+monitoramento,
+nos termos dos Padrões de Desempenho do IFC (PS1
+a PS6)
+.
+VI.1.
+PROGRAMAS AMBIENTAIS
+–
+PA
+-
+01 a PA
+-
+10
+A Tabela
+9
+apresenta a síntese dos dez programas ambientais, com seus objetivos, KPIs, prazos de
+implementação e cláusulas contratuais correspondentes. Os programas PA
+-
+01, PA
+-
+06 e PA
+-
+10 são
+classificados como condições pré
+-
+operacionais: devem ser iniciados antes do
+primeiro dia de operação da
+concessão.
+26
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+TABELA
+9
+–
+SÍNTESE DOS PROGRAMAS AMBIENTAIS
+Programa
+Objetivo
+KPI principal
+Prazo
+PA
+-
+01 Rito GAC
+Lixeira
+Remediar o passivo ambiental da Lixeira,
+eliminar riscos de contaminação e
+recuperar a APP do igarapé.
+100% etapas E1
+–
+E4 concluídas
+em M36; ≥80% sobrevivência de
+mudas; aprovação SEMA/RO.
+M1
+–
+M36 + 10 anos
+de monitoramento
+PA
+-
+02
+Monitoramento
+ambiental
+Implantar monitoramento contínuo de
+qualidade do ar, solo, água e biogás em
+todas as instalações. Inclui caracterização
+gravimétrica obrigatória dos RSU
+coletados, executada pela concessionária
+com mínimo de 4 campanhas anuais (NBR
+10.007:2004), estratific
+ada por região
+operacional (Sede, Alto Madeira, Médio
+Madeira e Baixo Madeira), separação em
+pelo menos 15 frações específicas,
+relatórios públicos divulgados ao
+CGP/PVH e auditoria anual independente;
+omissão configura inadimplemento
+contratual.
+≥12 relatórios/ano entregues ao
+CGP/PVH e SEMA; ≥95% dos
+parâmetros em conformidade.
+M1 →
+permanente
+PA
+-
+03 Biogás e
+GEE
+Implantar sistema de captação, controle e
+aproveitamento de biogás na Lixeira e no
+Ecoparque.
+Flare operacional em M24;
+emissões fugitivas de CH
+₄
+<5% em
+M36.
+M6
+–
+M24
+PA
+-
+04 Lixiviado
+e drenagem
+Implantar sistema de coleta, recirculação
+e tratamento de lixiviado nos passivos
+ambientais.
+Sistema operacional em M12;
+≥90% do lixiviado coletado e
+tratado; efluente conforme
+CONAMA 430/2011.
+M1
+–
+M12
+PA
+-
+05
+Qualidade do ar
+Monitorar e controlar emissões
+atmosféricas (PM2.5, CH
+₄
+, produtos de
+combustão incompleta).
+Campanhas trimestrais; nenhuma
+superação dos limites da
+CONAMA 03/1990 em >3
+medições/ano.
+M1 →
+permanente
+PA
+-
+06 Gestão
+de RSS
+Garantir segregação, coleta, transporte e
+destinação adequada de RSS em todos os
+pontos.
+MTR emitido para 100% dos RSS
+coletados; zero ocorrências de
+RSS misturado com RSU a partir
+de M1.
+M1 →
+permanente
+PA
+-
+07 APPs e
+fauna
+Recuperar APPs afetadas e implantar
+programa de proteção à fauna silvestre
+nas rotas de coleta.
+Recuperação de ≥1 ha de
+APP/ano; passagens de fauna nas
+rotas noturnas do Alto Madeira
+até M12.
+M7
+–
+M36
+PA
+-
+08
+Monitoramento
+Aterro Jirau
+Implantar monitoramento pós
+-
+encerramento do Aterro do Jirau
+(CONAMA 420/2009).
+5 poços instalados em M6;
+relatório semestral ao SEMA;
+parâmetros dentro dos VRQ em
+M36.
+M1
+–
+M12
+27
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Programa
+Objetivo
+KPI principal
+Prazo
+PA
+-
+09
+Compensação
+ambiental
+Implementar medidas de compensação
+para impactos residuais não mitigáveis.
+Plano aprovado pelo órgão
+ambiental em M6; ≥R$ 500
+mil/ano em compensação até
+M24.
+M7
+–
+M24
+PA
+-
+10
+Contingência
+fluvial (PCOS)
+Garantir continuidade operacional no
+Baixo Madeira em todos os níveis
+hidrológicos do Rio Madeira.
+POF aprovado pelo CGP/PVH
+antes do início da operação;
+acionamento dos 4 níveis
+conforme cota.
+M1 →
+permanente
+Fonte
+: Elaborado pela consultoria, 2026.
+VI.2.
+ENCERRAMENTO TÉCNICO E RITO GAC DA LIXEIRA VILA PRINCESA
+O
+passivo ambiental da Lixeira da Vila Princesa será gerido sob o rito de Gerenciamento de Áreas
+Contaminadas (GAC), conforme Resolução CONAMA nº 420/2009, Resolução CONAMA nº 430/2011, Nota
+Técnica nº 01/2023/SEMA
+-
+ERGASJPA, ABNT NBR 15515
+-
+1:2021 (Avaliação
+Preliminar), ABNT NBR 15515
+-
+2 (Investigação Confirmatória) e ABNT NBR 16210:2022 (Modelo Conceitual). O Processo SEI nº
+0028.019984/2024
+-
+70, vinculado ao Processo SEI nº 0028.025861/2023
+-
+97 da SEMA/RO, constitui o
+marco inicial do regular encerramento téc
+nico da Lixeira Municipal da Vila Princesa.
+Cabe distinguir o instrumento adotado nesta versão do Plano de Recuperação de Áreas Degradadas (PRAD)
+historicamente elaborado pela empresa Marquise, à época da operação da Lixeira. Aquele PRAD constituiu
+instrumento técnico
+-
+formal anterior, cuja efetivida
+de não foi consolidada, e não se confunde com a cobrança
+normativa atual da SEMA/RO, que se estrutura sob o rito GAC e a sequência de seis etapas técnicas: (i)
+Avaliação Preliminar; (ii) Investigação Confirmatória; (iii) Investigação Detalhada; (iv) Avalia
+ção de Risco; (v)
+Monitoramento; e (vi) Medidas de Intervenção.
+A Avaliação Preliminar de Passivo Ambiental elaborada pela EcoRondônia/Neomax (2024), submetida à
+SEMA/RO, corresponde à conclusão da primeira etapa do rito GAC. As seis etapas do rito GAC, sintetizadas
+na Tabela 10, devem constar como condições suspensiva
+s (Etapa 1, concluída; Etapas 2 e 3, em fase de
+cobrança pela SEMA) e como condições pré
+-
+operacionais (Etapas 4 a 6) do contrato de concessão. A não
+implementação tempestiva das etapas configura risco de inadimplemento da Nota Técnica nº
+01/2023/SEMA
+-
+ERGAS
+JPA, com implicações nas Ações Civis Públicas (ACPs) em tramitação relacionadas à
+Lixeira.
+TABELA
+10
+RITO GAC DA LIXEIRA DA VILA PRINCESA: ETAPAS, RESPONSÁVEIS E MARCOS
+VERIFICÁVEIS (CONAMA 420/2009 E NOTA TÉCNICA Nº 01/2023/SEMA
+-
+ERGASJPA)
+Etapa
+Descrição
+Responsável
+Prazo
+Marco verificável
+E1
+—
+Avaliação
+Preliminar
+(concluída)
+Identificação de indícios de
+contaminação; classificação
+preliminar de áreas
+(AP/AS/AC); definição do
+Empresa
+credenciada
+pela SEMA/RO
+M1
+–
+M3
+Laudo de investigação confirmatória
+aprovado pela SEMA/RO.
+28
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Etapa
+Descrição
+Responsável
+Prazo
+Marco verificável
+modelo conceitual inicial. NBR
+15515
+-
+1:2021; NBR
+16210:2022; CONAMA
+420/2009.
+E2
+—
+Investigação
+Confirmatória
+Sondagens investigativas e
+instalação de poços de
+monitoramento de água
+subterrânea; análise
+laboratorial dos parâmetros
+do SQI (CONAMA 420/2009).
+NBR 15515
+-
+2; NBR 13.895.
+Concessionária
+PPP
+M1
+–
+M6
+ART de implantação + vistoria técnica
+do CGP/PVH.
+E3
+—
+Investigação
+Detalhada
+Caracterização tridimensional
+da contaminação (extensão da
+pluma); mapeamento das
+fontes primárias e
+secundárias; refinamento do
+modelo conceitual. CONAMA
+420/2009; NBR 16210:2022.
+Concessionária
+PPP
+M6
+–
+M12
+Sistema operacional + análise de
+efluente em conformidade com
+CONAMA 430/2011.
+E4
+—
+Avaliação
+de Risco à
+Saúde Humana
+Análise quantitativa de risco à
+saúde humana com base nos
+parâmetros mensurados nas
+etapas anteriores;
+identificação de receptores e
+cenários de exposição;
+definição das metas de
+remediação. CONAMA
+420/2009; CETESB
+(referência metodológica).
+Concessionária
+PPP
+M12
+–
+M36
+Laudo de vistoria: sobrevivência ≥80%
+das mudas plantadas.
+E5
+—
+Monitoramento
+Ambiental
+Monitoramento contínuo da
+pluma de contaminação, das
+águas subterrâneas e do
+biogás durante e após a
+execução das medidas de
+intervenção. Periodicidade
+trimestral; relatórios
+consolidados ao SEMA/RO.
+Concessionária
+—
+lab.
+INMETRO
+M36 →
+10 anos
+Relatórios trimestrais ao CGP/PVH e
+SEMA; laudos anuais aprovados.
+E6
+—
+Medidas
+de Intervenção
+Implantação das medidas de
+remediação definidas na
+Avaliação de Risco (E4):
+contenção, isolamento,
+tratamento de solo/águas
+subterrâneas, cobertura de
+superfície, controle
+institucional. Inclui sistema de
+SEMUSB +
+Concessionária
+M1
+–
+M36
+≥4 reuniões comunitárias/ano; canal
+de reclamações ativo (SLA: 5 dias
+úteis).
+29
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Etapa
+Descrição
+Responsável
+Prazo
+Marco verificável
+drenagem de biogás e
+captação de lixiviado
+conforme NBR 13.896.
+Comunicação social paralela à
+execução das medidas.
+Fonte
+: Elaborado pela consultoria, 2026.
+VI.3.
+PLANO DE CONTI
+N
+GÊNCIA OPERACIONAL SAZONAL
+O PCOS é acionado automaticamente com base na cota hidrométrica do Rio Madeira, aferida pela estação
+telemétrica da ANA/CPRM em Porto Velho (estação 15400000), e está articulado ao Plano de Contingência
+da Superintendência Municipal de Proteção e Defesa Ci
+vil (SMDC) da Prefeitura de Porto Velho.
+As cotas de acionamento adotadas neste Caderno foram calibradas em correspondência com as cotas oficiais
+da Defesa Civil Municipal: cota de alerta em 5,0 metros (Defesa Civil entra em monitoramento intensificado);
+cota de emergência em 4,0 metros (Marinha
+proíbe navegação noturna); e cota de calamidade pública em
+níveis inferiores a 2,0 metros (compatível com declaração de situação de emergência ambiental, a exemplo
+do Decreto Municipal nº 20.187/2024 e do Decreto Estadual nº 29.252/2024, classificada como
+COBRADE
+1.4.1.1.0
+—
+desastre natural climatológico de estiagem).
+O acionamento é automático
+—
+não depende de autorização prévia do CGP/PVH
+—
+, garantindo continuidade
+operacional sem demora burocrática, em alinhamento direto às fases de mobilização da Defesa Civil
+Municipal. A bacia do Rio Madeira em Porto Velho é influe
+nciada em 74% pelas chuvas que caem na Bolívia,
+12% pelas chuvas do Peru e 14% pelas precipitações em solo brasileiro (Defesa Civil Municipal, 2024), fator
+que justifica a articulação operacional do PCOS com a Sala de Crise da Região Norte e com a Agência
+Nacional
+de Águas (ANA). A série histórica registrou valores extremos próximos de 0,25 m (estiagem severa de 2024)
+e 19,73 m (cheia de 2014); os anos de 2020 (1,88 m), 2023 (1,20 m) e 2024 (0,25 m) marcaram secas
+históricas sucessivas, indicando tendência
+de agravamento da estiagem amazônica nos últimos cinco anos
+.
+TABELA
+11
+–
+PCOS DO BAIXO MADEIRA: 4 NÍVEIS OPERACIONAIS E PROCEDIMENTOS
+Nível
+Cota (m)
+Período
+típico
+Procedimento operacional
+KPI
+Nível 1
+—
+Operação
+plena
+> 10 m
+Dez
+–
+Mai
+(cheia)
+Rota regular de balsa 2×/semana. Contêineres 5 m³
+trocados em todos os distritos. Equipe de 3 agentes
+por distrito.
+100% de cobertura
+Nível 2
+—
+Operação
+adaptada
+7
+–
+10 m
+Out
+–
+Nov /
+Mai
+–
+Jun
+(transição)
+Embarcação de menor calado 1×/semana.
+Funcionários transportam bombonas até ponto de
+embarque acessível. Comunicado às comunidades
+com 48h de antecedência.
+≥ 95% de cobertura
+Nível 3
+—
+Contingência
+severa
+4
+–
+7 m
+Jun
+–
+Set
+(estiagem)
+Canoas de alumínio com motor de 15 HP. Bombonas
+de 200 L substituem contêineres. EPI reforçado
+obrigatório. Frequência reduzida a 1×/semana.
+≥ 90% de cobertura
+30
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Nível
+Cota (m)
+Período
+típico
+Procedimento operacional
+KPI
+Nível 4
+—
+Estiagem
+extrema
+< 4 m
+Jul
+–
+Set
+(anos
+secos)
+Sistema de tirolesa logística (cabo aéreo com polias)
+para transporte de bombonas sobre a várzea
+exposta. Coleta manual em pontos de acumulação.
+Notificação ao CGP/PVH e à SMDC em até 24 horas.
+Em cotas inferiores a 2,0 m (alinhadas às cotas de
+calamidade
+pública da Defesa Civil Municipal
+—
+referência: mínimas históricas de 1,88 m em 2020,
+1,20 m em 2023 e 0,25 m em 2024), acionamento
+de Plano Emergencial específico em conjunto com a
+SMDC, com integração à Sala de Crise da Região
+Norte (ANA/CPRM) e suporte
+logístico do Corpo de
+Bombeiros e da Marinha do Brasil
+—
+Capitania
+Fluvial.
+≥ 80% + notif.
+obrigatória em 24h
+Fonte
+: Elaborado pela consultoria, 2026.
+VII.
+ESTRATÉGIAS DE INCLUSÃO SOCIAL E ECONOMIA CIRCULAR
+VII.1.
+DIAGNÓSTICO DA CADEIA DE RECICLÁVEIS
+Porto Velho apresenta assimetria estrutural entre o potencial de geração de recicláveis e a taxa efetiva de
+recuperação. Com composição gravimétrica de 51% de orgânicos, 32% de recicláveis secos e 17% de rejeitos
+(PMSB 2022), o volume passível de aproveita
+mento em 2027 é estimado em 47.800 t/ano porém a taxa de
+recuperação efetiva é de apenas 1,35% (SNIS 2018). As causas são: baixa segregação na fonte; infraestrutura
+precária de triagem; ausência de contrato formal com a CATANORTE; e barreira logística amaz
+ônica, que
+inviabiliza a comercialização de plásticos e vidros a preços que cobrem o frete (R$ 0,80/kg até o Sul
+-
+Sudeste).
+A ausência de indústrias recicladoras na Região Norte com capacidade de absorção do volume gerado reforça
+que a sustentabilidade do modelo não pode depender do preço de mercado dos recicláveis. O contrato de
+concessão deve prever pagamento pelo serviço de
+triagem como receita garantida. Incipiência da logística
+reversa em escala estadual: a análise da cadeia de recicláveis de Porto Velho não pode ser dissociada da
+incipiência da estruturação da logística reversa no Estado de Rondônia.
+Conforme o art. 33 da Lei nº 12.305/2010 (PNRS), são obrigados a estruturar e implementar sistemas de
+logística reversa os fabricantes, importadores, distribuidores e comerciantes de agrotóxicos, pilhas e baterias,
+pneus, óleos lubrificantes, lâmpadas fluo
+rescentes, produtos eletroeletrônicos e embalagens em geral. No
+entanto, a operacionalização efetiva desses sistemas em Rondônia é limitada, com baixa adesão de
+signatários, ausência de pontos de entrega voluntária estruturados em escala regional e falta d
+e articulação
+institucional entre o Estado, os municípios e os setores empresariais obrigados.
+Essa lacuna se reflete diretamente na escala municipal: Porto Velho recebe a totalidade do passivo gerado
+por produtos cujos fluxos reversos deveriam ser custeados e operados pelos próprios fabricantes e
+importadores, sobrecarregando o sistema municipal de
+manejo de RSU e prejudicando as metas de redução
+de geração e de recuperação previstas no PMSB e na PNRS.
+31
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Recomenda
+-
+se que, em paralelo ao processo licitatório, o Município, por meio da Diretoria de Saneamento
+Básico (DESAB/SEINFRA), articule com o Governo do Estado de Rondônia
+—
+preferencialmente por meio de
+Acordo de Cooperação Técnica entre SEMUSB e SEMA/RO
+—
+a estruturação de uma política estadual de
+logística reversa e responsabilidade compartilhada, com cadastramento estadual dos obrigados, definição de
+pontos regionais de entrega voluntária, articulação com signatários nacionais de Termos de Compromisso
+e
+estabelecimento de metas estaduais por categoria de produto.
+A previsão dessa articulação pode ser inserida em Decreto Municipal específico, indicando expressamente a
+recomendação de adoção da política em nível estadual em regime de parceria.
+Responsável institucional
+municipal: Diretoria de Saneamento Básico (DESAB/SEINFRA). Tratamento específico do vidro (alternativa
+regional via construção civil): a cadeia do vidro merece tratamento específico, representando 2,5% a 4% da
+composição gravimétr
+ica (280 a 470 t/mês).
+A combinação de alto peso específico, baixo valor agregado por tonelada (R$ 80 a R$ 150/t) e distância de
+3.500 km até indústrias vidreiras do Sudeste torna inviável o transporte para reciclagem industrial
+convencional. Recomenda
+-
+se o beneficiamento do vid
+ro coletado como agregado para construção civil, com
+aplicações em concretos não estruturais (até 20% NBR 7211), blocos de concreto, pavimentação asfáltica,
+drenagem e argamassas decorativas, requerendo CAPEX de R$ 350 mil a R$ 600 mil em britador específi
+co
+e classificador granulométrico, com parceria comercial com construtoras locais. Compostagem como
+estratégia prioritária para a fração orgânica: a composição gravimétrica de 51% de orgânicos confere
+centralidade ao tratamento desta fração.
+Recomenda
+-
+se a implantação progressiva de Unidades de Compostagem em dois níveis
+—
+Unidade Central
+na CTR
+-
+PV (30 t/dia inicial, 80
+-
+120 t/dia em M60, leiras revolvidas NBR 13.591) e Unidades Descentralizadas
+Comunitárias (0,5
+-
+2 t/dia cada) integradas a hort
+as urbanas e ao Programa de Educação Ambiental, com
+atenção especial aos distritos do Baixo Madeira (Calama, São Carlos, Nazaré e Demarcação), onde a logística
+fluvial inviabiliza o transporte de orgânicos até o Ecoparque.
+A produção esperada de composto orgânico classe A (Instrução Normativa MAPA nº 25/2009) é de 30% a 40%
+da massa de entrada, com mercado consumidor estruturado em três frentes: paisagismo público, agricultura
+familiar dos distritos e recomposição vegetal da
+Etapa 6 do rito GAC da Lixeira. Como alternativa tecnológica
+complementar, recomenda
+-
+se a avaliação técnica e econômica da biodigestão anaeróbia da fração orgânica
+para geração de biogás e biofertilizante, possibilidade a ser detalhada nos Cadernos 5 e 6
+do EVTEA.
+VII.2.
+MODELO DE INTEGRAÇÃO DE COOPERATIVA EM CINCO NÍVEIS
+O modelo proposto transforma progressivamente a CATANORTE e as futuras cooperativas de trabalhadores
+informais à margem do sistema para prestadores de serviço contratualizados, com renda estável e
+participação na governança do sistema de RSU. Cada nível po
+ssui entregáveis verificáveis e prazos
+contratuais.
+Nível 1
+—
+Diagnóstico e cadastro (M1
+–
+M3): Cadastro georreferenciado de todos os catadores e cooperativas
+com dados de infraestrutura, renda e qualificação. Este nível calibra a CS
+-
+01 (percentual mínimo de material
+destinado às cooperativas) e todas as meta
+s subsequentes. Corresponde ao Data Request urgente junto à
+SEMUSB/MTE.
+Nível 2
+—
+Formalização e contratação (M3
+–
+M6): Contrato de prestação de serviço de triagem com
+remuneração mínima de R$ Y/t (a calibrar após o Nível 1 e validar no Caderno 6). Regularização previdenciária
+dos cooperados. Este nível torna a CS
+-
+02 uma relação
+contratual operacional.
+32
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Nível 3
+—
+Infraestrutura e capacitação (M6
+–
+M18): CAPEX da concessão para construção ou reforma do
+galpão de triagem (padrão mínimo NBR 15.849), aquisição de prensa, esteira e EPI, e treinamento técnico em
+triagem, segurança e gestão cooperativa. A CS
+-
+03 fo
+rmaliza esta obrigação.
+Nível 4
+—
+Escala e diversificação (M18
+–
+M48): Ampliação do volume triado; diversificação de materiais
+(pequenos eletroeletrônicos, óleo de cozinha, pilhas); articulação com compradores regionais para reduzir a
+dependência do mercado nacional.
+Nível 5
+—
+Economia circular plena (M48+): Integração ao sistema de compostagem e biodigestão da CTR
+-
+PV;
+assento das cooperativas no CGP/PVH; renda estável ≥2 salários mínimos para os cooperados
+.
+VII.3.
+BENCHMARKS NACIONAIS
+A análise comparativa demonstra que as metas propostas para Porto Velho são alcançáveis e conservadoras
+em relação ao que municípios com infraestrutura equivalente à prevista já alcançaram.
+TABELA
+12
+BENCHMARKS NACIONAIS DE INTEGRAÇÃO DE CATADORES
+Município
+Cooperados
+integrados
+Taxa de
+recuperação (%)
+Renda média cooperado (R$/mês)
+Belo Horizonte (MG)
+~2.800 em 21
+associações
+22%
+~R$ 1.900
+Curitiba (PR)
+~1.400 em 8
+cooperativas
+18%
+~R$ 2.100
+São Paulo (SP)
+~4.600 em 22
+cooperativas
+9%
+~R$ 1.650
+Porto Velho
+—
+baseline
+2025
+53 (1 cooperativa)
+1,35%
+~R$ 900 (estimativa)
+Fonte
+: Elaborado pela consultoria, 2026.
+VII.4.
+CLAUSULAS SOCIAIS CONTRATUAIS
+–
+CS
+-
+01 A CS
+-
+04
+CS
+-
+01
+—
+Destinação mínima às cooperativas: X% do material reciclável triado no sistema destinado a
+cooperativas cadastradas (X a calibrar após o Nível 1). Mínimo absoluto: 100% do volume atual da
+CATANORTE. Penalidade: R$ 500/t destinada abaixo do mínimo p
+or mês.
+CS
+-
+02
+—
+Contrato de serviço de triagem: Pagamento mínimo de R$ Y/t triada (a calibrar no Caderno 6).
+Garante sustentabilidade financeira das cooperativas independentemente dos preços de mercado.
+Penalidade por descumprimento: R$ 100.000 + recomposição das
+perdas.
+CS
+-
+03
+—
+Infraestrutura das cooperativas: CAPEX de galpão e equipamentos até o Mês 18. Padrão mínimo:
+NBR 15.849. Vistoria obrigatória do CGP/PVH. Penalidade por atraso: retenção de 2% da
+contraprestação/mês a partir de M18.
+CS
+-
+04
+—
+Educação ambiental e segregação na fonte: Programa em parceria com a SEMED. Meta: ≥40% de
+separação adequada em M24 e ≥70% em M60. Penalidade: desconto de 1% na contraprestação por ponto
+percentual abaixo da meta no ano de apuração.
+33
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+VII.5.
+PROGRAMA DE EDUCAÇÃO AMBIENTAL
+A educação ambiental é componente estruturante do modelo de inclusão social e de sustentabilidade de
+longo prazo da concessão. Pesquisas realizadas com educadores da Escola Municipal da Vila Princesa
+demonstraram que a consciência ambiental não emerge espo
+ntaneamente da proximidade com o problema
+requer mediação pedagógica intencional, fundamentada em abordagem crítica e interdisciplinar (SANTANA,
+2025). Esse resultado posiciona a escola como espaço estratégico de construção de saberes ambientais em
+comunid
+ades diretamente afetadas por passivos de lixões.
+O Programa de Educação Ambiental da concessão será executado pel
+a
+concessionária em parceria com a
+SEMED e abrangerá quatro eixos:
+(i)
+formação de educadores das escolas municipais nos temas de RSU, segregação na fonte,
+reciclagem e saúde ambiental;
+(ii)
+campanhas itinerantes de conscientização nos bairros periféricos da Sede e nos distritos, com
+linguagem adaptada ao contexto ribeirinho para o Baixo Madeira;
+(iii)
+programa de visitas escolares às instalações do sistema de RSU Centro de Triagem da
+CATANORTE e Ecoparque para aproximar a população jovem da cadeia de reciclagem; e
+(iv)
+ações específicas de comunicação com as comunidades do entorno da Lixeira da Vila Princesa,
+integradas ao cronograma de execução do rito GAC.
+34
+PROPOSTA JOF 3314/2021
+| PEZCO, RPG&REINFRA
+Rua Bela Cintra, 1200
+|
+1º andar
+|
+Cj
+.
+11
+|
+Jardim Paulista
+|
+São Paulo | SP
+VIII.
+PLANO DE ENGAJAMENTO DE STAKEHOLDERS E COMUNICAÇÃO
+SOCIAL
+O presente capítulo estrutura o Plano de Engajamento de Stakeholders (PES) da PPP de RSU de Porto Velho.
+O PES é exigência do Padrão de Desempenho Social nº 1 do IFC e do Marco de Política Ambiental e Social do
+Banco Mundial para projetos com potencial de
+impacto social significativo condição que se aplica
+integralmente ao presente projeto, dado o histórico de conflitos institucionais no setor de RSU de Porto Velho
+e a pluralidade de grupos vulneráveis identificados nas seções anteriores.
+O engajamento vai além da consulta pública legal. É o instrumento que documenta, de forma rastreável, que
+as decisões do projeto consideraram as perspectivas das populações afetadas, que os riscos sociais foram
+comunicados com transparência e que os mecani
+smos de reclamação e resposta estarão operacionais antes
+do início da concessão.
+VIII.1.
+MAPEAMENTO DE STAKEHOLDERS
+TABELA
+13
+–
+MAPEAMENTO DE STAKEHOLDERS: INFLUÊNCIA, POSICIONAMENTO E ESTRATÉGIA DE
+ENGAJAMENTO
+Stakeholder
+Influência
+Posicionamento
+Estratégia de engajamento
+Prefeitura
+—
+CGP/PVH e
+SEMUSB
+Alta
+Favorável
+Reuniões técnicas mensais; aprovação de relatórios,
+POF e rito GAC; acesso ao sistema de monitoramento
+em tempo real.
+TCE
+-
+RO
+(Tribunal de
+Contas)
+Alta
+Neutro (vigilante)
+Engajamento técnico preventivo antes do edital;
+compartilhamento do EVTEA antes da publicação;
+abertura de canal formal de diálogo.
+MP
+-
+RO
+(Ministério
+Público)
+Alta
+Neutro (vigilante)
+Reunião técnica antes do edital
+—
+ACP em tramitação
+exige diálogo proativo; demonstração documental das
+obrigações de inclusão de catadores.
+Câmara
+Municipal
+Alta
+Neutro
+-
+favorável
+Apresentação do EVTEA em sessão aberta; relatórios
+semestrais de desempenho.
+SEMA
+-
+RO
+(órgão
+ambiental)
+Alta
+Neutro (técnico)
+Comunicação formal antes do edital; submissão
+antecipada do cronograma do rito GAC para aprovação
+prévia da SEMA/RO.
+CATANORTE e
+cooperativas de
+catadores
+Média
+Favorável
+condicionalmente
+Consulta antes da calibração; representação no
+CGP/PVH a partir do Nível 2 do modelo de integração.
+Moradores
+—
+entorno da
+Média
+Desfavorável
+(histórico de
+desconfiança)
+Consulta comunitária presencial antes das intervenções
+do rito GAC; reuniões bimestrais durante M1
+–
+M36;
+canal de reclamações prioritário.
+35
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Stakeholder
+Influência
+Posicionamento
+Estratégia de engajamento
+Lixeira (Vila
+Princesa)
+Comunidades
+ribeirinhas
+—
+Baixo Madeira
+Baixa
+-
+Média
+Neutro
+-
+desfavorável
+Audiência pública fluvial presencial em Calama e São
+Carlos
+—
+único formato que garante participação
+efetiva das comunidades ribeirinhas.
+Trabalhadores
+de coleta
+—
+sindicato
+Média
+Neutro
+-
+cauteloso
+Reunião antes da transição de operador; garantias de
+manutenção dos vínculos empregatícios na cláusula de
+transição.
+ECOPVH
+(operadora
+atual)
+Média
+Neutro
+Protocolo de transição com sobreposição de 30 dias;
+inventário completo de ativos antes do Dia 1 da
+concessão.
+FUNAI / INCRA
+Alta
+(legal)
+A consultar
+Identificar presença de grupos indígenas e quilombolas
+na área de influência
+—
+Convenção 169 OIT (Decreto
+5.051/2004).
+BNDES /
+investidores
+privados
+Alta
+Favorável
+condicionalmente
+Entrega do EVTEA completo; alinhamento com política
+ASG do BNDES; certificação de conformidade com PS1
+–
+PS6 do IFC.
+Fonte
+: Elaborado pela consultoria, 2026.
+VIII.2.
+PLANO DE ENGAJAMENTO
+–
+CINCO FASES
+O PES é estruturado em cinco fases progressivas. As Fases 1 e 2 são condições pré
+-
+operacionais
+—
+devem
+ser concluídas antes da publicação do edital de licitação.
+TABELA
+14
+–
+PLANO DE ENGAJAMENTO DE STAKEHOLDERS: FASES, ATIVIDADES E ENTREGÁVEIS
+Fase
+Período
+Atividades principais
+Stakeholders
+prioritários
+Entregável
+Fase 1
+—
+Consulta
+pré
+-
+edital
+M(
+-
+3) a M0
+(antes do
+edital)
+Consulta comunitária no
+entorno da Lixeira; audiência
+pública fluvial presencial em
+Calama e São Carlos; reuniões
+técnicas com TCE
+-
+RO, MP
+-
+RO
+e SEMA; apresentação à
+Câmara Municipal; Data
+Request FUNAI/INCRA.
+Moradores Lixeira;
+comunidades
+Baixo Madeira;
+TCE
+-
+RO; MP
+-
+RO;
+SEMA
+Atas de consulta e manifestações
+incorporadas ao EVTEA; nota
+técnica de resposta às principais
+questões levantadas
+—
+CONDIÇÃO
+PRÉ
+-
+OPERACIONAL.
+Fase 2
+—
+Processo
+licitatório
+M0 a M(+3)
+Audiências públicas legais (Lei
+14.026/2020); divulgação do
+EVTEA em linguagem
+Sociedade civil;
+CATANORTE;
+sindicatos;
+Respostas publicadas a todas as
+manifestações; relatório de
+36
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Fase
+Período
+Atividades principais
+Stakeholders
+prioritários
+Entregável
+acessível; canal de perguntas
+e respostas; reunião com
+CATANORTE e sindicatos.
+vereadores;
+imprensa
+audiência pública enviado ao TCE
+-
+RO.
+Fase 3
+—
+Transição
+operacional
+M0 a M6
+(início da
+concessão)
+Comunicação à população
+sobre mudança de operador;
+canal de reclamações ativo
+desde o Dia 1; reunião com
+moradores da Lixeira sobre o
+cronograma do rito GAC;
+reunião com CATANORTE
+sobre CS
+-
+01 e CS
+-
+02.
+Moradores Lixeira;
+CATANORTE;
+comunidades
+Baixo Madeira;
+usuários da coleta
+Plano de comunicação de transição
+aprovado pelo CGP/PVH; canal de
+reclamações com SLA de 5 dias
+úteis.
+Fase 4
+—
+Implantação
+(M1
+–
+M36)
+M6 a M36
+Reuniões bimestrais com
+moradores da Lixeira sobre
+andamento do rito GAC;
+relatório semestral público de
+desempenho; revisão anual
+do PES.
+Moradores Lixeira;
+CATANORTE;
+CGP/PVH; Câmara
+Municipal
+Relatórios semestrais públicos;
+atas das reuniões comunitárias;
+indicadores do rito GAC.
+Fase 5
+—
+Operação
+plena
+M36 em
+diante
+Relatório anual de
+desempenho ASG publicado;
+participação das cooperativas
+no CGP/PVH; canal de
+reclamações permanente;
+revisão do PES a cada 5 anos.
+Todos os
+stakeholders
+Relatório anual ASG; indicadores
+das CSs e CCAs; revisão contratual
+se metas não atingidas.
+Fonte
+: Elaborado pela consultoria, 2026.
+VIII.3.
+PROGRAMA DE COMUNICAÇÃO SOCIAL
+O Programa de Comunicação Social (PCS) detalha os instrumentos de comunicação com cada grupo de
+stakeholders ao longo da concessão:
+•
+Canal de reclamações e sugestões (PCS
+-
+01): WhatsApp + telefone 0800 + formulário web,
+operacional desde o Dia 1 da concessão, com SLA de resposta de 5 dias úteis;
+•
+Relatório público semestral de desempenho (PCS
+-
+02): publicado no portal da Prefeitura e no site do
+concessionário, com versão impressa simplificada nas subprefeituras dos distritos;
+•
+Comunicação com a comunidade da Lixeira (PCS
+-
+03): reuniões bimestrais durante M1
+–
+M36 sobre
+andamento do rito GAC, com folheto distribuído porta a porta nos bairros adjacentes; semestral após
+M36;
+•
+Educação ambiental escolar (PCS
+-
+04): em parceria com a SEMED, ciclo anual de visitas às escolas
+municipais da Sede e dos distritos;
+•
+Comunicação com o Baixo Madeira (PCS
+-
+05): duas visitas semestrais
+—
+uma antes da cheia, uma
+antes da estiagem
+—
+com embarcação itinerante, rádio comunitária local e cartilha ilustrada
+adaptada ao contexto ribeirinho;
+•
+Diálogo com CATANORTE e cooperativas (PCS
+-
+06): reunião mensal de acompanhamento das metas
+das CSs e acesso ao sistema de monitoramento de volumes triados. Comunicação de massa e mídias
+37
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+digitais (PCS
+-
+07): campanhas semestrais de comunicação social ampla executadas pela
+concessionária, com obrigação contratual de inserções em televisão aberta local, rádios comerciais
+de cobertura municipal, jornais locais (impressos e digitais), mídias soc
+iais oficiais (Facebook,
+Instagram, YouTube, TikTok) e mídia exterior (busdoor e mobiliário urbano), com conteúdo mínimo
+sobre segregação na fonte, calendário da coleta seletiva, locais dos Ecopontos, descarte de RSS e
+ciclo de aproveitamento dos recicláve
+is, com KPI de 2 campanhas integradas/ano e alcance mínimo
+de 60% da população urbana (Sede) e 40% dos distritos, mensurado por pesquisa de recall anual.
+•
+Rádios comunitárias e linguagem ribeirinha (PCS
+-
+08): programa específico de inserções em rádios
+comunitárias da Sede e dos distritos do Alto, Médio e Baixo Madeira, com conteúdo adaptado ao
+contexto sociocultural local, incluindo programa quinzenal de 15 m
+inutos com gestor do serviço,
+espaço de perguntas e respostas e radionovela educativa de até 8 episódios/ano. Para o Baixo
+Madeira, articulação com rádios comunitárias de Calama e São Carlos com transmissão sazonal
+coordenada ao PCOS (PA
+-
+10) durante a esti
+agem. KPI: contrato vigente com no mínimo 4 emissoras
+comunitárias; 24 inserções quinzenais/ano executadas. Os itens PCS
+-
+07 e PCS
+-
+08 constituem
+obrigações contratuais autônomas da concessionária, distintas e complementares ao Programa de
+Educação Ambiental
+escolar previsto na Seção VII.5, com orçamento mínimo não inferior a 0,5% da
+contraprestação mensal, com prestação de contas anual auditada.
+VIII.4.
+PENDÊNCIAS PRÉ
+-
+EDITAL
+–
+CONDIÇÕES OBRIGATÓRIAS
+Cinco atividades da Fase 1 do PES constituem condições pré
+-
+operacionais do processo licitatório, de
+responsabilidade do CGP/PVH e da SEMUSB:
+•
+Consulta comunitária presencial com moradores do entorno da Lixeira
+—
+antes do início das
+intervenções do rito GAC;
+•
+Audiência pública fluvial presencial em Calama e São Carlos
+—
+com versão simplificada do EVTEA
+em linguagem acessível;
+•
+Reunião técnica preventiva com o TCE
+-
+RO
+—
+compartilhamento do EVTEA antes da publicação do
+edital;
+•
+Reunião técnica preventiva com o MP
+-
+RO
+—
+em especial quanto à ACP em tramitação e às
+obrigações de inclusão de catadores;
+•
+Consulta formal à FUNAI e ao INCRA
+—
+prazo estimado de resposta: 90 a 180 dias; deve ser iniciada
+imediatamente para não comprometer o cronograma do edital
+IX.
+CONSIDERAÇÕES FINAIS E RECOMENDAÇÕES
+O
+diagnóstico socioambiental evidencia um sistema em transição: que avançou com o encerramento da
+Lixeira e o início da destinação no Ecoparque em 2023, mas que carrega passivos históricos críticos e gargalos
+estruturais que precisam ser tratados como condi
+ções pré
+-
+operacionais da concessão
+—
+não como questões
+a serem resolvidas ao longo da operação.
+As dez recomendações estratégicas abaixo derivam diretamente das análises das Seções III a VII e são
+apresentadas em ordem de urgência:
+•
+Cronograma das etapas pendentes do rito GAC da Lixeira da Vila Princesa como condição suspensiva
+pré
+-
+licitatória: o cronograma das etapas pendentes (Investigação Confirmatória, Investigação
+Detalhada, Avaliação de Risco e Medidas de Intervenção) deve ser a
+provado pela SEMA/RO e ter
+cronograma físico publicado antes da abertura do processo licitatório, em conformidade com a Nota
+38
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+Técnica nº 01/2023/SEMA
+-
+ERGASJPA e os Processos SEI nº 0028.019984/2024
+-
+70 e nº
+0028.025861/2023
+-
+97;
+•
+Cadastro georreferenciado de catadores como condição suspensiva: sem o cadastro;
+•
+Engajamento preventivo com TCE
+-
+RO e MP
+-
+RO antes do edital: compartilhamento técnico do EVTEA
+e abertura de canal de diálogo antes da publicação para reduzir risco de impugnação;
+•
+Plano Operacional Fluvial (POF) como condição suspensiva da operação no Baixo Madeira: o PCOS
+deve ser aprovado pelo CGP/PVH antes do início da operação fluvial;
+•
+Reativação do Aterro do Jirau como prioridade logística de curto prazo: redução da DMT de ~355 km
+para ~80 km, com impacto direto na viabilidade econômico
+-
+financeira;
+•
+Sistema de captação e queima de biogás em 24 meses: obrigação ambiental e oportunidade de
+receita acessória (estimativa: 4.851 kWh/dia no Ano 1);
+•
+Pagamento pelo serviço de triagem como mecanismo de sustentabilidade: CS
+-
+02 deve garantir
+remuneração por tonelada triada, independentemente dos preços de mercado;
+•
+Audiência pública fluvial presencial no Baixo Madeira: requisito de legitimidade social formato
+presencial é o único que garante participação efetiva das comunidades ribeirinhas;
+•
+Relatório público semestral de desempenho: instrumento de controle social e transparência, com
+publicação no portal da Prefeitura e envio ao TCE
+-
+RO;
+•
+Articulação com SUFRAMA para incentivos fiscais a recicladores regionais em Rondônia: ação de
+política pública que, embora fora do escopo contratual, é condição de sustentabilidade de longo prazo
+do modelo de inclusão social.
+39
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+X.
+REFERÊNCIAS
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).
+NBR 10.007: Amostragem de resíduos sólidos.
+Rio de Janeiro: ABNT, 2004.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).
+NBR 13.591: Compostagem.
+Rio de Janeiro:
+ABNT, 1996.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).
+NBR 13.895: Construção de poços de
+monitoramento e amostragem.
+Rio de Janeiro: ABNT, 1997.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).
+NBR 13.896: Aterros de resíduos não perigosos
+—
+Critérios para projeto, implantação e operação.
+Rio de Janeiro: ABNT, 1997.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).
+NBR 15.515
+-
+1: Passivo ambiental em solo e
+água subterrânea
+—
+Parte 1: Avaliação preliminar.
+Rio de Janeiro: ABNT, 2021.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).
+NBR 15.515
+-
+2: Passivo ambiental em solo e
+água subterrânea
+—
+Parte 2: Investigação confirmatória.
+Rio de Janeiro: ABNT, 2011.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).
+NBR 16.210: Resíduos sólidos
+—
+Classificação
+quanto à degradabilidade biológica
+—
+Modelo conceitual de áreas contaminadas.
+Rio de Janeiro: ABNT,
+2022.
+AGÊNCIA NACIONAL DE ÁGUAS (ANA).
+Caderno de Recursos Hídricos da Região Norte.
+Brasília: ANA, 2016.
+BRASIL. Ministério das Cidades. Sistema Nacional de Informações sobre Saneamento (SNIS).
+Diagnóstico do
+Manejo de Resíduos Sólidos Urbanos
+—
+2022.
+Brasília: SNIS, 2023.
+CONSELHO NACIONAL DO MEIO AMBIENTE (CONAMA).
+Resolução nº 03, de 28 de junho de 1990.
+Dispõe
+sobre padrões de qualidade do ar. Brasília: CONAMA, 1990.
+CONSELHO NACIONAL DO MEIO AMBIENTE (CONAMA).
+Resolução nº 358, de 29 de abril de 2005.
+Dispõe
+sobre o tratamento e a disposição final dos resíduos dos serviços de saúde. Brasília: CONAMA, 2005.
+CONSELHO NACIONAL DO MEIO AMBIENTE (CONAMA).
+Resolução nº 420, de 28 de dezembro de 2009.
+Dispõe sobre critérios e valores orientadores de qualidade do solo quanto à presença de substâncias químicas
+e estabelece diretrizes para o gerenciamento ambiental de áreas contaminadas. Brasília: CONAMA, 2009.
+CONSELHO NACIONAL DO MEIO AMBIENTE (CONAMA).
+Resolução nº 430, de 13 de maio de 2011.
+Dispõe
+sobre as condições e padrões de lançamento de efluentes. Brasília: CONAMA, 2011.
+DORNELAS JÚNIOR, L. F.; SANTOS, M. M. C.
+Diagnóstico ambiental sobre a geração, segregação e
+disposição final de resíduos sólidos no distrito de Calama
+—
+Porto Velho/RO.
+Saber Científico, Porto Velho,
+v. 6, n. 1, p. 27
+–
+37, jan./jun. 2017.
+ECORONDÔNIA AMBIENTAL S/A.
+Avaliação Preliminar de Passivo Ambiental
+—
+Lixão da Vila Princesa.
+Porto Velho: Prefeitura Municipal de Porto Velho, 2024.
+ECORONDÔNIA AMBIENTAL S/A.
+Avaliação Preliminar de Passivo Ambiental
+—
+Aterro do Jirau.
+Porto
+Velho: Prefeitura Municipal de Porto Velho, 2024.
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE).
+Manual Técnico de Geomorfologia.
+2. ed. Rio
+de Janeiro: IBGE, 2009.
+40
+RESÍDUOS SÓLIDOS
+-
+PVH/RO
+| PEZCO,
+PSPHUB
+,
+MASTERPRO
+E
+ACP
+A
+D
+VOGADOS
+R. Bela Cintra, 1200
+-
+1
+º andar
+-
+Cj.
+1
+1
+-
+Consolação
+-
+São Paulo | SP
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE).
+Produto Interno Bruto dos Municípios.
+Rio
+de Janeiro: IBGE, 2024.
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE).
+Porto Velho (RO)
+—
+Cidades e Estados;
+Panorama.
+Rio de Janeiro: IBGE, 2022.
+LABADESSA, A. S.
+"Terras caídas", as causas e implicações socioeconômicas: uma análise preliminar na
+comunidade de Calama
+—
+baixo rio Madeira/RO.
+Boletim Paranaense de Geociências, v. 71
+-
+1, p. 12
+-
+20,
+2014.
+MINISTÉRIO DA AGRICULTURA, PECUÁRIA E ABASTECIMENTO (MAPA).
+Instrução Normativa nº 25, de 23
+de julho de 2009.
+Aprova as Normas sobre as especificações e as garantias, as tolerâncias, o registro, a
+embalagem e a rotulagem dos fertilizantes orgânicos. Brasília: MAPA, 2009.
+MINISTÉRIO DO MEIO AMBIENTE (MMA).
+Plano Nacional de Resíduos Sólidos (PLANARES).
+Brasília: MMA,
+2022.
+RONDÔNIA.
+Plano Estadual de Resíduos Sólidos de Rondônia (PERS/RO).
+Porto Velho: Governo do Estado
+de Rondônia, 2019.
+PORTO VELHO (RO).
+Plano Municipal de Saneamento Básico e Gestão Integrada de Resíduos Sólidos
+—
+PMSB
+-
+Porto Velho.
+Porto Velho: Prefeitura Municipal de Porto Velho, 2022. (Lei Complementar Municipal nº
+839/2021, com Revisão 2024).
+PORTO VELHO (RO). Secretaria Municipal de Assistência Social e da Família (SEMASF).
+Relatório de
+Levantamento Socioeconômico das Famílias Residentes no Lixão da Vila Princesa.
+Porto Velho: SEMASF,
+2023.
+PORTO VELHO (RO). Secretaria Municipal de Planejamento, Orçamento e Gestão (SEMPOG).
+Anuário
+Estatístico do Município de Porto Velho 2014
+—
+2021.
+Porto Velho: SEMPOG, 2024.
+PORTO VELHO (RO). Secretaria Municipal de Planejamento, Orçamento e Gestão (SEMPOG). Departamento
+de Pesquisa, Estatística e Indicadores.
+A educação em Porto Velho.
+Porto Velho: SEMPOG, 2023.
+PORTO VELHO (RO). Secretaria Municipal de Planejamento, Orçamento e Gestão (SEMPOG).
+Relatório de
+Ratificação do Licenciamento Ambiental da Central de Tratamento e Destinação de Resíduos Sólidos de
+Porto Velho.
+Porto Velho: SEMPOG, 2024.
+PORTO VELHO (RO). Superintendência Municipal de Proteção e Defesa Civil (SMDC).
+Plano de Contingência
+Municipal
+—
+Cotas Hidrométricas do Rio Madeira.
+Porto Velho: SMDC, 2024.
+SEBRAE; SECRETARIA DE ESTADO DA MULHER, DA FAMÍLIA, DA ASSISTÊNCIA E DO DESENVOLVIMENTO
+SOCIAL (SEAS/RO).
+Projeto Pró
+-
+Catadores em Rondônia.
+Porto Velho: SEBRAE
+-
+RO/SEAS
+-
+RO, 2023
+-
+2027.
+SECRETARIA DE ESTADO DO DESENVOLVIMENTO AMBIENTAL DE RONDÔNIA (SEMA/RO).
+Nota Técnica nº
+01/2023/SEMA
+-
+ERGASJPA.
+Dispõe sobre o rito de Gerenciamento de Áreas Contaminadas (GAC) e
+Encerramento Técnico de Lixões. Porto Velho: SEMA/RO, 2023.
+SERVIÇO GEOLÓGICO DO BRASIL (CPRM).
+Geologia e Geomorfologia da Bacia do Rio Madeira.
+Brasília:
+CPRM, 2014.
+SOUZA, E. M.; ALMEIDA, A. A.
+Resíduos sólidos em Porto Velho: uma análise dos aspectos legais na
+transição de lixões para aterros sanitários.
+Revista Ibero
+-
+Americana de Humanidades, Ciências e Educação
+—
+REASE, São Paulo, v. 10, n. 6, p. 801
+-
+818, jun. 2024. DOI: 10.51891/rease.v10i6.14392.
+41
+PROPOSTA JOF 3314/2021
+| PEZCO, RPG&REINFRA
+Rua Bela Cintra, 1200
+|
+1º andar
+|
+Cj
+.
+11
+|
+Jardim Paulista
+|
+São Paulo | SP
+C
+ONTATO PEZCO ECONOMICS
+Rua Bela Cintra, 1200 • 1º andar • Cj. 11
+Jardim Paulista • São Paulo | SP
++ 55 11 3582
+-
+5509
+economics@pezco.com.br
+www.pezco.com.br
