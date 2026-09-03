@@ -1,0 +1,181 @@
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Indicadores IBGE
+Pesquisa Nacional por Amostra de Domicílios Contínua
+Divulgação Especial
+Medidas de Subutilização da Força de Trabalho no Brasil
+2º trimestre de 2026
+Publicado em 14/08/2026 às 9 horas
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Medidas de Subutilização da Força de Trabalho
+PNAD Contínua - 2º Trimestre de 2026
+Introdução:
+A Subutilização da Força de trabalho ( labour underutilization ) é um conceito construído para
+complementar o monitoramento do mercado de trabalho, além da medida de desocupação ( unemployment), que
+tem como objetivo fornecer a melhor estimativa possível da demanda por trabalho em ocupação ( employment).
+São identificados três componentes mutuamente exclusivos, sendo que dois componentes integram a
+força de trabalho 1: i) os subocupados por insuficiência de horas trabalhadas e os ii) desocupados; a eles se
+somam os que integram a iii) força de trabalho potencial.
+Segundo a OIT - Organização Internacional do Trabalho - OIT 2., é recomendado que os países adotem
+esses indicadores principais visando propiciar um quadro mais completo da subutilização da força de trabalho. A
+fim de melhor esclarecer, seguem os conceitos e principais indicadores.
+Conceitos:
+I) Pessoas subocupadas por insuficiência de horas trabalhadas:
+São as pessoas que, na semana de referência, atendem as quatro condições abaixo:
+1. tinham 14 anos ou mais de idade;
+2. trabalhavam habitualmente menos de 40 horas no seu único trabalho ou no conjunto de todos os
+seus trabalhos;
+3. gostariam de trabalhar mais horas que as habitualmente trabalhadas; e
+4. estavam disponíveis para trabalhar mais horas no período de 30 dias, contados a partir do
+primeiro dia da semana de referência.
+II) Pessoas desocupadas:
+São classificadas como desocupadas na semana de referência as pessoas sem trabalho em ocupação
+nessa semana que tomaram alguma providência efetiva para consegui-lo no período de referência de 30 dias, e
+que estavam disponíveis para assumi-lo na semana de referência. Consideram-se, também, como desocupadas
+as pessoas sem trabalho em ocupação na semana de referência que não tomaram providência efetiva para
+consegui-lo no período de referência de 30 dias porque já o haviam conseguido e iriam começá-lo em menos de
+quatro meses após o último dia da semana de referência.
+1 A Força de trabalho é composta pelas pessoas ocupadas e as desocupadas na semana de referência.
+2 http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_234036.pdf
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Este conceito de pessoas desocupadas, adotado a partir do segundo trimestre 2016, já está ajustado à
+Resolução I da 19ª Conferência Internacional de Estatísticos do Trabalho - CIET. Anteriormente, no que se refere
+às pessoas que não tomaram providência efetiva para conseguir trabalho no período de referência de 30 dias
+porque já o haviam conseguido para começar após a semana de referência, não havia limite de tempo fixado para
+assumir o trabalho3.
+III) Força de trabalho potencial:
+A força de trabalho potencial é definida como o conjunto de pessoas de 14 anos ou mais de idade que não
+estavam ocupadas nem desocupadas na semana de referência, mas que possuíam um potencial de se
+transformarem em força de trabalho.
+Este contingente é formado por dois grupos:
+I. pessoas que realizaram busca efetiva por trabalho, mas não se encontravam disponíveis para
+trabalhar na semana de referência;
+II. pessoas que não realizaram busca efetiva por trabalho, mas gostariam de ter um trabalho e estavam
+disponíveis para trabalhar na semana de referência.
+a) pessoas desalentadas: pessoas fora da força de trabalho na semana de referência que
+estavam disponíveis para assumir um trabalho na semana de referência, mas não tomaram
+providência para conseguir trabalho no período de referência de 30 dias por não ter
+conseguido trabalho adequado, não ter experiência profissional ou qualificação, não haver
+trabalho na localidade em que residia ou não conseguir trabalho por ser considerado muito
+jovem ou muito idoso.
+Indicadores:
+População:
+ Pessoas de 14 anos ou mais de idade Desocupadas, na semana de referência;
+ Pessoas de 14 anos ou mais de idade Subocupadas por Insuficiência de Horas Trabalhadas ,
+na semana de referência;
+ Pessoas de 14 anos ou mais de idade Desocupadas ou Subocupadas por Insuficiência de
+Horas Trabalhadas, na semana de referência;
+ Pessoas de 14 anos ou mais de idade na Força de Trabalho Potencial, na semana de referência;
+ Pessoas de 14 anos ou mais de idade Desocupadas ou na Força de Trabalho Potencial , na
+semana de referência;
+ Pessoas de 14 anos ou mais de idade Desocupadas ou Subocupadas por Insuficiência de
+Horas Trabalhadas ou na Força de Trabalho Potencial, na semana de referência;
+ Pessoas de 14 anos ou mais de idade na Força de Trabalho Ampliada ( Força de Trabalho +
+Força de Trabalho Potencial), na semana de referência.
+3 A definição anteriormente adotada relativamente a esse aspecto era: Consideram-se, também, como desocupadas as pessoas sem
+trabalho na semana de referência que não tomaram providência efetiva para consegui-lo no período de referência de 30 dias porque
+já o haviam conseguido e iriam começá-lo após a semana de referência.
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+ Pessoas de 14 anos ou mais de idade desalentadas, na semana de referência.
+Taxas:
+ Taxa de desocupação
+Numerador - Desocupados
+Denominador - Força de Trabalho
+ Taxa combinada da desocupação e subocupação por insuficiência de horas trabalhadas
+Numerador - Subocupados por insuficiência de horas + desocupados
+Denominador - Força de Trabalho
+ Taxa combinada da desocupação e da força de trabalho potencial
+Numerador - Desocupados + Força de Trabalho Potencial
+Denominador - Força de Trabalho Ampliada
+ Taxa composta da subutilização da força de trabalho
+Numerador - Subocupados por insuficiência de horas + desocupados + força de trabalho potencial
+Denominador - Força de Trabalho ampliada
+ Taxa de desalento na força de trabalho ampliada
+Numerador – Pessoas desalentadas
+Denominador - Força de Trabalho ampliada
+ Percentual de desalentados na população fora da força de trabalho
+Numerador – Pessoas desalentadas
+Denominador - População fora da força de trabalho
+ Percentual de desalentados na força de trabalho potencial
+Numerador – Pessoas desalentadas
+Denominador - Força de Trabalho potencial
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+O esquema a seguir ilustra como está classificada a população de 14 anos ou mais de idade levando em
+consideração a condição de atividade.
+Brasil – 2º trimestre de 2026
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Comentários
+Medidas de Subutilização da Força de Trabalho
+I) Introdução
+Na divulgação da PNAD Contínua, as informações regionais referentes às medidas de subutilização da
+força de trabalho no Brasil passaram a ser disponibilizadas trimestralmente desde 2016. Estas medidas foram
+incorporadas e são divulgadas trimestralmente. Estão sendo disponibilizadas também desagregações por
+unidades da federação.
+O gráfico a seguir apresenta a série completa das quatro taxas de subutilização da força de trabalho no
+Brasil. Para as quatro medidas observadas no País verifica-se que, no 2º trimestre de 2026, as estimativas ainda
+se mantêm num patamar elevado.
+Fonte: Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua.
+No Brasil, no 2º trimestre de 2026, a taxa de desocupação foi de 5,4%, enquanto que a taxa composta da
+subutilização da força de trabalho atingiu 12,9%. O resultado consolidado dessas medidas por Grandes Regiões
+aponta o Nordeste como a região onde foram observadas as maiores medidas de subutilização da força de
+trabalho e, na Região Sul, as menores.
+Gráfico 1 - Taxa de desocupação e taxas combinadas (%) de subutilização da força de trabalho,
+das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência - Brasil 2012 – 2026
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Gráfico 2 - Taxa de desocupação e taxas combinadas de subutilização da força de trabalho,
+das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência, segundo Brasil e as
+Grandes Regiões - 2º Trimestre de 2026
+Fonte: Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua.
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+II) Taxa de desocupação
+Em geral, as maiores taxas de desocupação foram observadas nos estados da Região Norte e Nordeste,
+e as menores nos da Região Sul, Centro-Oeste e Sudeste, conforme mostra o gráfico a seguir. No 2º trimestre de
+2026, as unidades da federação que apresentaram as maiores taxas de desocupação foram Amapá (9,8%), Bahia
+(9,1%) e Pernambuco e Piauí (8,3%). As menores taxas de desocupação foram observadas em Santa Catarina
+(2,1%), Mato Grosso (2,2%) e Espírito Santo(2,3%).
+Tabela 1 – Taxa de desocupação (%), na semana de referência, das pessoas de 14 anos ou mais de idade,
+segundo as Unidades da Federação – 2º trimestre – 2026
+Fonte: Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua.
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+III) Taxa combinada de subocupação por insuficiência de horas trabalhadas e desocupação, na
+semana de referência, das pessoas de 14 anos ou mais de idade
+Também foram registradas as maiores taxas de subocupação por insuficiência de horas trabalhadas e
+desocupação nos estados da Região Nordeste, e as menores nos da Região Sul, Sudeste e Centro-Oeste, de
+acordo com a tabela a seguir.
+No 2º trimestre de 2026, essa estimativa era de 9,1% no País. As maiores taxas foram verificadas nas
+seguintes unidades da federação: Piauí (18,5%), Bahia (17,5%) e Sergipe (15,6%). As menores taxas de
+subocupação por insuficiência de horas trabalhadas e desocupação ocorreram em Santa Catarina (3,1%), Espírito
+Santo (4,0%) e Mato Grosso (4,1%).
+Tabela 2 – Taxa combinada de desocupação e de subocupação por insuficiência de horas trabalhadas (%),
+na semana de referência, das pessoas de 14 anos ou mais de idade, segundo as Unidades da Federação –
+2º trimestre – 2026
+Fonte: Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua.
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+IV) Taxa combinada de desocupação e força de trabalho potencial, na semana de referência, das
+pessoas de 14 anos ou mais de idade
+Como nas outras taxas apresentadas, no 2º trimestre de 2026, os maiores valores da força de trabalho
+potencial também foram observados nos estados da Região Nordeste, e as menores na Região Sul, Centro-Oeste
+Norte e Sudeste, conforme mostra o gráfico, a seguir.
+Piauí (18,1%), Piauí e Maranhão (17,4%) e Bahia (16,3%), foram os estados com as maiores taxas
+combinadas de desocupação e força de trabalho potencial. As menores taxas foram observadas em Santa
+Catarina (3,1%), Mato Grosso (4,2%) e Rondônia e Espírito Santo (4,5%).
+Tabela 3 – Taxa combinada de desocupação e força de trabalho potencial (%), na semana de referência,
+das pessoas de 14 anos ou mais de idade, segundo as Unidades da Federação -
+2º trimestre – 2026
+Fonte: Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua.
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+V) Taxa composta de subutilização da força de trabalho, na semana de referência, das pessoas de 14
+anos ou mais de idade
+Com relação às taxas compostas da força de trabalho, no 2º Trimestre de 2026, Piauí (26,6%), Bahia
+(24,0%), Alagoas (23,4%), apresentaram estimativa acima de 23%. Por outro lado, os estados onde foram
+observadas as menores taxas foram: Santa Catarina (4,1%), Rondônia (6,0%) e Mato Grosso (6,1%).
+Tabela 4 – Taxa composta da subutilização da força de trabalho (%), na semana de referência, das
+pessoas de 14 anos ou mais de idade, segundo as Unidades da Federação - 2º trimestre – 2026
+Fonte: Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Rio de Janeiro, 14 de agosto de 2026.
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
+Pesquisa Nacional por Amostra de Domicílios Contínua – PNAD Contínua
