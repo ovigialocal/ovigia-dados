@@ -12,7 +12,10 @@ from pathlib import Path
 
 from ovigia_dados.wayback.queue import ArchiveResult, load_wayback_queue
 
-_MAX_REPLAY_BODY_BYTES = 5 * 1024 * 1024
+# Government documents commonly exceed 5 MiB. Keep the replay bounded, but leave
+# enough headroom for ordinary signed PDFs so provenance can verify the exact
+# archived resource instead of getting stuck with locator-only evidence.
+_MAX_REPLAY_BODY_BYTES = 16 * 1024 * 1024
 
 
 @dataclass(frozen=True, slots=True)
