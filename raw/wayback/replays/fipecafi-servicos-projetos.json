@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/fipecafi-servicos-projetos",
+  "source_url": "https://fipecafi.org/Projetos/Servicos",
+  "archive_url": "https://web.archive.org/web/20260903220106/https://fipecafi.org/Projetos/Servicos",
+  "verified_at": "2026-09-03T22:07:38Z",
+  "archive_content_type": "text/html",
+  "archive_size": 48331,
+  "archive_sha256": "6e8763ff2d3baaf058f8f4559520c0ebd2b248f5851c828edbd8f14f9eacd99f",
+  "source_content_type": "text/html",
+  "source_size": 48331,
+  "source_sha256": "bc48f7a816dbbff1bf4d83632fc7200cae485e9ed1766e087f1b9b38bf47bc18",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/fipecafi-servicos-projetos.html"
+}
