@@ -78,6 +78,8 @@ No caso de divergência de valor:
 - se a divergência já aparece no dataset/API de origem, investigar a semântica do campo e o sistema produtor antes de atribuir erro ao Portal;
 - testar recorrência em múltiplos registros antes de descrever padrão sistêmico.
 
+O detector `ovigia_dados.detectors.pmpv_monetary_ratio.detect_contract_licitation_ratios` automatiza somente uma etapa dessa falsificação: compara `valor.value` do contrato com `licitacao.valor_contratado.value` e sinaliza razões exatas 10, 100 ou 1000 em qualquer direção. O sinal preserva os IDs e a direção da razão, mas não qualifica causa, erro ou irregularidade. O caso observado do contrato 4285/licitação 8678 é fixture de regressão; medir prevalência exige rodar o detector sobre universo paginado observado e depois conferir individualmente os sinais.
+
 ### Caso de teste prioritário: Contrato 027/PGM/2026
 
 O caso deve permanecer como teste de integração porque já oferece identificadores independentes para reconciliação:
