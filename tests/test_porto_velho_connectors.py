@@ -64,3 +64,26 @@ def test_pmpv_api_does_not_require_bearer_for_public_route() -> None:
     client.get_json("publico")
 
     assert "Authorization" not in session.calls[0]["headers"]
+
+
+def test_pmpv_api_lists_contracts_with_only_documented_filters() -> None:
+    payload = {"data": [{"id": 4037, "valor": 1_368_000_000}]}
+    session = FakeSession([FakeResponse(payload)])
+    client = PortoVelhoApiClient(session=session)
+
+    result = client.list_contracts(
+        ano=2026,
+        secretaria="SEINFRA",
+        por_pagina=50,
+        situacao="vigente",
+    )
+
+    assert result == payload
+    call = session.calls[0]
+    assert call["url"] == "https://api.portovelho.ro.gov.br/api/v1/contratos"
+    assert call["params"] == {
+        "ano": 2026,
+        "secretaria": "SEINFRA",
+        "por-pagina": 50,
+        "situacao": "vigente",
+    }
