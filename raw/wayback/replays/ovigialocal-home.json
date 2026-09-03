@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ovigialocal-home",
+  "source_url": "http://ovigialocal.github.io/",
+  "archive_url": "https://web.archive.org/web/20260902221019/https://ovigialocal.github.io/",
+  "verified_at": "2026-09-03T00:35:25Z",
+  "archive_content_type": "text/html",
+  "archive_size": 7742,
+  "archive_sha256": "ec1f426bd46845315c6739d0172f31f912d8032627fe420ef5bc20ea7e1147b1",
+  "source_content_type": "text/html",
+  "source_size": 36001,
+  "source_sha256": "eaf775eeb1ac6af24257bade852ace02f830155b46bf897b02feed21fb96650d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/ovigialocal-home.html"
+}

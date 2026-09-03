@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-b3-contrato-079-2026.pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/contratos/4194/contrato.pdf",
+  "archive_url": "https://web.archive.org/web/20260903003509/https://anexos.portovelho.ro.gov.br/contratos/4194/contrato.pdf",
+  "verified_at": "2026-09-03T00:35:28Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 319633,
+  "archive_sha256": "61106b74b788594390796213c9f919e13062c26fd8c18b158a8fff849f9ae013",
+  "source_content_type": "application/pdf",
+  "source_size": 333758,
+  "source_sha256": "c6ebd55c303ebe8d1a944eeb0d85372df4bcbcc7670fa0efbc8a29803385b81d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-b3-contrato-079-2026.pdf.pdf"
+}
