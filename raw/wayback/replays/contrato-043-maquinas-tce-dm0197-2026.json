@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato-043-maquinas-tce-dm0197-2026",
+  "source_url": "https://www.tce.ro.gov.br/doe/arquivos/Diario_03573_2026-6-2-15-37-42.pdf",
+  "archive_url": "https://web.archive.org/web/20260903034735/https://www.tce.ro.gov.br/doe/arquivos/Diario_03573_2026-6-2-15-37-42.pdf",
+  "verified_at": "2026-09-03T04:31:47Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1163319,
+  "archive_sha256": "ff381d28d79f350960e5dd8e625ac3ccff73c33069e635867c2fe3824081854e",
+  "source_content_type": "application/pdf",
+  "source_size": 1163319,
+  "source_sha256": "ff381d28d79f350960e5dd8e625ac3ccff73c33069e635867c2fe3824081854e",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/contrato-043-maquinas-tce-dm0197-2026.pdf"
+}

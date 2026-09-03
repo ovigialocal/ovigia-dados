@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato-043-maquinas-portal-3934",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/3934",
+  "archive_url": "https://web.archive.org/web/20260903041419/https://transparencia.portovelho.ro.gov.br/contratos/3934",
+  "verified_at": "2026-09-03T04:31:44Z",
+  "archive_content_type": "text/html",
+  "archive_size": 41402,
+  "archive_sha256": "2c6725449a6f22d3e19dd323bb875a6ca72d3ebc8f15d12d61737ad6af4c1e6a",
+  "source_content_type": "text/html",
+  "source_size": 454372,
+  "source_sha256": "ee68e24b43e1cdb7ee90ed2e7f147de85ac8eb6bac9c7fc5250c988b6e5d298b",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/contrato-043-maquinas-portal-3934.html"
+}
