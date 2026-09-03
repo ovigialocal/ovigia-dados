@@ -10,6 +10,26 @@ CKAN_BASE_URL = "https://dados.portovelho.ro.gov.br/api/3/action"
 PMPV_API_BASE_URL = "https://api.portovelho.ro.gov.br/api/v1"
 DEFAULT_TIMEOUT = 30
 
+LICITACAO_FILTERS = frozenset(
+    {
+        "titulo",
+        "objeto",
+        "processo",
+        "edital",
+        "data_acolhimento_inicio",
+        "data_acolhimento_fim",
+        "data_propostas_abertura",
+        "data_publicacao",
+        "data_publicacao_ratificacao",
+        "data_disputa",
+        "ano",
+        "tipo.nome",
+        "modalidade.nome",
+        "classificacao.nome",
+        "situacao.nome",
+    }
+)
+
 
 class PortoVelhoCkanClient:
     """Cliente fino para a Action API do CKAN municipal."""
@@ -75,10 +95,11 @@ class PortoVelhoCkanClient:
 
 
 class PortoVelhoApiClient:
-    """Cliente genérico para a API oficial PMPV v1.
+    """Cliente para rotas observadas da API oficial PMPV v1.
 
-    O conector deliberadamente não codifica rotas não verificadas. Paths específicos
-    devem ser registrados a partir da documentação oficial ou de resposta observada.
+    Novos paths específicos só devem ganhar métodos quando estiverem sustentados pela
+    documentação oficial ou por resposta observada. ``get`` continua disponível para
+    investigação de rotas já verificadas sem obrigar uma modelagem prematura.
     """
 
     def __init__(
@@ -119,3 +140,46 @@ class PortoVelhoApiClient:
     def get_json(self, path: str, *, params: dict[str, Any] | None = None) -> Any:
         """Faz GET e desserializa resposta JSON."""
         return self.get(path, params=params).json()
+
+    def list_contracts(
+        self,
+        *,
+        ano: int | None = None,
+        secretaria: str | int | None = None,
+        modelo: str | int | None = None,
+        vigencia: str | None = None,
+        classificacao: str | int | None = None,
+        por_pagina: int | None = None,
+        contratante: str | int | None = None,
+        situacao: str | int | None = None,
+        categoria: str | int | None = None,
+    ) -> Any:
+        """Lista contratos pela rota pública ``GET /contratos`` documentada no CKAN."""
+        params = {
+            "ano": ano,
+            "secretaria": secretaria,
+            "modelo": modelo,
+            "vigencia": vigencia,
+            "classificacao": classificacao,
+            "por-pagina": por_pagina,
+            "contratante": contratante,
+            "situacao": situacao,
+            "categoria": categoria,
+        }
+        clean_params = {key: value for key, value in params.items() if value is not None}
+        return self.get_json("contratos", params=clean_params)
+
+    def list_licitations(
+        self,
+        *,
+        sort: str = "-id",
+        por_pagina: int = 10,
+        filters: dict[str, str] | None = None,
+    ) -> Any:
+        """Lista licitações pela rota pública ``GET /licitacoes`` documentada no CKAN."""
+        params: dict[str, Any] = {"sort": sort, "por-pagina": por_pagina}
+        for name, value in (filters or {}).items():
+            if name not in LICITACAO_FILTERS:
+                raise ValueError(f"undocumented licitacao filter: {name}")
+            params[f"filter[{name}]"] = value
+        return self.get_json("licitacoes", params=params)
