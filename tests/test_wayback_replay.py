@@ -3,7 +3,11 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from ovigia_dados.wayback.replay import FetchEvidence, materialize_replay_evidence
+from ovigia_dados.wayback.replay import (
+    FetchEvidence,
+    materialize_replay_evidence,
+    select_replay_result_paths,
+)
 
 
 def _write(root: Path, relative: str, text: str) -> None:
@@ -12,10 +16,15 @@ def _write(root: Path, relative: str, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def _archived_bundle(root: Path, *, source_url: str = "https://example.com/page") -> str:
+def _archived_bundle(
+    root: Path,
+    *,
+    source_url: str = "https://example.com/page",
+    stem: str = "example",
+) -> str:
     _write(root, "index.md", "# bundle\n")
-    request_id = "knowledge/wayback/requests/example"
-    result_id = "knowledge/wayback/results/example"
+    request_id = f"knowledge/wayback/requests/{stem}"
+    result_id = f"knowledge/wayback/results/{stem}"
     _write(
         root,
         f"{request_id}.md",
@@ -35,7 +44,7 @@ def _archived_bundle(root: Path, *, source_url: str = "https://example.com/page"
         f"source_url: '{source_url}'\n"
         "attempted_at: '2026-09-02T22:01:00Z'\n"
         "status: archived\n"
-        "archive_url: 'https://web.archive.org/web/20260902220100/https://example.com/page'\n"
+        f"archive_url: 'https://web.archive.org/web/20260902220100/{source_url}'\n"
         "sources:\n"
         f"  - resource: '{request_id}'\n"
         "---\n",
@@ -163,3 +172,35 @@ def test_existing_unknown_replay_report_is_append_only_and_not_refetched(tmp_pat
         materialize_replay_evidence(tmp_path, fetch=should_not_fetch, result_paths={result_path})
         == []
     )
+
+
+def test_replay_selection_prioritizes_new_results_and_bounds_backfill(tmp_path: Path) -> None:
+    fresh = _archived_bundle(tmp_path, stem="fresh", source_url="https://example.com/fresh")
+    old_a = _archived_bundle(tmp_path, stem="old-a", source_url="https://example.com/old-a")
+    _archived_bundle(tmp_path, stem="old-b", source_url="https://example.com/old-b")
+
+    selected = select_replay_result_paths(
+        tmp_path,
+        preferred_paths=[fresh],
+        backfill_limit=1,
+    )
+
+    assert fresh in selected
+    assert old_a in selected
+    assert len(selected) == 2
+
+
+def test_replay_selection_skips_archived_result_with_complete_evidence(tmp_path: Path) -> None:
+    complete = _archived_bundle(tmp_path, stem="complete")
+    waiting = _archived_bundle(tmp_path, stem="waiting", source_url="https://example.com/waiting")
+    _write(
+        tmp_path,
+        "raw/wayback/replays/complete.json",
+        json.dumps({"archive_content_type": "text/html"}) + "\n",
+    )
+    _write(tmp_path, "raw/wayback/replays/complete.html", "complete")
+
+    selected = select_replay_result_paths(tmp_path, backfill_limit=1)
+
+    assert complete not in selected
+    assert selected == {waiting}
