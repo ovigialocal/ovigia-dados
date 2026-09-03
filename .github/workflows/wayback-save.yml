@@ -68,14 +68,14 @@ jobs:
         run: uv run scripts/wayback/check.py
 
       - name: Materialize auditable replay evidence
-        # Fresh terminal results are always prioritized. One older archived
-        # result whose replay is still incomplete is also retried per run so
-        # transient replay failures remain recoverable without placing the
-        # entire historical tail ahead of a new newsroom source.
+        # Fresh terminal results are always prioritized. Up to two recent
+        # archived results whose replay is still incomplete are also retried
+        # per run. This keeps the retry budget bounded while preventing one
+        # transiently unreachable snapshot from starving the next fresh source.
         run: >-
           uv run scripts/wayback/replay.py
           --result-path-file /tmp/wayback-new-results.txt
-          --backfill-limit 1
+          --backfill-limit 2
 
       - name: Decode stored text replay transport
         run: uv run scripts/wayback/text_replay.py
