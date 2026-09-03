@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/marco-liberdade-economica-sessao-679-ordemdia",
+  "source_url": "https://sapl.portovelho.ro.leg.br/sessao/679/ordemdia",
+  "archive_url": "https://web.archive.org/web/20260902234829/https://sapl.portovelho.ro.leg.br/sessao/679/ordemdia",
+  "verified_at": "2026-09-03T00:17:04Z",
+  "archive_content_type": "text/html",
+  "archive_size": 4912,
+  "archive_sha256": "95c81a8cb9c83071155dca2517f0033bf0c52259b07ab780293bf212ed51f4e3",
+  "source_content_type": "text/html",
+  "source_size": 22174,
+  "source_sha256": "599da7b919ccdcbccb01466c829c19eead157ad91d34c9399699e9f2d1079a41",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/marco-liberdade-economica-sessao-679-ordemdia.html"
+}
