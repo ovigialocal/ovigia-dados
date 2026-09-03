@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-prefeitura-novas-rotas-2026-05-22",
+  "source_url": "https://agencia.portovelho.ro.gov.br/noticias/eficiencia-coleta-de-lixo-em-porto-velho-segue-com-novas-rotas-para-melhor-atender-a-populacao",
+  "archive_url": "https://web.archive.org/web/20260903003503/https://agencia.portovelho.ro.gov.br/noticias/eficiencia-coleta-de-lixo-em-porto-velho-segue-com-novas-rotas-para-melhor-atender-a-populacao",
+  "verified_at": "2026-09-03T01:33:17Z",
+  "archive_content_type": "text/html",
+  "archive_size": 16053,
+  "archive_sha256": "02d920cd1ee6b6f0ba93751c8dc257ac53a1a119231c2aca5b52da9197ce3691",
+  "source_content_type": "text/html",
+  "source_size": 89622,
+  "source_sha256": "61d8a780e456ddb7c556c0edb30b46c711bdf0ab86ae16768df3eb49d5db2f09",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-prefeitura-novas-rotas-2026-05-22.html"
+}
