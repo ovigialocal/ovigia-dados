@@ -75,10 +75,11 @@ class PortoVelhoCkanClient:
 
 
 class PortoVelhoApiClient:
-    """Cliente genérico para a API oficial PMPV v1.
+    """Cliente para rotas observadas da API oficial PMPV v1.
 
-    O conector deliberadamente não codifica rotas não verificadas. Paths específicos
-    devem ser registrados a partir da documentação oficial ou de resposta observada.
+    Novos paths específicos só devem ganhar métodos quando estiverem sustentados pela
+    documentação oficial ou por resposta observada. ``get`` continua disponível para
+    investigação de rotas já verificadas sem obrigar uma modelagem prematura.
     """
 
     def __init__(
@@ -119,3 +120,35 @@ class PortoVelhoApiClient:
     def get_json(self, path: str, *, params: dict[str, Any] | None = None) -> Any:
         """Faz GET e desserializa resposta JSON."""
         return self.get(path, params=params).json()
+
+    def list_contracts(
+        self,
+        *,
+        ano: int | None = None,
+        secretaria: str | int | None = None,
+        modelo: str | int | None = None,
+        vigencia: str | None = None,
+        classificacao: str | int | None = None,
+        por_pagina: int | None = None,
+        contratante: str | int | None = None,
+        situacao: str | int | None = None,
+        categoria: str | int | None = None,
+    ) -> Any:
+        """Lista contratos pela rota pública ``GET /contratos`` documentada no CKAN.
+
+        Os nomes de parâmetros refletem apenas a documentação municipal observada.
+        Valores ``None`` não são enviados para evitar atribuir semântica inventada aos
+        filtros opcionais.
+        """
+        params = {
+            "ano": ano,
+            "secretaria": secretaria,
+            "modelo": modelo,
+            "vigencia": vigencia,
+            "classificacao": classificacao,
+            "por-pagina": por_pagina,
+            "contratante": contratante,
+            "situacao": situacao,
+            "categoria": categoria,
+        }
+        return self.get_json("contratos", params={key: value for key, value in params.items() if value is not None})
