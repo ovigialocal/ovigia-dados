@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/transformacao-digital-empenho-0001994-2026",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/despesas/e4c1ebbd-d6cb-470b-bd78-c38db13fdc82",
+  "archive_url": "https://web.archive.org/web/20260903081004/https://transparencia.portovelho.ro.gov.br/despesas/despesas/e4c1ebbd-d6cb-470b-bd78-c38db13fdc82",
+  "verified_at": "2026-09-03T08:32:16Z",
+  "archive_content_type": "text/html",
+  "archive_size": 43237,
+  "archive_sha256": "72ff732172d33215743dbd6f653512ea9b1a5f335decb8ccfbb91f23cd318a54",
+  "source_content_type": "text/html",
+  "source_size": 483394,
+  "source_sha256": "e4a721fbfac6dea70c1b67ea80dd94178c9b6440ace65927bd6972eb9e683b65",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/transformacao-digital-empenho-0001994-2026.html"
+}
