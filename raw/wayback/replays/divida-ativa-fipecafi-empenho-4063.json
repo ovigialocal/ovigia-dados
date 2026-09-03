@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/divida-ativa-fipecafi-empenho-4063",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/despesas/623bb98e-b72e-4182-a8f0-cb71a7b693b0",
+  "archive_url": "https://web.archive.org/web/20260903112848/https://transparencia.portovelho.ro.gov.br/despesas/despesas/623bb98e-b72e-4182-a8f0-cb71a7b693b0",
+  "verified_at": "2026-09-03T11:29:24Z",
+  "archive_content_type": "text/html",
+  "archive_size": 42397,
+  "archive_sha256": "7ef63c36109e083993bc834f395f1355d6474bb5df157bf97d00f06b3a9c8334",
+  "source_content_type": "text/html",
+  "source_size": 459629,
+  "source_sha256": "76cba8b70ba257ddd6ce689642460f0da77fc91ce0f5f4e2c4e8b0afad1cebef",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/divida-ativa-fipecafi-empenho-4063.html"
+}
