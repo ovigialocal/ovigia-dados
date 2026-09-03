@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
+import pytest
+
 from ovigia_dados.connectors.porto_velho import PortoVelhoApiClient, PortoVelhoCkanClient
 
 
@@ -87,3 +89,31 @@ def test_pmpv_api_lists_contracts_with_only_documented_filters() -> None:
         "por-pagina": 50,
         "situacao": "vigente",
     }
+
+
+def test_pmpv_api_lists_licitations_with_documented_filters() -> None:
+    payload = {"data": [{"id": 8678}]}
+    session = FakeSession([FakeResponse(payload)])
+    client = PortoVelhoApiClient(session=session)
+
+    result = client.list_licitations(
+        por_pagina=25,
+        filters={"processo": "005.002970/2026-47", "ano": "2026"},
+    )
+
+    assert result == payload
+    call = session.calls[0]
+    assert call["url"] == "https://api.portovelho.ro.gov.br/api/v1/licitacoes"
+    assert call["params"] == {
+        "sort": "-id",
+        "por-pagina": 25,
+        "filter[processo]": "005.002970/2026-47",
+        "filter[ano]": "2026",
+    }
+
+
+def test_pmpv_api_rejects_undocumented_licitation_filter() -> None:
+    client = PortoVelhoApiClient(session=FakeSession([]))
+
+    with pytest.raises(ValueError, match="undocumented licitacao filter"):
+        client.list_licitations(filters={"id": "8678"})
