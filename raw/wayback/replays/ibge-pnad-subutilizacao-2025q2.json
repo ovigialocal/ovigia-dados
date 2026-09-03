@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ibge-pnad-subutilizacao-2025q2",
+  "source_url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Novos_Indicadores_Sobre_a_Forca_de_Trabalho/pnadc_202502_trimestre_novos_indicadores.pdf",
+  "archive_url": "https://web.archive.org/web/20251008100211/https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Novos_Indicadores_Sobre_a_Forca_de_Trabalho/pnadc_202502_trimestre_novos_indicadores.pdf",
+  "verified_at": "2026-09-03T05:15:30Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 3480312,
+  "archive_sha256": "bf8d90a8c44077ade885365c0545319c953c287e7641aea0a0a8e8dad8fcb2ad",
+  "source_content_type": "application/pdf",
+  "source_size": 3480312,
+  "source_sha256": "bf8d90a8c44077ade885365c0545319c953c287e7641aea0a0a8e8dad8fcb2ad",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/ibge-pnad-subutilizacao-2025q2.pdf"
+}
