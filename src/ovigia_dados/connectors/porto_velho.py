@@ -151,4 +151,5 @@ class PortoVelhoApiClient:
             "situacao": situacao,
             "categoria": categoria,
         }
-        return self.get_json("contratos", params={key: value for key, value in params.items() if value is not None})
+        clean_params = {key: value for key, value in params.items() if value is not None}
+        return self.get_json("contratos", params=clean_params)
