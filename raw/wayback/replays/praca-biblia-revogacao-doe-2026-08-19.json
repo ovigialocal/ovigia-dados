@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/praca-biblia-revogacao-doe-2026-08-19",
+  "source_url": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-19-08-2026.pdf",
+  "archive_url": "https://web.archive.org/web/20260903064922/https://diof.ro.gov.br/data/uploads/2026/08/DOE-19-08-2026.pdf",
+  "verified_at": "2026-09-03T07:35:31Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 3562426,
+  "archive_sha256": "f81904b0303a7bdf31aa70d20573bf633388e9e6c4b009049770db73fafa21f5",
+  "source_content_type": "application/pdf",
+  "source_size": 3562426,
+  "source_sha256": "f81904b0303a7bdf31aa70d20573bf633388e9e6c4b009049770db73fafa21f5",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/praca-biblia-revogacao-doe-2026-08-19.pdf"
+}

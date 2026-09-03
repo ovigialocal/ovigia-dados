@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/area-c-parque-cidade-crianca-concorrencia-90650",
+  "source_url": "https://rondonia.ro.gov.br/licitacao/974486/",
+  "archive_url": "https://web.archive.org/web/20260903064646/https://rondonia.ro.gov.br/licitacao/974486/",
+  "verified_at": "2026-09-03T07:35:18Z",
+  "archive_content_type": "text/html",
+  "archive_size": 32106,
+  "archive_sha256": "b7721098df113aa2b5eafcfbcb5148733370bd0e341c8b1a5216d64d4e89d54b",
+  "source_content_type": "text/html",
+  "source_size": 183744,
+  "source_sha256": "e2bf2fc075da02a2c0c6515b3ff408a5f848f0c25128f3ba7802bbf9e91bcb33",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/area-c-parque-cidade-crianca-concorrencia-90650.html"
+}
