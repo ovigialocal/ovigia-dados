@@ -103,6 +103,11 @@ def _needs_replay_evidence(bundle_root: Path, result: ArchiveResult) -> bool:
     return suffix is not None and not (evidence_dir / f"{stem}{suffix}").exists()
 
 
+def _replay_backfill_key(result: ArchiveResult) -> tuple[str, str]:
+    """Sort incomplete replay evidence by newest Wayback capture first."""
+    return (result.archive_url or "", result.path)
+
+
 def select_replay_result_paths(
     bundle_root: Path,
     *,
@@ -112,9 +117,9 @@ def select_replay_result_paths(
     """Prioritize fresh terminal results while bounding historical replay retries.
 
     Fresh archived results should get replay evidence in the same worker that created them.
-    Older archived results whose replay fetch previously failed remain eligible, but only a
-    small deterministic backfill is retried per run so one new request cannot be delayed by
-    an unbounded historical tail of 60-second network timeouts.
+    Archived results whose replay fetch previously failed remain eligible. Backfill retries
+    the most recent incomplete captures first, so a newly archived newsroom source does not
+    fall behind an alphabetical historical tail after one transient replay failure.
     """
     if backfill_limit < 0:
         raise ValueError("backfill_limit must be non-negative")
@@ -124,11 +129,15 @@ def select_replay_result_paths(
     selected = {path for path in preferred_paths if path in archived_by_path}
 
     candidates = sorted(
-        result.path
-        for result in queue.archived
-        if result.path not in selected and _needs_replay_evidence(bundle_root, result)
+        (
+            result
+            for result in queue.archived
+            if result.path not in selected and _needs_replay_evidence(bundle_root, result)
+        ),
+        key=_replay_backfill_key,
+        reverse=True,
     )
-    selected.update(candidates[:backfill_limit])
+    selected.update(result.path for result in candidates[:backfill_limit])
     return selected
 
 
