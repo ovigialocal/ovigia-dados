@@ -67,7 +67,7 @@ def test_pmpv_api_does_not_require_bearer_for_public_route() -> None:
 
 
 def test_pmpv_api_lists_contracts_with_only_documented_filters() -> None:
-    payload = {"data": [{"id": 4037, "valor": 1_368_000_000}]}
+    payload = {"data": [{"id": 42, "valor": {"value": 1000}}]}
     session = FakeSession([FakeResponse(payload)])
     client = PortoVelhoApiClient(session=session)
 
