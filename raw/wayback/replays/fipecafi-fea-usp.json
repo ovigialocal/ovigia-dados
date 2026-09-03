@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/fipecafi-fea-usp",
+  "source_url": "https://portalfea.fea.usp.br/contabilidade/fipecafi",
+  "archive_url": "https://web.archive.org/web/20260903215815/https://portalfea.fea.usp.br/contabilidade/fipecafi",
+  "verified_at": "2026-09-03T22:19:22Z",
+  "archive_content_type": "text/html",
+  "archive_size": 12698,
+  "archive_sha256": "5d3f31ad591b2660a408bf7b33ab98ff4cd235c63a82bc648aefc3eeda65b918",
+  "source_content_type": "text/html",
+  "source_size": 59276,
+  "source_sha256": "6068fe3ccad99feeeba6345c930496d84256209491c2ffcfcf8a7e72807233d2",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/fipecafi-fea-usp.html"
+}

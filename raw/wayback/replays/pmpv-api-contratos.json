@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-api-contratos",
+  "source_url": "https://api.portovelho.ro.gov.br/api/v1/contratos",
+  "archive_url": "https://web.archive.org/web/20260903220339/https://api.portovelho.ro.gov.br/api/v1/contratos",
+  "verified_at": "2026-09-03T22:19:36Z",
+  "archive_content_type": "application/json",
+  "archive_size": 7147,
+  "archive_sha256": "a0917f9de2baecf44bd5dc3bf40efc95354d5be025241139dcd97b2189614278",
+  "source_content_type": "application/json",
+  "source_size": 44222,
+  "source_sha256": "8bd3df4ec4b301365a9dea0c3244901ab580f323ea4dc16e67114707c4ea6a32",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}

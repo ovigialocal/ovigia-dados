@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/fipecafi-maua-divida-ativa",
+  "source_url": "https://dom.maua.sp.gov.br/DOM/Filtrar?txtbuscar=4875",
+  "archive_url": "https://web.archive.org/web/20260903215859/https://dom.maua.sp.gov.br/DOM/Filtrar?txtbuscar=4875",
+  "verified_at": "2026-09-03T22:19:28Z",
+  "archive_content_type": "text/html",
+  "archive_size": 25223,
+  "archive_sha256": "20a8ddd1ecc13d3dc399f05e81e53f03529a9b775e0aa7d90e67c20d4a0899a5",
+  "source_content_type": "text/html",
+  "source_size": 268749,
+  "source_sha256": "2adf27038ba19184e5efb28bfb798faa276e9ded24c1eec5fcf0d20666e038fb",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/fipecafi-maua-divida-ativa.html"
+}

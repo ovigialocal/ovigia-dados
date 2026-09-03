@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-ckan-licitacoes-dataset",
+  "source_url": "https://dados.portovelho.ro.gov.br/en/dataset/api-licitacoes",
+  "archive_url": "https://web.archive.org/web/20260903221628/https://dados.portovelho.ro.gov.br/en/dataset/api-licitacoes",
+  "verified_at": "2026-09-03T22:19:43Z",
+  "archive_content_type": "text/html",
+  "archive_size": 5244,
+  "archive_sha256": "6693feefe57e03ddbd615bf6911093b8bfc4396c5a13066d2fbbbb437953c9ea",
+  "source_content_type": "text/html",
+  "source_size": 23501,
+  "source_sha256": "8b0e339e33f380cfbcc0479d85989d70c361e6cd54d373df0073294c1b5180b7",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-ckan-licitacoes-dataset.html"
+}
