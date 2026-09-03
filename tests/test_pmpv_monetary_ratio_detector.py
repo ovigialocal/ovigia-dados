@@ -61,8 +61,16 @@ def test_detects_inverse_direction_and_preserves_ids():
 
 def test_skips_missing_zero_and_non_numeric_values():
     records = [
-        {"id": 1, "valor": {"value": 0}, "licitacao": {"valor_contratado": {"value": 1000}}},
-        {"id": 2, "valor": {"value": "x"}, "licitacao": {"valor_contratado": {"value": 1000}}},
+        {
+            "id": 1,
+            "valor": {"value": 0},
+            "licitacao": {"valor_contratado": {"value": 1000}},
+        },
+        {
+            "id": 2,
+            "valor": {"value": "x"},
+            "licitacao": {"valor_contratado": {"value": 1000}},
+        },
         {"id": 3, "valor": {"value": 1000}, "licitacao": None},
     ]
 
