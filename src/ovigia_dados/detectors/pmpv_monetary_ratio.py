@@ -72,21 +72,11 @@ def detect_contract_licitation_ratios(
         matched_ratio: float | None = None
         direction: str | None = None
         for target in target_ratios:
-            if isclose(
-                directional_ratio,
-                target,
-                rel_tol=relative_tolerance,
-                abs_tol=0.0,
-            ):
+            if isclose(directional_ratio, target, rel_tol=relative_tolerance, abs_tol=0.0):
                 matched_ratio = target
                 direction = "licitation_over_contract"
                 break
-            if isclose(
-                inverse_ratio,
-                target,
-                rel_tol=relative_tolerance,
-                abs_tol=0.0,
-            ):
+            if isclose(inverse_ratio, target, rel_tol=relative_tolerance, abs_tol=0.0):
                 matched_ratio = target
                 direction = "contract_over_licitation"
                 break
@@ -95,9 +85,7 @@ def detect_contract_licitation_ratios(
             continue
 
         licitation_id = _nested_value(record, "licitacao", "id")
-        contract_number = (
-            str(record["numero"]) if record.get("numero") is not None else None
-        )
+        contract_number = str(record["numero"]) if record.get("numero") is not None else None
         signals.append(
             MonetaryRatioSignal(
                 contract_id=str(record.get("id", "")),
