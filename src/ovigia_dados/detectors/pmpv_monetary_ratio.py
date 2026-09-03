@@ -25,7 +25,7 @@ class MonetaryRatioSignal:
 def _number(value: Any) -> float | None:
     if isinstance(value, bool):
         return None
-    if isinstance(value, (int, float)):
+    if isinstance(value, int | float):
         return float(value)
     try:
         return float(value)
