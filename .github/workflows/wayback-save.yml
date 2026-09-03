@@ -49,39 +49,14 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "Manual recovery: draining the full pending queue."
-            uv run scripts/wayback/drain.py
-            exit 0
-          fi
-
-          mapfile -t changed < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}")
-          worker_changed=false
-          requests=()
-
-          for path in "${changed[@]}"; do
-            case "$path" in
-              src/ovigia_dados/wayback/*|scripts/wayback/*|.github/workflows/wayback-save.yml)
-                worker_changed=true
-                ;;
-              knowledge/wayback/requests/*.md)
-                requests+=("$path")
-                ;;
-            esac
-          done
-
-          if [[ "$worker_changed" == "true" ]]; then
-            echo "Wayback worker changed: retrying the full pending queue under the new implementation."
-            uv run scripts/wayback/drain.py
-          elif (( ${#requests[@]} > 0 )); then
-            args=()
-            for request in "${requests[@]}"; do
-              args+=(--request-path "$request")
-            done
-            uv run scripts/wayback/drain.py "${args[@]}"
-          else
-            echo "No archive-request or worker changes in this push; preservation queue unchanged."
-          fi
+          # The queue is semantic: every archive-request without a terminal
+          # archive-result is pending. Always recompute that queue instead of
+          # limiting work to files changed by this push. Event-scoped draining
+          # can orphan an older request when a previous run fails before it
+          # reaches the Internet Archive and a later push changes a different
+          # request.
+          echo "Draining the full pending Wayback queue."
+          uv run scripts/wayback/drain.py
 
       - name: Validate governed Wayback OKF namespace after preservation
         run: uv run scripts/wayback/check.py
