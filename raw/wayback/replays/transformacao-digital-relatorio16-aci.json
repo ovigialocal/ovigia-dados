@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/transformacao-digital-relatorio16-aci",
+  "source_url": "https://smti.portovelho.ro.gov.br/uploads/arquivos/2026/04/86609/1775576628relatorio-16-sei-0632579-processo-0030002026202657.pdf",
+  "archive_url": "https://web.archive.org/web/20260903083532/https://smti.portovelho.ro.gov.br/uploads/arquivos/2026/04/86609/1775576628relatorio-16-sei-0632579-processo-0030002026202657.pdf",
+  "verified_at": "2026-09-03T08:43:27Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 337944,
+  "archive_sha256": "f969db9c7b8df66dce93e51af8e1491b4d1c31550c133295ed3e063535317214",
+  "source_content_type": "application/pdf",
+  "source_size": 411216,
+  "source_sha256": "853d99a3eaedcb409081d177b83631c88960f7080fd5aabcdd5767674151fdf2",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/transformacao-digital-relatorio16-aci.pdf"
+}

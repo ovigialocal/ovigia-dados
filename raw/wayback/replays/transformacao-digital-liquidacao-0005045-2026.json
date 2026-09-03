@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/transformacao-digital-liquidacao-0005045-2026",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/despesas/2c7b6a81-320e-48a0-b8cc-2f4b437b0c53",
+  "archive_url": "https://web.archive.org/web/20260903083037/https://transparencia.portovelho.ro.gov.br/despesas/despesas/2c7b6a81-320e-48a0-b8cc-2f4b437b0c53",
+  "verified_at": "2026-09-03T08:43:21Z",
+  "archive_content_type": "text/html",
+  "archive_size": 43304,
+  "archive_sha256": "024bead0ddc75b654d762c6ff9797150e856729a10f9a6171e5f0d2ab4f5f01f",
+  "source_content_type": "text/html",
+  "source_size": 473729,
+  "source_sha256": "8fe024de15b17f268fa86129c85e85a01193987ceb241ec62463c6b431f50168",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/transformacao-digital-liquidacao-0005045-2026.html"
+}
