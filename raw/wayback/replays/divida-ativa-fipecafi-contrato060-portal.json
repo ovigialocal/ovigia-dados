@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/divida-ativa-fipecafi-contrato060-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/4136",
+  "archive_url": "https://web.archive.org/web/20260903093549/https://transparencia.portovelho.ro.gov.br/contratos/4136",
+  "verified_at": "2026-09-03T10:35:32Z",
+  "archive_content_type": "text/html",
+  "archive_size": 41217,
+  "archive_sha256": "e5b7bb24ae80b043a5009a8b59b04093f961434f59b0b55cb8f660190baa8da9",
+  "source_content_type": "text/html",
+  "source_size": 433953,
+  "source_sha256": "13f4ee27b2186a8e3b64cb10258b986a219f328cdad4f311111e4c7d573bd6e8",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/divida-ativa-fipecafi-contrato060-portal.html"
+}

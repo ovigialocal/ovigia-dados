@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/divida-ativa-fipecafi-decreto-21995",
+  "source_url": "https://sapl.portovelho.ro.leg.br/ta/9213/text",
+  "archive_url": "https://web.archive.org/web/20260903093646/https://sapl.portovelho.ro.leg.br/ta/9213/text",
+  "verified_at": "2026-09-03T10:35:38Z",
+  "archive_content_type": "text/html",
+  "archive_size": 22410,
+  "archive_sha256": "3772c826db6cc7b8fcba7a87cbac594cec11e1fcee2b46ffd609ba6bc9a9d0b7",
+  "source_content_type": "text/html",
+  "source_size": 44009,
+  "source_sha256": "eaa658f3abbbd64b99530e3263f9f2aa39001a574ed4e553794088b6981a78dc",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/divida-ativa-fipecafi-decreto-21995.html"
+}

@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/divida-ativa-fipecafi-contrato060-pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/contratos/4136/contrato-060pgm2026.pdf",
+  "archive_url": "https://web.archive.org/web/20260903093418/https://anexos.portovelho.ro.gov.br/contratos/4136/contrato-060pgm2026.pdf",
+  "verified_at": "2026-09-03T10:35:25Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 262817,
+  "archive_sha256": "2470f94f129d5651ba1c7db38dca194041f2c3e1c51c9e7be73bf151d09b9cbf",
+  "source_content_type": "application/pdf",
+  "source_size": 276616,
+  "source_sha256": "39a54b32451c5a715ceddbab492dd5f4491c8273934de6fdece1c1b62b433b25",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/divida-ativa-fipecafi-contrato060-pdf.pdf"
+}

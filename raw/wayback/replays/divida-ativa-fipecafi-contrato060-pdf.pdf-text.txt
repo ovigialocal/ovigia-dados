@@ -1,0 +1,491 @@
+SUBPROCURADORIA ADMINISTRATIVA CONVÊNIOS E CONTRATOS
+CONTRATO Nº 060/2026/PGM – PROCESSO Nº 020.001146/2025-09
+CONTRATO QUE ENTRE SI CELEBRAM O MUNICÍPIO DE PORTO VELHO, POR
+INTERMÉDIO DA SECRETARIA MUNICIPAL DE ECONOMIA – SEMEC, E A FUNDAÇÃO
+INSTITUTO DE PESQUISAS CONTÁBEIS, ATUARIAIS E FINANCEIRAS – FIPECAFI, PARA
+OS FINS QUE ESPECIFICAM.
+Aos dezessete dias do mês de junho do ano de dois mil e vinte e seis, o MUNICÍPIO DE PORTO
+VELHO, Pessoa Jurídica de Direito Público Interno, inscrito no CNPJ sob o nº 05.903.125/0001-45, por
+intermédio da SECRETARIA MUNICIPAL DE ECONOMIA - SEMEC, por seu Secretário
+Municipal, Sr. WAGNER GARCIA DE FREITAS, doravante denominado CONTRATANTE, e a
+FUNDAÇÃO INSTITUTO DE PESQUISAS CONTÁBEIS, ATUARIAIS E FINANCEIRAS -
+FIPECAFI, entidade privada sem fins lucrativos, inscrita no CNPJ sob o nº 46.359.865/0001-40, com
+sede na Rua Maestro Cardim, nº 1170, Bela Vista, São Paulo/SP, CEP 01323-001, doravante designado
+CONTRATADO, neste ato representada porWELINGTON ROCHA, Diretor-Presidente e por
+MARCIO LUIZ BORINELLI, Diretor Administrativo Financeiro na forma de seu Estatuto Social,
+doravante denominada CONTRATADA, resolvem celebrar o presente contrato, decorrente de
+Inexigibilidade de Licitação (Processo Administrativo nº 020.001146/2025-09), regido pela Lei nº
+14.133/2021 e pelas cláusulas e condições seguintes:
+1. CLÁUSULA PRIMEIRA – DO OBJETO
+1.1. O objeto deste contrato é a contratação da FIPECAFI, instituição de ensino e pesquisa sem fins
+lucrativos, para prestação de serviços técnicos especializados de consultoria e assessoria para execução de
+projeto de qualificação, integração e governança de dados da Dívida Ativa Municipal, com foco nas
+Certidões de Dívida Ativa - CDAs e na sustentação da qualidade dos dados no ERP municipal, incluindo
+a constituição de base canônica consolidada, o desenvolvimento de modelos analíticos, preditivos e
+econômico-decisório para apoio à priorização da cobrança, bem como a proposição de ajustes do estoque
+da Dívida Ativa, dos controles de entrada e dos processos relacionados à qualidade dos dados.
+1.2. O projeto será executado em três blocos integrados, sem prejuízo do Produto 1 como elemento
+estruturante e transversal:
+Bloco 1-Data Cleaning e modelos analíticos, preditivos e econômico-decisórios;
+Bloco 2 -Proposição de ajustes do estoque, controles de entrada e processos para mitigação do risco de
+recontaminação; e
+Bloco 3 - Levantamento da cadeia de valor da gestão da Dívida Ativa.
+1.3. A contratação possui natureza de serviço técnico especializado, predominantemente intelectual, não
+continuado, contratado por escopo, sem regime de dedicação exclusiva de mão de obra.
+1.4. A CONTRATADA não executará manutenção evolutiva ou corretiva do ERP, não implantará scripts,
+parametrizações ou quaisquer ajustes diretamente no sistema e não substituirá as competências decisórias,
+homologatórias ou executórias do Município ou do fornecedor do ERP. A adaptação, validação,
+homologação, implementação e testes das alterações no ERP permanecerão sob responsabilidade
+exclusiva do fornecedor do sistema e das áreas técnicas competentes do Município.
+1.5. Integram este documento contratual, como parte indissociável, vinculando esta contratação,
+independentemente de transcrição, o Processo Administrativo nº 020.001146/2025-09, em especial:
+a) Termo de Referência (ID 0850526);
+b) Autorização de Contratação por Inexigibilidade (ID 0922204);
+c) Proposta da CONTRATADA (ID 0745726).
+2. CLÁUSULA SEGUNDA – VIGÊNCIA E PRORROGAÇÃO
+2.1. A vigência do contrato objeto desta contratação será de 20 (vinte) meses,contados a partir da data
+da assinatura, vinculando-se à conclusão integral do escopo contratado.
+2.2. O prazo de execução dos serviços será de até 390 (trezentos e noventa) dias corridos, contados da
+data de início formal dos trabalhos, indicada em Ordem de Serviço, ata de reunião de partida ou ato
+equivalente da SEMEC.
+2.3. Os prazos dos produtos constituem marcos máximos de entrega e não implicam execução
+necessariamente sequencial, admitido paralelismo controlado entre frentes de trabalho, desde que
+observadas as dependências técnicas, a aprovação do Produto 1, a validação do Gate A ao término do
+Produto 5 e a validação do Gate B ao término do Produto 9.
+2.4. Tratando-se de contrato por escopo, caso o objeto não seja concluído no prazo inicialmente previsto,
+o prazo de vigência será automaticamente prorrogado até a conclusão integral do objeto, nos termos do
+art. 111 da Lei nº 14.133/2021, sem prejuízo da apuração de responsabilidade e da aplicação das sanções
+cabíveis quando a não conclusão decorrer de culpa da CONTRATADA.
+2.5. Em caso de impedimento, ordem de paralisação, suspensão do contrato, atraso na disponibilização de
+dados, artefatos técnicos ou validações institucionais, ou dependência de providências a cargo do
+Município ou do fornecedor do ERP, o cronograma dos produtos afetados poderá ser reprogramado pelo
+tempo correspondente, mediante registro formal no processo administrativo.
+2.6. Quando a não conclusão decorrer de culpa da CONTRATADA, esta será constituída em mora,
+aplicando-se as sanções cabíveis, sem prejuízo da faculdade de a Administração optar pela extinção
+contratual e adotar as medidas admitidas em lei para a continuidade do objeto.
+3. CLÁUSULA TERCEIRA – MODELOS DE EXECUÇÃO, GESTÃO E RECEBIMENTO
+3.1. O regime de execução é o de empreitada por preço global, com fornecimento integral por escopo
+predefinido, orientado por produtos, e pagamento vinculado à entrega, recebimento definitivo e aprovação
+formal de cada produto técnico.
+3.2. Os serviços serão executados conforme o Termo de Referência, a Proposta Técnica e o Plano de
+Trabalho aprovado, mediante atividades remotas e, quando necessário, presenciais, nas dependências da
+SEMEC ou em outros locais indicados pelo Município, sempre mediante prévio alinhamento com o
+Gestor e o Fiscal do Contrato.
+3.3. A execução deverá ocorrer em ambiente analítico segregado do ERP de produção, sem acesso direto
+ao sistema em produção para fins de alteração de registros, observadas as regras de segurança da
+informação, sigilo fiscal, LGPD e rastreabilidade dos artefatos.
+3.4. Cada produto deverá conter, quando aplicável, relatório técnico descritivo, evidências metodológicas,
+bases analíticas de suporte, scripts referenciais ou especificações técnicas, matrizes de validação, roteiros
+de teste/reconciliação, documentação técnica suficiente para rastreabilidade e sumário executivo para
+apoio à tomada de decisão.
+3.5. A aprovação formal do Produto 1 é condição para o início das demais entregas; a validação formal da
+Base Canônica no Gate A é condição para início dos Produtos 7 e 8; e a validação do Gate B no Produto 9
+corresponderá à verificação da maturidade analítica e da aplicabilidade potencial dos critérios de
+priorização.
+3.6. O CONTRATANTE deverá disponibilizar, em tempo hábil, extrações, snapshots, dumps ou bases de
+trabalho segregadas do ERP e, quando cabível, de bases legadas, relatórios oficiais, dicionários de dados,
+artefatos técnicos, pontos focais e ambiente de homologação/testes quando necessário às áreas
+competentes e ao fornecedor do ERP.
+3.7. A Administração designará formalmente Gestor do Contrato, Fiscal Técnico e respectivos substitutos,
+quando cabível, responsáveis pelo acompanhamento da execução, interlocução institucional, registro de
+ocorrências, validação das entregas, encaminhamento de pagamentos, controle de riscos e adoção das
+providências necessárias ao fiel cumprimento do contrato.
+3.8. As comunicações entre as partes deverão ser realizadas por escrito, admitido o uso de mensagem
+eletrônica institucional, plataforma colaborativa ou sistema eletrônico oficial, quando o ato não exigir
+formalidade específica.
+3.9. O recebimento de cada produto observará as seguintes etapas:
+a) Recebimento Provisório: após a entrega formal do produto pela CONTRATADA, mediante verificação
+preliminar de aderência ao escopo contratado, em até 5 (cinco) dias úteis;
+b) Recebimento Definitivo: após análise técnica e emissão de Termo de Aceite pelo Gestor do Contrato
+ou autoridade competente, em até 15 (quinze) dias úteis adicionais;
+c) Havendo não conformidade, a CONTRATADA será notificada para apresentar justificativa ou
+promover ajustes no prazo fixado pela fiscalização, compatível com a complexidade da correção, sem
+ônus adicional para o CONTRATANTE.
+3.10. No caso de controvérsia sobre dimensão, qualidade ou quantidade do objeto executado, será
+observado o art. 143 da Lei nº 14.133/2021, devendo a CONTRATADA emitir Nota Fiscal somente
+quanto à parcela incontroversa, quando aplicável.
+3.11. O recebimento provisório ou definitivo não exclui a responsabilidade civil, técnica e ético-
+profissional da CONTRATADA pela perfeita execução do objeto, nos limites da legislação aplicável.
+3.12. A matriz de riscos da execução será consolidada no Plano de Trabalho e observará, no mínimo: (i)
+riscos sob responsabilidade do CONTRATANTE, relativos à disponibilização tempestiva e à qualidade
+mínima dos dados, validações institucionais, decisões administrativas e implementação/homologação no
+ERP; (ii) riscos sob responsabilidade da CONTRATADA, relativos à qualidade técnica dos produtos,
+adequação metodológica, correção de vícios, segurança dos artefatos sob sua guarda, sigilo e
+cumprimento dos prazos dependentes de insumos disponíveis; e (iii) riscos compartilhados, relativos à
+interação com o fornecedor do ERP, limitações técnicas supervenientes, necessidade de reprogramação
+justificada e eventos externos que afetem a execução, sem prejuízo da apuração de responsabilidades em
+caso de culpa.
+4. CLÁUSULA QUARTA – SUBCONTRATAÇÃO, CESSÃO E/OU TRANSFERÊNCIA
+4.1. É vedada a subcontratação total do objeto, bem como a cessão ou transferência total deste contrato a
+terceiros.
+5. CLÁUSULA QUINTA – PREÇO
+5.1. O valor global do presente contrato é de R$ 4.331.700,00 (quatro milhões, trezentos e trinta e um
+mil e setecentos reais), composto por:
+a) R$ 4.051.700,00 (quatro milhões, cinquenta e um mil e setecentos reais), referentes aos honorários
+técnicos;
+b) até R$ 280.000,00 (duzentos e oitenta mil reais), referentes ao limite máximo de ressarcimento de
+despesas operacionais, não automático e condicionado à comprovação da despesa, à sua vinculação direta
+à execução do projeto, à validação pela fiscalização e à regular liquidação.
+5.2. Os honorários técnicos serão pagos por produto, conforme o cronograma físico-financeiro abaixo,
+adotado como referência contratual em consonância com o Termo de Referência:
+Produto Descrição Bloco Prazo (dias) Valor dos
+honorários (R$)
+P1
+Plano de
+Trabalho e
+governança do
+projeto
+Transversal 45 324.136,00
+P2
+Análise de
+Viabilidade do
+Legado pré-2023
+Bloco 1 75 324.136,00
+P3
+Cadeia de Valor
+da Gestão da
+Dívida Ativa
+Bloco 3 90 324.136,00
+P4
+Diagnóstico
+Sistêmico do
+ERP
+Bloco 2 130 324.136,00
+P5
+Data Cleaning e
+Base Canônica -
+Gate A
+Bloco 1 150 486.204,00
+P6
+Estruturação
+Técnica dos
+Achados
+Bloco 2 180 324.136,00
+P7
+Modelo Preditivo
+de Probabilidade
+de Pagamento
+Bloco 1 240 405.170,00
+P8
+Modelo de Uplift
+/ Efeito
+Incremental
+Bloco 1 285 405.170,00
+P9
+Segmentação e
+Modelo
+Econômico-
+Decisório - Gate
+B
+Bloco 1 330 405.170,00
+P10
+Análise Causal
+Estrutural das
+Inconsistências
+Bloco 2 360 324.136,00
+P11
+Estratégia de
+Transformação
+Institucional
+Bloco 2 390 405.170,00
+5.3. Os valores acima correspondem a produtos técnicos contratados por empreitada por preço global. As
+horas e taxas profissionais constantes da Proposta Técnica e Comercial possuem natureza de memória de
+composição de preço e não constituem unidade autônoma de medição ou pagamento.
+5.4. No valor dos honorários técnicos estão incluídas todas as despesas ordinárias diretas e indiretas
+necessárias à execução do objeto, inclusive tributos, encargos sociais, trabalhistas, previdenciários, fiscais
+e comerciais, custos administrativos, suprimentos, equipamentos, tecnologia, coordenação, apoio
+institucional, overhead e demais custos inerentes à execução contratual, ressalvado exclusivamente o
+ressarcimento de despesas operacionais previsto neste contrato.
+5.5. Eventual saldo não utilizado do limite de despesas reembolsáveis não será devido à CONTRATADA,
+não integrará o preço efetivamente pago e não poderá ser convertido em honorários.
+6. CLÁUSULA SEXTA – DOS CRITÉRIOS DE MEDIÇÃO, LIQUIDAÇÃO E PAGAMENTO
+6.1. O pagamento dos honorários será realizado por produto e ficará condicionado, cumulativamente, à
+entrega formal pela CONTRATADA, ao recebimento provisório, ao recebimento definitivo com Termo de
+Aceite, à apresentação de Nota Fiscal/Fatura e à verificação da regularidade fiscal, trabalhista e
+previdenciária.
+6.2. Não serão efetuados pagamentos por atividades intermediárias, reuniões, esforços técnicos isolados,
+artefatos parciais ou etapas internas que não estejam formalmente caracterizadas como produto previsto
+no Termo de Referência e neste contrato.
+6.3. A liquidação da despesa ocorrerá com base no Termo de Recebimento Definitivo do produto e na
+documentação fiscal apresentada, no prazo de até 30 (trinta) dias corridos contados do recebimento da
+Nota Fiscal/Fatura regularmente instruída, ressalvados os casos de erro, omissão, pendência documental
+ou circunstância impeditiva.
+6.4. O pagamento será efetuado em até 30 (trinta) dias corridos após a regular liquidação da despesa,
+mediante ordem bancária em conta indicada pela CONTRATADA, observadas as retenções tributárias
+legais.
+6.5. A Nota Fiscal deverá conter a descrição do objeto, o número do contrato, o número do processo
+administrativo, o produto correspondente, o valor, o número do empenho, a conta bancária para
+pagamento e eventuais destaques de retenções tributárias cabíveis, devendo ser emitida pela própria
+CONTRATADA, com o CNPJ indicado nos documentos de habilitação.
+4.051.700,00
+6.6. Havendo erro na Nota Fiscal/Fatura, ausência de documentos, irregularidade fiscal, pendência de
+aceite ou circunstância que impeça a liquidação da despesa, o prazo de liquidação e pagamento ficará
+suspenso até a regularização, sem ônus para o CONTRATANTE.
+6.7. A Nota Fiscal deverá ser acompanhada, quando exigível, das certidões de regularidade perante a
+Fazenda Federal, Estadual e Municipal, FGTS e Justiça do Trabalho, admitidas certidões positivas com
+efeito de negativas.
+6.8. A CONTRATANTE poderá deduzir dos pagamentos devidos valores correspondentes a multas,
+glosas ou indenizações regularmente apurados, assegurados o contraditório e a ampla defesa quando
+cabíveis.
+6.9. A presente contratação não permite antecipação de pagamento. O CONTRATANTE não efetuará
+pagamento de título descontado, cedido, negociado com terceiros ou objeto de operação de factoring,
+salvo autorização expressa da autoridade competente.
+6.10. O ressarcimento de despesas operacionais será realizado mediante documento de cobrança separado
+da Nota Fiscal de honorários, limitado ao valor global de R$ 280.000,00 (duzentos e oitenta mil reais) e
+ao limite de até R$ 35.000,00 (trinta e cinco mil reais) para cada um dos Produtos P1 a P8 aprovados,
+desde que as despesas estejam diretamente vinculadas à execução do projeto e sejam regularmente
+comprovadas, validadas e liquidadas nos termos deste contrato.
+6.11. Serão ressarcíveis as despesas diretamente relacionadas à execução do objeto contratual,
+compreendendo, dentre outras de mesma natureza: passagens, hospedagem, transporte, alimentação
+vinculada a deslocamentos e demais custos logísticos necessários à realização das atividades presenciais.
+6.12. Não serão ressarcidas despesas de caráter pessoal ou que não guardem relação com o objeto do
+contrato.
+6.13. A prestação de contas das despesas será realizada mediante apresentação de documentação
+comprobatória suficiente para evidenciar sua vinculação às atividades do projeto.
+6.14. O ressarcimento das despesas operacionais será processado preferencialmente em conjunto com o
+pagamento do respectivo produto a que se vinculam, observados os procedimentos de liquidação e
+pagamento previstos neste contrato.
+6.15. Ocorrendo atraso de pagamento imputável exclusivamente à CONTRATANTE, o valor devido será
+acrescido de encargos moratórios calculados pela fórmula EM = I x N x VP, em que EM corresponde aos
+encargos moratórios, N ao número de dias entre a data prevista e a data do efetivo pagamento, VP ao
+valor da parcela paga e I ao índice de compensação financeira de 0,00016438, correspondente à taxa anual
+de 6% dividida por 365.
+6.16. Os encargos moratórios não serão devidos quando o atraso decorrer de culpa da CONTRATADA,
+caso fortuito, força maior, pendência documental, erro na cobrança, atraso no aceite por não conformidade
+ou outra circunstância não imputável exclusivamente ao CONTRATANTE.
+7. CLÁUSULA SÉTIMA – REAJUSTE E DO EQUILÍBRIO ECONÔMICO-FINANCEIRO
+7.1. Os preços contratados são fixos e irreajustáveis no prazo de 12 (doze) meses, contado da data-base
+do orçamento estimado da Administração, indicada no Termo de Referência.
+7.2. Após o interregno mínimo de 12 (doze) meses, e mediante requerimento da CONTRATADA, os
+valores remanescentes poderão ser reajustados pela variação do Índice Nacional de Preços ao Consumidor
+Amplo Especial - IPCA-E/IBGE, ou outro índice oficial que venha a substituí-lo, exclusivamente quanto
+às obrigações iniciadas e concluídas após a anualidade.
+7.3. Nos reajustes subsequentes ao primeiro, o interregno mínimo de um ano será contado a partir dos
+efeitos financeiros do último reajuste.
+7.4. Caso o índice de reajuste seja extinto ou não possa ser utilizado, será adotado o índice oficial que vier
+a substituí-lo; inexistindo substituto legal, as partes definirão novo índice oficial por termo aditivo.
+7.5. O reajuste será formalizado por apostilamento, ressalvadas as hipóteses que demandem termo
+aditivo.
+7.6. Será assegurado o restabelecimento do equilíbrio econômico-financeiro nas hipóteses do art. 124,
+inciso II, alínea "d", da Lei nº 14.133/2021, desde que comprovados os requisitos legais, a efetiva
+alteração dos encargos e o nexo causal com o evento superveniente.
+7.7. O CONTRATANTE responderá a eventual pedido de restabelecimento do equilíbrio econômico-
+financeiro no prazo de até 60 (sessenta) dias, contados do protocolo do requerimento devidamente
+instruído, admitida prorrogação justificada quando a complexidade da análise ou a necessidade de
+diligências assim exigir.
+7.8. Não se aplica a repactuação de preços, por se tratar de serviço técnico especializado não continuado,
+contratado por escopo e sem regime de dedicação exclusiva de mão de obra.
+8. CLÁUSULA OITA V A - OBRIGAÇÕES DO CONTRATADA
+8.1. São obrigações, além das previstas no termo de referência:
+8.1.1. Exigir o cumprimento de todas as obrigações assumidas pelo Contratado, de acordo com o contrato
+e seus anexos;
+8.1.2. Receber o objeto no prazo e condições estabelecidas no Termo de Referência;
+8.1.3. Notificar o Contratado, por escrito, sobre vícios, defeitos ou incorreções verificadas no objeto
+fornecido, para que seja por ele substituído, reparado ou corrigido, no total ou em parte, às suas expensas;
+8.1.4. Acompanhar e fiscalizar a execução do contrato e o cumprimento das obrigações pelo Contratado;
+8.1.5. Comunicar a empresa para emissão de Nota Fiscal no que pertine à parcela incontroversa da
+execução do objeto, para efeito de liquidação e pagamento, quando houver controvérsia sobre a execução
+do objeto, quanto à dimensão, qualidade e quantidade, conforme o art. 143 da Lei nº 14.133, de 2021;
+8.1.6. Efetuar o pagamento ao Contratado do valor correspondente à execução do objeto, no prazo, forma
+e condições estabelecidos no presente Contrato e no Termo de Referência;
+8.1.7. Aplicar ao Contratado as sanções previstas na lei e neste Contrato;
+8.1.8. Cientificar o órgão de representação judicial da Advocacia-Geral da União para adoção das
+medidas cabíveis quando do descumprimento de obrigações pelo Contratado;
+8.1.9. Explicitamente emitir decisão sobre todas as solicitações e reclamações relacionadas à execução do
+presente Contrato, ressalvados os requerimentos manifestamente impertinentes, meramente protelatórios
+ou de nenhum interesse para a boa execução do ajuste.
+8.1.10. A Administração terá o prazo de 30 (trinta) dias, a contar da data do protocolo do requerimento
+para decidir, admitida a prorrogação motivada, por igual período.
+8.1.11. Responder eventuais pedidos de reestabelecimento do equilíbrio econômico-financeiro feitos pelo
+contratado no prazo máximo de 30 (trinta) dias.
+8.1.12. Notificar os emitentes das garantias quanto ao início de processo administrativo para apuração de
+descumprimento de cláusulas contratuais.
+8.1.13. Comunicar o Contratado na hipótese de posterior alteração do projeto pelo Contratante, no caso do
+art. 93, §2º, da Lei nº 14.133, de 2021.
+8.1.14. A Administração não responderá por quaisquer compromissos assumidos pelo Contratado com
+terceiros, ainda que vinculados à execução do contrato, bem como por qualquer dano causado a terceiros
+em decorrência de ato do Contratado, de seus empregados, prepostos ou subordinados.
+9. CLÁUSULA NONA - OBRIGAÇÕES DO CONTRATANTE
+9.1. Constituem obrigações da CONTRATANTE:
+a) designar formalmente o Gestor do Contrato, Fiscal Técnico e respectivos substitutos, quando cabível;
+b) disponibilizar, em tempo hábil, bases, extrações, snapshots, dumps, relatórios oficiais, dicionários de
+dados, artefatos técnicos e demais informações necessárias à execução do objeto;
+c) indicar pontos focais técnicos e institucionais nas áreas envolvidas, incluindo SEMEC, TI, PGM,
+Controle Interno e fornecedor do ERP, quando necessário;
+d) viabilizar a interação entre a CONTRATADA, as áreas técnicas do Município e a equipe responsável
+pelo suporte do ERP;
+e) prestar esclarecimentos solicitados formalmente pela CONTRATADA, preferencialmente no prazo de 5
+(cinco) dias úteis, especialmente nas etapas de validação técnica;
+f) analisar os produtos entregues, emitir manifestação técnica, solicitar ajustes quando cabíveis e
+formalizar os recebimentos provisório e definitivo;
+g) efetuar os pagamentos devidos nos prazos e condições estabelecidos, após regular aceite, liquidação e
+comprovação documental;
+h) manter registro formal das decisões, deliberações, pendências e encaminhamentos relativos à execução
+contratual;
+i) garantir que as decisões administrativas, jurídicas e operacionais decorrentes das análises técnicas
+permaneçam sob responsabilidade das unidades competentes do Município;
+j) aplicar as sanções previstas na lei e neste contrato, assegurados o contraditório e a ampla defesa;
+k) responder eventuais pedidos de restabelecimento do equilíbrio econômico-financeiro no prazo previsto
+neste contrato;
+l) após o recebimento definitivo final do objeto, emitir termo de conclusão e, quando solicitado, atestado
+de capacidade técnica, desde que comprovada a regular execução contratual.
+10. CLÁUSULA DÉCIMA - DA GARANTIA CONTRATUAL
+10.1. Para esta contratação não haverá exigência de garantia contratual.
+11. CLÁUSULA DÉCIMA PRIMEIRA – DOTAÇÃO ORÇAMENTÁRIA
+11.1. As despesas decorrentes desta contratação correrão por conta da SEMEC à conta dos recursos
+consignados no Fundo Especial para Modernização da Administração Tributária - FEMAT (Unidade
+Orçamentária 06.32), conforme disponibilidade orçamentária atestada no Controle de Execução
+Orçamentária nº 119/2026 (id 0909014), Nota de Empenho nº 4063/2026, observada a seguinte
+classificação mínima:
+Projeto/Atividade: 06.32.04.122.0032.1.023 - Reestruturação Organizacional e Estrutural da Fazenda
+Municipal - Elemento de Despesa: 3.3.90.35.01 – Assessoria e Consultoria Técnica ou Jurídica - Fonte de
+Recursos: 1.500.0000.0000.0000 FEMAT, conforme Nota de Empenho nº 4063/2026 no valor de R$
+2.293.550,67 (Dois milhões duzentos e noventa e três mil quatrocentos quinhentos e cinquenta reais
+e sessenta e sete centavos), ID 1032315.
+11.2. Os recursos remanescentes deverão ser empenhados e consignados pela secretaria quando da
+abertura do exercício financeiro presente, mediante termo de apostilamento.
+12. CLÁUSULA DÉCIMA SEGUNDA - DAS INFRAÇÕES E SANÇÕES ADMINISTRATIV AS
+12.1. Comete infração administrativa a CONTRATADA que incorrer nas condutas previstas no art. 155 da
+Lei nº 14.133/2021, bem como nas hipóteses de descumprimento total ou parcial das obrigações
+assumidas neste contrato, no Termo de Referência e na Proposta Técnica.
+12.2. Constituem, entre outras, hipóteses de infração contratual: atraso injustificado na entrega dos
+produtos; execução inadequada, incompleta ou em desacordo com as especificações técnicas; recusa
+injustificada em corrigir produto rejeitado ou parcialmente aceito; descumprimento de obrigações de
+confidencialidade, segurança da informação ou proteção de dados; e não manutenção das condições de
+habilitação e qualificação.
+12.3. Observados o contraditório e a ampla defesa, poderão ser aplicadas as seguintes sanções:
+a) advertência, quando se tratar de infração de menor gravidade;
+b) multa moratória de 0,5% (zero vírgula cinco por cento) do valor do produto em atraso por dia de atraso
+injustificado, limitada a 10% (dez por cento) do respectivo produto;
+c) multa compensatória de até 10% (dez por cento) do valor do produto afetado, por inexecução parcial ou
+descumprimento relevante de obrigação contratual;
+d) multa compensatória de até 20% (vinte por cento) do valor total do contrato, por inexecução total;
+e) impedimento de licitar e contratar, pelo prazo máximo de 3 (três) anos, nos termos do art. 156, inciso
+III, da Lei nº 14.133/2021;
+f) declaração de inidoneidade para licitar ou contratar, nos termos do art. 156, inciso IV , da Lei nº
+14.133/2021.
+12.4. As sanções poderão ser aplicadas cumulativamente com multa, observado o art. 156, § 7º, da Lei nº
+14.133/2021, e não excluem a obrigação de reparação integral do dano causado à Administração ou a
+terceiros.
+12.5. Antes da aplicação de multa, será facultada defesa ao interessado no prazo de 15 (quinze) dias úteis,
+contado da data de sua intimação, sem prejuízo dos demais procedimentos previstos na Lei nº
+14.133/2021 e na regulamentação municipal.
+12.6. A aplicação das sanções será precedida de processo administrativo próprio, assegurados o
+contraditório e a ampla defesa, observados a Lei nº 14.133/2021 e o procedimento previsto nos arts. 95 a
+130 do Decreto Municipal nº 18.892/2023.
+12.7. As multas regularmente aplicadas poderão ser deduzidas dos pagamentos eventualmente devidos,
+descontadas da garantia, quando houver, cobradas administrativamente, inscritas em dívida ativa ou
+cobradas judicialmente, na forma da lei.
+12.8. A autoridade competente, na aplicação das sanções, considerará a natureza e a gravidade da
+infração, as peculiaridades do caso concreto, as circunstâncias agravantes ou atenuantes, os danos
+causados e o caráter educativo da pena.
+12.9. As sanções aplicadas serão registradas nos cadastros competentes, inclusive CEIS, CNEP, SICAF e
+cadastros municipais aplicáveis, quando cabível e na forma da legislação.
+13. CLÁUSULA DÉCIMA TERCEIRA – OBRIGAÇÕES PERTINENTES À LGPD
+13.1. As partes do contrato devem cumprir as obrigações legais relativas ao adequado tratamento de
+dados, nos termos da Lei Geral de Proteção de Dados (LGPD), bem como observar o que segue:
+13.2. É vedado o compartilhamento com terceiros dos dados obtidos fora das hipóteses permitidas em Lei.
+13.3. A Administração deverá ser informada no prazo de 5 (cinco) dias úteis sobre todos os contratos de
+suboperação firmados ou que venham a ser celebrados pelo contratado.
+13.4. É dever do contratado orientar e treinar seus empregados sobre os deveres, requisitos e
+responsabilidades decorrentes da Lei Geral de Proteção de Dados (LGPD).
+13.5. O contratado deverá exigir de suboperadores e subcontratados o cumprimento dos deveres da
+presente cláusula, permanecendo integralmente responsável por garantir sua observância.
+13.6. O contratado deverá prestar, no prazo fixado pelo contratante, prorrogável justificadamente,
+quaisquer informações acerca dos dados pessoais para cumprimento da Lei Geral de Proteção de Dados
+(LGPD), inclusive quanto a eventual descarte realizado.
+13.7. O presente contrato poderá ser alterado no que se refere aos procedimentos aplicáveis ao tratamento
+de dados pessoais, sempre que houver determinação ou orientação da autoridade competente,
+especialmente da Autoridade Nacional de Proteção de Dados (ANPD), por meio de pareceres, orientações
+técnicas, recomendações ou outros atos normativos editados nos termos da Lei Geral de Proteção de
+Dados (LGPD).
+14. CLÁUSULA DÉCIMA TERCEIRA – DA EXTINÇÃO CONTRATUAL
+14.1. A inexecução total ou parcial do contrato ensejará sua extinção, com as consequências contratuais e
+legais cabíveis, observados os arts. 137 a 139 da Lei nº 14.133/2021 e assegurados o contraditório e a ampla
+defesa.
+14.2. A extinção poderá ser:
+a) determinada por ato unilateral e escrito da Administração, exceto no caso de descumprimento decorrente de
+sua própria conduta;
+b) consensual, por acordo entre as partes, conciliação, mediação ou comitê de resolução de disputas, desde que
+haja interesse da Administração;
+c) determinada por decisão arbitral, quando houver cláusula compromissória ou compromisso arbitral, ou por
+decisão judicial.
+14.3. Constituirão motivos para extinção do contrato as situações previstas no art. 137 da Lei nº 14.133/2021,
+especialmente o não cumprimento ou cumprimento irregular de cláusulas contratuais, especificações ou
+prazos; o desatendimento de determinações regulares da fiscalização; alteração social que restrinja a
+capacidade de execução; falência, insolvência civil ou dissolução; caso fortuito ou força maior impeditivos da
+execução; razões de interesse público; e não cumprimento de obrigações relativas à reserva de cargos prevista
+em lei, quando aplicável.
+14.4. A Administração poderá extinguir o contrato, sem ônus, quando não dispuser de créditos orçamentários
+para sua continuidade ou quando entender que o contrato não mais lhe oferece vantagem, observados a
+motivação, a formalização e os direitos da CONTRA TADA quanto às parcelas regularmente executadas e
+aceitas.
+14.5. A extinção por ato unilateral ou a extinção consensual deverão ser precedidas de autorização escrita e
+fundamentada da autoridade competente, reduzidas a termo no respectivo processo administrativo.
+14.6. A extinção não afasta a aplicação das sanções cabíveis, a apuração de perdas e danos e a obrigação de
+entrega, devolução, eliminação ou guarda adequada dos dados e artefatos do projeto, conforme orientação do
+CONTRA TANTE e legislação aplicável.
+15. CLÁUSULA DÉCIMA QUINTA - DA ABERTURA DE PROCEDIMENTO ADMINISTRATIVO
+POR INADIMPLEMENTO
+15.1. No caso de abertura de procedimento administrativo para apuração de inadimplemento contratual, deverá
+ser observado o procedimento estabelecido na Lei nº 14.133/2021 e nos arts. 95 a 130 do Decreto Municipal nº
+18.892/2023, assegurados o contraditório e a ampla defesa.
+15.2. O Gestor do Contrato deverá encaminhar à autoridade competente os elementos necessários à
+formalização do processo de responsabilização, incluindo registros de fiscalização, notificações, manifestações
+da CONTRA TADA, termos de recebimento, glosas, eventuais prejuízos e demais documentos pertinentes.
+16. CLÁUSULA DÉCIMA SEXTA - DA ALTERAÇÃO DO CONTRATO
+16.1. Eventuais alterações contratuais reger-se-ão pela disciplina dos arts. 124 e seguintes da Lei nº
+14.133/2021.
+16.2. A CONTRA TADA fica obrigada a aceitar, nas mesmas condições contratuais, os acréscimos ou
+supressões que se fizerem necessários, até o limite de 25% (vinte e cinco por cento) do valor inicial atualizado
+do contrato, na forma da legislação aplicável.
+16.3. As alterações contratuais deverão ser formalizadas por termo aditivo submetido à prévia análise jurídica,
+salvo nos casos em que a lei admitir apostilamento ou outro registro formal simplificado.
+16.4. Registros que não caracterizam alteração do contrato poderão ser realizados por simples apostila,
+dispensada a celebração de termo aditivo, nos termos do art. 136 da Lei nº 14.133/2021.
+16.5. A reprogramação de cronograma por atraso na disponibilização de insumos, validações institucionais,
+dependências externas ou suspensão da execução poderá ser formalizada por apostilamento, quando não
+implicar alteração de escopo, preço ou outras condições essenciais.
+17. CLÁUSULA DÉCIMA SÉTIMA – DOS CASOS OMISSOS
+17.1. Os casos omissos serão decididos pelo contratante, segundo as disposições contidas na Lei nº
+14.133, de 2021, e demais normas federais aplicáveis e, subsidiariamente, segundo as disposições
+contidas na Lei nº 8.078, de 1990 – Código de Defesa do Consumidor – e normas e princípios gerais dos
+contratos.
+18. CLÁUSULA DÉCIMA OITA V A – DA HABILITAÇÃO
+18.1. A CONTRATADA obriga-se a manter as condições que a habilitaram na contratação, até o total
+cumprimento deste contrato.
+19. CLÁUSULA DÉCIMA NONA – DO FORO
+19.1. As partes elegem o Foro da Comarca de Porto Velho/RO para dirimir dúvidas e controvérsias
+oriundas do presente instrumento.
+20. CLÁUSULA VIGÉSIMA – DA PUBLICAÇÃO
+20.1. Após a assinatura deste contrato, o CONTRATANTE providenciará a publicação do mesmo ou de
+resumo no Portal Nacional de Contratações Públicas (PNCP), na forma prevista no art. 94 da Lei
+14.133, de 2021, bem como no respectivo Sítio Oficial na Internet do Município, em atenção ao art.
+91, caput, da Lei n.º 14.133, de 2021.
+Para firmeza e como prova do acordado, é lavrado o presente contrato, que depois de lido e achado
+conforme é assinado pelas partes, dele sendo extraídas as cópias necessárias para seu fiel cumprimento,
+todas de igual teor e forma, devidamente certificadas pela Procuradoria Geral do Município.
+Porto Velho, 17 de junho de 2026.
+WAGNER GARCIA DE FREITAS
+SECRETÁRIO MUNICIPAL DE ECONOMIA
+CONTRATANTE
+WELINGTON ROCHA
+FUNDAÇÃO INSTITUTO DE PESQUISAS CONTÁBEIS, ATUARIAIS E
+FINANCEIRAS – FIPECAFI
+DIRETOR PRESIDENTE
+MARCIO LUIZ BORINELLI,
+DIRETOR ADMINISTRATIVO-FINANCEIRO
+VISTO:
+SALATIEL LEMOS V ALVERDE
+PROCURADOR GERAL DO MUNICIPIO
+Documento assinado eletronicamente por Salatiel Lemos Valverde, Procurador(a), em
+17/06/2026, às 09:56, conforme art. 17, § 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por Wagner Garcia de Freitas, Secretário(a), em
+17/06/2026, às 13:03, conforme art. 17, § 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por MARCIO LUIZ BORINELLI, Usuário Externo, em
+18/06/2026, às 10:25, conforme art. 17, § 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+Documento assinado eletronicamente por WELINGTON ROCHA, Usuário Externo, em
+18/06/2026, às 11:25, conforme art. 17, § 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+A autenticidade do documento pode ser conferida no site https://www.portovelho.ro.gov.br/sei
+informando o código verificador 1086221 e o código CRC 92AA788E.
+Referência: Processo nº 020.001146/2025-09 SEI nº 1086221

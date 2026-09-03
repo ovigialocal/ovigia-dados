@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br">
+<!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>SAPL - CÂMARA MUNICIPAL DE PORTO VELHO</title>
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "CÂMARA MUNICIPAL DE PORTO VELHO",
+      "url" : "http://sapl.portovelho.ro.leg.br"
+    }
+  </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#343a40">
+
+    
+      <link rel="icon" href="/static/sapl/frontend/img/favicon.ico"  type="image/png">
+      
+    
+        
+        <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet" />
+<link href="/static/sapl/frontend/css/global.042f6737.css" rel="stylesheet" />
+      
+    <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet" />
+<link href="/static/sapl/frontend/css/compilacao.0baf3580.css" rel="stylesheet" />
+
+
+      
+      
+
+    
+  </head>
+
+  <body>
+    <div class="page fadein">
+
+      
+        
+          
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+
+                   
+
+
+  <ul class="navbar-nav">
+    
+      
+        
+          <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Institucional
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/mesa-diretora/">Mesa Diretora</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bancada/">Bancadas Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bloco/">Blocos Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/comissao/">Comissões</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/frente/">Frentes</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/parlamentar/">Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/audiencia/">Audiências Públicas</a></li>
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Documentos Administrativos
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/docadm/pesq-doc-adm">Pesquisar Documentos Administrativos</a></li>
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Atividade Legislativa
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/materia/pesquisar-materia">Matérias Legislativas</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pauta-sessao">Pautas das Sessões</a></li>
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/relatorios/">Relatórios</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pesquisar-sessao">Sessões Plenárias</a></li>
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Normas Jurídicas
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/norma/pesquisar">Pesquisar Normas Jurídicas</a></li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+  </ul>
+
+ 
+
+                  <ul class="nav navbar-nav justify-content-end" id="autenticacao">
+                    <li class="nav-item dropdown pesquisa">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/static/sapl/frontend/img/search.png"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">
+                            <form id="formulario-lexml" class="navbar-form search-form" method="get" action="">
+                              <input id="input-lexml" type="text" class="form-control" placeholder="Pesquisar no LexML" />
+                            </form>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link"href="/sistema/ajuda"><img src="/static/sapl/frontend/img/manual.png"></a></li>
+                    
+                      <li class="nav-item"><a class="nav-link" href="/login/"><img src="/static/sapl/frontend/img/user.png"></a></li>
+                    
+                  </ul>
+
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+          
+        
+      
+      
+        
+        
+        <header class="masthead">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">
+                <img src="/media/sapl/casa/logotipo/porto-velho.jpg"
+                alt="Logo" class="img-responsive" >
+                <span class="vcenter">CÂMARA MUNICIPAL DE PORTO VELHO
+                  <br/><small>Sistema de Apoio ao Processo Legislativo</small>
+                </span>
+              </a>
+            </div>
+            <div class="hidden-print">
+              
+  
+
+
+  <ul class="nav nav-tabs justify-content-end">
+    
+      <li class="nav-item">
+        
+          <a class="nav-link" href="/norma/29211?display" title="Dados Complementares ">Dados Complementares </a>
+        
+      </li>
+      
+        <li class="nav-item"><a class="nav-link" href="/ta/9213/publicacao">Publicações</a></li>
+      
+      
+      
+      
+    
+  </ul>
+
+
+            </div>
+          </div>
+        </header>
+        
+      
+
+      
+      
+        <main id="content" class="content page__row">
+          <div class="container">
+
+            
+            
+
+            
+            
+              <div class="clearfix">
+
+                
+
+
+
+                
+
+                
+                  <h1 class="page-header">
+                    
+                      Decreto nº 21.995, de 12 de maio de 2026
+                    
+                  </h1>
+                
+
+              </div>
+            
+
+            
+            <div id="app"></div>
+
+            
+            
+
+  
+    
+    <div class="context-actions d-flex justify-content-between mb-4">
+      <div class="actions btn-group" role="group">
+        
+        
+      </div>
+      <div class="actions btn-group" role="group">
+        
+        
+      </div>
+    </div>
+  
+  
+
+
+  
+   
+    <fieldset class="hidden-print">
+        <legend>Identificação Básica</legend>
+        <div class="row">
+          <div class="col-md-3">
+            <div id="div_id_tipo" class="holder">
+              <label>Tipo de Texto Articulado</label>
+              <p>Norma Jurídica</p>
+            </div>
+          </div>
+
+          
+            <div class="col-md-3">
+              <div id="div_id_tipo" class="holder">
+                <label>Tipo da Norma Jurídica</label>
+                <p>Decreto</p>
+              </div>
+            </div>
+          
+
+          <div class="col-md-2">
+            <div id="div_id_numero" class="holder">
+              <label>Número</label>
+              <p>21995</p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div id="div_id_ano" class="holder">
+              <label>Ano</label>
+              <p>2026</p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div id="div_id_data" class="holder">
+              <label>Data</label>
+              <p>12 de Maio de 2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="div_id_ementa" class="holder">
+              <label>Ementa</label>
+              <p>Abre no Orçamento Anual do Município de Porto Velho Crédito Adicional Suplementar, e dá outras providências.</p>
+            </div>
+          </div>
+        </div>
+    </fieldset>
+  
+  
+
+
+  
+      
+        <div class="actions btn-group" role="group">
+            
+            <a href="/ta/9213/text?print" class="btn btn-outline-primary" id="btn_impressao">Preparar para impressão</a>
+        </div>
+      
+
+      <div class="actions btn-group float-right" role="group">
+        <a class="btn btn-outline-primary" id="btn_font_menos" title="Diminuir tamanho da letra">a</a>
+        <a class="btn btn-outline-primary" id="btn_font_mais"  title="Aumentar tamanho da Letra">A</a>
+      </div>
+  
+
+  
+    
+
+
+
+<div class="row py-4">
+    
+      
+
+      
+
+      
+  
+
+</div>
+
+  
+
+  
+
+
+
+<div class="cp">
+  
+  <div class="d-none tipo-vigencias fixed-bottom justify-content-center">
+    <div class="btn-group btn-group-sm">
+      <a class="btn btn-primary active" onclick="textoMultiVigente(this, false);" title="Texto Compilado Sequencial">TMS</a>
+      <a class="btn btn-primary" onclick="textoMultiVigente(this, true);" title="Texto Compilado Integrado com Realce de Alterações">TMI</a>
+      <a class="btn btn-primary"  onclick="textoMultiVigente(this, false); textoVigente(this, true);" title="Texto Vigente COM Links para Textos Alteradores">TVL</a>
+      <a class="btn btn-primary"  onclick="textoVigente(this, false);" title="Texto Vigente">TVT</a>
+      <a class="btn btn-primary"  onclick="textoVigenteSemRevogados(this, false);" title="Texto Vigente Sem Dispositivos Revogados">TVR</a>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+  
+    
+
+    
+      <div class="dpt  " nivel="0">
+    
+
+    <div class="articulacao  "><div class="dptt "  id="dptt316805" ><div class="dtxt" id="d316805" pks="" pk="316805"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="ementa  "><div class="dptt "  id="dptt316806" ><a class="dpt-link" name="316806" title="316806"></a><div class="dtxt" id="d316806" pks="" pk="316806"><p style="text-align: justify;">O Prefeito do Munic&iacute;pio de Porto Velho, usando das atribui&ccedil;&otilde;es que lhe s&atilde;o conferidas no Inciso IV, do Artigo 87, da Lei Org&acirc;nica do Munic&iacute;pio, amparado pelo Art. 6&ordm; da Lei n.&ordm; 3.351, de 15 de dezembro de 2025 - Lei Or&ccedil;ament&aacute;ria Anual - LOA 2026;</p><p>&nbsp;</p><p style="text-align: justify;">Considerando o Of&iacute;cio n.&ordm; 1160/2026/SEMEC-CAP, de 07 de maio de 2026, pelo qual a Secretaria Municipal de Economia - SEMEC, solicita a suplementa&ccedil;&atilde;o de recursos para cobertura de despesas com contrata&ccedil;&atilde;o de intitui&ccedil;&atilde;o de ensino e pesquisa (FIPECAFI) para presta&ccedil;&atilde;o de servi&ccedil;os especializados em consultoria e assessoria para execu&ccedil;&atilde;o de projeto de qualifica&ccedil;&atilde;o, integra&ccedil;&atilde;o e governan&ccedil;a de dados da D&iacute;vida Ativa Municipal, constante do Processo Administrativo n.&deg; 003.000343/2025-19,</p><p>&nbsp;</p><p><strong>DECRETA:</strong></p></div></div><div class="dn" id="dn316806" pk="316806"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt316807" ><div class="dtxt" id="d316807" pks="" pk="316807"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt316808" ><a class="dpt-link" name="316808">Art. 1º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d316808" pks="" pk="316808"><p style="text-align: justify;">Fica aberto no Or&ccedil;amento do Munic&iacute;pio de Porto Velho, Cr&eacute;dito Adicional Suplementar no valor de R$ 526.008,67 (quinhentos e vinte e seis mil, oito reais e sessenta e sete centavos).</p></div></div><div class="dn" id="dn316808" pk="316808"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt316809" ><div class="dtxt" id="d316809" pks="" pk="316809"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt316810" ><a class="dpt-link" name="316810">Art. 2º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d316810" pks="" pk="316810"><p style="text-align: justify;">Os recursos necess&aacute;rios &agrave; execu&ccedil;&atilde;o do disposto no artigo anterior decorrer&atilde;o de anula&ccedil;&atilde;o da dota&ccedil;&atilde;o or&ccedil;ament&aacute;ria, observando os preceitos do Inciso III, par&aacute;grafo 1&deg; do Art. 43, da Lei n.&deg; 4.320, de 17 de mar&ccedil;o de 1964, na sequ&ecirc;ncia detalhada:</p><p style="text-align: justify;"><img src="data:image/png;base64,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"></p></div></div><div class="dn" id="dn316810" pk="316810"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt316812" ><div class="dtxt" id="d316812" pks="" pk="316812"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt316813" ><a class="dpt-link" name="316813">Art. 3º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d316813" pks="" pk="316813"><p style="text-align: justify;">Fica alterado o Cronograma de Execu&ccedil;&atilde;o Mensal de Desembolso (cotas or&ccedil;ament&aacute;rias), estabelecido pelo Decreto n.&ordm; 21.684, de 23 de dezembro de 2025 e o Detalhamento da Despesa, estabelecido pelo Decreto n&ordm; 21.685, de 23 de dezembro de 2025.</p></div></div><div class="dn" id="dn316813" pk="316813"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt316814" ><div class="dtxt" id="d316814" pks="" pk="316814"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt316815" ><a class="dpt-link" name="316815">Art. 4º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d316815" pks="" pk="316815"><p>&nbsp;Este Decreto entra em vigor na data de sua publica&ccedil;&atilde;o.</p></div></div><div class="dn" id="dn316815" pk="316815"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt316825" ><div class="dtxt" id="d316825" pks="" pk="316825"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt316826" ><a class="dpt-link" name="316826">Art. 5º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d316826" pks="" pk="316826"><p>Revogam-se as disposi&ccedil;&otilde;es em contr&aacute;rio.</p></div></div><div class="dn" id="dn316826" pk="316826"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="texto_n_estruturado  "><div class="dptt "  id="dptt316827" ><a class="dpt-link" name="316827" title="316827"></a><div class="dtxt" id="d316827" pks="" pk="316827"><p style="text-align: center;"><strong><em>LEONARDO BARRETO DE MORAES</em></strong></p><p style="text-align: center;">Prefeito do Munic&iacute;pio</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><strong><em>WAGNER GARCIA DE FREITAS</em></strong></p><p style="text-align: center;">Secret&aacute;rio Municipal de Economia</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><em><strong>SALATIEL LEMOS VALVERDE</strong></em></p><p style="text-align: center;">Procurador Geral do Munic&iacute;pio</p></div></div><div class="dn" id="dn316827" pk="316827"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+
+
+  </div></div></div></div>
+
+
+</div>
+
+  <div class="dont-break-out"></div>
+
+
+
+
+          </div>
+        </main>
+
+      
+
+      
+
+
+      
+      <footer id="footer" class="footer page__row hidden-print">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+
+              <a class="footer__logo" href="#">
+                <a href="http://www.interlegis.leg.br/">
+                  <img src="/static/sapl/frontend/img/logo_interlegis.png" alt="Logo do Interlegis ">
+                </a>
+              </a>
+              <p>
+                <small>
+                  Desenvolvido pelo <a href="http://www.interlegis.leg.br/">Interlegis</a> em software livre e aberto.
+                </small>
+		<span>Release: 3.1.165-RC3</span>
+              </p>
+
+            </div>
+            <div class="col-md-4">
+              <a class="footer__logo" href="#">
+                <img src="/static/sapl/frontend/img/logo_cc.png" alt="Logo do Creative Commons BY SA">
+              </a>
+              <p>
+                <small>
+                  Conteúdo e dados sob licença <a href="https://creativecommons.org">Creative Commons</a> 4.0<br><a href="https://creativecommons.org/licenses/by/4.0/">Atribuir Fonte - Compartilhar Igual</a>
+                </small>
+              </p>
+            </div>
+            <div class="col-md-4">
+              
+              <address>
+                <small>
+                  <strong>
+                    <span class="org">CÂMARA MUNICIPAL DE PORTO VELHO</span>
+                  </strong>
+                  <br>
+                  <span class="street-address">RUA BELÉM, N° 139</span>
+                  <br>
+                  CEP: <span class="postal-code">76820-734</span>
+                  |
+                  Telefone: <span>(69) 3217-8038</span>
+                  <br>
+                  <small><a href="/api/schema/swagger-ui/">OpenAPI</a></small> |
+                  <a href="http://www.portovelho.ro.leg.br/" class="url">Site</a> |
+                  <a href="mailto:informatica@portovelho.ro.leg.br" class="email">Fale Conosco</a>
+                </small>
+              </address>
+              
+
+
+
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+
+    <div vw class="enabled btn-vlibras">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    
+
+          
+    
+        
+        <script src="/static/sapl/frontend/js/chunk-vendors.f2d6067d.js" ></script>
+<script src="/static/sapl/frontend/js/global.d557d20c.js" ></script>
+      
+    <script src="/static/sapl/frontend/js/chunk-vendors.f2d6067d.js" ></script>
+<script src="/static/sapl/frontend/js/compilacao.148cb66b.js" ></script>
+
+
+      
+      
+
+      
+
+      <script type="text/javascript" >
+        function inIframe () {
+          try {
+              return window.location !== window.parent.location
+          } catch (e) {
+              return true;
+          }
+        }
+        $(document).ready(function(){
+          let iframe_set_backend = false
+          if (iframe_set_backend && !inIframe() ) {
+            location.href = location.origin + '?iframe=0'
+          }
+
+          var form = document.getElementById("formulario-lexml");
+          $("#input-lexml").change(function(){
+            let value = $("#input-lexml").val();
+            let url = "/sistema/lexml/request_search/xxx/"
+            url = url.replace('xxx', value)
+            form.action = url;
+          });
+
+        });
+      </script>
+
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+      
+    
+
+    
+  </body>
+</html>
