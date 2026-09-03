@@ -3,7 +3,7 @@ okf_version: "0.2"
 type: archive-request
 source_url: "https://rondonia.ro.gov.br/licitacao/971386/"
 requested_at: "2026-09-03T06:41:00Z"
-resource_kind: html
+resource_kind: webpage
 reason: material-source
 ---
 
