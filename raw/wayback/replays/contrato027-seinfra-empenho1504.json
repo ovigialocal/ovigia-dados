@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato027-seinfra-empenho1504",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/despesas/1f7d99b0-63ee-4710-9e9a-5ea08a3767e4",
+  "archive_url": "https://web.archive.org/web/20260903114804/https://transparencia.portovelho.ro.gov.br/despesas/despesas/1f7d99b0-63ee-4710-9e9a-5ea08a3767e4",
+  "verified_at": "2026-09-03T13:36:04Z",
+  "archive_content_type": "text/html",
+  "archive_size": 43282,
+  "archive_sha256": "dbbc38d0a563662471e197a127c59ec2ca699257f63515f8ed75e8f5164c9b91",
+  "source_content_type": "text/html",
+  "source_size": 488230,
+  "source_sha256": "64d0c542e15bcaa4f5548375bb81af29c38fb07b85ef43330f6502cb72c0c574",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/contrato027-seinfra-empenho1504.html"
+}
