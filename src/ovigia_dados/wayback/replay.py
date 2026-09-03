@@ -5,7 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import urllib.request
-from collections.abc import Callable
+from collections.abc import Callable, Iterable
 from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -87,6 +87,49 @@ def _body_suffix(content_type: str) -> str | None:
     if content_type == "application/pdf":
         return ".pdf"
     return None
+
+
+def _needs_replay_evidence(bundle_root: Path, result: ArchiveResult) -> bool:
+    evidence_dir = bundle_root / "raw/wayback/replays"
+    stem = _evidence_stem(result)
+    report_path = evidence_dir / f"{stem}.json"
+    if not report_path.exists():
+        return True
+    try:
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return False
+    suffix = _body_suffix(str(report.get("archive_content_type", "")))
+    return suffix is not None and not (evidence_dir / f"{stem}{suffix}").exists()
+
+
+def select_replay_result_paths(
+    bundle_root: Path,
+    *,
+    preferred_paths: Iterable[str] = (),
+    backfill_limit: int = 1,
+) -> set[str]:
+    """Prioritize fresh terminal results while bounding historical replay retries.
+
+    Fresh archived results should get replay evidence in the same worker that created them.
+    Older archived results whose replay fetch previously failed remain eligible, but only a
+    small deterministic backfill is retried per run so one new request cannot be delayed by
+    an unbounded historical tail of 60-second network timeouts.
+    """
+    if backfill_limit < 0:
+        raise ValueError("backfill_limit must be non-negative")
+
+    queue = load_wayback_queue(bundle_root)
+    archived_by_path = {result.path: result for result in queue.archived}
+    selected = {path for path in preferred_paths if path in archived_by_path}
+
+    candidates = sorted(
+        result.path
+        for result in queue.archived
+        if result.path not in selected and _needs_replay_evidence(bundle_root, result)
+    )
+    selected.update(candidates[:backfill_limit])
+    return selected
 
 
 def _persist_replay_body(
