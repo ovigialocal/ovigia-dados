@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/praca-biblia-area-c-mpf",
+  "source_url": "https://www.mpf.mp.br/o-mpf/unidades/pr-ro/noticias/justica-suspende-obras-no-entorno-do-aeroporto-de-porto-velho-ro-e-marca-audiencia-de-conciliacao-entre-uniao-e-estado-1",
+  "archive_url": "https://web.archive.org/web/20260903073502/https://www.mpf.mp.br/o-mpf/unidades/pr-ro/noticias/justica-suspende-obras-no-entorno-do-aeroporto-de-porto-velho-ro-e-marca-audiencia-de-conciliacao-entre-uniao-e-estado-1",
+  "verified_at": "2026-09-03T07:38:01Z",
+  "archive_content_type": "text/html",
+  "archive_size": 22961,
+  "archive_sha256": "466311df97b4e3aa771073adb08ece93e38d8f1ede92534b8a922cf5969d4a70",
+  "source_content_type": "text/html",
+  "source_size": 232925,
+  "source_sha256": "0dabbc097356ccb9ae67c9281ccf15409f1002238a094c5d013f3d959f8c063a",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/praca-biblia-area-c-mpf.html"
+}
