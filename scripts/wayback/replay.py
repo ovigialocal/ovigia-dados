@@ -22,8 +22,7 @@ def _read_result_paths(path: Path | None) -> set[str]:
     return {
         line.strip()
         for line in path.read_text(encoding="utf-8").splitlines()
-        if line.strip().startswith("knowledge/wayback/results/")
-        and line.strip().endswith(".md")
+        if line.strip().startswith("knowledge/wayback/results/") and line.strip().endswith(".md")
     }
 
 
