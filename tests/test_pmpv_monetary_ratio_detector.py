@@ -1,4 +1,6 @@
-from ovigia_dados.detectors.pmpv_monetary_ratio import detect_contract_licitation_ratios
+from ovigia_dados.detectors.pmpv_monetary_ratio import (
+    detect_contract_licitation_ratios,
+)
 
 
 def test_detects_observed_ambulance_factor_1000():
