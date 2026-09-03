@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato027-seinfra-pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/contratos/4037/Contrato%20027.PMG.2026.pdf",
+  "archive_url": "https://web.archive.org/web/20260903123358/https://anexos.portovelho.ro.gov.br/contratos/4037/Contrato%20027.PMG.2026.pdf",
+  "verified_at": "2026-09-03T13:34:11Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 5317190,
+  "archive_sha256": "141365985d5ef38047bbadebf28c44e5ba03dae89ea2f03c21f51f1127ca614b",
+  "source_content_type": "application/pdf",
+  "source_size": 5981221,
+  "source_sha256": "6e651de2fb38cc05690a9e9c9158f5fe491244c6c2291e9e9109bfb83e5f7b67",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}

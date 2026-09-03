@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato027-seinfra-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/4037",
+  "archive_url": "https://web.archive.org/web/20260903123443/https://transparencia.portovelho.ro.gov.br/contratos/4037",
+  "verified_at": "2026-09-03T13:34:24Z",
+  "archive_content_type": "text/html",
+  "archive_size": 40997,
+  "archive_sha256": "5f278f1285f2d8d1337fbeb357e8279dd8624468178c85d4210374ac572ea9ba",
+  "source_content_type": "text/html",
+  "source_size": 444666,
+  "source_sha256": "6d0158b88cfa13f61915a1f01d7e1df7ade310f600db3ec00c60559f44ce5f57",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/contrato027-seinfra-portal.html"
+}
