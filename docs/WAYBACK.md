@@ -13,16 +13,20 @@ A fila canônica é composta exclusivamente por concepts OKF `archive-request` e
 
 ## Política de execução
 
-Um push que adiciona requests tenta somente os `archive-request` incluídos naquele push. Isso impede que uma URL nova espere atrás de retries de todo o backlog histórico antes que seu resultado possa ser persistido.
+A fila é semântica: todo `archive-request` sem `archive-result` terminal continua pendente. Cada execução do worker recompõe essa fila e tenta os pendentes, sem exigir alteração artificial do request e sem criar um segundo concept para a mesma URL.
 
-`workflow_dispatch` é a operação explícita de recuperação: ela drena toda a fila pendente e pode ser usada para repetir requests que permaneceram sem resultado terminal por falha de infraestrutura anterior.
+O workflow é disparado por novos requests, mudanças materiais no worker, `workflow_dispatch` e também periodicamente. O disparo periódico existe para recuperar automaticamente requests que permaneceram pendentes por DNS, timeout, socket, runner ou outra falha de infraestrutura anterior a uma resposta do Internet Archive.
 
-Alterações apenas de código, testes, documentação ou workflow não fazem uma nova tentativa contra todas as URLs pendentes. O CI valida essas mudanças separadamente.
+Runs são serializados pelo mesmo grupo de `concurrency`. O cliente trata `429` e erros transitórios que alcançam o IA com `Retry-After`/backoff, e a etapa de persistência reconcilia corridas de escrita com `fetch` + `rebase` + retry.
 
-Runs de preservação podem coexistir. O cliente trata `429` e erros transitórios com `Retry-After`/backoff, e a etapa de persistência de resultados reconcilia corridas de escrita com `fetch` + `rebase` + retry.
+Uma execução periódica sem pendências ou sem novos resultados terminais é válida e não cria commit.
 
 ## Semântica de falha
 
-Falha local, timeout, DNS, socket, cancelamento de runner ou indisponibilidade anterior a uma resposta do Internet Archive deixa a request pendente e nunca deve ser registrada como `archive-result(status=failed)` ou `archive_failure` editorial. Uma falha terminal só existe quando a tentativa alcançou o Internet Archive e recebeu resultado terminal compatível com o contrato.
+Falha local, timeout, DNS, socket, cancelamento de runner ou indisponibilidade anterior a uma resposta do Internet Archive deixa a request pendente e nunca deve ser registrada como `archive-result(status=failed)` ou `archive_failure` editorial. O worker voltará a tentar a mesma identidade em execução posterior.
+
+Uma falha terminal só existe quando a tentativa alcançou o Internet Archive e recebeu resultado terminal compatível com o contrato. Nesse caso, `archive-result(status=failed)` registra `failure.code` e `failure.detail` e não contém `archive_url`.
+
+`archive-result(status=archived)` exige locator concreto `https://web.archive.org/web/...`. O locator não prova equivalência editorial: a Redação deve abrir o replay/snapshot e confirmar que ele representa materialmente o recurso usado antes de persistir a equivalência em sua `source-observation`.
 
 Para PDF, anexo ou documento material, preserve a URL exata do recurso efetivamente usado separadamente de qualquer landing page.
