@@ -10,6 +10,26 @@ CKAN_BASE_URL = "https://dados.portovelho.ro.gov.br/api/3/action"
 PMPV_API_BASE_URL = "https://api.portovelho.ro.gov.br/api/v1"
 DEFAULT_TIMEOUT = 30
 
+LICITACAO_FILTERS = frozenset(
+    {
+        "titulo",
+        "objeto",
+        "processo",
+        "edital",
+        "data_acolhimento_inicio",
+        "data_acolhimento_fim",
+        "data_propostas_abertura",
+        "data_publicacao",
+        "data_publicacao_ratificacao",
+        "data_disputa",
+        "ano",
+        "tipo.nome",
+        "modalidade.nome",
+        "classificacao.nome",
+        "situacao.nome",
+    }
+)
+
 
 class PortoVelhoCkanClient:
     """Cliente fino para a Action API do CKAN municipal."""
@@ -134,12 +154,7 @@ class PortoVelhoApiClient:
         situacao: str | int | None = None,
         categoria: str | int | None = None,
     ) -> Any:
-        """Lista contratos pela rota pública ``GET /contratos`` documentada no CKAN.
-
-        Os nomes de parâmetros refletem apenas a documentação municipal observada.
-        Valores ``None`` não são enviados para evitar atribuir semântica inventada aos
-        filtros opcionais.
-        """
+        """Lista contratos pela rota pública ``GET /contratos`` documentada no CKAN."""
         params = {
             "ano": ano,
             "secretaria": secretaria,
@@ -153,3 +168,18 @@ class PortoVelhoApiClient:
         }
         clean_params = {key: value for key, value in params.items() if value is not None}
         return self.get_json("contratos", params=clean_params)
+
+    def list_licitations(
+        self,
+        *,
+        sort: str = "-id",
+        por_pagina: int = 10,
+        filters: dict[str, str] | None = None,
+    ) -> Any:
+        """Lista licitações pela rota pública ``GET /licitacoes`` documentada no CKAN."""
+        params: dict[str, Any] = {"sort": sort, "por-pagina": por_pagina}
+        for name, value in (filters or {}).items():
+            if name not in LICITACAO_FILTERS:
+                raise ValueError(f"undocumented licitacao filter: {name}")
+            params[f"filter[{name}]"] = value
+        return self.get_json("licitacoes", params=params)
