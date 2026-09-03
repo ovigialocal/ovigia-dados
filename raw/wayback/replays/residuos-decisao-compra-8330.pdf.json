@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-decisao-compra-8330.pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8330/29943/Decis%C3%A3o.pdf",
+  "archive_url": "https://web.archive.org/web/20260903005259/https://anexos.portovelho.ro.gov.br/compras/8330/29943/Decis%C3%A3o.pdf",
+  "verified_at": "2026-09-03T00:56:21Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 383622,
+  "archive_sha256": "4687318616dffc15d738fa2c709618febe04bd3d3acd366b08fae763bcecfe39",
+  "source_content_type": "application/pdf",
+  "source_size": 483640,
+  "source_sha256": "15049931608632bd7d2259dd6410bb52dd27ad7a3db07df51af12c2d5df68359",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-decisao-compra-8330.pdf.pdf"
+}

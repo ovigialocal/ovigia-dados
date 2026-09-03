@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/corrida-112-inovefit",
+  "source_url": "https://www.inovefit.com.br/e/corridaportovelho2026",
+  "archive_url": "https://web.archive.org/web/20260903004524/https://www.inovefit.com.br/e/corridaportovelho2026",
+  "verified_at": "2026-09-03T00:56:14Z",
+  "archive_content_type": "text/html",
+  "archive_size": 13008,
+  "archive_sha256": "b238ff909994b74ac4ebbb3f9485595b1bdf2367a6441e35a3f6b1f7d813a0f4",
+  "source_content_type": "text/html",
+  "source_size": 65144,
+  "source_sha256": "a983268a847a48f8ebff90184a1a3815d85fc1f67c5c96641515b3c82a6e17b4",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/corrida-112-inovefit.html"
+}

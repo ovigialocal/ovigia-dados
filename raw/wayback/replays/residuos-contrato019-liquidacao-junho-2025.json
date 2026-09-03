@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-contrato019-liquidacao-junho-2025",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/despesas/2441fde7-96d8-4041-9775-6f2cd7b46bf7",
+  "archive_url": "https://web.archive.org/web/20260903005547/https://transparencia.portovelho.ro.gov.br/despesas/despesas/2441fde7-96d8-4041-9775-6f2cd7b46bf7",
+  "verified_at": "2026-09-03T00:56:18Z",
+  "archive_content_type": "text/html",
+  "archive_size": 49093,
+  "archive_sha256": "05e06245fea2d316655094b2b394229e58892a1261dd597796e438aaa865c6ee",
+  "source_content_type": "text/html",
+  "source_size": 615168,
+  "source_sha256": "5facfe03ff0504c4c30abc25f28a3a4c23a8cb88be580ab400911d39e56ca272",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-contrato019-liquidacao-junho-2025.html"
+}
