@@ -4,9 +4,10 @@ O módulo sinaliza inconsistências aritméticas para apuração. Ele não quali
 registro como erro, fraude ou irregularidade.
 """
 
+from collections.abc import Iterable
 from dataclasses import dataclass
 from math import isclose
-from typing import Any, Iterable
+from typing import Any
 
 
 @dataclass(frozen=True)
@@ -84,10 +85,13 @@ def detect_contract_licitation_ratios(
             continue
 
         licitation_id = _nested_value(record, "licitacao", "id")
+        contract_number = (
+            str(record["numero"]) if record.get("numero") is not None else None
+        )
         signals.append(
             MonetaryRatioSignal(
                 contract_id=str(record.get("id", "")),
-                contract_number=str(record["numero"]) if record.get("numero") is not None else None,
+                contract_number=contract_number,
                 licitation_id=str(licitation_id) if licitation_id is not None else None,
                 contract_value=contract_value,
                 licitation_contracted_value=licitation_value,
