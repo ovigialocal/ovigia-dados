@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/corrida-112-pregao-90052",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8458",
+  "archive_url": "https://web.archive.org/web/20260903050027/https://transparencia.portovelho.ro.gov.br/despesas/compras/8458",
+  "verified_at": "2026-09-03T05:10:12Z",
+  "archive_content_type": "text/html",
+  "archive_size": 42866,
+  "archive_sha256": "47d55c84def362c44999afd04d8e532352e6a36a110b22b7b346b64f2f65af6d",
+  "source_content_type": "text/html",
+  "source_size": 468212,
+  "source_sha256": "65eab0c93476377e50500031f19d6464cbeae6f0763a545712cf11aa59748cd1",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/corrida-112-pregao-90052.html"
+}
