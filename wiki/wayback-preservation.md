@@ -15,6 +15,12 @@ O sidecar resolve um problema prático: consumidores que não alcançam `web.arc
 
 Se a segunda leitura do replay falhar, o locator continua `verified`, mas `snapshot_evidence_path` permanece ausente e `snapshot_fetch_error` registra a falha. Não se inventa equivalência.
 
+## Evidência de replay para datasets textuais
+
+Uma execução com os CSVs mensais do Programa Queimadas/INPE mostrou que evidência apenas de digest não basta quando o próximo passo jornalístico é conferir linhas, filtros ou totais do dataset. CSV é texto auditável mesmo quando o servidor o rotula como `application/octet-stream`; nesses casos a extensão pública do `source_url` pode identificar com segurança o formato esperado.
+
+O replay governado deve, portanto, reter o corpo exato de CSVs dentro do limite de tamanho, usando `.csv` em vez de tratá-los como HTML ou binário opaco. O limite atual deixa margem para extratos públicos mensais de dezenas de MiB, sem transformar o repositório em armazenamento irrestrito. Relatórios JSON já persistidos continuam imutáveis: uma execução posterior pode somente acrescentar o corpo correspondente quando o SHA-256 do replay ainda coincide com o digest registrado.
+
 ## GitHub Actions: não usar fila global de concurrency
 
 Uma execução real em 2026-09-02 mostrou que um grupo global de `concurrency` não funciona como fila durável de requests: quando já existe um run em execução e outro pendente, a chegada de um terceiro evento pode cancelar o pendente anterior mesmo com `cancel-in-progress: false`. Nesse caso a URL versionada nunca chega ao Save Page Now e tampouco produz evidência operacional.
