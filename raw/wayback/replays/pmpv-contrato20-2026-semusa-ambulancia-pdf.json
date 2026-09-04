@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-contrato20-2026-semusa-ambulancia-pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/contratos/4285/contrato-202026.pdf",
+  "archive_url": "https://web.archive.org/web/20260904003643/https://anexos.portovelho.ro.gov.br/contratos/4285/contrato-202026.pdf",
+  "verified_at": "2026-09-04T00:40:29Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 344019,
+  "archive_sha256": "2c565196e5c602445338fbb203c9bb062b6ec5612b1ed5552b64a4ea12c8f638",
+  "source_content_type": "application/pdf",
+  "source_size": 358606,
+  "source_sha256": "8ae540c41d9314c7f936dff9c64a4e57c4976bcac1337ec5455a62c1ca98c830",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-contrato20-2026-semusa-ambulancia-pdf.pdf"
+}

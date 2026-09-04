@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-api-licitacao-8678",
+  "source_url": "https://api.portovelho.ro.gov.br/api/v1/licitacoes/8678",
+  "archive_url": "https://web.archive.org/web/20260904003223/https://api.portovelho.ro.gov.br/api/v1/licitacoes/8678",
+  "verified_at": "2026-09-04T00:40:24Z",
+  "archive_content_type": "application/json",
+  "archive_size": 2315,
+  "archive_sha256": "f789a790b6b792dd41903c4d23b4fbef9b7df40d18711f1aa958d61e19e516e8",
+  "source_content_type": "application/json",
+  "source_size": 7676,
+  "source_sha256": "04244d7ea6fc08c7b5597138a96e19fca1e4cf476c2ec6362c668f0e767b4c16",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}
