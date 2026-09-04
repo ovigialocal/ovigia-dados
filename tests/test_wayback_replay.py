@@ -108,6 +108,56 @@ def test_pdf_replay_persists_bounded_exact_body(tmp_path: Path) -> None:
     assert (tmp_path / report["replay_body_path"]).read_bytes() == body
 
 
+def test_csv_replay_persists_text_csv_body(tmp_path: Path) -> None:
+    result_path = _archived_bundle(
+        tmp_path,
+        source_url="https://example.com/data.csv",
+    )
+    body = b"municipio,valor\nPORTO VELHO,83\n"
+
+    def fetch(url: str, *, keep_text_body: bool = False) -> FetchEvidence:
+        return FetchEvidence(
+            url=url,
+            content_type="text/csv",
+            size=len(body),
+            sha256="csv-digest",
+            body=body if keep_text_body else None,
+        )
+
+    written = materialize_replay_evidence(tmp_path, fetch=fetch, result_paths={result_path})
+    report = json.loads((tmp_path / "raw/wayback/replays/example.json").read_text())
+
+    assert written == [
+        "raw/wayback/replays/example.csv",
+        "raw/wayback/replays/example.json",
+    ]
+    assert report["archive_content_type"] == "text/csv"
+    assert report["replay_body_path"] == "raw/wayback/replays/example.csv"
+    assert (tmp_path / report["replay_body_path"]).read_bytes() == body
+
+
+def test_octet_stream_csv_replay_uses_source_url_for_body_type(tmp_path: Path) -> None:
+    result_path = _archived_bundle(
+        tmp_path,
+        source_url="https://example.com/data.csv",
+    )
+    body = b"municipio,valor\nPORTO VELHO,102\n"
+
+    def fetch(url: str, *, keep_text_body: bool = False) -> FetchEvidence:
+        return FetchEvidence(
+            url=url,
+            content_type="application/octet-stream",
+            size=len(body),
+            sha256="csv-digest",
+            body=body if keep_text_body else None,
+        )
+
+    written = materialize_replay_evidence(tmp_path, fetch=fetch, result_paths={result_path})
+
+    assert "raw/wayback/replays/example.csv" in written
+    assert (tmp_path / "raw/wayback/replays/example.csv").read_bytes() == body
+
+
 def test_existing_replay_report_can_backfill_matching_pdf_without_rewrite(tmp_path: Path) -> None:
     result_path = _archived_bundle(tmp_path, source_url="https://example.com/document.pdf")
     report_path = tmp_path / "raw/wayback/replays/example.json"
@@ -133,6 +183,34 @@ def test_existing_replay_report_can_backfill_matching_pdf_without_rewrite(tmp_pa
     assert written == ["raw/wayback/replays/example.pdf"]
     assert report_path.read_bytes() == original_report
     assert (tmp_path / "raw/wayback/replays/example.pdf").read_bytes() == body
+
+
+def test_existing_csv_report_can_backfill_body_without_rewrite(tmp_path: Path) -> None:
+    result_path = _archived_bundle(tmp_path, source_url="https://example.com/data.csv")
+    report_path = tmp_path / "raw/wayback/replays/example.json"
+    report = {
+        "archive_content_type": "text/csv",
+        "archive_sha256": "csv-digest",
+        "replay_body_path": None,
+    }
+    _write(tmp_path, "raw/wayback/replays/example.json", json.dumps(report) + "\n")
+    original_report = report_path.read_bytes()
+    body = b"municipio,valor\nPORTO VELHO,102\n"
+
+    def fetch(url: str, *, keep_text_body: bool = False) -> FetchEvidence:
+        return FetchEvidence(
+            url=url,
+            content_type="text/csv",
+            size=len(body),
+            sha256="csv-digest",
+            body=body if keep_text_body else None,
+        )
+
+    written = materialize_replay_evidence(tmp_path, fetch=fetch, result_paths={result_path})
+
+    assert written == ["raw/wayback/replays/example.csv"]
+    assert report_path.read_bytes() == original_report
+    assert (tmp_path / "raw/wayback/replays/example.csv").read_bytes() == body
 
 
 def test_existing_replay_report_rejects_body_with_different_digest(tmp_path: Path) -> None:
