@@ -57,15 +57,23 @@ def scan_contract_ratios(
     }
 
 
-def _http_429_result(*, target: str) -> dict[str, Any]:
+def _request_error_result(*, target: str, exc: requests.RequestException) -> dict[str, Any]:
+    response = getattr(exc, "response", None)
+    if response is not None and response.status_code == 429:
+        code = "http-429"
+        detail = "PMPV API returned HTTP 429 Too Many Requests"
+    else:
+        code = "request-error"
+        detail = f"PMPV API request failed before a usable response: {exc}"
+
     return {
         "status": "blocked_external",
         "observed_at": datetime.now(UTC).isoformat(),
         "contracts_source_url": f"{PMPV_API_BASE_URL}/contratos",
         "failure": {
-            "code": "http-429",
+            "code": code,
             "target": target,
-            "detail": "PMPV API returned HTTP 429 Too Many Requests",
+            "detail": detail,
         },
     }
 
@@ -76,27 +84,21 @@ def run_scan(
     por_pagina: int = 100,
     processo_licitacao: str | None = None,
 ) -> dict[str, Any]:
-    """Executa probe específica primeiro e preserva-a se a varredura global receber 429."""
+    """Executa probe específica primeiro e preserva-a se a varredura global ficar indisponível."""
     probe: dict[str, Any] = {}
     if processo_licitacao:
         try:
             probe = _probe_licitation(client, processo_licitacao)
-        except requests.HTTPError as exc:
-            response = exc.response
-            if response is None or response.status_code != 429:
-                raise
-            result = _http_429_result(target="licitations")
+        except requests.RequestException as exc:
+            result = _request_error_result(target="licitations", exc=exc)
             result["licitation_source_url"] = f"{PMPV_API_BASE_URL}/licitacoes"
             result["licitation_process_filter"] = processo_licitacao
             return result
 
     try:
         result = scan_contract_ratios(client, por_pagina=por_pagina)
-    except requests.HTTPError as exc:
-        response = exc.response
-        if response is None or response.status_code != 429:
-            raise
-        result = _http_429_result(target="contracts")
+    except requests.RequestException as exc:
+        result = _request_error_result(target="contracts", exc=exc)
 
     result.update(probe)
     return result
