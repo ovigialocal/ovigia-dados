@@ -188,7 +188,9 @@ class PortoVelhoApiClient:
             if not next_url:
                 return
             if not isinstance(next_url, str) or not next_url.startswith(f"{self.base_url}/"):
-                raise ValueError("PMPV pagination link escaped configured API base")
+                raise ValueError(
+                    f"PMPV pagination link escaped configured API base: {next_url!r}"
+                )
 
             response = self.session.get(
                 next_url,
