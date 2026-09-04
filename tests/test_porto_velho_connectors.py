@@ -109,9 +109,43 @@ def test_pmpv_api_follows_contract_pagination_links() -> None:
     assert session.calls[1]["headers"] == {"Accept": "application/json"}
 
 
+def test_pmpv_api_upgrades_observed_http_pagination_link() -> None:
+    observed_next = "http://api.portovelho.ro.gov.br/api/v1/contratos?page=2"
+    expected_next = "https://api.portovelho.ro.gov.br/api/v1/contratos?page=2"
+    session = FakeSession(
+        [
+            FakeResponse({"data": [{"id": 1}], "links": {"next": observed_next}}),
+            FakeResponse({"data": [{"id": 2}], "links": {"next": None}}),
+        ]
+    )
+    client = PortoVelhoApiClient(session=session)
+
+    pages = list(client.iter_contract_pages(por_pagina=100))
+
+    assert [page["data"][0]["id"] for page in pages] == [1, 2]
+    assert session.calls[1]["url"] == expected_next
+
+
 def test_pmpv_api_rejects_pagination_link_outside_configured_base() -> None:
     session = FakeSession(
         [FakeResponse({"data": [], "links": {"next": "https://example.org/contratos?page=2"}})]
+    )
+    client = PortoVelhoApiClient(session=session)
+
+    with pytest.raises(ValueError, match="escaped configured API base"):
+        list(client.iter_contract_pages())
+
+
+def test_pmpv_api_rejects_pagination_link_outside_api_root() -> None:
+    session = FakeSession(
+        [
+            FakeResponse(
+                {
+                    "data": [],
+                    "links": {"next": "http://api.portovelho.ro.gov.br/outro?page=2"},
+                }
+            )
+        ]
     )
     client = PortoVelhoApiClient(session=session)
 
