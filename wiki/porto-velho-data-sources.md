@@ -53,6 +53,12 @@ O dataset CKAN `Licitações` documenta `endpoint_path: /licitacoes`, método `G
 
 Essas observações confirmam rotas concretas; não autorizam inferir por analogia outros paths de contratos ou despesas. Cada nova rota continua exigindo documentação ou resposta observada.
 
+### Quirk de paginação observado
+
+Em execução real de `GET /contratos` em 3 de setembro de 2026, a origem foi consultada em HTTPS, mas `links.next` retornou `http://api.portovelho.ro.gov.br/api/v1/contratos?page=2`. O conector não deve seguir esse locator literalmente nem desabilitar a validação de origem. A política aceita somente esse downgrade de esquema quando **host, porta e raiz `/api/v1` continuam idênticos à base configurada**, promovendo o próximo locator para HTTPS antes da requisição. Mudança de host, porta, credencial embutida ou escape da raiz da API continua falhando fechado.
+
+Esse comportamento deve permanecer coberto por teste porque afeta qualquer varredura paginada da API e foi observado diretamente no serviço, não inferido da documentação.
+
 ## Conectores
 
 O módulo `ovigia_dados.connectors.porto_velho` oferece:

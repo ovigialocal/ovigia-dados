@@ -40,3 +40,16 @@ jobs:
 
       - name: Validate OKF Bundle & Schemas
         run: uv run scripts/validate_okf.py
+
+      - name: Probe PMPV ratio scan
+        run: |
+          uv run python scripts/pmpv_ratio_scan.py \
+            --por-pagina 100 \
+            --processo-licitacao '005.002970/2026-47' \
+            --output pmpv-ratio-scan.json
+
+      - name: Upload PMPV ratio scan
+        uses: actions/upload-artifact@v4
+        with:
+          name: pmpv-ratio-scan
+          path: pmpv-ratio-scan.json
