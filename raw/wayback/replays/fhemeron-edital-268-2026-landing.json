@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/fhemeron-edital-268-2026-landing",
+  "source_url": "https://rondonia.ro.gov.br/publicacao/edital-no-268-2026-segep-gcp/",
+  "archive_url": "https://web.archive.org/web/20260904124110/https://rondonia.ro.gov.br/publicacao/edital-no-268-2026-segep-gcp/",
+  "verified_at": "2026-09-04T12:44:53Z",
+  "archive_content_type": "text/html",
+  "archive_size": 31171,
+  "archive_sha256": "a0539e207087c94c9b170c95a48a1331a92f1e3d129c7205fe6d58410b182300",
+  "source_content_type": "text/html",
+  "source_size": 184906,
+  "source_sha256": "d781e2375e7c2372fe2fedc8810d2bf109f5f59883554b600d29c4f6632e3dae",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/fhemeron-edital-268-2026-landing.html"
+}
