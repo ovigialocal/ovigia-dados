@@ -1,0 +1,2747 @@
+PREFEITURA DO MUNICÍPIO DE PORTO VELHO
+SECRETARIA MUNICIPAL DE CONTRATOS, CONVÊNIOS E LICITAÇÕES -
+SMCL
+Departamento de Gestão de Compras - SMCL-DGC
+EDITAL DE LICITAÇÃO Nº151/2026/SMCL-DGC
+MINUTA DE EDITAL
+PREGÃO
+na forma ELETRÔNICA Nº 90073/2026/SMCL/PVH
+PROCESSO ADMINISTRATIVO Nº
+005.003461/2026-31
+A PARTICIPAÇÃO DESTA LICITAÇÃO SERÁ CONFORME ANEXO I
+AVISO AOS INTERESSADOS
+Recomendamos aos Licitantes a leitura atenta às condições/exigências
+expressas neste edital e seus anexos, notadamente quanto ao
+credenciamento, formulação das propostas de preços, e documentos de
+habilitação, objetivando uma perfeita participação no certame licitatório.
+CONTATOS:
+E-mail: equipe05smcl@gmail.com;
+EQUIPE RESPONSÁVEL PELA CONDUÇÃO DO CERTAME
+EQUIPE
+05
+(69) 3901-6272.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 1
+1. AVISO DE LICITAÇÃO
+1.1. PREGÃO ELETRÔNICO N° 90073/2026 SMCL/PVH,
+TIPO MENOR PREÇO.
+1.2. OBJETO:
+Aquisição de veículos (
+AMBULÂNCIA TIPO B e outros)
+com recursos de emenda
+impositivas individuais
+0618660
+(nº14, 144 e 145/2025 -
+PLO-4954/2025)
+, para atender a Secretaria
+Municipal de Saúde - SEMUSA
+,
+conforme especificações técnicas, unidades e quantidades definidas no Anexo I
+deste Edital, as quais deverão ser, minuciosamente, observadas pelos licitantes quando da elaboração de suas
+propostas.
+1.3. VALOR ESTIMADO:
+R$ 878.156,70 ( oitocentos e setenta e oito mil, cento e cinquenta e seis reais
+e setenta centavos).
+1.4. DATA DE ABERTURA:
+07 de Julho de 2026; HORÁRIO: 09h30min. (HORÁRIO DE BRASÍLIA – DF)
+ENDEREÇO ELETRÔNICO
+:
+https://www.gov.br/compras
+UASG: 925172 – SECRETARIA MUNICIPAL DE
+CONTRATOS, CONVÊNIOS E LICITAÇÕES – SMCL.
+O prazo mínimo para apresentação de propostas e lances, será condicionado ao artigo 55 da Lei n. 14.133/2021.
+1.5. MODO DE DISPUTA: ABERTO
+DISPONIBILIDADE DO EDITAL:
+O Instrumento Convocatório e todos os elementos integrantes encontram-se
+disponíveis para consulta e retirada somente nos endereços eletrônicos:
+www.portovelho.ro.gov.br
+e
+https://www.gov.br/compras
+.
+Porto Velho/RO, 19 de Junho de 2026.
+Genean Prestes dos Santos
+Agente de Contratação/Pregoeiro (a)
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 2
+2. DAS DISPOSIÇÕES DO PREÂMBULO
+2.1. A SECRETARIA MU
+NICIPAL DE CONTRATOS, CONVÊNIOS E LICITAÇÕES – SMCL,
+vem, por
+intermédio do (Agente de Contratação/Pregoeiro (a)) e equipe de apoio designados pela
+Portaria
+nº 017
+/
+2026
+,
+tornar público para conhecimento dos interessados que realizará a licitação na modalidade
+PREGÃO
+ELETRÔNICO,
+do tipo
+MENOR PREÇO,
+nos termos da
+Lei complementar nº 1.000, de 07 de janeiro de
+2025
+, Lei n. 14.133 de 1 de abril de 2021,
+Decreto n. 18.892 de 30 de março de 2023,
+publicada no DOM
+Nº 3444, que regulamenta a Lei nº 14.133, de 1º de abril de 2021, que dispõe sobre Licitações e Contratos
+Administrativos, no Município de Porto Velho e dá outras providências,
+Lei Complementar nº 123 de 14 de
+dezembro de 2006 e suas alterações,
+e demais normas regulamentares estabelecidas neste edital e seus
+anexos.
+2.1.1. Não havendo expediente
+ou ocorrendo qualquer fato superveniente que impeça a abertura do certame
+na data marcada, a sessão será automaticamente transferida para o primeiro dia útil subsequente, no mesmo
+horário e locais estabelecidos no preâmbulo deste Edital, desde que não haja comunicação do(a) Agente de
+Contratação/Pregoeiro (a) em contrário.
+2.1.2.
+Esta Licitação se encontra formalizada e autorizada por meio do
+Processo Administrativo
+N.
+005.003461/2026-31
+e destina-se a garantir a observância do princípio constitucional da isonomia e a
+selecionar a proposta mais vantajosa para a Administração Pública e será processada e julgada em estrita
+conformidade com os princípios básicos listados no
+Art. 5º da Lei 14.133.21.
+Na aplicação desta Lei, serão
+observados os princípios da legalidade, da impessoalidade, da moralidade, da publicidade, da eficiência, do
+interesse público, da probidade administrativa, da igualdade, do planejamento, da transparência, da eficácia, da
+segregação de funções, da motivação, da vinculação ao edital, do julgamento objetivo, da segurança jurídica, da
+razoabilidade, da competitividade, da proporcionalidade, da celeridade, da economicidade e do desenvolvimento
+nacional sustentável.
+2.1.3.
+Integram-se a este edital, independente de transcrição, o
+Estudo Técnico Preliminar,
+Termo de
+Referência, Proposta Detalhada e Minuta do Contrato (quando for o caso).
+2.2. Do Credenciamento
+2.2.1.
+O credenciamento dar-se-á pela atribuição de chave de identificação e de senha, pessoal e intransferível,
+para acesso ao Sistema Eletrônico, no site
+https://www.gov.br/compras
+;
+2.2.2.
+O credenciamento junto ao provedor do Sistema implica a responsabilidade legal única e exclusiva do
+Licitante, ou de seu representante legal e na presunção de sua capacidade técnica para realização das
+transações inerentes ao Pregão Eletrônico.
+2.2.3.
+O uso da senha de acesso pelo Licitante é de sua responsabilidade exclusiva, incluindo qualquer
+transação efetuada diretamente ou por seu representante, não cabendo ao provedor do Sistema ou à Prefeitura
+de Porto Velho responsabilidade por eventuais danos decorrentes do uso indevido da senha, ainda que, por
+terceiros.
+2.2.4.
+A Licitante arcará integralmente com todos os custos de preparação e apresentação de sua proposta de
+preços, independente do resultado do procedimento licitatório.
+3. DAS DISPOSIÇÕES DO OBJETO
+3.1. DO OBJETO:
+Aquisição de veículos (
+AMBULÂNCIA TIPO B e outros)
+com recursos de emenda
+impositivas individuais
+0618660
+(nº14, 144 e 145/2025 -
+PLO-4954/2025)
+, para atender a Secretaria
+Municipal de Saúde - SEMUSA
+, conforme especificações técnicas, unidades e quantidades definidas no Anexos
+deste Edital.
+3.1.1.
+O objeto da licitação tem a natureza de
+BEM COMUM
+uma vez que os padrões de desempenho e
+qualidade podem ser objetivamente definidos pelo Edital, mediante especificações usuais no mercado.
+3.2
+.
+Em caso de divergência
+entre as especificações do objeto constante no
+s ANEXOS I e II deste Edital e o
+respectivo código do Catálogo de Materiais (CATMAT) ou do Catálogo de Serviço (CATSERV) do sistema,
+prevalece as especificações do Edital.
+4. DAS CONDIÇÕES DE PARTICIPAÇÃO
+4.1.
+Esta licitação sob a modalidade Pregão, na forma Eletrônica será realizada em sessão pública
+on-line
+. A
+participação nesta importa à proponente na irrestrita aceitação das condições estabelecidas no presente Edital,
+bem como, a observância dos regulamentos, normas administrativas e técnicas aplicáveis, inclusive quanto a
+recursos. A não observância destas condições ensejará no sumário IMPEDIMENTO da proponente, no referido
+certame.
+4.1.1.
+Não cabe aos licitantes, após sua abertura, alegação de desconhecimento de seus itens ou reclamação
+quanto ao seu conteúdo. Antes de elaborar suas propostas, as licitantes deverão ler atentamente o Edital e seus
+anexos, devendo estar em conformidade com as especificações do
+Anexo I
+TERMO DE REFERÊNCIA.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 3
+4.1.2.
+Poderá participar desta licitação, toda e qualquer firma individual ou sociedade, regularmente
+estabelecida no País, que esteja credenciada no Sistema de Cadastro de Fornecedores do Município de Porto
+Velho, no Sistema de Cadastro Unificado de Fornecedores – SICAF ou demais interessados que atenderem a
+todas as exigências contidas neste Edital e seus anexos e que pertençam ao ramo de atividade pertinente ao
+objeto licitado.
+4.1.3.
+Estar devidamente credenciada no sistema Compras.gov.br, Portal de Compras do Governo Federal, por
+meio do sítio
+https://www.gov.br/compras/pt-br
+, para acesso ao sistema eletrônico;
+4.2.
+Condição para participação:
+4.2.1.
+A licitante
+DECLARARÁ
+em campo próprio do sistema eletrônico, que:
+a)
+Está ciente e concorda com as condições contidas no edital e seus anexos,
+que cumpre os requisitos
+para a habilitação, bem como de que a proposta apresentada compreende a integralidade dos custos para
+atendimento dos direitos trabalhistas assegurados na Constituição Federal, nas leis trabalhistas, nas normas
+infralegais, nas convenções coletivas de trabalho e nos termos de ajustamento de condutas vigentes na data de
+sua entrega em definitivo e que cumpre plenamente os requisitos de habilitação definidos no instrumento
+convocatório;
+b) Não emprega menor de 18 anos em trabalho noturno,
+perigoso ou insalubre e não emprega menor de
+16 anos, salvo menor, a partir de 14 anos, na condição de aprendiz, nos termos do artigo 7°, XXXIII, da
+Constituição;
+c) Não possui empregados executando trabalho degradante ou forçado,
+observando o disposto nos
+incisos III e IV do art. 1º e no inciso III do art. 5º da Constituição Federal
+;
+d)
+Cumpre as exigências de reserva de cargos
+para pessoa com deficiência e para reabilitado da
+Previdência Social, previstas em lei e em outras normas específicas.
+e)
+Cumpre as exigências de reserva destinada a contratação de Jovens aprendizes,
+nos Termos
+estabelecidos no artigo 429 da CLT combinada com a Lei do Aprendiz (Lei nº 10.097/2000).
+f)
+O licitante organizado em cooperativa deverá declarar, ainda, em campo próprio do sistema eletrônico, que
+cumpre os requisitos estabelecidos no
+artigo 16 da Lei nº 14.133, de 2021
+.
+g)
+O fornecedor enquadrado como
+microempresa, empresa de pequeno porte ou sociedade cooperativa
+deverá declarar,
+ainda, em campo próprio do sistema eletrônico, que cumpre os requisitos estabelecidos no
+artigo 3° da Lei Complementar nº 123, de 2006
+, estando apto a usufruir do tratamento favorecido estabelecido
+em seus
+arts. 42 a 49
+, observado o disposto nos
+§§ 1º ao 3º do art. 4º, da Lei n.º 14.133, de 2021.
+h)
+Que inexistem fatos impeditivos para sua habilitação no certame, ciente da obrigatoriedade de declarar
+ocorrências posteriores;
+4.2.2.
+A declaração falsa relativa ao cumprimento de qualquer condição sujeitará o licitante às sanções
+previstas na
+Lei nº 14.133, de 2021
+, e neste Edital.
+4.3.
+Para está LICITAÇÃO será permitida a participação em consórcio,
+sujeita às seguintes regras:
+observadas as disposições deste edital (e de suas partes integrantes) e da Lei, notadamente no tocante às regras
+do art. 15 da Lei nº. 14.133, de 1º de abril de 2021).
+a)
+As empresas consorciadas apresentarão instrumento público ou particular de compromisso de constituição
+de consórcio, subscrito por todas elas, indicando a empresa líder, que será responsável principal, perante a
+Unidade Requisitante, pelos atos praticados pelo Consórcio, sem prejuízo da responsabilidade solidária
+estabelecida na alínea “d”. Por meio do referido instrumento a empresa líder terá poderes para requerer,
+transigir, receber e dar quitação.
+b)
+Apresentação conjunta, mas individualizada, da documentação relativa à habilitação jurídica, à qualificação
+técnica, à qualificação econômico–financeira, à regularidade fiscal e à regularidade trabalhista. As consorciadas
+poderão somar seus quantitativos técnicos e econômico–financeiros, para o fim de atingir os limites fixados
+neste Edital relativamente à qualificação técnica e econômico–financeira. Não será admitida, contudo, a soma
+de índices de liquidez e endividamento, para fins de qualificação econômico–financeira;
+c)
+As empresas consorciadas não poderão participar da licitação isoladamente, nem por intermédio de mais de
+um consórcio;
+d)
+As empresas consorciadas responderão solidariamente pelos atos praticados em consórcio, tanto na fase da
+licitação quanto na da execução do objeto;
+e)
+O consórcio vencedor, quando for o caso, ficará obrigado a promover a sua constituição e registro antes da
+aquisição.
+4.3.1.
+As operações societárias promovidas por sociedades empresariais isoladamente ou por aquelas
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 4
+participantes de consórcio ou as alterações de composição de consórcio deverão ser submetidas à análise da
+Unidade Requisitante para aferição da manutenção das condições de habilitação ou verificação de suas
+implicações com o objeto da aquisição, que poderá ser extinto em qualquer hipótese de prejuízo ou elevação de
+risco para o seu cumprimento.
+4.3.2.
+A substituição e o ingresso de consorciado deverá ser expressa e previamente autorizada pela Unidade
+Requisitante e será condicionada à comprovação de que a empresa substituta/ingressante preenche os
+requisitos exigidos para habilitação jurídica e de regularidades fiscal, social e trabalhista, além da comprovação
+de que o consórcio mantém, no mínimo, os quantitativos originários para efeito de habilitação técnica e os
+mesmos valores para efeito de qualificação econômico –financeira apresentados à ocasião do certame.
+4.3.3.
+A empresa estrangeira, que concorrer isoladamente ou como líder de consórcio, deve informar endereço
+de representante em território brasileiro, com poderes para receber intimação e citação, bem como endereço
+eletrônico para comunicações.
+4.4. Não poderão disputar esta licitação: (Previstos nos Art. 9º e 14º da Lei 14.133/21)
+4.4.1.
+Autor do anteprojeto, do projeto básico ou do projeto executivo, pessoa física ou jurídica, quando a
+licitação versar sobre obra, serviços ou fornecimento de bens a ele relacionados;
+4.4.2.
+Empresa, isoladamente ou em consórcio, responsável pela elaboração do projeto básico ou do projeto
+executivo, ou empresa da qual o autor do projeto seja dirigente, gerente, controlador, acionista ou detentor de
+mais de 5% (cinco por cento) do capital com direito a voto, responsável técnico ou subcontratado, quando a
+licitação versar sobre obra, serviços ou fornecimento de bens a ela necessários;
+4.4.3. Pessoa física ou jurídica
+que se encontre, ao tempo da licitação, impossibilitada de participar da
+licitação em decorrência de sanção que lhe foi imposta;
+4.4.4.
+Aquele que mantenha vínculo de natureza técnica, comercial, econômica, financeira, trabalhista ou civil
+com dirigente do órgão ou entidade contratante ou com agente público que desempenhe função na licitação ou
+atue na fiscalização ou na gestão do contrato, ou que deles seja cônjuge, companheiro ou parente em linha reta,
+colateral ou por afinidade, até o terceiro grau, devendo essa proibição constar expressamente do edital de
+licitação;
+4.4.5.
+Empresas controladoras, controladas ou coligadas, nos termos da
+Lei nº 6.404, de 15 de dezembro de
+1976
+, concorrendo entre si;
+4.4.6.
+Pessoa física ou jurídica que, nos 5 (cinco) anos anteriores à divulgação do edital, tenha sido condenada
+judicialmente, com trânsito em julgado, por exploração de trabalho infantil, por submissão de trabalhadores a
+condições análogas às de escravo ou por contratação de adolescentes nos casos vedados pela legislação
+trabalhista.
+4.4.7.
+Agente público do órgão ou entidade licitante;
+4.4.8.
+Organizações da Sociedade Civil de Interesse Público - OSCIP, atuando nessa condição;
+4.4.9.
+Não poderá participar, direta ou indiretamente, da licitação ou da execução do contrato agente público
+do órgão ou entidade contratante, devendo ser observadas as situações que possam configurar conflito de
+interesses no exercício ou após o exercício do cargo ou emprego, nos termos da legislação que disciplina a
+matéria, conforme
+§ 1º do art. 9º da Lei nº 14.133, de 2021
+.
+4.4.10.
+Estrangeiros que não tenham representação legal no Brasil com poderes expressos para receber citação
+e responder administrativa e judicialmente;
+4.5.
+O impedimento de que trata o
+item
+4.4.3
+será também aplicado ao licitante que atue em substituição a
+outra pessoa, física ou jurídica, com o intuito de burlar a efetividade da sanção a ela aplicada, inclusive a sua
+controladora, controlada ou coligada, desde que devidamente comprovado o ilícito ou a utilização fraudulenta
+da personalidade jurídica do licitante.
+4.6.
+A critério da Administração e exclusivamente a seu serviço, o autor dos projetos e a empresa a que se
+referem os
+itens 4.4.1 e 4.4.2,
+poderão participar no apoio das atividades de planejamento da contratação, de
+execução da licitação ou de gestão do contrato, desde que sob supervisão exclusiva de agentes públicos do
+órgão ou entidade.
+4.7.
+Equiparam-se aos autores do projeto as empresas integrantes do mesmo grupo econômico.
+4.8.
+O disposto nos
+itens
+4.4.1.
+e 4
+.4.2
+neste artigo não impede a licitação ou a contratação de obra ou serviço
+que inclua como encargo do contratado a elaboração do projeto básico e do projeto executivo, nas contratações
+integradas, e do projeto executivo, nos demais regimes de execução.
+4.9.
+Em licitações e contratações realizadas no âmbito de projetos e programas parcialmente financiados por
+agência oficial de cooperação estrangeira ou por organismo financeiro internacional com recursos do
+financiamento ou da contrapartida nacional, não poderá participar pessoa física ou jurídica que integre o rol de
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 5
+pessoas sancionadas por essas entidades ou que seja declarada inidônea nos termos da
+Lei nº 14.133/2021
+.
+4.10.
+A vedação de que trata o
+item 4.4.7
+estende-se a terceiro que auxilie a condução da contratação na
+qualidade de integrante de equipe de apoio, profissional especializado ou funcionário ou representante de
+empresa que preste assessoria técnica.
+4.11.
+É vedado a qualquer interessado participar de licitação na qualidade, simultaneamente, de simples
+proponente e de integrante de consórcio assim como de integrante de dois ou mais consórcios.
+4.12. Em tempo, será analisado também:
+4.12.1.
+Suspensos de participar de licitações e impedidos de contratar com Prefeitura de Porto Velho/RO, nos
+termos do Art. 87, III, da Lei n. 8.666/1993 e do Art. 7º da Lei n.10.520/2002;
+(até que se encerre os prazos
+das sanções);
+4.12.2.
+Declarados inidôneos para licitar ou contratar com a Administração Pública, na forma do art.87,IV, da
+Lei n. 8.666/1993
+; (até que se encerre os prazos das sanções);
+4.12.3.
+Declarados inidôneos para licitar ou contratar com a Administração Pública, na forma do art.87,IV, da
+Lei n. 8.666/1993
+; (até que se encerre os prazos das sanções);
+4.12.4.
+Empresário proibido de contratar com o Poder público, nos termos do art. 12 da Lei n° 8.429/92 (Lei de
+Improbidade Administrativa), durante o prazo de sanção;
+4.13. Da participação das MICROEMPRESAS e EMPRESAS de PEQUENO PORTE e EQUIPARADA
+4.13.1.
+Será concedido tratamento favorecido para as microempresas e empresas de pequeno porte, para as
+sociedades cooperativas mencionadas no
+artigo
+16 da Lei nº 14.133, de 2021
+, para o agricultor familiar, o
+produtor rural pessoa física e para o microempreendedor individual - MEI, nos limites previstos da
+Lei
+Complementar nº 123, de 2006
+e do Decreto n.º 8.538, de 2015.
+4.13.1.1.
+O fornecedor enquadrado como microempresa, empresa de pequeno porte ou sociedade cooperativa
+deverá declarar, ainda, em campo próprio do sistema eletrônico, que cumpre os requisitos estabelecidos no
+artigo 3° da Lei Complementar nº 123, de
+2006
+, estando apto a usufruir do tratamento favorecido estabelecido
+em seus
+arts. 42 a 49
+, observado o disposto nos
+§§ 1º ao 3º do art. 4º, da Lei n.º 14.133, de 2021.
+4.13.2.
+Os licitantes interessados em usufruir dos benefícios estabelecidos pela Lei Complementar nº 123/2006
+e suas alterações, deverão atender às regras de identificação, atos e manifestação de interesse, bem como aos
+demais avisos emitidos pelo Agente de Contratação/Pregoeiro(a) ou pelo sistema eletrônico, nos momentos e
+tempos adequados.
+5. DA APRESENTAÇÃO DA PROPOSTA DE PREÇOS E DOCUMENTOS DE HABILITAÇÃO
+5.1.
+Os licitantes encaminharão, exclusivamente por meio do sistema eletrônico, a proposta com o preço ou o
+percentual de desconto, conforme o critério de julgamento adotado neste Edital, até a data e o horário
+estabelecidos para abertura da sessão pública.
+5.2.
+Não haverá ordem de classificação na etapa de apresentação da proposta e dos documentos de habilitação
+pelo licitante, o que ocorrerá somente após os procedimentos de abertura da sessão pública e da fase de envio
+de lances.
+5.3.
+Serão disponibilizados para acesso público os documentos que compõem a proposta dos licitantes
+convocados para apresentação de propostas, após a fase de envio de lances.
+5.4.
+Desde que disponibilizada a funcionalidade no sistema, o licitante poderá parametrizar o seu valor final
+mínimo ou o seu percentual de desconto máximo quando do cadastramento da proposta e obedecerá às
+seguintes regras:
+5.4.1.
+A aplicação do intervalo mínimo de diferença de valores ou de percentuais entre os lances, que incidirá
+tanto em relação aos lances intermediários quanto em relação ao lance que cobrir a melhor oferta; e
+5.4.2.
+Os lances serão de envio automático pelo sistema, respeitado o valor final mínimo, caso estabelecido, e o
+intervalo de que trata o subitem acima.
+5.5.
+O valor final mínimo ou o percentual de desconto final máximo parametrizado no sistema poderá ser
+alterado pelo fornecedor durante a fase de disputa, sendo vedado:
+5.5.1.
+Valor superior a lance já registrado pelo fornecedor no sistema, quando adotado o critério de julgamento
+por menor preço; e
+5.6.
+Caberá ao licitante interessado em participar da licitação acompanhar as operações no sistema eletrônico
+durante o processo licitatório e se responsabilizar pelo ônus decorrente da perda de negócios diante da
+inobservância de mensagens emitidas pela Administração ou de sua desconexão.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 6
+5.7.
+O licitante deverá comunicar imediatamente ao provedor do sistema qualquer acontecimento que possa
+comprometer o sigilo ou a segurança, para imediato bloqueio de acesso.
+5.8.
+As propostas registradas no Sistema
+NÃO DEVEM CONTER NENHUMA IDENTIFICAÇÃO DA
+EMPRESA PROPONENTE
+, visando atender o princípio da impessoalidade e preservar o sigilo das propostas.
+Em caso de identificação da licitante na proposta registrada, esta será
+DESCLASSIFICADA
+pelo (a) Agente de
+Contratação/Pregoeiro (a).
+6. DO PREENCHIMENTO DA PROPOSTA
+6.1.
+O licitante deverá inserir sua proposta mediante o preenchimento, no sistema eletrônico, dos seguintes
+campos:
+a) Valor unitário e total;
+b) Descrição detalhada do objeto, contendo as informações similares à especificação do Termo de Referência;
+indicando, no que for aplicável, o modelo, prazo de validade ou de garantia, número do registro ou inscrição do
+bem no órgão competente, quando for o caso;
+6.2.
+Todas as especificações do objeto contidas na proposta vinculam o licitante.
+6.3.
+Nos valores propostos estarão inclusos todos os custos operacionais, encargos previdenciários, trabalhistas,
+tributários, comerciais e quaisquer outros que incidam direta ou indiretamente na execução do objeto.
+6.4.
+Os preços ofertados, tanto na proposta inicial, quanto na etapa de lances, serão de exclusiva
+responsabilidade do licitante, não lhe assistindo o direito de pleitear qualquer alteração, sob alegação de erro,
+omissão ou qualquer outro pretexto.
+6.5.
+Se o regime tributário da empresa implicar o recolhimento de tributos em percentuais variáveis, a cotação
+adequada será a que corresponde à média dos efetivos recolhimentos da empresa nos últimos doze meses.
+6.6.
+Independentemente do percentual de tributo inserido na planilha, no pagamento serão retidos na fonte os
+percentuais estabelecidos na legislação vigente.
+6.7.
+A apresentação das propostas implica obrigatoriedade do cumprimento das disposições nelas contidas, em
+conformidade com o que dispõe o Termo de Referência, assumindo o proponente o compromisso de executar o
+objeto licitado nos seus termos, bem como de fornecer os materiais, equipamentos, ferramentas e utensílios
+necessários, em quantidades e qualidades adequadas à perfeita execução contratual, promovendo, quando
+requerido, sua substituição.
+6.8.
+O prazo de validade da proposta não será inferior a
+90 (noventa) dias,
+a contar da data de sua
+apresentação. Os licitantes devem respeitar os preços máximos estabelecidos nas normas de regência de
+contratações públicas federais, quando participarem de licitações públicas;
+6.9.
+O descumprimento das regras supramencionadas pela Administração por parte dos contratados pode
+ensejar a responsabilização pelo Tribunal de Contas da União e, após o devido processo legal, gerar as
+seguintes consequências: assinatura de prazo para a adoção das medidas necessárias ao exato cumprimento da
+lei, nos termos do art. 71, inciso IX, da Constituição; ou condenação dos agentes públicos responsáveis e da
+empresa contratada ao pagamento dos prejuízos ao erário, caso verificada a ocorrência de superfaturamento
+por sobrepreço na execução do contrato.
+7. DA ABERTURA DA SESSÃO, CLASSIFICAÇÃO DAS PROPOSTAS E FORMULAÇÃO DE LANCES
+7.1. Da abertura da sessão;
+7.1.1.
+A abertura da presente licitação conduzida pelo
+Agente de Contratação/Pregoeiro(a)
+, dar-se-á em sessão
+pública, por meio de sistema eletrônico, na data, horário e local indicados neste Edital.
+7.1.2.
+Os licitantes poderão retirar ou substituir a proposta ou os documentos de habilitação, quando for o caso,
+anteriormente inseridos no sistema, até a abertura da sessão pública.
+7.1.3.
+Este edital poderá ser republicado para atualização dos preços registrados em decorrência deste pregão,
+com a indicação da data e da hora de realização da sessão pública, dos quantitativos atualizados, se for o caso, e
+do novo orçamento estimado, observada a mesma publicidade do certame inicial.
+7.1.4.
+Durante a sessão pública, a comunicação entre o
+Agente de Contratação/Pregoeiro(a)
+e os licitantes
+ocorrerá exclusivamente mediante troca de mensagens, em campo próprio do sistema eletrônico.
+7.1.5.
+Cabe ao licitante acompanhar as operações no sistema eletrônico durante a sessão pública do pregão,
+ficando responsável pelo ônus decorrente da perda de negócios diante da inobservância de qualquer mensagem
+emitida pelo sistema ou por estar desconectado do sistema, inclusive quanto ao não encaminhamento de
+documento afeto à proposta.
+7.2. Da classificação das propostas:
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 7
+7.2.1.
+O sistema ordenará automaticamente as propostas classificadas, sendo que somente estas participarão
+da fase de lances.
+7.2.2.
+As propostas cadastradas pelos licitantes no sistema eletrônico que descumprirem as exigências do edital
+quanto à forma de sua apresentação e/ou apresentarem erros que prejudiquem a oferta de lances e o caráter
+competitivo do certame também serão desclassificadas, mediante decisão fundamentada do
+Agente de
+Contratação/Pregoeiro(a)
+. Conforme art. 59 da Lei nº 14.133/2021.
+7.2.3.
+Somente os licitantes com propostas classificadas participarão da fase de lances.
+7.2.4.
+O julgamento da Proposta de Preços dar-se-á pelo critério de
+MENOR PREÇO POR ITEM,
+observadas
+as especificações técnicas e os parâmetros mínimos de desempenho definidos no Edital.
+7.2.5.
+Os preços unitários e totais referidos no ITEM anterior, deverão, evidentemente, estar compatíveis aos de
+mercado, estimados pela Administração;
+7.3. Da formulação de Lances;
+7.3.1.
+Aberta a etapa competitiva, os licitantes classificados deverão encaminhar lances sucessivos
+exclusivamente por meio do sistema eletrônico, sendo imediatamente informados do horário e do valor
+consignado no registro de cada lance.
+7.3.2.
+O lance deverá ser ofertado pelo valor unitário do ITEM.
+7.3.3.
+As licitantes poderão oferecer lances menores e sucessivos, observado o horário fixado e as regras de sua
+aceitação, de acordo com o tipo de licitação indicada no preâmbulo deste Edital;
+7.3.4.
+O intervalo mínimo de diferença de valores ou percentuais entre os lances, que incidirá tanto em relação
+aos lances intermediários quanto em relação à proposta que cobrir a melhor oferta deverá ser
+R$ 0,01 (um
+centavo);
+7.3.5.
+O licitante poderá, uma única vez, excluir seu último lance ofertado, no intervalo de quinze segundos
+após o registro no sistema, na hipótese de lance inconsistente ou inexequível.
+7.3.6.
+Será adotado para o envio de lances no pregão eletrônico
+o modo de disputa “ABERTO”,
+em que os
+licitantes apresentarão lances públicos e sucessivos, com prorrogações.
+7.3.6.1.
+A etapa de lances da sessão pública terá duração de 10 (dez) minutos e, após isso, será prorrogada
+automaticamente pelo sistema quando houver lance ofertadonosúltimos2(dois) minutos do período de duração
+da sessão pública.
+7.3.6.2.
+A prorrogação automática da etapa de lances, de que trata o item anterior, será de 2 (dois) minutos e
+ocorrerá sucessivamente sempre que houver lances enviados nesse período de prorrogação, inclusive no caso de
+lances intermediários.
+7.3.6.3.
+Não havendo novos lances na forma estabelecida nos itens anteriores, a sessão pública será encerrada
+automaticamente.
+7.3.6.4.
+Definida a melhor proposta, se a diferença em relação à proposta classificada em segundo lugar for de
+pelo menos 5% (cinco por cento), o
+Agente de Contratação/Pregoeiro(a)
+, auxiliado pela equipe de apoio, poderá
+admitir o reinício da disputa aberta, para a definição das demais colocações, conforme previsto no art. 56 §4°,
+da Lei n° 14.133/2021.
+7.3.6.5.
+Após o reinício previsto no item supra, os licitantes serão convocados para apresentar lances
+intermediários.
+7.3.7.
+Encerrada a fase competitiva sem que haja a prorrogação automática pelo sistema, poderá o
+Agente de
+Contratação/Pregoeiro(a)
+, assessorado pela equipe de apoio, justificadamente, admitir o reinício da sessão
+pública de lances, em prol da consecução do melhor preço.
+7.3.8.
+Os lances apresentados e levados em consideração para efeito de julgamento serão de exclusiva e total
+responsabilidade do licitante, não lhe cabendo o direito de pleitear qualquer alteração.
+7.3.9.
+Durante a fase de lances, o
+Agente de Contratação/Pregoeiro(a)
+poderá excluir, justificadamente, lance
+cujo valor seja manifestamente inexequível.
+7.3.9.1.
+A exclusão de lance é possível somente durante a fase de lances, conforme possibilita o sistema
+eletrônico, ou seja, antes do encerramento do item;
+7.3.10.
+Se ocorrer a desconexão do
+Agente de Contratação/Pregoeiro(a)
+no decorrer da etapa de lances, mas o
+sistema eletrônico permanecer acessível aos licitantes, os lances continuarão sendo recebidos, sem prejuízo dos
+atos realizados.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 8
+7.3.11.
+No caso de a desconexão do Agente de Contratação/Pregoeiro(a) persistir por tempo superior a 10 (dez)
+minutos, a sessão do pregão será suspensa automaticamente e terá reinício somente após comunicação
+expressa aos participantes no sítio
+https://www.comprasnet.gov.br/
+7.3.12.
+O
+Agente de Contratação/Pregoeiro(a)
+, quando possível, dará continuidade a sua atuação no certame,
+sempre juízo dos atos realizados;
+7.4. Do benefício às MICROEMPRESAS e às EMPRESAS de P
+EQUENO PORTE;
+7.4.1.
+Para todos os efeitos, aplicam-se à presente licitação todos os direitos assegurados às micro e pequenas
+empresas na Lei Complementar n. 123/2006.
+7.4.2.
+A obtenção de benefícios previstos dos artigos 42 a 49 da L
+ei Complementar n. 123/2006 fica limitada às
+microempresas e às empresas de pequeno porte que, no ano-calendário de realização da licitação, ainda não
+tenham celebrado contratos com a Administração Pública cujos valores soma dos extrapolem a receita bruta
+máxima admitida para fins de enquadramento como empresa de pequeno porte, devendo o licitante apresentar
+declaração de observância desse limite juntamente para fins de habilitação.
+7.4.3.
+Após a fase de lances, se a proposta mais bem classificada não tiver sido apresentada por microempresa
+ou empresa de pequeno porte apta a usufruir dos benefícios e se houver proposta de microempresa ou empresa
+de pequeno porte igual ou até 5% (cinco por cento) superior à proposta mais bem classificada, se procederá da
+seguinte forma:
+I. A microempresa ou a empresa de pequeno porte mais bem classificada poderá, noprazode5 (cinco) minutos,
+apresentar proposta de preço inferior à do licitante mais bem classificado e, se atendidas as exigências deste
+edital, ser adjudicatária;
+II. Não sendo adjudicatária a microempresa ou empresa de pequeno porte mais bem classificada na forma do
+subitem anterior, e havendo outros licitantes que se enquadrem na condição prevista no caput deste item, estes
+serão convocados, na ordem classificatória, para o exercício do mesmo direito;
+III. O convocado que não apresentar proposta dentro do prazo de 5 (cinco) minutos, controlado pelo sistema
+eletrônico, decairá do direito previsto nos arts. 44 e 45 da Lei Complementar n.123/2006.
+7.4.4.
+Na hipótese de não adjudicação nos termos previstos nesta cláusula, o procedimento licitatório
+prosseguirá com os demais licitantes.
+7.5. Dos critérios gerais para desempate entre propostas:
+7.5.1.
+Havendo eventual empate entre propostas ou lances, o critério de desempate será aquele previsto no art.
+60 da Lei nº 14.133, de 2021, e art. 28 do
+DECRETO Nº 18.892, DE 30 DE MARÇO DE 2023 que
+regulamenta a Lei nº 14.133, de 1º de abril de 2021, no Município de Porto Velho e dá outras providências nesta
+ordem:
+7.5.2.
+Disputa final, hipótese em que os licitantes empatados poderão apresentar nova proposta em ato
+contínuo à classificação;
+7.5.3.
+Avaliação do desempenho contratual prévio dos licitantes;
+7.5.4.
+Desenvolvimento pelo licitante de ações de equidade entre homens e mulheres no ambiente de trabalho,
+conforme regulamento;
+7.5.5.
+Desenvolvimento pelo licitante de programa de integridade, conforme orientações dos órgãos de
+controle;
+7.5.6.
+Persistindo o empate, será assegurada preferência, sucessivamente, aos bens e serviços produzidos ou
+prestados por:
+7.5.6.1.
+Empresas estabelecidas no território do Estado ou do Distrito Federal do órgão ou entidade da
+Administração Pública estadual ou distrital licitante ou, no caso de licitação realizada por órgão ou entidade de
+Município, no território do Estado em que este se localize;
+7.5.6.2.
+Empresas brasileiras;
+7.5.6.3.
+Empresas que invistam em pesquisa e no desenvolvimento de tecnologia no País;
+7.5.6.4.
+Empresas que comprovem a prática de mitigação, nos termos da Lei nº12.187/2009.
+7.6.
+Se o empate persistir
+serão utilizados os critérios de desempates da
+Instrução Normativa (IN) nº 79, de 12
+de setembro de 2024
+.
+§ 1º Empatadas as propostas iniciais e não havendo o envio de lances após o início da fase competitiva, aplicam-
+se os critérios de desempate de que trata o caput.
+(Redação dada pela IN nº 79, de 2024).
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 9
+§ 2º Permanecendo empate após aplicação de todos os critérios de desempate de que trata o caput, proceder-se-
+á a
+sorteio das propostas empatadas a ser realizado em ato público
+, para o qual todos os licitantes serão
+convocados, vedado qualquer outro processo. (
+Redação dada pela IN nº 79, de 2024).
+7.7.
+Na hipótese do “sorteio” a sessão pública será efetuada de forma presencial, podendo qualquer interessado
+participar, sendo transmitida em canal oficial indicado pela
+Secretaria Municipal de Contratos, Convênios e
+Licitações – SMCL
+, sendo observado os procedimentos, a saber:
+a) Informação no chat da sessão pública quanto: data, hora e local da sessão para o procedimento de desempate
+das propostas, a ser realizado no site Sorteador.com.br! (ou outro compatível);
+b) Por ordem alfabética, será disponibilizado a indicação dos nomes das licitantes, que se encontram em
+situação de propostas empatadas, no site indicado na alínea "a" do subitem 7.7;
+c) A primeira licitante sorteada, será a primeira classificada. A sequência classificatória das propostas
+empatadas seguirá em ordem sucessiva;
+d) A sessão será oficialmente encerrada após a conclusão desses procedimentos, e o registro audiovisual da
+sessão permanecerá para visualização no canal oficial da
+Secretaria Municipal de Contratos, Convênios e
+Licitações – SMCL.
+e) Haverá transmissão ao vivo da sessão do sorteio nos canais indicados pela SMCL ou no Youtube ou outra
+plataforma de streaming; os endereços serão informados no chat pelo Agente de Contratação/Pregoeiro(a).
+f) Haverá lavratura de ata de sorteio, com presença de testemunhas, que será incluída no processo
+administrativo.
+8. DA ACEITABILIDADE DA PROPOSTA
+8.1.
+Encerrada a etapa de envio de lances da sessão pública, na hipótese da proposta do primeiro colocado
+permanecer acima do preço máximo ou inferior ao desconto definido para a contratação, o Agente de
+contratação/Pregoeiro(a) poderá negociar condições mais vantajosas, após definido o resultado do julgamento.
+8.2.
+O Agente de contratação/Pregoeiro(a) iniciará os procedimentos necessários à aceitabilidade da proposta
+de melhor preço e verificará a conformidade da marca e modelo informados ou especificação técnica dos
+serviços com as exigências contidas neste edital e a compatibilidade do preço ofertado com o valor estimado
+para a contratação, podendo solicitar, se necessário, a planilha de composição de custos adequada ao lance
+equivalente à proposta de melhor preço no prazo estipulado no chat durante a sessão.
+8.3.
+A negociação poderá ser feita com os demais licitantes, segundo a ordem de classificação inicialmente
+estabelecida, quando o primeiro colocado, mesmo após a negociação, for desclassificado em razão de sua
+proposta permanecer acima do preço máximo definido pela Administração.
+8.4.
+A negociação será realizada por meio do sistema, podendo ser acompanhada pelos demais licitantes.
+8.5.
+O resultado da negociação será divulgado a todos os licitantes e anexado aos autos do processo licitatório.
+8.6. Será DESCLASSIFICADA a proposta vencedora que:
+8.6.1.
+Contiver vícios insanáveis;
+8.6.2.
+Não obedecer às especificações técnicas contidas no Termo de Referência e edital;
+8.6.3.
+Apresentar preços inexequíveis ou permanecerem acima do preço máximo definido para a contratação;
+8.6.4.
+Não tiverem sua exequibilidade demonstrada, quando exigido pela Administração;
+8.6.5.
+Apresentar desconformidade com quaisquer outras exigências deste Edital ou seus anexos, desde que
+insanável.
+8.6.6.
+No caso de bens e serviços em geral, é indício de inexequibilidade das propostas valores inferiores a 50%
+(cinquenta por cento) do valor orçado pela Administração.
+8.6.6.1.
+A inexequibilidade, na hipótese de que trata o caput, só será considerada após diligência do
+Agente de
+Contratação/Pregoeiro(a)
+, que comprove:
+8.6.6.1.1.
+Que o custo do licitante ultrapassa o valor da proposta; e
+8.6.6.1.2.
+Inexistirem custos de oportunidade capazes de justificar o vulto da oferta.
+8.6.7.
+Se houver indícios de inexequibilidade da proposta de preço, ou em caso da necessidade de
+esclarecimentos complementares, poderão ser efetuadas diligências, para que a empresa comprove a
+exequibilidade da proposta.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 10
+8.6.8
+. Caso o custo global estimado do objeto licitado tenha sido decomposto em seus respectivos custos
+unitários por meio de Planilha de Custos e Formação de Preços elaborada pela Administração, o licitante
+classificado em primeiro lugar será convocado para apresentar Planilha por ele elaborada, com os respectivos
+valores adequados ao valor final da sua proposta, sob pena de não aceitação da proposta. (SE FOR O CASO).
+8.6.9.
+Erros no preenchimento da planilha não constituem motivo para a desclassificação da proposta. A
+planilha poderá ser ajustada pelo fornecedor, no prazo indicado pelo sistema, desde que não haja majoração do
+preço.
+8.6.10.
+O ajuste de que trata este dispositivo se limita a sanar erros ou falhas que não alterem a substância das
+propostas;
+8.6.11.
+Considera-se erro no preenchimento da planilha passível de correção a indicação de recolhimento de
+impostos e contribuições na forma do Simples Nacional, quando não cabível esse regime.
+8.7. Das correções admissíveis;
+8.7.1.
+Nos casos em que o
+Agente de Contratação/Pregoeiro(a)
+constatar a existência de erros numéricos nas
+propostas de preços, sendo estes não significativos, proceder-se-á as correções necessárias para a apuração do
+preço final da proposta, obedecendo às seguintes disposições:
+8.7.1.1.
+Havendo divergências entre o preço final registrado sob a forma numérica e o valor apresentado por
+extenso, prevalecerá este último; .
+8.7.1.2.
+Havendo divergências nos subtotais, provenientes dos produtos de quantitativos por preços unitários, o
+Agente de Contratação/Pregoeiro(a)
+procederá à correção dos subtotais, mantendo os preços unitários e
+alterando em consequência o valor da proposta
+8.8.
+A aceitação da proposta poderá ocorrer em momento ou data posterior à sessão de lances, a critério do
+Agente de Contratação/Pregoeiro(a)
+que comunicará às Licitantes através do sistema eletrônico;
+9. DA PROPOSTA FINAL ATUALIZADA
+9.1.
+O
+Agente de Contratação/Pregoeiro(a)
+solicitará ao licitante mais bem classificado que, no prazo mínimo de
+até 2 (duas) horas, envie a proposta adequada ao último lance ofertado após a negociação realizada,
+acompanhada, se for o caso, dos documentos complementares, quando necessários à confirmação daqueles
+exigidos neste Edital e já apresentados. Observar o modelo do anexo II – Formulário de Apresentação da
+Proposta.
+9.1.1.
+Deverá ANEXAR sua proposta de preços no sistema eletrônico, contendo:
+a) Número do item;
+b) Quantidade / Unidade;
+c) Descrição detalhada do objeto; (especificação do produto ofertado);
+d) Marca/Modelo/Versão/Classificação;
+e) Valor Unitário e Valor Total por item.
+9.1.2.
+INDICAÇÃO EXPRESSA
+DA MARCA, MODELO, PRAZO E LOCAL DE ENTREGA, BEM COMO
+PRAZO DE VALIDADE DA PROPOSTA NÃO INFERIOR À 90 (NOVENTA) DIAS.
+9.1.3.
+O prazo de envio poderá ser prorrogado por solicitação do licitante convocado ou por decisão do
+Agente
+de Contratação/Pregoeiro(a)
+, ambas as opções devidamente justificadas.
+9.1.4.
+O licitante que abandonar o certame, deixando de enviar a documentação indicada no item 9.1, será
+desclassificado e sujeitar-se-á às sanções previstas neste Edital.
+9.2.
+A proposta enviada via sistema, após convocação do
+Agente de Contratação/Pregoeiro(a)
+, deverá obedecer
+às condições previstas no
+item 6 e subitens deste Edital;
+9.2.1.
+O ENVIO DA PROPOSTA DE PREÇOS AJUSTADA, E SEUS ANEXOS (QUANDO SOLICITADO), DEVERÁ
+SER ANEXADA CORRETAMENTE NO SISTEMA COMPRAS.GOV, SENDO ESTA COMPACTADA ARQUIVO
+ÚNICO EDITÁVEL (excel, word, Zip, doc, docx, .JPGou PDF);
+9.2.2.
+O AGENTE DE CONTRATAÇÃO/PREGOEIRO(A) CONVOCARÁ A LICITANTE EM RELAÇÃO A
+SOMENTE UM ÚNICO ITEM PARA ENVIO DA PROPOSTA DE PREÇOS E/OU DOCUMENTOS
+COMPLEMENTARES, EM ANEXO NO SISTEMA COMPRASNET, A QUAL TERÁ EFEITO PARA TODOS
+OS ITENS QUE A EMPRESA ENCONTRA-SE PARTICIPANDO.
+9.3.
+Dentre os documentos passíveis de solicitação pelo
+Agente de Contratação/Pregoeiro(a)
+, destacam-se os
+que contenham as características do material ofertado, tais como marca, modelo, tipo, fabricante e procedência,
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 11
+além de outras informações pertinentes, a exemplo de catálogos, folhetos ou propostas, encaminhados por meio
+eletrônico, ou, se for o caso, por outro meio e prazo indicados pelo
+Agente de Contratação/Pregoeiro(a)
+, sempre
+juízo do seu ulterior envio pelo sistema eletrônico, sob pena de não aceitação da proposta.
+9.4.
+Se a proposta ou lance vencedor for desclassificado, o
+Agente de Contratação/Pregoeiro(a)
+examinará a
+proposta ou lance subsequente, e, assim sucessivamente, na ordem de classificação.
+9.5.
+Havendo necessidade, o
+Agente de Contratação/Pregoeiro(a)
+suspenderá a sessão, informando no “chat” a
+nova data e horário para a sua continuidade.
+9.6.
+Nos itens não exclusivos para a participação de microempresas e empresas de pequeno porte, sempre que
+a proposta não for aceita, e antes de o
+Agente de Contratação/Pregoeiro(a)
+passar à subsequente, haverá nova
+verificação, pelo sistema, da eventual ocorrência do empate ficto, previsto nos artigos 44e45daLCnº 123, de
+2006, seguindo-se a disciplina antes estabelecida, se for o caso.
+9.7.
+Serão aceitos somente lances em moeda corrente nacional (R$), com
+VALORES
+UNITÁRIOS E TOTAIS
+com no máximo 02 (duas) casas decimais,
+considerando as quantidades constantes no ANEXO I – TERMO
+DE REFERÊNCIA. Caso seja encerrada a fase de lances, e a licitante divergir com o exigido, o
+Agente de
+Contratação/Pregoeiro(a)
+, poderá convocar no CHAT MENSAGEM para atualização do referido lance, e/ou
+realizar a atualização dos valores arredondando-os PARA MENOS.
+9.8.
+O licitante deverá apresentar junto a proposta, sob pena de desclassificação, declaração de que suas
+propostas econômicas compreendem a integralidade dos custos para atendimento dos direitos trabalhistas
+assegurados na Constituição Federal, nas leis trabalhistas, nas normas infralegais, nas convenções coletivas de
+trabalho e nos termos de ajustamento de condutas vigentes na data de entrega das propostas. (modelo próprio).
+9.9. Quando for o caso da licitação as licitantes deverão atender os itens:
+9.9.1.
+PARA COTA RESERVA
+, na hipótese de não haver vencedor, este poderá ser adjudicada ao vencedor da
+COTA PRINCIPAL
+ou, diante de sua recusa, aos licitantes remanescentes, desde que pratiquem o preço do
+primeiro colocado.
+9.9.2.
+Se a mesma
+EMPRESA
+vencer a
+COTA RESERVA
+e a
+COTA PRINCIPAL
+, a contratação das cotas
+deverá ocorrer pelo menor preço.
+9.10.
+Caso atendidas as condições da proposta de preços, será iniciado o procedimento de habilitação.
+9.11.
+Conforme previsão do artigo 63, inciso II da Lei 14.133/21, será exigida a
+apresentação dos
+documentos de habilitação apenas do licitante vencedor.
+10. DA FASE DE HABILITAÇÃO
+10.1.
+Como condição prévia ao exame da documentação de habilitação da licitante detentora da proposta
+classificada em primeiro lugar, o Agente de Contratação/Pregoeiro (a) verificará o eventual descumprimento das
+condições de participação, especialmente quanto à existência de sanção que impeça a sua participação no
+certame ou a futura contratação, mediante a consulta aos seguintes cadastros:
+a)
+Sistema de Cadastramento Unificado de Fornecedores – SICAF;
+b)
+Sistema de Cadastro de Fornecedores do Município de Porto Velho – SISCAF;
+c)
+Consulta consolidada de Pessoa Jurídica - TCU Inidôneos - Licitantes Inidôneos; CNJ CNIA - Cadastro
+Nacional de Condenações Cíveis por Ato de Improbidade Administrativa e Inelegibilidade; CEIS - Cadastro
+Nacional de Empresas Inidôneas e Suspensas e CNEP - Cadastro Nacional de Empresas Punidas
+https://certidoes-apf.apps.tcu.gov.br/
+.
+d)
+Consulta consolidada de Pessoa Física - Serviço automatizado para emitir ou validar certidões negativas
+referentes a punições vigentes contidas nos cadastros CEIS, CNEP e CEPIM, bem como de procedimentos
+acusatórios em andamento em desfavor do ente privado.
+https://certidoes.cgu.gov.br/
+.
+10.1.1.
+A consulta aos Cadastros acima será realizada em nome e no CNPJ da empresa licitante e também de
+seu sócio majoritário, por força do art. 12 da Lei n. 8.429/1992 que prevê, dentre as sanções impostas ao
+responsável pela prática de ato de improbidade administrativa, a proibição de contratar com o Poder Público,
+inclusive por intermédio de pessoa jurídica da qual seja sócio majoritário.
+10.1.2.
+A documentação de habilitação das Licitantes poderá ser substituída pelo Sistema de Cadastramento de
+Fornecedores – SICAF e/ou pelo Sistema de Cadastro de Fornecedores do Município de Porto Velho - SISCAF,
+NOS DOCUMENTOS POR ELES ABRANGIDOS
+, assegurado aos demais licitantes o direito de acesso aos
+dados constantes dos sistemas.
+10.1.3.
+É dever do licitante atualizar previamente as comprovações constantes do
+SICAF ou SISCAF
+para que
+estejam vigentes na data da abertura da sessão pública, ou encaminhar, em conjunto com a apresentação da
+proposta, a respectiva documentação atualizada.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 12
+10.1.4
+. O descumprimento do subitem acima implicará a inabilitação do licitante, exceto se a
+consulta aos
+sítios eletrônicos
+oficiais emissores de certidões feita pelo Agente de Contratação/Pregoeiro (a) lograr êxito
+em encontrar a(s) certidão(ões) válida(s).
+10.1.5.
+Os cadastros supramencionados serão consultados pelo(a) Agente de Contratação/Pregoeiro (a), onde
+seus respectivos certificados, relatórios e declarações, serão incluídos aos autos.
+10.1.6.
+Será verificado se o licitante apresentou declaração de que atende aos requisitos de habilitação, e o
+declarante responderá pela veracidade das informações prestadas, na forma da lei (
+art. 63, I, da Lei nº
+14.133/2021
+).
+10.1.7. S
+erá exigida do licitante declaração de que cumpre as exigências de reserva de cargos para pessoa com
+deficiência e para reabilitado da Previdência Social, previstas em lei e em outras normas específicas.
+(modelo
+próprio)
+10.1.8.
+Será exigida do licitante declaração que não emprega menor de 18 anos em trabalho noturno, perigoso
+ou insalubre e não emprega menor de 16 anos, salvo menor, a partir de 14 anos, na condição de aprendiz, nos
+termos do
+artigo 7°, XXXIII, da Constituição
+. (modelo próprio).
+10.1.9.
+Será exigida do licitante
+DECLARAÇÃO DE INEXISTÊNCIA DE VÍNCULO DE PARENTESCO COM
+AGENTE PÚBLICO nos termos do
+Art. 14, IV, da Lei n. 14.133/2021. (modelo anexo).
+10.2. Relativos a HABILITAÇÃO JURÍDICA
+10.2.
+1.
+A habilitação jurídica visa a demonstrar a capacidade de o licitante exercer direitos e assumir
+obrigações, e a documentação a ser apresentada por ele limita-se à comprovação de existência jurídica da
+pessoa e, quando cabível, de autorização para o exercício da atividade a ser contratada. Deverá apresentar:
+a) No caso de empresário individual:
+inscrição no Registro Público de Empresas Mercantis, a cargo da Junta
+Comercial da respectiva sede;
+b) No caso de Microempreendedor Individual – MEI:
+Certificado da Condição de Microempreendedor
+Individual – CCMEI, cuja aceitação ficará condicionada à verificação da autenticidade no sítio
+www.portaldoempreendedor.gov.br
+;
+c) No caso de sociedade empresária ou empresa individual de responsabilidade limitada - EIRELI:
+ato
+constitutivo, estatuto ou contrato social em vigor, devidamente registrado na Junta Comercial da respectiva
+sede, acompanhado de documento comprobatório de seus administradores;
+d) No caso de sociedade simples:
+inscrição do ato constitutivo no Registro Civil das Pessoas Jurídicas do local
+de sua sede, acompanhada de prova da indicação dos seus administradores;
+e) No caso de microempresa ou empresa de pequeno porte:
+certidão expedida pela Junta Comercial ou
+pelo Registro Civil das Pessoas Jurídicas, conforme o caso, que comprove a condição de microempresa ou
+empresa de pequeno porte, nos termos da Lei 123/06 e alterações;
+f) No caso de empresa ou sociedade estrangeira em funcionamento no País:
+decreto de autorização;
+(caso o licitante seja dispensado de tal registro, por força de dispositivo legal, deverá apresentar o documento
+comprobatório ou declaração correspondente, sob as penas da lei).
+10.2.2.
+Os documentos acima deverão estar acompanhados de todas as alterações ou da consolidação
+respectiva.
+10.3. Relativos a REGULARIDADE FISCAL E TRABALHISTA
+10.3.1.
+Os documentos relativos à regularidade fiscal, social e trabalhista serão aferidas mediante a verificação
+dos seguintes requisitos:
+a)
+A inscrição no Cadastro de Pessoas Físicas (CPF) ou no Cadastro Nacional da Pessoa Jurídica (CNPJ);
+b) Inscrição no cadastro de contribuintes estadual e/ou municipal,
+se houver, relativo ao domicílio ou
+sede do licitante, pertinente ao seu ramo de atividade e compatível com o objeto contratual;
+c) Prova de regularidade para com a Fazenda Federal, mediante apresentação da
+Certidão negativa de
+débitos
+ou “certidão positiva com efeito de negativo” relativos a tributos Federais e à Dívida Ativa da
+União;
+d) Prova de regularidade para com a Fazenda Estadual,
+mediante apresentação de Certidão Negativa de
+Débitos e Tributos Estaduais ou “
+certidão positiva com efeito de negativo
+”, expedida pela Secretaria de
+Estado da Fazenda, do domicílio ou sede da proponente;
+e) Prova de regularidade para com a Fazenda Municipal,
+mediante apresentação de Certidão Negativa de
+Tributos Municipais ou “
+certidão positiva com efeito de negativo”
+, expedida pela Secretaria Municipal da
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 13
+Fazenda, do domicílio ou sede da proponente;
+f) Prova de regularidade relativa ao Fundo de Garantia por Tempo de Serviços (FGTS),
+demonstrando
+situação regular no cumprimento dos encargos sociais instituídos por lei;
+g) Prova de inexistência de
+Débitos Trabalhistas,
+mediante a apresentação de certidão negativa ou
+“certidão positiva com efeito de negativo”
+fornecida pelo órgão competente, nos termos do Título VII-A da
+Consolidação das Leis do Trabalho.
+10.4.
+Relativos a
+QUALIFICAÇÃO ECONÔMICO-FINANCEIRA
+10.4.1.
+A habilitação econômico-financeira visa a demonstrar a aptidão econômica do licitante para cumprir as
+obrigações decorrentes do futuro contrato, devendo ser comprovada de forma objetiva, por coeficientes e
+índices econômicos previstos no edital, devidamente justificados no processo licitatório, e será restrita à
+apresentação da seguinte documentação:
+10.4.2.
+Certidão negativa de feitos sobre falência, recuperação judicial ou extrajudicial, expedida pelo
+distribuidor da sede do licitante;
+10.4.3. Balanço patrimonial e demonstrações de resultado do exercício e demais demonstrações
+contábeis dos 2 (dois) últimos exercícios sociais,
+já exigíveis e apresentados na forma da lei, que
+comprovem a boa situação financeira da empresa, vedada a sua substituição por balancetes ou balanços
+provisórios, podendo ser atualizados por índices oficiais quando encerrado há mais de 3 (três) meses da data de
+apresentação da proposta;
+10.4.
+4.
+No caso de Sociedade Civil (Sociedade Simples e Sociedade Cooperativa) ou comercial (sociedade
+empresária em geral) deverão apresentar da empresa, Termo de Abertura e de Encerramento e devidamente
+assinado pelo responsável pela empresa designado no Ato Constitutivo da sociedade, e também técnico em
+contabilidade, contador ou outro profissional, legalmente habilitado perante o Conselho Regional de
+Contabilidade, constando nome completo e registro profissional. Tais documentos terão que obedecer aos
+requisitos formais de elaboração estabelecidos em lei, devidamente registrado/autenticado pelo órgão
+competente.
+10.4.5. Em se tratando de Sociedade por Ações
+(Sociedade Empresária do Tipo S.A.), o balanço deverá ser
+apresentado por publicação no Diário Oficial.
+10.4.6. As Microempresas (ME) ou Empresas de Pequeno Porte (EPP)
+, ainda que sejam enquadradas no
+SIMPLES, deverão apresentar Balanço Patrimonial referente aos
+02 (dois) últimos exercícios sociais
+exigíveis, assinado por Contador ou Técnico em contabilidade, legalmente habilitados, constando nome
+completo e registro profissional, ficando dispensadas de apresentar os Termos de Abertura e de Encerramento.
+10.4.7. O MEI (Micro Empreendedor Individual)
+para fins da habilitação econômico-financeira deverá
+apresentar a Declaração Anual Simplificada para o Microempreendedor Individual (DASN-SIMEI) ou sua
+substituta, a Declaração Única do MEI (DUMEI). Caso o MEI tenha sido constituído no mesmo exercício do
+lançamento da licitação, deverá apresentar os relatórios mensais de receita bruta, assinados pelo próprio Micro
+Empreendedor.
+10.4.8. As sociedades constituídas há menos de 12 (doze) meses
+, no exercício social em curso, deverão
+apresentar o Balanço de Abertura devidamente registrado pelo órgão competente.
+10.4.9.
+Os documentos referidos
+item 10.4.3
+limitar-se-ão ao último exercício no caso de a pessoa jurídica ter
+sido constituída há menos de 2 (dois) anos.
+10.4.10. As empresas obrigadas a escrituração pelo SISTEMA PÚBLICO DE ESCRITURAÇÃO DIGITAL-
+SPED, submetida a Instrução Normativa DNRC 107/08, deverão apresentar:
+a)
+Termo de Abertura e Encerramento (impresso do arquivo SPED contábil);
+b)
+Recibo de Entrega do Livro Digital (impresso do arquivo SPED contábil);
+c)
+Balanço Patrimonial (impresso do arquivo SPED contábil);
+d)
+Demonstração de Resultado do Exercício (impresso do arquivo SPED contábil);
+10.4.11.
+Comprovação da situação financeira da empresa será constatada mediante obtenção de índices de
+Liquidez Geral (LG), Solvência Geral (SG) e Liquidez Corrente (LC),
+resultantes da aplicação das
+fórmulas:
+LG =
+Ativo Circulante + Realizável a Longo Prazo ;
+Passivo Circulante + Passivo Não Circulante
+SG =
+Ativo Total
+;
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 14
+Passivo Circulante + Passivo Não Circulante
+LC =
+Ativo Circulante ;
+Passivo Circulante
+10.4.12.
+As empresas, cadastradas ou não no SICAF, deverão apresentar resultados igual ou maior a 1(um), em
+todos dos índices elencados no item 10.4.11 deste edital, e deverá ainda, comprovar patrimônio líquido mínimo
+de 5% (cinco por cento), do montante da contratação.
+10.4.
+13.
+Em caso de participação de empresas em consórcio:
+10.4.
+13.1.
+Admissão do somatório dos valores de cada consorciado (art. 15, III – segunda parte, da Lei nº
+14.133/2021);
+10.4.13.2.
+Acréscimo de 10% (dez por cento) sobre o valor exigido de licitante individual para a habilitação
+econômico-financeira, salvo justificação (art. 15, § 1º da Lei nº 14.133/2021); o referido acréscimo não se aplica
+aos consórcios compostos, em sua totalidade, de microempresas e pequenas empresas, assim definidas em lei
+(art. 15, § 2º da Lei nº 14.133/2021).
+10.5.
+Relativos a
+qualificação técnica
+10.5.
+1.
+Para fins de aferimento da qualificação técnica, a Contratada, deverá apresentar atestado de
+capacidade técnica, (declaração ou certidão) fornecido(s) por pessoa jurídica de direito público ou privado,
+comprovando o fornecimento em contrato pertinente e compatível com o objeto deste instrumento.
+a)
+Entende-se por pertinente e compatível em características o(s) atestado(s) que em sua individualidade ou
+soma de atestados, contemplem que a empresa que a empresa forneceu os itens condizentes com o objeto desta
+licitação, ou seja, que tenha fornecido veículos.
+b) Entende-se por pertinente e compatível em quantidade o (s) atestado (s) que em sua individualidade ou soma
+de atestados contemplem que a empresa forneceu os itens condizentes com o objeto desta licitação, qual seja,
+aquisição de veículos, de no mínimo 1 (um) dos quantitativos totais pretendidos.
+10.5.
+2.
+Os atestados deverão indicar dados da entidade emissora (razão social, CNPJ, endereço, telefone e data
+de emissão) e dos signatários do documento (nome, função, telefone, etc.). Além da descrição do objeto,
+quantidade e prazos de fornecimento dos objetos.
+10.5.
+3.
+Os atestados de capacidade técnica apresentados estarão sujeitos à confirmação de autenticidade,
+exatidão e veracidade conforme previsto no art. 12 Lei nº 14.133/2021, sujeitando o emissor às penalidades
+previstas em lei caso ateste informações inverídicas.
+11. DO ENVIO DA DOCUMENTAÇÃO
+11.1.
+Os documentos exigidos para habilitação serão enviados por meio do sistema, em formato digital, no
+prazo de no mínimo
+, duas horas
+,
+a exigência dos documentos somente será feita em relação ao licitante
+vencedor.
+11.1.1.
+É facultado ao
+Agente de Contratação/Pregoeiro(a)
+prorrogar o prazo estabelecido, a partir de
+solicitação fundamentada feita no chat pelo licitante, antes de findo o prazo.
+11.2.
+A convocação ocorrerá exclusivamente pelo
+SISTEMA
+, devendo a licitante encaminhar, de forma digital,
+todos os documentos elencados no
+item 10
+deste edital.
+11.2.1.
+A DOCUMENTAÇÃO DE HABILITAÇÃO ANEXADA NO SISTEMA COMPRASNET TERÁ EFEITO PARA
+TODOS OS ITENS, OS QUAIS A EMPRESA ENCONTRA-SE PARTICIPANDO.
+11.2.2.
+OS ARQUIVOS SOLICITADOS, DEVERÁ SER ANEXADA CORRETAMENTE NO SISTEMA
+COMPRASNET, SENDO A MESMA COMPACTADA EM01(UM) ÚNICO ARQUIVO (excel, word, .Zip, .doc, .docx,
+.JPG ou PDF), TENDO EM VISTA QUE O CAMPO DE INSERÇÃO É ÚNICO.
+11.3.
+Consideradas cumpridas todas as exigências do edital quanto à apresentação da documentação de
+HABILITAÇÃO e PROPOSTA FINAL
+pelo licitante classificado em primeiro lugar, o Agente de
+Contratação/Pregoeiro (a)
+o declarará vencedor.
+11.4.
+Após a entrega dos documentos para habilitação, não será permitida a substituição ou a apresentação de
+novos documentos, salvo em sede de diligência, para (
+Lei 14.133/21, art. 64
+, e
+IN 73/2022, art. 39, §4º
+):
+11.4.1.
+Complementação de informações acerca dos documentos já apresentados pelos licitantes e desde que
+necessária para apurar fatos existentes à época da abertura do certame; e
+11.4.2.
+Atualização de documentos cuja validade tenha expirado após a data de recebimento das propostas;
+11.5.
+Na análise dos documentos de habilitação, a equipe de licitação poderá sanar erros ou falhas que não
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 15
+alterem a substância dos documentos e sua validade jurídica, mediante despacho fundamentado registrado e
+acessível a todos, atribuindo-lhes eficácia para fins de habilitação e classificação.
+11.6.
+Na hipótese de o licitante não atender às exigências para habilitação, o
+Agente de
+Contratação/Pregoeiro(a)
+examinará a proposta subsequente e assim sucessivamente, na ordem de
+classificação, até a apuração de uma proposta que atenda ao presente edital, observado o prazo disposto no
+subitem 11.1.
+11.7.
+Quando a fase de habilitação anteceder a de julgamento e já tiver sido encerrada, não caberá exclusão de
+licitante por motivo relacionado à habilitação, salvo em razão de fatos supervenientes ou só conhecidos após o
+julgamento.
+12. DO PEDIDO DE ESCLARECIMENTO E IMPUGNAÇÕES
+12.1.
+Em conformidade com Art. 164 da Lei 14.133/2021. Qualquer pessoa é parte legítima para impugnar
+edital de licitação por irregularidade na aplicação desta Lei ou para solicitar esclarecimento sobre os seus
+termos, devendo protocolar o
+pedido até 3 (três) dias úteis antes da data de abertura do certame.
+12.2.
+Os pedidos de
+esclarecimentos e impugnações
+, decorrentes de dúvidas na interpretação deste Edital e
+seus anexos, deverão ser de forma eletrônica direcionado ao Agente de Contratação/Pregoeiro(a), devendo o
+licitante mencionar o número do Pregão, o ano e o número do processo licitatório.
+12.3.
+A impugnação e o pedido de esclarecimento e solicitação de vistas ao processo eletrônico correspondente
+a licitação, deverão ser realizados por forma eletrônica,
+pelo seguinte
+e-mail:
+pregoes.sml@gmail.com
+;
+12.4.
+Caberá ao Agente de Contratação/Pregoeiro (a), receber, examinar e decidir os pedidos de
+esclarecimentos e impugnações ao edital e anexos, podendo requisitar subsídios formais aos responsáveis pela
+elaboração desses documentos.
+12.4.1.
+A resposta à impugnação ou ao pedido de esclarecimento será divulgada em sítio eletrônico oficial no
+prazo de até 3 (três) dias úteis, limitado ao último dia útil anterior à data da abertura do certame.
+12.5.
+A concessão de efeito suspensivo à impugnação é medida excepcional e deverá ser motivada pelo Agente
+de Contratação/Pregoeiro (a), nos autos do processo de licitação.
+13. DOS RECURSOS ADMINISTRATIVOS
+13.1. Em conformidade com o Art. 165. Dos atos da Administração decorrentes da aplicação desta Lei
+cabem:
+I.
+Recurso, no prazo de 3 (três) dias úteis, contado da data de intimação ou de lavratura da ata, em face de:
+a) Ato que defira ou indefira pedido de pré-qualificação de interessado ou de inscrição em registro cadastral,
+sua alteração ou cancelamento;
+b) Julgamento das propostas;
+c) Ato de habilitação ou inabilitação de licitante;
+d) Anulação ou revogação da licitação;
+e) Extinção do contrato, quando determinada por ato unilateral e escrito da Administração;
+II.
+Pedido de reconsideração, no prazo de 3 (três) dias úteis, contado da data de intimação, relativamente a ato
+do qual não caiba recurso hierárquico.
+§ 1º Quanto ao recurso apresentado em virtude do disposto nas alíneas “b” e “c” do inciso I do
+caput
+deste
+artigo, serão observadas as seguintes disposições:
+I – A intenção de recorrer deverá ser manifestada imediatamente, sob pena de preclusão, e o prazo para
+apresentação das razões recursais previsto no inciso I do
+caput
+deste artigo será iniciado na data de intimação
+ou de lavratura da ata de habilitação ou inabilitação ou, na hipótese de adoção da inversão de fases prevista no
+§
+1º do art. 17 desta Lei
+, da ata de julgamento;
+II – A apreciação dar-se-á em fase única.
+§ 2º O recurso de que trata o inciso I do
+caput
+deste artigo será dirigido à autoridade que tiver editado o ato ou
+proferido a decisão recorrida, que, se não reconsiderar o ato ou a decisão no prazo de 3 (três) dias úteis,
+encaminhará o recurso com a sua motivação à autoridade superior, a qual deverá proferir sua decisão no prazo
+máximo de
+10 (dez) dias úteis,
+contado do recebimento dos autos.
+§ 3º O acolhimento do recurso implicará invalidação apenas de ato insuscetível de aproveitamento.
+§ 4º O prazo para apresentação de contrarrazões será o mesmo do recurso e terá início na data de intimação
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 16
+pessoal ou de divulgação da interposição do recurso.
+§ 5º Será assegurado ao licitante vista dos elementos indispensáveis à defesa de seus interesses.
+Parágrafo único. Na elaboração de suas decisões, a autoridade competente será auxiliada pelo órgão de
+assessoramento jurídico, que deverá dirimir dúvidas e subsidiá-la com as informações necessárias.
+13.2.
+A falta dessa manifestação, imediata e motivada, importará na preclusão do direito de recurso por parte
+da licitante.
+13.3.
+A manifestação de interpor recurso será feita em campo próprio do sistema eletrônico, durante a sessão
+pública
+on-line.
+13.4.
+As razões do recurso serão encaminhados em momento único, em campo próprio no sistema.
+13.5.
+O início da contagem dos prazos, bem como o seu término, dar-se-á sempre em dias úteis.
+13.6.
+O provimento de recurso importará a invalidação apenas dos atos insuscetíveis de aproveitamento.
+14. DO ENCERRAMENTO DA LICITAÇÃO “ADJUDICAÇÃO E HOMOLOGAÇÃO”
+14.1.
+Em conformidade com o artigo 71 da Lei 14.133/2021:
+Art. 71. Encerradas as fases de julgamento e habilitação, e exauridos os recursos administrativos, o
+processo licitatório será encaminhado à autoridade superior, que poderá:
+I – determinar o retorno dos autos para saneamento de irregularidades;
+II – revogar a licitação por motivo de conveniência e oportunidade;
+III – proceder à anulação da licitação, de ofício ou mediante provocação de terceiros, sempre que presente
+ilegalidade insanável;
+IV – adjudicar o objeto e homologar a licitação.
+14.2.
+É facultada a divulgação adicional e a manutenção do inteiro teor do edital e de seus anexos em
+sítio
+eletrônico oficial
+do ente federativo do órgão ou entidade responsável pela licitação ou, no caso de consórcio
+público, do ente de maior nível entre eles, admitida, ainda, a divulgação direta a interessados devidamente
+cadastrados para esse fim. (
+§ 2º
+, artigo 54 da Lei nº 14.133/2021).
+14.3.
+Após a homologação do processo licitatório, serão disponibilizados no
+Portal Nacional de Contratações
+Públicas (PNCP)
+e, se o órgão ou entidade responsável pela licitação entender cabível, também no sítio do
+Município os documentos elaborados na fase preparatória que porventura não tenham integrado o edital e seus
+anexos. (§ 3º, artigo 54 da Lei nº 14.133/2021).
+14.4.
+A divulgação no
+Portal Nacional de Contratações Públicas (PNCP)
+é condição indispensável para a
+eficácia do contrato e de seus aditamentos e deverá ocorrer nos seguintes prazos, contados da data de sua
+assinatura, no prazo de 20 (vinte) dias úteis, no caso de licitação. (Artigo 94, Lei nº 14.133/2021).
+14.5.
+A Administração convocará regularmente o licitante vencedor para assinar o termo de contrato ou para
+aceitar ou retirar o instrumento equivalente, dentro do prazo e nas condições estabelecidas no edital de
+licitação, sob pena de decair o direito à contratação, sem prejuízo das sanções previstas nesta Lei.
+14.6.
+O prazo de convocação poderá ser prorrogado 1 (uma) vez, por igual período, mediante solicitação da
+parte durante seu transcurso, devidamente justificada, e desde que o motivo apresentado seja aceito pela
+Administração.
+14.7.
+Será facultado à Administração, quando o convocado não assinar o termo de contrato ou não aceitar ou
+não retirar o instrumento equivalente no prazo e nas condições estabelecidas, convocar os licitantes
+remanescentes, na ordem de classificação, para a celebração do contrato nas condições propostas pelo licitante
+vencedor.
+14.8.
+Decorrido o prazo de validade da proposta indicado no edital sem convocação para a contratação, ficarão
+os licitantes liberados dos compromissos assumidos.
+14.9.
+Na hipótese de nenhum dos licitantes aceitar a contratação nos termos do § 2º deste artigo, a
+Administração, observados o valor estimado e sua eventual atualização nos termos do edital, poderá:
+14.10
+. Convocar os licitantes remanescentes para negociação, na ordem de classificação, com vistas à obtenção
+de preço melhor, mesmo que acima do preço do adjudicatário;
+14.11. A
+djudicar e celebrar o contrato nas condições ofertadas pelos licitantes remanescentes, atendida a
+ordem classificatória, quando frustrada a negociação de melhor condição.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 17
+14.12
+. A recusa injustificada do adjudicatário em assinar o contrato ou em aceitar ou retirar o instrumento
+equivalente no prazo estabelecido pela Administração caracterizará o descumprimento total da obrigação
+assumida e o sujeitará às penalidades legalmente estabelecidas e à imediata perda da garantia de proposta em
+favor do órgão ou entidade licitante.
+15. DESPESA: DOTAÇÃO ORÇAMENTÁRIA
+15.1.
+As despesas com o objeto desta aquisição serão custeadas com recursos oriundos da seguinte Dotação
+Orçamentária, Programa de Trabalho e Elemento de Despesas, também explicitados e constantes da respectiva
+Nota de Empenho:
+Projeto Atividade:
+P.A.: 08.31.10.301.317.2.024; Emenda nº Projeto de Lei nº PLO-4954/2025 ;
+014/2025 - AUTORIA 0029 - RECURSO R$ 300.000,00 ; 0144/2025 - AUTORIA 0015 - RECURSO R$
+400.000,00; 0145/2025 - AUTORIA 0015 - RECURSO R$ 120.000,00; Elementos de despesa:
+4.4.90.52
+e Fonte de recursos: 1500.
+16. DAS INFRAÇÕES ADMINISTRATIVAS E SANÇÕES DA LICITAÇÃO
+16.1.
+Comete infração administrativa, nos termos da lei, o licitante que, com dolo ou culpa.
+16.1.1.
+Deixar de entregar a documentação exigida para o certame ou não entregar qualquer documento que
+tenha sido solicitado pelo
+Agente de Contratação/Pregoeiro(a)
+durante o certame;
+16.1.2.
+Salvo em decorrência de fato superveniente devidamente justificado, não mantiver a proposta em
+especial quando:
+16.1.2.1.
+Não enviar a proposta adequada ao último lance ofertado ou após a negociação;
+16.1.2.2.
+Recusar-se a enviar o detalhamento da proposta quando exigível;
+16.1.2.3.
+Pedir para ser desclassificado quando encerrada a etapa competitiva;
+16.1.2.4.
+Deixar de apresentar amostra quando for o caso;
+16.1.2.5.
+Apresentar proposta ou amostra em desacordo com as especificações do edital;
+16.1.3.
+Não celebrar o contrato ou não entregar a documentação exigida para a contratação, quando convocado
+dentro do prazo de validade de sua proposta;
+16.1.3.1.
+Recusar-se, sem justificativa, a assinar o contrato ou a ata de registro de preço, ou a aceitar ou retirar
+o instrumento equivalente no prazo estabelecido pela Administração;
+16.1.4.
+Apresentar declaração ou documentação falsa exigida para o certame ou prestar declaração falsa
+durante a licitação;
+16.1.5.
+Fraudar a licitação;
+16.1.6.
+Comportar-se de modo inidôneo ou cometer fraude de qualquer natureza, em especial quando:
+16.1.6.1.
+Agir em conluio ou em desconformidade com a lei;
+16.1.6.2.
+Induzir deliberadamente a erro no julgamento;
+16.1.6.3.
+Apresentar amostra falsificada ou deteriorada;
+16.1.7.
+Praticar atos ilícitos com vistas a frustrar os objetivos da licitação;
+16.1.8.
+Praticar ato lesivo previsto no art. 5º da Lei n.º 12.846, de 2013.
+16.2.
+Com fulcro na Lei nº 14.133, de 2021, a Administração poderá, garantida a prévia defesa, aplicar aos
+licitantes e/ou adjudicatários as seguintes sanções, sem prejuízo das responsabilidades civil e criminal:
+16.2.1.
+Advertência;
+16.2.2.
+Multa;
+16.2.3.
+Impedimento de licitar e contratar;
+16.2.4.
+Declaração de inidoneidade para licitar ou contratar, enquanto perdurarem os motivos determinantes
+da punição ou até que seja promovida sua reabilitação perante a própria autoridade que aplicou a penalidade.
+16.3.
+A natureza e a gravidade da infração cometida.
+16.3.1.
+As peculiaridades do caso concreto.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 18
+16.3.2.
+As circunstâncias agravantes ou atenuantes.
+16.3.3.
+Os danos que dela provierem para a Administração Pública.
+16.3.4.
+A implantação ou o aperfeiçoamento de programa de integridade, conforme normas e orientações dos
+órgãos de controle.
+16.4.
+A multa será recolhida em percentual de 0,5% a 30% incidente sobre o valor do contrato licitado,
+recolhida no prazo máximo de 30 (trinta) dias úteis, a contar da comunicação oficial.
+16.4.1.
+Para as infrações previstas nos itens 16.1.1., 16.1.2. e 16.1.3., a multa será de 0,5% a 15% do valor do
+contrato licitado. 16.4.2. Para as infrações previstas nos itens 16.1.4., 16.1.5., 16.1.6., 16.1.7. e 16.1.8., a multa
+será de 15% a 30% do valor do contrato licitado.
+16.5.
+As sanções de advertência, impedimento de licitar e contratar e declaração de inidoneidade para licitar ou
+contratar poderão ser aplicadas, cumulativamente ou não, à penalidade de multa.
+16.6.
+Na aplicação da sanção de multa será facultada a defesa do interessado no prazo de 15 (quinze) dias
+úteis, contado da data de sua intimação.
+16.7.
+A sanção de impedimento de licitar e contratar será aplicada ao responsável em decorrência das infrações
+administrativas relacionadas nos itens 16.1.1., 16.1.2. e 16.1.3., quando não se justificar a imposição de
+penalidade mais grave, e impedirá o responsável de licitar e contratar no âmbito da Administração Pública
+direta e indireta do ente federativo a qual pertencer o órgão ou entidade, pelo prazo máximo de 3 (três) anos.
+16.8.
+Poderá ser aplicada ao responsável a sanção de declaração de inidoneidade para licitar ou contratar, em
+decorrência da prática das infrações dispostas nos itens 16.1.4., 16.1.5., 16.1.6., 16.1.7. e 16.1.8., bem como
+pelas infrações administrativas previstas nos itens 16.1.1., 16.1.2. e 16.1.3. que justifiquem a imposição de
+penalidade mais grave que a sanção de impedimento de licitar e contratar, cuja duração observará o prazo
+previsto no art. 156, §5º, da Lei n.º 14.133/2021.
+16.9.
+A recusa injustificada do adjudicatário em assinar o contrato ou a ata de registro de preço, ou em aceitar
+ou retirar o instrumento equivalente no prazo estabelecido pela Administração, descrita no item 16.1.3.,
+caracterizará o descumprimento total da obrigação assumida e o sujeitará às penalidades e à imediata perda da
+garantia de proposta em favor do órgão ou entidade promotora da licitação, nos termos do art. 45, §4º da IN
+SEGES/ME n.º 73, de 2022.
+16.10.
+A apuração de responsabilidade relacionada às sanções de impedimento de licitar e contratar e de
+declaração de inidoneidade para licitar ou contratar demandará a instauração de processo de responsabilização
+a ser conduzido por comissão composta por 2 (dois) ou mais servidores estáveis, que avaliará fatos e
+circunstâncias conhecidos e intimará o licitante ou o adjudicatário para, no prazo de 15 (quinze) dias úteis,
+contado da data de sua intimação, apresentar defesa escrita e especificar as provas que pretenda produzir.
+16.11.
+Caberá recurso no prazo de 15 (quinze) dias úteis da aplicação das sanções de advertência, multa e
+impedimento de licitar e contratar, contado da data da intimação, o qual será dirigido à autoridade que tiver
+proferido a decisão recorrida, que, se não a reconsiderar no prazo de 5 (cinco) dias úteis, encaminhará o
+recurso com sua motivação à autoridade superior, que deverá proferir sua decisão no prazo máximo de 20
+(vinte) dias úteis, contado do recebimento dos autos.
+16.12.
+Caberá a apresentação de pedido de reconsideração da aplicação da sanção de declaração de
+inidoneidade para licitar ou contratar no prazo de 15 (quinze) dias úteis, contado da data da intimação, e
+decidido no prazo máximo de 20 (vinte) dias úteis, contado do seu recebimento.
+16.13.
+O recurso e o pedido de reconsideração terão efeito suspensivo do ato ou da decisão recorrida até que
+sobrevenha decisão final da autoridade competente.
+16.14.
+A aplicação das sanções previstas neste edital não exclui, em hipótese alguma, a obrigação de reparação
+integral dos danos causados.
+16.15.
+Os procedimentos de apuração e aplicação de eventuais penalidades deverão observar as disposições
+previstas nos arts. 95 a 130 do Decreto Municipal nº 18.892/2023.
+17. INFORMAÇÕES COMPLEMENTARES DO INSTRUMENTO CONVOCATÓRIO
+17.1. DO REQUISITOS DA CONTRATAÇÃO –
+Termo de Referência – Anexo I deste Edital.
+17.2. DO MODELO DE EXECUÇÃO DO OBJETO –
+Termo de Referência – Anexo I deste Edital.
+17.3. DO MODELO DE GESTÃO DO CONTRATO –
+Termo de Referência – Anexo I deste Edital.
+17.4. DOS CRITÉRIOS DE MEDIÇÃO E PAGAMENTO –
+Conforme estabelecido no
+Termo de Referência –
+Anexo I deste Edital.
+17.5. DAS OBRIGAÇÕES DAS PARTES –
+Conforme estabelecido
+no
+Termo de Referência – Anexo deste
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 19
+Edital.
+17.6. DA INSTRUMENTALIZAÇÃO DA CONTRATAÇÃO
+–
+Conforme estabelecido no Termo de Referência –
+Anexo I deste Edital.
+17.7. DA SUBCONTRATAÇÃO –
+Conforme estabelecido no
+Termo de Referência – Anexo I deste Edital.
+17.8. DAS INFRAÇÕES E SANÇÕES ADMINISTRATIVAS –
+Conforme estabelecido no
+Termo de Referência
+– Anexo I deste Edital.
+18. DAS DISPOSIÇÕES GERAIS
+18.1.
+A documentação exigida para atender ao disposto na
+HABILITAÇÃO
+e respectivos subitens, incisos
+parágrafos e alíneas, do caput poderá ser obtida pelo Agente de Contratação/Pregoeiro (a) mediante consulta ao
+SICAF ou SISCAF, no que couber,
+desde que os documentos ali constem e estejam válidos, vigentes e sem
+pendências.
+18.1.1.
+Os documentos exigidos para habilitação que não estejam contemplados no SICAF ou SISCAF deverão
+se apresentados nos termos
+deste edital.
+18.2.
+Caso seja necessária a verificação da vigência, validade ou outras comprovações dos documentos
+apresentados pela licitante ou dos registros no
+SICAF ou SISCAF
+, a consulta realizada pelo Agente de
+Contratação/Pregoeiro (a) nos sítios eletrônicos oficiais de órgãos e entidades emissores de certidões constitui
+meio legal de prova.
+18.3.
+A licitante intimada para prestar quaisquer esclarecimentos adicionais deverá fazê-lo, sob pena de
+desclassificação/inabilitação, no prazo determinado pelo Agente de Contratação/Pregoeiro (a), ao qual se
+reserva o direito de solicitar o original de qualquer documento, sempre que tiver dúvida e julgar necessário.
+18.4.
+Todos os documentos apresentados para habilitação deverão estar obrigatoriamente em nome da empresa
+que participar do presente certame e, deverão conter o mesmo CNPJ e endereço respectivo:
+a)
+Se o licitante
+for a matriz
+, todos os documentos deverão estar em nome da matriz ou, se
+for a filial
+, todos
+os documentos deverão estar obrigatoriamente em nome desta, exceto aqueles que pela própria natureza,
+comprovadamente
+, forem emitidos somente em nome da matriz. A referida comprovação, que é obrigatória, é
+de exclusiva responsabilidade do licitante.
+18.5.
+Não serão aceitos protocolos de entrega de solicitação de documento em substituição aos documentos
+requeridos no presente
+Edital
+;
+18.6.
+Todos os documentos de habilitação emitidos em língua estrangeira deverão ser acompanhados da
+tradução para língua portuguesa efetuada por Tradutor Juramentado e também devidamente consularizados ou
+registrados no Cartório de Títulos e Documentos.
+18.6.1.
+Documentos de procedência estrangeira, mas emitidos em língua portuguesa, também deverão ser
+devidamente consularizados ou registrados no Cartório de Títulos e documentos.
+18.7.
+As microempresas e empresa de pequeno porte deverão apresentar toda documentação exigida para
+efeito de comprovação de regularidade fiscal e trabalhista mesmo que esta apresente alguma restrição.
+18.8.
+Em se tratando de microempresa, empresa de pequeno porte ou equiparadas, havendo alguma restrição
+na comprovação da regularidade fiscal e trabalhista, será assegurado
+o prazo de 5 (cinco) dias úteis
+, cujo
+termo inicial corresponderá ao momento em que o proponente for declarada vencedora do certame,
+prorrogáveis por igual período, a critério da Administração, para regularização da documentação, pagamento ou
+parcelamento do débito, e emissão de eventuais certidões negativas ou positivas com efeito de certidão
+negativa.(de acordo com a Lei Complementar 123/2006 e alterações);
+18.8.1.
+A não regularização da documentação implicará decadência do direito à contratação,
+sem prejuízo das
+sanções previstas no art. 155 da Lei 14.133/2021 e neste Edital
+, sendo facultado à Administração
+convocar os licitantes remanescentes, na ordem de classificação.
+18.9.
+O Agente de Contratação/Pregoeiro (a), em qualquer fase de julgamento, poderá promover quaisquer
+diligências julgadas necessárias à análise das propostas e da documentação de habilitação, devendo os licitantes
+atender às solicitações no prazo por ele estipulado, contado do recebimento da convocação, sob pena de
+desclassificação da oferta, bem como, poderá solicitar parecer de técnicos pertencentes ao Quadro de Pessoal
+do Município /RO ou, ainda, de pessoas físicas ou jurídicas estranhas a ele, para orientar sua decisão.
+18.10.
+O Agente de Contratação/Pregoeiro (a) poderá sanar ou solicitar o saneamento de erros ou falhas que
+não alterem a substância d
+os documentos
+e sua validade jurídica, mediante despacho fundamentado,
+registrado em ata e acessível a todos, atribuindo-l
+hes validade e eficácia para fins de habilitação e classificação.
+18.11.
+Fica assegurada a
+Secretaria Municipal de Contratos, Convênios e Licitações -
+SMCL
+o direito de
+revogar a licitação por razões de interesse público, decorrentes de fato superveniente devidamente
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 20
+comprovado, ou anulá-la em virtude de vício insanável.
+18.12.
+Qualquer modificação neste Edital implicará a divulgação desta pelo (s) mesmo (s) instrumento (s) de
+publicação em que se deu o texto original, reabrindo-se o (s) prazo (s) inicialmente estabelecidos, exceto
+quando, inquestionavelmente, a alteração não afetar a formulação das propostas;
+18.13.
+As normas que disciplinam esta licitação serão sempre interpretadas em favor da ampliação da disputa
+entre os interessados, sem comprometimento da segurança do futuro contrato;
+18.14.
+As partes declaram conhecer as normas de prevenção à corrupções previstas na legislação brasileira,
+dentre elas, a Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992), a Lei Federal nº 12.846/2013 e
+seus regulamentos, se comprometem que para a execução deste contrato nenhuma das partes poderá oferecer,
+dar ou se comprometer a dar, a quem quer que seja, aceitar ou se comprometer a aceitar, de quem quer que
+seja, tanto por conta própria quanto por intermédio de outrem, qualquer pagamento, doação, compensação,
+vantagens financeiras ou benefícios indevidos de qualquer espécie, de modo fraudulento que constituam prática
+ilegal ou de corrupção, bem como de manipular ou fraudar o equilíbrio econômico financeiro do presente
+contrato, seja de forma direta ou indireta quanto ao objeto deste contrato, devendo garantir, ainda que seus
+prepostos, administradores e colaboradores ajam da mesma forma.
+18.15.
+Em conformidade com o Art. 70 da Lei n. 14.133/2021 a documentação referida neste poderá ser
+apresentada em original, por cópia ou por qualquer outro meio expressamente admitido pela Administração;
+18.15.1.
+Poderá ser substituída por registro cadastral emitido por órgão ou entidade pública, desde que
+previsto no edital e que o registro tenha sido feito em obediência ao disposto nesta Lei;
+18.16.
+Os casos omissos, bem como as dúvidas suscitadas, serão resolvidos pela
+Secretaria Municipal de
+Contratos, Convênios e Licitações -
+SMCL
+em conformidade com as normas jurídicas e administrativas
+aplicáveis e nos Princípios Gerais do Direito;
+18.17.
+Na contagem dos prazos estabelecidos neste Edital e seus Anexos, excluir-se-á o dia do início e incluir-
+se-á o do vencimento. Só se iniciam e vencem os prazos
+em dias de expediente na Administração.
+18.18.
+Em caso de divergência entre disposições deste Edital e de seus anexos ou demais peças que compõem o
+processo, prevalecerá as deste Edital.
+18.19.
+Fica eleito o Foro da Comarca de Porto Velho - RO para dirimir quaisquer dúvidas referentes a esta
+licitação, contrato e procedimentos dela resultantes, com renúncia de qualquer outro por mais privilegiado que
+seja.
+19. DOS ANEXOS DESTE EDITAL
+19.1.
+Fazem parte deste instrumento convocatório, como se nele estivessem transcritos, os seguintes
+documentos:
+a) ANEXO I – TERMO DE REFERÊNCIA E ANEXOS;
+b) ANEXO II – MODELO PROPOSTA DE PREÇOS;
+c) ANEXO III – DECLARAÇÃO DE INEXISTÊNCIA DE VÍNCULO DE PARENTESCO.
+Porto Velho/RO, 19 de Junho de 2026
+Genean Prestes dos Santos
+Agente de Contratação/Pregoeiro (a)
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 21
+ANEXO I DO EDITAL
+TERMO DE REFERÊNCIA DEFINITIVO (id.
+0781233
+)
+O Termo de Referência e seus anexos constituem parte integrante do Edital e deverão ser disponibilizados no
+Portal da Prefeitura de Porto Velho (
+www.portovelho.ro.gov.br
+) e no Portal Compras do Governo Federal
+(
+https://www.gov.br/compras/pt-br/
+).
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 22
+ANEXO II DO EDITAL
+MODELO PROPOSTA DE PREÇOS – PAPEL TIMBRADO DA EMPRESA
+A SECRETARIA MUNICIPAL DE CONTRATOS, CONVÊNIOS E LICITAÇÕES – SMCL
+, apresentamos nossa
+proposta comercial referente ao Pregão Eletrônico Nº ---------, conforme planilha abaixo:
+Razão Social da Empresa:
+CNPJ:
+Endereço Completo com CEP:
+Banco:____________ Agência:_____________ Conta Corrente: ____________
+Telefone:
+E-mail:
+Responsável (Nome e cargo):
+VALIDADE DA PROPOSTA: __________ DIAS
+(MÍNIMO 90
+DIAS).
+PRAZO PARA ENTREGA: __________
+DIAS
+Local de Entrega:
+Conforme TERMO DE REFERÊNCIA, anexo I do Edital.
+Objeto: -------------.
+ITEM
+DESCRIÇÃO DO OBJETO
+UND.
+QUANT.
+MARCA
+VALOR
+UNITÁRIO
+R$
+VALOR
+TOTAL
+R$
+1. AMBULÂNCIA TIPO B – SUPORTE BÁSICO
+(4x4)
+1.1. Características Gerais
+Veículo tipo pick-up adaptado para ambulância;
+Tração 4x4;
+Combustível diesel;
+Ano/modelo do ano da entrega ou superior;
+Potência mínima de 140 cv (±10%);
+Direção assistida;
+Airbag duplo (motorista e passageiro);
+Vidros e travas elétricas;
+Sistema de freios ABS;
+Faróis de neblina;
+Rádio com alto-falantes;
+Equipamentos obrigatórios conforme CONTRAN.
+1.2. Cabine e Dimensões
+Largura aproximada: 1.760 mm;
+Distância entre eixos: aproximadamente 3.100
+mm;
+Ar-condicionado na cabine;
+Alarme de ré.
+1.3. Compartimento de Atendimento
+Isolamento térmico e acústico;
+Comunicação entre cabine e salão;
+Sistema de climatização independente;
+Piso em compensado revestido com manta vinílica
+ou similar;
+Janelas laterais corrediças com película tipo
+jateado;
+Duas portas traseiras;
+Iluminação interna em LED com duas
+intensidades;
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 23
+01
+Farol de embarque traseiro.
+1.4. Mobiliário e Estrutura Interna
+Armário lateral com cantos arredondados;
+Bancada para equipamentos médicos;
+Banco tipo baú para no mínimo 03 ocupantes com
+cintos;
+Balaústre no teto;
+Suporte para soro (02 unidades);
+Suporte para cilindros de oxigênio.
+1.5. Equipamentos Médicos
+Maca articulada com rodas (capacidade mínima
+150 kg);
+Rede de oxigênio com cilindro de 3 m³;
+Régua tripla (respirador, fluxômetro, aspirador
+tipo Venturi);
+Manômetro e fluxômetro com máscara;
+Pranchas de imobilização (curta e longa).
+1.6. Sistema Elétrico
+Sistema independente no salão de atendimento;
+03 tomadas 127V com transformador;
+02 tomadas 12V;
+Bateria compatível com o sistema.
+1.7. Sinalização e Segurança
+Sinalizador óptico e acústico (barra com sirene de
+5 tons);
+Luzes laterais (mínimo 3 por lado) e traseiras;
+Strobos nos faróis e lanternas;
+Luzes de advertência.
+1.8. Acabamentos e Identificação
+Cor branca;
+Plotagem conforme padrão do município;
+Brasão nas portas dianteiras e traseira;
+Superfícies com proteção e ressalto para evitar
+queda de objetos.
+1.9. Entrega, Garantia e Assistência
+Entrega em Porto Velho/RO;
+Primeiro emplacamento por conta da contratada;
+Registro no DETRAN em nome do FMS;
+Garantia mínima de 36 meses ou 100.000 km;
+Assistência técnica 24h por 12 meses, com
+guincho (0800).
+Unidade
+1
+2. VEÍCULO UTILITÁRIO (TIPO SEDAN)
+2.1. Características Gerais
+Veículo sedan, zero km;
+04 portas;
+Capacidade para 05 ocupantes;
+Cor branca;
+Equipamentos obrigatórios do CONTRAN.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 24
+2
+2.2. Dimensões
+Comprimento mínimo: 4.210 mm;
+Distância entre eixos: 2.460 mm;
+Largura mínima: 1.650 mm;
+Porta-malas mínimo: 440 litros.
+2.3. Motorização
+Motor dianteiro, mínimo 3 cilindros;
+Potência mínima de 70 cv;
+Torque mínimo de 9,3 kgfm;
+Injeção eletrônica;
+Aspiração natural ou turbo.
+2.4. Combustível
+Bicombustível ou gasolina;
+Tanque mínimo de 42 litros.
+2.5. Transmissão e Direção
+Transmissão manual (mínimo 5 marchas);
+Direção elétrica, hidráulica ou eletro-hidráulica.
+2.6. Segurança
+Freios ABS com EBD;
+Airbags frontais;
+Alarme;
+Encostos de cabeça para todos;
+Travas elétricas;
+Desembaçador traseiro.
+2.7. Conforto e Tecnologia
+Ar-condicionado;
+Ajuste de altura do banco do motorista;
+Vidros elétricos;
+Retrovisores ajustáveis;
+Rádio com USB.
+2.8. Acessórios
+Protetor de cárter;
+Jogo de tapetes;
+Demais itens de série do fabricante.
+2.9. Acabamentos e Identificação
+Cor branca;
+Plotagem conforme padrão do município;
+Unidade
+1
+3. VAN ADAPTADA (09 PASSAGEIROS + 01
+MOTORISTA / CADEIRANTES)
+3.1. Características Gerais
+Veículo tipo van, zero km;
+Ano/modelo mínimo 2024/2025;
+Motor diesel;
+Potência mínima de 170 cv;
+Torque mínimo de 40 kgfm;
+Tração traseira;
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 25
+3
+Direção hidráulica;
+Cor branca.
+3.2. Dimensões e Capacidade
+Capacidade volumétrica mínima: 14 m³;
+Distância entre eixos: mínimo 4.325 mm;
+Comprimento total mínimo: 6.967 mm;
+PBT mínimo: 4.100 kg;
+Capacidade: 10 lugares (motorista + passageiros
+e cadeirantes).
+3.3. Transmissão e Combustível
+Transmissão manual (mínimo 6 marchas);
+Tanque mínimo de 70 litros;
+Tanque ARLA 32: mínimo 20 litros.
+3.4. Segurança
+Freio a disco nas 4 rodas;
+Airbags;
+Tacógrafo digital;
+Martelos de emergência;
+Equipamentos obrigatórios do CONTRAN.
+3.5. Acessibilidade
+Capacidade para 03 cadeirantes;
+Trilhos retráteis para fixação de cadeiras;
+Plataforma elevatória (mínimo 250 kg).
+3.6. Conforto
+Ar-condicionado (cabine e salão);
+Bancos revestidos e com apoio de cabeça;
+Cintos de segurança conforme ABNT;
+Iluminação interna.
+3.7. Estrutura Interna
+Revestimento original de fábrica (vedado material
+não original);
+Piso em compensado revestido antiderrapante;
+Vidros originais;
+Fiação protegida com conduítes antichamas.
+3.8. Itens Adicionais
+Kit multimídia com comandos no volante;
+Tapetes;
+Protetor de cárter e câmbio;
+Luzes de vigia no teto;
+04 portas (2 dianteiras, 1 lateral, 1 traseira).
+3.9. Garantia
+Garantia mínima de 24 meses, sem limite de
+quilometragem;
+Manual em português.
+2.9. Acabamentos e Identificação
+Cor branca;
+Plotagem conforme padrão do município;
+Unidade
+1
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 26
+VALOR TOTAL DA PROPOSTA (Escrever por extenso) R$ -------------------------------------.
+____(Local), ________ de ___________ de 20__.
+Obs: Os materiais deverão ser entregues de acordo com as especificações descritas no
+Anexo I deste Edital.
+Declaramos que todos os impostos, taxas, inclusive frete, bem como quaisquer outras despesas
+estão inclusos na presente proposta.
+Declaramos ainda que, o Banco, a Agência e a Conta Corrente, informados nesta proposta,
+serão únicos e exclusivos para todos os recebimentos relativos ao cumprimento das
+Obrigações Contratuais. (Conforme exigência da Lei Municipal nº 2016 de 11 de junho de
+2012.
+CARIMBO DO CNPJ:
+ASSINATURA DO RESPONSÁVEL PELA EMPRESA
+(CARIMBO OU NOME LEGÍVEL E CARGO, RG e CPF)
+___________________________________________
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 27
+ANEXO III – DO EDITAL
+PAPEL TIMBRADO DA EMPRESA
+DECLARAÇÃO DE INEXISTÊNCIA DE VÍNCULO DE PARENTESCO COM AGENTE PÚBLICO
+À
+SECRETARIA MUNICIPAL DE CONTRATOS, CONVÊNIOS E LICITAÇÕES – SMCL
+REF. PREGÃO ELETRÔNICO N. 90073/2026/SMCL/PVH
+PROCESSO N.
+005.003461/2026-31
+A Empresa __________________________________________________________________________, inscrita no CNPJ sob n.
+_______________________, por intermédio de seu representante legal o (a) Sr.(a) _________________________________,
+portador(a) da Carteira de Identidade n. ______________ e inscrito no CPF sob n. ___________________________,
+DECLARA
+, sob as penas da lei, para fins de participação no Pregão Eletrônico em referência, que
+inexiste em
+seu quadro de sócios ou empregados pessoas com vínculo de parentesco em linha reta, colateral ou
+por afinidade até o terceiro grau, ou, ainda, que sejam cônjuges ou companheiros de ocupantes do
+quadro da Prefeitura Municipal de Porto Velho - RO, nos cargos de direção e chefia ou de função
+gratificada de mesma natureza, bem como de seus agentes políticos
+.
+DECLARA
+ainda, após examinar as exigências do referido Edital de
+PREGÃO ELETRÔNICO
+, que não infringe
+ao disposto no art. 14, inciso IV da Lei n. 14.133/2021.
+CIDADE - ESTADO, ________ de __________ de 2026.
+......................................................
+(representante legal).
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 28
+ANEXO IV DO EDITAL
+MINUTA DE CONTRATO
+CONTRATO QUE ENTRE SI CELEBRAM O MUNICÍPIO DE PORTO VELHO, POR INTERMÉD
+IO DA
+SECRETARIA MUNICIPAL DE SAÚDE – SEMUSA
+DE UM LADO, E DO OUTRO A EMPRESA ----------------
+-----------, PARA OS FINS QUE ESPECIFICAM.
+Pelo presente instrumento, regido pela Lei nº 14.133/2021, e demais legislações pertinentes, em conformidade
+com edital de licitação do
+Pregão na forma Eletrônica n.º
+...... /........., regularmente autorizado pelo
+ordenador da despesa no -----------------, e em consonância com a proposta de preços apresentada, de um lado o:
+Aos dias___ do mês ___ do ano de dois mil e _____, o
+MUNICÍPIO DE PORTO VELHO
+, Pessoa Jurídica de
+Direito Público Interno, inscrito no CNPJ sob o nº 05.903.125/0001-45, com sede na Rua:_____________________,
+neste ato representado pela
+SECRETARIA MUNICIPAL DE SAÚDE – SEMUSA
+________________
+,
+representada pelo Sr.
+________________________
+, brasileiro, ______, portador da cédula de identidade nº _____ e do
+CPF nº ______,
+CONTRATANTE
+, e a Empresa________________
+,
+inscrita no CNPJ nº. ____________, com sede
+na__________, nº________, Bairro_______, nesta Capital, neste ato legalmente representada pelo (a) Sr
+.
+(a)
+______________
+, brasileiro (a),________, portador (a) da Cédula de Identidade nº____/SSP/___ e CPF nº_______,
+CONTRATADA,
+resolvem celebrar o presente contrato, que tem por finalidade estabelecer os direitos e
+obrigações das partes na execução contratual, tudo de acordo com a legislação vigente, em especial a Lei nº
+14.133/2021 e alterações, posteriores, resultante do procedimento licitatório na modalidade
+Pregão Eletrônico
+n.º _________
+, nos termos do
+Parecer nº___/SPACC/PGM/20___
+, devidamente autorizado nos autos do
+Processo
+Administrativo nº ---------------------
+,
+mediante as cláusulas e condições seguintes:
+1. CLÁUSULA PRIMEIRA – DO OBJETO
+1.1.
+Aquisição de equipamentos de tecnologia da informação (
+Nobreak Senoidal
+,
+Tablet e outros),
+visando
+atender às necessidades operacionais da Superintendência Municipal de Tecnologia da Informação e Pesquisa –
+SMTI.
+Parágrafo Primeiro
+– Integram este documento contratual, como parte indissociável, VINCULANDO ESTÁ
+CONTRATAÇÃO:
+a)
+O Termo de Referência id.
+0781233
+;
+b)
+O Edital da Licitação nº. id.
+0986566
+;
+c)
+A Proposta do CONTRATADO id.
+0618660
+;
+d) Eventuais anexos dos documentos supracitados id. -------;
+1.2.
+O regime de execução é o empreitada por preço unitário.
+2. CLÁUSULA SEGUNDA – DA VIGÊNCIA E PRORROGAÇÃO
+2.1.
+A vigência do contrato objeto desta contratação será vinculada ao período de garantia efetivamente
+ofertado para os veículos, contado a partir da assinatura do contrato, devendo abranger integralmente os prazos
+de entrega e garantia, respeitado o limite máximo de 5 (cinco) anos, nos termos do art. 113 daLei 14.133, de
+1º/04/2021.
+3. CLÁUSULA TERCEIRA – EXECUÇÃO DO OBJETO E GESTÃO CONTRATUAL
+3.1.
+Da forma, do prazo, local de entrega e recebimento do objeto
+3.1.1.
+O fornecimento do(s) bem(s) dar-se-á, no prazo de até 60 (sessenta) dias, contados da data de assinatura
+do respectivo contrato ou instrumento equivalente.
+3.1.2.
+O prazo estabelecido poderá ser prorrogado por solicitação escrita e justificativa, formulada antes de
+findo o prazo estabelecido e formalmente aceito pela CONTRATANTE.
+3.1.3.
+O prazo de 60 (sessenta) poderá ser prorrogado, tornando-se 120 (cento e vinte) dias, mediante
+solicitação e justificativa, que compreende entre a fabricação, montagem e entrega do veículo;
+3.1.4.
+Os veículos serão entregues na Secretaria Municipal de Saúde de Porto Velho, RO, no endereço indicado.
+Entrega: Departamento de Almoxarifado e Patrimônio – DAP da Secretaria Municipal de Saúde – SEMUSA, sito
+à Rua: Monteiro Lobato, nº 5550, Bairro: Jardim Eldorado, telefone:(69) 3901-2948/3901-2822, CEP 76.811-794,
+Porto Velho/RO, observando o horário comercial das 08 h às 14 h.
+3.1.5.
+Os veículos serão transportados através de veículo apropriado, não sendo permitido o deslocamento com
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 29
+o veículo rodando, e todas as despesas relacionadas com as entregas em cada Município Contratante correrão
+por conta do Contratada;
+3.1.6.
+Na entrega técnica, a Contratada apresentará ao Proprietário todas as informações sobre os recursos que
+seu veículo oferece e suas funcionalidades, instruções fundamentais sobre condução econômica, instruções
+sobre a importância da manutenção preventiva, frequências recomendadas para a troca de óleo e filtros e sobre
+a garantia do veículo;
+3.1.7.
+Será considerado Zero Quilômetro o veículo cujo hodômetro não esteja com a quilometragem superior a
+50 (cinquenta) quilômetros;
+3.1.8.
+A garantia dos veículos a serem entregues não será inferior àquela contida no descritivo do item, e
+deverá estar igual àquela apresentada e aceita na proposta.
+3.1.9. Primeiro Emplacamento.
+O veículo novo deverá ser entregue emplacado e licenciado no Detran/RO,
+sendo o primeiro emplacamento obrigatoriamente realizado pela contratada no Município de Porto Velho em
+nome do Órgão Participante que constar da autorização de fornecimento.
+3.2. Plotagem/Adesivação
+3.2.1.
+O veículo deverá ser entregue devidamente plotado, conforme layout e logomarca a serem encaminhados
+pelo órgão demandante, observando-se as especificações técnicas e o padrão visual institucional.
+3.3. Condições de recebimento
+3.3.1.
+Realizada a entrega pela Contratada, a Contratante, por intermédio da Comissão de Recebimento,
+realizará, os exames necessários para aceitação/aprovação do (s) veículo (s) solicitado de modo a comprovar que
+o mesmo atende as especificações estabelecidas neste Termo de Referência.
+3.3.2.
+Por ocasião da entrega, caso seja detectado que o (s) veículo (s) solicitado (s) não atende (m) às
+especificações previamente definidas neste Termo de Referência, poderá a Administração rejeitá-lo,
+integralmente ou em parte, obrigando-se a contratada a providenciar a substituição do produto não aceito.
+3.3.3.
+O Contratado fica obrigado a reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no
+todo ou em parte, o objeto em que se verificarem vícios, defeitos ou incorreções resultantes da execução ou
+materiais empregados, cabendo à fiscalização não atestar os serviços até que sejam sanadas todas as eventuais
+pendências que possam vir a ser apontadas no Recebimento Provisório 5.2.4. A fiscalização não efetuará o
+ateste até que sejam sanadas todas as eventuais pendências que possam vir a ser apontadas no Recebimento
+Provisório. (Art. 119 c/c art. 140 da Lei nº 14133, de 2021).
+3.3.4.
+Quando a fiscalização for exercida por um único servidor, o Termo Detalhado deverá conter o registro, a
+análise e a conclusão acerca das ocorrências na execução do contrato, em relação à fiscalização técnica e
+administrativa e demais documentos que julgar necessários, devendo encaminhá-los ao gestor do contrato para
+recebimento definitivo.
+3.3.5.
+Realizada a entrega pela Contratada, por intermédio da Comissão de Recebimento do Material
+Permanente realizará o recebimento, de acordo com artigo 40, II da Lei nº 14.133/2021 e o artigo 94 do Decreto
+Municipal nº 18.892/2023, nos termos abaixo:
+a) Provisoriamente,
+em até 05 (cinco) dias úteis
+,
+para efeito de posterior verificação da conformidade do
+objeto com a especificação, um servidor designado fará o recebimento dos bens limitando-se a verificará sua
+conformidade com o discriminado na Nota fiscal, fazendo constar no canhoto e no verso da nota a data da
+entrega.
+b) Definitivamente,
+em até 30 (dias) dias úteis
+, contados do recebimento provisório, após criteriosa inspeção
+e verificação por Comissão de Recebimento, designada pela autoridade competente, de que o bem adquirido se
+encontra em perfeitas condições de utilização, além de atender às especificações do bem contratado.
+3.3.6.
+Os veículos poderão ser rejeitados, no todo ou em parte, quando em desacordo com as especificações
+constantes neste Termo de Referência e na proposta, sem prejuízo da aplicação das penalidades Lei nº 14.133,
+de 2021, comunicando-se à empresa para emissão de Nota Fiscal no que for pertinente à parcela incontroversa
+da execução do objeto, para efeito de liquidação e pagamento.
+3.3.7.
+Emitir Termo Detalhado para efeito de recebimento definitivo dos veículos, com base nos relatórios e
+documentações apresentadas; e 5.2.9. Comunicar à empresa para que emita a Nota Fiscal ou Fatura, com o
+valor exato.
+3.3.8.
+Enviar a documentação pertinente ao setor de contratos para a formalização dos procedimentos de
+liquidação e pagamento, no valor dimensionado pela fiscalização e gestão.
+3.3.9.
+No caso de controvérsia sobre a execução do objeto, quanto à dimensão, qualidade e quantidade, deverá
+ser observado o teor do art. 143 da Lei nº 14.133, de 2021, comunicando-se à empresa para emissão de Nota
+Fiscal no que for pertinente à parcela incontroversa da execução do objeto, para efeito de liquidação e
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 30
+pagamento.
+3.3.10.
+Nenhum prazo de recebimento ocorrerá enquanto pendente a solução, pelo contratado, de
+inconsistências verificadas na execução do objeto ou no instrumento de cobrança.
+3.3.11.
+O recebimento provisório ou definitivo não excluirá a responsabilidade civil pela solidez e pela
+segurança do serviço nem a responsabilidade ético-profissional pela perfeita execução do contrato.
+3.4. Gestão da contratação
+3.4.1.
+A execução do contrato ou entrega dos materiais deverá ser acompanhada e fiscalizada pelo(s) fiscal(is)
+do contrato ou comissão de recebimento, ou pelos respectivos substitutos (
+Lei 14.133, de 1º/04/2021,
+art. 117,
+caput).
+3.4.
+2. Da Fiscalização
+3.4.
+2.1.
+A empresa contratada ficará sujeita a mais ampla e irrestrita fiscalização, obrigando-se a prestar todos
+os esclarecimentos porventura requeridos pela Secretaria Municipal de Saúde – SEMUSA;
+3.4.
+2.2.
+A execução das obrigações contratuais deste instrumento será fiscalizada por servidor (es) ou
+comissão, doravante denominado (s) FISCAL (IS), designado formalmente, com autoridade para exercer, como
+representante desta Secretaria, toda e qualquer ação de orientação geral, observando-se o exato cumprimento
+de todas as cláusulas e condições decorrentes deste instrumento, determinando o que for necessário à
+regularização das falhas observadas, conforme prevê os artigos. 117 e 140 da
+Lei 14.133, de 1º/04/2021
+;
+3.4.
+2.3.
+A existência da fiscalização da Secretaria não diminui ou altera a responsabilidade da empresa
+contratada.
+3.4.
+2.4.
+O fiscal técnico do contrato acompanhará a execução do contrato, para que sejam cumpridas todas as
+condições estabelecidas no contrato, de modo a assegurar os melhores resultados para a Administração.
+(Decreto nº 11.246, de 2022, art. 22, VI);
+3.4.
+2.5.
+O fiscal técnico do contrato anotará no histórico de gerenciamento do contrato todas as ocorrências
+relacionadas à execução do contrato, com a descrição do que for necessário para a regularização das faltas ou
+dos defeitos observados. (Lei nº 14.133, de 2021, art. 117, §1º, e Decreto nº 11.246, de 2022, art. 22, II);
+4. CLÁUSULA QUARTA – SUBCONTRATAÇÃO CESSÃO E/OU TRANSFERÊNCIA
+4.1.
+É vedada a subcontratação, cessão e/ou transferência total ou parcial do objeto.
+5. CLÁUSULA QUINTA – DO PREÇO
+5.1.
+O valor desta contratação é de R$ __________(______________).
+5.2.
+No valor acima estão incluídas todas as despesas ordinárias diretas e indiretas decorrentes da execução do
+objeto, inclusive tributos e/ou impostos, encargos sociais, trabalhistas, previdenciários, fiscais e comerciais
+incidentes, taxa de administração, frete, seguro e outros necessários ao cumprimento integral do objeto da
+contratação.
+6. CLÁUSULA SEXTA – DOS CRITÉRIOS DE MEDIÇÃO E PAGAMENTO
+6.1.
+O pagamento deverá ser efetuado mediante a apresentação de Nota Fiscal acompanhada das devidas
+requisições que deram origem ao fornecimento pela contratada, devidamente atestadas pela Administração,
+conforme disposto no art. 141 da Lei nº 14.133 de 2021.
+6.2.
+O prazo para pagamento da Nota Fiscal, devidamente atestada pela CONTRATANTE, será de 30 (trinta)
+dias, contados da data de sua apresentação.
+6.3.
+Não será efetuado qualquer pagamento de parcela controvertida à (s) empresa (s) Contratada (s) enquanto
+houver pendência de liquidação da obrigação financeira em virtude de penalidade ou inadimplência contratual.
+6.4.
+Quando da ocorrência de eventuais atrasos de pagamento provocados exclusivamente pela
+CONTRATANTE, o valor devido deverá ser acrescido de atualização financeira, e sua apuração se fará desde a
+data de seu vencimento até a data do efetivo pagamento, em que os juros de mora serão calculados à taxa de
+0,5% (meio por cento) ao mês, ou 6% (seis por cento) ao ano, mediante aplicação das seguintes fórmulas:
+EM = I x N x VP
+Onde: EM = Encargos moratórios;
+N = Número de dias entre a data prevista para o pagamento e a do efetivo pagamento;
+VP valor da parcela paga:
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 31
+I = Índice de compensação financeira = 0,00016438, assim apurado:
+I =
+(TX)
+I =
+(6/100)
+I = 0,00016438
+365 365
+TX = Percentual da taxa anual = 6%
+6.5.
+Ocorrendo erro no documento da cobrança, este será devolvido e o pagamento será sustado para que a
+Contratada tome as medidas necessárias, passando o prazo para o pagamento a ser contado a partir da data da
+reapresentação do mesmo.
+6.6.
+Caso se constate erro ou irregularidade na Nota Fiscal, a ADMINISTRAÇÃO, a seu critério, poderá devolve-
+la, para as devidas correções, ou aceitá-las, com a glosa da parte que considerar indevida.
+6.7.
+Na hipótese de devolução, a Nota Fiscal será considerada como não apresentada, para fins de atendimento
+das condições contratuais.
+6.8.
+A administração não pagará, sem que tenha autorização prévia e formalmente, nenhum compromisso que
+lhe venha a ser cobrado diretamente por terceiros, seja ou não instituições financeiras, à exceção de
+determinações judiciais, devidamente protocoladas no órgão.
+6.9.
+Os eventuais encargos financeiros, processuais e outros, decorrentes da inobservância, pela licitante, de
+prazo de pagamento, serão de sua exclusiva responsabilidade.
+6.10.
+A ADMINISTRAÇÃO efetuará retenção, na fonte, dos tributos e contribuições sobre todos os pagamentos
+à CONTRATADA.
+6.11.
+É condição para o pagamento do valor constante de cada Nota Fiscal/Fatura, a apresentação de Prova de
+Regularidade com o Fundo de Garantia por Tempo de Serviço (FGTS), com o Instituto Nacional do Seguro Social
+(INSS), e Certidão Negativa da Receita Estadual, Certidão Negativa Municipal e Certidão Negativa Federal,
+Certidão Negativa de Débitos Trabalhistas – CNDT podendo ser verificadas nos sítios eletrônicos.
+6.12. Pagamento Antecipado
+6.12.1.
+Não haverá pagamento antecipado, considerando a natureza do objeto e a inexistência de justificativa
+técnica que demonstre vantagem à Administração.
+7. CLÁUSULA SÉTIMA – DO REAJUSTE
+7.1.
+Os preços inicialmente contratados são fixos e irreajustáveis no prazo de um ano contado da data do
+orçamento estimado da Administração. Quadro comparativo id.
+(0773323)
+. Data-base: PORTO VELHO 10 DE
+ABRIL DE 2026.
+7.2.
+Após o interregno de um ano, e mediante requerimento da CONTRATADA devidamente assinado pelo seu
+responsável, os preços iniciais serão reajustados, mediante a aplicação, pelo CONTRATANTE, do Índice
+Nacional de Preços ao Consumidor (INPC), exclusivamente para as obrigações iniciadas e concluídas após a
+ocorrência da anualidade.
+7.3.
+Nos reajustes subsequentes ao primeiro, o interregno mínimo de um ano será contado a partir dos efeitos
+financeiros do último reajuste.
+7.4.
+No caso de atraso ou não divulgação do(s) índice (s) de reajustamento, o Contratante pagará ao Contratado
+a importância calculada pela última variação conhecida, liquidando a diferença correspondente tão logo seja(m)
+divulgado(s) o(s) índice(s) definitivo(s).
+7.5.
+Nas aferições finais, o(s) índice(s) utilizado(s) para reajuste será(ão), obrigatoriamente, o(s) definitivo(s).
+7.6.
+Caso o(s) índice(s) estabelecido(s) para reajustamento venha(m) a ser extinto(s) ou de qualquer forma não
+possa(m) mais ser utilizado(s), será(ão) adotado(s), em substituição, o(s) que vier(em) a ser determinado(s) pela
+legislação então em vigor.
+7.7.
+Na ausência de previsão legal quanto ao índice substituto, as partes elegerão novo índice oficial, para
+reajustamento do preço do valor remanescente, por meio de termo aditivo.
+7.8.
+O reajuste será realizado por apostilamento.
+7.9.
+Caso a CONTRATADA não solicite o reajuste tempestivamente, dentro do prazo fixado, ocorrerá a
+preclusão do direito.
+8. CLÁUSULA OITAVA – OBRIGAÇÕES DA CONTRATADA
+8.1.
+Fornecer o objeto deste instrumento, de acordo com as especificações exigidas;
+8
+.2.
+Fornecer o objeto deste instrumento, na forma, nos locais, nos prazos e nos preços estipulados na sua
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 32
+proposta;
+8
+.3.
+Prestar garantia pelo período solicitado em cada item conforme sua exigência;
+8
+.4.
+Responsabilizar-se por todas as despesas/custos oriundas das entregas bem como de suas eventuais trocas
+durante a garantia;
+8
+.5.
+enviar por e-mail o arquivo XML oriundo da emissão do DANFE para os endereços eletrônicos de cada
+Órgão Participante;
+8
+.6.
+Acusar o recebimento das Autorizações de Fornecimento, bem como de quaisquer outras notificações
+enviadas por meio eletrônico, no prazo máximo de 24 (vinte e quatro) horas. Se o prazo final deste item recair
+em final de semana ou feriado, será prorrogado ao próximo dia útil.
+8
+.7.
+Emitir Nota Fiscal dos produtos e/ou serviços realizados, discriminando-os individual e
+pormenorizadamente, especificando quantitativos, marcas e modelos.
+8
+.8.
+Substituir em até 30 (trinta) dias os materiais que, após a entrega, apresentarem defeitos ou vierem a
+apresentar durante o período de garantia;
+8
+.9.
+Assumir inteira responsabilidade quanto à garantia e qualidade dos materiais, reservado a CONTRATANTE
+o direito de recusar se os materiais não estiverem em conformidade com os das especificações contidas neste
+Termo de Referência.
+8.10
+.
+Arcar com qualquer prejuízo causado à Administração ou a terceiros por seus empregados durante a
+entrega dos materiais, inclusive, durante a entrega dos mesmos através de transportadoras;
+8.11
+.
+Aceitar, nas mesmas condições contratuais, os acréscimos e as supressões que se fizerem necessárias, no
+montante de até 25% (vinte e cinco por cento) do valor inicial atualizado, de acordo com o art. 125 da Lei nº
+14.133/2021;
+8.12.
+Executar fielmente o fornecimento, entregando os materiais nas quantidades pactuadas, de acordo com
+as exigências constantes neste Termo;
+8.13.
+No preço ofertado deverão estar incluídos também os custos indiretos sobre o fornecimento, tais como:
+seguros de acidentes, taxas, impostos, contribuições sociais, indenizações.
+8
+.14.
+O contrato será executado diretamente pela CONTRATADA, sendo terminantemente vedada a
+subcontratação, cessão, transferência e/ou terceirização deste.
+8.15
+.
+Prezar pelo sigilo e segurança do objeto, sendo responsável por qualquer extravio ou desvio de material
+até a entrega e devido recebimento pela comissão, sujeitando-se às responsabilidades civis e penais cabíveis.
+8.16.
+O Contratado deve cumprir todas as obrigações constantes deste Contrato e em seus anexos, assumindo
+como exclusivamente seus os riscos e as despesas decorrentes da boa e perfeita execução do objeto,
+observando, ainda, as obrigações a seguir dispostas:
+8.17.
+Responsabilizar-se pelos vícios e danos decorrentes do objeto, de acordo com o Código de Defesa do
+Consumidor (Lei nº 8.078, de 1990);
+8.18.
+Comunicar ao contratante, no prazo máximo de 24 (vinte e quatro) horas que antecede a data da entrega,
+os motivos que impossibilitem o cumprimento do prazo previsto, com a devida comprovação;
+8.19.
+Atender às determinações regulares emitidas pelo fiscal ou gestor do contrato ou autoridade superior (art.
+137, II, da Lei n.º 14.133, de 2021) e prestar todo esclarecimento ou informação por eles solicitados;
+8.20.
+Reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, no prazo
+fixado pelo fiscal do contrato, os bens nos quais se verificarem vícios, defeitos ou incorreções resultantes da
+execução ou dos materiais empregados;
+8.21.
+Responsabilizar-se pelos vícios e danos decorrentes da execução do objeto, bem como por todo e qualquer
+dano causado à Administração ou terceiros, não reduzindo essa responsabilidade a fiscalização ou o
+acompanhamento da execução contratual pelo contratante, que ficará autorizado a descontar dos pagamentos
+devidos ou da garantia, caso exigida, o valor correspondente aos danos sofridos;
+8.22.
+Quando não for possível a verificação da regularidade no Sistema de Cadastro de Fornecedores – SICAF, o
+contratado deverá entregar ao setor responsável pela fiscalização do contrato, junto com a Nota Fiscal para fins
+de pagamento, os seguintes documentos:
+1) prova de regularidade relativa à Seguridade Social;
+2) certidão conjunta relativa aos tributos federais e à Dívida Ativa da União;
+3) certidões que comprovem a regularidade perante a Fazenda Estadual ou Distrital do domicílio ou sede do
+contratado;
+4) Certidão de Regularidade do FGTS – CRF; e
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 33
+5) Certidão Negativa de Débitos Trabalhistas – CNDT;
+8.23
+.
+Responsabilizar-se pelo cumprimento de todas as obrigações trabalhistas, previdenciárias, fiscais,
+comerciais e as demais previstas em legislação específica, cuja inadimplência não transfere a responsabilidade
+ao contratante e não poderá onerar o objeto do contrato;
+8.24.
+Comunicar ao Fiscal do contrato, no prazo de 24 (vinte e quatro) horas, qualquer ocorrência anormal ou
+acidente que se verifique no local da execução do objeto contratual.
+8.25
+.
+Paralisar, por determinação do contratante, qualquer atividade que não esteja sendo executada de acordo
+com a boa técnica ou que ponha em risco a segurança de pessoas ou bens de terceiros.
+8.26.
+Manter durante toda a vigência do contrato, em compatibilidade com as obrigações assumidas, todas as
+condições exigidas para habilitação na licitação;
+8.27.
+Guardar sigilo sobre todas as informações obtidas em decorrência do cumprimento do contrato; Arcar
+com o ônus decorrente de eventual equívoco no dimensionamento dos quantitativos de sua proposta, inclusive
+quanto aos custos variáveis decorrentes de fatores futuros e incertos, devendo complementá-los, caso o previsto
+inicialmente em sua proposta não seja satisfatório para o atendimento do objeto da contratação, exceto quando
+ocorrer algum dos eventos arrolados no art. 124, II, d, da Lei nº 14.133, de 2021.
+8
+.28.
+Cumprir, além dos postulados legais vigentes de âmbito federal, estadual ou municipal, as normas de
+segurança do contratante.
+8
+.29.
+Cumprir, durante todo o período de execução do contrato, a reserva de cargos prevista em lei para pessoa
+com deficiência ou para reabilitado da previdência social, bem como as regras de acessibilidade previstas na
+legislação, quando a contratada houver se beneficiado da preferência estabelecida pela lei n° 13.146, de 2015.
+8
+.30.
+Cumprir, durante todo o período de execução do contrato, a reserva de cargos, quanto a obrigação de
+cumprimento de cota de aprendizes pelas empresas contratadas, onde deverá ser priorizado(a) adolescente
+entre 14 e 18 anos que estejam em situação de vulnerabilidade ou de risco social, nos termos do art. 53, caput,
+incisos I a III, §§ 1° e §2°, do Decreto Presidencial n° 9.579/2018, com redação conferida pelo Decreto n°
+11.479/2023.
+8
+.31.
+A CONTRATADA deverá cumprir a cota, durante todo o período de execução do contrato, a reserva de
+cargos prevista em lei para pessoa com deficiência ou para reabilitado da Previdência Social, bem como as
+regras de acessibilidade previstas na legislação, quando a contratada houver se beneficiado da preferência
+estabelecida pela Lei nº 13.146, de 2015.
+8
+.32.
+A CONTRATADA deverá cumprir a cota, durante todo o período de execução do contrato, a reserva de
+cargos, que dentre os (as) aprendizes a serem contratados (as) deverá ser priorizado (a) adolescente entre 14 e
+18 anos que estejam em situação de vulnerabilidade ou de risco social, nos termos do art. 53, caput, incisos I a
+III, §§ 1º e §2º, do Decreto Presidencial n. 9.579/2018, com redação conferida pelo Decreto nº. 11.479/2023;
+8
+.33.
+A CONTRATADA deverá orientar e treinar seus empregados sobre os deveres previstos na Lei nº 13.709,
+de 14 de agosto de 2018, adotando medidas eficazes para proteção de dados pessoais a que tenha acesso por
+força da execução deste contrato;
+9. CLÁUSULA NONA – OBRIGAÇÕES DA CONTRATANTE
+9.1.
+Pagamento dos produtos contratados, nos prazos previstos;
+9
+.2.
+Fiscalização dos fornecimentos, relatando problemas e circunstâncias para facilitação dos serviços;
+9
+.3.
+Cumprir as obrigações previstas neste termo e exigir o cumprimento das obrigações previstas para a
+Contratada;
+9
+.4.
+Propo
+rcionar todas as facilidades para que a empresa possa cumprir suas obrigações dentro das normas e
+condições assumidas.
+9
+.5.
+Prestar as informações e os esclarecimentos pertinentes que venham a ser solicitados. Empenhar os
+recursos necessários, garantindo o pagamento. Rejeitar, no todo ou em parte, os materiais entregue fora das
+especificações deste instrumento e cumprir com as disposições editalícias.
+9
+.6.
+Permitir o acesso dos empregados da CONTRATADA às suas dependências para o fiel cumprimento de suas
+obrigações (ENTREGA DOS PRODUTOS) e prestar as informações e os esclarecimentos que venham a ser
+solicitados pela mesma.
+9
+.7.
+Acompanhar, atestar e efetuar o recebimento dos produtos correspondentes ao produto deste instrumento,
+por servidor ou Comissão de Recebimento dos produtos, devidamente legalizado, conforme prevê o art. 140, da
+Lei 14.133, de 1º/04/2021, bem como rejeitar, no todo ou em parte, os produtos que a empresa entregar fora
+das especificações do Termo de Referência e seu (s) Anexo(s), não eximindo a CONTRATADA de sua total
+responsabilidade quanto ao cumprimento de suas obrigações.
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 34
+9
+.8.
+Comunicar à CONTRATADA qualquer irregularidade verificada por ocasião da execução do contrato, para
+que sejam tomadas as providências necessárias quanto às correções decorrentes de erros e falhas; A
+Administração não responderá por quaisquer compromissos assumidos pela Contratada com terceiros, ainda
+que vinculados à execução do presente Termo de Contrato, bem como por qualquer dano causado a terceiros
+em decorrência de ato da Contratada, de seus empregados, prepostos ou subordinados.
+9
+.9.
+Notificar a empresa, por escrito, eventuais anormalidades de qualquer espécie, prestando os
+esclarecimentos necessários, determinando prazo para a correção das falhas, das eventuais aplicações de
+advertências e multas previstas na legislação que rege a matéria.
+9
+.10.
+Supervisionar, fiscalizar, e atestar a execução do contrato;
+9
+.11.
+Rejeitar, no todo ou em parte, os materiais que não atenderem às especificações.
+9
+.12.
+Efetuar o pagamento nas condições pactuadas.
+9
+.13.
+Fiscalizar a execução do contrato nos termos da Lei 14.133, de 1º/04/2021.
+9
+.14.
+Efetuar o pagamento da empresa CONTRATADA em conformidade ao estabelecido neste Termo de
+Referência, mediante conferência dos documentos: Nota Fiscal/Fatura, e devidamente atestados por servidor ou
+comissão encarregado do recebimento e observado o cumprimento integral das disposições contidas neste
+instrumento.
+9
+.15.
+Responder eventuais pedidos de reestabelecimento do equilíbrio econômico-financeiro feitos pelo
+contratado no prazo máximo de 60 (sessenta) dias conforme determina o Inciso XI do artigo 92 da
+Lei 14.133,
+de 1º/04/2021.
+10. CLÁUSULA DÉCIMA – DA GARANTIA CONTRATUAL
+10.1.
+Não haverá exigência de garantia contratual da execução para esta licitação.
+11. CLÁUSULA DÉCIMA PRIMEIRA – DOTAÇÃO ORÇAMENTÁRIA
+11.1.
+As despesas com o objeto desta
+aquisição serão custeadas com recursos oriundos da seguinte Dotação
+Orçamentária, Programa de Trabalho e Elemento de Despesas, também explicitados e constantes da respectiva
+Nota de Empenho:
+Projeto Atividade:
+08.31.10.301.317.2.024; Emenda nº Projeto de Lei nº PLO-4954/2025 ; 014/2025 -
+AUTORIA 0029 - RECURSO R$ 300.000,00 ; 0144/2025 - AUTORIA 0015 - RECURSO R$ 400.000,00;
+0145/2025 - AUTORIA 0015 - RECURSO R$ 120.000,00; Elementos de despesa:
+4.4.90.52 e Fonte de
+recursos: 1500.
+12. CLÁUSULA DÉCIMA SEGUNDA – INFRAÇÕES E SANÇÕES ADMINISTRATIVAS
+12.1.
+A CONTRATADA que, sem justa causa, não cumprir as obrigações assumidas ou infringir os preceitos
+legais, ressalvados os casos fortuitos ou de força maior, devidamente justificados e comprovados, aplicar-se- ão,
+conforme a natureza e gravidade da falta cometida, sem prejuízo de outras sanções pertinentes à espécie
+prescrita pela Lei nº 14.133/2021 e no Decreto Municipal nº 18.892/2023, e previstas no Edital e/ou contrato, às
+seguintes penalidades:
+I – Advertência:
+II – Multa, nos seguintes percentuais:
+a) No atraso injustificado da entrega do produto contratado, ou por ocorrência de descumprimento contratual,
+0,5% (cinco centésimos por cento) por dia sobre o valor da parcela inadimplida, limitado a 20% (vinte por
+cento).
+b) No caso de atraso injustificado para substituição do produto, 0,5% (cinco centésimos por cento) ao dia sobre
+o valor do produto, incidência limitada a 10 (dez) dias.
+c) Na hipótese de atraso injustificado para substituição do produto, superior a 10 (dez) dias, 8% (oito por cento)
+sobre o valor do produto.
+d) Em caso de reincidência no atraso de que tratam as alíneas “a”, “b” e “c” quando da ocorrência do 3º
+(terceiro) atraso, poderá ser aplicada sanção mais grave prevista no inciso III deste item, concomitantes e sem
+prejuízo de outras cominações.
+III – Inadimplemento absoluto das obrigações sujeitas a contratado à aplicação das seguintes multas:
+a) Pelo descumprimento total, será aplicada multa de 10% sobre o valor contratado anos e máximo de 6 (seis)
+anos;
+b) Pelo descumprimento parcial, será aplicada multa de até 5% sobre o valor do contrato, levando em
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 35
+consideração para fixação do valor final, a relevância da parcela inadimplida.
+c) Na hipótese da empresa recusar-se a formalizar o contrato no prazo informado, durante a vigência da
+proposta, caracteriza-se a inexecução total da obrigação assumida.
+IV – Impedimento de licitar e contratar; art. 156, inciso III da Lei nº 14.133/2021.
+V – Declaração de inidoneidade para licitar ou contratar com a União, Estados, Distrito Federal ou Municípios,
+com fulcro no art. 156, da Lei nº 14.133/2021, quando a CONTRATADA deixar de cumprir as obrigações
+assumidas, praticando falta grave, dolosa ou revestida de má-fé.
+12.2.
+A aplicação de quaisquer das penalidades ora previstas não impede a rescisão contratual.
+12.3.
+A aplicação das penalidades será precedida da concessão de oportunidade para exercício da ampla defesa
+e do contraditório, por parte do contratado, na forma da lei.
+12.4.
+Reabilitação perante a autoridade que aplicou a penalidade será concedida sempre que o contratado
+ressarcir a Administração pelos prejuízos resultantes e após decorrido o prazo da sanção aplicada.
+12.5.
+Os prazos para adimplemento das obrigações consignadas no presente termo admitem prorrogação nos
+casos e condições especificados no art. 92 da Lei nº 14.133/2021, devendo a solicitação dilatória, sempre por
+escrito, ser fundamentada e instruída com os documentos necessários à comprovação das alegações, recebida
+contemporaneamente ao fato que ensejá-la, sendo considerados injustificados os atrasos não precedidos da
+competente prorrogação.
+12.6.
+As multas, aplicadas após o regular processo administrativo, serão descontadas dos pagamentos
+eventualmente devidos à CONTRATADA.
+12.7.
+As penalidades serão obrigatoriamente registradas no SICAF e no Cadastro de Fornecedores do Município
+de Porto Velho - RO, e no caso de suspensão de licitar, o licitante deverá ser descredenciado por igual período,
+sem prejuízo das multas previstas no Edital, seus anexos e demais cominações legais.
+12.8.
+Se, durante o processo de aplicação de penalidade, se houver indícios de prática de infração
+administrativa tipificada pela Lei nº 12.846, de 1º de agosto de 2013, como ato lesivo à administração pública
+nacional ou estrangeira, cópias dos processos administrativos necessários à apuração da responsabilidade da
+empresa deverão ser remetidas à autoridade competente, com despacho fundamentado, para ciência e decisão
+sobre a eventual instauração de investigação preliminar ou Processo Administrativo de Responsabilização –
+PAR.
+12.9.
+A apuração e o julgamento das demais infrações administrativas não consideradas como ato lesivo à
+Administração Pública nacional ou estrangeira nos termos da Lei nº 12.846, de 1º de agosto de 2013, seguirão
+seu rito normal na unidade administrativa.
+12.10.
+O processamento do PAR não interfere no seguimento regular dos processos administrativos específicos
+para apuração da ocorrência de danos e prejuízos à Administração Pública resultantes de ato lesivo cometido
+por pessoa jurídica, com ou sem a participação de agente público.
+12.11.
+A aplicação de qualquer das penalidades previstas realizar-se-á em processo administrativo que
+assegurará o contraditório e a ampla defesa à CONTRATADA, observando-se o procedimento previsto na Lei nº
+14.133, de 2021, e subsidiariamente a Lei nº 9.784, de 1999.
+12.12.
+O Contratante deverá, no prazo máximo
+de
+15 (quinze) dias úteis, contado da data de aplicação da
+sanção,
+informar
+e manter atualizados os dados relativos às sanções por ela aplicadas, para fins de publicidade
+no Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS) e no Cadastro Nacional de Empresas Punidas
+(CNEP), instituídos no âmbito do Poder Executivo Municipal.
+12.13.
+As penalidades serão obrigatoriamente registradas no SICAF pela Contratante.
+13. CLÁUSULA DÉCIMA TERCEIRA – OBRIGAÇÕES PERTINENTES À LGPD
+13.1.
+As partes deverão cumprir a
+Lei nº 13.709, de 14 de agosto de 2018 (LGPD)
+, quanto a todos os dados
+pessoais a que tenham acesso em razão do certame ou do contrato administrativo que eventualmente venha a
+ser firmado, a partir da apresentação da proposta no procedimento de contratação, independentemente de
+declaração ou de aceitação expressa.
+13.2.
+Os dados obtidos somente poderão ser utilizados para as finalidades que justificaram seu acesso e de
+acordo com a boa-fé e com os princípios do
+art. 6º da LGPD
+.
+13.3.
+É vedado o compartilhamento com terceiros dos dados obtidos fora das hipóteses permitidas em Lei.
+13.4.
+A Administração deverá ser informada no prazo de 5 (cinco) dias úteis sobre todos os contratos de
+suboperação firmados ou que venham a ser celebrados pelo Contratado.
+13.5.
+Terminado o tratamento dos dados nos termos do
+art. 15 da LGPD
+, é dever do contratado eliminá-los, com
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 36
+exceção das hipóteses do
+art. 16 da LGPD
+, incluindo aquelas em que houver necessidade de guarda de
+documentação para fins de comprovação do cumprimento de obrigações legais ou contratuais e somente
+enquanto não prescritas essas obrigações.
+13.6.
+É dever do contratado orientar e treinar seus empregados sobre os deveres, requisitos e
+responsabilidades decorrentes da LGPD.
+13.7.
+O Contratado deverá prestar, no prazo fixado pelo Contratante, prorrogável justificadamente, quaisquer
+informações acerca dos dados pessoais para cumprimento da LGPD, inclusive quanto a eventual descarte
+realizado.
+13.8.
+O Contratante poderá realizar diligência para aferir o cumprimento dessa cláusula, devendo o Contratado
+atender prontamente eventuais pedidos de comprovação formulados.
+13.9.
+O Contratado deverá prestar, no prazo fixado pelo Contratante, prorrogável justificadamente, quaisquer
+informações acerca dos dados pessoais para cumprimento da LGPD, inclusive quanto a eventual descarte
+realizado.
+13.10.
+O contrato está sujeito a ser alterado nos procedimentos pertinentes ao tratamento de dados pessoais,
+quando indicado pela autoridade competente, em especial a ANPD por meio de opiniões técnicas ou
+recomendações, editadas na forma da LGPD.
+14. CLÁUSULA DÉCIMA QUARTA – DA INEXECUÇÃO E EXTINÇÃO DO CONTRATO
+14.1.
+Ficará o presente contrato rescindido, a juízo da administração, mediante formalização, assegurado o
+contraditório e a ampla defesa, nas hipóteses previstas nos artigos 137 e 138 da Lei nº 14.133/2021.
+14.1.1.
+A inexecução total ou parcial do contrato ensejará a sua extinção com as consequências contratuais e as
+previstas em lei, com fulcro no Título III, Capítulo VIII da Lei n. 14.133/2021, nos seguintes modos:
+I – Determinada por ato unilateral e escrito da Administração, exceto no caso de descumprimento decorrente de
+sua própria conduta;
+II – Consensual, por acordo entre as partes, por conciliação, por mediação ou por comitê de resolução de
+disputas, desde que haja interesse da Administração;
+III – Determinada por decisão arbitral, em decorrência de cláusula compromissória ou compromisso arbitral, ou
+por decisão judicial.
+14.2.
+Constituirão motivos para extinção do contrato, a qual deverá ser formalmente motivada nos autos do
+processo, assegurados o contraditório e a ampla defesa, as seguintes situações:
+I – Não cumprimento ou cumprimento irregular de normas editalícias ou de cláusulas contratuais, de
+especificações, de projetos ou de prazos;
+II – Desatendimento das determinações regulares emitidas pela autoridade designada para acompanhar e
+fiscalizar sua execução ou por autoridade superior;
+III – Alteração social ou modificação da finalidade ou da estrutura da empresa que restrinja sua capacidade de
+concluir o contrato;
+IV – Decretação de falência ou de insolvência civil, dissolução da sociedade ou falecimento do contratado;
+V – Caso fortuito ou força maior, regularmente comprovados, impeditivos da execução do contrato;
+VI – Atraso na obtenção da licença ambiental, ou impossibilidade de obtê-la, ou alteração substancial do
+anteprojeto que dela resultar, ainda que obtida no prazo previsto;
+VII – Atraso na liberação das áreas sujeitas a desapropriação, a desocupação ou a servidão administrativa, ou
+impossibilidade de liberação dessas áreas;
+VIII – Razões de interesse público, justificadas pela autoridade máxima do órgão ou da entidade contratante;
+IX – Não cumprimento das obrigações relativas à reserva de cargos prevista em lei, bem como em outras
+normas específicas, para pessoa com deficiência, para reabilitado da Previdência Social ou para aprendiz.
+14.3.
+O descumprimento, por parte da CONTRATADA, de suas obrigações legais e/ou contratuais assegurará ao
+CONTRATANTE o direito de extinguir o contrato a qualquer tempo, independentemente de aviso, interpelação
+judicial e/ou extrajudicial.
+14.4.
+A extinção por ato unilateral do CONTRATANTE sujeitará a CONTRATADA à multa rescisória de até 10%
+(dez por cento) sobre o valor do saldo do contrato existente na data da extinção, independentemente de outras
+penalidades.
+14.5.
+Caso o valor do prejuízo do CONTRATANTE advindo da extinção contratual por culpa da CONTRATADA
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 37
+exceder o valor da Cláusula Penal prevista no parágrafo anterior, esta valerá como mínimo de indenização, na
+forma do disposto no art. 416, parágrafo único, do Código Civil.
+14.6.
+A extinção determinada por ato unilateral da Administração e a extinção consensual deverão ser
+precedidas de autorização escrita e fundamentada da autoridade competente e reduzidas a termo no respectivo
+processo.
+15. CLÁUSULA DÉCIMA QUINTA – DA ABERTURA DE PROCEDIMENTO ADMINISTRATIVO
+INADIMPLEMENTO
+15.1.
+No caso de abertura de procedimento administrativo para apuração de inadimplemento contratuais
+deverá ser observado o procedimento estabelecido no art. 95 a 130 do Decreto Municipal 18.892/2023.
+16. CLÁUSULA DÉCIMA SEXTA – DA ALTERAÇÃO DO CONTRATO
+16.2.
+O contratado é obrigado a aceitar, nas mesmas condições contratuais, os acréscimos ou supressões que se
+fizerem necessários, até o limite de 25% (vinte e cinco por cento) do valor inicial atualizado do contrato.
+16.3.
+As alterações contratuais deverão ser promovidas mediante celebração de termo aditivo, submetido à
+prévia aprovação da consultoria jurídica do contratante, salvo nos casos de justificada necessidade de
+antecipação de seus efeitos, hipótese em que a formalização do aditivo deverá ocorrer no prazo máximo de 1
+(um) mês (art. 132 da Lei nº 14.133, de 2021).
+16.4.
+Registros que não caracterizam alteração do contrato podem ser realizados por simples apostila,
+dispensada a celebração de termo aditivo, na forma do
+art. 136 da Lei nº 14.133, de 2021
+.
+17. CLÁUSULA DÉCIMA SÉTIMA – DOS CASOS OMISSOS
+17.1.
+Os casos omissos serão decididos pela CONTRATANTE, segundo as disposições contidas no artigo 92,
+inciso III, da Lei nº 14.133/2021 de 01.04.2021, e demais normas federais de licitações e contratos
+administrativos e, subsidiariamente, segundo as disposições contidas na Lei nº 8.078, de 1990 - Código de
+Defesa do Consumidor, e normas e princípios gerais aplicáveis.
+18. CLÁUSULA DÉCIMA OITAVA – DA HABILITAÇÃO
+18.1.
+A
+CONTRATADA
+obriga-se a manter as condições que a habilitaram no certame licitatório, até o total
+cumprimento deste contrato.
+19. CLÁUSULA DÉCIMA NONA – DO FORO
+19.1.
+As partes elegem o Foro da Comarca de Porto Velho/RO para dirimir dúvidas e controvérsias oriundas do
+presente
+instrumento.
+20. CLÁUSULA VÍGESIMA – DA PUBLICAÇÃO
+20.1.
+Após a assinatura deste contrato, o
+CONTRATANTE
+providenciará a publicação do mesmo ou de resumo
+no
+Portal Nacional de Contratações Públicas (PNCP), na forma prevista no
+art. 94 da Lei 14.133, de
+2021
+, bem como no respectivo sítio oficial na Internet, em atenção ao art. 91,
+caput,
+da Lei n.º
+14.133, de 2021.
+Para firmeza e como prova do acordado, é lavrado o presente contrato, que depois de lido e achado conforme é
+assinado pelas partes, dele sendo extraídas as cópias necessárias para seu fiel cumprimento, todas de igual teor
+e forma,
+devidamente certificadas pela Procuradoria Geral do Município.
+Porto Velho, _____ de _______de 20___.
+________________________________________
+SECRETÁRIO MUNICIPAL
+__________________________________
+REPRESENTANTE LEGAL DA CONTRATADA
+VISTO:
+PROCURADOR GERAL DO MUNICÍPIO
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 38
+Documento assinado eletronicamente por
+Genean Prestes Dos Santos
+,
+Agente
+, em 19/06/2026, às
+11:09, conforme art. 17, § 1º, do Decreto nº 21.393, de 07 de outubro de 2025.
+A autenticidade do documento pode ser conferida no site https://www.portovelho.ro.gov.br/sei informando
+o código verificador
+1099510
+e o código CRC
+100EB62E
+.
+Referência:
+Processo nº 005.003461/2026-31
+SEI nº 1099465
+Edital de Licitação 152 (1099510) SEI 005.003461/2026-31 / pg. 39

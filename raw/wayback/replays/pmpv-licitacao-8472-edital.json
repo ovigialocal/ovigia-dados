@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-licitacao-8472-edital",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8472/30793/SEI_1099510_Edital_de_Licitacao_152-(1).pdf",
+  "archive_url": "https://web.archive.org/web/20260904033432/https://anexos.portovelho.ro.gov.br/compras/8472/30793/SEI_1099510_Edital_de_Licitacao_152-(1).pdf",
+  "verified_at": "2026-09-04T03:39:02Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 453594,
+  "archive_sha256": "7d0981bdf1bb288043bc2a16ffeac3c89c52fea9ce0c401e6e2cc395de88442c",
+  "source_content_type": "application/pdf",
+  "source_size": 484007,
+  "source_sha256": "a770c88f0d7ce1040da1825469118adcf72904b6f53a0372cf13ce4082eb93c5",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-licitacao-8472-edital.pdf"
+}
