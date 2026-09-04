@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/bolsa-atleta-lei-3413-2026",
+  "source_url": "https://www.diariomunicipal.com.br/arom/materia/031D7E1D/90465cbeec2a54863aff1b982ed54e6f90465cbeec2a54863aff1b982ed54e6f",
+  "archive_url": "https://web.archive.org/web/20260904100701/https://www.diariomunicipal.com.br/arom/materia/031D7E1D/90465cbeec2a54863aff1b982ed54e6f90465cbeec2a54863aff1b982ed54e6f",
+  "verified_at": "2026-09-04T10:22:20Z",
+  "archive_content_type": "text/html",
+  "archive_size": 19737,
+  "archive_sha256": "e2f1a95dee999123a500e681acdc6f23f7ee5e36c625f5a47b1dd0d738e5c60e",
+  "source_content_type": "text/html",
+  "source_size": 78949,
+  "source_sha256": "770e8a62b33e5470ff59fed1ecf2ae28b84572d196370077af1190afa74034e5",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/bolsa-atleta-lei-3413-2026.html"
+}
