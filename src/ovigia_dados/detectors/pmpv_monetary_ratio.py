@@ -60,9 +60,7 @@ def detect_contract_licitation_ratios(
 
     for record in records:
         contract_value = _number(_nested_value(record, "valor", "value"))
-        licitation_value = _number(
-            _nested_value(record, "licitacao", "valor_contratado", "value")
-        )
+        licitation_value = _number(_nested_value(record, "licitacao", "valor_contratado", "value"))
         if not contract_value or not licitation_value:
             continue
 
@@ -95,9 +93,7 @@ def detect_contract_licitation_ratios(
             continue
 
         licitation_id = _nested_value(record, "licitacao", "id")
-        contract_number = (
-            str(record["numero"]) if record.get("numero") is not None else None
-        )
+        contract_number = str(record["numero"]) if record.get("numero") is not None else None
         signals.append(
             MonetaryRatioSignal(
                 contract_id=str(record.get("id", "")),
