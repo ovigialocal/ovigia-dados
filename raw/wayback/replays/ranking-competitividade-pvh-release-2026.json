@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ranking-competitividade-pvh-release-2026",
+  "source_url": "https://semec.portovelho.ro.gov.br/noticias/58126",
+  "archive_url": "https://web.archive.org/web/20260904073744/https://semec.portovelho.ro.gov.br/noticias/58126",
+  "verified_at": "2026-09-04T07:43:16Z",
+  "archive_content_type": "text/html",
+  "archive_size": 28349,
+  "archive_sha256": "a6d6a251cb0afb679b08fcf0f4369535e286b9253f00f16e6fbeb96007730f52",
+  "source_content_type": "text/html",
+  "source_size": 293700,
+  "source_sha256": "69809266a54e03d81246297f8e5f6edbbeecb738dd0f1f5aa07eb61c7a2c93ea",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/ranking-competitividade-pvh-release-2026.html"
+}
