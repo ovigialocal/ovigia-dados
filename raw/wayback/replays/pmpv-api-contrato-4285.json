@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-api-contrato-4285",
+  "source_url": "https://api.portovelho.ro.gov.br/api/v1/contratos/4285",
+  "archive_url": "https://web.archive.org/web/20260903233604/https://api.portovelho.ro.gov.br/api/v1/contratos/4285",
+  "verified_at": "2026-09-04T00:35:59Z",
+  "archive_content_type": "application/json",
+  "archive_size": 2693,
+  "archive_sha256": "cb5857e67d9809339bbb499ab9984ad8c122efb18dd652b40cba540b74639622",
+  "source_content_type": "application/json",
+  "source_size": 10769,
+  "source_sha256": "8a8124cf3ca6c751edda64073f0f1ed166c4bc4cfb2e88248c11d21babbe6e70",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}
