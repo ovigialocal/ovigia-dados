@@ -44,6 +44,26 @@ def test_materialize_decoded_html_keeps_raw_append_only(tmp_path: Path) -> None:
     assert (tmp_path / written[0]).read_text() == "<html><body>archived</body></html>"
 
 
+def test_binary_replay_with_text_content_type_is_left_raw(tmp_path: Path) -> None:
+    binary = b"PK\x03\x04\xda\xff\x00binary-xlsx"
+    _write(tmp_path, "raw/wayback/replays/sheet.html", binary)
+    _write(
+        tmp_path,
+        "raw/wayback/replays/sheet.json",
+        json.dumps(
+            {
+                "archive_content_type": "text/html",
+                "replay_body_path": "raw/wayback/replays/sheet.html",
+            }
+        )
+        + "\n",
+    )
+
+    assert materialize_decoded_text_replays(tmp_path) == []
+    assert (tmp_path / "raw/wayback/replays/sheet.html").read_bytes() == binary
+    assert not (tmp_path / "raw/wayback/replays/sheet.decoded.html").exists()
+
+
 def test_existing_decoded_copy_is_not_rewritten(tmp_path: Path) -> None:
     _write(tmp_path, "raw/wayback/replays/example.html", b"<html>raw</html>")
     _write(tmp_path, "raw/wayback/replays/example.decoded.html", "existing")
