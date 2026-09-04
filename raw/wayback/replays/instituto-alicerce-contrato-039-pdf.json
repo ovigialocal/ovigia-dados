@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/instituto-alicerce-contrato-039-pdf",
+  "source_url": "https://anexos.portovelho.ro.gov.br/contratos/3916/publicacao-do-contrato-dom-no-4040-de-08082025.pdf",
+  "archive_url": "https://web.archive.org/web/20260904143223/https://anexos.portovelho.ro.gov.br/contratos/3916/publicacao-do-contrato-dom-no-4040-de-08082025.pdf",
+  "verified_at": "2026-09-04T14:38:12Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 205174,
+  "archive_sha256": "d25dcf63020b6311516e48fac98c78fa47334b86abb92d75ea66d739d9a93325",
+  "source_content_type": "application/pdf",
+  "source_size": 205345,
+  "source_sha256": "1b199af3808f0422c2c1f1b3515dfa055d5a814e3ccfecb0987d8558cdf53227",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/instituto-alicerce-contrato-039-pdf.pdf"
+}
