@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/queimadas-inpe-portal",
+  "source_url": "https://terrabrasilis.dpi.inpe.br/queimadas/portal/",
+  "archive_url": "https://web.archive.org/web/20260904173657/https://terrabrasilis.dpi.inpe.br/queimadas/portal/",
+  "verified_at": "2026-09-04T18:30:39Z",
+  "archive_content_type": "text/html",
+  "archive_size": 4568,
+  "archive_sha256": "b25918d2976dccad8708edcf1735cb1f265b8e0f7cf717fce330dcc7d448e541",
+  "source_content_type": "text/html",
+  "source_size": 4568,
+  "source_sha256": "b25918d2976dccad8708edcf1735cb1f265b8e0f7cf717fce330dcc7d448e541",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/queimadas-inpe-portal.html"
+}
