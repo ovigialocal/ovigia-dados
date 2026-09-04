@@ -2,6 +2,8 @@
 
 Repositório público de infraestrutura de dados, coletores, normalização, catálogo SQL e detectores determinísticos do **O Vigia**.
 
+Detectores locais declaram `edition_id` para identificar qual edição pública consome prioritariamente seus sinais. A lista canônica de edições e o fallback do site pertencem a `ovigialocal/ovigialocal.github.io`; este repositório não mantém uma cópia desse registry.
+
 ---
 
 ## 1. O que é o `ovigia-dados`?
