@@ -1,12 +1,4 @@
-from importlib import util
-from pathlib import Path
-
-
-SCRIPT = Path(__file__).resolve().parents[2] / "scripts" / "sports" / "run_sports_pipeline.py"
-spec = util.spec_from_file_location("run_sports_pipeline", SCRIPT)
-module = util.module_from_spec(spec)
-assert spec and spec.loader
-spec.loader.exec_module(module)
+from scripts.sports import run_sports_pipeline as module
 
 
 class FakeClient:
