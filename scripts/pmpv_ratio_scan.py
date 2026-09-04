@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Varre contratos PMPV e sinaliza razões monetárias 10/100/1000."""
+"""Varre contratos PMPV e sinaliza razões monetárias por potências de dez."""
 
 from __future__ import annotations
 
@@ -15,13 +15,24 @@ from ovigia_dados.connectors.porto_velho import PMPV_API_BASE_URL, PortoVelhoApi
 from ovigia_dados.detectors.pmpv_monetary_ratio import detect_contract_licitation_ratios
 
 
+def _probe_licitation(client: PortoVelhoApiClient, processo: str) -> dict[str, Any]:
+    """Consulta uma licitação específica antes da varredura global suscetível a rate limit."""
+    return {
+        "licitation_source_url": f"{PMPV_API_BASE_URL}/licitacoes",
+        "licitation_process_filter": processo,
+        "licitation_probe": client.list_licitations(
+            por_pagina=100,
+            filters={"processo": processo},
+        ),
+    }
+
+
 def scan_contract_ratios(
     client: PortoVelhoApiClient,
     *,
     por_pagina: int = 100,
-    processo_licitacao: str | None = None,
 ) -> dict[str, Any]:
-    """Executa varredura paginada e uma probe opcional de licitação por processo."""
+    """Executa a varredura paginada de contratos e detecta sinais de escala."""
     records: list[dict[str, Any]] = []
     pages_scanned = 0
     last_meta: Any = None
@@ -35,7 +46,7 @@ def scan_contract_ratios(
         last_meta = payload.get("meta")
 
     signals = detect_contract_licitation_ratios(records)
-    result: dict[str, Any] = {
+    return {
         "status": "completed",
         "observed_at": datetime.now(UTC).isoformat(),
         "contracts_source_url": f"{PMPV_API_BASE_URL}/contratos",
@@ -45,16 +56,26 @@ def scan_contract_ratios(
         "signals": [asdict(signal) for signal in signals],
     }
 
-    if processo_licitacao:
-        licitations = client.list_licitations(
-            por_pagina=100,
-            filters={"processo": processo_licitacao},
-        )
-        result["licitation_source_url"] = f"{PMPV_API_BASE_URL}/licitacoes"
-        result["licitation_process_filter"] = processo_licitacao
-        result["licitation_probe"] = licitations
 
-    return result
+def _request_error_result(*, target: str, exc: requests.RequestException) -> dict[str, Any]:
+    response = getattr(exc, "response", None)
+    if response is not None and response.status_code == 429:
+        code = "http-429"
+        detail = "PMPV API returned HTTP 429 Too Many Requests"
+    else:
+        code = "request-error"
+        detail = f"PMPV API request failed before a usable response: {exc}"
+
+    return {
+        "status": "blocked_external",
+        "observed_at": datetime.now(UTC).isoformat(),
+        "contracts_source_url": f"{PMPV_API_BASE_URL}/contratos",
+        "failure": {
+            "code": code,
+            "target": target,
+            "detail": detail,
+        },
+    }
 
 
 def run_scan(
@@ -63,26 +84,24 @@ def run_scan(
     por_pagina: int = 100,
     processo_licitacao: str | None = None,
 ) -> dict[str, Any]:
-    """Executa a varredura sem converter rate limit externo em regressão de código."""
+    """Executa probe específica primeiro e preserva-a se a varredura global ficar indisponível."""
+    probe: dict[str, Any] = {}
+    if processo_licitacao:
+        try:
+            probe = _probe_licitation(client, processo_licitacao)
+        except requests.RequestException as exc:
+            result = _request_error_result(target="licitations", exc=exc)
+            result["licitation_source_url"] = f"{PMPV_API_BASE_URL}/licitacoes"
+            result["licitation_process_filter"] = processo_licitacao
+            return result
+
     try:
-        return scan_contract_ratios(
-            client,
-            por_pagina=por_pagina,
-            processo_licitacao=processo_licitacao,
-        )
-    except requests.HTTPError as exc:
-        response = exc.response
-        if response is None or response.status_code != 429:
-            raise
-        return {
-            "status": "blocked_external",
-            "observed_at": datetime.now(UTC).isoformat(),
-            "contracts_source_url": f"{PMPV_API_BASE_URL}/contratos",
-            "failure": {
-                "code": "http-429",
-                "detail": "PMPV API returned HTTP 429 Too Many Requests",
-            },
-        }
+        result = scan_contract_ratios(client, por_pagina=por_pagina)
+    except requests.RequestException as exc:
+        result = _request_error_result(target="contracts", exc=exc)
+
+    result.update(probe)
+    return result
 
 
 def main() -> int:
