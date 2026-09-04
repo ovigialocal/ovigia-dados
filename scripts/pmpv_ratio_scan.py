@@ -10,6 +10,8 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+import requests
+
 from ovigia_dados.connectors.porto_velho import PMPV_API_BASE_URL, PortoVelhoApiClient
 from ovigia_dados.detectors.pmpv_monetary_ratio import detect_contract_licitation_ratios
 
@@ -35,6 +37,7 @@ def scan_contract_ratios(
 
     signals = detect_contract_licitation_ratios(records)
     result: dict[str, Any] = {
+        "status": "completed",
         "observed_at": datetime.now(UTC).isoformat(),
         "contracts_source_url": f"{PMPV_API_BASE_URL}/contratos",
         "pages_scanned": pages_scanned,
@@ -55,6 +58,34 @@ def scan_contract_ratios(
     return result
 
 
+def run_scan(
+    client: PortoVelhoApiClient,
+    *,
+    por_pagina: int = 100,
+    processo_licitacao: str | None = None,
+) -> dict[str, Any]:
+    """Executa a varredura sem converter rate limit externo em regressão de código."""
+    try:
+        return scan_contract_ratios(
+            client,
+            por_pagina=por_pagina,
+            processo_licitacao=processo_licitacao,
+        )
+    except requests.HTTPError as exc:
+        response = exc.response
+        if response is None or response.status_code != 429:
+            raise
+        return {
+            "status": "blocked_external",
+            "observed_at": datetime.now(UTC).isoformat(),
+            "contracts_source_url": f"{PMPV_API_BASE_URL}/contratos",
+            "failure": {
+                "code": "http-429",
+                "detail": "PMPV API returned HTTP 429 Too Many Requests",
+            },
+        }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--por-pagina", type=int, default=100)
@@ -62,7 +93,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
 
-    result = scan_contract_ratios(
+    result = run_scan(
         PortoVelhoApiClient(),
         por_pagina=args.por_pagina,
         processo_licitacao=args.processo_licitacao,
