@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Iterator
 from typing import Any
 
 import requests
@@ -168,6 +169,34 @@ class PortoVelhoApiClient:
         }
         clean_params = {key: value for key, value in params.items() if value is not None}
         return self.get_json("contratos", params=clean_params)
+
+    def iter_contract_pages(self, **params: Any) -> Iterator[dict[str, Any]]:
+        """Segue a paginação observada de ``GET /contratos`` por ``links.next``.
+
+        O método não inventa um parâmetro de página: depois da primeira consulta ele
+        segue somente a URL ``links.next`` devolvida pela própria API e rejeita links
+        que escapem da raiz oficial configurada.
+        """
+        payload = self.list_contracts(**params)
+        while True:
+            if not isinstance(payload, dict):
+                raise ValueError("PMPV /contratos response must be an object")
+            yield payload
+
+            links = payload.get("links")
+            next_url = links.get("next") if isinstance(links, dict) else None
+            if not next_url:
+                return
+            if not isinstance(next_url, str) or not next_url.startswith(f"{self.base_url}/"):
+                raise ValueError("PMPV pagination link escaped configured API base")
+
+            response = self.session.get(
+                next_url,
+                headers=self.headers,
+                timeout=self.timeout,
+            )
+            response.raise_for_status()
+            payload = response.json()
 
     def list_licitations(
         self,
