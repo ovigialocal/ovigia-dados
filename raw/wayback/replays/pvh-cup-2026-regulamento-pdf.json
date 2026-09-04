@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-cup-2026-regulamento-pdf",
+  "source_url": "https://ritmo-images.s3.amazonaws.com/images/Competicoes/Regulamentos/5692.pdf",
+  "archive_url": "https://web.archive.org/web/20260904154305/https://ritmo-images.s3.amazonaws.com/images/Competicoes/Regulamentos/5692.pdf",
+  "verified_at": "2026-09-04T16:34:01Z",
+  "archive_content_type": "application/octet-stream",
+  "archive_size": 1235718,
+  "archive_sha256": "5089a8573d2e1e9e492b04fed59fa63daffe801d0d653dbdc714d675d65dae70",
+  "source_content_type": "application/octet-stream",
+  "source_size": 1235718,
+  "source_sha256": "5089a8573d2e1e9e492b04fed59fa63daffe801d0d653dbdc714d675d65dae70",
+  "byte_identical_to_source": true,
+  "replay_body_path": null
+}

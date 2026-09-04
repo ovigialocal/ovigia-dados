@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/instituto-alicerce-site-modelo-salas-modulares",
+  "source_url": "https://institutoalicerce.org/",
+  "archive_url": "https://web.archive.org/web/20260904144409/https://institutoalicerce.org/",
+  "verified_at": "2026-09-04T16:34:00Z",
+  "archive_content_type": "text/html",
+  "archive_size": 1805,
+  "archive_sha256": "5b6e37fea36cdabeb72c29a8c747d99b71ed2a522b77d319e973c65a7b5399c7",
+  "source_content_type": "text/html",
+  "source_size": 4324,
+  "source_sha256": "108644fab9bd79a338bdd71aae388f1e630c9f62997715ff0e277575c9944c16",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/instituto-alicerce-site-modelo-salas-modulares.html"
+}
