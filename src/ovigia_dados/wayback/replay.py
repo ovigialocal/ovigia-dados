@@ -9,13 +9,15 @@ from collections.abc import Callable, Iterable
 from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
 from pathlib import Path
+from urllib.parse import urlparse
 
 from ovigia_dados.wayback.queue import ArchiveResult, load_wayback_queue
 
-# Government documents commonly exceed 5 MiB. Keep the replay bounded, but leave
-# enough headroom for ordinary signed PDFs so provenance can verify the exact
-# archived resource instead of getting stuck with locator-only evidence.
-_MAX_REPLAY_BODY_BYTES = 16 * 1024 * 1024
+# Government documents and public CSV extracts can exceed 16 MiB. Keep replay
+# evidence bounded, but leave enough headroom for ordinary signed PDFs and
+# monthly public-data files so provenance can inspect the exact archived bytes
+# instead of getting stuck with locator/hash-only evidence.
+_MAX_REPLAY_BODY_BYTES = 32 * 1024 * 1024
 
 
 @dataclass(frozen=True, slots=True)
@@ -84,7 +86,12 @@ def _evidence_stem(result: ArchiveResult) -> str:
     return Path(result.path).stem
 
 
-def _body_suffix(content_type: str) -> str | None:
+def _body_suffix(content_type: str, source_url: str = "") -> str | None:
+    source_path = urlparse(source_url).path.lower()
+    if content_type in {"text/csv", "application/csv"} or (
+        content_type == "application/octet-stream" and source_path.endswith(".csv")
+    ):
+        return ".csv"
     if content_type.startswith("text/"):
         return ".html"
     if content_type == "application/pdf":
@@ -102,7 +109,7 @@ def _needs_replay_evidence(bundle_root: Path, result: ArchiveResult) -> bool:
         report = json.loads(report_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return False
-    suffix = _body_suffix(str(report.get("archive_content_type", "")))
+    suffix = _body_suffix(str(report.get("archive_content_type", "")), result.source_url)
     return suffix is not None and not (evidence_dir / f"{stem}{suffix}").exists()
 
 
@@ -149,10 +156,12 @@ def _persist_replay_body(
     stem: str,
     replay: FetchEvidence,
     bundle_root: Path,
+    *,
+    source_url: str,
 ) -> str | None:
     if replay.body is None:
         return None
-    suffix = _body_suffix(replay.content_type)
+    suffix = _body_suffix(replay.content_type, source_url)
     if suffix is None:
         return None
     body_path = evidence_dir / f"{stem}{suffix}"
@@ -169,10 +178,11 @@ def materialize_replay_evidence(
 ) -> list[str]:
     """Fetch archived replay bytes and persist audit evidence for archived results.
 
-    Bounded HTML/text and PDF replays are retained verbatim. Other binaries keep digest evidence only.
-    Existing JSON reports remain append-only; a later run may backfill the exact bounded replay body only
-    when its SHA-256 still matches the report already committed. A temporarily unreachable replay is
-    skipped instead of poisoning another result or fabricating editorial equivalence.
+    Bounded HTML/text, CSV and PDF replays are retained verbatim. Other binaries keep digest
+    evidence only. Existing JSON reports remain append-only; a later run may backfill the exact
+    bounded replay body only when its SHA-256 still matches the report already committed. A
+    temporarily unreachable replay is skipped instead of poisoning another result or fabricating
+    editorial equivalence.
     """
     queue = load_wayback_queue(bundle_root)
     written: list[str] = []
@@ -189,7 +199,7 @@ def materialize_replay_evidence(
 
         if report_path.exists():
             report = json.loads(report_path.read_text(encoding="utf-8"))
-            suffix = _body_suffix(str(report.get("archive_content_type", "")))
+            suffix = _body_suffix(str(report.get("archive_content_type", "")), result.source_url)
             if suffix is None or (evidence_dir / f"{stem}{suffix}").exists():
                 continue
             try:
@@ -198,7 +208,13 @@ def materialize_replay_evidence(
                 continue
             if replay.sha256 != report.get("archive_sha256"):
                 continue
-            body_relative = _persist_replay_body(evidence_dir, stem, replay, bundle_root)
+            body_relative = _persist_replay_body(
+                evidence_dir,
+                stem,
+                replay,
+                bundle_root,
+                source_url=result.source_url,
+            )
             if body_relative is not None:
                 written.append(body_relative)
             continue
@@ -208,7 +224,13 @@ def materialize_replay_evidence(
         except OSError:
             continue
 
-        body_relative = _persist_replay_body(evidence_dir, stem, replay, bundle_root)
+        body_relative = _persist_replay_body(
+            evidence_dir,
+            stem,
+            replay,
+            bundle_root,
+            source_url=result.source_url,
+        )
         if body_relative is not None:
             written.append(body_relative)
 
