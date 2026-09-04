@@ -9,7 +9,6 @@ from dataclasses import dataclass
 from math import isclose
 from typing import Any
 
-
 DEFAULT_TARGET_RATIOS = (10.0, 100.0, 1000.0, 10000.0, 100000.0, 1000000.0)
 
 
