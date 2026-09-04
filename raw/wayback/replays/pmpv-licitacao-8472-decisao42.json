@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-licitacao-8472-decisao42",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8472/33232/SEI_1429787_Decisao_68.pdf",
+  "archive_url": "https://web.archive.org/web/20260904034116/https://anexos.portovelho.ro.gov.br/compras/8472/33232/SEI_1429787_Decisao_68.pdf",
+  "verified_at": "2026-09-04T03:41:36Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 211110,
+  "archive_sha256": "9377ab79b067cb168f81964ab124adf95a6c90b487255f6c8ce44ab18b578c70",
+  "source_content_type": "application/pdf",
+  "source_size": 211675,
+  "source_sha256": "668c04cff6bc3c29ad37c53b255c0a2a9fb301c48684da0b9d290ed64a26bc22",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-licitacao-8472-decisao42.pdf"
+}
