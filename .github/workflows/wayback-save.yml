@@ -68,22 +68,29 @@ jobs:
         run: uv run scripts/wayback/check.py
 
       - name: Materialize auditable replay evidence
+        id: replay
+        continue-on-error: true
         # Fresh terminal results are always prioritized. Up to two recent
         # archived results whose replay is still incomplete are also retried
-        # per run. This keeps the retry budget bounded while preventing one
-        # transiently unreachable snapshot from starving the next fresh source.
+        # per run. Replay is enrichment: a failure here must never discard a
+        # terminal archive-result already obtained from the Internet Archive.
         run: >-
           uv run scripts/wayback/replay.py
           --result-path-file /tmp/wayback-new-results.txt
           --backfill-limit 2
 
       - name: Decode stored text replay transport
+        id: text_replay
+        continue-on-error: true
         run: uv run scripts/wayback/text_replay.py
 
       - name: Compare PDF replay text with live source
+        id: pdf_equivalence
+        continue-on-error: true
         run: uv run scripts/wayback/pdf_equivalence.py
 
       - name: Persist archive results and replay evidence
+        if: always()
         run: |
           set -euo pipefail
           git add knowledge/wayback/results raw/wayback/replays
@@ -104,4 +111,14 @@ jobs:
             sleep $((attempt * 2))
           done
           echo "Could not persist Wayback evidence after 3 rebases." >&2
+          exit 1
+
+      - name: Surface replay enrichment failures
+        if: >-
+          always() &&
+          (steps.replay.outcome == 'failure' ||
+           steps.text_replay.outcome == 'failure' ||
+           steps.pdf_equivalence.outcome == 'failure')
+        run: |
+          echo "Terminal Wayback results were persisted, but replay enrichment failed." >&2
           exit 1
