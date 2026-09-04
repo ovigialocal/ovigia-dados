@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-licitacao-8472-quadro-precos",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8472/30791/FASE_2.3.pdf",
+  "archive_url": "https://web.archive.org/web/20260904033955/https://anexos.portovelho.ro.gov.br/compras/8472/30791/FASE_2.3.pdf",
+  "verified_at": "2026-09-04T03:46:00Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 154828,
+  "archive_sha256": "803d93c70a7072b366b74286a3896e0f4f8ad9ce5f8a2032ca3a27c0ce51fafb",
+  "source_content_type": "application/pdf",
+  "source_size": 167920,
+  "source_sha256": "df92f819a839d1076a8721fa595f8a3a59bee98a89ce019e50a1cd34a10daf57",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-licitacao-8472-quadro-precos.pdf"
+}

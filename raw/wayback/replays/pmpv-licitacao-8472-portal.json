@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-licitacao-8472-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8472",
+  "archive_url": "https://web.archive.org/web/20260904033447/https://transparencia.portovelho.ro.gov.br/despesas/compras/8472",
+  "verified_at": "2026-09-04T03:45:55Z",
+  "archive_content_type": "text/html",
+  "archive_size": 42903,
+  "archive_sha256": "58d875bb0e2f3fb9fce5dda638aca08b93d77466e72fded7e1117af72ad275ac",
+  "source_content_type": "text/html",
+  "source_size": 465297,
+  "source_sha256": "ea94701a1fcd2480cd70441ac3fc76ef4f127177b27a64d6b46c798479c5ac29",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-licitacao-8472-portal.html"
+}
