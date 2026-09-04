@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ranking-competitividade-municipios-metodologia-2026",
+  "source_url": "https://rankingdecompetitividade.org.br/municipios-metodologia/",
+  "archive_url": "https://web.archive.org/web/20260904073709/https://rankingdecompetitividade.org.br/municipios-metodologia/",
+  "verified_at": "2026-09-04T08:51:01Z",
+  "archive_content_type": "text/html",
+  "archive_size": 43274,
+  "archive_sha256": "77942c65c5c9d61915a7c093397c18ce9236ecc82ea1d645db3543beb57b35eb",
+  "source_content_type": "text/html",
+  "source_size": 208643,
+  "source_sha256": "261caf5650107878e51f9424cdf61af5c14ac40d99f041a2a6cdfa03b7be5783",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/ranking-competitividade-municipios-metodologia-2026.html"
+}

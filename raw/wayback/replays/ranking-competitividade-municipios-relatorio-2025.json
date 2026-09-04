@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ranking-competitividade-municipios-relatorio-2025",
+  "source_url": "https://clp.org.br/wp-content/uploads/2025/08/CLP-Relatorio-Ranking-dos-Municipios-2025_FINAL_V2-1-1.pdf",
+  "archive_url": "https://web.archive.org/web/20260827134731/https://clp.org.br/wp-content/uploads/2025/08/CLP-Relatorio-Ranking-dos-Municipios-2025_FINAL_V2-1-1.pdf",
+  "verified_at": "2026-09-04T08:51:20Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 6969390,
+  "archive_sha256": "69c07c4d9aa21c0fac76dbbed79b0f961791ad70c3bc44af49df90bb3e8a19f4",
+  "source_content_type": "application/pdf",
+  "source_size": 6969390,
+  "source_sha256": "69c07c4d9aa21c0fac76dbbed79b0f961791ad70c3bc44af49df90bb3e8a19f4",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/ranking-competitividade-municipios-relatorio-2025.pdf"
+}
