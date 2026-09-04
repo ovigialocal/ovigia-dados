@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/queimadas-inpe-infoqueima-2025-07",
+  "source_url": "https://dataserver-coids.inpe.br/queimadas/queimadas/Infoqueima/2025/2025_07_infoqueima.pdf",
+  "archive_url": "https://web.archive.org/web/20260904173600/https://dataserver-coids.inpe.br/queimadas/queimadas/Infoqueima/2025/2025_07_infoqueima.pdf",
+  "verified_at": "2026-09-04T18:40:00Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 9738756,
+  "archive_sha256": "2c09519486448df1f70e5f205b2ccfdbf73c9eeaac8d879c441e474715e30586",
+  "source_content_type": "application/pdf",
+  "source_size": 9738756,
+  "source_sha256": "2c09519486448df1f70e5f205b2ccfdbf73c9eeaac8d879c441e474715e30586",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/queimadas-inpe-infoqueima-2025-07.pdf"
+}
