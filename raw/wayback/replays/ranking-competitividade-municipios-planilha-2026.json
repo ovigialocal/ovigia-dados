@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ranking-competitividade-municipios-planilha-2026",
+  "source_url": "https://clp.org.br/wp-content/uploads/2026/08/MUNICIPIOS-Planilha-do-Ranking-de-Competitividadade-dos-Municipios.xlsx",
+  "archive_url": "https://web.archive.org/web/20260827134818/https://clp.org.br/wp-content/uploads/2026/08/MUNICIPIOS-Planilha-do-Ranking-de-Competitividadade-dos-Municipios.xlsx",
+  "verified_at": "2026-09-04T08:49:12Z",
+  "archive_content_type": "text/plain",
+  "archive_size": 2219258,
+  "archive_sha256": "fb7de82aa54c9d5ef92344cfe37cf2d9034775922cc20dda070986aadb6e8b3f",
+  "source_content_type": "text/plain",
+  "source_size": 2239002,
+  "source_sha256": "001fa4f5408c846ea96d6627674771da53d9261ef40779ecdf89f71d37ca1750",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/ranking-competitividade-municipios-planilha-2026.html"
+}

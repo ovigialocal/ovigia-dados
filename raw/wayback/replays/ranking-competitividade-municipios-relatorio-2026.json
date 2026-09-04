@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ranking-competitividade-municipios-relatorio-2026",
+  "source_url": "https://clp.org.br/wp-content/uploads/2026/08/MUNICIPIOS-Relatorio-Tecnico-do-Ranking-de-Competitividade-dos-Municipios.pdf",
+  "archive_url": "https://web.archive.org/web/20260827134731/https://clp.org.br/wp-content/uploads/2026/08/MUNICIPIOS-Relatorio-Tecnico-do-Ranking-de-Competitividade-dos-Municipios.pdf",
+  "verified_at": "2026-09-04T08:49:19Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 16316951,
+  "archive_sha256": "0abd1714e850f3ca3e84ae5fa4b69a8cca3d9b72241e7d642779dace0f24d85a",
+  "source_content_type": "application/pdf",
+  "source_size": 16316951,
+  "source_sha256": "0abd1714e850f3ca3e84ae5fa4b69a8cca3d9b72241e7d642779dace0f24d85a",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/ranking-competitividade-municipios-relatorio-2026.pdf"
+}
