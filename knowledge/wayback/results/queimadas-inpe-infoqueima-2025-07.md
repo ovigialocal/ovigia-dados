@@ -1,0 +1,13 @@
+---
+okf_version: '0.2'
+type: archive-result
+request_concept_id: 'knowledge/wayback/requests/queimadas-inpe-infoqueima-2025-07'
+source_url: 'https://dataserver-coids.inpe.br/queimadas/queimadas/Infoqueima/2025/2025_07_infoqueima.pdf'
+attempted_at: '2026-09-04T17:36:09Z'
+status: archived
+archive_url: 'https://web.archive.org/web/20260904173600/https://dataserver-coids.inpe.br/queimadas/queimadas/Infoqueima/2025/2025_07_infoqueima.pdf'
+sources:
+  - resource: 'knowledge/wayback/requests/queimadas-inpe-infoqueima-2025-07'
+---
+
+Wayback preservation result.
