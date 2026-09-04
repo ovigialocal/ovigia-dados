@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-cup-2026-federacao",
+  "source_url": "https://fut7ro.com.br/futebol-society/pvh-cup-de-soccer-society/1-edicao-ano-2026/5692",
+  "archive_url": "https://web.archive.org/web/20260904044721/http://www.fut7ro.com.br/futebol-society/pvh-cup-de-soccer-society/1-edicao-ano-2026/5692",
+  "verified_at": "2026-09-04T04:51:38Z",
+  "archive_content_type": "text/html",
+  "archive_size": 15376,
+  "archive_sha256": "82d97a89fec29f04e71e7abffd3f4e42e5844ebf7dd1c0d0362f163d53599704",
+  "source_content_type": "text/html",
+  "source_size": 178410,
+  "source_sha256": "877824bf5371e62fc0c284081022fd6c6121967a6b5d14b0907956b2eeede98f",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-cup-2026-federacao.html"
+}

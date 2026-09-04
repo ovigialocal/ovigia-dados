@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-cup-2026-prefeitura",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58026",
+  "archive_url": "https://web.archive.org/web/20260904044809/https://www.portovelho.ro.gov.br/noticias/58026",
+  "verified_at": "2026-09-04T04:51:40Z",
+  "archive_content_type": "text/html",
+  "archive_size": 19414,
+  "archive_sha256": "40fc574cc34238933d62143af61c264051c3ad802c3a7de5207799d8670df91f",
+  "source_content_type": "text/html",
+  "source_size": 118532,
+  "source_sha256": "255960279d2f56d34a4905bd388102b57e5884d45525e7a80dc38d44770e8024",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-cup-2026-prefeitura.html"
+}
