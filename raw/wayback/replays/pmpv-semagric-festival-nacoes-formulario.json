@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-semagric-festival-nacoes-formulario",
+  "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSezqVrPANcs2jZxvGzJz9PQ2l-3-Ac02uLr0S2es-RzNhfxeQ/viewform",
+  "archive_url": "https://web.archive.org/web/20260904004111/https://docs.google.com/forms/d/e/1FAIpQLSezqVrPANcs2jZxvGzJz9PQ2l-3-Ac02uLr0S2es-RzNhfxeQ/viewform",
+  "verified_at": "2026-09-04T01:33:13Z",
+  "archive_content_type": "text/html",
+  "archive_size": 29073,
+  "archive_sha256": "54782ea0d8eb6cf056950cf450b6a845e992f628abc292f844d7b3688356e4df",
+  "source_content_type": "text/html",
+  "source_size": 113812,
+  "source_sha256": "7d282c316363de0ba8a03caa3045d8ea53b9e31cfa0e403d6de6e56d7b753c21",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-semagric-festival-nacoes-formulario.html"
+}

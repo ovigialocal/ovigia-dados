@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-semagric-festival-nacoes-58130",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58130",
+  "archive_url": "https://web.archive.org/web/20260904003604/https://www.portovelho.ro.gov.br/noticias/58130",
+  "verified_at": "2026-09-04T01:33:09Z",
+  "archive_content_type": "text/html",
+  "archive_size": 19070,
+  "archive_sha256": "4f39589a3a9c90433b52ddfd351ebd380c000a8b3be43e443b4d3ad581a7a843",
+  "source_content_type": "text/html",
+  "source_size": 117931,
+  "source_sha256": "6870eb73a0c9bb9ff373b7ff37ec629985da8979432ba0af8612ef65d438d20d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-semagric-festival-nacoes-58130.html"
+}
