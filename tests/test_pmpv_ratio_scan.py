@@ -69,6 +69,28 @@ class ProbeRateLimitedClient:
         yield  # pragma: no cover
 
 
+class ProbeSucceedsContractsTimeoutClient:
+    def list_licitations(self, **params):
+        assert params == {
+            "por_pagina": 100,
+            "filters": {"processo": "005.003461/2026-31"},
+        }
+        return {"data": [{"id": 8472}], "meta": {"total": 1}}
+
+    def iter_contract_pages(self, **params):
+        raise requests.Timeout("read timed out")
+        yield  # pragma: no cover
+
+
+class ProbeTimeoutClient:
+    def list_licitations(self, **params):
+        raise requests.Timeout("connect timed out")
+
+    def iter_contract_pages(self, **params):
+        raise AssertionError("global scan must not start after targeted probe timeout")
+        yield  # pragma: no cover
+
+
 def test_scan_contract_ratios_collects_pages_and_signals():
     result = scan_contract_ratios(FakeClient(), por_pagina=50)
 
@@ -122,3 +144,26 @@ def test_targeted_probe_rate_limit_stops_before_global_scan():
     assert result["status"] == "blocked_external"
     assert result["failure"]["target"] == "licitations"
     assert result["licitation_process_filter"] == "005.003461/2026-31"
+
+
+def test_targeted_probe_survives_global_request_failure():
+    result = run_scan(
+        ProbeSucceedsContractsTimeoutClient(),
+        processo_licitacao="005.003461/2026-31",
+    )
+
+    assert result["status"] == "blocked_external"
+    assert result["failure"]["code"] == "request-error"
+    assert result["failure"]["target"] == "contracts"
+    assert "read timed out" in result["failure"]["detail"]
+    assert result["licitation_probe"]["data"] == [{"id": 8472}]
+
+
+def test_targeted_probe_request_failure_stops_before_global_scan():
+    result = run_scan(ProbeTimeoutClient(), processo_licitacao="005.003461/2026-31")
+
+    assert result["status"] == "blocked_external"
+    assert result["failure"]["code"] == "request-error"
+    assert result["failure"]["target"] == "licitations"
+    assert result["licitation_process_filter"] == "005.003461/2026-31"
+    assert "connect timed out" in result["failure"]["detail"]
