@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from collections.abc import Iterator
 from typing import Any
+from urllib.parse import urlsplit, urlunsplit
 
 import requests
 
@@ -170,12 +171,36 @@ class PortoVelhoApiClient:
         clean_params = {key: value for key, value in params.items() if value is not None}
         return self.get_json("contratos", params=clean_params)
 
+    def _normalize_pagination_url(self, next_url: str) -> str:
+        """Mantém paginação dentro da API e corrige apenas o downgrade HTTP observado."""
+        base = urlsplit(self.base_url)
+        candidate = urlsplit(next_url)
+        base_path = base.path.rstrip("/")
+
+        same_authority = (
+            candidate.hostname == base.hostname
+            and candidate.port == base.port
+            and candidate.username is None
+            and candidate.password is None
+        )
+        same_api_root = candidate.path == base_path or candidate.path.startswith(f"{base_path}/")
+        same_scheme = candidate.scheme == base.scheme
+        observed_http_downgrade = base.scheme == "https" and candidate.scheme == "http"
+
+        if not (same_authority and same_api_root and (same_scheme or observed_http_downgrade)):
+            raise ValueError(f"PMPV pagination link escaped configured API base: {next_url!r}")
+
+        if observed_http_downgrade:
+            return urlunsplit((base.scheme, base.netloc, candidate.path, candidate.query, ""))
+        return next_url
+
     def iter_contract_pages(self, **params: Any) -> Iterator[dict[str, Any]]:
         """Segue a paginação observada de ``GET /contratos`` por ``links.next``.
 
-        O método não inventa um parâmetro de página: depois da primeira consulta ele
-        segue somente a URL ``links.next`` devolvida pela própria API e rejeita links
-        que escapem da raiz oficial configurada.
+        O método não inventa um parâmetro de página. Depois da primeira consulta segue
+        somente ``links.next`` da própria API. A fonte foi observada emitindo links
+        ``http://`` para a mesma raiz servida em HTTPS; esse caso é promovido para
+        HTTPS, enquanto qualquer mudança de autoridade ou raiz da API falha fechado.
         """
         payload = self.list_contracts(**params)
         while True:
@@ -187,11 +212,12 @@ class PortoVelhoApiClient:
             next_url = links.get("next") if isinstance(links, dict) else None
             if not next_url:
                 return
-            if not isinstance(next_url, str) or not next_url.startswith(f"{self.base_url}/"):
-                raise ValueError(f"PMPV pagination link escaped configured API base: {next_url!r}")
+            if not isinstance(next_url, str):
+                raise ValueError(f"PMPV pagination link must be a string: {next_url!r}")
+            safe_next_url = self._normalize_pagination_url(next_url)
 
             response = self.session.get(
-                next_url,
+                safe_next_url,
                 headers=self.headers,
                 timeout=self.timeout,
             )
