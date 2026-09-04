@@ -25,6 +25,25 @@ def test_detects_observed_ambulance_factor_1000():
     assert signal.reason_code == "related_monetary_value_ratio_1000"
 
 
+def test_detects_factor_one_million_without_calling_it_an_error():
+    records = [
+        {
+            "id": 8472,
+            "numero": "90073/2026/SMCL/PVH",
+            "valor": {"value": 878156.70},
+            "licitacao": {
+                "id": 8472,
+                "valor_contratado": {"value": 878156700000},
+            },
+        }
+    ]
+
+    [signal] = detect_contract_licitation_ratios(records)
+    assert signal.ratio == 1000000.0
+    assert signal.direction == "licitation_over_contract"
+    assert signal.reason_code == "related_monetary_value_ratio_1000000"
+
+
 def test_does_not_flag_equal_or_unrelated_values():
     records = [
         {
