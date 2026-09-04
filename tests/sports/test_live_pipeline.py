@@ -1,10 +1,10 @@
-import importlib.util
+from importlib import util
 from pathlib import Path
 
 
 SCRIPT = Path(__file__).resolve().parents[2] / "scripts" / "sports" / "run_sports_pipeline.py"
-spec = importlib.util.spec_from_file_location("run_sports_pipeline", SCRIPT)
-module = importlib.util.module_from_spec(spec)
+spec = util.spec_from_file_location("run_sports_pipeline", SCRIPT)
+module = util.module_from_spec(spec)
 assert spec and spec.loader
 spec.loader.exec_module(module)
 
@@ -34,7 +34,11 @@ class FakeClient:
             return {
                 "response": [
                     {
-                        "fixture": {"id": 99, "date": "2026-09-01T20:00:00Z", "status": {"short": "FT"}},
+                        "fixture": {
+                            "id": 99,
+                            "date": "2026-09-01T20:00:00Z",
+                            "status": {"short": "FT"},
+                        },
                         "league": {"id": 662, "name": "Rondoniense", "season": 2026},
                         "teams": {
                             "home": {"id": team_id, "name": "Porto Velho EC"},
@@ -50,7 +54,13 @@ class FakeClient:
                 "response": [
                     {
                         "seasons": [
-                            {"year": 2026, "coverage": {"fixtures": {"events": True}, "standings": True}}
+                            {
+                                "year": 2026,
+                                "coverage": {
+                                    "fixtures": {"events": True},
+                                    "standings": True,
+                                },
+                            }
                         ]
                     }
                 ]
