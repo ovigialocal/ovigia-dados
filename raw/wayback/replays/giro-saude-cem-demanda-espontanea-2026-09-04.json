@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/giro-saude-cem-demanda-espontanea-2026-09-04",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58149",
+  "archive_url": "https://web.archive.org/web/20260904203400/https://www.portovelho.ro.gov.br/noticias/58149",
+  "verified_at": "2026-09-04T22:40:41Z",
+  "archive_content_type": "text/html",
+  "archive_size": 19371,
+  "archive_sha256": "9e51c035da6b9c7f741910202f04ee40f86289bdd8e82fb2e161694441295a60",
+  "source_content_type": "text/html",
+  "source_size": 119396,
+  "source_sha256": "291aa4811280191a866c79ecbefef4dc995dbdfb361436369fd321d31ee2eade",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/giro-saude-cem-demanda-espontanea-2026-09-04.html"
+}
