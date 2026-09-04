@@ -9,6 +9,8 @@ from dataclasses import dataclass
 from math import isclose
 from typing import Any
 
+DEFAULT_TARGET_RATIOS = (10.0, 100.0, 1000.0, 10000.0, 100000.0, 1000000.0)
+
 
 @dataclass(frozen=True)
 class MonetaryRatioSignal:
@@ -44,16 +46,20 @@ def _nested_value(record: dict[str, Any], *path: str) -> Any:
 
 def detect_contract_licitation_ratios(
     records: Iterable[dict[str, Any]],
-    target_ratios: tuple[float, ...] = (10.0, 100.0, 1000.0),
+    target_ratios: tuple[float, ...] = DEFAULT_TARGET_RATIOS,
     *,
     relative_tolerance: float = 1e-9,
 ) -> list[MonetaryRatioSignal]:
-    """Sinaliza razões 10/100/1000 entre valores relacionados da PMPV API.
+    """Sinaliza potências de dez de 10 até 1.000.000 entre valores relacionados.
 
     A comparação usa ``contrato.valor.value`` e
     ``contrato.licitacao.valor_contratado.value``. Razões são reportadas em ambas
     as direções para evitar esconder casos em que o valor do contrato, e não o da
     licitação, seja o maior.
+
+    O conjunto padrão cobre 10, 100, 1.000, 10.000, 100.000 e 1.000.000 porque
+    observações reais no ecossistema PMPV já mostraram erros de escala com três e
+    seis zeros. A detecção continua sendo apenas um sinal para apuração.
     """
 
     signals: list[MonetaryRatioSignal] = []
