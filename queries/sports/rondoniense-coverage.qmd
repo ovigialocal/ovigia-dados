@@ -1,0 +1,45 @@
+---
+title: "API-Football — cobertura do futebol rondoniense"
+format: html
+jupyter: python3
+execute:
+  echo: true
+  warning: false
+---
+
+Esta consulta é uma sonda reproduzível da API-Football. Ela não decide o que é matéria: apenas registra quais competições encontradas para `Rondoniense` estão disponíveis e quais coberturas a API declara para as temporadas retornadas.
+
+```{python}
+from datetime import UTC, datetime
+
+from ovigia_dados.sports.client import ApiFootballClient
+
+client = ApiFootballClient()
+observed_at = datetime.now(UTC).isoformat()
+payload = client.get("leagues", {"search": "Rondoniense"})
+
+rows = []
+for item in payload.get("response", []):
+    league = item.get("league", {})
+    country = item.get("country", {})
+    for season in item.get("seasons", []) or []:
+        coverage = season.get("coverage", {}) or {}
+        rows.append(
+            {
+                "observed_at": observed_at,
+                "league_id": league.get("id"),
+                "league": league.get("name"),
+                "country": country.get("name"),
+                "season": season.get("year"),
+                "current": season.get("current"),
+                "fixtures": bool(coverage.get("fixtures")),
+                "standings": bool(coverage.get("standings")),
+                "players": bool(coverage.get("players")),
+                "injuries": bool(coverage.get("injuries")),
+            }
+        )
+
+rows
+```
+
+A ausência de uma competição ou de uma cobertura nesta resposta significa apenas que ela não foi observada nesta consulta da API-Football; não prova inexistência da competição ou do dado em outra fonte.
