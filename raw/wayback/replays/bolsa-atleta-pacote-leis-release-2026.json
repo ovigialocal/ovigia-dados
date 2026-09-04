@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/bolsa-atleta-pacote-leis-release-2026",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/valendo-pacote-de-leis-e-sancionado-e-beneficia-atletas-estudantes-e-pcds",
+  "archive_url": "https://web.archive.org/web/20260904101529/https://www.portovelho.ro.gov.br/noticias/valendo-pacote-de-leis-e-sancionado-e-beneficia-atletas-estudantes-e-pcds",
+  "verified_at": "2026-09-04T10:21:03Z",
+  "archive_content_type": "text/html",
+  "archive_size": 18730,
+  "archive_sha256": "a37f380b996181d5ab33894b43993817da4a976d715784c8b69facd814ca961b",
+  "source_content_type": "text/html",
+  "source_size": 116752,
+  "source_sha256": "584f6bc539350429fa2915152f42ea96103b1073b1187b211ff7e7f9215ed1d6",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/bolsa-atleta-pacote-leis-release-2026.html"
+}

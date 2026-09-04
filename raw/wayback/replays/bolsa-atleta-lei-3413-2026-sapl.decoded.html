@@ -1,0 +1,3819 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br">
+<!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>SAPL - CÂMARA MUNICIPAL DE PORTO VELHO</title>
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "CÂMARA MUNICIPAL DE PORTO VELHO",
+      "url" : "http://sapl.portovelho.ro.leg.br"
+    }
+  </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#343a40">
+
+    
+      <link rel="icon" href="/static/sapl/frontend/img/favicon.ico"  type="image/png">
+      
+    
+        
+        <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet" />
+<link href="/static/sapl/frontend/css/global.042f6737.css" rel="stylesheet" />
+      
+    <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet" />
+<link href="/static/sapl/frontend/css/compilacao.0baf3580.css" rel="stylesheet" />
+
+
+      
+      
+
+    
+  </head>
+
+  <body>
+    <div class="page fadein">
+
+      
+        
+          
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+
+                   
+
+
+  <ul class="navbar-nav">
+    
+      
+        
+          <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Institucional
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/mesa-diretora/">Mesa Diretora</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bancada/">Bancadas Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bloco/">Blocos Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/comissao/">Comissões</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/frente/">Frentes</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/parlamentar/">Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/audiencia/">Audiências Públicas</a></li>
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Documentos Administrativos
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/docadm/pesq-doc-adm">Pesquisar Documentos Administrativos</a></li>
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Atividade Legislativa
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/materia/pesquisar-materia">Matérias Legislativas</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pauta-sessao">Pautas das Sessões</a></li>
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/relatorios/">Relatórios</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pesquisar-sessao">Sessões Plenárias</a></li>
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Normas Jurídicas
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/norma/pesquisar">Pesquisar Normas Jurídicas</a></li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+  </ul>
+
+ 
+
+                  <ul class="nav navbar-nav justify-content-end" id="autenticacao">
+                    <li class="nav-item dropdown pesquisa">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/static/sapl/frontend/img/search.png"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">
+                            <form id="formulario-lexml" class="navbar-form search-form" method="get" action="">
+                              <input id="input-lexml" type="text" class="form-control" placeholder="Pesquisar no LexML" />
+                            </form>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link"href="/sistema/ajuda"><img src="/static/sapl/frontend/img/manual.png"></a></li>
+                    
+                      <li class="nav-item"><a class="nav-link" href="/login/"><img src="/static/sapl/frontend/img/user.png"></a></li>
+                    
+                  </ul>
+
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+          
+        
+      
+      
+        
+        
+        <header class="masthead">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">
+                <img src="/media/sapl/casa/logotipo/porto-velho.jpg"
+                alt="Logo" class="img-responsive" >
+                <span class="vcenter">CÂMARA MUNICIPAL DE PORTO VELHO
+                  <br/><small>Sistema de Apoio ao Processo Legislativo</small>
+                </span>
+              </a>
+            </div>
+            <div class="hidden-print">
+              
+  
+
+
+  <ul class="nav nav-tabs justify-content-end">
+    
+      <li class="nav-item">
+        
+          <a class="nav-link" href="/norma/29118?display" title="Dados Complementares ">Dados Complementares </a>
+        
+      </li>
+      
+        <li class="nav-item"><a class="nav-link" href="/ta/9072/publicacao">Publicações</a></li>
+      
+      
+      
+      
+    
+  </ul>
+
+
+            </div>
+          </div>
+        </header>
+        
+      
+
+      
+      
+        <main id="content" class="content page__row">
+          <div class="container">
+
+            
+            
+
+            
+            
+              <div class="clearfix">
+
+                
+
+
+
+                
+
+                
+                  <h1 class="page-header">
+                    
+                      Lei-DL nº 3.413, de 17 de abril de 2026
+                    
+                  </h1>
+                
+
+              </div>
+            
+
+            
+            <div id="app"></div>
+
+            
+            
+
+  
+    
+    <div class="context-actions d-flex justify-content-between mb-4">
+      <div class="actions btn-group" role="group">
+        
+        
+      </div>
+      <div class="actions btn-group" role="group">
+        
+        
+      </div>
+    </div>
+  
+  
+
+
+  
+   
+    <fieldset class="hidden-print">
+        <legend>Identificação Básica</legend>
+        <div class="row">
+          <div class="col-md-3">
+            <div id="div_id_tipo" class="holder">
+              <label>Tipo de Texto Articulado</label>
+              <p>Norma Jurídica</p>
+            </div>
+          </div>
+
+          
+            <div class="col-md-3">
+              <div id="div_id_tipo" class="holder">
+                <label>Tipo da Norma Jurídica</label>
+                <p>Lei</p>
+              </div>
+            </div>
+          
+
+          <div class="col-md-2">
+            <div id="div_id_numero" class="holder">
+              <label>Número</label>
+              <p>3413</p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div id="div_id_ano" class="holder">
+              <label>Ano</label>
+              <p>2026</p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div id="div_id_data" class="holder">
+              <label>Data</label>
+              <p>17 de Abril de 2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="div_id_ementa" class="holder">
+              <label>Ementa</label>
+              <p>Dispõe sobre a criação do Programa Bolsa-Atleta no Município de Porto Velho, denominado como Bolsa Atleta Time Esporte Porto Velho, e dá outras providências</p>
+            </div>
+          </div>
+        </div>
+    </fieldset>
+  
+  
+
+
+  
+      
+        <div class="actions btn-group" role="group">
+            
+            <a href="/ta/9072/text?print" class="btn btn-outline-primary" id="btn_impressao">Preparar para impressão</a>
+        </div>
+      
+
+      <div class="actions btn-group float-right" role="group">
+        <a class="btn btn-outline-primary" id="btn_font_menos" title="Diminuir tamanho da letra">a</a>
+        <a class="btn btn-outline-primary" id="btn_font_mais"  title="Aumentar tamanho da Letra">A</a>
+      </div>
+  
+
+  
+    
+
+
+
+<div class="row py-4">
+    
+      
+
+      
+
+      
+  
+
+</div>
+
+  
+
+  
+
+
+
+<div class="cp">
+  
+  <div class="d-none tipo-vigencias fixed-bottom justify-content-center">
+    <div class="btn-group btn-group-sm">
+      <a class="btn btn-primary active" onclick="textoMultiVigente(this, false);" title="Texto Compilado Sequencial">TMS</a>
+      <a class="btn btn-primary" onclick="textoMultiVigente(this, true);" title="Texto Compilado Integrado com Realce de Alterações">TMI</a>
+      <a class="btn btn-primary"  onclick="textoMultiVigente(this, false); textoVigente(this, true);" title="Texto Vigente COM Links para Textos Alteradores">TVL</a>
+      <a class="btn btn-primary"  onclick="textoVigente(this, false);" title="Texto Vigente">TVT</a>
+      <a class="btn btn-primary"  onclick="textoVigenteSemRevogados(this, false);" title="Texto Vigente Sem Dispositivos Revogados">TVR</a>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+  
+    
+
+    
+      <div class="dpt  " nivel="0">
+    
+
+    <div class="articulacao  "><div class="dptt "  id="dptt313358" ><div class="dtxt" id="d313358" pks="" pk="313358"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="ementa  "><div class="dptt "  id="dptt313359" ><a class="dpt-link" name="313359" title="313359"></a><div class="dtxt" id="d313359" pks="" pk="313359"><p style="text-align: justify;">Disp&otilde;e sobre a cria&ccedil;&atilde;o do Programa Bolsa-Atleta no Munic&iacute;pio de Porto Velho, denominado como Bolsa Atleta Time Esporte Porto Velho, e d&aacute; outras provid&ecirc;ncias</p></div></div><div class="dn" id="dn313359" pk="313359"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="texto_n_estruturado  "><div class="dptt "  id="dptt313360" ><a class="dpt-link" name="313360" title="313360"></a><div class="dtxt" id="d313360" pks="" pk="313360"><p style="text-align: justify;">O <strong>PREFEITO DO MUNIC&Iacute;PIO DE PORTO VELHO</strong> usando da atribui&ccedil;&atilde;o que lhe &eacute; conferida no inciso IV, do artigo 87, da Lei Org&acirc;nica do Munic&iacute;pio de Porto Velho.</p><p style="text-align: justify;"><br>Fa&ccedil;o&nbsp; saber&nbsp; que&nbsp; a <strong>C&Acirc;MARA MUNICIPAL DE PORTO VELHO</strong> aprovou e eu sanciono a seguinte</p><p><br><strong>LEI:</strong></p></div></div><div class="dn" id="dn313360" pk="313360"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313375" ><a class="dpt-link" name="313375" title="313375">CAPÍTULO I</a><br><div class="dtxt" id="d313375" pks="" pk="313375"><p style="text-align: center;"><strong>DAS DISPOSI&Ccedil;&Otilde;ES PRELIMINARES</strong></p></div></div><div class="dn" id="dn313375" pk="313375"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313376" ><div class="dtxt" id="d313376" pks="" pk="313376"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313377" ><a class="dpt-link" name="313377">Art. 1º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313377" pks="" pk="313377"><p style="text-align: justify;">Fica institu&iacute;do, no &acirc;mbito da Secretaria Municipal de Turismo,&nbsp;Esporte e Lazer &ndash; SEMTEL, o Programa Bolsa-Atleta Time Esporte&nbsp;Porto Velho, com a finalidade de estimular o desenvolvimento do&nbsp;desporto de base, educacional e de rendimento no Munic&iacute;pio de Porto&nbsp;Velho.</p></div></div><div class="dn" id="dn313377" pk="313377"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313378" ><a class="dpt-link" name="313378" title="313378">CAPÍTULO II</a><br><div class="dtxt" id="d313378" pks="" pk="313378"><p style="text-align: center;"><strong>DOS OBJETIVOS, DAS MODALIDADES E DAS CONDI&Ccedil;&Otilde;ES GERAIS</strong></p></div></div><div class="dn" id="dn313378" pk="313378"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="secao  "><div class="dptt "  id="dptt313379" ><a class="dpt-link" name="313379" title="313379">Seção I</a><br><div class="dtxt" id="d313379" pks="" pk="313379"><p style="text-align: center;"><strong>Dos objetivos</strong></p></div></div><div class="dn" id="dn313379" pk="313379"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313380" ><div class="dtxt" id="d313380" pks="" pk="313380"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313381" ><a class="dpt-link" name="313381">Art. 2º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313381" pks="" pk="313381"><p>S&atilde;o objetivos do Programa Bolsa-Atleta Time Esporte Porto Velho:</p></div></div><div class="dn" id="dn313381" pk="313381"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313382" ><a class="dpt-link" name="313382" title="313382">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313382" pks="" pk="313382"><p style="text-align: justify;">fomentar o desenvolvimento do esporte de base, educacional e de rendimento no Munic&iacute;pio;</p></div></div><div class="dn" id="dn313382" pk="313382"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313383" ><a class="dpt-link" name="313383" title="313383">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313383" pks="" pk="313383"><p style="text-align: justify;">conceder incentivo, por meio de repasse financeiro, para a forma&ccedil;&atilde;o e o desenvolvimento cont&iacute;nuo de atletas, paratletas,&nbsp;surdoatletas, atletas-guia e t&eacute;cnicos; e</p></div></div><div class="dn" id="dn313383" pk="313383"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313384" ><a class="dpt-link" name="313384" title="313384">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313384" pks="" pk="313384"><p>promover inclus&atilde;o social e diversidade no esporte, por meio de&nbsp;benef&iacute;cios.</p></div></div><div class="dn" id="dn313384" pk="313384"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="secao  "><div class="dptt "  id="dptt313385" ><a class="dpt-link" name="313385" title="313385">Seção II</a><br><div class="dtxt" id="d313385" pks="" pk="313385"><p>Das modalidades de benef&iacute;cio</p></div></div><div class="dn" id="dn313385" pk="313385"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313386" ><div class="dtxt" id="d313386" pks="" pk="313386"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313387" ><a class="dpt-link" name="313387">Art. 3º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313387" pks="" pk="313387"><p style="text-align: justify;">O Programa Bolsa-Atleta Time Esporte Porto Velho consiste na concess&atilde;o de incentivo financeiro, na forma de bolsa, em presta&ccedil;&otilde;es&nbsp;mensais, nas seguintes modalidades:</p></div></div><div class="dn" id="dn313387" pk="313387"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313388" ><a class="dpt-link" name="313388" title="313388">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313388" pks="" pk="313388"><p style="text-align: justify;">Bolsa-Atleta, destinada a subsidiar o desempenho de atletas, paratletas, surdoatletas e atletas-guia praticantes do desporto de base, educacional e de rendimento, em modalidades ol&iacute;mpicas, paral&iacute;mpicas e surdol&iacute;mpicas, individuais ou coletivas, nas seguintes categorias:</p></div></div><div class="dn" id="dn313388" pk="313388"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313389" ><a class="dpt-link" name="313389" title="313389">a)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313389" pks="" pk="313389"><p style="text-align: justify;">Atleta Estudantil, destinada a estudantes na faixa et&aacute;ria de 11 (onze) a 25 (vinte e cinco) anos, indicados pelo Governo do Estado de&nbsp;Rond&ocirc;nia, por interm&eacute;dio da secretaria respons&aacute;vel pelo desporto&nbsp;educacional, por entidade do desporto escolar e/ou universit&aacute;rio, que&nbsp;tenham participado, no ano imediatamente anterior, de competi&ccedil;&otilde;es estaduais dos jogos escolares e/ou universit&aacute;rios de Rond&ocirc;nia ou de competi&ccedil;&otilde;es em n&iacute;vel nacional realizadas pela Confedera&ccedil;&atilde;o&nbsp;Brasileira do Desporto Escolar - CBDE, Confedera&ccedil;&atilde;o Brasileira do&nbsp;Desporto Universit&aacute;rio - CBDU, Comit&ecirc; Ol&iacute;mpico do Brasil - COB, Comit&ecirc; Paral&iacute;mpico do Brasil - CPB ou Confedera&ccedil;&atilde;o Brasileira Desportos de Surdos - CBDS, compreendendo:</p></div></div><div class="dn" id="dn313389" pk="313389"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="7">
+    
+
+    <div class="item indent  "><div class="dptt "  id="dptt313390" ><a class="dpt-link" name="313390" title="313390">1</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313390" pks="" pk="313390"><p style="text-align: justify;">atletas que obtiveram a 1&ordf; (primeira) coloca&ccedil;&atilde;o em modalidade individual ou que tenham sido selecionados entre os 3 (tr&ecirc;s) melhores&nbsp;atletas de modalidade coletiva correspondente, no evento estadual; e</p></div></div><div class="dn" id="dn313390" pk="313390"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="7">
+    
+
+    <div class="item indent  "><div class="dptt "  id="dptt313391" ><a class="dpt-link" name="313391" title="313391">2</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313391" pks="" pk="313391"><p style="text-align: justify;">atletas que obtiveram da 1&ordf; (primeira) &agrave; 3&ordf; (terceira) coloca&ccedil;&atilde;o em modalidade individual ou que tenham sido selecionados entre os 3 (tr&ecirc;s) melhores atletas de modalidade coletiva correspondente, no evento nacional;</p></div></div><div class="dn" id="dn313391" pk="313391"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313392" ><a class="dpt-link" name="313392" title="313392">b)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313392" pks="" pk="313392"><p style="text-align: justify;">Atleta Base, destinada a atletas de 11 (onze) a 17 (dezessete) anos&nbsp;que tenham participado, no ano imediatamente anterior, da principal&nbsp;competi&ccedil;&atilde;o priorit&aacute;ria, observada a ordem nacional, regional e estadual, realizada pela federa&ccedil;&atilde;o esportiva estadual ou por confedera&ccedil;&atilde;o brasileira reconhecida pelo COB, CPB ou CBDS, compreendendo os que obtiveram classifica&ccedil;&atilde;o m&iacute;nima de 1&ordf; (primeira) a 3&ordf; (terceira) coloca&ccedil;&atilde;o nas modalidades individuais ou coletivas, e, nas modalidades coletivas, tenham sido selecionados&nbsp;entre os 3 (tr&ecirc;s) melhores atletas correspondentes, nos eventos regional ou nacional, e os que obtiveram 1&ordf; (primeira) coloca&ccedil;&atilde;o nos eventos estaduais;&nbsp;</p></div></div><div class="dn" id="dn313392" pk="313392"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313393" ><a class="dpt-link" name="313393" title="313393">c)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313393" pks="" pk="313393"><p style="text-align: justify;">Atleta Estadual, destinada a atletas de 14 (catorze) a 28 (vinte e oito) anos, admitida idade m&iacute;nima de 11 (onze) anos para a modalidade de gin&aacute;stica r&iacute;tmica, que tenham participado da principal&nbsp;competi&ccedil;&atilde;o estadual do calend&aacute;rio das federa&ccedil;&otilde;es esportivas estaduais filiadas a confedera&ccedil;&otilde;es nacionais reconhecidas pelo COB, CPB ou&nbsp;CBDS, compreendendo os atletas que obtiverem 1&ordf; (primeira)&nbsp;coloca&ccedil;&atilde;o em modalidade individual ou que tenham sido selecionados&nbsp;entre os 3 (tr&ecirc;s) melhores atletas da modalidade coletiva&nbsp;correspondente;</p></div></div><div class="dn" id="dn313393" pk="313393"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313394" ><a class="dpt-link" name="313394" title="313394">d)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313394" pks="" pk="313394"><p style="text-align: justify;">Atleta Nacional, destinada a atletas de 14 (catorze) a 28 (vinte e oito) anos que tenham participado do evento m&aacute;ximo regional ou&nbsp;nacional da temporada e obtido da 1&ordf; (primeira) &agrave; 3&ordf; (terceira)&nbsp;coloca&ccedil;&atilde;o em modalidade individual ou que tenham sido selecionados entre os 3 (tr&ecirc;s) melhores atletas da modalidade coletiva correspondente, em eventos de entidades esportivas nacionais&nbsp;reconhecidas pelo COB, CPB ou CBDS;</p></div></div><div class="dn" id="dn313394" pk="313394"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313395" ><a class="dpt-link" name="313395" title="313395">e)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313395" pks="" pk="313395"><p style="text-align: justify;">Atleta Internacional, destinada a atletas de 14 (catorze) a 28 (vinte e oito) anos que tenham participado do evento m&aacute;ximo internacional da&nbsp;temporada e obtido da 1&ordf; (primeira) &agrave; 3&ordf; (terceira) coloca&ccedil;&atilde;o em&nbsp;modalidades individuais, em eventos internacionais oficiais indicados por entidades esportivas nacionais reconhecidas pelo COB, CPB ou&nbsp;CBDS e, quando couber, pela CBDE e CBDU.</p></div></div><div class="dn" id="dn313395" pk="313395"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313396" ><a class="dpt-link" name="313396" title="313396">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313396" pks="" pk="313396"><p>Bolsa-T&eacute;cnico, destinada aos t&eacute;cnicos dos benefici&aacute;rios da Bolsa Atleta, na forma desta Lei.</p></div></div><div class="dn" id="dn313396" pk="313396"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313397" ><a class="dpt-link" name="313397" title="313397">§ 1º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313397" pks="" pk="313397"><p>Os valores da Bolsa-Atleta e da Bolsa-T&eacute;cnico constam do Anexo &Uacute;nico desta Lei.</p></div></div><div class="dn" id="dn313397" pk="313397"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313398" ><a class="dpt-link" name="313398" title="313398">§ 2º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313398" pks="" pk="313398"><p style="text-align: justify;">O Poder Executivo poder&aacute; reajustar anualmente os valores previstos no Anexo &Uacute;nico desta Lei, observada a disponibilidade&nbsp;or&ccedil;ament&aacute;ria e financeira fixada na Lei Or&ccedil;ament&aacute;ria Anual e em seus&nbsp;cr&eacute;ditos adicionais.</p></div></div><div class="dn" id="dn313398" pk="313398"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313399" ><a class="dpt-link" name="313399" title="313399">§ 3º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313399" pks="" pk="313399"><p style="text-align: justify;">A quantidade anual de benefici&aacute;rios da Bolsa-Atleta e da Bolsa T&eacute;cnico ser&aacute; definida por ato da SEMTEL, observado o limite or&ccedil;ament&aacute;rio e financeiro fixado na Lei Or&ccedil;ament&aacute;ria Anual e em seus cr&eacute;ditos adicionais, previamente planejados pelo &oacute;rg&atilde;o respons&aacute;vel pelo or&ccedil;amento municipal.</p></div></div><div class="dn" id="dn313399" pk="313399"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313400" ><a class="dpt-link" name="313400" title="313400">§ 4º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313400" pks="" pk="313400"><p style="text-align: justify;">&Eacute; vedada a concess&atilde;o de mais de uma bolsa do Programa ao mesmo atleta, paratleta, surdoatleta, atletaguia ou t&eacute;cnico.</p></div></div><div class="dn" id="dn313400" pk="313400"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313401" ><a class="dpt-link" name="313401" title="313401">§ 5º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313401" pks="" pk="313401"><p style="text-align: justify;">Para os paratletas beneficiados, ser&aacute; admitida a concess&atilde;o de bolsa a&nbsp; 1 (um) atleta-guia (atletismo) ou tapper (nata&ccedil;&atilde;o), no valor equivalente a 50% (cinquenta por cento) do benef&iacute;cio do paratleta nas categorias Nacional e Internacional, observados os crit&eacute;rios e quantitativos definidos em regulamento.</p></div></div><div class="dn" id="dn313401" pk="313401"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313402" ><a class="dpt-link" name="313402" title="313402">§ 6º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313402" pks="" pk="313402"><p style="text-align: justify;">Consideram-se modalidades ol&iacute;mpicas, paral&iacute;mpicas e surdol&iacute;mpicas aquelas integrantes do programa dos Jogos Ol&iacute;mpicos, Paral&iacute;mpicos e Surdol&iacute;mpicos, reguladas, respectivamente, pelo&nbsp;Comit&ecirc; Ol&iacute;mpico Internacional - COI, Comit&ecirc; Paral&iacute;mpico&nbsp;Internacional - IPC e Comit&ecirc; Internacional de Esportes para Surdos&nbsp; ICSD, e administradas no Brasil por entidades filiadas, reconhecidas ou vinculadas ao COB, CPB e CBDS.</p></div></div><div class="dn" id="dn313402" pk="313402"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313403" ><a class="dpt-link" name="313403" title="313403">§ 7º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313403" pks="" pk="313403"><p style="text-align: justify;">A concess&atilde;o das bolsas n&atilde;o gera v&iacute;nculo jur&iacute;dico de qualquer natureza entre os benefici&aacute;rios e a Administra&ccedil;&atilde;o P&uacute;blica Municipal.</p></div></div><div class="dn" id="dn313403" pk="313403"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313404" ><a class="dpt-link" name="313404" title="313404">§ 8º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313404" pks="" pk="313404"><p>As bolsas n&atilde;o alcan&ccedil;am atletas pertencentes &agrave;s categorias master ou similares.</p></div></div><div class="dn" id="dn313404" pk="313404"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313405" ><a class="dpt-link" name="313405" title="313405">§ 9º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313405" pks="" pk="313405"><p style="text-align: justify;">&Eacute; permitida a cumula&ccedil;&atilde;o das bolsas com outras bolsas e benef&iacute;cios de outras esferas p&uacute;blicas ou programas de incentivo ao&nbsp;ensino, &agrave; pesquisa, &agrave; inicia&ccedil;&atilde;o cient&iacute;fica e &agrave; extens&atilde;o, inclusive para&nbsp;matriculados em cursos de gradua&ccedil;&atilde;o ou p&oacute;sgradua&ccedil;&atilde;o stricto sensu.</p></div></div><div class="dn" id="dn313405" pk="313405"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313406" ><a class="dpt-link" name="313406" title="313406">§ 10</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313406" pks="" pk="313406"><p style="text-align: justify;">Excepcionalmente, na categoria Atleta Estudantil, ser&atilde;o&nbsp;considerados aptos atletas e equipes de modalidades esportivas sem&nbsp;chancela ol&iacute;mpica, desde que tenham integrado o programa de&nbsp;competi&ccedil;&otilde;es dos eventos nacionais realizados pela CBDE, CBDU ou&nbsp;CPB no ano anterior ao pleito.</p></div></div><div class="dn" id="dn313406" pk="313406"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="secao  "><div class="dptt "  id="dptt313407" ><a class="dpt-link" name="313407" title="313407">Seção III</a><br><div class="dtxt" id="d313407" pks="" pk="313407"><p style="text-align: center;"><strong>Dos requisitos gerais de habilita&ccedil;&atilde;o</strong></p></div></div><div class="dn" id="dn313407" pk="313407"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313408" ><div class="dtxt" id="d313408" pks="" pk="313408"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313409" ><a class="dpt-link" name="313409">Art. 4º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313409" pks="" pk="313409"><p>Para se tornar benefici&aacute;rio do Programa, o interessado dever&aacute; atender:</p></div></div><div class="dn" id="dn313409" pk="313409"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313410" ><a class="dpt-link" name="313410" title="313410">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313410" pks="" pk="313410"><p>para concess&atilde;o e manuten&ccedil;&atilde;o da Bolsa-Atleta:</p></div></div><div class="dn" id="dn313410" pk="313410"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313411" ><a class="dpt-link" name="313411" title="313411">a)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313411" pks="" pk="313411"><p>residir no Munic&iacute;pio de Porto Velho h&aacute;, no m&iacute;nimo, 1 (um) ano;</p></div></div><div class="dn" id="dn313411" pk="313411"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313412" ><a class="dpt-link" name="313412" title="313412">b)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313412" pks="" pk="313412"><p style="text-align: justify;">enquadrar-se como atleta, paratleta, surdoatleta ou atleta-guia praticante do desporto de base, educacional ou de rendimento, em modalidades reconhecidas pelo COB, CPB ou CBDS;</p></div></div><div class="dn" id="dn313412" pk="313412"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313413" ><a class="dpt-link" name="313413" title="313413">c)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313413" pks="" pk="313413"><p style="text-align: justify;">possuir registro v&aacute;lido nas entidades estaduais e/ou nacionais de administra&ccedil;&atilde;o e de pr&aacute;tica do desporto no Estado de Rond&ocirc;nia, para as&nbsp;categorias previstas nas al&iacute;neas &ldquo;a&rdquo;, &ldquo;c&rdquo;, &ldquo;d&rdquo; e &ldquo;e&rdquo; do inciso I do art. 3&ordm; desta Lei;</p></div></div><div class="dn" id="dn313413" pk="313413"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313414" ><a class="dpt-link" name="313414" title="313414">d)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313414" pks="" pk="313414"><p style="text-align: justify;">na categoria Atleta Estudantil, estar regularmente matriculado em&nbsp;institui&ccedil;&atilde;o de educa&ccedil;&atilde;o b&aacute;sica ou superior, reconhecida pelo&nbsp;Minist&eacute;rio da Educa&ccedil;&atilde;o; e</p></div></div><div class="dn" id="dn313414" pk="313414"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313415" ><a class="dpt-link" name="313415" title="313415">e)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313415" pks="" pk="313415"><p style="text-align: justify;">comprovar o preenchimento dos requisitos espec&iacute;ficos da categoria pretendida, conforme arts. 6&ordm; a 10 desta Lei.</p><p style="text-align: justify;"><strong>Par&aacute;grafo &uacute;nico</strong>.A comprova&ccedil;&atilde;o de resid&ecirc;ncia no Munic&iacute;pio de Porto Velho poder&aacute; ser dispensada para atleta, paratleta, surdoatleta ou&nbsp;atleta-guia convocado para integrar sele&ccedil;&atilde;o brasileira, quando exigida&nbsp;perman&ecirc;ncia em outra unidade federativa, desde que permane&ccedil;a&nbsp;filiado &agrave; federa&ccedil;&atilde;o esportiva rondoniense da respectiva modalidade, chancelada por entidade nacional reconhecida pelo COB, CPB ou&nbsp;CBDS, mediante prova documental.</p></div></div><div class="dn" id="dn313415" pk="313415"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313417" ><a class="dpt-link" name="313417" title="313417">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313417" pks="" pk="313417"><p>para concess&atilde;o e manuten&ccedil;&atilde;o da Bolsa-T&eacute;cnico:</p></div></div><div class="dn" id="dn313417" pk="313417"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313418" ><a class="dpt-link" name="313418" title="313418">a)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313418" pks="" pk="313418"><p>residir e atuar profissionalmente no Munic&iacute;pio de Porto Velho h&aacute;, no m&iacute;nimo, 1 (um) ano;</p></div></div><div class="dn" id="dn313418" pk="313418"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313419" ><a class="dpt-link" name="313419" title="313419">b)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313419" pks="" pk="313419"><p>estar registrado e ativo perante o Conselho Regional de Educa&ccedil;&atilde;o F&iacute;sica &ndash; CREF;</p></div></div><div class="dn" id="dn313419" pk="313419"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313420" ><a class="dpt-link" name="313420" title="313420">c)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313420" pks="" pk="313420"><p style="text-align: justify;">atuar como t&eacute;cnico de benefici&aacute;rio das categorias Bolsa-Atleta Base, Nacional e Internacional; e</p></div></div><div class="dn" id="dn313420" pk="313420"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="6">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313421" ><a class="dpt-link" name="313421" title="313421">d)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313421" pks="" pk="313421"><p style="text-align: justify;">exercer a fun&ccedil;&atilde;o de t&eacute;cnico esportivo da respectiva modalidade h&aacute;, no m&iacute;nimo, 1 (um) ano.</p></div></div><div class="dn" id="dn313421" pk="313421"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313422" ><a class="dpt-link" name="313422" title="313422">§ 1º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313422" pks="" pk="313422"><p style="text-align: justify;">Os benefici&aacute;rios da categoria Atleta Estudantil dever&atilde;o dedicar-se prioritariamente aos estudos e &agrave; pr&aacute;tica esportiva, ressalvada a participa&ccedil;&atilde;o em programas de incentivo ao mercado de trabalho, qualifica&ccedil;&atilde;o profissional, pesquisa e extens&atilde;o.</p></div></div><div class="dn" id="dn313422" pk="313422"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313423" ><a class="dpt-link" name="313423" title="313423">§ 2º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313423" pks="" pk="313423"><p style="text-align: justify;">Para os fins desta Lei, os paratletas ser&atilde;o classificados em defici&ecirc;ncia intelectual, f&iacute;sica e visual, sem distin&ccedil;&atilde;o de prioridade para fins de contempla&ccedil;&atilde;o.</p></div></div><div class="dn" id="dn313423" pk="313423"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313424" ><a class="dpt-link" name="313424" title="313424">§ 3º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313424" pks="" pk="313424"><p style="text-align: justify;">Os surdoatletas ser&atilde;o representados por sua respectiva associa&ccedil;&atilde;o ou &oacute;rg&atilde;o legalmente constitu&iacute;do.</p></div></div><div class="dn" id="dn313424" pk="313424"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="secao  "><div class="dptt "  id="dptt313425" ><a class="dpt-link" name="313425" title="313425">Seção IV</a><br><div class="dtxt" id="d313425" pks="" pk="313425"><p style="text-align: center;"><strong>Da prote&ccedil;&atilde;o &agrave; maternidade</strong></p></div></div><div class="dn" id="dn313425" pk="313425"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313426" ><div class="dtxt" id="d313426" pks="" pk="313426"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313427" ><a class="dpt-link" name="313427">Art. 5º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313427" pks="" pk="313427"><p style="text-align: justify;">Fica assegurado &agrave;s atletas, paratletas, surdoatletas, atletas-guia e t&eacute;cnicas, gestantes ou pu&eacute;rperas, inclusive em caso de ado&ccedil;&atilde;o, o respeito &agrave; maternidade e aos direitos correlatos, no &acirc;mbito do&nbsp;Programa.</p></div></div><div class="dn" id="dn313427" pk="313427"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313428" ><a class="dpt-link" name="313428" title="313428">§ 1º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313428" pks="" pk="313428"><p style="text-align: justify;">Na impossibilidade de comprova&ccedil;&atilde;o de participa&ccedil;&atilde;o em competi&ccedil;&otilde;es no ano imediatamente anterior ao pedido, em raz&atilde;o de&nbsp;gesta&ccedil;&atilde;o ou puerp&eacute;rio, poder&aacute; ser considerado o resultado esportivo obtido no ano anterior ao afastamento.</p></div></div><div class="dn" id="dn313428" pk="313428"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313429" ><a class="dpt-link" name="313429" title="313429">§ 2º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313429" pks="" pk="313429"><p style="text-align: justify;">&Eacute; garantido o recebimento regular das parcelas mensais at&eacute; a retomada da atividade esportiva, acrescido de at&eacute; 6 (seis) meses ap&oacute;s o&nbsp;nascimento.</p></div></div><div class="dn" id="dn313429" pk="313429"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313430" ><a class="dpt-link" name="313430" title="313430">§ 3º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313430" pks="" pk="313430"><p style="text-align: justify;">Retomada a atividade esportiva ou encerrado o prazo do &sect; 2&ordm; deste artigo, voltam a ser exigidas as obriga&ccedil;&otilde;es assumidas no Programa.</p></div></div><div class="dn" id="dn313430" pk="313430"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313431" ><a class="dpt-link" name="313431" title="313431">§ 4º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313431" pks="" pk="313431"><p>O disposto neste artigo n&atilde;o impede que a benefici&aacute;ria, com orienta&ccedil;&atilde;o m&eacute;dica e de seu treinador, continue ou retome a atividade esportiva.</p></div></div><div class="dn" id="dn313431" pk="313431"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313432" ><a class="dpt-link" name="313432" title="313432">CAPÍTULO III</a><br><div class="dtxt" id="d313432" pks="" pk="313432"><p style="text-align: center;"><strong>DOS REQUISITOS ESPEC&Iacute;FICOS POR CATEGORIA</strong></p></div></div><div class="dn" id="dn313432" pk="313432"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313433" ><div class="dtxt" id="d313433" pks="" pk="313433"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313434" ><a class="dpt-link" name="313434">Art. 6º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313434" pks="" pk="313434"><p style="text-align: justify;">Para a concess&atilde;o da Bolsa-Atleta na categoria Atleta Estudantil, al&eacute;m do art. 4&ordm; desta Lei, exige-se:</p></div></div><div class="dn" id="dn313434" pk="313434"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313435" ><a class="dpt-link" name="313435" title="313435">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313435" pks="" pk="313435"><p>idade entre 11 (onze) e 25 (vinte e cinco) anos completos no ano da concess&atilde;o;</p></div></div><div class="dn" id="dn313435" pk="313435"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313436" ><a class="dpt-link" name="313436" title="313436">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313436" pks="" pk="313436"><p style="text-align: justify;">idade entre 11 (onze) e 25 (vinte e cinco) anos completos no ano da concess&atilde;o;</p></div></div><div class="dn" id="dn313436" pk="313436"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313437" ><a class="dpt-link" name="313437" title="313437">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313437" pks="" pk="313437"><p style="text-align: justify;">matr&iacute;cula regular em institui&ccedil;&atilde;o p&uacute;blica ou privada reconhecida pelo Minist&eacute;rio da Educa&ccedil;&atilde;o;</p></div></div><div class="dn" id="dn313437" pk="313437"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313438" ><a class="dpt-link" name="313438" title="313438">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313438" pks="" pk="313438"><p style="text-align: justify;">comprova&ccedil;&atilde;o de plena atividade esportiva, por documentos e/ou registros fotogr&aacute;ficos;</p></div></div><div class="dn" id="dn313438" pk="313438"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313439" ><a class="dpt-link" name="313439" title="313439">V</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313439" pks="" pk="313439"><p style="text-align: justify;">participa&ccedil;&atilde;o em fases estaduais dos jogos escolares ou universit&aacute;rios de Rond&ocirc;nia, ou competi&ccedil;&otilde;es estaduais reconhecidas&nbsp;por CBDE, CBDU ou CPB;</p></div></div><div class="dn" id="dn313439" pk="313439"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313440" ><a class="dpt-link" name="313440" title="313440">VI</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313440" pks="" pk="313440"><p style="text-align: justify;">para valida&ccedil;&atilde;o nacional, que o evento tenha sido realizado e/ou organizado por CBDE, CBDU, COB ou CPB; e</p></div></div><div class="dn" id="dn313440" pk="313440"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313441" ><a class="dpt-link" name="313441" title="313441">VII</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313441" pks="" pk="313441"><p>classifica&ccedil;&atilde;o m&iacute;nima prevista na al&iacute;nea &ldquo;a&rdquo; do inciso I do art. 3&ordm; desta Lei.</p></div></div><div class="dn" id="dn313441" pk="313441"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313442" ><div class="dtxt" id="d313442" pks="" pk="313442"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313443" ><a class="dpt-link" name="313443">Art. 7º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313443" pks="" pk="313443"><p style="text-align: justify;">Para a concess&atilde;o da Bolsa-Atleta na categoria Atleta Base, al&eacute;m do art. 4&ordm; desta Lei, exige-se:</p></div></div><div class="dn" id="dn313443" pk="313443"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313444" ><a class="dpt-link" name="313444" title="313444">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313444" pks="" pk="313444"><p>idade entre 11 (onze) e 17 (dezessete) anos completos no ano da concess&atilde;o;</p></div></div><div class="dn" id="dn313444" pk="313444"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313445" ><a class="dpt-link" name="313445" title="313445">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313445" pks="" pk="313445"><p>autoriza&ccedil;&atilde;o dos pais ou respons&aacute;vel legal, quando menor de 18 (dezoito) anos;</p></div></div><div class="dn" id="dn313445" pk="313445"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313446" ><a class="dpt-link" name="313446" title="313446">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313446" pks="" pk="313446"><p>matr&iacute;cula regular em institui&ccedil;&atilde;o de ensino reconhecida pelo Minist&eacute;rio da Educa&ccedil;&atilde;o;</p></div></div><div class="dn" id="dn313446" pk="313446"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313447" ><a class="dpt-link" name="313447" title="313447">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313447" pks="" pk="313447"><p>comprova&ccedil;&atilde;o de plena atividade esportiva, por documentos e/ou registros fotogr&aacute;ficos;</p></div></div><div class="dn" id="dn313447" pk="313447"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313448" ><a class="dpt-link" name="313448" title="313448">V</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313448" pks="" pk="313448"><p style="text-align: justify;">filia&ccedil;&atilde;o &agrave; federa&ccedil;&atilde;o esportiva rondoniense da respectiva modalidade, chancelada por entidade nacional reconhecida;</p></div></div><div class="dn" id="dn313448" pk="313448"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313449" ><a class="dpt-link" name="313449" title="313449">VI</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313449" pks="" pk="313449"><p>participa&ccedil;&atilde;o em competi&ccedil;&otilde;es regionais e nacionais da modalidade;</p></div></div><div class="dn" id="dn313449" pk="313449"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313450" ><a class="dpt-link" name="313450" title="313450">VII</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313450" pks="" pk="313450"><p style="text-align: justify;">participa&ccedil;&atilde;o, no ano imediatamente anterior, da principal&nbsp;competi&ccedil;&atilde;o regional ou nacional da categoria; e</p></div></div><div class="dn" id="dn313450" pk="313450"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313451" ><a class="dpt-link" name="313451" title="313451">VIII</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313451" pks="" pk="313451"><p>classifica&ccedil;&atilde;o m&iacute;nima prevista na al&iacute;nea &ldquo;b&rdquo; do inciso I do art. 3&ordm; desta Lei.</p></div></div><div class="dn" id="dn313451" pk="313451"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313452" ><div class="dtxt" id="d313452" pks="" pk="313452"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313453" ><a class="dpt-link" name="313453">Art. 8º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313453" pks="" pk="313453"><p style="text-align: justify;">Para a concess&atilde;o da Bolsa-Atleta na categoria Atleta Estadual,&nbsp;al&eacute;m do art. 4&ordm; desta Lei, exige-se:</p></div></div><div class="dn" id="dn313453" pk="313453"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313454" ><a class="dpt-link" name="313454" title="313454">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313454" pks="" pk="313454"><p style="text-align: justify;">idade entre 14 (catorze) e 28 (vinte e oito) anos completos no ano da concess&atilde;o, ressalvada a gin&aacute;stica r&iacute;tmica;</p></div></div><div class="dn" id="dn313454" pk="313454"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313455" ><a class="dpt-link" name="313455" title="313455">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313455" pks="" pk="313455"><p style="text-align: justify;">autoriza&ccedil;&atilde;o dos pais ou respons&aacute;vel legal, quando menor de 18 (dezoito) anos;</p></div></div><div class="dn" id="dn313455" pk="313455"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313456" ><a class="dpt-link" name="313456" title="313456">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313456" pks="" pk="313456"><p>matr&iacute;cula regular, quando aplic&aacute;vel;</p></div></div><div class="dn" id="dn313456" pk="313456"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313457" ><a class="dpt-link" name="313457" title="313457">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313457" pks="" pk="313457"><p style="text-align: justify;">filia&ccedil;&atilde;o &agrave; federa&ccedil;&atilde;o esportiva rondoniense chancelada por entidade nacional reconhecida;</p></div></div><div class="dn" id="dn313457" pk="313457"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313458" ><a class="dpt-link" name="313458" title="313458">V</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313458" pks="" pk="313458"><p>comprova&ccedil;&atilde;o de plena atividade esportiva, por documentos e/ou registros fotogr&aacute;ficos;</p></div></div><div class="dn" id="dn313458" pk="313458"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313459" ><a class="dpt-link" name="313459" title="313459">VI</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313459" pks="" pk="313459"><p>participa&ccedil;&atilde;o, no ano anterior, em competi&ccedil;&otilde;es estaduais do calend&aacute;rio oficial; e</p></div></div><div class="dn" id="dn313459" pk="313459"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313460" ><a class="dpt-link" name="313460" title="313460">VII</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313460" pks="" pk="313460"><p>classifica&ccedil;&atilde;o m&iacute;nima prevista na al&iacute;nea &ldquo;c&rdquo; do inciso I do art. 3&ordm; desta Lei.</p></div></div><div class="dn" id="dn313460" pk="313460"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313461" ><div class="dtxt" id="d313461" pks="" pk="313461"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313462" ><a class="dpt-link" name="313462">Art. 9º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313462" pks="" pk="313462"><p style="text-align: justify;">Para a concess&atilde;o da Bolsa-Atleta na categoria Atleta Nacional, al&eacute;m do art. 4&ordm; desta Lei, exige-se:</p></div></div><div class="dn" id="dn313462" pk="313462"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313463" ><a class="dpt-link" name="313463" title="313463">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313463" pks="" pk="313463"><p>idade entre 14 (catorze) e 28 (vinte e oito) anos completos no ano da concess&atilde;o;</p></div></div><div class="dn" id="dn313463" pk="313463"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313464" ><a class="dpt-link" name="313464" title="313464">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313464" pks="" pk="313464"><p>autoriza&ccedil;&atilde;o dos pais ou respons&aacute;vel legal, quando menor;</p></div></div><div class="dn" id="dn313464" pk="313464"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313465" ><a class="dpt-link" name="313465" title="313465">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313465" pks="" pk="313465"><p>matr&iacute;cula regular, quando aplic&aacute;vel;</p></div></div><div class="dn" id="dn313465" pk="313465"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313466" ><a class="dpt-link" name="313466" title="313466">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313466" pks="" pk="313466"><p style="text-align: justify;">filia&ccedil;&atilde;o &agrave; federa&ccedil;&atilde;o esportiva rondoniense chancelada por entidade nacional reconhecida;</p></div></div><div class="dn" id="dn313466" pk="313466"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313467" ><a class="dpt-link" name="313467" title="313467">V</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313467" pks="" pk="313467"><p>comprova&ccedil;&atilde;o de plena atividade esportiva, por documentos e/ou registros fotogr&aacute;ficos;</p></div></div><div class="dn" id="dn313467" pk="313467"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313468" ><a class="dpt-link" name="313468" title="313468">VI</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313468" pks="" pk="313468"><p style="text-align: justify;">participa&ccedil;&atilde;o, no ano anterior, do evento m&aacute;ximo regional ou nacional da temporada; e</p></div></div><div class="dn" id="dn313468" pk="313468"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313469" ><a class="dpt-link" name="313469" title="313469">VII</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313469" pks="" pk="313469"><p>&nbsp;classifica&ccedil;&atilde;o m&iacute;nima prevista na al&iacute;nea &ldquo;d&rdquo; do inciso I do art. 3&ordm; desta Lei.</p></div></div><div class="dn" id="dn313469" pk="313469"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313470" ><div class="dtxt" id="d313470" pks="" pk="313470"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313471" ><a class="dpt-link" name="313471">Art. 10.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313471" pks="" pk="313471"><p style="text-align: justify;">Para a concess&atilde;o da Bolsa-Atleta na categoria Atleta Internacional, al&eacute;m do art. 4&ordm;, exige-se:</p></div></div><div class="dn" id="dn313471" pk="313471"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313472" ><a class="dpt-link" name="313472" title="313472">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313472" pks="" pk="313472"><p>&nbsp;idade entre 14 (catorze) e 28 (vinte e oito) anos completos no ano da concess&atilde;o;</p></div></div><div class="dn" id="dn313472" pk="313472"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313473" ><a class="dpt-link" name="313473" title="313473">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313473" pks="" pk="313473"><p>autoriza&ccedil;&atilde;o dos pais ou respons&aacute;vel legal, quando menor;</p></div></div><div class="dn" id="dn313473" pk="313473"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313474" ><a class="dpt-link" name="313474" title="313474">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313474" pks="" pk="313474"><p>matr&iacute;cula regular, quando aplic&aacute;vel;</p></div></div><div class="dn" id="dn313474" pk="313474"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313475" ><a class="dpt-link" name="313475" title="313475">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313475" pks="" pk="313475"><p>filia&ccedil;&atilde;o &agrave; federa&ccedil;&atilde;o esportiva rondoniense chancelada por entidade nacional reconhecida;</p></div></div><div class="dn" id="dn313475" pk="313475"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313476" ><a class="dpt-link" name="313476" title="313476">V</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313476" pks="" pk="313476"><p>&nbsp;comprova&ccedil;&atilde;o de plena atividade esportiva, por documentos e/ou registros fotogr&aacute;ficos;</p></div></div><div class="dn" id="dn313476" pk="313476"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313477" ><a class="dpt-link" name="313477" title="313477">VI</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313477" pks="" pk="313477"><p>participa&ccedil;&atilde;o, no ano anterior, das principais competi&ccedil;&otilde;es internacionais da temporada; e</p></div></div><div class="dn" id="dn313477" pk="313477"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313478" ><a class="dpt-link" name="313478" title="313478">VII</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313478" pks="" pk="313478"><p>classifica&ccedil;&atilde;o m&iacute;nima prevista na al&iacute;nea &ldquo;e&rdquo; do inciso I do art. 3&ordm;&nbsp;desta Lei.</p></div></div><div class="dn" id="dn313478" pk="313478"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313479" ><a class="dpt-link" name="313479" title="313479">Parágrafo único </a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313479" pks="" pk="313479"><p style="text-align: justify;">Os atletas, paratletas ou surdoatletas da categoria Estudantil que participarem de eventos internacionais escolares e universit&aacute;rios, desde que convocados por CBDE, CBDU ou CPB, poder&atilde;o optar por concorrer na categoria Atleta Internacional, vedada a acumula&ccedil;&atilde;o de benef&iacute;cios entre duas categorias.</p></div></div><div class="dn" id="dn313479" pk="313479"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313480" ><a class="dpt-link" name="313480" title="313480">CAPÍTULO IV</a><br><div class="dtxt" id="d313480" pks="" pk="313480"><p style="text-align: center;"><strong>DO CANCELAMENTO E DOS IMPEDIMENTO</strong>S</p></div></div><div class="dn" id="dn313480" pk="313480"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313481" ><div class="dtxt" id="d313481" pks="" pk="313481"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313482" ><a class="dpt-link" name="313482">Art. 11.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313482" pks="" pk="313482"><p>O direito &agrave;s bolsas previstas nesta Lei ser&aacute; cancelado quando o benefici&aacute;rio:</p></div></div><div class="dn" id="dn313482" pk="313482"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313483" ><a class="dpt-link" name="313483" title="313483">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313483" pks="" pk="313483"><p>deixar de atender aos requisitos previstos nesta Lei e em seus atos regulamentares;</p></div></div><div class="dn" id="dn313483" pk="313483"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313484" ><a class="dpt-link" name="313484" title="313484">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313484" pks="" pk="313484"><p>apresentar documentos falsos ou eivados de v&iacute;cio;</p></div></div><div class="dn" id="dn313484" pk="313484"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313485" ><a class="dpt-link" name="313485" title="313485">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313485" pks="" pk="313485"><p style="text-align: justify;">for condenado, com tr&acirc;nsito em julgado, &agrave; pena privativa de liberdade e/ou &agrave; perda de direitos;</p></div></div><div class="dn" id="dn313485" pk="313485"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313486" ><a class="dpt-link" name="313486" title="313486">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313486" pks="" pk="313486"><p>for condenado pelo Tribunal de Justi&ccedil;a Desportiva &ndash; TJD, com tr&acirc;nsito em julgado;</p></div></div><div class="dn" id="dn313486" pk="313486"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313487" ><a class="dpt-link" name="313487" title="313487">V</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313487" pks="" pk="313487"><p style="text-align: justify;">for condenado, com tr&acirc;nsito em julgado, por crimes contra a dignidade sexual previstos no C&oacute;digo Penal ou na Lei Federal n&ordm; 8.069, de 13 de julho de 1990 - Estatuto da Crian&ccedil;a e do Adolescente (ECA); e</p></div></div><div class="dn" id="dn313487" pk="313487"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313488" ><a class="dpt-link" name="313488" title="313488">VI</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313488" pks="" pk="313488"><p style="text-align: justify;">for condenado, com tr&acirc;nsito em julgado, por crimes de viol&ecirc;ncia&nbsp;dom&eacute;stica e familiar contra a mulher, previstos na Lei Federal n&ordm; 11.340, de 07 de agosto de 2006 - Lei Maria da Penha.</p></div></div><div class="dn" id="dn313488" pk="313488"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313489" ><div class="dtxt" id="d313489" pks="" pk="313489"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313490" ><a class="dpt-link" name="313490">Art. 12.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313490" pks="" pk="313490"><p>O direito &agrave; Bolsa-T&eacute;cnico ser&aacute; cancelado, ainda, quando o t&eacute;cnico:</p></div></div><div class="dn" id="dn313490" pk="313490"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313491" ><a class="dpt-link" name="313491" title="313491">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313491" pks="" pk="313491"><p>treinar benefici&aacute;rio cujo benef&iacute;cio tenha sido cancelado na forma do art. 11 desta Lei;</p></div></div><div class="dn" id="dn313491" pk="313491"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313492" ><a class="dpt-link" name="313492" title="313492">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313492" pks="" pk="313492"><p>&nbsp;deixar de exercer a fun&ccedil;&atilde;o de t&eacute;cnico desportivo; e</p></div></div><div class="dn" id="dn313492" pk="313492"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313493" ><a class="dpt-link" name="313493" title="313493">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313493" pks="" pk="313493"><p>descumprir exig&ecirc;ncias estabelecidas no edital do chamamento p&uacute;blico.</p></div></div><div class="dn" id="dn313493" pk="313493"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313494" ><div class="dtxt" id="d313494" pks="" pk="313494"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313495" ><a class="dpt-link" name="313495">Art. 13.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313495" pks="" pk="313495"><p style="text-align: justify;">O benefici&aacute;rio que tiver o benef&iacute;cio cancelado ficar&aacute; impedido de concorrer &agrave; Bolsa-Atleta e &agrave; BolsaT&eacute;cnico pelo prazo de 2 (dois) anos, contado do ato de cancelamento.</p></div></div><div class="dn" id="dn313495" pk="313495"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313496" ><a class="dpt-link" name="313496" title="313496">CAPÍTULO V</a><br><div class="dtxt" id="d313496" pks="" pk="313496"><p style="text-align: center;"><strong>DA OPERACIONALIZA&Ccedil;&Atilde;O, DA SELE&Ccedil;&Atilde;O E DA PRESTA&Ccedil;&Atilde;O DE CONTAS</strong></p></div></div><div class="dn" id="dn313496" pk="313496"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313497" ><div class="dtxt" id="d313497" pks="" pk="313497"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313498" ><a class="dpt-link" name="313498">Art. 14.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313498" pks="" pk="313498"><p>A operacionaliza&ccedil;&atilde;o do Programa ocorrer&aacute; mediante:</p></div></div><div class="dn" id="dn313498" pk="313498"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313499" ><a class="dpt-link" name="313499" title="313499">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313499" pks="" pk="313499"><p style="text-align: justify;">Chamamento P&uacute;blico, por edital publicado no Di&aacute;rio Oficial dos&nbsp;Munic&iacute;pios do Estado de Rond&ocirc;nia e divulgado nos canais oficiais do Munic&iacute;pio;</p></div></div><div class="dn" id="dn313499" pk="313499"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313500" ><a class="dpt-link" name="313500" title="313500">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313500" pks="" pk="313500"><p>sele&ccedil;&atilde;o, com an&aacute;lise documental e verifica&ccedil;&atilde;o dos crit&eacute;rios;</p></div></div><div class="dn" id="dn313500" pk="313500"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313501" ><a class="dpt-link" name="313501" title="313501">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313501" pks="" pk="313501"><p>divulga&ccedil;&atilde;o do resultado;</p></div></div><div class="dn" id="dn313501" pk="313501"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313502" ><a class="dpt-link" name="313502" title="313502">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313502" pks="" pk="313502"><p>&nbsp;assinatura do Termo de Ades&atilde;o;</p></div></div><div class="dn" id="dn313502" pk="313502"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313503" ><a class="dpt-link" name="313503" title="313503">V</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313503" pks="" pk="313503"><p>execu&ccedil;&atilde;o do plano esportivo, pelo prazo de 12 (doze) meses; e</p></div></div><div class="dn" id="dn313503" pk="313503"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313504" ><a class="dpt-link" name="313504" title="313504">VI</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313504" pks="" pk="313504"><p>presta&ccedil;&atilde;o de contas, na forma prevista nesta Lei e em regulamento.</p></div></div><div class="dn" id="dn313504" pk="313504"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313505" ><a class="dpt-link" name="313505" title="313505">Parágrafo único </a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313505" pks="" pk="313505"><p style="text-align: justify;">A operacionaliza&ccedil;&atilde;o poder&aacute; ser realizada por plataforma digital do Munic&iacute;pio, asseguradas transpar&ecirc;ncia e facilidade de acesso aos interessados.</p></div></div><div class="dn" id="dn313505" pk="313505"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313506" ><div class="dtxt" id="d313506" pks="" pk="313506"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313507" ><a class="dpt-link" name="313507">Art. 15.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313507" pks="" pk="313507"><p>O edital dever&aacute; conter, no m&iacute;nimo:</p></div></div><div class="dn" id="dn313507" pk="313507"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313508" ><a class="dpt-link" name="313508" title="313508">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313508" pks="" pk="313508"><p>requisitos necess&aacute;rios &agrave; concess&atilde;o;</p></div></div><div class="dn" id="dn313508" pk="313508"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313509" ><a class="dpt-link" name="313509" title="313509">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313509" pks="" pk="313509"><p>etapas, cronograma e prazos recursais, quando cab&iacute;vel;</p></div></div><div class="dn" id="dn313509" pk="313509"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313510" ><a class="dpt-link" name="313510" title="313510">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313510" pks="" pk="313510"><p style="text-align: justify;">documentos exigidos, incluindo indica&ccedil;&atilde;o da entidade regional desportiva, quando aplic&aacute;vel; e</p></div></div><div class="dn" id="dn313510" pk="313510"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313511" ><a class="dpt-link" name="313511" title="313511">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313511" pks="" pk="313511"><p>&nbsp;crit&eacute;rios objetivos de sele&ccedil;&atilde;o.</p></div></div><div class="dn" id="dn313511" pk="313511"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313512" ><a class="dpt-link" name="313512" title="313512">§ 1º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313512" pks="" pk="313512"><p style="text-align: justify;">Para as categorias Base, Estadual, Nacional e Internacional, a indica&ccedil;&atilde;o de que trata o inciso III deste artigo fundamentar-se-&aacute; em&nbsp;crit&eacute;rios t&eacute;cnico-desportivos, mediante declara&ccedil;&atilde;o da federa&ccedil;&atilde;o&nbsp;esportiva rondoniense chancelada por entidade nacional reconhecida, comprovando resultados oficiais do ano imediatamente anterior.</p></div></div><div class="dn" id="dn313512" pk="313512"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313513" ><a class="dpt-link" name="313513" title="313513">§ 2º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313513" pks="" pk="313513"><p style="text-align: justify;">Para a categoria Estudantil, a indica&ccedil;&atilde;o fundamentar-se-&aacute; em crit&eacute;rios t&eacute;cnico- esportivos, mediante declara&ccedil;&atilde;o do Governo do Estado de Rond&ocirc;nia, da federa&ccedil;&atilde;o escolar ou universit&aacute;ria, chancelada por CBDE, CBDU ou CPB, comprovando resultados oficiais do ano imediatamente anterior</p></div></div><div class="dn" id="dn313513" pk="313513"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313514" ><a class="dpt-link" name="313514" title="313514">§ 3º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313514" pks="" pk="313514"><p style="text-align: justify;">O edital poder&aacute; prever remanejamento de vagas remanescentes entre categorias, observados os crit&eacute;rios da categoria contemplada.</p></div></div><div class="dn" id="dn313514" pk="313514"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313515" ><a class="dpt-link" name="313515" title="313515">§ 4º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313515" pks="" pk="313515"><p style="text-align: justify;">O edital poder&aacute; prever convoca&ccedil;&atilde;o de atletas ranqueados em lista de espera, conforme disponibilidade.</p></div></div><div class="dn" id="dn313515" pk="313515"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313516" ><div class="dtxt" id="d313516" pks="" pk="313516"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313517" ><a class="dpt-link" name="313517">Art. 16.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313517" pks="" pk="313517"><p>Os crit&eacute;rios de sele&ccedil;&atilde;o dever&atilde;o abranger, no m&iacute;nimo:</p></div></div><div class="dn" id="dn313517" pk="313517"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313518" ><a class="dpt-link" name="313518" title="313518">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313518" pks="" pk="313518"><p>hist&oacute;rico de participa&ccedil;&atilde;o em competi&ccedil;&otilde;es anteriores, conforme a categoria; ou</p></div></div><div class="dn" id="dn313518" pk="313518"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313519" ><a class="dpt-link" name="313519" title="313519">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313519" pks="" pk="313519"><p style="text-align: justify;">previs&atilde;o de participa&ccedil;&atilde;o em competi&ccedil;&otilde;es futuras, conforme plano esportivo apresentado.</p></div></div><div class="dn" id="dn313519" pk="313519"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313520" ><a class="dpt-link" name="313520" title="313520">Parágrafo único </a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313520" pks="" pk="313520"><p>Para a an&aacute;lise t&eacute;cnica:</p></div></div><div class="dn" id="dn313520" pk="313520"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313521" ><a class="dpt-link" name="313521" title="313521">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313521" pks="" pk="313521"><p>a SEMTEL poder&aacute; solicitar &agrave;s federa&ccedil;&otilde;es e/ou confedera&ccedil;&otilde;es a indica&ccedil;&atilde;o de competi&ccedil;&otilde;es oficiais; e</p></div></div><div class="dn" id="dn313521" pk="313521"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313522" ><a class="dpt-link" name="313522" title="313522">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313522" pks="" pk="313522"><p>a SEMTEL avaliar&aacute; as competi&ccedil;&otilde;es indicadas, aprovando ou reprovando sua inclus&atilde;o.</p></div></div><div class="dn" id="dn313522" pk="313522"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313523" ><div class="dtxt" id="d313523" pks="" pk="313523"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313524" ><a class="dpt-link" name="313524">Art. 17.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313524" pks="" pk="313524"><p>Para fins desta Lei, a federa&ccedil;&atilde;o ou confedera&ccedil;&atilde;o esportiva dever&aacute; estar regular perante o Sistema Desportivo Nacional.</p></div></div><div class="dn" id="dn313524" pk="313524"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313525" ><div class="dtxt" id="d313525" pks="" pk="313525"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313526" ><a class="dpt-link" name="313526">Art. 18.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313526" pks="" pk="313526"><p>Encerrada a sele&ccedil;&atilde;o, o resultado ser&aacute; divulgado no s&iacute;tio oficial da SEMTEL, com a rela&ccedil;&atilde;o dos benefici&aacute;rios.</p></div></div><div class="dn" id="dn313526" pk="313526"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313527" ><div class="dtxt" id="d313527" pks="" pk="313527"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313528" ><a class="dpt-link" name="313528">Art. 19.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313528" pks="" pk="313528"><p style="text-align: justify;">Durante a execu&ccedil;&atilde;o do plano esportivo, o benefici&aacute;rio perceber&aacute; os valores da bolsa em 12 (doze) parcelas iguais e consecutivas, ressalvadas as hip&oacute;teses de cancelamento.</p></div></div><div class="dn" id="dn313528" pk="313528"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313529" ><a class="dpt-link" name="313529" title="313529">Parágrafo único </a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313529" pks="" pk="313529"><p>.O pagamento ocorrer&aacute; em conta banc&aacute;ria espec&iacute;fica, em nome do benefici&aacute;rio.</p></div></div><div class="dn" id="dn313529" pk="313529"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313530" ><div class="dtxt" id="d313530" pks="" pk="313530"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313531" ><a class="dpt-link" name="313531">Art. 20.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313531" pks="" pk="313531"><p style="text-align: justify;">A presta&ccedil;&atilde;o de contas ser&aacute; simplificada e disciplinada em regulamento do Poder Executivo, a ser publicado previamente &agrave; implementa&ccedil;&atilde;o do Programa na lei or&ccedil;ament&aacute;ria do exerc&iacute;cio.</p></div></div><div class="dn" id="dn313531" pk="313531"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313532" ><div class="dtxt" id="d313532" pks="" pk="313532"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313533" ><a class="dpt-link" name="313533">Art. 21.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313533" pks="" pk="313533"><p style="text-align: justify;">Compete ao setor administrativo e de controle interno da SEMTEL analisar as presta&ccedil;&otilde;es de contas, aprovando-as ou&nbsp;reprovando-as.</p></div></div><div class="dn" id="dn313533" pk="313533"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313534" ><a class="dpt-link" name="313534" title="313534">Parágrafo único </a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313534" pks="" pk="313534"><p style="text-align: justify;">Na aus&ecirc;ncia de presta&ccedil;&atilde;o de contas ou em caso de reprova&ccedil;&atilde;o, o benefici&aacute;rio dever&aacute; restituir os valores recebidos, sob pena de inscri&ccedil;&atilde;o do d&eacute;bito e ado&ccedil;&atilde;o das medidas cab&iacute;veis.</p></div></div><div class="dn" id="dn313534" pk="313534"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313535" ><a class="dpt-link" name="313535" title="313535">CAPÍTULO VI</a><br><div class="dtxt" id="d313535" pks="" pk="313535"><p style="text-align: center;"><strong>DA CONTRAPARTIDA</strong></p></div></div><div class="dn" id="dn313535" pk="313535"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313536" ><div class="dtxt" id="d313536" pks="" pk="313536"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313537" ><a class="dpt-link" name="313537">Art. 22.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313537" pks="" pk="313537"><p>Constituem contrapartidas dos benefici&aacute;rios:</p></div></div><div class="dn" id="dn313537" pk="313537"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313538" ><a class="dpt-link" name="313538" title="313538">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313538" pks="" pk="313538"><p>divulgar o Munic&iacute;pio de Porto Velho, a SEMTEL e o Programa, mediante:</p></div></div><div class="dn" id="dn313538" pk="313538"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313539" ><a class="dpt-link" name="313539" title="313539">a)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313539" pks="" pk="313539"><p style="text-align: justify;">inser&ccedil;&atilde;o do bras&atilde;o e logotipos em uniformes e materiais esportivos de competi&ccedil;&atilde;o, em local vis&iacute;vel;</p></div></div><div class="dn" id="dn313539" pk="313539"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="5">
+    
+
+    <div class="alinea indent  "><div class="dptt "  id="dptt313540" ><a class="dpt-link" name="313540" title="313540">b)</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313540" pks="" pk="313540"><p style="text-align: justify;">registro fotogr&aacute;fico do benefici&aacute;rio com o logotipo do Programa e, quando houver, o banner da competi&ccedil;&atilde;o ao fundo;</p></div></div><div class="dn" id="dn313540" pk="313540"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313541" ><a class="dpt-link" name="313541" title="313541">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313541" pks="" pk="313541"><p style="text-align: justify;">atender, quando necess&aacute;rio, ao chamamento da SEMTEL para ministrar palestras ou treinamentos;</p></div></div><div class="dn" id="dn313541" pk="313541"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313542" ><a class="dpt-link" name="313542" title="313542">III</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313542" pks="" pk="313542"><p style="text-align: justify;">atender, quando necess&aacute;rio, ao chamamento da SEMTEL para participar de eventos esportivos municipais, inclusive entrevistas e a&ccedil;&otilde;es publicit&aacute;rias; e</p></div></div><div class="dn" id="dn313542" pk="313542"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt313543" ><a class="dpt-link" name="313543" title="313543">IV</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313543" pks="" pk="313543"><p style="text-align: justify;">abster-se de uso ou apologia a subst&acirc;ncias entorpecentes, mantendo conduta &eacute;tica e fair play.</p></div></div><div class="dn" id="dn313543" pk="313543"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313544" ><a class="dpt-link" name="313544" title="313544">§ 1º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313544" pks="" pk="313544"><p style="text-align: justify;">O benefici&aacute;rio dever&aacute; apresentar contrapartida e colocar-se &agrave; disposi&ccedil;&atilde;o quando solicitado.</p></div></div><div class="dn" id="dn313544" pk="313544"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313545" ><a class="dpt-link" name="313545" title="313545">§ 2º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313545" pks="" pk="313545"><p style="text-align: justify;">O benefici&aacute;rio que n&atilde;o puder comparecer quando convocado dever&aacute; justificar formalmente &agrave; SEMTEL, mantendo-se &agrave; disposi&ccedil;&atilde;o para eventos futuros.</p></div></div><div class="dn" id="dn313545" pk="313545"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313546" ><a class="dpt-link" name="313546" title="313546">CAPÍTULO VII</a><br><div class="dtxt" id="d313546" pks="" pk="313546"><p style="text-align: center;"><strong>DA GEST&Atilde;O E DA GOVERNAN&Ccedil;A</strong></p></div></div><div class="dn" id="dn313546" pk="313546"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="secao  "><div class="dptt "  id="dptt313547" ><a class="dpt-link" name="313547" title="313547">Seção I</a><br><div class="dtxt" id="d313547" pks="" pk="313547"><p style="text-align: center;"><strong>Da gest&atilde;o</strong></p></div></div><div class="dn" id="dn313547" pk="313547"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313548" ><div class="dtxt" id="d313548" pks="" pk="313548"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313549" ><a class="dpt-link" name="313549">Art. 23.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313549" pks="" pk="313549"><p style="text-align: justify;">A gest&atilde;o do Programa compete &agrave; SEMTEL, que executar&aacute; as a&ccedil;&otilde;es previstas nesta Lei e dar&aacute; publicidade aos resultados.</p></div></div><div class="dn" id="dn313549" pk="313549"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="4">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt313550" ><a class="dpt-link" name="313550" title="313550">Parágrafo único </a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313550" pks="" pk="313550"><p style="text-align: justify;">A SEMTEL poder&aacute; instituir Comiss&atilde;o Gestora do Programa, composta por equipes respons&aacute;veis pela execu&ccedil;&atilde;o e fiscaliza&ccedil;&atilde;o.</p></div></div><div class="dn" id="dn313550" pk="313550"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="secao  "><div class="dptt "  id="dptt313551" ><a class="dpt-link" name="313551" title="313551">Seção II</a><br><div class="dtxt" id="d313551" pks="" pk="313551"><p style="text-align: center;"><strong>Da governan&ccedil;a</strong></p></div></div><div class="dn" id="dn313551" pk="313551"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313552" ><div class="dtxt" id="d313552" pks="" pk="313552"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313553" ><a class="dpt-link" name="313553">Art. 24.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313553" pks="" pk="313553"><p style="text-align: justify;">A governan&ccedil;a do Programa ser&aacute; promovida pela SEMTEL, com atribui&ccedil;&atilde;o de direcionar, monitorar e avaliar as a&ccedil;&otilde;es, inclusive&nbsp;quanto &agrave; elabora&ccedil;&atilde;o dos atos normativos necess&aacute;rios &agrave; fiel execu&ccedil;&atilde;o&nbsp;desta Lei.</p></div></div><div class="dn" id="dn313553" pk="313553"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="capitulo  "><div class="dptt "  id="dptt313554" ><a class="dpt-link" name="313554" title="313554">CAPÍTULO VIII</a><br><div class="dtxt" id="d313554" pks="" pk="313554"><p style="text-align: center;"><strong>DAS DISPOSI&Ccedil;&Otilde;ES FINAIS</strong></p></div></div><div class="dn" id="dn313554" pk="313554"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313555" ><div class="dtxt" id="d313555" pks="" pk="313555"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313556" ><a class="dpt-link" name="313556">Art. 25.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313556" pks="" pk="313556"><p style="text-align: justify;">As despesas decorrentes da execu&ccedil;&atilde;o desta Lei correr&atilde;o &agrave; conta das dota&ccedil;&otilde;es or&ccedil;ament&aacute;rias pr&oacute;prias da SEMTEL, consignadas no Or&ccedil;amento do Munic&iacute;pio, observados os limites definidos na Lei Or&ccedil;ament&aacute;ria Anual e em seus cr&eacute;ditos adicionais.</p></div></div><div class="dn" id="dn313556" pk="313556"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313557" ><div class="dtxt" id="d313557" pks="" pk="313557"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313558" ><a class="dpt-link" name="313558">Art. 26.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313558" pks="" pk="313558"><p>.O Poder Executivo regulamentar&aacute; esta Lei, no que couber.</p></div></div><div class="dn" id="dn313558" pk="313558"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt313559" ><div class="dtxt" id="d313559" pks="" pk="313559"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="3">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt313560" ><a class="dpt-link" name="313560">Art. 27.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d313560" pks="" pk="313560"><p style="text-align: justify;">Esta Lei entra em vigor em at&eacute; 180 (cento e oitenta) dias ap&oacute;s sua publica&ccedil;&atilde;o.</p></div></div><div class="dn" id="dn313560" pk="313560"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="texto_n_estruturado  "><div class="dptt "  id="dptt313561" ><a class="dpt-link" name="313561" title="313561"></a><div class="dtxt" id="d313561" pks="" pk="313561"><p style="text-align: center;">&nbsp;</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><strong>LEONARDO BARRETO DE MORAES</strong><br><em>Prefeito</em></p></div></div><div class="dn" id="dn313561" pk="313561"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt  " nivel="4">
+    
+
+    <div class="texto_n_estruturado  "><div class="dptt "  id="dptt313562" ><a class="dpt-link" name="313562" title="313562"></a><div class="dtxt" id="d313562" pks="" pk="313562"><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqsAAAFKCAYAAAA66xZLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAHZqSURBVHhe7d0JvE3V+z/wZZ7nzFMpQ2aNhiQiUxKSkBSKJr40KBU/UobIVNSfL5nLLENkCEXhWzJWEmUMhciQYv335zlrXfvse849595z7u3g8369DmevPZx99rl772ev9ay9U2mHIiIiIiKKQanN/0REREREMYfBKhERERHFLAarRERERBSzGKwSERERUcxisEpEREREMYvBKhERERHFLAarRERERBSzGKwSERERUcxisEpEREREMYtPsIpRf/zxh1q2bJkZUqpWrVoqb968ZoiIiIjo6sCa1Rj14YcfqpYtW8rrk08+Uddcc40ZQ0RERHT1YLAao2bOnCn/t2rVSo0dO1alSpVKhomIiIiuJkwDiEFHjx5VBQsWVA0bNlRz5sxR6dKlM2OIiIiIri6sWY1B3377rWrTpo2aNWsWA1UiIiK6qoVds3r8+HGVK1cuM3R1u3Dhgjp58qT666+/VNasWeV1tfvtt9/Unj175H2hQoVU4cKF5b31yy+/qOLFi5uhwLhdiYiIyCvsYLV58+aqb9++qkKFCqYkPgS0gwYNknxLBBxW+fLl1YIFC+LVEvbr108tWbJE7d27V6VPn141aNBA9ezZU2oU161bp9avX2+mDG3KlCnqrrvukvdPPvmkWrhwofJ+Naz7/fffrzp37izDWKf/9//+n9q0aZMM58iRQzVr1kx169YtXs/7ixcvqunTp6tx48apr776SpZVtGhR9d1330mghs/u2rWruuOOO8wcoY0cOVItXbpUbd682ZT4YHvdfffd6qGHHpLPOHfunHrrrbfUp59+KgFhhgwZpONV69atJQh877331JYtW8zczo+aKpUaM2aMuvfee02JD7bpxIkT1eLFi2XblCxZUrVr107deOON0okLv9upU6fM1L7lYHtVq1ZNanq9zp49q95//301fvx4tXXrVpU6dWp17bXXqrRp06q///5b0hiwnseOHVPffPON6t+/v5nzkuTYrkRERHQFQbAayq5du7QTiOgOHTqYkoQ5QZV2AhZEinEvJ4A0Y/2dOHFC58qVSw8dOtSU+DjBri5cuLDfMjCtEwTpM2fO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n27evLl8j549e/od5NCcbw+q2AYIFL766isz1mfp0qX6xRdf9Gt+xgvrgaAewbOFppratWvHTXPXXXfpN954w4z1QfoEduRq1ar5LQ8vBMRLliyR6XCSRUBco0aNeNNhuVj3Y8eOybTWmjVr9GuvvaZz584dbx40ueB3wXbMnj273zikUwD+Hnr37h3v4IQXtg+a8/AbpEmTxm/cokWLZH63xKx/NLdbMEnZnsG2B/6WkRqCk+vFixd1375945rKsJ3wd+cOTHGgbtasmRnywd/rK6+84ndSxwv7HJoD582bF9Xfwy0ay8U2w/6CV5EiRfR9990nTc49evSQ+atUqSKBpbV161b5TPz9uZeJ/QipH2jSDFckx5mBAwfGBdruF77PgAED/AIN/AbuadKnT6+feeaZuGNINP+m8IrkN43m9l22bJmsP9YBFx34TTt37qyLFi0qx9FWrVrpnTt3mqkviYXt65XU75IUDz30kBwLQon0byDS4zwqeJAygMDaPR77DqaZPHmynNdwTkaA654Gr6pVq8qxGAG6V0pub7rypcI/zh9dssHicSNqNBHiEXR58uSR3t3hNmUlBZqQ0VvSPnMaPcXx1CDnxCbNH7fffnuCj4EjovChc6Pt7ewEhdJJBmk46CyBDpl4Jbd/4zhzNXECQdm+uE+qE3xIGg5ur4SOdJeblPgu6BzqBJvxbrN2NbqS/nbo35PswSoRERERUVLxPhFEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcUsBqtEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcUsBqtEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcUsBqtEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcUsBqtEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcUsBqtEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcUsBqtEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcUsBqtEREREFLMYrBIRERFRzGKwSkREREQxi8EqEREREcWsVNqRKlUqM0hERERE9O9zQlT5nzWrRERERBSzGKwSERERUczySwOw1a1ERETknCR5fiRKcd79jjWrRERERBSzGKwSERERUcxisEpEREREMYvBKhERERHF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hRP9UWyNcaTLI0oyZ6fCXiUvt7Vr18r90VBepUoV3b59e+0En7pmzZq6Ro0acv84t6lTp+pChQrJzYydYFB37NhR7icHX3/9tS5TpozOkyeP3Ex506ZNOleuXHrgwIF6/vz5umnTpnrfvn3a2TG1sxPrzJkz64YNG+rZs2fLjZGdP3598uRJWZaXE3zqkSNHaicg1Hnz5pWbNDvBrRnr4wSF2glY5btgeU6wbcZovXz5clkvjMP94aZNmyblK1askOVhvb/44gu9efNm+e7O1aF2gnL9888/y0MIMB/uq+ccvLRz4NItW7aUMrzq1KmjnZ1dlofvhptBY3nvvfee7tq1q3x/IiKKXfZ4bq1bty7uOI97h69cudKM0XIvb1uOc5sTqOry5cvr3r17yzz9+vXTLVq00MeOHTNzxIdzxrhx43TGjBl1tWrV5FxknTt3TmfIkEH37NnTlGh98OBB+TzM06lTJ/nfLZLx+A74PpUrVzYlkX8eUTi8+13Qx60mhROcqp07d0ptZUL5KbgqxWciHQC1maVLl47rnIV1cP7YpRMWpsFtpHLnzi21k5HAFSrWDSkMyJl1Q/oCxqGTGG6lFSlcXePz3L1CLXxn1O5iHJLRiYgodkV6fsR86M/Qv39/SRfw9pZPLDy+FXedcXdoxvlm9+7dcu513zbKSup4rDua9LHe6CRsRfp5RKF497uoBqtERERXkmidHxGw2hSzywnuqIO0A6S5EaUUBqtERERhuprPj6gdRT8S9P0gSkkMVomIiMLE8yNRyvPud5ElghIRERERJSMGq0REREQUsxisEhEREVHMYrBKRERERDGLwSoRERERxSwGq0REREQUsxisEhEREVHMYrBKRERERDHL76EARERERESxgA8FICIiIqKYx2CViIiIiGKWpAGY90REREREMUSp/w/28rMRsHej6AAAAABJRU5ErkJggg=="></p></div></div><div class="dn" id="dn313562" pk="313562"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+
+
+  </div></div></div></div></div>
+
+
+</div>
+
+  <div class="dont-break-out"></div>
+
+
+
+
+          </div>
+        </main>
+
+      
+
+      
+
+
+      
+      <footer id="footer" class="footer page__row hidden-print">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+
+              <a class="footer__logo" href="#">
+                <a href="http://www.interlegis.leg.br/">
+                  <img src="/static/sapl/frontend/img/logo_interlegis.png" alt="Logo do Interlegis ">
+                </a>
+              </a>
+              <p>
+                <small>
+                  Desenvolvido pelo <a href="http://www.interlegis.leg.br/">Interlegis</a> em software livre e aberto.
+                </small>
+		<span>Release: 3.1.165-RC3</span>
+              </p>
+
+            </div>
+            <div class="col-md-4">
+              <a class="footer__logo" href="#">
+                <img src="/static/sapl/frontend/img/logo_cc.png" alt="Logo do Creative Commons BY SA">
+              </a>
+              <p>
+                <small>
+                  Conteúdo e dados sob licença <a href="https://creativecommons.org">Creative Commons</a> 4.0<br><a href="https://creativecommons.org/licenses/by/4.0/">Atribuir Fonte - Compartilhar Igual</a>
+                </small>
+              </p>
+            </div>
+            <div class="col-md-4">
+              
+              <address>
+                <small>
+                  <strong>
+                    <span class="org">CÂMARA MUNICIPAL DE PORTO VELHO</span>
+                  </strong>
+                  <br>
+                  <span class="street-address">RUA BELÉM, N° 139</span>
+                  <br>
+                  CEP: <span class="postal-code">76820-734</span>
+                  |
+                  Telefone: <span>(69) 3217-8038</span>
+                  <br>
+                  <small><a href="/api/schema/swagger-ui/">OpenAPI</a></small> |
+                  <a href="http://www.portovelho.ro.leg.br/" class="url">Site</a> |
+                  <a href="mailto:informatica@portovelho.ro.leg.br" class="email">Fale Conosco</a>
+                </small>
+              </address>
+              
+
+
+
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+
+    <div vw class="enabled btn-vlibras">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    
+
+          
+    
+        
+        <script src="/static/sapl/frontend/js/chunk-vendors.f2d6067d.js" ></script>
+<script src="/static/sapl/frontend/js/global.d557d20c.js" ></script>
+      
+    <script src="/static/sapl/frontend/js/chunk-vendors.f2d6067d.js" ></script>
+<script src="/static/sapl/frontend/js/compilacao.148cb66b.js" ></script>
+
+
+      
+      
+
+      
+
+      <script type="text/javascript" >
+        function inIframe () {
+          try {
+              return window.location !== window.parent.location
+          } catch (e) {
+              return true;
+          }
+        }
+        $(document).ready(function(){
+          let iframe_set_backend = false
+          if (iframe_set_backend && !inIframe() ) {
+            location.href = location.origin + '?iframe=0'
+          }
+
+          var form = document.getElementById("formulario-lexml");
+          $("#input-lexml").change(function(){
+            let value = $("#input-lexml").val();
+            let url = "/sistema/lexml/request_search/xxx/"
+            url = url.replace('xxx', value)
+            form.action = url;
+          });
+
+        });
+      </script>
+
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+      
+    
+
+    
+  </body>
+</html>

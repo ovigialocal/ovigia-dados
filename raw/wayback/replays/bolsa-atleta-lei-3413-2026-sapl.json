@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/bolsa-atleta-lei-3413-2026-sapl",
+  "source_url": "https://sapl.portovelho.ro.leg.br/ta/9072/text",
+  "archive_url": "https://web.archive.org/web/20260904101824/https://sapl.portovelho.ro.leg.br/ta/9072/text",
+  "verified_at": "2026-09-04T10:20:56Z",
+  "archive_content_type": "text/html",
+  "archive_size": 47211,
+  "archive_sha256": "aed3a8a1d81c9356f58773520b3646ce959740455ae633de45b80a1e034033b6",
+  "source_content_type": "text/html",
+  "source_size": 155688,
+  "source_sha256": "1db2e209dbc5608fe837f45333481ae8386c589933d6cc055a9358fe439ad24c",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/bolsa-atleta-lei-3413-2026-sapl.html"
+}
