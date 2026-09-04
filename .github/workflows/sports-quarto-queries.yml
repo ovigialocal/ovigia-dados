@@ -1,0 +1,66 @@
+name: Sports (API-Football) Quarto Queries
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 6 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  render-queries:
+    name: Execute and render sports queries
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv python install 3.12
+
+      - name: Install project dependencies
+        run: uv sync
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Execute Quarto sports queries
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_KEYS: ${{ secrets.API_FOOTBALL_KEYS }}
+        run: |
+          test -n "$API_FOOTBALL_KEY" || test -n "$API_FOOTBALL_KEYS" || {
+            echo "API_FOOTBALL_KEY/API_FOOTBALL_KEYS não configurada" >&2
+            exit 1
+          }
+
+          mkdir -p data/output/sports-queries
+          export QUARTO_PYTHON="$(uv run --with jupyter which python)"
+
+          found=0
+          for query in queries/sports/*.qmd; do
+            [ -e "$query" ] || continue
+            found=1
+            echo "Rendering $query"
+            uv run --with jupyter quarto render "$query"
+            html="${query%.qmd}.html"
+            cp "$html" "data/output/sports-queries/$(basename "$html")"
+          done
+
+          test "$found" -eq 1 || {
+            echo "Nenhuma query .qmd encontrada em queries/sports" >&2
+            exit 1
+          }
+
+      - name: Upload rendered query reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: sports-quarto-query-reports
+          path: data/output/sports-queries/
+          retention-days: 30
+          if-no-files-found: error
