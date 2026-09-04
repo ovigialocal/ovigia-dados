@@ -1,5 +1,4 @@
 import requests
-
 from scripts.pmpv_ratio_scan import run_scan, scan_contract_ratios
 
 
