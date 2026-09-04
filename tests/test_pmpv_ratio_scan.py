@@ -48,12 +48,29 @@ class RateLimitedClient:
         yield  # pragma: no cover
 
 
-def test_scan_contract_ratios_collects_pages_signals_and_licitation_probe():
-    result = scan_contract_ratios(
-        FakeClient(),
-        por_pagina=50,
-        processo_licitacao="005.002970/2026-47",
-    )
+class ProbeSucceedsContractsRateLimited(RateLimitedClient):
+    def list_licitations(self, **params):
+        assert params == {
+            "por_pagina": 100,
+            "filters": {"processo": "005.003461/2026-31"},
+        }
+        return {"data": [{"id": 8472}], "meta": {"total": 1}}
+
+
+class ProbeRateLimitedClient:
+    def list_licitations(self, **params):
+        response = requests.Response()
+        response.status_code = 429
+        response.url = "https://api.portovelho.ro.gov.br/api/v1/licitacoes"
+        raise requests.HTTPError("429 Too Many Requests", response=response)
+
+    def iter_contract_pages(self, **params):
+        raise AssertionError("global scan must not start after targeted probe 429")
+        yield  # pragma: no cover
+
+
+def test_scan_contract_ratios_collects_pages_and_signals():
+    result = scan_contract_ratios(FakeClient(), por_pagina=50)
 
     assert result["status"] == "completed"
     assert result["pages_scanned"] == 2
@@ -62,6 +79,16 @@ def test_scan_contract_ratios_collects_pages_signals_and_licitation_probe():
     assert len(result["signals"]) == 1
     assert result["signals"][0]["contract_id"] == "4285"
     assert result["signals"][0]["ratio"] == 1000.0
+
+
+def test_run_scan_probes_process_before_global_scan():
+    result = run_scan(
+        FakeClient(),
+        por_pagina=50,
+        processo_licitacao="005.002970/2026-47",
+    )
+
+    assert result["status"] == "completed"
     assert result["licitation_probe"]["data"][0]["id"] == 8678
 
 
@@ -71,6 +98,27 @@ def test_run_scan_records_rate_limit_as_external_block():
     assert result["status"] == "blocked_external"
     assert result["failure"] == {
         "code": "http-429",
+        "target": "contracts",
         "detail": "PMPV API returned HTTP 429 Too Many Requests",
     }
     assert result["contracts_source_url"].endswith("/api/v1/contratos")
+
+
+def test_targeted_probe_survives_global_contract_rate_limit():
+    result = run_scan(
+        ProbeSucceedsContractsRateLimited(),
+        processo_licitacao="005.003461/2026-31",
+    )
+
+    assert result["status"] == "blocked_external"
+    assert result["failure"]["target"] == "contracts"
+    assert result["licitation_process_filter"] == "005.003461/2026-31"
+    assert result["licitation_probe"]["data"] == [{"id": 8472}]
+
+
+def test_targeted_probe_rate_limit_stops_before_global_scan():
+    result = run_scan(ProbeRateLimitedClient(), processo_licitacao="005.003461/2026-31")
+
+    assert result["status"] == "blocked_external"
+    assert result["failure"]["target"] == "licitations"
+    assert result["licitation_process_filter"] == "005.003461/2026-31"
