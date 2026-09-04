@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/bolsa-atleta-decreto-21912-2026",
+  "source_url": "https://sapl.portovelho.ro.leg.br/ta/9039/text",
+  "archive_url": "https://web.archive.org/web/20260904100628/https://sapl.portovelho.ro.leg.br/ta/9039/text",
+  "verified_at": "2026-09-04T10:09:12Z",
+  "archive_content_type": "text/html",
+  "archive_size": 5522,
+  "archive_sha256": "2e0d4fc60318a98b1bcf2d179cdf29bfb5108478fd93299eabb824109c547bda",
+  "source_content_type": "text/html",
+  "source_size": 23809,
+  "source_sha256": "d6d21b27baf5fdc7d50595244959dc75538690473fe743fe4960c9cf950e0ce0",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/bolsa-atleta-decreto-21912-2026.html"
+}
