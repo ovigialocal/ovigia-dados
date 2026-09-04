@@ -11,7 +11,6 @@ from pathlib import Path
 from typing import Any
 
 import requests
-
 from ovigia_dados.connectors.porto_velho import PMPV_API_BASE_URL, PortoVelhoApiClient
 from ovigia_dados.detectors.pmpv_monetary_ratio import detect_contract_licitation_ratios
 
