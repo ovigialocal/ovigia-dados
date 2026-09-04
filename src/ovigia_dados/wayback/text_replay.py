@@ -8,17 +8,19 @@ from pathlib import Path
 
 
 def decode_text_transport(data: bytes) -> bytes:
-    """Decode gzip content-coding while preserving already-decoded text bytes."""
+    """Decode gzip content-coding while preserving already-decoded bytes."""
     if data.startswith(b"\x1f\x8b"):
         return gzip.decompress(data)
     return data
 
 
 def materialize_decoded_text_replays(bundle_root: Path) -> list[str]:
-    """Write append-only decoded copies for stored text/html replay bodies.
+    """Write append-only decoded copies only when replay bytes are valid UTF-8 text.
 
-    The raw replay remains untouched and its digest remains authoritative. The decoded copy exists only
-    so editors can inspect the archived representation through normal Git text surfaces.
+    The raw replay remains untouched and its digest remains authoritative. Wayback can
+    report a text-like replay content type while returning a binary resource (for
+    example an XLSX). Such evidence must remain raw instead of aborting the whole
+    preservation transaction while trying to manufacture a text projection.
     """
     evidence_dir = bundle_root / "raw/wayback/replays"
     written: list[str] = []
@@ -39,7 +41,10 @@ def materialize_decoded_text_replays(bundle_root: Path) -> list[str]:
         if decoded_path.exists():
             continue
         decoded = decode_text_transport(raw_path.read_bytes())
-        decoded.decode("utf-8")
+        try:
+            decoded.decode("utf-8")
+        except UnicodeDecodeError:
+            continue
         decoded_path.write_bytes(decoded)
         written.append(decoded_path.relative_to(bundle_root).as_posix())
 
