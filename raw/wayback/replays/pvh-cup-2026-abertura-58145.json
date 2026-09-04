@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-cup-2026-abertura-58145",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58145",
+  "archive_url": "https://web.archive.org/web/20260904233634/https://www.portovelho.ro.gov.br/noticias/58145",
+  "verified_at": "2026-09-04T23:56:25Z",
+  "archive_content_type": "text/html",
+  "archive_size": 21858,
+  "archive_sha256": "160285f13628d229a6bfc3e074cdda7ae997cd8c43ae1242a75b69ffe5aadcff",
+  "source_content_type": "text/html",
+  "source_size": 133814,
+  "source_sha256": "e191bbde13e327e6cc7b72d68241484116b67f04bbf7e34f80ff7d048787de8d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-cup-2026-abertura-58145.html"
+}
