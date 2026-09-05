@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ggr-carta-servicos-sema",
+  "source_url": "https://sema.portovelho.ro.gov.br/arquivos/download/76975/carta-ao-usuario",
+  "archive_url": "https://web.archive.org/web/20260905104306/https://sema.portovelho.ro.gov.br/uploads/arquivos/2025/05/42936/1747698401carta-de-servicos-sema-clean-2.pdf",
+  "verified_at": "2026-09-05T11:40:18Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 2841289,
+  "archive_sha256": "1f5cfac77be21bfe15ebe3cd062d9aac86dbb67ac4fc6b2ca4c40093b0117f0e",
+  "source_content_type": "application/pdf",
+  "source_size": 3106671,
+  "source_sha256": "2f34028a5b4d73e5a7c242a820eb46f4859b05b535330c8e061ab0d538a3289e",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/ggr-carta-servicos-sema.pdf"
+}

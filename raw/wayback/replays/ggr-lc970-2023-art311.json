@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ggr-lc970-2023-art311",
+  "source_url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2023/26044/lei_comp._no_970_de_18.12.2023.pdf",
+  "archive_url": "https://web.archive.org/web/20260905104318/https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2023/26044/lei_comp._no_970_de_18.12.2023.pdf",
+  "verified_at": "2026-09-05T11:40:21Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 555755,
+  "archive_sha256": "a44a28fa8a177c4d453d50e43e9b0b06922e9e930e3bf5f22cb0459db2c7dae3",
+  "source_content_type": "application/pdf",
+  "source_size": 555755,
+  "source_sha256": "a44a28fa8a177c4d453d50e43e9b0b06922e9e930e3bf5f22cb0459db2c7dae3",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/ggr-lc970-2023-art311.pdf"
+}
