@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/mpc-seduc-notificacao-003-2026-sistema-integrado",
+  "source_url": "https://mpc.ro.gov.br/wp-content/uploads/2026/08/Notificacao_Recomendatoria_GPAMM-03-2026.pdf",
+  "archive_url": "https://web.archive.org/web/20260905173612/https://mpc.ro.gov.br/wp-content/uploads/2026/08/Notificacao_Recomendatoria_GPAMM-03-2026.pdf",
+  "verified_at": "2026-09-05T17:38:24Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1025313,
+  "archive_sha256": "cd0758152bf8abfd1329a94f128fb9a2b579ce575775be9dc533ddf732ac3c5a",
+  "source_content_type": "application/pdf",
+  "source_size": 1025313,
+  "source_sha256": "cd0758152bf8abfd1329a94f128fb9a2b579ce575775be9dc533ddf732ac3c5a",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/mpc-seduc-notificacao-003-2026-sistema-integrado.pdf"
+}
