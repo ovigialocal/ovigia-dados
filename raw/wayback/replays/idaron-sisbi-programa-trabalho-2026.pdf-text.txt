@@ -1,0 +1,3497 @@
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 1 de 125
+(Versão 1.2)
+PROGRAMA DE TRABALHO PARA SISBI–POA
+(Conforme inciso II do art. 4º da Instrução Normativa nº 17, de 06 de março de 2020)
+Período de Execução do Programa
+Data de Início 23/01/2026
+Data de Fim 31/12/2026
+1. IDENTIFICAÇÃO DO SERVIÇO DE INSPEÇÃO
+1.1 Identificação do Serviço
+Nome do Serviço cadastrado no e-SISBI CNPJ
+Agência de Defesa Sanitária Agrosilvopastoril do Estado de Rondônia 03.092.697/0001-66
+1.2 Identificação dos Serviços vinculados ao Consórcio Público de Municípios (quando for o caso).
+Nome do Serviço CNPJ Município UF
+xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx xxxx
+1.3 Área de atuação
+Área de atuação que interessa a avaliação e habilitação no SISBI-POA
+Marque com “X” as áreas de atuação de interesse
+I – Abatedouro frigorífico
+X a) Abatedouro frigorífico – Carne e derivados
+b) Abatedouro frigorífico – Pescado e Derivados
+II – Entrepostos e Unidades de Beneficiamento
+X a) Carne e derivados
+X b) Leite e derivados
+X c) Mel e produtos apícolas
+X d) Ovos e derivados
+X e) Pescado e derivados
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 2 de 125
+(Versão 1.2)
+2. ORGANIZAÇÃO ADMINISTRATIVA
+2.1 Organograma
+Agência de Defesa Sanitária Agrosilvopastoril do Estado de Rondônia - IDARON, criada pela Lei
+Complementar nº 211, de 15/12/98, alterada pela Lei Complementar nº 215, de 19/07/99, é uma autarquia com
+personalidade jurídica de Direito Público, com autonomia técnica, administrativa, financeira e patrimonial,
+vinculada à Secretaria de Estado da Agricultura - SEAGRI. Como ente estatal, tem por objetivos formais exercer as
+atividades de vigilância e defesa sanitária animal e vegetal, inspeção, fiscalização, padronização, identificação e a
+classificação dos produtos e subprodutos de origem vegetal, florestal e animal.
+Figura 1 – Organograma Institucional da Agência de Defesa Agrosilvopastoril do estado de Rondônia – IDARON, conforme Lei
+Complementar nº 215 de 19 de julho de 1999. Rondônia, 2026.
+A Gerência de Inspeção de Produtos de Origem Animal, foi criada pela Lei Complementar nº 948/2017,
+se separando da Gerência Animal, e ficando subordinada à Diretoria Técnica, assim como a Gerência Vegetal e
+Animal.
+Um novo processo de reorganização estrutural da Agência IDARON, está em andamento visando a
+reestruturação organizacional da Agência. Atualmente, o processo encontra -se na última etapa do Poder
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 3 de 125
+(Versão 1.2)
+Executivo, aguardando a emissão de parecer pela Procuradoria Geral do Estado. Após a emissão, o processo será
+encaminhado ao Legislativo Estadual para votação, considerando que se trata de uma Lei Complementar. Assim
+que o processo for concluído, as altera ções necessárias serão incorporadas na próxima atualização deste
+Programa de Trabalho e no e-SISBI.
+2.2 Sistemas de Informação
+2.2.1. Servidor de arquivos (que é uma Máquina Principal alojada em local apropriado com o objetivo de
+armazenar e compartilhar os arquivos de modo seguro dentro de uma rede institucional -
+http://intranet.idaron.gov/), os arquivos são atualizados por servidores com cadastro prévio no setor de
+informática e com acesso específico as pastas de interesse do seu setor.
+2.2.2. SEI - Sistema Eletrônico de Informações - É um sistema de tramitação de processos digital. Seu uso
+é regulamentado através do Decreto nº 21.794, de 5 de abril de 2017 SEI – Sistema eletrônico de informações -
+http://www.sei.ro.gov.br/. É o principal sistema, em que são criados os processos digitais onde se controlam as
+informações dos estabelecimentos desde a solicitação de registro até o pleno funcionamento, sendo estabelecida
+a comunicação entre unidade central, local e estabelecimen tos, visando a descentralização e agilidade de
+tramitação. Dentro do Setor da GIPOA, diversas foram as ações de padronização adotadas com o objetivo principal
+de trazer maior transparência para toda a tramitação dos Processos. Estas ações estarão descritas mais adiante.
+2.2.3. e-SISBI - Sistema de Gestão de Serviço de Inspeção, é um sistema eletrônico disponibilizado para
+gestão dos serviços oficiais de inspeção de produtos de origem animal dos Estados, Distrito Federal, Municípios e
+consórcios de Municípios, contemplando o Cadastro Geral voluntário de todos os serviços de inspeç ão, dos
+estabelecimentos e produtos neles registrados, além de controles aplicados à referida inspeção.
+2.2.4. SIS-IDARON - Sistema Informatizado de Sanidade Animal da Agência IDARON, que tem o objetivo de
+concentrar em um banco de dados os registros de propriedades e estabelecimentos que abatem animais, para
+verificação de origem e destino, para fins de rastreabilidade.
+2.2.5. SIS-RELATÓRIOS - Módulo do SISIDARON para geração e visualização de Relatórios.
+2.2.6. SIS-ATIVIDADES - Sistema da IDARON alimentado pelos servidores no ato da realização das atividades
+educativas na área de inspeção de produtos de origem animal (palestras, reuniões, cursos, entre outros).
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 4 de 125
+(Versão 1.2)
+2.2.7. IDARON MOBILE - Aplicativo para Smartphone ou Tablet, que tem como objetivo de realizar
+autenticação eletrônica de Guias de Trânsito Animal, em estabelecimento de abate, sendo capaz de informar se
+a Guia já foi autenticada anteriormente. Com isso, é possível identificar as GTA’s que já foram fiscalizadas em
+trânsito, e consequentemente, já utilizadas anteriormente. Indica ainda, o Status da Guia, informando se é uma
+GTA “Emitida” (válida), com “Estorno Total”, com “Estorno Parcial” ou “Cancelada”.
+Este App também está sendo atualizado com a finalidade de substituir a utilização do App EPICOLLECT -5
+para registro e envio de relatórios de controle dos Serviços de Inspeção Local , o processo de substituição total
+deverá ocorrer ao longo de 2026.
+2.2.8. EPICOLLECT-5 - Aplicativos web e móveis para geração de formulários (questionários) para coleta de
+dados. Os dados são coletados (incluindo GPS e mídia) usando vários dispositivos e todos os dados podem ser
+visualizados em um servidor central (através de mapas, tabelas e gráficos). As informações coletadas
+mensalmente pela GIPOA, de acordo com a classificação, estão descritas na Tabela 1.
+Quadro 1 – Informações coletadas, por categoria de estabelecimentos, através de digitação manual por servidores com
+acesso prévio, fornecido pela GIPOA a respeito de dados e informações produzidas nos estabelecimentos com registro oficial.
+Dados inseridos na plataforma Epicollect-5 e enviados mensalmente para a GIPOA. Rondônia, 2026.
+CLASSIFICAÇÃO DADOS
+Abatedouro-frigorífico de
+bovinos
+Capacidade diária de abate de bovinos autorizada através do Memorial Técnico Sanitário;
+Quantidade de machos e fêmeas bovinas abatidas;
+Quantidade de bovinos segregados no curral de observação;
+Condenações nas Linha A (pés), Linha A1 (úbere), Linha B (cabeça), Linha B (língua), Linha D
+(sistema gastrointestinal, baço, pâncreas, bexiga e útero), Linha E (fígado), Linha F (Coração), Linha
+G (Rins), Linha H e I (inspeção de carcaça);
+Quantidade de carcaças desviadas para o DIF; Quantidade de carcaças condenadas no DIF.
+Abatedouro-frigorífico de suínos
+Capacidade diária de abate de suínos autorizada através do Memorial Técnico Sanitário;
+Quantidade de machos e fêmeas suínas abatidas;
+Condenações nas Linhas A1 (cabeça e linfonodos da cabeça), Linha A (útero), Linha B (Intestinos,
+estômago, baço, pâncreas e bexiga), Linha C (Coração e Língua), Linha D (fígado e pulmões), Linha
+E (carcaça), Linha F (rins), Linha G (cérebro);
+Abatedouro-frigorífico de aves
+Quantidade de aves abatidas;
+Capacidade diária de abate de aves autorizada através do Memorial Técnico Sanitário;
+Condenações nas Linhas A (exame interno), Linha B (exame de vísceras), Linha C (exame externo).
+Estabelecimentos de Ovos e
+derivados
+Quantidade de dúzias de ovos recebidos; Quantidade de dúzias de ovos lavados;
+Quantidade de dúzias de ovos condenados; Quantidade de dúzias de ovos processados no mês.
+Estabelecimentos de Leite e
+derivados
+Quantidade de leite recebido; Quantidade de leite ácido recebido;
+Qual foi a maior quantidade de leite; Quantidade atual de fornecedores de leite.
+Unidades de Beneficiamento de
+Produtos de Abelhas
+Quantidade de mel recebido;
+Qual foi a maior quantidade de mel recebido no mês em um único dia.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 5 de 125
+(Versão 1.2)
+Unidades de Beneficiamento de
+Pescado e Produtos de Pescados Quantidade de pescado recebido no mês.
+Unidades de Beneficiamento de
+Carne e Prod. Cárneos
+Quantidade de matéria prima recebido no mês;
+Qual foi a maior quantidade de matéria prima recebida no mês em um único dia.
+Geral
+Capacidade de matéria prima (animais, leite, ovos, mel, pescado, carnes) recebida;
+Qual a ação fiscal tomada; quantas visitas foram realizadas pelo SIE local ao estabelecimento;
+Quantidade de dias que houve abate no mês (abatedouros frigoríficos);
+Quantas Verificações Oficiais dos PACs (VOPAC’s) foram realizadas no mês;
+Quais VOPAC’s foram realizadas no mês;
+Quilos de produtos havia no saldo do mês anterior? (somar todos os produtos);
+Quilos de produtos foram produzidos no mês; Quilos de produtos foram vendidos no mês;
+Quilos de produtos há no saldo do mês atual; Foi realizada alguma VCHECK-5 dentro do mês;
+Quais Checklists (formulário das planilhas) foram realizados;
+Data da última VCHECK-5 realizada no estabelecimento;
+Existe algum plano de ação, elaborado pela indústria, que ainda esteja vigente?
+Há prazos que expiraram dentro do mês? Houve cobrança?
+Foram encontradas não conformidades durante o mês? Qual a ação fiscal adotada?
+RNC’s? Advertência(s), Auto(s) de Infração , Termo(s) Apreensões, Fiel Depositários, Destruição,
+Suspensão emitido(s)?
+Foram emitidos laudos de inspeção durante o mês?
+Quantidade de laudos de condenações diversas;
+Quantidade laudo(s) de brucelose, tuberculose, cisticercose, síndrome neurológica;
+Quantidade de expedições (carregamentos) no mês;
+DTPOA (Documento de Trânsito de POA) , CSTE (Certificado Sanitário de Trânsito Estadual) , CSPC
+(Certificado Sanitário de Produtos Comestíveis) e CSPNC (Certificado Sanitário de Produtos Não
+Comestíveis) emitidos no mês.
+2.2.9. POWER BI – Plataforma que oferece serviço de análise e visualização de dados, transforma dados
+em informação. Passamos a utilizá -la para compilar e visualizar os dados dos estabelecimentos registrados no
+Serviço de Inspeção Estadual , que são coletados mensalmente de todos os estabelecimentos, através do
+aplicativo EPICOLLECT5.
+2.2.10. WiKi-IDARON – Plataforma de acesso e disseminação de informações essenciais para todos os
+servidores, onde estão disponíveis manuais, regulamentos, leis, procedimentos e outras informações úteis para
+o desempenho das atividades diárias.
+2.2.11. SIGA TRÂNSITO - Sistema de Controle de Trânsito, com tecnologia que sistematiza e uniformiza
+a inserção de dados coletados durante as ações de fiscalização de trânsito, tanto em postos de fiscalização quanto
+em barreiras volantes, acelerando a transmissão de informações entre as unidades locais e a agência central.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 6 de 125
+(Versão 1.2)
+No site da Agência IDARON, (link de acesso: https://www.idaron.ro.gov.br/wp-
+content/uploads/2026/06/registro-estab.-06.pdf) está disponível a relação de estabelecimentos com registro
+ativo no Serviço de Inspeção Estadual, além de modelos de documentos gerais utilizados no dia -a-dia da rotina
+de fiscalização dos estabelecimentos registrados no SIE/RO, como: formulários de registro, atualização, ampliação
+e reforma de estabelecimentos, Memorial Técnico e Sanitário do Estabelecimento, formulários de rotulagem e
+seus manuais, laboratórios credenciados e habilitados, bem como toda a legislação vigente.
+A GIPOA, ainda, utiliza planilhas para o gerenciamento de dados com diferentes finalidades, tais como:
+• Controle Geral GIPOA_2026 – Esta planilha figura como a Planilha principal para controle de
+todas as ações direcionadas;
+• Controle de Supervisões realizadas;
+• Controle da frequência de inspeções e fiscalizações realizadas;
+• Gestão de processos administrativos de autos de infração;
+• Organização e consolidação dos dados das análises laboratoriais.
+2.3 Controle de Documentos
+São utilizadas 2 (duas) ferramentas para controle de entrada e saída de processos: o livro de protocolo,
+quando do recebimento de documentos físicos e o Sistema Eletrônico de Informações (SEI).
+No livro de protocolos de entrada e saída de documentos são descritos a origem do documento, as
+especificações/assuntos, data de entrada/saída, destino e assinatura do recebedor. Este livro somente é usado
+na Sede em Porto Velho, porque esporadicamente alg uns documentos chegam impressos, sendo recebidos e
+controlados por funcionário da área administrativa, lotado na GIPOA.
+No SEI, a Gerência de Inspeção está distribuída em 7 (sete) mesas de trabalho, sendo a principal IDARON-
+GIPOA, 4 das Coordenações: IDARON -POACAR (Carnes e Derivados / Periódicos), IDARON -POAFRIG (Carnes e
+Derivados / Permanentes), IDARON -POALAT (Leite e Derivados) e IDARON -POAOMP (Ovos, Mel e Pescados) , 1
+mesa DCATPOA (dedicada às tratativas de Denúncias, Clandestinidade, Análises Laboratoriais e Trânsito de POA)
+e 1 mesa SACAJ (Secretaria Administrativa de Câmaras de Julgamento de Autos de Infração).
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 7 de 125
+(Versão 1.2)
+Atualmente todos os processos estão no SEI, os processos físicos abertos anteriormente à instituição do
+SEI na Agência, foram digitalizados e inseridos no servidor de arquivos e no SEI, e enviados para o almoxarifado
+de forma que seja possível rastreá-los, caso seja necessário consultá-los.
+Na GIPOA, todos os processos são devidamente arquivados e organizados em “Blocos Internos”
+subdivididos em um Bloco para cada Estabelecimento registrado sob o SIE. A Nomenclatura destes Blocos é
+padronizada com a denominação iniciando com o número de registro junto ao SIE, Nome fantasia do
+estabelecimento, município onde está localizado, seguido da classificação correspondente. Os Blocos são
+inseridos em Grupos denominados: ABATEDOURO FRIGORÍFICO, LEITE E DERIVADOS, OVOS E DERIVADOS,
+PESCADOS E DERIVADOS, PRODUTOS DE ABELHA, U.B. CARNES E DERIVADOS, SISBI E CANCELADOS/INATIVOS.
+Além desta separação em Blocos Internos, cada Processo recebe um marcador colorido do SEI (Figura 2.).
+Quando o processo é recebido na mesa da GIPOA, o conteúdo é analisado quanto ao teor, a tramitação e em
+seguida enviado para a mesa da Coordenação específica e/ou designado para o CPF do servidor.
+Figura 2 – Imagem de “print” da tela do Sistema SEI – mesa GIPOA - com a representação dos marcadores coloridos, defini-
+dos por área de interesse. Rondônia, 2026.
+Os processos podem ser filtrados através dos marcadores, dos blocos internos e das atribuições,
+também podem ser monitorados pelo acompanhamento especial.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 8 de 125
+(Versão 1.2)
+A Portaria nº 971 de 12 de novembro de 2024 e seu Manual, tem por finalidade adotar uma metodologia
+única para o controle de Processos dos estabelecimentos, gerados e analisados pelos SIE ́s locais e devidamente
+controlados pela GIPOA. De maneira geral, a portaria estabelece que cada SIE deve criar 8 processos específicos
+para controle das documentações geradas durante as fiscali zações, e, portanto, abaixo estão relacionados cada
+processo:
+1. Processo de Registro/atualização;
+2. Processo de Registro de rótulos/alteração de rotulagem;
+3. Processo de Programas de Autocontrole Industrial - PAC's;
+4. Processo de Fiscalizações "In loco";
+5. Processo de Inspeções e destinações;
+6. Processo de Análises laboratoriais oficiais;
+7. Processo de Relatórios mensais;
+8. Processo de Auditorias/supervisões.
+3. INFRAESTRUTURA ADMINISTRATIVA
+3.1 Estrutura Física
+Os serviços de sanidade animal , vegetal e de inspeção, oferecidos à sociedade pela Agência de Defesa
+Sanitária Agrosilvopastoril do Estado de Rondônia – IDARON estão disponíveis nas modalidades presencial e
+online. Na sede da IDARON se concentra a Diretoria e as Gerências Administrativas e Técnicas, localizadas na rua
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia.
+As atividades finalísticas, inerentes à inspeção e à defesa sanitária animal e vegetal, se efetivam
+diretamente em unidades denominadas de:
+a) Unidade Local de Sanidade Animal e Vegetal – ULSAV;
+b) Escritório de Atendimento à Comunidade – EAC;
+c) Supervisões Regionais,
+d) Postos Fixos de Fiscalização - PFF (nas fronteiras com Acre, Mato Grosso e Amazonas);
+e) Postos Volantes de Fiscalização - PVF, abrangendo, a fiscalização terrestre, fluvial e aérea.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 9 de 125
+(Versão 1.2)
+A IDARON possui 84 unidades administrativas, localizadas em todos os municípios do Estado de Rondônia.
+Nessas unidades de atendimento, a sociedade tem acesso a todos os serviços postos à sua disposição, podendo
+tirar dúvidas, oferecer sugestões e até avaliar a qualidade dos serviços prestados por esta Autarquia.
+Todas as unidades dispõem de escritórios, com salas, garagem, banheiros, copa, almoxarifado, equipados
+com mesas, cadeiras, computadores, impressoras, televisores, ar-condicionado, entre outros.
+Nas Supervisões Regionais e Unidades Locais, distribuídas por todo o estado, os servidores lotados no
+Serviço de Inspeção Estadual, possuem estações de trabalho compostas por mesas, cadeira, armário, computador
+de mesa ou notebook e impressoras multifuncionais que atendem toda a demanda do SI , além de telefone
+funcional, bem como acesso à Internet e Sistemas de Comunicação Interna como o SIS-Relatórios, SIS-Atividades,
+SIS-IDARON e o Portal do Servidor.
+Figura 3 – Distribuição espacial dos Estabelecimentos registrados no SIE/RO por categoria, conforme legenda. Rondônia,
+2026.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 10 de 125
+(Versão 1.2)
+3.2 Materiais e Equipamentos
+A IDARON conta atualmente com uma frota composta por 57 veículos leves, 182 camionetes 4x4, 26 mo-
+tos, 4 quadriciclos, 3 embarcações, 16 lanchas, 6 trailers e 13 vans. Os veículos são distribuídos nas unidades
+conforme necessidade, garantindo que todas as atividades sejam realizadas.
+Apesar de não haver uma alocação específica de veículos, por servidor, e sim por unidade e regional,
+todos os servidores lotados em estabelecimentos permanentes têm um veículo à disposição. Já os servidores
+responsáveis por estabelecimentos periódicos podem acessar os veículos conforme uma programação pré -
+estabelecida, sendo que a frota disponível é suficiente para atender às necessidades operacionais da Agência.
+A Tabela 2, demonstra o quantitativo de materiais e equipamentos disponíveis, para as unidades locais
+que possuem Serviços de Inspeção nas unidades.
+Quadro 2 - Distribuição de materiais e equipamentos nas Unidades Locais com SIE . Rondônia. 2026.
+Materiais e equipamentos disponíveis nas Unidades com SIE Quantidade
+Aparelhos de telefone (com fio, sem fio, fax e via satélite) 39
+Apresentador Remoto a Laser 15
+Aparelhos para registro de coordenadas (GPS) 73
+Armários (em aço) 257
+Arquivos em aço p/ pastas suspensas com 4 gavetas 189
+Automóveis (Pick-up chevrolet Montana e Toyota Yaris) 17
+Automóveis (Toyota Hillux, Chevrolet S-10, Mitsubishi L200, Fiat Strada 82
+Cadeiras fixas e giratórias 886
+Computadores com Processador Intel Core i5 304
+Estante em aço 200
+Gaveteiros volantes com 03 gavetas 58
+Geladeira 61
+Impressoras a laser multifuncional 140
+Longarina (Banco de espera) com 03 lugares 176
+Luxímetros 08
+Medidor de pH de bolso 05
+Medidor digital de cloro 04
+Mesas (para escritório, combinadas tipo L, para computador, em aço) 488
+Microfone (com fio e de lapela) 28
+Monitores de Vídeo LED (21,5” / 23” / 18,5”) 322
+Notebook - Processador ATOM N270 1.7Ghz, Memória 1024MB RAM 04
+Nobreak 1200va 32
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 11 de 125
+(Versão 1.2)
+Notebooks 54
+Projetor de slides 20
+Scaner de mesa 08
+Tablets 47
+Tela de projeção 18
+Televisor 37
+Termômetro digital infravermelho 06
+3.3 Laboratórios
+Atualmente a GIPOA/IDARON possui 4 (quatro) laboratórios credenciados , e 2 (dois) laboratórios
+habilitados que atendem as demandas e estão aptos a receber amostras oficiais.
+Utilizamos ainda os Laboratórios Federais de Defesa Agropecuária (LFDA) do Ministério da Agricultura e
+Pecuária, para cumprimento dos Programas do SISBI-POA, tais como o Programa de Avaliação de Conformidade
+de Padrões Físico -químicos e Microbiológicos de Produtos de Origem Animal Comestíveis e Água de
+Abastecimento (PACPOA) e o Plano Nacional de Controle de Resíduos e Contaminantes (PNCRC).
+3.3.1 - Relação de Laboratórios
+Quadro 3 – Relação de Laboratórios registados e credenci ados junto a Agência IDARO N e aptos a realizar análise s
+laboratoriais, conforme escopo individual, oficiais. Rondônia. 2026.
+LABORATÓRIO ANÁLISES ACREDITAÇÃO ESCOPO VÍNCULO
+ENGECON - Engenharia e Con-
+sultoria de Alimentos
+Microbiologia
+em alimentos
+ABNT NBR ISO/IEC 17025
+Acreditação nº CRL 1856
+http://www.infocon-
+sumo.gov.br/laborato-
+rios/rble/docs/CRL1856.
+pdf
+CREDENCIADO IDARON
+ANEXO I
+LAPEF - Laboratório Análise de
+Água, Efluentes, Solo e Deriva-
+dos de Petróleo
+Microbiologia e
+Físico-químico
+em água
+ABNT NBR ISO/IEC 17025
+Acreditação nº CRL 1688
+http://www.inme-
+tro.gov.br/laborato-
+rios/rble/docs/CRL1688.
+pdf
+CREDENCIADO IDARON
+ANEXO I
+QUALITTÁ - Laboratório de
+análises em alimentos
+Microbiologia e
+Físico-químico
+em água e ali-
+mentos
+ABNT NBR ISO/IEC 17025
+Acreditação nº CRL 1418
+http://www.inme-
+tro.gov.br/laborato-
+rios/rble/docs/CRL1418.
+pdf
+CREDENCIADO IDARON
+ANEXO I
+LABORATÓRIO DE GENÉTICA
+Escola de Veterinária - UFMG
+Sequenciamento
+de DNA
+ABNT NBR ISO/IEC 17025
+Acreditação nº CRL 0243
+http://www.inme-
+tro.gov.br/laborato-
+rios/rble/docs/CRL0243.
+pdf
+HABILITADO IDARON
+ANEXO II
+NEOPROSPECTA - Microbiome
+Technologies
+Sequenciamento
+de DNA
+ABNT NBR ISO/IEC 17025
+Acreditação nº CRL 1349
+http://www.inme-
+tro.gov.br/laborato-
+rios/rble/docs/CRL1349.
+pdf
+HABILITADO IDARON
+ANEXO II
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 12 de 125
+(Versão 1.2)
+3.3.2 - Capacidade da Rede Laboratorial
+O Credenciamento dos laboratórios, que desejam compor a rede estadual para a realização de análises
+oficiais de produtos de origem animal e água, é realizado através d o Edital Nº1/2024/IDARON -GIPOA
+(https://www.idaron.ro.gov.br/index.php/gerencia-de-inspecao/analises-laboratoriais/).
+Todos os laboratórios credenciados /habilitados, atestam no ato do credenciament o/habilitação, que
+estão aptos a cumprir com a demanda de análises solicitadas anualmente por esta Gerência. A renovação do
+credenciamento dos laboratórios é realizada anualmente, com a conferência de que os mesmos permanecem
+dentro dos requisitos obrigatórios.
+Com o objetivo de ampliarmos ainda mais o número de laboratórios aptos a receber amostras de forma
+mais rápida, adotamos a relação de laboratórios credenciados no MAPA, como sendo aptos a realização de
+análises laboratoriais oficiais para a GIPOA/IDARON. Para isso estabelecemos contato prévio com os laboratórios,
+e adotamos o Certificado de Habilitação, como documento que ateste o vínculo dos serviços prestados por estes.
+4. EXECUÇÃO DAS AÇÕES DE INSPEÇÃO E FISCALIZAÇÃO
+O Serviço de Inspeção Estadual – SIE, está pautado na realização da Inspeção Tradicional como também
+na Verificação Oficial dos Programas de Autocontrole, através da aplicação sistemática de formulários específicos
+instituídos, tanto para os Estabelecimentos com Inspeção Permanente como para os com Inspeção Periódica.
+Estas inspeções e fiscalizações estão baseadas, de maneira geral, mas não se limitando a somente elas, nas
+seguintes legislações sanitárias:
+• Lei n° 1.283 de 18/12/1950;
+• Decreto n° 9.013 de 29/03/2017;
+• Decreto n° 10.468 de 18/08/2020;
+• Lei Complementar Estadual nº 948 de 04/07/2017;
+• Lei Estadual n° 4.130 de 04/09/2017;
+• Decreto Estadual n°. 22.991 de 03/07/2018;
+• Decreto Estadual n°. 22.571 de 06/02/2018;
+• Portaria SDA/MAPA nº 864, de 31 de julho de 2023;
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 13 de 125
+(Versão 1.2)
+• Regulamentos Técnicos de Identidade e Qualidade;
+• Instrução Normativa nº 01 de 09.10.2018;
+• Instrução Normativa nº 002.GABINETE.IDARON/2019/IDARON-GAB;
+• Instrução Normativa nº 3/2022/IDARON-GIPOA;
+• Instrução Normativa nº 6/2023/IDARON-GIPOA;
+• Instrução Normativa nº 14/2023/IDARON-GIPOA;
+• Instrução Normativa nº 19/2024/IDARON-DIPES;
+• Instrução Normativa nº 20/2024/IDARON-DIPES;
+• Instrução Normativa nº 21/2024/IDARON-DIPES;
+• Instrução Normativa nº 23/2024/IDARON-GIPOA;
+• Manual Cálculo do Risco Estimado Associado a Estabelecimentos registrados no SIE/RO;
+• Instrução Normativa nº 24/2024/IDARON-DIPES;
+• Portaria nº 971 de 12 de novembro de 2024;
+• Portaria nº 1.023 de 28 de novembro de 2024.
+• Portaria n° 405 de 28 de maio de 2026.
+A IDARON através de sua Gerência iniciou um trabalho de padronização nas ações de fiscalização dos
+Serviços de Inspeções Estaduais a partir de 2020. Tal atividade visou estabelecer os critérios equiparados para
+equalizar as ações fiscalizatórias nestes estabelecimentos, considerando as particularidades regionais e condições
+de aplicabilidade por parte dos estabelecimentos registrados e/ou aderidos ao SISBI -POA/RO. Estas ações estão
+sendo baseadas na Norma Interna DIPOA Nº 01, de 08 de março de 2017 , Norma Interna Nº 02 de 09 de março
+de 2017 , Instrução Normativa nº 19/2024/IDARON -DIPES, Instrução Normativa nº 20/2024/IDARON -DIPES
+e Instrução Normativa nº 23/2024/IDARON -GIPOA. Ainda, ressaltamos que desde 2020, todos os
+estabelecimentos registrados no SIE/RO foram estimulados a apresentar a atualização de suas Rotulagens e seus
+Programas de Autocontrole. Neste sentido, atualmente, todos os estabelecimentos registrados no Serviço de
+Inspeção de Rondônia possuem seus Planos de Autocontrole devidamente implantados, monitorados e
+verificados através de Verificações Oficiais (VOPAC’s), bem como, possuem todos o s produtos devidamente
+rotulados e inseridos na Plataforma e-SISBI-POA.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 14 de 125
+(Versão 1.2)
+No ano de 2026 com a publicação da Portaria n°405 de 28 de maio de 2026, a qual dispõe sobre os
+procedimentos para credenciamento de pessoas jurídicas e habilitação de médicos veterinários para execução
+das atividades de inspeção sanitária e industrial de produtos e subprodutos de origem animal em
+estabelecimentos registrados junto ao Serviço de Inspeção Estadual - SIE/RO para execução das atividades de
+inspeção sanitária em conformidade com o Decreto 22.571, de 06 de fevereiro de 2018, o SIE/RO inicia uma nova
+fase de inspeção, através do credenciamento de empresas para execução da inspeção tradicional (inspeção ante
+e post mortem) nos estabelecimentos de fiscalização permanente – abatedouros frigoríficos. Concede-se prazo
+até 28 de maio de 2027 (um ano a contar da publicação da portaria) para os estabelecimentos sob regime de
+inspeção permanente contratarem uma empresa credenciada para execução das ações de inspeção tradicional.
+A partir do momento que a empresa é contratada o SIE sairá do estabelecimento de forma permanente, passando
+a executar visitas em caráter periódico de acordo com cálculo baseado em risco. Até o momento desta atualização
+nenhum estabelecimento havia contrato empresa para execução das atividades, mantendo dessa forma a
+permanência do SIE nos estabelecimentos.
+4.1 Inspeção de Fiscalização de Rotina
+4.1.1 Inspeção Permanente
+Todos os Médicos Veterinários atuantes no Serviço de Inspeção Estadual, bem como, em atividade na
+Agência IDARON possuem vínculo oficial com o Estado de Rondônia. Ou através de concurso público estatutário,
+concurso público emergencial, portaria de cedência e portaria de designação.
+Em todos os estabelecimentos permanentes, a IDARON dispõe de um médico veterinário concursado
+(concurso emergencial, mas sem poder de polícia administrativa), sempre supervisionado por um Auditor Fiscal
+Estadual Agropecuário (AFEA) - Médico Veterinário - (com poder de polícia administrativa) com portaria específica
+para responder pelo SIE local do estabelecimento. Esta situação favorece que todas as ações pertinentes à
+Inspeção Tradicional sejam inteiramente acompanhadas por um Médico Veterinário Oficial (MVO) e todas as
+ações que impliquem em decisão sanitária (fiscal) sejam também acompanhadas por um Fiscal Médico
+Veterinário, trazendo maior robustez na adoção das medidas necessárias.
+Os colaboradores das indústrias, que são cedidos para o Serviço de Inspeção, desempenham as atividades
+de inspeção nas linhas específicas, pois o estado de Rondônia não dispõe de auxiliares técnicos concursados para
+esse fim. No entanto, tal prerrogativa está devidamente explícita na legislação estadual. Esses colaboradores não
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 15 de 125
+(Versão 1.2)
+estão sob o controle do estado, no entanto, participam de todos os treinamentos propostos pelo SIE local na
+identificação de lesões nas linhas de inspeção, bem como, devem fazer parte dos treinamentos rotineiros
+propostos pela empresa na execução das atividades de inspeção.
+Apesar de estar previsto na Lei e no Decreto, a possibilidade de contratação de médicos veterinários
+através de empresas credenciadas, não dispomos dessa categoria no quadro da Agência IDARON, atualmente. No
+Quadro 4, é possível visualizar os servidores lotados nos estabelecimentos sob inspeção permanente.
+Quadro 4 - Quantitativo geral e vínculos dos servidores lotados nos estabelecimentos sob Inspeção Permanente. Rondônia.
+2026.
+Relação de Servidores lotados nos estabelecimentos Sob Inspeção Permanente
+Cargo Vínculo Quantidade
+Auditor Fiscal Estadual Agropecuário - Médico
+Veterinário
+Estatutário 11
+Médicos Veterinários Emergenciais Contrato Temporário / Processo Seletivo 17
+Médicos Veterinários Cedidos Servidor Cedido 0
+Total 28
+Além da Inspeção Tradicional, os SIE Locais devem realizar de maneira sistemática a aplicação dos
+formulários de Verificação Oficial dos Programas de Autocontrole (VOPAC) para fiscalização dos Programas de
+Autocontrole, conforme previsto na Instrução Normativa nº 19/2024/IDARON-GIPOA e a Instrução Normativa nº
+20/2024/IDARON-GIPOA. A sistemática de aplicação deve ser pautada nas normas vigentes, com uma única
+adequação quanto ao registro de um possível desvio encontrado durante a execução da atividade. Esta adequação
+deve-se ao registro e tramitação de uma RNC, em caso de desvio encontrado, além da tramitação normal da
+Verificação Oficial dos Programas de Autocontrole específica e seus desdobramentos particulares orientados
+através da Portaria nº 971 de 12 de novembro de 2024. Tais ações caracterizam a Fiscalização Baseada em Risco
+(FBR). Dessa forma fica caracterizado que os estabelecimentos sob inspeção permanente estão regidos sob a
+Inspeção Tradicional – IT (inspeção Ante e Post mortem) e Inspeção Baseada em Risco – IBR.
+As inspeções permanentes são realizadas com a presença integral do Fiscal Estadual Agropecuário (FEA)
+– Médico Veterinário e/ou do Médico Veterinário Emergencial, nas rotinas ante e post -mortem dos
+estabelecimentos de abate e bem-estar animal dentro das indústrias.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 16 de 125
+(Versão 1.2)
+Para estas fiscalizações, os SIE Locais estabeleceram um Plano de Inspeção Geral que está baseado
+estritamente nos Programas de Autocontrole Industriais (PAC) apresentados pelos estabelecimentos em processo
+SEI específico, conforme a Portaria nº 971 de 12 de novembro de 2024 e seu Manual.
+Para estas fiscalizações, os SIE Locais estabeleceram um Plano de Inspeção Geral que está baseado
+estritamente nos Programas de Autocontrole Industriais (PAC ) apresentados pelos Estabelecimentos, e
+devidamente homologados pela GIPOA em processo SEI específico, conforme a Portaria nº 971 de 12 de
+novembro de 2024 e seu Manual.
+Na execução das atividades rotineiras da Inspeção Tradicional, os SIE locais desenvolvem as atividades de
+inspeção baseadas nos critérios de julgamento estabelecidos pelo Decreto nº 9.013 de 29/03/2017 e suas
+alterações. Para registro destas ações, os SIE locais utilizam formulários padronizados e disponibilizados através
+da INTRANET da Agência , bem como através de relatórios de dados utilizando o App. Epicollet5. Todos estes
+documentos, seguem estritamente o trâmite administrativo proposto pela Portaria nº 971 de 12 de novembro de
+2024 e seu Manual , através do SEI, para que as Coordenações de Inspeção de POA, vinculadas diretamente à
+GIPOA possam compilar e analisar os dados gerais de todas as informações produzidas nestas atividades em cada
+SIE local.
+Para a Inspeção tradicional os SIE Locais aplicam, em forma e frequência, conforme seus Planos de
+Inspeções individuais devidamente homologados pela GIPOA em processos SEI específicos, os seguintes
+formulários:
+1-) VCHECK -5 (Diagnóstico de Conformidade Industrial através da aplicação de uma Verificação em
+Checklist de 5 dimensões distintas) - Em 2024, foi publicada a Instrução Normativa nº 21/2024/IDARON-GIPOA,
+que estabelece uma metodologia única para vistorias oficiais, utilizando formulários padronizados apresentados
+em formato de “Checklist”. Todos os estabelecimentos devem ser submetidos à aplicação dessa ferramenta, pelo
+SIE local, para verificação das condições gerais de conformidade, baseado na aplicação do checklist estruturado
+para avalição sistemática de 5 (cinco) elementos principais (dimensões). Este formulário foi subdividido em 5
+(cinco) elementos de avaliação – VCHECK-5 (Vcheck-I - ESTRUTURAL GERAL; Vcheck-II - ESTRUTURAL ESPECÍFICO;
+Vcheck – III - OPERACIONAL; Vcheck – IV - DOCUMENTAL e Vcheck V – Serviço Oficial).
+O objetivo principal da aplicação destes formulários foi estabelecer o padrão de conformidade de maneira
+igualitária para todos os estabelecimentos aderidos ao SIE/RO. O cálculo aplicado para identificar a conformidade
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 17 de 125
+(Versão 1.2)
+geral do estabelecimento foi estabelecido através da média ponderada encontrada após a aplicação da VCHECK-
+5. Esta metodologia também é o objeto principal para avaliação de um estabelecimento que solicita seu Registro
+junto ao SIE/RO. Para a integração de um estabelecimento junto ao SISBI -POA/RO, este formulário também é
+aplicado, porém em duas etapas distintas sendo aplicado ao final, a média aritmética simples entre estas duas
+avaliações distintas. A metodologia utilizada, neste caso, segue a INSTRUÇÃO NORMATIVA Nº 3/2022/IDARON-
+GIPOA de 17/10/2022.
+2) Formulário de Não Conformidade Setorial (FNC_Setorial) - Este formulário tem por objetivo registrar
+as Não-Conformidades encontradas em fiscalizações diárias, mensais e ou eventuais realizadas pelo SIE Local nos
+diversos setores industriais. Tem Caráter de Advertência Oficial , porém sem a necessidade de tramitação junto
+ao Processo SEI específico. Este documento deve se r respondido pelo setor competente do Estabelecimento e,
+de igual forma, deve ser tratado com toda a importância de um evento de desvio encontrado. Para
+estabelecimentos que dispõe de um sistema informatizado já operante e funcional em sua rotina (p. ex : SIOSI)
+esta operação pode ser realizada diretamente através da Plataforma, porém com registro através do módulo
+Fiscal, onde neste perfil apenas o Agente Oficial tem a possibilidade de baixar o registro de Não Conformidade
+Registrado após apresentação da correção por parte do Estabelecimento. Para Estabelecimentos onde essa opção
+ainda não é uma realidade, os registros de Não Conformidade Setoriais devem seguir em formulários
+padronizados e devidamente arquivados no SIE Local;
+3-) VOPAC (Verificação Oficial de Planos de Autocontrole Industrial) – Este formulário está devidamente
+pautado nas orientações contidas na Norma Interna DIPOA Nº 01, de 08 de março de 2017; Norma Interna Nº 02
+de 09 de março de 2017 ; Instrução Normativa nº 19/2024/IDARON -DIPES; Instrução Normativa nº
+20/2024/IDARON-DIPES e Instrução Normativa nº 23/2024/IDARON-GIPOA. A sistemática de aplicação deve estar
+em conformidade às normas vigentes, com uma única adequação quanto ao registro de um possível desvio
+encontrado durante a execução da atividade (Verificar Fluxograma de Desvio). Esta adequação deve-se ao registro
+e tramitação de uma RNC, em caso de desvio encontrado, além d a tramitação normal da Verificação Oficial dos
+Programas de Autocontrole específica e seus desdobramentos particulares orientados através da Portaria nº 971
+de 12 de novembro de 2024 . Tais ações caracterizam a Fiscalização Baseada em Risco (FBR). Dessa forma fica
+caracterizado que os estabelecimentos sob inspeção permanente estão regidos sob a Inspeção Tradicional – IT
+(inspeção Ante e Post mortem) e Inspeção Baseada em Risco – IBR.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 18 de 125
+(Versão 1.2)
+Figura 4 – Fluxograma de Decisão quanto à identificação de DESVIO encontrado durante fiscalização in loco e/ou documental
+em estabelecimentos registrados junto ao SIE-RO. Rondônia, 2026.
+4) Registro de Não -Conformidades (RNC) - O Formulário de Registro de Não -Conformidades-RNC, é
+utilizado para registrar as deficiências e não conformidades detectadas pelo Serviço de Inspeção Estadual.
+O RNC, é encaminhado à gerência do estabelecimento (Gerente industrial e Responsável pelo Controle
+da Qualidade) para resposta. A gerência da empresa deve responder o formulário em até 10 dias da ciência dele,
+especificando as medidas corretivas e preventivas pertinentes a serem adotadas a fim de sanar a ocorrência da
+deficiência. Os “RNC” são preenchidos em uma única via e após todos os envolvidos terem tomado conhecimento
+do teor do documento, uma cópia será gerada para arquivamento industrial. Após a resposta da empresa, o
+formulário de RNC retornará ao SIE Local para conferência e vali dação do procedimento e prazos pelo Médico
+Veterinário responsável. Obrigatoriamente os RNC deverão seguir o trâmite documental exigido através da
+Portaria nº 971 de 12 de novembro de 2024 e seu Manual.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 19 de 125
+(Versão 1.2)
+As demais ações fiscais adotadas são discricionárias do SIE local, mas devem estar devidamente pautadas
+na aplicabilidade do Decreto nº 22.991 de 03/07/2018 e da Lei Estadual nº 4.130 de 04/09/2017 e seus
+complementos.
+Quadro 5 - Programação de execução das principais atividades da Inspeção e fiscalização em estabelecimentos com SIE
+permanentes, para ano de 2026. Rondônia, 2026.
+Ações de Inspeção e fiscalização 2026
+VCHECK-5 Aplicação e monitoramento na atualização cadastral, obrigatória para todos os
+Estabelecimentos Registrados no SIE/RO pelo menos uma vez ao ano.
+FNC Setorial – Formulário de Registro de
+Não-Conformidade Setorial
+Podendo ser aplicado a qualquer momento durante uma fiscalização, respei-
+tando os critérios de julgamento do DESVIO.
+Verificação Oficial dos Programas de Auto-
+controle - VOPAC
+24 formulários in loco e 4 formulários documentais para cada estabeleci-
+mento aderido por ano.
+Esta frequência será devidamente ajustada conforme o Cálculo do Risco insti-
+tuído para cada estabelecimento registrado e que efetivamente aderir à mo-
+dernização da Inspeção, conforme Portaria 405/2026.
+RNC – Registro de Não Conformidade
+Aplicado a cada identificação de DESVIO recorrente ou, quando o DESVIO é
+considerado conforme extensão e gravidade (Discricionariamente) pelo AFEA
+ou quando identificado DESVIO através de VOPAC.
+4.1.2 Inspeção Periódica
+O Serviço de Inspeção do Estado de Rondônia (SIE/RO) conta com a designação de um Auditor Fiscal Es-
+tadual Agropecuário (AFEA) como responsável titular para cada serviço de inspeção estadual local e dois médicos
+veterinários como substitutos, podendo ser AFEA ou médico veterinário oficial (MVO) contratado pela Agência
+IDARON. O quantitativo geral de estabelecimentos e quadro pessoal do Serviço/Órgão que trabalha com a ativi-
+dade está mencionado no item 3. Infraestrutura Administrativa desse Programa de Trabalho.
+A Gerência de Inspeção de Produtos de Origem animal - GIPOA estabeleceu que a frequência com que as
+inspeções periódicas sejam realizados de acordo com composição dos fatores de risco relacionados às
+características do estabelecimento, às características do produto e ao atendimento da legislação aplicável à
+fiscalização, conforme Instrução Normativa nº 23/2024/IDARON-GIPOA, inspirada na Instrução Normativa SDA nº
+138, de 08 de fevereiro de 2022, o cálculo é definido pelo “Manual para cálculo do risco estimado associado a
+estabelecimentos registrados no SIE/RO ”, disponível em: https://www.idaron.ro.gov.br/wp-
+content/uploads/2024/09/C%C3%A1lculo-do-Risco-Estimado-Associado-a-Estabelecimentos-registrados-no-
+SIE_RO-_-Wiki.IDARON.pdf.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 20 de 125
+(Versão 1.2)
+O Risco Estimado Associado ao Estabelecimento (R) será obtido pela caracterização dos riscos associados
+ao volume de produção, tipo de produto e desempenho do estabelecimento quanto ao atendimento à legislação
+aplicável à fiscalização.
+O Risco associado ao volume de produção RV será caracterizado pela classificação do estabelecimento
+quanto ao volume produzido por ano. O Risco associado ao produto (RP) será caracterizado pela categoria ao qual
+os produtos produzidos estão associados conforme previsto na Norma Interna nº 6/2014/SIPOA/SDA, de 10
+de dezembro de 2014, e suas alterações , e o Risco associado ao desempenho do estabelecimento quanto ao
+atendimento à legislação aplicável à fiscalização (RD), será caracterizada pelo levantamento de diversas situações
+em que o estabelecimento não atende à legislação vigente.
+Após o cálculo do R deve -se associar o valor encontrado à frequência mínima de fiscalização
+definida no Quadro 1.
+Quadro 6 - Frequência mínima de fiscalização com base no Risco Estimado Associado ao Estabelecimento (R):
+R Estimativa de Risco Frequência mínima de fiscalização
+1 Muito baixo Quadrimestral
+2 Baixo Bimestral
+3 Médio Mensal
+4 Alto Quinzenal
+*Frequências superiores ao estabelecido no manual poderão ser definidas pela GIPOA.
+Os SIE locais devem possuir o Plano de Inspeção, documento esse que estabelece a rotina de fiscalização
+e inspeção de cada SIE local, conforme mencionado no item 2.3 – Controle de Documento descrito nesse
+Programa de Trabalho. Os Planos Inspeção de Serviço de Inspeção Local contemplarão a descrição dos
+procedimentos padrões para a realização das ações de acordo com os programas de autocontrole dos
+estabelecimentos.
+As fiscalizações mencionadas no item 4. - Execução das Ações de Inspeção e Fiscalização e 4.1.- Inspeção
+e Fiscalização de Rotina, onde menciona a fiscalização tradicional, verificações oficiais dos programas de
+autocontrole e vistoria geral através da V -CHECK 5, devem seguir conforme estabelecido nos manuais de
+fiscalização elaborados pelo Ministério da Agricultura e Pecuária com adaptações aos nomes dados em relatórios
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 21 de 125
+(Versão 1.2)
+e formulários utilizados pelo SIE/RO. Esses manuais apresentam diretrizes gerais de procedimentos internos,
+referências legais e documentais, além da indicação das fontes digitais para consulta de conteúdo e atualização.
+Os manuais possuem caráter orientativo, sendo destinado aos servidores que atuam na inspeção e
+fiscalização de estabelecimentos registrados no DIPOA/SDA, tendo sido elaborado a partir da base legal vigente.
+E, estão sendo disponibilizados em um sistema ele trônico: https://wikisda.agricultura.gov.br/pt-br/home. Os
+manuais são apresentados em modelo padronizado, são divididos por temática e promove a transparência e a
+padronização de procedimentos em um documento único, prevenindo a dispersão das instruções e informações.
+Os registros das ações da inspeção são realizados através de formulários denominados Ficha de
+Atendimento Individual (FAI) e Relatórios de Não Conformidade (RNC) onde são juntadas ao processo específico
+para registros de fiscalização in loco e verificação dos programas de autocontrole em formulários definidos que
+são juntados ao processo específico criado para as auditorias e supervisões do estabelecimento, conforme
+Portaria nº 971 de 12 de novembro de 2024 e seu Manual.
+As não conformidades são apontadas e tratadas no processo específico para registros de fiscalização in
+loco e são acompanhadas pelo serviço de inspeção local seja por ações fiscais imediatas ou acompanhadas através
+de planos de ação elaborados pelo estabelecimento.
+O quantitativo geral de estabelecimentos e quadro pessoal do Serviço/Órgão que trabalha com a ativi-
+dade está mencionado no item 3. Infraestrutura Administrativa desse Programa de Trabalho.
+4.1.3 Inocuidade, Identidade e Qualidade dos Produtos
+O processo de aprovação dos produtos e rotulagens é realizado através de requerimento padrão
+encaminhado pela indústria, em que são inseridas todas as informações pertinentes ao estabelecimento e
+produto, e anexado o layout do rótulo contendo todas as metragens.
+O processo passa pela análise do Médico Veterinário responsável SIE Local para avaliação do atendimento
+às informações obrigatórias previstas nas legislações da ANVISA, INMETRO e nos Regulamentos Técnicos de
+Identidade e Qualidade (RTIQ).
+Em caso de não conformidade, o processo é indeferido, e novo requerimento deve ser encaminhado.
+Quando da aprovação da rotulagem, são solicitadas ainda análises laboratoriais para avaliar ,
+principalmente, o cumprimento do RTIQ do produto , e quando da ausência de Regulamento Técnico, são
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 22 de 125
+(Versão 1.2)
+utilizadas as diretrizes do DIPOA/MAPA, disponíveis no sistema e-SISBI, para produtos não regulamentados.
+O estabelecimento passará ainda pela Verificação Oficial do Programa de Autocontrole – VOPAC: Controle
+de formulação de produtos e combate à fraude, conforme a Instrução Normativa nº 19/2024/IDARON -DIPES e
+Instrução Normativa nº 20/2024/IDARON -DIPES - Link do Diário Oficial:
+https://diof.ro.gov.br/data/uploads/2024/08/DOE-26.08.2024.pdf (Protocolo 0052149882), e o Manual de
+Procedimentos de Verificação Oficial dos Autocontroles dos Estabelecimentos registrados (SIE) ou relacionados
+(ER) na GIPOA.
+Em caso de não conformidades encontradas as medidas fiscais adotadas, são tomadas em consonância
+com a Lei nº 4.130/2017, podendo ser isolada ou cumulativamente, as seguintes medidas cautelares:
+I - Apreensão do produto;
+II - Suspensão provisória do processo de fabricação ou de suas etapas;
+III - Interdição total ou parcial da atividade do estabelecimento; e
+IV - Coleta de amostras do produto para realização de análises laboratoriais.
+Sempre que necessário, será determinada a revisão dos programas de autocontrole dos
+estabelecimentos. A retomada do processo de fabricação, liberação do produto sob suspeita ou a desinterdição
+será autorizada exclusivamente por Médico Veterinário Oficial, caso este constate a inexistência ou a cessação da
+causa que motivou a adoção da medida cautelar.
+O estabelecimento deve proceder imediatamente com a realização do Programa de Recolhimento.
+Para retorno da produção, a empresa deve entregar um Plano de Ação, que será analisado, deferido ou
+indeferido pelo SIE-Local.
+Quando do parecer favorável no plano de ação, s erá programada nova coleta no estabelecimento após
+as medidas corretivas terem sido adotadas, o novo lote do produto deverá ficar sequestrado no estabelecimento
+até que se tenham os resultados das novas análises, para que seja liberado ou se reinicie esse ciclo de ações.
+Ao final do processo, quando o produto é aprovado, sua rotulagem é homologada no SEI, e inserida no
+Sistema de Gestão de Estabelecimentos - https://sistemasweb.agricultura.gov.br/sge/login.
+4.1.4 Programas de Autocontrole
+Todos os estabelecimentos registrados no SIE, devem ter seus Programas de Autocontrole – PAC, os
+procedimentos descritos, desenvolvidos, implantados, monitorados e verificados pelo estabelecimento, com
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 23 de 125
+(Versão 1.2)
+vistas a assegurar a inocuidade, a identidade, a qualidade e a integridade dos seus produtos, que incluam, mas
+que não se limitem aos programas de pré -requisitos, Boas Práticas de Higiene - BPH, Procedimento Padrão de
+Higiene Operacional - PPHO e Análise d e Perigos e Pontos Críticos de Controle - APPCC ou a programas
+equivalentes, reconhecidos pela Gerência de Inspeção de Produtos de Origem Animal - GIPOA e/ou equiparados
+aos exigidos pelo Ministério da Agricultura e Pecuária.
+“DECRETO ESTADUAL Nº 22.991 – 03.07.2018
+(...)
+CAPÍTULO II
+DO ÂMBITO DE ATUAÇÃO
+Art. 11. A inspeção, reinspeção, ﬁscalização e auditoria industrial, sanitária
+e tecnológica de produtos e subprodutos de origem animal, a cargo do
+SIE/RO, abrangem, entre outros, os seguintes procedimentos:
+(…)
+IV - veriﬁcação dos programas de autocontrole dos estabelecimentos;
+(…)
+XVII - controles de rastreabilidade dos animais, das matérias -primas, dos
+insumos, dos ingredientes e dos produtos ao longo da cadeia produtiva;
+CAPÍTULO III
+DAS OBRIGAÇÕES DOS ESTABELECIMENTOS
+(…)
+Art. 39. Os responsáveis pelos estabelecimentos ﬁcam obrigados a:
+XIX - dispor de programa de recolhimento dos produtos por ele elaborados
+e eventualmente expedidos, quando for constatado desvio no controle de
+processo ou outra não conformidade que possa incorrer em risco à saúde ou
+aos interesses do consumidor;
+Art. 40. Os estabelecimentos devem dispor de programas de autocontrole
+desenvolvidos, implantados, mantidos, monitorados e veriﬁcados por eles
+mesmos, contendo registros sistematizados e auditáveis que comprovem o
+atendimento aos requisitos higiênico-sanitários e tecnológicos, com vistas a
+assegurar a inocuidade, a identidade, a qualidade e a integridade dos seus
+produtos, desde a obtenção e a recepção da matéria-prima, dos ingredientes
+e dos insumos, até a expedição destes.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 24 de 125
+(Versão 1.2)
+§ 1º. Os programas de autocontrole devem incluir o bem -estar animal,
+quando aplicável, as Boas Práticas de Fabricação - BPF, o PPHO e a APPCC,
+ou outra ferramenta equivalente reconhecida pelo MAPA.
+§ 2º. Os programas de autocontrole não devem se limitar ao
+disposto no § 1º.
+Art. 41. Os estabelecimentos devem dispor de mecanismos do controle
+para assegurar a rastreabilidade das matérias-primas e dos produtos, com
+disponibilidade de informações de toda a cadeia produtiva.”
+(...)
+Em adequação à realidade estadual das Norma Interna DIPOA Nº 01, de 08 de março de 2017 e
+Instrução Normativa SDA nº 138, de 8 de fevereiro de 2022 , foram publicadas as Instrução Normativa nº
+20/2024/IDARON-DIPES, que e stabelece os requisitos mínimos para os estabelecimentos registrados no
+Serviço de Inspeção Estadual (SIE) da IDARON implantarem os Programas de Autocontrole, com o objetivo de
+garantir a inocuidade, a identidade, a qualidade e a integridade dos seus produtos, e Instrução Normativa nº
+19/2024/IDARON-DIPES, que aprova os modelos de formulários, estabelecer as frequências e as amostragens
+mínimas a serem utilizadas na inspeção e fiscalização, para verificação oficial dos programas de autocontrole
+implantados pelos estabelecimentos de produtos de origem animal, reg istrados no Serviço de Inspeção
+Estadual (SIE) ou relacionados (ER) junto à Gerência de Inspeção de Produtos de Origem Animal (GIPOA), bem
+como o Manual de Procedimentos de Verificação Oficial dos Programas de Autocontrole.
+As verificações oficiais dos programas de autocontrole estão estabelecidas no item 4. - Execução das
+Ações de Inspeção e Fiscalização e 4.1.- Inspeção e Fiscalização de Rotina, que também avalia a implantação,
+monitoramento e verificação dos autocontroles pelos estabelecimentos registrados no SIE/RO.
+Em 24 de Julho de 2023, foi publicada também a Instrução Normativa nº 14/2023/IDARON -GIPOA,
+que dispõe sobre a implantação dos Programas de Autocontrole por sistemas informatizados, em
+estabelecimentos registrados no Serviço de Inspeção Estadual do estado de Rondônia - SIE/RO.
+4.1.5 Autuação de Aplicação de Penalidades
+O Processo Administrativo se inicia com a lavratura do Auto de Infração , por um agente de fiscalização
+quando detectada uma violação às normas estabelecidas. As multas a que se refere o artigo 18 da Lei nº 4.130,
+de 2017, não isentam o infrator da apreensão ou da inutilização do produto, da interdição total ou parcial de
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 25 de 125
+(Versão 1.2)
+instalações, da suspensão de atividades, da cassação do registro ou do relacionamento do estabelecimento ou da
+ação criminal, quando tais medidas couberem.
+Salvo disposição em contrário, a autuação e o encaminhamento do processo incubem à unidade que tiver
+a jurisdição sobre a localidade onde deva ser iniciado o processo ou onde ocorrer a infração. O Auto de Infração
+deve ser claro e preciso, sem rasuras nem emendas, e deve descrever a infração cometida e a base legal infringida.
+Uma cópia deve ser entregue ao infrator, e a outra cópia deve ser destinada à IDARON. Assim o processo
+administrativo será adicionado de documentos relevantes em Processo SEI específico.
+O infrator dispõe de um prazo de 30 dias para responder ao auto de infração. Durante esse período, pode
+apresentar sua defesa, contestando a infração ou fornecendo justificativas para o ocorrido.
+O processo é encaminhado à 1ª câmara de julgamento, onde o relator analisa a defesa do infrator, caso
+seja apresentada, à luz da legislação vigente e a infração cometida. As decisões são colegiadas e proferidas pelos
+relatores da câmara.
+O infrator é notificado da decisão administrativa. Caso a infração seja confirmada, tem-se um prazo de 15
+dias para interpor recurso administrativo, contados a partir da ciência ou divulgação oficial da decisão. Se o
+recurso for acolhido pela câmara de julgamento, o processo é arquivado.
+O infrator tem o direito de recorrer da decisão administrativa, geralmente por meio da apresentação de
+um recurso formal, que será então analisado pela 2ª câmara de julgamento.
+A 2ª câmara de julgamento avalia o recurso apresentado pelo infrator, revisando as argumentações e
+evidências fornecidas.
+Após análise do recurso, emite-se uma decisão final, que poderá confirmar, modificar ou anular a decisão
+anterior, conforme as conclusões da análise.
+Se a penalidade for mantida, o infrator deve cumprir o pagamento estipulado na decisão final; caso
+contrário, seu nome será inscrito na dívida ativa do Estado. Se o recurso for acolhido pela câmara de julgamento,
+o processo é arquivado.
+No capítulo III do Decreto nº 22.991 de 2018, trata das penalidades.
+Art. 130. As multas a que se refere o artigo 18 da Lei nº 4.130, de 2017, não
+isentam o infrator da apreensão ou da inutilização do produto, da interdição
+total ou parcial de instalações, da suspensão de atividades, da cassação do
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 26 de 125
+(Versão 1.2)
+registro ou do relacionamento do estabelecimento ou da ação criminal,
+quando tais medidas couberem.
+§ 1º. A cassação do relacionamento será aplicada pelo Gerente da GIPOA
+por meio processo administrativo.
+§ 2º. A cassação do registro do estabelecimento cabe ao Gerente da GIPOA.
+Art. 131. Apurando-se no mesmo processo administrativo a prática de duas
+ou mais infrações, as penalidades serão aplicadas cumulativamente para
+cada disposição infringida.
+A GIPOA realiza o controle e o acompanhamento das autuações e aplicações de penalidade em primeira
+instância e segunda instância através de planilhas, contendo as informações do Quadro 2.
+Quadro 7 - Modelo de planilha para controle e acompanhamento de processos de autuações e aplicações de penalidades.
+Rondônia, 2026.
+Status Data Auto
+Infração
+N. Auto
+Infração Processo CPF /
+CNPJ Área Nome do
+Auto
+Tipo de
+Infração Infringência Penalidade Qtde. UPF Total a
+pagar Município
+4.2 Supervisões
+A criação da Gerência de Inspeção de Produtos e Subprodutos de Origem Animal - GIPOA através da Lei
+Complementar nº 948 de 04/07/2017, tem por finalidade a coordenação e gestão do Serviço de Inspeção Estadual
+– SIE dos produtos e subprodutos de Origem Animal, a fim de assegurar o planejamento, a supervisão, a auditoria
+e execução das atividades referentes à fiscalização dos Produtos de Origem Animal, em estabelecimentos
+industriais e agroindustriais, realizando supervisões/auditorias com ou sem aviso prévio nos estabelecimentos,
+bem como nos SIE locais.
+Desde o ano de 2023, a Gerência de Inspeção vem aperfeiçoando os procedimentos de supervisão, com
+implementação de novas metodologias, visando o uso de ferramentas que possam otimizar o processo, tornando-
+o mais eficiente e transparente.
+Os coordenadores da Gerência de Inspeção elaboram a programação anual de supervisões, que é
+posteriormente homologada pela Gerência. Essa programação garante uma cobertura abrangente e estratégica
+dos estabelecimentos sob inspeção.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 27 de 125
+(Versão 1.2)
+Em estabelecimentos com inspeção periódica, as informações são coletadas e registradas no aplicativo
+Epicollect-5. Essa ferramenta facilita o processo de coleta e garante a padronização dos dados. Posteriormente,
+os dados serão extraídos e entregues ao SIE Local para análise e acompanhamento das não conformidades.
+Em estabelecimentos com inspeção permanente, o relatório da supervisão ainda é preenchido em um
+formulário específico em planilha Excel. Os resultados são inseridos no Processo Nº 8 e enviados ao SIE Local para
+análise, acompanhamento e correção das não conformidades.
+4.3 Coleta de Amostras para Análise Laboratorial
+A Lei Estadual nº 4.130 de setembro de 2017, estabelece a previsão de realização de análises laboratoriais
+oficiais pelos estabelecimentos registrados no SIE/RO visando a garantia da inocuidade, identidade e qualidade
+dos produtos e a Instrução Normativa n º 01/2018/IDARON -GIPOA, de 10 de outubro de 2018, trata dos
+procedimentos de coleta e envio de amostras para análises laboratoriais.
+A GIPOA, possui 01 (um) Fiscal Estadual responsável pela organização e coordena ção das análises
+laboratoriais da Agência IDARON para promover e preservar a segurança e qualidade dos alimentos, atendendo
+às exigências da legislação vigente.
+Neste sentido a estruturação dos Cronogramas Oficiais de Análises Laboratoriais, cujos parâmetros físico-
+químicos e microbiológicos utilizados para as análises de produtos de origem animal, são os mesmos utilizados
+pelo Serviço de Inspeção Federal/SIF e divulgados no site do MAPA: https://www.gov.br/agricultura/pt-
+br/assuntos/inspecao/produtos-animal/analises-laboratoriais-anuarios-programas
+Já os parâmetros físico-químicos e microbiológicos para água são baseados na Portaria de Consolidação
+do Ministério da Saúde Nº 5 de 28 de setembro de 2017 e Portaria GM/MS Nº 888, de 4 de maio de 2021.
+Para os produtos de origem animal, adotamos a metodologia de amostragem indicativa na primeira
+coleta, e em caso de resultado não conforme, a amostragem da próxima produção será a representativa.
+As coletas de amostras para análise laboratorial, são divididas no Cronograma Oficial de Análises Oficiais
+e no Programa de Prevenção e Combate à Fraude, ambos com programação anual. O SIE participa ainda, do
+Programa de Avaliação de Conformidade de Padrões Físico -químicos e Microbiológicos de Produtos de Origem
+Animal Comestíveis e Água de Abastecimento (PACPOA) e do Plano Nacional de Controle de Resíduos e
+Contaminantes (PNCRC), ambos do Ministério da Agricultura e Pecuária.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 28 de 125
+(Versão 1.2)
+As atividades voltadas às coletas, são realizadas pelas inspeções locais (Figura 4), de acordo com a
+Programação dos Cronogramas Oficiais, que dispõe da identificação dos estabelecimentos participantes, produtos
+que serão coletados, período de realização das coletas e análises que deverão ser realizadas pelos Laboratórios
+Credenciados/Habilitados, porém, quando é identificado pela inspeção local a necessidade de coleta de amostras
+oficiais elas poderão ocorrer a qualquer momento independente dos cronogramas.
+Figura 5 - Fluxo dos procedimentos do Cronograma de análises laboratoriais . SIE/RO. Rondônia. 2026.
+.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 29 de 125
+(Versão 1.2)
+O Cronograma Oficial de Análises Laboratoriais está estruturado para realização de forma anual,
+contemplando todos os estabelecimentos registrados e selecionando os produtos a serem coletados de acordo
+com a lista de produtos de cada estabelecimento e o Risco Associado aos Produtos (RP).
+O cronograma é denominado pelos quatro (4) algarismos do ano de execução seguid a de ponto (.) e o
+número do semestre de realização (1 ou 2), por exemplo: 2024.1 e 2024.2.
+A Coordenação produz todos os documentos, formulários e planilhas necessárias para que os
+cronogramas e outras análises oficiais possam ser executados pelas unidades locais.
+Visando a padronização e rapidez na identificação, a nomenclatura dos relatórios de ensaio foi
+padronizada de acordo com o exemplo na Tabela 5.
+Quadro 8 - Padronização da nomenclatura dos relatórios de ensaio laboratoriais. Rondônia, 2026.
+Nº RELATÓRIO DE
+ENSAIO
+CATEGORIA
+DE PRODUTO
+Nº
+SIE/RO
+COLETA
+MÊS.ANO.CRONO.
+TIPO DE ANÁLISE
+FQ/MB/DNA NOME DO ARQUIVO
+154594 OVOS 97 02.2025.1 MB 154594-OVO-97-
+02.2025.1-MB
+154483 ÁGUA 97 02.2025.1 MB 154483-ÁGUA-97-
+02.2025.1-MB
+40002 CARNE 27 11.2025.2 FQ 40002-CARNE-27-
+11.2025.2-FQ
+1180 LEITE 112 01.2025 MB 1180-LEITE-112-
+01.2025-MB
+Os Cronogramas Oficiais de Análises Laboratoriais estão embasados na legislação estadual em
+consonância com a legislação federal, estabelecendo sua previsão legal, exigindo sua realização e estabelecendo
+medidas cautelares e fiscais que deverão ser realiza das em decorrência da recusa de realização, bem como,
+quando ocorrem violações de padrões microbiológicos e físico-químicos das análises realizadas.
+4.4 Prevenção e Combate à Fraude Econômica
+O Programa de Prevenção e Combate à Fraude de Produtos de Origem Animal, é uma iniciativa que visa
+garantir a segurança e a integridade dos alimentos de origem animal, prevenindo e combatendo práticas
+fraudulentas, como adulteração, falsificação e uso de i ngredientes inadequados. O programa envolve a coleta
+sistemática de amostras, a realização de análises laboratoriais e a aplicação de medidas rigorosas para identificar
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 30 de 125
+(Versão 1.2)
+e punir irregularidades. Com isso, busca -se assegurar que os produtos disponíveis para consumo atendam aos
+padrões de qualidade e segurança estabelecidos, protegendo a saúde pública e a confiança do consumidor.
+O Estado de Rondônia dispõe de legislação que estabelece a previsão legal e procedimentos a serem
+adotados em casos de Fraude, de acordo com:
+LEI ESTADUAL Nº 4.130 - 04.09.2017
+(…)
+Art. 15. Ao infrator das disposições desta Lei serão aplicadas, isolada ou
+cumulativamente, sem prejuízo das sanções de natureza civil e penal
+cabíveis, as seguintes penalidades e medidas administrativas:
+V - Suspensão da atividade que cause risco ou ameaça à saúde, quando for
+constatada fraude ou no caso de embaraço à ação fiscalizadora;
+(…)
+Art. 18. A pena de multa será aplicada às pessoas físicas ou jurídicas quando
+infringirem os dispositivos presentes nesta Lei, nos seguintes casos e
+intervalos:
+§ 5º. São infrações puníveis com multa de 150 (cento e cinquenta) UPF/RO:
+I - Alterar, adulterar, fraudar ou falsiﬁcar produtos de origem animal;
+(…)
+A Agência IDARON vem executando ao longo dos anos diversas ações de prevenção e combate à fraude
+por meio de fiscalizações nos estabelecimentos, análises de processos de rotulagem e coletas oficiais de produtos
+para análises laboratoriais visando a avaliação de indícios de fraude.
+Foi publicada a Instrução Normativa nº 24/2024, que institui o Programa Estadual de Prevenção e
+Combate à Fraude em Produtos de Origem Animal, no estado de Rondônia, disponível em:
+https://diof.ro.gov.br/data/uploads/2024/09/DOE-06.09.2024.pdf.
+Para elaboração do programa, os estudos foram baseados nos Regulamentos Técnicos de Identidade e
+Qualidade dos produtos, nos documentos e anuários do Ministério da Agricultura e Pecuária, conforme Tabela 6.
+Quadro 9 - Análises laboratoriais de combate à fraude a serem realizadas pelos SIE locais. Rondônia. 2026.
+AMOSTRA ANÁLISE
+Leite cru congelado pesquisa de caseino macropeptídeo (CMP)
+Leite e derivados análises de RTIQ e conservantes, quando aplicável
+Carcaças congeladas de aves pesquisa do teste de gotejamento (dripping test)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 31 de 125
+(Versão 1.2)
+Carcaças/cortes de aves resfriado ou congelado pesquisa de relação umidade/proteína
+Queijo minas frescal detecção de betalactoglobulinas
+Mel e produtos de abelhas análises de RTIQ
+Ovos e derivados análises de RTIQ
+Carne moída pesquisa de tecidos não permitidos e análises de RTIQ
+Carne e derivados análises de RTIQ
+Pescados e derivados análises de RTIQ
+Pescado congelado análise de desglaciamento
+Pescado confirmação de espécie pela técnica de DNA
+As atividades realizadas no processo de prevenção e combate à fraude, são:
+1. Campanhas de conscientização dos responsáveis legais e funcionários dos estabelecimentos, sobre
+os riscos desse tipo de prática e suas consequências, visando coibir sua realização;
+2. Publicação da Instrução Normativa nº 24/2024/IDARON-DIPES, que institui o Programa Estadual de
+Prevenção e Combate à Fraude em Produtos de Origem Animal, no estado de Rondônia.
+3. Publicação da Instrução Normativa nº 19/2024/IDARON-DIPES, para estabelecer as frequências e as
+amostragens mínimas a serem utilizadas na inspeção e fiscalização, para verificação oficial dos
+Programas de Autocontroles (VOPAC) e estabelecer os formulários a serem utilizados na verificação
+do PAC de Controle de Formulação de Produtos e Combate à Fraude entre outros;
+4. Solicitação de análises laboratoriais oficiais a qualquer momento, com vistas a dirimir dúvidas sobre
+a segurança e identidade do produto;
+5. Durante as etapas de registro da rotulagem dos produtos, o estabelecimento deve informar o
+processo de fabricação e os ingredientes de cada produto, que posteriormente é verificado durante
+a produção;
+6. No Programa de combate à fraude, são realizadas as análises físico-químicas e de DNA , visando a
+identificação de constituintes proibidos ou em quantidades fora do padrão estabelecido pela
+legislação e sua composição centesimal.
+Quando ocorrem violações de padrões, o registro é feito através de processos no Sistema SEI, onde
+constam todos os memorandos, ofícios, relatórios de ensaios laboratoriais e demais documentos relacionados a
+resolução dos problemas apresentados pelos estabelecimentos.
+As metas são estabelecidas anualmente, e controladas em processos SEI e planilha do Excel.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 32 de 125
+(Versão 1.2)
+4.5 Combate à Atividade Clandestina
+O combate à clandestinidade de produtos de origem animal é crucial para garantir a segurança alimentar,
+a saúde pública e o bem -estar animal. A clandestinidade envolve a produção, comercialização e distribuição de
+produtos sem o devido controle sanitário e regulamentação, representando riscos significativos para os
+consumidores e para o mercado legal. Neste sentido, a legislação estadual estabelece as bases necessárias para
+o Combate à Atividade Clandestina:
+LEI ESTADUAL Nº 4.130 – 04.09.2017
+(…)
+Art. 1 º. Esta Lei institui a obrigatoriedade de prévia inspeção e
+ﬁscalização dos produtos e subprodutos de origem animal
+produzidos no Estado de Rondônia destinados ao consumo; cria o
+Serviço de Inspeção Estadual - SIE/RO; e institui as taxas de serviços
+referentes à inspeção e ﬁscalização de produtos e subprodutos de
+origem animal industriais e agroindustriais, com fundamento no
+artigo 23, inciso II, combinado com o artigo 24, incisos V, VIII e XII da
+Constituição Federal, e em consonância com o disposto nas Leis
+Federais nº 1.283, de 18 de dezembro de 1950, nº 7.889, de 23 de
+novembro de 1989, e nº 8.171 de 17 de janeiro de 1991.
+(…)
+DECRETO ESTADUAL Nº 22.991 – 03.07.2018
+(…)
+Art. 6º. O servidor referido no artigo 5º deste Decreto, quando em
+serviço de inspeção, reinspeção, fiscalização e auditoria industrial e
+sanitária, terá livre acesso a qualquer tempo ao estabelecimento
+em processo de registro ou registrado no SIE/RO, bem como aos
+estabelecimentos sem serviço de inspeção, que abata, industrialize,
+manipule, armazene, transporte, despache ou preste qualquer
+atividade sujeita à prévia inspeção, reinspeção, fiscalização e
+auditoria de produtos e subprodutos de origem animal
+(…)
+Art. 46. Os estabelecimentos só podem expor à venda e distribuir
+produtos que:
+I - não representem risco à saúde pública;
+II - não tenham sido alterados ou fraudados;
+III - tenham assegurada a rastreabilidade nas fases de obtenção,
+recepção, fabricação e de expedição; e
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 33 de 125
+(Versão 1.2)
+IV - sejam oriundos de estabelecimentos devidamente registrados
+em serviço de inspeção oficial e respeitando as devidas áreas de
+abrangência e autorização de comércio.
+(...)
+Art. 120. Consideram -se impróprios para o consumo humano, na
+forma em que se apresentam, no todo ou em parte, as matérias -
+primas ou os produtos de origem animal que:
+XV - não possuam procedência conhecida; ou XVI - não estejam
+claramente identificados como oriundos de estabelecimento sob
+inspeção sanitária.
+A Agência IDARON, realiza ações de Combate à Clandestinidade, que estão vinculadas a:
+1. Apuração de Denúncias: A Agência IDARON oferece diversos canais de comunicação para o
+recebimento de denúncias, que podem ser identificadas ou anônimas. São eles:
+Disque IDARON: 0800-643-4337.
+Disque Denúncia / Ouvidoria: 0800-704-9944.
+Fala.BR: https://falabr.cgu.gov.br.
+Presencialmente: o denunciante pode se dirigir a uma das 84 unidades da Agência IDARON.
+Correio ou e-mails institucionais: registro de denúncias por meio de correspondência ou pelos e-
+mails disponíveis.
+O processo de apuração das denúncias tem caráter passivo, ou seja, após o recebimento e registro da
+denúncia, são realizadas atividades para verificar sua competência, veracidade e, quando cabível, aplicar as
+sanções apropriadas.
+2. Fiscalizações para Identificação: Ações ativas visando m apear áreas onde ocorra a produção
+clandestina de produtos de origem animal no estado, podem ocorrer durante qualquer atividade da
+Agência IDARON, dando origem a um processo de apuração.
+3. Fiscalizações de Trânsito: A Agência IDARON possui uma Coordenação Geral, chamada Programa
+Estadual de Trânsito Animal, que controla o trânsito contemplando a saúde animal e os produtos de
+origem animal. Dispondo de 84 unidades, que realizam barreiras volantes de fiscalização de trânsito
+em todo o estado de Rondônia, com o intuito de conferir as documentações necessárias para o
+transporte de animais e de produtos de origem animal, bem como, dentre elas uma rede de cinco
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 34 de 125
+(Versão 1.2)
+postos fixos de fiscalização nas divisas com os estados do Acre, Amazonas e Mato Grosso, que
+funcionam 24 horas, podendo identificar trânsitos irregulares e aplicação das medidas cabíveis.
+4. Educação e Conscientização: Promover campanhas educativas para informar a população sobre os
+riscos do consumo de produtos não inspecionados e os direitos do consumidor, tais como campanhas
+divulgadas no site e nas redes sociais da Agência IDARON.
+5. Parcerias Interinstitucionais: A Agência IDARON realiza o envio de informações sobre atividades
+clandestinas no comércio estadual à AGEVISA -RO, para fortalecer a ação conjunta no combate à
+clandestinidade. Também é realizada periodicamente o envio da lista de estabelecimentos
+registrados no SIE-RO à Secretária de Educação – SEDUC-RO, com o intuito de auxiliar no processo de
+seleção de fornecedores para merenda escolar, evitando que estabelecimentos clandesti nos
+participem.
+6. Através de outros órgãos: desencadeadas por demandas provenientes do Ministério Público Federal,
+Estadual ou Municipal, órgãos ambientais e de saúde estaduais ou municipais, entidades de defesa
+do consumidor e de proteção do bem-estar animal, Polícia Federal, Civil e Militar, dentre outros.
+A Gerência de Inspeção de Produtos de Origem Animal também possui um Setor de Apuração de
+Denúncias e Combate à Clandestinidade, e em 2023 foi enviado para todas as ULSAVs, SIEs -Locais e Postos de
+Fiscalização o Processo SEI nº 0015.080860/2022-73 (ANEXO XXIII) com orientações para a atuação em diferentes
+cenários de fiscalização de trânsito de produtos de origem animal. A partir deste processo será elaborado um
+manual para orientar os servidores nas ações de fiscalização.
+Todas as atividades de Combate à Clandestinidade e Apuração de Denúncias, são elaboradas com o uso
+da ferramenta (5W2H) para definir etapas, processos e executores.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 35 de 125
+(Versão 1.2)
+Figura 6 - Resumo das denúncias recebidas e apuradas no ano de 2025. Rondônia, 2026
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 36 de 125
+(Versão 1.2)
+Na Seção II do Decreto nº 22.991/2018, estão descritas as medidas cautelares previstas no Art. 119. Se
+houver evidência ou suspeita de que um produto de origem animal represente risco à saúde pública ou tenha
+sido alterado, adulterado ou falsificado, a IDARON deverá adotar, isolada ou cumulativ amente, as seguintes
+medidas cautelares:
+“...
+I - Apreensão do produto;
+II - Suspensão provisória do processo de fabricação ou de suas etapas;
+III - Interdição total ou parcial da atividade do estabelecimento; e
+IV - Coleta de amostras do produto para realização de análises laboratoriais. ..”
+Art. 118. Serão responsabilizadas pela infração às disposições do
+Decreto, para efeito da aplicação das penalidades nele previstas, as
+pessoas físicas ou jurídicas:
+I - fornecedoras de matérias -primas ou de produtos de origem
+animal, desde a origem até o recebimento nos estabelecimentos
+registrados ou relacionados no SIE/RO e em estabelecimentos sem
+serviço oficial de inspeção;
+(...)
+III - que expedirem ou transportarem matérias-primas ou produtos
+de origem animal; e
+IV - importadoras e exportadoras de matérias-primas ou de produtos
+de origem animal.
+4.6 Educação Sanitária
+A educação sanitária é o processo de disseminação, construção e apropriação de conhecimentos, para
+estimular e promover mudanças na sociedade envolvendo os participantes das diversas etapas das cadeias
+produtivas associadas às atividades agropecuárias, relacionad as com a saúde animal, sanidade vegetal e
+qualidade dos produtos, subprodutos de origem animal e insumos agropecuários.
+Com a perspectiva de fortalecer a defesa agropecuária, a Agência IDARON criou o Programa Estadual de
+Educação Sanitária em Defesa Agropecuária no Estado de Rondônia - PEDSA/RO, através da Portaria nº
+774/2019/IDARON. O programa visa a inovação do atual sistema de defesa, com ações sustentadas em iniciativas
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 37 de 125
+(Versão 1.2)
+educacionais e de comunicação social estruturadas, no intuito de aumentar a eficiência e eficácia das atividades
+que vêm sendo desenvolvidas pela IDARON.
+A Gerência de Inspeção em conjunto com a PEDSA, elaborou um Programa para nortear as ações de
+educação sanitária no âmbito do Serviço de Inspeção Estadual.
+As ações e metas são planejadas anualmente em conjunto com o Programa Estadual de Educação
+Sanitária em Defesa Agropecuária no Estado de Rondônia - PEDSA/RO, e para melhorar as definições voltadas
+para o SIE, foi estruturado um Programa voltado para inspeção de produtos de origem animal.
+Quadro 10 - Público-alvo, locais, metodologias e materiais utilizados para execução das metas planejadas. Rondônia, 2026.
+PÚBLICO-ALVO
+Consumidores;
+Proprietários de estabelecimentos de produtos de origem animal;
+Trabalhadores de indústrias e agroindústrias de produtos de origem animal;
+Produtores rurais;
+Agricultores familiares;
+Profissionais da cadeia produtiva (médicos veterinários, engenheiros agrônomos, zootecnistas, téc. agrícolas Etc.);
+Transportadores de produtos de origem animal;
+Servidores da Agência IDARON;
+Servidores de órgãos ligados à saúde pública e agropecuária;
+Estudantes da Educação Básica;
+Estudantes do Ensino Superior;
+Professores;
+Empresários;
+Governantes de todas as esferas.
+LOCAIS
+Escolas de ensino básico municipais e estaduais
+Instituições Federais de Ensino (UNIR e IFRO); Universidades Particulares
+Indústrias e Agroindústrias de Produtos de Origem Animal
+Propriedades rurais
+Exposições agropecuárias
+Meios de comunicação (rádio, tv, internet...);
+Entidades representativas de produtores e sindicatos;
+Associações e cooperativas;
+Secretarias municipais de Agricultura;
+Secretarias municipais de Saúde.
+METODOLOGIAS
+Atendimento nas unidades;
+Palestras (elaboradas no slide padrão disponível em: Z:\EDUCAÇÃO SANITÁRIA);
+Cursos; Oficinas; Workshops; Dias de campo;
+Elaboração e distribuição de materiais impressos (panfletos, folders, etc.);
+Entrevistas em meios de comunicação (rádio, televisão, jornais, internet);
+Veiculação de spots educativos em rádios, carro de som e moto som;
+Contatos telefônicos individuais;
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 38 de 125
+(Versão 1.2)
+Contato interpessoal;
+Participação em feiras;
+Outros.
+RECURSOS
+Equipamentos com acesso à internet (notebook, tablet, celular e impressora);
+Máquina fotográfica;
+Datashow e tela de projeção;
+Equipamento de som (caixa de som e microfones);
+Caneta pincel (cores variadas);
+Cartilhas; Folders, cartazes, pôsteres e banners;
+Estação de Rádio;
+Espaço para realização das ações.
+Quadro 11 - Planejamento anual das ações de Educação Sanitária na área Inspeção de Produtos de Origem Animal. Rondônia.
+2026.
+TEMA FREQUÊNCIA (mínima) METODOLOGIA LOCAL PÚBLICO-ALVO
+Combate à Clandestinidade 4 vezes ao ano
+Doenças Transmitidas por Alimentos 2 vezes ao ano
+Inspeção de leite e derivados 1 vez ao ano
+Inspeção de ovos e derivados 1 vez ao ano
+Inspeção de pescados e derivados 1 vez ao ano
+Inspeção de produtos de abelhas 1 vez ao ano
+Inspeção de frigoríficos 1 vez ao ano
+Inspeção de Produtos de Origem
+Animal
+1 vez ao ano
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 39 de 125
+(Versão 1.2)
+A frequência mínima estabelecida para cada uma das 8 supervisões regionais, vai de acordo com o tema,
+a demanda e as estatísticas do município, porém as quantidades podem ser alteradas de acordo com a
+necessidade do órgão.
+O registro e o monitoramento das ações, é realizado no SIS-ATIVIDADES (Quadros 3 e 4), onde são
+inseridas todas as informações das atividades de educação sanitária executadas ao longo dos meses.
+Figura 7 – Print da página de cadastro de evento de educação sanitária – Sistema SIS-ATIVIDADES. Rondônia, 2026.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 40 de 125
+(Versão 1.2)
+Figura 8 - Print da página de cadastro de assuntos abordados em treinamentos e eventos promovidos pela Agência IDARON,
+Rondônia, 2026.
+5. PROGRAMA DE CAPACITAÇÃO DE PESSOAL
+A Gerência de Inspeção de Produtos de Origem Animal vem trabalhando para promover cursos e
+treinamentos, com o objetivo de capacitar e atualizar seus profissionais para a execução das atividades.
+Além dos cursos e treinamentos elaborados pela IDARON, e das participações em congressos, seminários
+e simpósios, os AFEA e Médicos Veterinários Oficiais, participam dos cursos presenciais e online, lives e
+videoconferências realizadas pelo MAPA e outros órgãos.
+Todas as ações de capacitação são registradas através do setor de Educação Sanitária da Agência IDARON,
+através de uma plataforma integrada onde é possível que os participantes realizem as inscrições e, emitam os
+certificados de participação após a realização do evento.
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 41 de 125
+(Versão 1.2)
+Quadro 12 - Quadro resumido do Programa de Capacitação de Pessoal da IDARON -GIPOA, 2026.
+1 TREINAMENTO E PADRONIZAÇÃO DAS AÇÕES
+PARA APLICAÇÃO DA VCHECK-5 GIPOA INSPEÇÃO DE POA REMOTA VÍDEO
+CONFERÊNCIA 1 QD 1
+2 CONGRESSO DE HIGIENISTAS GIPOA INSPEÇÃO DE POA PRESENCIAL RECIFE- PE 1 QD 4
+3 4º MUNDIAL DO QUEIJO DO BRASIL GIPOA INSPEÇÃO DE POA PRESENCIAL SÃO PAULO- SP 1 QD 4
+4
+CURSO DE ABORDAGEM E FISCALIZAÇÃO DE
+TRÂNSITO DE PRODUTOS E SUBPRODUTOS DE
+ORIGEM ANIMAL
+GIPOA/ CTA INSPEÇÃO DE POA PRESENCIAL PIMENTA
+BUENO- RO 1 QD 5
+5
+CURSO DE ABORDAGEM E FISCALIZAÇÃO DE
+TRÂNSITO DE PRODUTOS E SUBPRODUTOS DE
+ORIGEM ANIMAL
+GIPOA/ CTA INSPEÇÃO DE POA PRESENCIAL PORTO VELHO-
+RO 1 QD 4
+6 TREINAMENTO PACPOA 2026 GIPOA INSPEÇÃO DE POA REMOTA VÍDEO
+CONFERÊNCIA 1 QD 1
+7 TREINAMENTO PNCRC 2026 GIPOA INSPEÇÃO DE POA REMOTA VÍDEO
+CONFERÊNCIA 1 QD 1
+8 TREINAMENTO EM VERIFICAÇÃO DE ELEMENTOS
+DE CONTROLE (VOEC - VOPAC) GIPOA INSPEÇÃO DE POA PRESENCIAL OURO PRETO-
+RO 2 QD 3
+9 TREINAMENTO DE RECEPÇÃO SOBRE INSPEÇÃO
+E DEFESA AOS NOVOS EMERGENCIAIS GIPOA INSPEÇÃO DE POA PRESENCIAL OURO PRETO-
+RO 2 QD 1
+10 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERMANENTES - SUÍNOS POAFRIG INSPEÇÃO DE POA PRESENCIAL MATO GROSSO-
+MT 2 QD 3
+11 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERMANENTES - BOVINOS POAFRIG INSPEÇÃO DE POA PRESENCIAL ROLIM DE
+MOURA- RO 2 QD 3
+12 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - LEITE POALAT INSPEÇÃO DE POA PRESENCIAL ROLIM DE
+MOURA 2 QD 3
+13 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - OVOS POAOMP INSPEÇÃO DE POA PRESENCIAL MATO GROSSO-
+MT 2 QD 3
+14 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - MEL POAOMP INSPEÇÃO DE POA PRESENCIAL VILHENA- RO 2 QD 3
+15 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - PESCADOS POAOMP INSPEÇÃO DE POA PRESENCIAL ARIQUEMES-
+RO 2 QD 3
+16 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - CARNES POACAR INSPEÇÃO DE POA PRESENCIAL CACOAL- RO 2 QD 3
+17 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+LEITES E DERIVADOS DSN INSPEÇÃO DE POA PRESENCIAL 3 QD
+18 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+OVOS E DERIVADOS DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+19 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+PESCADO DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+20 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+CARNES E DERIVADOS DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+21
+SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+UNIDADE DE BENEFICIAMENTO DE
+CARNES E PRODUTOS CÁRNEOS DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+45
+PROGRAMA: 1015 - AÇÃO: 2096 CAPACITAÇÃO E TREINAMENTO DE SERVIDORES
+ITEM DESCRIÇÃO DO CURSO REQUERENTE
+(SETOR) ÁREA MODALIDADE LOCAL QUADRIMESTRE
+CARGA
+HORÁRIA
+(DIAS)
+TOTAL
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 42 de 125
+(Versão 1.2)
+6. RELAÇÃO DE ESTABELECIMENTOS INTERESSADOS EM REALIZAR COMÉRCIO INTERESTADUAL
+Quadro 13. Relação de estabelecimentos interessados a integrar o Sistema Brasileiro de Inspeção de Produtos de Oriegem
+Animal – SISBI-POA, Rondônia, 2026.
+Nº Nome ou Razão Social CNPJ/CPF N° Registro no
+Serviço Classificação
+1
+Ribeiro Indústria e
+Comércio de Laticínio
+LTDA
+36.239.915/0001-00 055 Unidade de Beneficiamento de Leite e
+Derivados
+2 Agroindústria Flor da
+Amazônia 269.499.158-02 114 Unidade de Beneficiamento de Produtos de
+Abelha
+7. DECLARAÇÃO
+Declaramos estar ciente da necessidade de manter atualizados este Programa de Trabalho e as informações
+prestadas no Cadastro Geral do SISBI -POA, sobre este Serviço de Inspeção, os estabelecimentos e os produtos
+registrados, através do sistema eletrônico e-SISBI, para avaliação do Ministério da Agricultura, Pecuária e
+Abastecimento, sob risco de comprometer o processo de avaliação de equivalência e adesão ao SISBI -POA deste
+Serviço a qualquer momento.
+8. IDENTIFICAÇÃO DO RESPONSÁVEL E DATA DE ELABORAÇÃO
+Porto Velho/RO, 03 de agosto de 2026.
+_________________________________________
+Pedro Cesar Savi Filho
+Gerente de Inspeção de Produtos de Origem Animal
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 43 de 125
+(Versão 1.2)
+9. ANEXOS
+Nº do anexo Nome do documento
+Anexo I Portaria dos Laboratórios Credenciados na IDARON
+Anexo II Portaria dos Laboratórios Habilitados na IDARON
+Anexo III Cronograma Oficial de Análises Laboratoriais
+Anexo IV Modelos dos formulários de inspeção ante-mortem bovinos
+Anexo V Modelos dos formulários de inspeção ante-mortem suínos
+Anexo VI Modelos dos formulários de inspeção post-mortem bovinos
+Anexo VII Modelos dos formulários de inspeção post-mortem suínos
+Anexo VIII Relatórios mensais bovinos
+Anexo IX Relatórios mensais suínos
+Anexo X Relatórios mensais aves
+Anexo XI Relatórios mensais pescados e derivados
+Anexo XII Relatórios mensais leite e derivados
+Anexo XIII Relatórios mensais ovos e derivados
+Anexo XIV Relatórios mensais carnes e produtos cárneos
+Anexo XV Relatórios mensais produtos de abelhas
+Anexo XVI Auto de Infração
+Anexo XVII Advertência
+Anexo XVIII Termos
+Anexo XIX Modelo DTPOA
+Anexo XX Modelo CSTE
+Anexo XXI Cronograma de Supervisões
+Anexo XXII Ocorrências em fiscalização de trânsito
+Anexo XXIII Participação em eventos
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 44 de 125
+(Versão 1.2)
+ANEXO I - PUBLICAÇÃO DOS LABORATÓRIOS CREDENCIADOS NA IDARON
+ANEXO II - PUBLICAÇÃO DOS LABORATÓRIOS HABILITADOS NA IDARON
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Padre Chiquinho, 913 - Bairro Pedrinhas - CEP: 76801-490 - Porto Velho – Rondônia
+https://www.idaron.ro.gov.br/
+E-mail: gipoa.sie@gmail.com
+Página 45 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 46 de 125
+(Versão 1.2)
+ANEXO III - CRONOGRAMA OFICIAL DE ANÁLISES LABORATORIAIS
+CRONOGRAMA OFI-
+CIAL DE
+ANÁLISES
+LABORATORIAIS
+ANÁLISES
+MICROBIOLÓGICAS FÍSICO-QUÍMICAS OUTRAS
+CATEGORIA DO PRODUTO ENSAIO / CÓDIGO ENSAIO / CÓDIGO ENSAIO
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+Atividade de Água* (Só para produto conservado em
+temperatura ambiente) FQ016
+N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32
+Nitratos FQ064 Nitritos FQ065 Ácido Sór-
+bico e/ou Sorbato FQ008 N/A
+CARNE E DERIVADOS Pesquisa de Salmonella spp M26 Escherichia coli M32
+Aeróbios mesófilos M11
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13a
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Bolores e leveduras M02 Contagem de Coliformes
+Totais M07 NMP de Coliformes Termotoleran-
+tes a 45°C M15 Contagem de Estafilococos Coagu-
+lase Positiva M12A Pesquisa de Listeria monocyto-
+genes M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Bolores e leveduras M02 Contagem de Coliformes
+Totais M07 NMP de Coliformes Termotoleran-
+tes a 45°C M15 Contagem de Estafilococos Coagu-
+lase Positiva M12A Pesquisa de Listeria monocyto-
+genes M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Bolores e leveduras M02 Contagem de Coliformes
+Totais M07 NMP de Coliformes Termotoleran-
+tes a 45°C M15 Contagem de Estafilococos Coagu-
+lase Positiva M12A Pesquisa de Listeria monocyto-
+genes M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 47 de 125
+(Versão 1.2)
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+Atividade de Água* (Só para produto conservado em
+temperatura ambiente) FQ016
+N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+Atividade de Água* (Só para produto conservado em
+temperatura ambiente) FQ016
+N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Proteína FQ075 Umidade FQ090 Amido FQ013
+Gordura FQ058 Carboidratos totais FQ096
+Nitratos FQ064 Nitritos FQ065 Ácido sórbico
+e/ou sorbato FQ008 Colágeno FQ102
+N/A
+CARNE E DERIVADOS Salmonella spp M26 Contagem de Estafilococos Coagu-
+lase Positiva M12A Escherichia coli M32
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Nitratos FQ064 Nitritos FQ065 Ácido Sór-
+bico e/ou Sorbato FQ008 Carboidratos Totais
+FQ096 Atividade de Água FQ016
+N/A
+CARNE E DERIVADOS
+Pesquisa de Salmonella spp M26 Escherichia coli M32
+Clostridium perfringens M03 Estafilococos coagulase posi-
+tiva M12A Listeria monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13a
+N/A
+CARNE E DERIVADOS Salmonella spp M26 Coagulase Positiva M12A Es-
+cherichia coli M32
+Nitratos FQ064 Nitritos FQ065 Atividade
+de Água* (Só para produto conservado em tempera-
+tura ambiente) FQ016
+N/A
+CARNE E DERIVADOS Salmonella spp M26 Contagem de Estafilococos Coagu-
+lase Positiva M12A Escherichia coli M32 Nitratos FQ064 Nitritos FQ065 N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Relação Umidade/Proteína FQ081 Proteína
+FQ075 Carboidratos Totais FQ096 Nitra-
+tos FQ064 Nitritos FQ065 Ácido sórbico e/ou
+sorbato FQ008
+N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Relação Umidade/Proteína FQ081 Proteína
+FQ075 Carboidratos Totais FQ096 Nitra-
+tos FQ064 Nitritos FQ065 Ácido sórbico e/ou
+sorbato FQ008
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 48 de 125
+(Versão 1.2)
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+Atividade de Água* (Só para produto conservado em
+temperatura ambiente) FQ016
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+Atividade de Água* (Só para produto conservado em
+temperatura ambiente) FQ016
+N/A
+CARNE E DERIVADOS Salmonella spp M26 Coagulase Positiva M12A Es-
+cherichia coli M32
+Nitratos FQ064 Nitritos FQ065 Atividade
+de Água* (Só para produto conservado em tempera-
+tura ambiente) FQ016
+N/A
+CARNE E DERIVADOS
+Pesquisa de Salmonella spp M26 Escherichia coli M32
+Clostridium perfringens M03 Estafilococos coagulase posi-
+tiva M12A
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065
+N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+N/A
+CARNE E DERIVADOS Salmonella spp M26 Contagem de Estafilococos Coagu-
+lase Positiva M12A Escherichia coli M32
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Nitratos FQ064 Nitritos FQ065 Ácido Sór-
+bico e/ou Sorbato FQ008 Carboidratos Totais
+FQ096 Atividade de Água FQ016
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Proteína FQ075 Umidade FQ090 Amido FQ013
+Gordura FQ058 Carboidratos totais FQ096
+Nitratos FQ064 Nitritos FQ065 Ácido sórbico
+e/ou sorbato FQ008 Colágeno FQ102
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 49 de 125
+(Versão 1.2)
+LEITE E DERIVADOS Contagem Total de Enterobacteriaceae M14
+Acidez (em ácido lático) FQ001 Substân-
+cias Redutoras Voláteis (álcool etílico) FQ109
+Amido FQ013A Formaldeído FQ038 Gordura
+FQ058 Índice CMP FQ045 Índice crioscópico
+FQ043 Lactose FQ057 Proteína FQ075
+Sacarose FQ083 Sólidos não gordurosos (ESD)
+FQ036 Fosfatase alcalina FQ039 Peroxidase
+FQ070 Densidade a 15ºC FQ031
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de Coli-
+formes Totais M16 Salmonella spp. M26
+Acidez (em ácido lático) FQ001 Ácido sór-
+bico e/ou sorbato FQ008 Matéria gorda / Lipídios
+FQ058 Proteína FQ075
+N/A
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de Coli-
+formes Totais M16 Salmonella spp. M26
+Acidez (em ácido lático) FQ001 Ácido sór-
+bico e/ou sorbato FQ008 Matéria gorda / Lipídios
+FQ058 Proteína FQ075
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de Coli-
+formes Totais M16 Salmonella spp. M26
+Acidez (em ácido lático) FQ001 Ácido sór-
+bico e/ou sorbato FQ008 Matéria gorda / Lipídios
+FQ058 Proteína FQ075
+N/A
+LEITE E DERIVADOS Contagem Total de Enterobacteriaceae M14
+Acidez (em ácido lático) FQ001 Substân-
+cias Redutoras Voláteis (álcool etílico) FQ109
+Amido FQ013A Formaldeído FQ038 Gordura
+FQ058 Índice CMP FQ045 Índice crioscópico
+FQ043 Lactose FQ057 Proteína FQ075
+Sacarose FQ083 Sólidos não gordurosos (ESD)
+FQ036 Fosfatase alcalina FQ039 Peroxidase
+FQ070 Densidade a 15ºC FQ031
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 50 de 125
+(Versão 1.2)
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 (MÉDIA UMI-
+DADE) Contagem de Estafilococos Coagulase Posi-
+tiva M12A Pesquisa de Listeria monocytogenes
+M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 Contagem de
+Coliformes Termotolerantes a 45°C M06 (ALTA UMIDADE)
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Listeria monocytogenes M20 Pesquisa de Sal-
+monella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de
+Coliformes Totais M16 Contagem de Estafilococos Coa-
+gulase Positiva M12A Pesquisa de Salmonella
+spp M26
+Acidez na gordura FQ005 Cloreto de sódio
+FQ022 Matéria gorda / Lipídios FQ058 Insolú-
+veis FQ126 Umidade FQ090 Ácido sórbico e/ou
+sorbato FQ008
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 51 de 125
+(Versão 1.2)
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 (MÉDIA UMI-
+DADE) Contagem de Estafilococos Coagulase Posi-
+tiva M12A Pesquisa de Listeria monocytogenes
+M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 Contagem de
+Coliformes Termotolerantes a 45°C M06 (ALTA UMIDADE)
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Listeria monocytogenes M20 Pesquisa de Sal-
+monella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Bolores e leveduras M02 Contagem de Coliformes
+Totais M07 NMP de Coliformes Termotoleran-
+tes a 45°C M15 Contagem de Estafilococos Coagu-
+lase Positiva M12A Pesquisa de Listeria monocyto-
+genes M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de Coli-
+formes Totais M16 Salmonella spp. M26
+Acidez (em ácido lático) FQ001 Ácido sór-
+bico e/ou sorbato FQ008 Matéria gorda / Lipídios
+FQ058 Proteína FQ075
+N/A
+LEITE E DERIVADOS
+Bolores e leveduras M02 Contagem de Coliformes
+Totais M07 NMP de Coliformes Termotoleran-
+tes a 45°C M15 Contagem de Estafilococos Coagu-
+lase Positiva M12A Pesquisa de Listeria monocyto-
+genes M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 52 de 125
+(Versão 1.2)
+LEITE E DERIVADOS Contagem Total de Enterobacteriaceae M14
+Acidez (em ácido lático) FQ001 Substân-
+cias Redutoras Voláteis (álcool etílico) FQ109
+Amido FQ013A Formaldeído FQ038 Gordura
+FQ058 Índice CMP FQ045 Índice crioscópico
+FQ043 Lactose FQ057 Proteína FQ075
+Sacarose FQ083 Sólidos não gordurosos (ESD)
+FQ036 Fosfatase alcalina FQ039 Peroxidase
+FQ070 Densidade a 15ºC FQ031
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de Coli-
+formes Totais M16 Salmonella spp. M26
+Acidez (em ácido lático) FQ001 Ácido sór-
+bico e/ou sorbato FQ008 Matéria gorda / Lipídios
+FQ058 Proteína FQ075
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 53 de 125
+(Versão 1.2)
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+OVOS E DERIVADOS Pesquisa de Salmonella spp M26 N/A N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+NMP de Coliformes Termotolerantes a 45°C M15
+NMP de Coliformes Totais M16 Contagem de Estafiloco-
+cos Coagulase Positiva M12A Pesquisa de
+Salmonella spp M26
+Acidez na gordura FQ005 Matéria gorda / Li-
+pídios FQ058 Insolúveis FQ126 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+PRODUTOS DE ABELHAS E
+DERIVADOS N/A
+Acidez FQ004 Açúcares redutores (glicose+fru-
+tose) FQ010 Cinzas FQ082 Hidroximetilfurfural (HMF)
+FQ048 Índice de amilase (atividade diastática)
+FQ044 Umidade FQ090 Sacarose FQ083
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 54 de 125
+(Versão 1.2)
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de Coli-
+formes Totais M16 Salmonella spp. M26
+Acidez (em ácido lático) FQ001 Ácido sór-
+bico e/ou sorbato FQ008 Matéria gorda / Lipídios
+FQ058 Proteína FQ075
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Bolores e leveduras M02 Contagem de Coliformes
+Totais M07 NMP de Coliformes Termotoleran-
+tes a 45°C M15 Contagem de Estafilococos Coagu-
+lase Positiva M12A Pesquisa de Listeria monocyto-
+genes M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+PESCADOS E DERIVADOS
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Salmonella spp M26 Contagem de Escherichia
+coli M32
+pH FQ071 Bases voláteis totais FQ018
+Sódio FQ108 Potássio FQ107 Relação
+Umidade /Proteína FQ081 Desglaciamento FQ032
+(Quando realizado glaciamento) Detecção de poli-
+fosfatos FQ099 (Não se aplica para peixes inteiros e
+eviscerados)
+DNA
+PESCADOS E DERIVADOS
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Salmonella spp M26 Contagem de Escherichia
+coli M32
+pH FQ071 Bases voláteis totais FQ018
+Sódio FQ108 Potássio FQ107 Relação
+Umidade /Proteína FQ081 Desglaciamento FQ032
+(Quando realizado glaciamento) Detecção de poli-
+fosfatos FQ099 (Não se aplica para peixes inteiros e
+eviscerados)
+DNA
+PESCADOS E DERIVADOS
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Salmonella spp M26 Contagem de Escherichia
+coli M32
+pH FQ071 Bases voláteis totais FQ018
+Sódio FQ108 Potássio FQ107 Relação
+Umidade /Proteína FQ081 Desglaciamento FQ032
+(Quando realizado glaciamento) Detecção de poli-
+fosfatos FQ099 (Não se aplica para peixes inteiros e
+eviscerados)
+DNA
+PESCADOS E DERIVADOS
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Salmonella spp M26 Contagem de Escherichia
+coli M32
+pH FQ071 Bases voláteis totais FQ018
+Sódio FQ108 Potássio FQ107 Relação
+Umidade /Proteína FQ081 Desglaciamento FQ032
+(Quando realizado glaciamento) Detecção de poli-
+fosfatos FQ099 (Não se aplica para peixes inteiros e
+eviscerados)
+DNA
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 55 de 125
+(Versão 1.2)
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+OVOS E DERIVADOS Pesquisa de Salmonella spp M26 N/A N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+PESCADOS E DERIVADOS
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Salmonella spp M26 Contagem de Escherichia
+coli M32
+pH FQ071 Bases voláteis totais FQ018
+Sódio FQ108 Potássio FQ107 Relação
+Umidade /Proteína FQ081 Desglaciamento FQ032
+(Quando realizado glaciamento) Detecção de poli-
+fosfatos FQ099 (Não se aplica para peixes inteiros e
+eviscerados)
+DNA
+PESCADOS E DERIVADOS
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Salmonella spp M26 Contagem de Escherichia
+coli M32
+pH FQ071 Bases voláteis totais FQ018
+Sódio FQ108 Potássio FQ107 Relação
+Umidade /Proteína FQ081 Desglaciamento FQ032
+(Quando realizado glaciamento) Detecção de poli-
+fosfatos FQ099 (Não se aplica para peixes inteiros e
+eviscerados)
+DNA
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 (MÉDIA UMI-
+DADE) Contagem de Estafilococos Coagulase Posi-
+tiva M12A Pesquisa de Listeria monocytogenes
+M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 56 de 125
+(Versão 1.2)
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 Contagem de
+Coliformes Termotolerantes a 45°C M06 (ALTA UMIDADE)
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Listeria monocytogenes M20 Pesquisa de Sal-
+monella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Relação Umidade/Proteína FQ081 Proteína
+FQ075 Carboidratos Totais FQ096 Nitra-
+tos FQ064 Nitritos FQ065 Ácido sórbico e/ou
+sorbato FQ008
+N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+Atividade de Água* (Só para produto conservado em
+temperatura ambiente) FQ016
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 57 de 125
+(Versão 1.2)
+LEITE E DERIVADOS
+Contagem de Bolores e Leveduras M02 NMP de Coli-
+formes Termotolerantes a 45°C M15 NMP de Coli-
+formes Totais M16 Salmonella spp. M26
+Acidez (em ácido lático) FQ001 Ácido sór-
+bico e/ou sorbato FQ008 Matéria gorda / Lipídios
+FQ058 Proteína FQ075
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+CARNE E DERIVADOS
+Pesquisa de Salmonella enteritidis M26 Pesquisa
+de Salmonella typhimurium M26 Escherichia coli M32
+Aeróbios mesófilos M11
+Dripping test FQ086 DRIPPING
+TEST: 1-AMOSTRA DE PROVA: 6 AVES 2-
+AMOSTRA DE CONTRAPROVA DO ESTADO: 6 AVES
+3-AMOSTRA DE CONTRAPROVA DO ESTABELECI-
+MENTO: 6 AVES TOTALIZANDO 3
+AMOSTRAS DE 6 AVES CADA= 18 AVES
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 (MÉDIA UMI-
+DADE) Contagem de Estafilococos Coagulase Posi-
+tiva M12A Pesquisa de Listeria monocytogenes
+M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 Contagem de
+Coliformes Termotolerantes a 45°C M06(ALTA UMIDADE)
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Listeria monocytogenes M20 Pesquisa de Sal-
+monella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 58 de 125
+(Versão 1.2)
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 (MÉDIA UMI-
+DADE) Contagem de Estafilococos Coagulase Posi-
+tiva M12A Pesquisa de Listeria monocytogenes
+M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 Contagem de
+Coliformes Termotolerantes a 45°C M06(ALTA UMIDADE)
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Listeria monocytogenes M20 Pesquisa de Sal-
+monella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+PRODUTOS DE ABELHAS E
+DERIVADOS N/A
+Acidez FQ004 Açúcares redutores (glicose+fru-
+tose) FQ010 Cinzas FQ082 Hidroximetilfurfural (HMF)
+FQ048 Índice de amilase (atividade diastática)
+FQ044 Umidade FQ090 Sacarose FQ083
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Relação Umidade/Proteína FQ081 Proteína
+FQ075 Carboidratos Totais FQ096 Nitra-
+tos FQ064 Nitritos FQ065 Ácido sórbico e/ou
+sorbato FQ008
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 59 de 125
+(Versão 1.2)
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13 Carboidratos Totais FQ096
+Atividade de Água* (Só para produto conservado em
+temperatura ambiente) FQ016
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+CARNE E DERIVADOS
+Salmonella spp M26 Contagem de Clostridium perfrin-
+gens M03 Contagem de Estafilococos Coagulase Posi-
+tiva M12A Escherichia coli M32 Pesquisa de Listeria
+monocytogenes M20
+Proteína FQ075 Umidade FQ090 Amido FQ013
+Gordura FQ058 Carboidratos totais FQ096
+Nitratos FQ064 Nitritos FQ065 Ácido sórbico
+e/ou sorbato FQ008 Colágeno FQ102
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+PRODUTOS DE ABELHAS E
+DERIVADOS N/A
+Acidez FQ004 Açúcares redutores (glicose+fru-
+tose) FQ010 Cinzas FQ082 Hidroximetilfurfural (HMF)
+FQ048 Índice de amilase (atividade diastática)
+FQ044 Umidade FQ090 Sacarose FQ083
+N/A
+PRODUTOS DE ABELHAS E
+DERIVADOS N/A
+Compostos fenólicos FQ025 Compostos fla-
+vonoides FQ026 Extrato Seco FQ037 Teor
+alcoólico FQ123
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+CARNE E DERIVADOS Pesquisa de Salmonella spp M26 Escherichia coli M32
+Aeróbios mesófilos M11
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13a
+N/A
+CARNE E DERIVADOS Pesquisa de Salmonella spp M26 Escherichia coli M32
+Aeróbios mesófilos M11
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13a
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 60 de 125
+(Versão 1.2)
+CARNE E DERIVADOS Pesquisa de Salmonella spp M26 Escherichia coli M32
+Aeróbios mesófilos M11
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13a
+N/A
+CARNE E DERIVADOS Pesquisa de Salmonella spp M26 Escherichia coli M32
+Aeróbios mesófilos M11
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13a
+N/A
+CARNE E DERIVADOS Pesquisa de Salmonella spp M26 Escherichia coli M32
+Aeróbios mesófilos M11
+Umidade FQ090 Gordura FQ058 Proteína FQ075
+Teor de Cálcio (Base seca) FQ019 Nitratos FQ064
+Nitritos FQ065 Ácido Sórbico e/ou Sorbato
+FQ008 Amido FQ13a
+N/A
+CARNE E DERIVADOS Salmonella spp M26 Contagem de Estafilococos Coagu-
+lase Positiva M12A Escherichia coli M32 Nitratos FQ064 Nitritos FQ065 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 Contagem
+de Estafilococos Coagulase Positiva M12A Pesquisa
+de Listeria monocytogenes M20 Pesquisa de Salmonella
+spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 NMP de
+Coliformes Termotolerantes a 45°C M15 (MÉDIA UMI-
+DADE) Contagem de Estafilococos Coagulase Posi-
+tiva M12A Pesquisa de Listeria monocytogenes
+M20 Pesquisa de Salmonella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+LEITE E DERIVADOS
+Contagem de Coliformes Totais M07 Contagem de
+Coliformes Termotolerantes a 45°C M06(ALTA UMIDADE)
+Contagem de Estafilococos Coagulase Positiva M12A
+Pesquisa de Listeria monocytogenes M20 Pesquisa de Sal-
+monella spp M26
+Matéria gorda no extrato seco FQ060 Umidade
+FQ090 Ácido sórbico e/ou sorbato FQ008 N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+ÁGUA DE ABASTECI-
+MENTO
+NMP de Escherichia coli M10.1 NMP de Colifor-
+mes Totais M16
+ALUMÍNIO, AMÔNIA, CLORETO, COR APARENTE, DU-
+REZA TOTAL, FERRO, MANGANÊS, SÓDIO, SÓLIDOS
+DISSOLVIDOS TOTAIS, SULFATO, TURBIDEZ, ZINCO
+(ANEXO-11/P888). MERCÚRIO TOTAL, NITRITO, NI-
+TRATO (ANEXO-09/P888).
+N/A
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 61 de 125
+(Versão 1.2)
+ANEXO IV - MODELOS DOS FORMULÁRIOS ANTE-MORTEM DE BOVINOS - INSPEÇÃO PERMANENTE
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 62 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 63 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 64 de 125
+(Versão 1.2)
+ANEXO V - MODELOS DOS FORMULÁRIOS ANTE-MORTEM DE SUÍNOS - INSPEÇÃO PERMANENTE
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 65 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 66 de 125
+(Versão 1.2)
+ANEXO VI - MODELOS DOS FORMULÁRIOS DE INSPEÇÃO POST-MORTEM BOVINOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 67 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 68 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 69 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 70 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 71 de 125
+(Versão 1.2)
+ANEXO VII - MODELOS DOS FORMULÁRIOS DE INSPEÇÃO POST-MORTEM SUÍNOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 72 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 73 de 125
+(Versão 1.2)
+ANEXO VIII - RELATÓRIOS MENSAIS BOVINOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 74 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 75 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 76 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 77 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 78 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 79 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 80 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 81 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 82 de 125
+(Versão 1.2)
+ANEXO IX - RELATÓRIOS MENSAIS SUÍNOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 83 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 84 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 85 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 86 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 87 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 88 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 89 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 90 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 91 de 125
+(Versão 1.2)
+ANEXO X - RELATÓRIOS MENSAIS AVES
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 92 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 93 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 94 de 125
+(Versão 1.2)
+ANEXO XI - RELATÓRIOS DE PESCADOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 95 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 96 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 97 de 125
+(Versão 1.2)
+ANEXO XII - RELATÓRIOS LEITE E DERIVADOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 98 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 99 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 100 de 125
+(Versão 1.2)
+ANEXO XII - RELATÓRIOS OVOS E DERIVADOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 101 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 102 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 103 de 125
+(Versão 1.2)
+ANEXO XIV - RELATÓRIOS CARNES E PRODUTOS CÁRNEOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 104 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 105 de 125
+(Versão 1.2)
+ANEXO XV - RELATÓRIOS PRODUTOS DE ABELHAS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 106 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 107 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 108 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 109 de 125
+(Versão 1.2)
+ANEXO XVI - AUTO DE INFRAÇÃO
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 110 de 125
+(Versão 1.2)
+ANEXO XVII - ADVERTÊNCIA
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 111 de 125
+(Versão 1.2)
+ANEXO XVIII - TERMOS
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 112 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 113 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 114 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 115 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 116 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 117 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 118 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 119 de 125
+(Versão 1.2)
+ANEXO XIX - MODELO DE DTPOA
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 120 de 125
+(Versão 1.2)
+ANEXO XX- MODELO CSTE
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 121 de 125
+(Versão 1.2)
+ANEXO XXI - CRONOGRAMA DE SUPERVISÕES
+REGIONAL ULSAV CLASSIFICAÇÃO
+Ji-Paraná Ouro Preto d'Oeste U. B. Leite e Derivados
+Ji-Paraná Teixeirópolis U. B. Leite e Derivados
+Ji-Paraná Ouro Preto d'Oeste U. B. Leite e Derivados
+Rolim de Moura Alta Floresta d' Oeste Abatedouro Frigorífico - Bovinos - SISBI
+Porto Velho Porto Velho Unidade de Beneficiamento de Carne e produtos Cárneos
+Porto Velho Porto Velho Unidade de Beneficiamento de Carne e produtos Cárneos
+Porto Velho Porto Velho Unidade de Beneficiamento de Carne e produtos Cárneos
+Ji-Paraná Ji-Paraná Abatedouro Frigorífico - Suínos
+Porto Velho Itapuã do Oeste U. B. Leite e Derivados
+Porto Velho Candeias do Jamari U. B. Leite e Derivados
+Ji-Paraná Ji-Paraná Abatedouro Frigorífico - Bovinos
+Pimenta Bueno Cacoal Abatedouro Frigorífico - Bovinos - SISBI
+Porto Velho Porto Velho Unidade de Beneficiamento de Carne e produtos Cárneos
+Ji-Paraná P. Médici U. B. Leite e Derivados
+Ji-Paraná P. Médici U. B. Leite e Derivados
+Porto Velho Porto Velho Unidade de Beneficiamento de produtos de abelhas
+Porto Velho Porto Velho Unidade de Beneficiamento de Pescado e Produtos de pescado
+Vilhena Vilhena Unidade de Beneficiamento de Ovos e derivados
+Vilhena Vilhena Unidade de Beneficiamento de Ovos e derivados
+Pimenta Bueno Cacoal Unidade de Beneficiamento de Ovos e derivados
+Ariquemes Ariquemes Abatedouro Frigorífico - Bovinos - SISBI
+Ji-Paraná Vale do Paraíso Unidade de Beneficiamento de Pescado e produtos de Pescado
+Porto Velho Porto Velho Abatedouro Frigorífico - Bovinos - SISBI
+Porto Velho Guajará Mirim U. B. Leite e Derivados
+Porto Velho Nova Dimensão U. B. Leite e Derivados
+Porto Velho Porto Velho Abatedouro Frigorífico - Bovinos - SISBI
+P. Bueno Cacoal U. B. Leite e Derivados
+Rolim de Moura Alta Floresta d'Oeste U. B. Leite e Derivados
+Jaru Machadinho d' Oeste Abatedouro Frigorífico - Bovinos
+Ji-Paraná Nova união U. B. Leite e Derivados
+Ji-Paraná Ouro Preto d'Oeste U. B. Leite e Derivados
+Rolim de Moura Rolim de Moura Abatedouro Frigorífico - Bovinos
+Rolim de Moura Novo Horizonte Unidade de Beneficiamento de produtos de abelhas
+Ji-Paraná P. Médici U. B. Leite e Derivados
+Ji-Paraná Ouro Preto d'Oeste U. B. Leite e Derivados
+Ji-Paraná Ouro Preto d'Oeste U. B. Leite e Derivados
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 122 de 125
+(Versão 1.2)
+ANEXO XXII - OCORRÊNCIAS EM FISCALIZAÇÃO DE TRÂNSITO DE PRODUTOS DE ORIGEM ANIMAL
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 123 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 124 de 125
+(Versão 1.2)
+Agência de Defesa Sanitária Agrosilvopastoril do estado de Rondônia
+Gerência de Inspeção de Produtos de Origem Animal – GIPOA
+Serviço de Inspeção Estadual de Rondônia – SIE/RO
+Página 125 de 125
+(Versão 1.2)
+ANEXO XXIII - PARTICIPAÇÕES EM EVENTOS
+1 TREINAMENTO E PADRONIZAÇÃO DAS AÇÕES
+PARA APLICAÇÃO DA VCHECK-5 GIPOA INSPEÇÃO DE POA REMOTA VÍDEO
+CONFERÊNCIA 1 QD 1
+2 CONGRESSO DE HIGIENISTAS GIPOA INSPEÇÃO DE POA PRESENCIAL RECIFE- PE 1 QD 4
+3 4º MUNDIAL DO QUEIJO DO BRASIL GIPOA INSPEÇÃO DE POA PRESENCIAL SÃO PAULO- SP 1 QD 4
+4
+CURSO DE ABORDAGEM E FISCALIZAÇÃO DE
+TRÂNSITO DE PRODUTOS E SUBPRODUTOS DE
+ORIGEM ANIMAL
+GIPOA/ CTA INSPEÇÃO DE POA PRESENCIAL PIMENTA
+BUENO- RO 1 QD 5
+5
+CURSO DE ABORDAGEM E FISCALIZAÇÃO DE
+TRÂNSITO DE PRODUTOS E SUBPRODUTOS DE
+ORIGEM ANIMAL
+GIPOA/ CTA INSPEÇÃO DE POA PRESENCIAL PORTO VELHO-
+RO 1 QD 4
+6 TREINAMENTO PACPOA 2026 GIPOA INSPEÇÃO DE POA REMOTA VÍDEO
+CONFERÊNCIA 1 QD 1
+7 TREINAMENTO PNCRC 2026 GIPOA INSPEÇÃO DE POA REMOTA VÍDEO
+CONFERÊNCIA 1 QD 1
+8 TREINAMENTO EM VERIFICAÇÃO DE ELEMENTOS
+DE CONTROLE (VOEC - VOPAC) GIPOA INSPEÇÃO DE POA PRESENCIAL OURO PRETO-
+RO 2 QD 3
+9 TREINAMENTO DE RECEPÇÃO SOBRE INSPEÇÃO
+E DEFESA AOS NOVOS EMERGENCIAIS GIPOA INSPEÇÃO DE POA PRESENCIAL OURO PRETO-
+RO 2 QD 1
+10 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERMANENTES - SUÍNOS POAFRIG INSPEÇÃO DE POA PRESENCIAL MATO GROSSO-
+MT 2 QD 3
+11 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERMANENTES - BOVINOS POAFRIG INSPEÇÃO DE POA PRESENCIAL ROLIM DE
+MOURA- RO 2 QD 3
+12 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - LEITE POALAT INSPEÇÃO DE POA PRESENCIAL ROLIM DE
+MOURA 2 QD 3
+13 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - OVOS POAOMP INSPEÇÃO DE POA PRESENCIAL MATO GROSSO-
+MT 2 QD 3
+14 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - MEL POAOMP INSPEÇÃO DE POA PRESENCIAL VILHENA- RO 2 QD 3
+15 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - PESCADOS POAOMP INSPEÇÃO DE POA PRESENCIAL ARIQUEMES-
+RO 2 QD 3
+16 TREINAMENTO PRÁTICO EM ATIVIDADES DE
+INSPEÇÃO PERIÓDICA - CARNES POACAR INSPEÇÃO DE POA PRESENCIAL CACOAL- RO 2 QD 3
+17 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+LEITES E DERIVADOS DSN INSPEÇÃO DE POA PRESENCIAL 3 QD
+18 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+OVOS E DERIVADOS DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+19 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+PESCADO DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+20 SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+CARNES E DERIVADOS DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+21
+SISBIS - TREINAMENTO EM FISCALIZAÇÃO DE
+UNIDADE DE BENEFICIAMENTO DE
+CARNES E PRODUTOS CÁRNEOS DSN INSPEÇÃO DE POA PRESENCIAL 2 QD ou 3 QD
+45
+PROGRAMA: 1015 - AÇÃO: 2096 CAPACITAÇÃO E TREINAMENTO DE SERVIDORES
+ITEM DESCRIÇÃO DO CURSO REQUERENTE
+(SETOR) ÁREA MODALIDADE LOCAL QUADRIMESTRE
+CARGA
+HORÁRIA
+(DIAS)
+TOTAL

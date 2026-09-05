@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idaron-sisbi-programa-trabalho-2026",
+  "source_url": "https://www.idaron.ro.gov.br/wp-content/plugins/download-attachments/includes/download.php?id=17895",
+  "archive_url": "https://web.archive.org/web/20260905144812/https://www.idaron.ro.gov.br/wp-content/uploads/2026/08/SISBI_POA_Programa_Trabalho_Atualizacao_2026._11C2AA_edicao_assinado.pdf",
+  "verified_at": "2026-09-05T14:50:56Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 5461333,
+  "archive_sha256": "7a03f842e403486b21795cd42f7bc7a6e0f53ba3c022146e9fa6da17093cc4ed",
+  "source_content_type": "application/pdf",
+  "source_size": 5461333,
+  "source_sha256": "7a03f842e403486b21795cd42f7bc7a6e0f53ba3c022146e9fa6da17093cc4ed",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/idaron-sisbi-programa-trabalho-2026.pdf"
+}
