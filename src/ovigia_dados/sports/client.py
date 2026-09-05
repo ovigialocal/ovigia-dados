@@ -21,6 +21,20 @@ class ApiFootballAuthError(PermissionError):
     """A chave foi recusada pela API-Football."""
 
 
+class ApiFootballPlanError(RuntimeError):
+    """O plano da assinatura não cobre o recurso pedido.
+
+    Distinta das demais recusas porque não é defeito nem falha de
+    infraestrutura: é o contrato do plano. Quem chama decide se o recurso é
+    essencial ou se a coleta segue sem ele.
+    """
+
+    def __init__(self, endpoint: str, errors: dict[str, Any]):
+        self.endpoint = endpoint
+        self.detail = str(errors.get("plan", ""))
+        super().__init__(f"Plano da API-Football não cobre {endpoint}: {self.detail}")
+
+
 def _payload_errors(data: dict[str, Any]) -> dict[str, Any]:
     """Normaliza o campo errors, que vem como lista vazia quando não há erro."""
     errors = data.get("errors")
@@ -114,6 +128,9 @@ class ApiFootballClient:
                             f"Chave recusada pela API-Football ao acessar {endpoint}: "
                             f"{errors['token']}"
                         )
+
+                    if errors.get("plan"):
+                        raise ApiFootballPlanError(endpoint, errors)
 
                     if errors:
                         raise RuntimeError(

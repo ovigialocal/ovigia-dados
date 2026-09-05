@@ -2,7 +2,7 @@
 okf_version: "0.2"
 type: "sports-monitor"
 entity_kind: "team"
-external_id: "7783"
+external_id: "12947"
 name: "União Cacoalense"
 city: "Cacoal"
 uf: "RO"

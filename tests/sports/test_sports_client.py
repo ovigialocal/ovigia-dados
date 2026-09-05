@@ -4,7 +4,11 @@ import urllib.error
 
 import pytest
 
-from ovigia_dados.sports.client import ApiFootballAuthError, ApiFootballClient
+from ovigia_dados.sports.client import (
+    ApiFootballAuthError,
+    ApiFootballClient,
+    ApiFootballPlanError,
+)
 
 
 def test_client_rotation():
@@ -127,3 +131,16 @@ def test_http_403_is_not_retried(monkeypatch):
         client.get("status")
 
     assert len(attempts) == 1
+
+
+def test_errors_plan_levanta_plan_error_com_atributos(monkeypatch):
+    client = _client_answering(
+        monkeypatch,
+        {"errors": {"plan": "Free plans do not have access to this season"}, "response": []},
+    )
+
+    with pytest.raises(ApiFootballPlanError) as refusal:
+        client.get("standings", {"league": 615, "season": 2026})
+
+    assert refusal.value.endpoint == "standings"
+    assert "Free plans" in refusal.value.detail
