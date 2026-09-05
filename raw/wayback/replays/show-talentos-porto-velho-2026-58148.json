@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/show-talentos-porto-velho-2026-58148",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58148",
+  "archive_url": "https://web.archive.org/web/20260904233940/https://www.portovelho.ro.gov.br/noticias/58148",
+  "verified_at": "2026-09-05T00:08:46Z",
+  "archive_content_type": "text/html",
+  "archive_size": 19861,
+  "archive_sha256": "19ff4eaf75d97180f11decc5e3c2c4e7b58181349c0c3976323eb6f8268e474e",
+  "source_content_type": "text/html",
+  "source_size": 121506,
+  "source_sha256": "bd16bc79a535ec63c58d63a890c5fa4d45f17d6de1caab1b092c4a08bf0df233",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/show-talentos-porto-velho-2026-58148.html"
+}

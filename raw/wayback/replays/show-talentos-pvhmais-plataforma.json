@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/show-talentos-pvhmais-plataforma",
+  "source_url": "https://pvhmais.portovelho.ro.gov.br/",
+  "archive_url": "https://web.archive.org/web/20260904235554/https://pvhmais.portovelho.ro.gov.br/",
+  "verified_at": "2026-09-05T00:08:48Z",
+  "archive_content_type": "text/html",
+  "archive_size": 387908,
+  "archive_sha256": "f4c51ee34daf40763dd0b819b9e603322f0982a37535a588c328fd4ce46f753e",
+  "source_content_type": "text/html",
+  "source_size": 387908,
+  "source_sha256": "826d41208adee87dfd346277d4806adceefbb4603a920a10558d601be354b95f",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/show-talentos-pvhmais-plataforma.html"
+}
