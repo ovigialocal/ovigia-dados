@@ -17,6 +17,16 @@ DEFAULT_USER_AGENT = (
 )
 
 
+class ApiFootballAuthError(PermissionError):
+    """A chave foi recusada pela API-Football."""
+
+
+def _payload_errors(data: dict[str, Any]) -> dict[str, Any]:
+    """Normaliza o campo errors, que vem como lista vazia quando não há erro."""
+    errors = data.get("errors")
+    return errors if isinstance(errors, dict) else {}
+
+
 class ApiFootballClient:
     """Cliente com rotação de chaves, leitura de rate-limit headers e cache."""
 
@@ -87,14 +97,28 @@ class ApiFootballClient:
                     body = res.read().decode("utf-8")
                     data = json.loads(body)
 
-                    errors = data.get("errors")
-                    if errors and isinstance(errors, dict) and errors.get("rateLimit"):
+                    errors = _payload_errors(data)
+                    if errors.get("rateLimit"):
                         logger.warning(
                             "Limite de requisições retornado no payload. Rotacionando/Aguardando..."
                         )
                         self.rotate_key()
                         time.sleep(2.0 * attempt)
                         continue
+
+                    # A API responde HTTP 200 com errors preenchido. Tratar isso
+                    # como resposta vazia faz o pipeline reportar sucesso sem
+                    # ter coletado nada, que é indistinguível de um dia sem jogo.
+                    if errors.get("token"):
+                        raise ApiFootballAuthError(
+                            f"Chave recusada pela API-Football ao acessar {endpoint}: "
+                            f"{errors['token']}"
+                        )
+
+                    if errors:
+                        raise RuntimeError(
+                            f"API-Football recusou a requisição a {endpoint}: {errors}"
+                        )
 
                     return data
             except urllib.error.HTTPError as e:
@@ -107,7 +131,7 @@ class ApiFootballClient:
                     continue
                 elif e.code in (401, 403):
                     logger.error(f"Erro de autenticação HTTP {e.code} na API-Football.")
-                    raise PermissionError(
+                    raise ApiFootballAuthError(
                         "Chave de API inválida ou sem permissão para este recurso."
                     ) from e
                 else:
@@ -116,6 +140,9 @@ class ApiFootballClient:
                         time.sleep(2.0 * attempt)
                         continue
                     raise
+            except (ApiFootballAuthError, RuntimeError):
+                # A própria API recusou a requisição: repetir não muda a resposta.
+                raise
             except Exception as ex:
                 logger.error(f"Erro de conexão ao acessar {endpoint}: {ex}")
                 if attempt < self.max_retries:
