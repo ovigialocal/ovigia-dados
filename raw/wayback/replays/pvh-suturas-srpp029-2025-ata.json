@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-suturas-srpp029-2025-ata",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/atas/1387",
+  "archive_url": "https://web.archive.org/web/20260905045629/https://transparencia.portovelho.ro.gov.br/despesas/atas/1387",
+  "verified_at": "2026-09-05T05:08:30Z",
+  "archive_content_type": "text/html",
+  "archive_size": 44336,
+  "archive_sha256": "f878e147a323fc9b6f81b7d5b6cd826f8b43eac8be82f6571350535c8b56f090",
+  "source_content_type": "text/html",
+  "source_size": 472403,
+  "source_sha256": "b09b77272c8f7aea1c6190db7750ccf343b7527f75deddf344bd875b758175e6",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-suturas-srpp029-2025-ata.html"
+}
