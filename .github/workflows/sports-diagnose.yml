@@ -28,4 +28,5 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           API_FOOTBALL_KEYS: ${{ secrets.API_FOOTBALL_KEYS }}
+          PYTHONUNBUFFERED: "1"
         run: uv run scripts/sports/diagnose_api_football.py

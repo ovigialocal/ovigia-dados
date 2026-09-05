@@ -23,23 +23,28 @@ TEAM_NAMES = [
 
 
 def show(label: str, payload: dict) -> None:
-    print(f"\n=== {label}")
-    print(f"results={payload.get('results')} errors={payload.get('errors')}")
+    print(f"\n=== {label}", flush=True)
+    print(f"results={payload.get('results')} errors={payload.get('errors')}", flush=True)
 
 
 def main() -> None:
-    client = ApiFootballClient()
+    # A sonda faz nove requests e precisa caber na janela antes de qualquer kill,
+    # então dispensa o throttle conservador do pipeline diário.
+    client = ApiFootballClient(requests_per_minute=60)
 
     status = client.get("status")
-    print("=== status")
-    print(json.dumps(status.get("response", {}), ensure_ascii=False, indent=2))
+    print("=== status", flush=True)
+    print(json.dumps(status.get("response", {}), ensure_ascii=False, indent=2), flush=True)
 
     leagues = client.get("leagues", {"country": "Brazil", "search": "Rondoniense"})
     show("leagues search=Rondoniense", leagues)
     for item in leagues.get("response", []):
         league = item.get("league", {})
         seasons = [s.get("year") for s in item.get("seasons", []) or []]
-        print(f"league_id={league.get('id')} name={league.get('name')} seasons={seasons}")
+        print(
+            f"league_id={league.get('id')} name={league.get('name')} seasons={seasons}",
+            flush=True,
+        )
 
     for name in TEAM_NAMES:
         payload = client.get("teams", {"search": name})
@@ -49,7 +54,8 @@ def main() -> None:
             venue = item.get("venue", {})
             print(
                 f"team_id={team.get('id')} name={team.get('name')} "
-                f"country={team.get('country')} city={venue.get('city')}"
+                f"country={team.get('country')} city={venue.get('city')}",
+                flush=True,
             )
 
 
