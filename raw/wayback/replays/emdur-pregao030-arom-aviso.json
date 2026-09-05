@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/emdur-pregao030-arom-aviso",
+  "source_url": "https://www.diariomunicipal.com.br/arom/materia/EC416D87/7a498265f8bb95182300a156da393d777a498265f8bb95182300a156da393d777",
+  "archive_url": "https://web.archive.org/web/20260905034352/https://www.diariomunicipal.com.br/arom/materia/EC416D87/7a498265f8bb95182300a156da393d777a498265f8bb95182300a156da393d777",
+  "verified_at": "2026-09-05T04:58:46Z",
+  "archive_content_type": "text/html",
+  "archive_size": 13264,
+  "archive_sha256": "3c4ef1e2c271a5b3ee375c601f6ece601f3a86ad869fcc59e2ff849cc855e087",
+  "source_content_type": "text/html",
+  "source_size": 34435,
+  "source_sha256": "8301fa396585d18ba4cec1bf7a6a6d5a8d3dba90882c60e988ddb236b8638964",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/emdur-pregao030-arom-aviso.html"
+}

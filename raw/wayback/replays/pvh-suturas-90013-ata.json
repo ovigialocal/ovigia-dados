@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-suturas-90013-ata",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/index.php/despesas/atas/1451",
+  "archive_url": "https://web.archive.org/web/20260905045257/https://transparencia.portovelho.ro.gov.br/index.php/despesas/atas/1451",
+  "verified_at": "2026-09-05T04:59:12Z",
+  "archive_content_type": "text/html",
+  "archive_size": 57912,
+  "archive_sha256": "feaa0c97df0a4f6d13feb8caf7fc8ab19b851807f3acaee5810ef63ec88c70ce",
+  "source_content_type": "text/html",
+  "source_size": 1116772,
+  "source_sha256": "515eeffcc3203e5d9e04939c626c4ece7d0fb45952cec7860c8348292f9f5714",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-suturas-90013-ata.html"
+}
