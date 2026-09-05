@@ -56,6 +56,7 @@ def materialize_signal_concepts(
 ) -> list[Path]:
     """Create new signal concepts; never rewrite a previously persisted observation."""
     root = Path(output_root)
+    root.mkdir(parents=True, exist_ok=True)
     created: list[Path] = []
     for signal in signals:
         destination = signal_concept_path(root, signal)
