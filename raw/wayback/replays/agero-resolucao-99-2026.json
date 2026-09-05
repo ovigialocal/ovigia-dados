@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/agero-resolucao-99-2026",
+  "source_url": "https://rondonia.ro.gov.br/wp-content/uploads/2026/09/SEI_74750619_Resolucao_99.pdf",
+  "archive_url": "https://web.archive.org/web/20260905153734/https://rondonia.ro.gov.br/wp-content/uploads/2026/09/SEI_74750619_Resolucao_99.pdf",
+  "verified_at": "2026-09-05T18:20:57Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 266038,
+  "archive_sha256": "3729b3569b3df6215e6f64ef1c1dd929dc154701ed7a432abc5ca59833cd3d0c",
+  "source_content_type": "application/pdf",
+  "source_size": 266038,
+  "source_sha256": "3729b3569b3df6215e6f64ef1c1dd929dc154701ed7a432abc5ca59833cd3d0c",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/agero-resolucao-99-2026.pdf"
+}

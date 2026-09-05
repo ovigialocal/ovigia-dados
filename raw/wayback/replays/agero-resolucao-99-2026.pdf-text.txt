@@ -1,0 +1,1670 @@
+GOVERNO DO ESTADO DE RONDÔNIA
+Agência de Regulação de Serviços Públicos Delegados de Rondônia - AGERO
+Presidência - AGERO-PRES
+RESOLUÇÃO N. 99/2026/AGERO-PRES
+Dispõe sobre a aprovação do
+Manual de Fiscalização e
+Sancionamento dos Serviços
+Públicos de Saneamento Básico
+da AGERO, abrangendo os eixos
+de abastecimento de água,
+esgotamento sanitário, limpeza
+urbana e manejo de resíduos
+sólidos, e drenagem e manejo de
+águas pluviais urbanas.
+A DIRETORIA COLEGIADA DA AGÊNCIA DE REGULAÇÃO DE SERVIÇOS
+PÚBLICOS DELEGADOS DO ESTADO DE RONDÔNIA – AGERO
+, no uso das atribuições que lhe
+são conferidas e seu Regimento Interno;
+CONSIDERANDO
+a Lei Federal nº 11.445/2007 e suas alterações dadas pela Lei
+nº 14.026/2020, que estabelecem as diretrizes nacionais para o saneamento básico e a competência das
+entidades reguladoras para a fiscalização dos serviços;
+CONSIDERANDO
+a Norma de Referência nº 04/2024 da Agência Nacional de Águas
+e Saneamento Básico (ANA), que dispõe sobre a governança das entidades reguladoras e as diretrizes para
+as atividades de fiscalização;
+CONSIDERANDO
+que a fiscalização técnica e operacional deve atuar como indutora
+da eficiência e da melhoria contínua dos serviços prestados, assegurando o cumprimento das metas de
+universalização e os padrões de qualidade em benefício do usuário;
+CONSIDERANDO
+a necessidade de integrar a fiscalização de campo aos processos
+de regulação econômica, de modo que a prudência dos investimentos e o desempenho
+operacional fundamentem as revisões e reajustes tarifários;
+CONSIDERANDO
+a necessidade de estabelecer procedimentos para a apuração
+de irregularidades e aplicação de sanções, previsto no art. 23, XIII, da Lei Federal nº 11.445, de 2007, com
+a redação alterada pela Lei Federal nº 14.026, de 2020, ficam regulamentados, por esta Resolução, as
+irregularidades, os procedimentos de apuração e a aplicação de penalidades
+aos prestadores de serviços saneamento básico regulados pela AGERO.
+R E S O LV E :
+Art. 1º. Fica aprovado, conforme texto anexo, o Manual de Fiscalização e Sancionamento
+dos Prestadores de Serviços de Saneamento Básico da AGERO, o qual se encontra no item Anexo I desta
+resolução.
+Diário Oficial do Estado de Rondônia nº 143
+Disponibilização: 27/07/2026
+Publicação: 27/07/2026
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 1
+Art. 2º. As penalidades previstas nesta Resolução serão aplicadas sem prejuízo das demais
+sanções administrativas específicas, desde que não impliquem mais de uma sanção para uma mesma
+infração.
+CAPÍTULO I
+DAS INFRAÇÕES E PENALIDADES
+Seção I
+Das disposições gerais
+Art. 3º As infrações às disposições desta Resolução, bem como às normas legais aplicáveis, sujeitarão o
+infrator, conforme a sua natureza, às seguintes penalidades:
+I - advertência; e
+II - multa.
+Art. 4º A aplicação de sanção pela AGERO não exime o prestador de serviços de efetuar as ações que
+visem ao cumprimento das medidas necessárias à regularização das não conformidades constatadas, bem
+como à reparação dos efeitos sobrevindos das infrações.
+Art. 5º Na hipótese de ocorrência concomitante de mais de uma infração, as penalidades correspondentes a
+cada uma delas poderão ser aplicadas simultânea e cumulativamente, sendo vedado o
+bis in idem
+.
+Art. 6º Verifica-se a reincidência quando o prestador de serviços comete nova infração idêntica à qual se
+aplicou penalidade anterior, em caráter definitivo.
+§1º Consideram-se idênticas as infrações que tenham sido objetivamente descritas no mesmo dispositivo
+normativo.
+§2º A penalidade em caráter definitivo será assim considerada a partir da data em que não couber recurso
+acerca da decisão final da AGERO.
+§3º Não se caracterizará a reincidência se, entre a data da decisão em caráter definitivo relativa à
+penalidade precedente e a data de emissão do bis in idem do Termo de Adequação dos Serviços (TAS) que
+identificar a nova infração, tiver decorrido período de tempo superior a 1 (um) ano, ressalvado o caso de
+prática reiterada da infração.
+Seção II
+Das infrações
+Art. 7º É infração do Grupo 1, de natureza leve, sujeita à penalidade de advertência ou multa, o
+descumprimento das seguintes obrigações:
+I – disponibilizar ao usuário estrutura adequada nos locais de atendimento, inclusive no site institucional
+do prestador de serviços:
+a) espaço para registros como pedidos de: informação, reclamação, sugestão,denúncia ou elogio;
+b) as normas e padrões do prestador de serviços;
+c) a tabela com as tarifas vigentes;
+d) a tabela com os serviços cobráveis (preços públicos) e prazo para sua execução;
+e) tabela com as infrações e irregularidades sujeitas à multa;
+f) as resoluções da AGERO; e
+g) o número de telefone do prestador de serviços e da AGERO;
+II - manter organizado e atualizado o cadastro relativo a cada unidade usuária, com informações que
+permitam a identificação do usuário, sua localização, os valores faturados e o histórico de consumo dos
+últimos 5 (cinco) anos, bem como quaisquer outros dados exigidos por lei, contrato de programa ou
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 2
+concessão, ou regulamento dos serviços;
+III - manter atualizado junto a AGERO e ao titular dos serviços o(s) nome(s) do(s) representante(s)
+legal(is) e o endereço completo, inclusive as respectivas formas de comunicação que possibilitem fácil
+acesso ao prestador de serviços;
+IV - entregar a fatura ao usuário, na forma e nos prazos estabelecidos na legislação aplicável;
+V - constar na fatura todas as informações exigidas na legislação aplicável;
+VI - prestar serviços de atendimento comercial somente através de pessoal com a devida identificação e o
+devido treinamento e capacitação, comprovado através de documento hábil;
+VII - prestar informações quando solicitadas pelos usuários ou conforme determinado pela legislação
+aplicável, regulamento ou contrato de programa ou concessão;
+VIII - disponibilizar número de telefone para atendimento das solicitações de seus serviços, consoante
+estabelecido na legislação aplicável, nos contratos ou nas normas de regulação;
+IX – remeter a AGERO, na forma e nos prazos estabelecidos, todos os dados e informações solicitados,
+inclusive para os procedimentos de reajuste e revisão tarifária;e
+X – encaminhar a AGERO, na forma e nos prazos estabelecidos, informações contábeis, econômicas e
+financeiras, inclusive quanto aos procedimentos de Ouvidoria,definidas nas disposições legais,
+regulamentares e contratuais.
+Art. 8º É infração do Grupo 2, de natureza média, sujeita à penalidade de multa,o descumprimento das
+seguintes obrigações:
+I - atender às solicitações de serviços nos prazos e condições estabelecidas na legislação e/ou no contrato
+de programa ou concessão, incluindo-se nestes prazos os negociados entre o prestador de serviços e o
+usuário;
+II - comunicar previamente aos usuários do corte do abastecimento de água e/ou da coleta de esgoto dentro
+dos prazos pré-estabelecidos, com breve exposição de motivos;
+III - comunicar imediatamente a AGERO e aos órgãos competentes situações de emergências que possam
+resultar na interrupção da prestação dos serviços ou causem transtornos à população;
+IV - cumprir as normas relacionadas ao aviso prévio para a suspensão ou interrupção programada do
+fornecimento de água;
+V - restituir ao usuário os valores recebidos de forma indevida, nos prazos estabelecidos na legislação
+aplicável, no contrato de programa ou concessão ou nas normas de regulação;
+VI - utilizar material, equipamento, instalação, quadro de pessoal e método operativo, em condições
+atuais, adequadas e em quantidades suficientes, de forma a garantir a prestação de serviço adequado ao
+usuário;
+VII - manter as instalações do sistema sistemas de abastecimento de água, de esgotamento sanitário, de
+limpeza urbana e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, em bom
+estado de limpeza e organização;
+VIII - responder as reclamações do usuário, na forma e nos prazos estabelecidos
+IX – suspender a prestação dos serviços enquanto a reclamação do usuário, comunicada ao prestador de
+serviços, estiver sendo objeto de análise por parte da AGERO, salvo por razões diversas do objeto da
+reclamação pendente;
+X - encaminhar a AGERO as informações necessárias à elaboração dos indicadores utilizados para a
+apuração da quantidade e qualidade dos serviços sistemas de abastecimento de água, de esgotamento
+sanitário, de limpeza urbana e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais
+urbanas, e econômico-financeiros na forma e nosprazos estabelecidos nos dispositivos legais aplicáveis;
+XI - manter registro atualizado das reclamações e solicitações dos usuários, comanotação da data, horário,
+o nome do atendente, o nome do usuário e o objeto da reclamação ou solicitação;
+XII - cumprir as normas técnicas e os procedimentos estabelecidos para a implantação ou operação das
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 3
+instalações dos sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana e manejo
+de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas;
+XIII – instalar equipamentos de medição de água nas unidades usuárias, salvo nos casos específicos
+previstos em lei, regulamento ou contrato de programa ou concessão;
+XIV- realizar a medição do consumo de água tratada, a estimativa do volume de esgoto coletado e o
+faturamento em conformidade com a legislação aplicável, o contrato de concessão ou programa ou as
+normas regulatórias;
+XV- apurar e registrar, separadamente, os investimentos, as receitas, as despesas e os custos de todas as
+etapas dos serviços sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana e
+manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, observadas as normas
+contábeis, societárias e regulatórias;
+XVI- operar os sistemas de abastecimento de água com a instalação de macromedição adequada;
+XVII- manter a pressão nas redes de distribuição de água potável dentro dos limites e das condições
+estabelecidas nas normas vigentes;
+XVIII - realizar, mantendo o devido registro, a limpeza periódica dos reservatóriosde acumulação e
+distribuição de água, de acordo com a legislação aplicável e as normas técnicas;
+XIX - obter no prazo adequado junto às autoridades competentes as licenças, inclusive as ambientais,
+necessárias à execução de obras ou de serviços públicos sistemas de abastecimento de água, de
+esgotamento sanitário, de limpeza urbana e manejo de resíduos sólidos e de drenagem e manejo de águas
+pluviais urbanas, ressalvadas as situações devidamente justificadas;
+XX - executar as obras de reparação do pavimento das vias públicas e dos passeios, reinstalar o mobiliário
+urbano e a sinalização viária horizontal e vertical, conforme as diretrizes, especificações técnicas e prazos
+estabelecidos nas normas municipais ou nos regulamentos;
+XXI - cumprir as normas de gestão dos mananciais de abastecimento e das respectivas áreas de proteção;
+XXII- dispor adequadamente a água e os resíduos resultantes da limpeza das unidades da estação de
+tratamento de água, dos reservatórios e das estações de tratamento de esgoto;
+XXIII – efetuar o pagamento no respectivo vencimento, de qualquer das obrigações relativas às parcelas
+mensais do repasse de regulação a AGERO; e
+XXIV – realizar a contabilidade regulatória sempre em conformidade com as normas, procedimentos e
+instruções aplicáveis ao setor de saneamento básico.
+Art. 9º É infração do Grupo 3, de natureza alta, sujeita a penalidade de multa, odescumprimento das
+seguintes obrigações:
+I - fornecer água, por meio do sistema público de abastecimento, dentro dos padrões de potabilidade
+estabelecidos em legislação e/ou normas técnicas específicas da autoridade de saúde;
+II - comunicar de forma imediata aos usuários, a AGERO e aos demais órgãos públicos competentes,
+qualquer anormalidade no padrão de qualidade da água potável que possa colocar em risco a saúde da
+população;
+III - comunicar de imediato a AGERO e as autoridades competentes sanitárias, de meio ambiente e gestão
+de recursos hídricos acidentes de contaminação que afetem o fornecimento de água bruta tão logo o
+prestador tomar conhecimento;
+IV - assegurar o fornecimento de água, em caráter permanente, à população, sem interrupções decorrentes
+de deficiência nos sistemas ou capacidade inadequada,observadas as excepcionalidades legais.
+V- implementar, na forma e nos prazos previstos, as metas definidas e aprovadas nos planos de
+saneamento básico editados pelo titular dos serviços e nos contratos de programa ou concessão;
+VI- efetuar nas instalações do sistema de sistemas de abastecimento de água, de esgotamento sanitário, de
+limpeza urbana e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, nos
+prazos estabelecidos, reparos, melhoramentos, substituições e modificações, consideradas de caráter
+urgente;
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 4
+VII - manter registro, controle e inventário físico dos bens e das instalações relacionados à atividade
+desenvolvida e zelar pela sua integridade, inclusive aqueles de propriedade do titular dos serviços, em
+regime especial de uso;
+VIII - facilitar à fiscalização da AGERO o acesso às instalações, bem como a documentos e quaisquer
+outras fontes de informação pertinentes ao objeto da fiscalização;
+IX- atender aos requisitos de qualidade dos efluentes das estações de tratamento de esgoto, conforme os
+padrões estabelecidos na legislação vigente;
+X - efetuar a cessão ou transferência de bens vinculados ao serviço, a qualquer título, bem como dar em
+garantia estes bens somente com a prévia autorização do titular dos serviços, nos termos definidos em
+contrato de concessão ou de programa;
+XI - conservar documentação de interesse da AGERO por 5 (cinco) anos ou mais,conforme exigências
+fixadas nas normas regulamentares e em contrato de concessão ou programa;
+XII - elaborar planos de emergência e contingência conforme as disposições legais, regulamentares e
+contratuais;
+XIII - realizar auditoria e certificação de investimentos sempre em conformidade com as normas,
+procedimentos, disposições contratuais e instruções aplicáveis ao setor de saneamento básico;
+XIV- estabelecer medidas e procedimentos de racionamento e racionalização no abastecimento de água
+sempre com prévia autorização da AGERO;
+XV - fornecer informação idônea a AGERO, ao titular dos serviços ou ao usuário;
+XVI– praticar valores de tarifas e outros preços públicos observando as deliberações da AGERO;
+XVII – registrar, em separado, as atividades que não sejam objeto do contrato de delegação da prestação
+do serviço;
+XVIII - cumprir qualquer determinação da AGERO, na forma e no prazo estabelecido;
+XIX – informar a AGERO, o prestador, prévia ou concomitantemente ao início, os procedimentos de
+licitação, concessão e permissão e de contratação ou de aditamento ou extinção contratual, em relação à
+prestação dos serviços públicos de sistemas de abastecimento de água, de esgotamento sanitário, de
+limpeza urbana e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, regulados
+de sua iniciativa; e
+XX – possibilitar a participação da AGERO em todo o processo administrativo de licitação, concessão e
+permissão e de contratação ou de aditamento ou extinção contratual em relação à prestação dos serviços
+públicos de sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana e manejo de
+resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, regulados, incluindo no conceito de
+participação a presença em reuniões, apresentações e eventos de qualquer natureza.
+Seção III
+Da advertência
+Art. 10. A penalidade de advertência poderá ser imposta pela AGERO desde que no ano anterior não
+exista sanção de mesma natureza.
+§1º Por simples culpa compreende-se as situações em que a conduta irregular seja praticada, por omissão
+ou comissão, com negligência, imperícia ou imprudência do prestador de serviços, em circunstancias que
+não acarretem grave prejuízo aos usuários.
+§2º Deverá ser aplicada a penalidade de multa nas hipóteses de infrações de natureza média e alta,
+descumprimento da penalidade de advertência e reincidência, independentemente da lavratura de novo
+procedimento de apuração da infração, cujos valores serão determinados mediante utilização de percentual
+sobre o valor das tarifas arrecadadas no mês de ocorrência da infração, correspondente às receitas de
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 5
+sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana e manejo de resíduos
+sólidos e de drenagem e manejo de águas pluviais urbanas, relativas à exploração dos serviços outorgados
+e/ou delegados.
+Seção IV
+Da multa
+Art. 11. A multa deverá observar o percentual máximo definido nos instrumentos contratuais entre o
+titular e o prestador ou, nos casos omissos, os percentuais e valores estabelecidos nesta Resolução.
+Parágrafo único. As transgressões que não forem corrigidas no prazo estabelecido pelo órgão regulador
+serão acrescidas de multa diária no valor correspondente a 3,33% do valor da multa atribuída ao Grupo 3,
+por dia de atraso.
+Art. 12. Na fixação dos valores das multas serão consideradas a gravidade da infração e as circunstâncias
+agravantes e atenuantes.
+Art. 13. A pena de multa será aferida em duas etapas:
+I - primeiramente, proceder-se-á a fixação da pena-base;
+II – posteriormente, sobre ela serão aplicadas as circunstâncias agravantes e atenuantes, se houver, de
+modo a determinar o valor final da penalidade
+Art. 14. A pena-base será calculada aplicando-se a alíquota correspondente a gravidade da não
+conformidade/infração, da seguinte forma:
+I – R$ 20.000,00 (vinte mil reais), se a infração for de natureza leve, correspondente ao Grupo 1.
+II – R$ 50.000,00 (cinquenta mil reais), se a infração for de natureza média, correspondente ao Grupo 2.
+III – R$ 70.000,00 (setenta mil reais), se a infração for de natureza alta, correspondente ao Grupo 3.
+Art. 15. A ocorrência de cada uma das circunstâncias agravantes implica aumento de 1/6 (um sexto) sobre
+a pena-base aferida.
+Parágrafo único. Consideram-se circunstâncias agravantes:
+I - ser o prestador de serviços reincidente, exceto se a punição anterior aplicada tenha sido advertência;
+II - decorrer da infração riscos à saúde ou ao meio ambiente; e
+III - ter o prestador de serviços agido com dolo.
+Art. 16. A ocorrência de cada uma das circunstâncias atenuantes implica redução de 1/6 (um sexto) sobre a
+pena-base aferida.
+Parágrafo único. Consideram-se circunstâncias atenuantes:
+I - ter o prestador de serviços adotado providências para evitar, minimizar ou reparar os efeitos danosos da
+infração;
+II - ter o prestador de serviços comunicado à AGERO, voluntariamente, a ocorrência da infração;
+III - a ocorrência de equívoco justificável na compreensão das normas contratuais, regulamentares e legais
+pertinentes à infração, claramente demonstrado em processo.
+Art. 17 A multa diária será aplicada sempre que as transgressões não forem corrigidas no prazo
+estabelecido pelo órgão regulador.
+§1º Constatada a situação prevista no caput, o Termo de Adequação dos Serviços (TAS) deverá indicar
+que a não correção da transgressão no prazo estabelecido pelo órgão regulador resultará na aplicação da
+multa diária.
+§2º A multa diária deixará de ser aplicada a partir da data em que o autuado regularizar a situação que deu
+causa à lavratura do auto de infração, desde que comprovada a regularização em até 15 dias úteis.
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 6
+§3º Não comprovada a regularização em até 15 dias úteis, a multa diária deixará de ser aplicada a partir da
+data em que o autuado apresentar à AGERO documentos que comprovem a regularização da situação que
+deu causa à lavratura da infração.
+§4º Caso se verifique que a situação que deu causa à lavratura da infração não foi regularizada, a multa
+diária voltará a ser imposta desde a data em que deixou de ser aplicada, sendo notificado o autuado, sem
+prejuízo da adoção de outras sanções previstas nesta Resolução.
+§5º A penalidade, após o regular processo, será aplicada pela respectiva Diretoria, com possibilidade de
+recurso a Diretoria Colegiada, o qual deverá, em caso de procedência da autuação, decidir o período de
+sua aplicação e consolidar o montante devido pelo autuado, para posterior execução.
+§6º O valor da multa será consolidado e executado após o julgamento final, nos casos em que a infração
+não tiver cessado.
+CAPÍTULO II
+DO PROCESSO ADMINISTRATIVO PARA A APLICAÇÃO DE PENALIDADE
+Art. 18. Permanecendo não conformidades e não sendo atendidas as determinações e recomendações, será
+emitido Termo de Adequação dos Serviços (TAS), a partir do qual a fiscalização instaurará a fase punitiva
+mediante a lavratura do auto de infração.
+Art.19. O auto de infração conterá:
+I- identificação da AGERO e respectivo endereço;
+II- identificação do prestador autuado e respectivo endereço;
+III - descrição dos fatos ou dos atos constitutivos das infrações;
+IV- relação das não conformidades com sua respectiva fundamentação;
+V - indicação do prazo de 30 (trinta) dias úteis para recolhimento da multa, se for o caso, ou apresentação
+de defesa administrativa;
+VI - instruções para o recolhimento da multa; e
+VII - local, data da lavratura, identificação do autuante e menção à possibilidade de apresentação de defesa
+administrativa à respectiva Diretoria.
+§ 1º O auto de infração será entregue ou enviado mediante mensagem eletrônica, ou por outro meio que
+comprove o respectivo recebimento, ao representante designado pelo prestador de serviços.
+§ 2º Uma cópia do auto de infração será remetida ou entregue, para efeito de comunicação, ao titular dos
+serviços.
+Seção ÚNICA
+Do Compromisso de Ajustamento de Conduta
+Art. 20. Antes da instauração do processo administrativo, no prazo máximo de 15 (quinze) dias úteis
+contados da ciência, pelo prestador e pelo titular, do Termo de Adequação dos Serviços (TAS), o titular
+poderá solicitar à Diretoria Colegiada, com a concordância do prestador, alternativamente à imposição de
+penalidade a formalização de Compromisso de Ajustamento de Conduta (CAC) às disposições legais,
+regulamentares ou contratuais aplicáveis, visando solucionar as pendências constantes no Termo de
+Adequação de Serviços (TAS).
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 7
+§1º O CAC será submetido à aprovação da Diretoria Colegiada, após manifestação dos técnicos
+competentes, sobretudo os da área jurídica, econômica e de engenharia.
+§2º O CAC explicitará as obrigações do prestador, particularizando as etapas de execução e respectivos
+prazos para cada elemento ou não conformidade a ser regularizada.
+§3º As metas e compromissos objeto do termo referido neste artigo deverão, no seu conjunto, ser
+compatíveis com as obrigações previstas em lei, nos regulamentos e nos contratos que porventura tratem
+da prestação de serviços de saneamento básico.
+§4º Do CAC constará, necessariamente, o estabelecimento de multa pelo seu descumprimento, cujos
+valores serão balizados por esta Resolução.
+§5ºA multa a que se refere o §4º poderá ser imposta antes do prazo final estabelecido no CAC na hipótese
+de descumprimento a etapas e prazos parciais de execução das obrigações assumidas.
+§6º Constatado o integral cumprimento das obrigações assumidas pelo prestador no CAC, a respectiva
+Diretoria emitirá declaração atestando a quitação.
+§7º Caso ocorra cumprimento parcial do CAC, o valor da multa será atualizado com desconto dos valores
+relativos aos problemas já solucionados.
+§8º Caso o CAC seja celebrado alternativamente à imposição de penalidade, o valor da multa a que se
+refere o §4º será correspondente ao montante da penalidade que seria aplicada, acrescida de 20% (vinte
+por cento).
+§9º O CAC poderá ser revisto quando situações supervenientes imprevisíveis, de ordem extraordinária e
+extracontratual, acarretarem desequilíbrio financeiro que impeça a execução das obrigações originalmente
+assumidas pelo prestador.
+§10. A concessão de prazo para a regularização de não-conformidade não exime o prestador das
+responsabilidades pelos atos decorrentes de eventuais danos causados aos usuários ou terceiros durante a
+vigência do CAC.
+§11. Havendo descumprimento total ou parcial do CAC, será dado prosseguimento ao procedimento de
+aplicação de penalidade, lavrando-se o auto de infração.
+CAPÍTULO III
+DA DEFESA ADMINISTRATIVA CONTRA O AUTO DE INFRAÇÃO
+Art. 21. Da lavratura do auto de infração poderá a parte interessada apresentar defesa administrativa no
+prazo de 30 (trinta) dias úteis, a contar do seu recebimento.
+Parágrafo único. A defesa administrativa será dirigida à respectiva Diretoria, que a julgará, mantendo ou
+não o Auto de Infração, no todo ou em parte, sempre fundamentando suas decisões.
+CAPÍTULO IV
+DO RECURSO ADMINISTRATIVO
+Art. 22. Da decisão caberá recurso administrativo à Diretoria Colegiada, que terá efeito suspensivo, no
+prazo de 30 (trinta) dias úteis, a contar da sua publicação ou por meio de seu representante legal, mediante
+mensagem eletrônica ou por outro meio que comprove o respectivo recebimento.
+§1º O recurso administrativo deve ser apresentado por mensagem eletrônica, sendo dirigido à respectiva
+Diretoria, que, no prazo de 5 (cinco) dias úteis, o encaminhará à Diretoria Colegiada, que poderá ratificar,
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 8
+reformar ou anular, total ou parcialmente, a decisão recorrida.
+§2º A Diretoria Colegiada terá o prazo de até 2 (duas) reuniões para decidir sobre o recurso administrativo,
+contados a partir do recebimento dos autos pelo relator, podendo esse prazo ser prorrogado por igual
+período, desde que justificado.
+§3º Será designado como relator, mediante sorteio, um dos membros da Diretoria Colegiada, para
+elaboração de relatório e voto.
+§4º Da decisão da Diretoria Colegiada não caberá qualquer outro recurso.
+§5º O prestador autuado deverá ser cientificado da data de julgamento do recurso, bem como da decisão do
+conselho, por meio do órgão oficial da AGERO.
+§6º As penalidades previstas nesta Resolução aplicam-se sem prejuízo:
+I - das sanções de natureza civil e penal;
+II - das sanções administrativas específicas previstas na legislação setorial, incluindo normas da AGERO,
+desde que não impliquem mais de uma sanção de igual natureza para um mesmo fato gerador.
+§7º Caso a Diretoria Colegiada não esteja composta pelos três empregados que a compõem, as vagas
+faltantes serão supridas,
+pro tempore
+, por outros empregados da AGERO.
+Seção ÚNICA
+Do Pagamento da Multa
+Art. 23. Toda multa deverá ser paga mediante depósito bancário identificado em nome do prestador de
+serviços, em conformidade com as condições estabelecidas na decisão de imposição da penalidade, não
+sendo admitidas compensações, nem tampouco sua contabilização como custos para efeito de cálculo
+tarifário, devendo estes custos serem sempre contabilizados separadamente, de modo que não onerem a
+tarifa.
+Art. 24. Os valores das multas em razão da aplicação desta Resolução serão revertidos em favor de ações
+de saneamento e de educação ambiental em proveito de todos os regulados pela AGERO, em
+conformidade com as deliberações pela Diretoria Colegiada.
+Art. 25. A omissão no recolhimento da multa no prazo estipulado no auto de infração, sem interposição de
+defesa ou recurso, ou no prazo estabelecido em decisão irrecorrível na esfera administrativa, acarretará a
+inscrição do valor correspondente em dívida ativa em proveito da AGERO, com aplicação de juros e multa
+de mora.
+§ 1º Os juros de mora serão calculados à taxa referencial do Selic (Sistema Especial de Liquidação e
+Custódia) acumulada mensalmente, a partir do primeiro dia do mês subsequente ao vencimento do prazo
+até o mês anterior ao do pagamento.
+§ 2º A multa de mora será calculada à taxa de 0,33% (trinta e três centésimos por cento) por dia de atraso;
+sendo que deve ser calculada a partir do primeiro dia subsequente ao do vencimento do prazo previsto para
+o recolhimento até o dia em que ocorrer o seu pagamento.
+Art. 26. A aplicação da multa não afasta a obrigação do prestador em cumprir com as metas previstas na
+legislação ou nos contratos de programa ou concessão.
+CAPÍTULO V
+DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 9
+Art. 27. A qualquer momento poderá ser solicitada pela respectiva Diretoria ou pela Diretoria Colegiada a
+emissão de parecer jurídico sobre fato determinado que gere dúvida quanto à legalidade de ato
+administrativo expedido ou procedimento adotado pela AGERO.
+Art. 28. Na contagem dos prazos, excluir-se-á o dia do início e incluir-se-á o do vencimento, iniciando-se
+e encerrando-se em dia útil da semana, devendo a contagem ser realizada sempre em dias úteis.
+Art. 29. As infrações e penalidades específicas relativas aos eixos de limpeza urbana e manejo de resíduos
+sólidos urbanos serão objeto de inclusão e detalhamento nesta Resolução em até 24 (vinte e quatro) meses
+após sua publicação.
+Art. 30. As infrações e penalidades específicas relativas aos eixos de drenagem e manejo de águas pluviais
+urbanas serão objeto de inclusão e detalhamento nesta Resolução em até 24 (vinte e quatro) meses após
+sua publicação.
+Art. 31. Esta Resolução entra em vigor a partir da data de publicação para novos procedimentos
+fiscalizatórios, revogando os dispositivos contrários para novos processos fiscalizatórios.
+Porto Velho/RO, 23 de julho de 2026.
+ANEXO I
+MANUAL DE FISCALIZAÇÃO DOS PRESTADORES DE SERVIÇOS DE SANEAMENTO BÁSICO
+DA AGÊNCIA DE REGULAÇÃO DOS SERVIÇOS PÚBLICOS DELEGADOS DE RONDÔNIA –
+AGERO
+APRESENTAÇÃO
+Este manual tem por objetivo estabelecer os procedimentos administrativos internos da Agência de
+Regulação de Serviços Públicos Delegados do Estado de Rondônia – AGERO, na sua qualidade de ente
+regulador, para a realização das atividades de fiscalização junto aos prestadores de serviços de saneamento
+básico. A finalidade é regulamentar e padronizar o método de atuação fiscalizatória em todos os eixos do
+saneamento — abastecimento de água, esgotamento sanitário, limpeza urbana e manejo de resíduos
+sólidos, e drenagem e manejo de águas pluviais — desde o planejamento inicial até a conduta das equipes
+em campo e a conclusão dos ritos administrativos.
+As atividades regulatórias de avaliação e fiscalização dos serviços são estabelecidas conforme os planos de
+trabalho anuais, a agenda regulatória emitida pela Diretoria Colegiada e o acolhimento de demandas
+extraordinárias surgidas ao longo do exercício. Tais atividades observarão, obrigatoriamente, as
+especificidades dos contratos de concessão, contratos de programa, parcerias público-privadas e os
+respectivos Planos Municipais de Saneamento Básico, buscando sempre a convergência entre o
+cumprimento das metas contratuais e a melhoria efetiva da qualidade dos serviços entregues à população
+rondoniense.
+Na fiscalização técnica e operacional dos sistemas que compõem o saneamento básico, a AGERO pautará
+sua atuação nos regulamentos de serviços vigentes e nas Normas de Referência da Agência Nacional de
+Águas e Saneamento Básico (ANA). Adotar-se-ão, complementarmente, os procedimentos, definições,
+conceitos, métodos e terminologias estabelecidos pelas normas técnicas da Associação Brasileira de
+Normas Técnicas (ABNT) e demais normativos de conselhos profissionais, garantindo o rigor técnico
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 10
+necessário para a indução da eficiência e da segurança operacional das infraestruturas reguladas.
+TERMINOLOGIA
+No âmbito deste manual, fica adotada a seguinte terminologia:
+ABNT: Associação Brasileira de Normas Técnicas;
+ADUTORA DE ÁGUA BRUTA: tubulação destinada a conduzir água de um manancial para uma estação
+de tratamento de água;
+ADUTORA DE ÁGUA TRATADA: tubulação destinada a conduzir água tratada de uma estação de
+tratamento de água para um reservatório de distribuição, para uma unidade de bombeamento ou para uma
+rede de distribuição;
+BOMBA DE ESGOTO: equipamento destinado a bombear o esgoto doméstico em instalações sanitárias
+situadas abaixo do nível da rede coletora de esgoto;
+CADASTRO TÉCNICO DO SISTEMA: conjunto de elementos textuais, gráficos e outras formas de
+registro em mídia impressa ou digital, incluindo sua representação cartográfica em escala apropriada e
+georreferenciada, com as informações necessárias e suficientes para a perfeita individualização e
+caracterização dos elementos físicos dos sistemas de abastecimento de água, de esgotamento sanitário, de
+limpeza urbana e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, afetos à
+prestação dos serviços, com sua atualização anual;
+CAIXA DE INSPEÇÃO DE CALÇADA: dispositivo para conexão do(s) ramal(is) predial de esgoto com
+a instalação predial de esgoto;
+CHORUME OU PERCOLADO: líquido gerado pela decomposição de substâncias contidas nos resíduos
+sólidos, tendo como características a cor escura, o mau cheiro e elevadas DBO (Demanda Bioquímica de
+Oxigênio) e DQO (Demanda Química de Oxigênio);
+COLETA DOMICILIAR: coleta regular dos resíduos domiciliares, formados por resíduos gerados em
+residências, estabelecimentos comerciais, industriais, públicos e de prestação de serviços, cujos volumes e
+características sejam compatíveis com a legislação vigente;
+COLETA SELETIVA: recolhimento diferenciado de resíduos sólidos previamente selecionados nas fontes
+geradoras, com o intuito de encaminhá-los para reutilização, reaproveitamento, reciclagem, compostagem,
+tratamento ou destinação final adequada;
+COLETA: ato de recolher e transportar resíduos sólidos de qualquer natureza, utilizando veículos e
+equipamentos apropriados para tal fim;
+COLETOR: tubulação destinada à recepção de esgoto sanitário em qualquer ponto ao longo de sua
+extensão;
+COMPOSTAGEM: processo de decomposição biológica da fração orgânica biodegradável dos resíduos,
+efetuado por uma população diversificada de organismos, em condições controladas de aerobiose e demais
+parâmetros;
+CONCESSÃO DE SERVIÇO PÚBLICO: delegação de sua prestação, feita pelo poder concedente,
+mediante licitação, na modalidade de concorrência, à pessoa jurídica ou consórcio de empresas que
+demonstre capacidade para seu desempenho, por sua conta e risco e por prazo determinado;
+CONSTATAÇÃO: descrição de procedimento(s) ou fato(s) proveniente(s) de ações do prestador inerentes
+à prestação de serviços de sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana
+e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas;
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS: instrumento celebrado pelo município titular tendo por
+objeto atividades e etapas relacionadas à prestação de serviços de limpeza urbana e manejo de resíduos
+sólidos (terceirização), sem que haja a delegação;
+CONTROLE SOCIAL: conjunto de mecanismos e procedimentos que garantem à sociedade informações,
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 11
+representações técnicas e participação nos processos de formulação de políticas, de planejamento e de
+avaliação relacionados aos serviços públicos de saneamento básico;
+DESTINAÇÃO FINAL AMBIENTALMENTE ADEQUADA: destinação de resíduos que inclui a
+reutilização, a reciclagem, a compostagem, a recuperação e o aproveitamento energético ou outras
+destinações admitidas pelos órgãos competentes do Sistema Nacional do Meio Ambiente (Sisnama), do
+Sistema Nacional de Vigilância Sanitária (SNVS) e do Sistema Unificado de Atenção à Sanidade
+Agropecuária (Suasa), entre elas a disposição final, observando normas operacionais específicas de modo
+a evitar danos ou riscos à saúde pública e à segurança e a minimizar os impactos ambientais;
+DETERMINAÇÃO: ação que deve ser cumprida pelo prestador, por determinação do ente regulador, em
+razão de não-conformidade constatada quando da fiscalização; destina-se a corrigir procedimentos que
+acarretem prejuízo aos usuários ou ineficiências dos sistemas;
+DISPOSIÇÃO FINAL AMBIENTALMENTE ADEQUADA: distribuição ordenada de rejeitos em aterros,
+observando normas operacionais específicas de modo a evitar danos ou riscos à saúde pública e à
+segurança e a minimizar os impactos ambientais adversos;
+EMISSÁRIO: tubulação do sistema de esgoto sanitário, destinado ao transporte dos esgotos coletados para
+a estação de tratamento de esgotos ou para o ponto de lançamento final, recebendo contribuições apenas
+na extremidade de montante (entrada);
+ESGOTO DOMÉSTICO: despejo líquido resultante do uso da água para higiene e necessidades
+fisiológicas humanas;
+ESGOTO INDUSTRIAL: despejo líquido resultante dos processos industriais, respeitados os padrões de
+lançamento estabelecidos;
+ESGOTO SANITÁRIO: despejo líquido constituído de esgotos doméstico e industrial, água de infiltração
+e a contribuição pluvial parasitária;
+ESTAÇÃO DE BOMBEAMENTO DE ESGOTO: conjunto de obras civis, equipamentos elétricos e
+hidráulicos utilizados para elevação do gradiente hidráulico do esgoto para transporte até estação de
+tratamento ou para disposição final por meio de emissário;
+ESTUDO DE CONCEPÇÃO DE SISTEMAS PÚBLICOS DE ABASTECIMENTO DE ÁGUA: conjunto
+de elementos técnicos, econômicos e financeiros apresentados pelo prestador e aplicáveis à definição do
+sistema público de abastecimento de água com amplitude suficiente para permitir o desenvolvimento do
+projeto de todas ou qualquer das partes constituintes do sistema, sua ampliação e/ou aproveitamento do
+sistema existente, observada a legislação e a regulamentação ambiental aplicável e as demais
+determinações do Plano Municipal de Saneamento Básico, observada ainda a norma NBR-ABNT
+12.211/92 ou outra(s) que a substituir e demais normas correlatas;
+ESTUDO DE CONCEPÇÃO DE SISTEMAS PÚBLICOS DE ESGOTO SANITÁRIO: conjunto de
+elementos técnicos, econômicos e financeiros desenvolvidos pelo prestador de serviços para a escolha da
+solução proposta para o sistema de esgoto sanitário, com amplitude suficiente para permitir o
+desenvolvimento do projeto de todas ou qualquer das partes que o constituem, observada a
+regulamentação ambiental aplicável e as demais determinações do Plano Municipal de Saneamento
+Básico, observada ainda a norma NBR-ABNT 648/86 ou outra(s) que a substituir e demais normas
+correlatas;
+FISCALIZAÇÃO REGULATÓRIA: atividades de verificação do atendimento às condições gerais de
+prestação dos serviços de saneamento, em conformidade com as diretrizes, políticas públicas e legislações
+nacionais, estaduais e municipais, bem como às normas específicas da entidade reguladora, através da
+avaliação indireta de indicadores e metas operacionais e econômicas;
+GERADORES DE RESÍDUOS SÓLIDOS: pessoas físicas ou jurídicas que geram resíduos sólidos por
+meio de suas atividades, nelas incluído o consumo;
+GESTÃO DE CONTRATOS PÚBLICOS: atividade técnica, administrativa e financeira inerente ao
+contratante público, que engloba o acompanhamento, o controle e a fiscalização sistemática de todas as
+etapas previstas no contrato, atestando as medições, liberando os pagamentos, aplicando penalidades e
+tomando todas as providências necessárias para que o objeto do contrato seja executado nos prazos e
+condições fixadas no instrumento contratual;
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 12
+GESTÃO INTEGRADA DE RESÍDUOS SÓLIDOS: conjunto de ações voltadas para a busca de soluções
+para os resíduos sólidos, de forma a considerar as dimensões política, econômica, ambiental, cultural e
+social, com controle social e sob a premissa do desenvolvimento sustentável;
+HIDRANTE: elemento da rede de distribuição cuja finalidade principal é a de fornecer água para combate
+a incêndio;
+HIDRÔMETRO: aparelho destinado a medir e registrar, cumulativamente, o volume de água utilizado;
+IMÓVEL FACTÍVEL DE LIGAÇÃO: imóvel não conectado ao sistema público e situado em logradouro
+provido de rede de água e/ou esgoto sanitário;
+IMÓVEL POTENCIAL DE LIGAÇÃO: imóvel urbano situado em logradouro desprovido de rede de
+distribuição de água e/ou esgoto sanitário;
+IMÓVEL: unidade predial ou territorial urbana;
+INSTALAÇÃO PREDIAL DE ESGOTO: conjunto de canalizações, aparelhos, equipamentos e
+dispositivos, localizados internamente no imóvel, até a caixa de inspeção de calçada;
+INTERCEPTOR: tubulação destinada a coletar o esgoto transportado pelos coletores, de modo a evitar
+que desaguem em área a ser protegida e evitando descargas diretas de esgoto no ambiente aquático;
+LIMPEZA URBANA E MANEJO DE RESÍDUOS SÓLIDOS: conjunto de atividades previstas no art. 7º
+da Lei Federal nº 11.445, de 2007;
+NÃO-CONFORMIDADE: procedimento ou constatação que esteja em desacordo com os dispositivos
+legais, contratuais, regulamentares ou estabelecidos pela AGERO que disciplinam a prestação dos serviços
+públicos de sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana e manejo de
+resíduos sólidos e de drenagem e manejo de águas pluviais urbanas e/ou o cumprimento de obrigações,
+por parte do prestador, junto à AGERO.
+PARCERIA PÚBLICO-PRIVADA (PPP): é o contrato administrativo de concessão, na modalidade
+patrocinada (quando envolver, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do
+parceiro público ao parceiro privado) ou administrativa (em que a Administração Pública seja a usuária
+direta ou indireta, ainda que envolva execução de obra ou fornecimento e instalação de bens);
+PLANO MUNICIPAL DE SANEAMENTO BÁSICO: documento editado pelos titulares dos serviços nos
+termos do art. 19 da Lei 11.445, de 2007, contendo diagnóstico da situação, os objetivos e metas de curto,
+médio e longo prazos para a universalização dos serviços, assim como os programas, projetos e ações
+necessárias para atingir os objetivos e as metas estabelecidas para o(s) município(s); para o caso dos
+serviços prestados de forma associada e regionalizada o plano de saneamento básico poderá ser elaborado
+para o conjunto de municípios atendidos pelo mesmo prestador;
+POÇO DE VISITA: elemento de inspeção da rede coletora de esgoto;
+PRESSÃO NA REDE: pressão de água em que é submetida a rede de distribuição, medida em bar (ou
+kgf/cm2);
+RAMAL PREDIAL DE ÁGUA: canalização compreendida entre o colar de tomada ou peça de derivação
+até a última conexão do quadro do hidrômetro, sob responsabilidade do prestador dos serviços;
+RECICLAGEM: processo de transformação dos resíduos sólidos que envolve a alteração de suas
+propriedades físicas, físico-químicas ou biológicas, com vistas à transformação em insumos ou novos
+produtos, observadas as condições e os padrões estabelecidos pelos órgãos competentes;
+RECOMENDAÇÃO: ação que, segundo entendimento do ente regulador, é desejável que o prestador
+atenda, em vista da melhoria dos serviços prestados e da sua eficiência;
+REDE COLETORA DE ESGOTO SANITÁRIO: tubulação destinada a coletar esgoto doméstico derivado
+dos imóveis, transportando-o até o coletor;
+REDE DE DISTRIBUIÇÃO DE ÁGUA: tubulação de onde é realizada a derivação do ramal predial de
+água;
+REJEITOS: resíduos sólidos que, depois de esgotadas todas as possibilidades de tratamento e recuperação
+por processos tecnológicos disponíveis e economicamente viáveis, não apresentem outra possibilidade que
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 13
+não a disposição final adequada;
+RESERVATÓRIO DE ÁGUA BRUTA: elemento do sistema de abastecimento de água destinado a
+acumular água bruta, não tratada, o qual pode ser construído através de barramento no curso d’água onde é
+realizada a captação de água bruta;
+RESERVATÓRIO DE DISTRIBUIÇÃO: elemento do sistema de abastecimento de água destinado a
+acumular água para regularizar as diferenças entre o abastecimento e o consumo, os quais se verificam em
+um dia, promovendo as condições de abastecimento contínuo;
+RESÍDUOS SÓLIDOS URBANOS: material, substância, objeto ou bem descartado resultante de
+atividades humanas, originários de atividades domésticas em residências urbanas, da varrição, limpeza de
+logradouros e vias públicas, bem como aqueles resultantes de estabelecimentos comerciais e prestadores
+de serviços, caracterizados como não perigosos que, em razão de sua natureza, composição ou volume,
+podem ser equiparados aos resíduos domiciliares pelo poder público municipal;
+SISTEMA DE ABASTECIMENTO DE ÁGUA: conjunto de instalações e equipamentos, que tem por
+finalidade captar, aduzir, tratar, reservar e distribuir água potável;
+SISTEMA DE ESGOTO SANITÁRIO SEPARADOR: conjunto de condutos, instalações e equipamentos
+destinados a coletar, transportar, condicionar e encaminhar somente esgoto sanitário a uma disposição
+final conveniente, de modo contínuo e higienicamente seguro.
+SISTEMA DE MACROMEDIÇÃO: conjunto de instrumentos de medição, permanentes ou portáteis,
+empregados para a obtenção de dados de vazões e pressões em pontos significativos de um sistema de
+abastecimento de água;
+SISTEMA DE MICROMEDIÇÃO: conjunto de instrumentos e atividades relacionadas com a instalação,
+operação e manutenção de hidrômetros;
+SISTEMA PÚBLICO DE ESGOTO MISTO: conjunto de condutos compartilhados para coleta e
+transporte de esgoto sanitário e do deflúvio superficial urbano destinado a acondicionar e encaminhar o
+efluente misto a instalações e equipamentos de tratamento de esgotos convenientemente projetados,
+garantindo uma disposição final adequada, de modo contínuo e higienicamente seguro, de acordo com a
+legislação ambiental aplicável; e
+TRATAMENTO DOS RESÍDUOS: processo destinado à redução de massa, volume, periculosidade ou
+potencial poluidor dos resíduos sólidos, que envolve alteração das propriedades físicas, químicas ou
+biológicas;
+TRIAGEM: atividade relacionada ao reuso e à reciclagem de resíduos, em que se realiza a separação
+criteriosa dos materiais visando a sua destinação final ambientalmente adequada;
+USUÁRIO: pessoa física ou jurídica que se beneficia ou utiliza, efetiva ou potencialmente, de serviço
+público de saneamento básico.
+1. ABRANGÊNCIA E FORMAS DE FISCALIZAÇÃO
+O Manual de Fiscalização abrange os sistemas de abastecimento de água, de esgotamento sanitário, de
+limpeza urbana e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, bem
+como obrigações do prestador junto à AGERO, considerando a autonomia e atribuições do titular e do
+prestador de serviço. Por fiscalização, entendem-se duas formas:
+a) Fiscalização Direta: realizada através de inspeções físicas, com a presença da equipe de técnicos
+in
+loco
+, nos componentes de sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana
+e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas e atendimento comercial;
+b) Fiscalização Indireta: realizada através de monitoramento à distância por meio de uso de indicadores de
+desempenho e demais informações da prestação de serviços ou de cumprimento de obrigações do
+prestador junto à AGERO, proporcionando uma avaliação direta e continua de sua eficiência e eficácia.
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 14
+Este Manual abrange a fiscalização de forma direta, dividida em dois tipos:
+a) Fiscalização Direta Sob Demanda: Realizada através de demandas não programadas, originadas por
+meio de Ouvidoria, denúncias, Ministério Público, Diretoria Colegiada, informações de mídias,
+legislativos municipais, necessidade de averiguações detalhadas que forem geradas durante outras
+fiscalizações, dentre outras origens congêneres;
+b) Fiscalização Direta Regular: Realizada periodicamente nas instalações do prestador dos serviços de
+saneamento, atendendo a um calendário previamente estabelecido. Trata-se de um procedimento proativo
+do ente regulador.
+Quanto às ações, conforme a tipologia da fiscalização, compreende-se:
+a) Ação Eventual: Ocorrerá de forma casual, por iniciativa do ente regulador ou por provocação externa;
+b) Ação Emergencial: Ocorrerá em situações emergenciais, quando fatos extraordinários forem
+identificados junto ao sistema;
+c) Ação Inicial: Refere-se ao primeiro ato fiscalizatório regular em relação à prestação de serviços de
+saneamento básico e/ou demais obrigações do prestador junto à AGERO; objetiva inspecionar a estrutura e
+funcionamento da unidade, identificando não-conformidades;
+d) Ação de Acompanhamento: Realizada com a visão de identificar se as não conformidade foram
+solucionadas;
+e) Ação de Controle: refere-se ao controle do sistema de saneamento básico, desde a área comercial até
+indicadores.
+A abrangência de cada uma é descrita na Tabela 1.
+Modalidade
+Tipo
+Abrangência
+Ação
+Periodicidade
+Direta
+Sob demanda
+Sistemas de abastecimento de
+água, de esgotamento
+sanitário, de limpeza urbana e
+manejo de resíduos sólidos e
+de drenagem e manejo de
+águas pluviais urbanas, e
+atendimento comercial, focado
+no fato de origem e/ou demais
+obrigações do prestador junto
+à AGERO
+Eventual
+Emergencial
+Eventual
+Direta
+Regular
+Instalações dos sistemas de
+abastecimento de água, de
+esgotamento sanitário, de
+limpeza urbana e manejo de
+resíduos sólidos e de
+drenagem e manejo de águas
+pluviais urbanas, e/ou demais
+obrigações do prestador junto
+à AGERO
+Inicial
+Acompanhamento
+Controle
+Programada
+2. PROCEDIMENTOS DE FISCALIZAÇÃO
+Neste tópico, são descritas as etapas que compõem os procedimentos gerais para a realização da
+fiscalização dos serviços sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana
+e manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, a ser executada e/ou
+demais obrigações do prestador junto à AGERO.
+Cada etapa se diferencia conforme a tipologia da fiscalização e, em casos específicos, de acordo com sua
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 15
+abrangência.
+2.1 Atividades Preliminares
+2.1.1 Planejamento da Fiscalização
+O planejamento da fiscalização inicia-se pelo acolhimento e identificação das demandas registradas,
+principalmente, no Sistema de Ouvidoria, referentes ao prestador e por município e pelo acompanhamento
+do Cronograma de Fiscalização Regular estipulado anualmente pela Diretoria Colegiada.
+Cada solicitação de fiscalização será regida sob um número de abertura de processo de ação de
+fiscalização, que deverá ser aberto/recebido/reaberto, conforme cada caso, e encaminhado à respectiva
+Diretoria , a qual direcionará o processo para o setor competente. No recebimento do processo, caberá ao
+corpo técnico da AGERO avaliar a solicitação de fiscalização quanto a sua pertinência e embasamento
+técnico.
+Para fiscalização direta regular é necessário, previamente, analisar os resultados das fiscalizações
+anteriores e os relatórios anuais do prestador com os indicadores de desempenho previstos nos contratos
+e/ou os demais elementos informativos apresentados pelo município e pelo prestador, enfatizando aqueles
+aspectos apontados como deficientes, e para os quais o prestador deveria ter adotado medidas para
+melhoria da qualidade dos serviços ou da sua eficiência. Para fiscalização direta sob demanda, quando
+necessário, conforme a matriz da demanda, a fiscalização deverá analisar resultados de fiscalizações
+anteriores, verificando o histórico de reincidência de fatos e manifestação das partes.
+Além deste manual, a fiscalização da AGERO deverá, previamente, analisar a legislação aplicável, em
+especial a Lei Federal nº 11.445, de 2007, e suas alterações posteriores, o Decreto Federal nº 7.217, de
+2010, e suas alterações posteriores, a PRC n° 5, de 28 de setembro de 2017, os contratos de programa ou
+os contratos de concessão, conforme o caso, além dos planos municipais de saneamento básico e demais
+instrumentos de planejamento, visando atualizar os critérios e exigências a serem adotados nos
+procedimentos de fiscalização.
+2.1.2 Envio de Ofício ao Prestador
+No início do ciclo de fiscalização, a AGERO enviará um ofício para a alta direção do prestador a ser
+fiscalizado, informando o período dos trabalhos, os participantes da fiscalização e o respectivo
+coordenador, bem como a documentação e os recursos que deverão ser disponibilizados previamente e
+durante os procedimentos de fiscalização. A emissão do ofício deve ser feita com uma antecedência
+mínima de 30 (trinta) dias com relação ao período previsto para início das atividades de fiscalização.
+Para fiscalizações regulares, além de encaminhamento de oficio para o prestador de serviço, também será
+enviado ofício para o município no qual será realizada a fiscalização, informando o período dos trabalhos e
+solicitando o acompanhamento de um representante municipal durante o ato fiscalizatório.
+Nos casos de fiscalização sob demanda que exigirem urgência no ato fiscalizatório, ou naquelas que digam
+respeito ao cumprimento de demais obrigações do prestador junto à AGERO ou em relação aos usuários, o
+envio de oficio preliminar é dispensável, bem como informativos ao prestador/solicitante referenciando-se
+ao ato. Entende-se por fiscalização com urgência casos de denúncias, situações emergenciais de
+abastecimento e esgotamento, desastres ambientais e calamidades, interrupções dos serviços,
+irregularidade na cobrança e disponibilidade de serviço, ocorrências excepcionais nos serviços e toda e
+qualquer ocorrência excepcional e imprevisível que necessite de pronto e imediato atendimento.
+2.1.3 Dados e Documentos Solicitados pela AGERO
+Em anexo ao ofício, será encaminhada uma relação dos dados e documentos necessários à execução dos
+trabalhos de fiscalização, conforme modelo constante neste manual. Uma parte dos documentos listados
+nessa relação deverá ser encaminhada previamente pelo prestador à agência de regulação, e a parte restante
+deverá ser disponibilizada no próprio prestador quando da execução da fiscalização. O prazo para
+recebimento das informações solicitadas previamente da realização da fiscalização é fixado em 10 (dez)
+dias úteis previamente ao início das atividades de campo.
+2.1.4 Análise das Informações Recebidas
+No conjunto das informações remetidas pela empresa, a equipe fiscalizadora deverá registrar os pontos de
+destaque a serem considerados e anotar todos os aspectos relevantes para a garantia do bom andamento
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 16
+dos trabalhos durante a fiscalização.
+2.1.5 Elaboração do Plano de Ação Para Saída a Campo
+A fiscalização da AGERO deverá estabelecer um plano de ação próprio e que envolverá os seguintes
+pontos preliminares:
+1) definição e distribuição dos participantes da equipe para a execução da fiscalização;
+2) os acertos da agenda com os envolvidos no ato fiscalizatório sobre os últimos detalhes da visita;
+3) contato antecipado, próximo ao início dos trabalhos, com o representante previamente indicado pelo
+prestador para o recebimento da equipe de fiscalização, exceto para fiscalização sob demanda com
+urgência;
+4) preparação da apresentação da equipe de fiscalização, com definição dos principais pontos a serem
+observados
+in loco
+, buscando a otimização dos recursos, em especial combustível e otimização do uso dos
+veículos, na tendência ESG;
+5) estratégia de desenvolvimento dos trabalhos (início, duração da jornada, dentre outros pontos);
+6) método para elaboração do relatório preliminar; e
+7) definição do local e da data da reunião de encerramento, caso seja necessário.
+Este tópico não se aplica nos procedimentos de aplicação de penalidades que digam respeito ao
+cumprimento de demais obrigações do prestador junto à AGERO, definidas em resolução própria, ou em
+relação aos usuários.
+2.2 Saída a campo
+2.2.1 Execução da Fiscalização
+Durante a fiscalização, a equipe técnica deverá avaliar a organização, métodos e processos, recursos
+humanos e materiais empregados pela área técnica do prestador, além dos elementos técnicos da
+infraestrutura dos sistemas de abastecimento de água, de esgotamento sanitário, de limpeza urbana e
+manejo de resíduos sólidos e de drenagem e manejo de águas pluviais urbanas, identificando fatores que
+estão prejudicando ou que possam vir a prejudicar a qualidade dos serviços de sistemas de abastecimento
+de água, de esgotamento sanitário, de limpeza urbana e manejo de resíduos sólidos e de drenagem e
+manejo de águas pluviais urbanas, e do atendimento ao consumidor, nos termos da legislação em vigor,
+do(s) contrato(s) de prestação de serviços, caso existentes, do Regulamento dos Serviços, do contrato de
+fornecimento dos serviços, do(s) plano(s) municipal(is) de saneamento e do Plano Estadual de
+Saneamento, quando for o caso. Para fiscalizações sob demanda, deverá ser dada ênfase aos fatores
+específicos que geraram a ocorrência.
+Deve ser verificada a regularização de não conformidades e avaliado o cumprimento das recomendações e
+determinações constantes de relatórios de fiscalização anteriores.
+Na execução da fiscalização, deve ser observado o procedimento detalhado adiante. Este tópico não
+extingue procedimentos de aplicação de penalidades que digam respeito ao cumprimento de demais
+obrigações do prestador junto à AGERO, definidas em resolução própria, ou em relação aos usuários.
+2.2.2 Reunião de abertura
+A reunião de abertura formaliza o início das atividades de campo, estabelecendo as condições e objetivos
+do ato fiscalizatório.
+A equipe de fiscalização deve apresentar-se ao prestador, descrever o objeto da fiscalização e seu escopo e
+esclarecer eventuais dúvidas dos representantes da prestadora em relação à fiscalização. Em caso de
+pendência de informações, a fiscalização deve solicitá-las antes do início da atividade de campo, definindo
+um prazo final para a entrega respectiva.
+O prestador deve apresentar a equipe que irá acompanhar a fiscalização e informar informações gerais
+pertinentes e da área de operação, manutenção e expansão, destacando seus pontos principais e as maiores
+dificuldades ou problemas registrados no período imediatamente anterior ou objeto da fiscalização. Ainda,
+deve esclarecer eventuais dúvidas da equipe de fiscalização sobre a concepção e operação do sistema
+fiscalizado.
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 17
+Este tópico não extingue procedimentos de aplicação de penalidades que digam respeito ao cumprimento
+de demais obrigações do prestador junto à AGERO, definidas em resolução própria, ou em relação aos
+usuários.
+2.2.3 Detalhamento do Cronograma/
+Checklist
+Ainda na sede do prestador ou em outro local previamente determinado, e em conjunto com os seus
+representantes, faz-se o detalhamento do cronograma/
+checklist
+de trabalho previamente elaborado e
+adaptado conforme características específicas da motivação do ato fiscalizatório.
+Este tópico não extingue procedimentos de aplicação de penalidades que digam respeito ao cumprimento
+de demais obrigações do prestador junto à AGERO, definidas em resolução própria, ou em relação aos
+usuários.
+2.2.4 Efetivação da Fiscalização
+As atividades de fiscalização compreendem entrevistas com as equipes normativas e executoras, em sendo
+o caso, nas suas respectivas áreas de trabalho e visitas às instalações do prestador com o objetivo de:
+1) aferir informações previamente recebidas;
+2) conhecer os procedimentos e relacionamentos das áreas normativas e executoras;
+3) verificar a adequação e coerência com os procedimentos especificados pelas áreas normativas; e
+4) verificar o cumprimento da legislação em vigor, em especial o(s) contrato(s) firmado(s) entre o
+prestador e o(s) município(s), caso existentes, o Regulamento dos Serviços, o contrato de fornecimento
+dos serviços, e o(s) plano(s) municipal(is) e Estadual de Saneamento, quando for o caso.
+A execução da fiscalização poderá ser acompanhada por representantes do prestador e do município. Este
+tópico não extingue procedimentos de aplicação de penalidades que digam respeito ao cumprimento de
+demais obrigações do prestador junto à AGERO, definidas em resolução própria, ou em relação aos
+usuários.
+2.2.5 Encerramento da Fiscalização
+A equipe de fiscalização apresenta-se à direção ou órgão competente designado do prestador, quando
+presentes, para comunicar o encerramento dos trabalhos e apresentar um comentário geral e informal do
+que foi observado.
+2.3 Relatório Técnico de Fiscalização (RTF)
+Deverão constar no Relatório Técnico de Fiscalização (RTF) o objetivo, a metodologia, a abrangência, as
+constatações, as não-conformidades, as determinações, as recomendações e as conclusões da equipe de
+fiscalização. Todos os elementos do relatório deverão ser baseados em evidências técnicas e científicas,
+consolidados para refletir a real situação dos itens fiscalizados a partir das informações coletadas. Neste
+documento, será obrigatória a inclusão de registro fotográfico dos componentes e estruturas relevantes
+visitadas, contendo os dados de geolocalização e o horário de cada captura.
+Deve ser observado no RTF que o processo de fiscalização empregado se caracteriza pela avaliação de
+aspectos julgados de maior relevância ou, conforme o caso, de objeto específico da fiscalização. Ressalte-
+se que, para efeito de constatação de não-conformidades na prestação do serviço público de saneamento, a
+observação de um único item ou de uma única ocorrência já constitui inobservância às normas e aos
+regulamentos formais.
+Da mesma forma, a existência de temas avaliados para os quais não se constate a ocorrência de não-
+conformidades não significa que não haja desvios em relação aos padrões e normas vigentes, não
+eximindo o prestador de monitorá-los e corrigi-los permanentemente.
+2.3.1 Encaminhamento do Relatório Técnico de Fiscalização ao Prestador e Órgão Solicitante
+A AGERO enviará o Relatório Técnico de Fiscalização:
+1) nos casos de fiscalização regular, para o prestador e para o titular dos serviços;
+2) nos casos de fiscalização sob demanda, para o órgão solicitante, para o prestador e para o município.
+O relatório deverá seguir anexado ao respectivo ofício emitido, apontando a necessidade de regularizar as
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 18
+não-conformidades, conforme Termo de Não Conformidades (TNC), e atender às determinações e
+recomendações apontadas. A emissão do RTF por parte do ente regulador deverá obedecer ao prazo
+máximo de 45 (quarenta e cinco) dias.
+2.3.2 Termo de Não Conformidades (TNC)
+O Termo de Não Conformidades somente será emitido quando houver descumprimento ou
+inconformidades na prestação dos serviços, por parte do prestador, conforme Relatório Técnico de
+Fiscalização. No TNC deverão constar, no mínimo, os seguintes dados:
+a) Identificação do ente regulador e do prestador dos serviços de saneamento básico;
+b) Informação da data e local da fiscalização onde as inconformidades foram apuradas;
+c) Descrição das inconformidades apuradas, com as especificações pertinentes ao ocorrido;
+d) Determinações com prazos para atendimento;
+e) Identificação do representante do ente regulador responsável pela emissão do TNC;
+f) Data e local da emissão do TNC; e
+g) Informação de penalidades a serem aplicadas com base nos contratos e/ou na legislação do titular e/ou
+normas da AGERO.
+2.4 Auto de Infração
+A emissão do auto de infração seguirá o disposto na resolução que institui o Manual de Fiscalização de
+Saneamento da AGERO, aplicáveis aos prestadores de serviços de saneamento básico, ou alterações
+posteriores.
+A AGERO ao final dos prazos estabelecidos no TNC e diante da não-comprovação da conclusão e/ou
+resolução da não conformidade aberta no processo fiscalizatório.
+A comprovação deverá ser feita por meio de evidências encaminhadas pela prestadora de serviço, que
+podem ser no formato de registros fotográficos com geolocalização, documentos, certificados, vídeos,
+entre outras formas das quais seja possível, por meio da fiscalização indireta, concluir que a não
+conformidade foi resolvida, sendo este apenas um rol exemplificativo.
+A comprovação da resolução da não conformidade deverá ser realizada conforme especificado neste
+manual e a ausência de evidências, sejam obtidas direta ou indiretamente pela equipe de fiscalização, ou
+casos as evidências enviadas pelo prestador sejam consideradas insatisfatórias, devem ser emitidas as
+penalidades cabíveis.
+A análise das comprovações da resolução das não conformidades será realizada no prazo de até 10 (dez)
+dias úteis após o vencimento dos prazos estabelecidos no termo de não conformidades, e a respectiva
+Diretoria aplicará o auto de infração ao Prestador de Serviço, no caso de ausência ou não adequação ao
+mínimo necessário.
+A prestadora de serviço receberá por meio do ofício informativo as não conformidades que foram
+encerradas por meio da fiscalização indireta, sendo que, caso algum procedimento de tratamento das não-
+conformidades não previsto neste manual, poderá resultar em Auto de Infração (advertência ou multa) por
+determinação da respectiva Diretoria. Logo que haja comprovação da resolução das NC nos prazos
+estabelecidos, a NC será encerrada.
+O prestador de serviço deverá atender às definições do auto de infração e resolver a NC no prazo de 30
+(trinta) dias, caso não solicite recurso administrativo ou caso o recurso administrativo seja indeferido,
+ficando esta passível de reincidência caso não seja sanada com as devidas evidências da resolução. Este
+prazo pode ser postergado na reunião da Diretoria Colegiada.
+Este tópico não extingue procedimentos de aplicação de penalidades que digam respeito ao cumprimento
+de demais obrigações do prestador junto à AGERO, definidas em resolução própria, ou em relação aos
+usuários.
+2.5 Recurso e Plano de Ação Regulatório
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 19
+O Prestador de Serviço terá o prazo de 30 (trinta) dias para submeter recurso ao auto de infração à
+Diretoria Colegiada, que deverá realizar suas análises, publicizando ou repassando o resultado aos
+prestadores de serviço no prazo de 45 (quarenta e cinco) dias. Este último prazo pode ser postergado em
+virtude da alta demanda de recursos.
+No indeferimento do recurso deve-se atender ao auto de infração conforme estabelecido no capítulo 2.3.
+No deferimento do recurso poderá a Diretoria Colegiada definir pelo encerramento da NC ou pela
+elaboração do Plano de Ação Regulatório – PAR pelo Prestador de Serviços.
+O Prestador de Serviços deverá elaborar o PAR enviando à Diretoria Colegiada no prazo de 15 (quinze)
+dias. Neste deverão estar especificadas as ações, os prazos e os responsáveis para a resolução da NC, não
+podendo os prazos de resolutividade das NCs serem superiores a 120 (cento e vinte) dias. O Prestador de
+Serviços deverá enviar as evidências que comprovam a resolução da NC no máximo em 10 (dez) dias após
+o término dos prazos especificados no PAR.
+A equipe de fiscalização avaliará as evidências encaminhadas pela prestadora de serviço referente ao
+cumprimento do PAR. Logo que comprovada a resolução da NC, será encerrada a NC pela equipe de
+fiscalização. Caso não sejam enviadas as evidências ou sejam enviadas evidências insatisfatórias, o
+prestador deverá atender ao auto de infração, no qual solicitou recurso. As situações que não tiveram envio
+de evidências deverão ser interpretadas como reincidências para futuras aberturas de NC.
+2.6 Conclusão do Processo de Fiscalização
+Depois de processadas as etapas anteriores, com ou sem manifestações e/ou recursos por parte do
+prestador, o relatório será, então, encaminhado pela AGERO:
+1) ao(s) município(s) regulados(s), por meio de suas administrações diretas, para conhecimento e
+eventuais providências;
+2) ao órgão do Ministério Público competente, seja em nível estadual especializado, seja em nível de
+comarca, quando se fizer necessário.
+No caso de aplicação de eventuais penalidades contratuais ou legais por parte do(s) município(s)
+regulado(s), a fiscalização da agência reguladora poderá solicitar, a qualquer tempo, informações e
+comprovações documentais acerca dos procedimentos de aplicação.
+3. PROCEDIMENTOS DE FISCALIZAÇÃO DOS SERVIÇOS PÚBLICOS DE
+ABASTECIMENTO DE ÁGUA E ESGOTO SANITÁRIO
+A fiscalização deve visar os aspectos principais que envolvem a atividade de abastecimento de água e
+esgoto sanitário de responsabilidade do prestador dos serviços. Cabe a equipe de fiscalização informar ao
+prestador de serviços a necessidade de envio das informações destacadas neste capítulo.
+3.1 Organograma do Prestador
+A fiscalização deverá ter ciência da estrutura organizacional do prestador apresentada através do
+respectivo organograma, com descrição de cargos e nomes dos ocupantes.
+3.2 Configuração dos Sistemas de Abastecimento de Água
+Para o caso de novos sistemas, de reestruturação de sistemas existentes ou sua ampliação futura, a
+fiscalização deverá receber e analisar previamente ao ato fiscalizatório o estudo de concepção do sistema
+de abastecimento de água demonstrando os arranjos escolhidos sob o ponto de vista qualitativo e
+quantitativo das diferentes partes do sistema, organizadas de modo a formarem um todo integrado,
+justificando a escolha da solução adotada sob os pontos de vista técnico, econômico, financeiro e social,
+considerando, quando for o caso, os contratos de programa ou contratos de concessão.
+Os Estudos de Concepção devem atender às condições gerais elencadas nos itens 4 e 5 da NBR-ABNT
+12.211/94 e seus anexos A, B e C, no que couber.
+Para o caso de novos sistemas ou de sistemas existentes deverão ser apresentadas, além das exigências
+previstas acima, as demais informações relativas aos projetos de acordo com as normas NBR 12212 -
+Projeto de Poço para Captação de Água Subterrânea - e NBR 12216 - Projeto de Estação de Tratamento de
+Água para Abastecimento Público.
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 20
+3.3 Configuração do Sistema de Esgoto Sanitário
+Para o caso de novos sistemas, de reestruturação de sistemas existentes ou sua ampliação futura, a
+fiscalização deverá receber e analisar previamente ao ato fiscalizatório o estudo de concepção do sistema
+de esgoto sanitário adotado com amplitude suficiente para permitir identificar todas ou qualquer das partes
+que o constituem segundo os procedimentos da NBR-ABNT 9648, observado o que determina o Plano
+Municipal de Saneamento Básico.
+3.4 Mercado Consumidor
+A fiscalização deverá avaliar a evolução do mercado consumidor do prestador, através da análise das
+informações detalhadas a seguir.
+3.4.1 Sistemas de Distribuição de Água Tratada
+O prestador deverá apresentar o volume produzido e faturado de água tratada nos últimos 24 (vinte e
+quatro) meses, por sistema de abastecimento, no município, ou para os municípios pertencentes a um
+mesmo sistema quando for o caso.
+3.4.2 Sistemas de Coleta e Tratamento de Esgotos Sanitários
+O prestador deverá apresentar os volumes coletados e tratados de esgotos sanitários nos últimos 24 (vinte
+e quatro) meses, por sistema de esgotos sanitários, no município, ou para os municípios pertencentes a um
+mesmo sistema quando for o caso.
+3.4.3 Plano de Obras e Investimentos
+A fiscalização deverá receber os relatórios das obras realizadas nos últimos 12 (doze) meses e demais
+investimentos do prestador no(s) município(s), incluindo os projetos executivos em meio digital (formato
+DWG, ou compatível) e os cronogramas físico- financeiros (em formato Excel, ou compatível),
+comparando-os com os compromissos constantes nos contratos de concessão ou nos contratos de
+programa, se existentes, bem como os existentes nos planos municipais de saneamento básico e Plano
+Estadual de Saneamento. No caso da gestão associada e regionalizada, o prestador deverá informar os
+municípios cujos contratos de programas/concessão ou planos municipais contêm os planos de
+investimentos apresentados.
+O prestador também deverá apresentar o plano de obras e investimentos previstos e realizados nos últimos
+48 (quarenta e oito) meses, bem como os previstos para os próximos 24 (vinte e quatro) meses para o(s)
+município(s). Esses planos serão apresentados em planilhas distintas para os sistemas de distribuição de
+água tratada e os sistemas de coleta e tratamento de esgotos sanitários.
+A partir da análise destas informações serão planejadas as vistorias
+in loco
+a serem realizadas pela equipe
+de fiscalização, com o acompanhamento de técnicos do próprio prestador com conhecimento das
+operações em nível local.
+Para o caso da gestão associada e regionalizada, a escolha das obras a serem fiscalizadas terá como base a
+relevância e abrangência destas para o conjunto do sistema relativamente ao valor dos investimentos, o
+número de municípios e a população beneficiada, avaliadas a cada ciclo de fiscalização pelo ente
+regulador, dando-se ênfase para aquelas obras previstas nos contratos de programa ou de concessão, nos
+planos municipais, nos planos regionais e no Plano Estadual de Saneamento.
+Durante as fiscalizações, devem ser verificados os itens relacionados no
+check-list
+. Todos os aspectos
+apontados no relatório de fiscalização deverão ser identificados, documentados através de fotografias e
+localizados, em planta, de preferência com o uso de equipamento GPS (
+Global Positioning System
+), bem
+com registro do respectivo endereço quando necessário.
+3.4.4 Operação dos Sistemas
+A fiscalização deverá avaliar a estrutura operacional dos sistemas de abastecimento de água tratada e de
+coleta e tratamento de esgotos sanitários, a qual deverá ser apresentada de forma documentada em meio
+digital (no formato Excel ou compatível), contendo no mínimo:
+1) o número de funcionários que atuam na área de operação, por cargo e função, alocados no(s)
+município(s);
+2) a relação de ocorrências (falhas) operacionais registradas em cada sistema de distribuição de água,
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 21
+elencando os respectivos municípios e o número de consumidores atingidos, nos últimos 12 (doze) meses,
+conforme o caso;
+3) a relação de ocorrências (falhas) operacionais registradas em cada sistema de coleta e tratamento de
+esgotos sanitários, elencando os respectivos municípios e o número de consumidores atingidos, nos
+últimos 12 (doze) meses, conforme o caso;
+4) estatística das causas das falhas operacionais registradas em cada sistema de abastecimento de água,
+nos últimos 24 (vinte e quatro) meses; e
+5) estatística das causas das falhas operacionais registradas em cada sistema de esgoto sanitário, nos
+últimos 24 (vinte e quatro) meses.
+3.4.5 Programas de Monitoramento da Operação dos Sistemas
+A fiscalização deverá avaliar os programas de monitoramento da operação dos sistemas de distribuição de
+água tratada e de coleta e tratamento de esgotos sanitários, a qual deverá ser apresentada pelo prestador,
+tais como:
+1) programas de controle das pressões nas redes de distribuição;
+2) programas de macromedição;
+3) Plano de Segurança da Água – PSA;
+4) programas de combate a vazamentos;
+5) programas de redução de perdas e eficiência energética;
+6) programas de emergência e contingência;
+7) programas de segurança das barragens;
+8) programas de monitoramento da qualidade da água distribuída;
+9) programas de monitoramento da qualidade das captações;
+10) programas de monitoramento da qualidade dos efluentes das estações de tratamento de esgoto
+sanitário;
+11) programas de monitoramento dos mananciais junto aos locais de lançamento dos esgotos tratados; e
+12) programas de monitoramento dos reservatórios de barragens para captação.
+3.4.6 Programas de Monitoramento da Operação dos Sistemas
+A fim de analisar a efetividade das atividades de operação dos sistemas de abastecimento de água e de
+esgoto sanitário, deverão ser realizadas vistorias
+in loco
+nos sistemas situados no(s) município(s)
+regulado(s).
+A partir da análise da relação de ocorrências (falhas) operacionais informadas pelo prestador, serão
+planejadas as vistorias
+in loco
+a serem realizadas pela equipe de fiscalização, com o acompanhamento de
+técnicos do prestador. Para o caso dos municípios com gestão associada e prestação regionalizada a
+escolha dos sistemas a serem fiscalizadas terá como base a frequência das falhas registradas nos 12 (doze)
+meses anteriores à fiscalização.
+3.4.7 Programas de Monitoramento da Operação dos Sistemas
+A fiscalização deverá analisar os programas de manutenção preventiva e corretiva dos sistemas de
+distribuição de água tratada e de coleta e tratamento de esgotos sanitários, previstos e executados nos
+últimos 12 (doze) meses. Para tal, o prestador deverá informar, para cada sistema e para o(s) município(s)
+regulado(s), no mínimo:
+1) as ações previstas e realizadas;
+2) os custos previstos e custos incorridos e a origem dos recursos; e
+3) as principais dificuldades para o cumprimento dos programas de manutenção planejados.
+4. PROCEDIMENTOS DE FISCALIZAÇÃO DOS SERVIÇOS PÚBLICOS DE MANEJO DE
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 22
+RESÍDUOS SÓLIDOS URBANOS E DE LIMPEZA URBANA
+A fiscalização deve visar os aspectos principais que envolvem a atividade de manejo de resíduos sólidos
+urbanos e de limpeza urbana de responsabilidade do titular e do prestador dos serviços. Cabe à equipe de
+fiscalização informar ao prestador de serviços a necessidade de envio das informações destacadas neste
+capítulo.
+4.1 Organograma do Prestador
+A fiscalização deverá ter ciência da estrutura organizacional do titular e do prestador apresentada através
+do respectivo organograma, com descrição de cargos e nomes dos ocupantes.
+4.2 Do Acondicionamento
+O gerador de resíduos domiciliares é responsável pelo acondicionamento adequado dos resíduos sólidos,
+bem como sua disposição para coleta até o momento do recolhimento pelo prestador.
+Cabe ao titular e ao prestador de serviços realizar esforços para conscientização da população quanto ao
+acondicionamento da melhor maneira do resíduo gerado em cada domicílio, observando os seguintes
+critérios:
+a) atender às condições sanitárias;
+b) não ter aspecto repulsivo ou desagradável;
+c) ter capacidade para conter o resíduo gerado durante o intervalo entre uma coleta e outra;
+d) permitir uma coleta rápida, visando o aumento da produtividade do serviço;
+e) evitar a ocorrência de vazamentos, rupturas e espalhamento de resíduos, bem como o acesso de animais;
+f) possibilitar uma manipulação segura por parte da equipe de coleta.
+A disponibilização de resíduos domésticos e equiparados, conforme a forma de coleta, poderá ser
+realizada nos seguintes locais:
+a) em frente ao imóvel, em regiões em que a coleta for executada porta a porta;
+b) em ponto de coleta de uso comum, quando a coleta for executada ponto a
+ponto;
+c) em Pontos de Entrega Voluntária (PEVs); e
+d) em outros locais definidos pelo titular e prestador de serviço, em comum acordo com a comunidade
+local, no caso de áreas de difícil acesso aos veículos coletores, comunidades rurais ou áreas de invasão.
+4.3 Da Coleta e Transporte
+O titular e o prestador devem estabelecer um sistema de coleta de resíduos domiciliares regular com dias e
+horários determinados, de pleno conhecimento da população, sendo que as informações devem ser
+repassadas aos usuários por meio de canais abertos de comunicação, bem como nas diversas plataformas
+de mídia e publicidade digitais. A atividade de coleta de resíduos domésticos e equiparados pode ser
+realizada nas modalidades indiferenciada ou seletiva.
+Para estabelecimento do sistema de coleta devem ser observados os seguintes aspectos:
+a) características topográficas e sistema viário urbano;
+b) caracterização do tipo de pavimentação das vias, declividade, sentido e intensidade de tráfego;
+c) definição das zonas de ocupação da cidade, observando os usos predominantes, concentrações
+comerciais, setores industriais, áreas de difícil acesso e/ou baixa renda;
+d) dados sobre a população total urbana, quantidade média de moradores por residência e, caso exista, o
+número expressivo de moradores temporários;
+e) a geração e a composição dos resíduos;
+f) os costumes da população, onde deverão ser destacados os mercados e feiras livres, exposições
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 23
+permanentes ou em certas épocas do ano, festas religiosas e locais preferidos para prática de lazer; e
+g) a disposição final dos resíduos.
+O prestador de serviços deve dispor de plano de trabalho indicando a periodicidade da coleta e os bairros
+em que a coleta será diária e alternada, não podendo haver intervalo superior a 72 (setenta e duas) horas
+entre duas coletas, salvo situações excepcionais justificadas que não tragam riscos à saúde pública.
+Para a definição da frequência de coleta, devem ser observados os seguintes fatores:
+a) tipos de resíduos gerados;
+b) condições climáticas locais;
+c) recursos materiais e humanos à disposição do prestador de serviço; e
+d) limitação do espaço necessário ao armazenamento do resíduo pelo usuário em sua casa ou negócio.
+A coleta domiciliar deverá ser executada em todas as vias abertas no município em condições de
+circulação de veículos. A atividade de coleta de resíduos domésticos e equiparados deverá ser realizada
+nas áreas urbanas e rurais conforme estabelecido no plano operacional de prestação dos serviços.
+A coleta dos resíduos originários da limpeza urbana pode ser realizada de forma separada ou em conjunto
+com os resíduos domésticos e equiparados.
+Os resíduos da coleta indiferenciada deverão ser encaminhados para unidades de triagem, de tratamento ou
+de destinação final adequadas para o processamento destes tipos de resíduos, nos termos definidos pelo
+órgão ambiental competente.
+Nas áreas de difícil acesso com imóveis habitados, deve ser prevista solução alternativa de coleta dos
+resíduos conforme viabilidade técnica do prestador e respeitando os contratos vigentes.
+Para definição do método de coleta devem ser observados os seguintes fatores:
+a) forma de utilização da mão de obra;
+b) tipo de recipientes usados pela população no acondicionamento do resíduo;
+c) densidade populacional da área; e
+d) condições de acesso existentes.
+Os veículos coletores de resíduos domiciliares devem apresentar as seguintes características:
+a) não permitir derramamento do resíduo ou do chorume na via pública;
+b) apresentar altura de carregamento no máximo a 1,20m de altura em relação ao solo;
+c) possibilitar esvaziamento simultâneo de, pelo menos, dois recipientes por vez;
+d) possuir carregamento traseiro, de preferência;
+e) dispor de local adequado para transporte dos trabalhadores;
+f) possuir compartimento de carregamento (vestíbulo) com capacidade para, no mínimo, 1,5 m³;
+g) possuir capacidade adequada de manobra e de vencer aclives;
+h) distribuir adequadamente a carga no chassi do caminhão;
+i) apresentar capacidade adequada para o menor número de viagens ao destino, nas condições de cada
+área;
+j) estar em perfeitas condições de manutenção e conservação e em concordância com as normas técnicas
+pertinentes;
+k) constar na lateral dos veículos uma identificação contendo nome e logomarca do prestador dos serviços,
+telefone para contato, número de identificação do veículo, tipo de resíduo transportado, identificação do
+município e os telefones do Serviço de Atendimento ao Usuário;
+l) tacógrafos providos de disco/diagrama;
+m) sistema de iluminação e sinalização em consonância com as normas de trânsito;
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 24
+n) sensor traseiro ativado automaticamente quando acionada a marcha à ré, com emissão de sinais
+sonoros; e
+o) tanque com água e sabão para higienizar os trabalhadores na coleta.
+No planejamento das rotas para execução da coleta e transporte dos resíduos sólidos, o prestador deverá
+estabelecer itinerários de coletas de forma a minimizar os percursos improdutivos, ao longo dos quais não
+haja coleta.
+Para definição e/ou otimização dos itinerários devem ser observados os critérios:
+a) utilização ao máximo da capacidade de carga dos veículos coletores evitando as viagens com carga
+incompleta;
+b) aproveitamento integral da jornada normal de trabalho da mão de obra;
+c) redução dos trajetos improdutivos onde não é realizada coleta;
+d) distribuição equilibrada da carga de trabalho para cada dia e também para todas as guarnições;
+e) priorização do início de um itinerário próximo à garagem e o término próximo ao local de destino;
+f) em vias de topografia com declives muito acentuados, o caminhão deve, se possível, circular pelas ruas
+perpendiculares às de grande declividade, com a guarnição (garis) levando os resíduos até as esquinas; e
+g) coleta em ambos os lados da rua simultaneamente, sempre que possível, mediante trajetos com poucas
+voltas;
+É aconselhável a coleta primeiro de um lado e depois do outro em ruas muito largas ou de trânsito intenso.
+É aconselhável a escolha em horários em que a rua esteja mais desimpedida (horário noturno para as áreas
+comerciais e diurno para áreas residenciais) quando esta servir de estacionamento para muitos veículos
+e/ou possuir trânsito intenso.
+Não é recomendável a entrada dos caminhões coletores em travessas de curta extensão ou em ruas sem
+saída.
+O prestador tomará as precauções necessárias para evitar a queda de resíduos ou derramamentos de
+líquidos nas vias públicas durante a coleta e o transporte dos resíduos.
+Os coletores deverão recolher imediatamente os resíduos e recolocá-los no veículo, caso ocorra
+derramamento nas vias.
+Deverão ser adotadas providências para limpeza imediata da área afetada por derramamento de líquidos
+nas vias.
+O esgotamento do tanque de chorume dos veículos coletores somente poderá ser feito em local definido
+nas instalações do prestador ou em local autorizado pelo órgão ambiental competente, garantindo a
+destinação ambientalmente adequada.
+O transporte dos resíduos sólidos urbanos deverá ser feito por meio de equipamentos e veículos
+devidamente identificados e licenciados. Durante a atividade de transporte deverão ser adotadas as
+precauções necessárias para evitar a entrada de águas pluviais e o derramamento de resíduos sólidos e
+líquidos.
+4.4 Do Transbordo
+O prestador de serviços deverá instalar unidades de transbordo sempre que as distâncias a serem
+percorridas pelos veículos de coleta até as instalações de tratamento ou disposição final assim o
+justificarem.
+As unidades de transbordo devem ser submetidas aos processos de licenciamento ambiental de acordo com
+a legislação vigente.
+A carga de resíduos sólidos que não atenda às condições de recepção, em razão de sua origem ou
+periculosidade, não poderá ser recepcionada na unidade de transbordo.
+O transporte dos resíduos depositados nas unidades de transbordo deve ser feito por meio de veículo
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 25
+adequado aos tipos de resíduos transportados, obedecendo-se às regulamentações pertinentes, sob
+responsabilidade do prestador de serviços.
+Os veículos e contêineres utilizados devem operar dentro das capacidades adequadas.
+Cabe ao prestador de serviço identificar e registrar todas as cargas de resíduos recebidas nas unidades de
+transbordo com informações sobre sua origem, composição, dia e hora de entrada e respectivo peso
+registrado em balança.
+A cobertura da carga deverá ser feita imediatamente após o carregamento, de forma a impedir o
+derramamento de resíduos sólidos e protegendo-os contra intempéries.
+As unidades de transbordo deverão ter condições operacionais e administrativas de mensurar a quantidade
+mássica ou volumétrica de resíduos que entram nas unidades, bem como sua origem e destino.
+Para o efetivo funcionamento das unidades de transbordo, estas deverão obedecer a todas as normas legais
+ambientais e outras aplicáveis, bem como dispor e instalar:
+a) sistema de isolamento que impeça o acesso de pessoas estranhas;
+b) sinalização de segurança e identificação dos resíduos armazenados;
+c) acessos internos e externos que permitam a sua utilização sob quaisquer condições climáticas;
+d) medidas que minimizem a ação dos ventos;
+e) sistema de impermeabilização da base do local de armazenamento;
+f) equipamentos de segurança necessários aos tipos de emergência possíveis de ocorrer; e
+g) registro de armazenamento e movimentação de resíduos.
+A estocagem de RSU nas unidades de transbordo não deve ultrapassar o prazo máximo de 48 horas,
+conforme Diretriz Técnica nº 06/2021 – DIRTEC da Fepam, ou as suas atualizações ou instrumentos
+normativos que a sucederem.
+4.5 Da Coleta Seletiva, da Triagem e do Tratamento
+O sistema de coleta seletiva será implantado pelo titular ou pelo prestador dos serviços públicos de
+limpeza urbana e de manejo de resíduos sólidos e deverá estabelecer, no mínimo, a separação em duas
+frações (resíduos secos e resíduos úmidos) e, progressivamente, ser estendido para a segregação dos
+resíduos em suas parcelas específicas, segundo metas estabelecidas nos respectivos planos, conforme
+estabelecido pelo titular.
+Para a definição do modelo ideal de coleta seletiva devem ser realizados estudos, em conformidade com os
+planos municipais e o mercado de compra de resíduos recicláveis, estabelecendo assim a forma
+implantação.
+Recomenda-se a implantação por meio de projetos pilotos, melhorados e ampliados gradativamente, até
+atingir a universalidade do serviço.
+Caberá aos titulares dos serviços públicos de manejo de resíduos sólidos adotar a coleta seletiva, a triagem
+e a reciclagem de materiais como forma de tratamento e destinação adequada dos resíduos sólidos,
+conforme estabelecido em disposições legais e regulamentares e nos PMSBs e nos PGIRS e normas do
+regulador.
+Os resíduos coletados por meio da coleta seletiva deverão ser encaminhados às unidades de triagem ou de
+tratamento cadastradas, incluindo as de compostagem.
+O sistema de coleta seletiva de resíduos sólidos deve priorizar a participação de organizações de catadores
+de materiais reutilizáveis e recicláveis, constituídas em cooperativas, ou outras formas de associação de
+catadores, que agregam pessoas de baixa renda e, de modo geral, sem qualificação profissional.
+Nos termos definidos pela Política Nacional de Resíduos Sólidos (PNRS), deverão ser apoiadas
+prioritariamente a formação, capacitação e desenvolvimento das cooperativas de catadores e recicladores
+por parte dos titulares dos serviços públicos de manejo de resíduos sólidos.
+Caberá ao titular e ao prestador de serviços envolvido promover a divulgação, educação ambiental,
+eficácia e eficiência e sustentabilidade dos programas de coleta seletiva e reciclagem implantados.
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 26
+As operações de tratamento dos resíduos sólidos urbanos devem ocorrer em instalações adequadas, em
+locais e por métodos devidamente licenciados pelos órgãos ambientais competentes, em conformidade
+com a legislação em vigor.
+Em qualquer tipo de unidade, devem ser observadas as normas aplicáveis no que concerne às condições
+sanitárias e de segurança do trabalho.
+Deve ser estimulada a instalação de unidades de compostagem ou de biodigestão, como forma de evitar a
+disposição da fração orgânica nos aterros sanitários, aumentando assim a sua vida útil.
+A implantação de unidades de compostagem deve ser objeto de estudos técnicos e econômicos levando em
+conta o mercado para o composto e os custos de implantação.
+A usina de triagem e compostagem deve ser composta por um conjunto de estruturas físicas edificadas
+como galpão de recepção e triagem dos resíduos, pátio de compostagem, galpão para armazenamento de
+recicláveis, unidades de apoio e sistema de tratamento dos efluentes gerados, os quais devem possuir, no
+mínimo, as seguintes características:
+a) a área de recepção dos resíduos deve possuir piso impermeabilizado, cobertura e sistema de drenagem
+para águas pluviais e efluentes;
+b) a altura de cobertura deve possibilitar a descarga dos resíduos, inclusive quando for realizada por
+caminhão basculante;
+c) a via de acesso do caminhão coletor até a área da recepção deve ser, preferencialmente, pavimentada e
+permitir manobras do veículo coletor;
+d) o funil de descarga deve, preferencialmente, ser construído em nível superior ao da triagem, deve ser
+metálico ou de concreto, com paredes lisas e inclinadas, que permitam o escoamento dos resíduos até a
+mesa de triagem;
+e) a mesa ou bancada de triagem pode ser de concreto ou metal, preferencialmente com esteira
+mecanizada, devendo ter altura aproximada de 90 cm para possibilitar aos funcionários uma posição
+confortável durante a operação;
+f) as unidades devem prever silos ou depósitos adequados com capacidade para o processamento de, pelo
+menos, um dia;
+g) os materiais triados devem ser armazenados em recipientes do tipo tambores metálicos ou bombonas de
+plástico, que devem estar localizados próximos aos funcionários de forma a facilitar o seu manejo;
+h) as baias de recicláveis devem possuir cobertura fixa e devem ser construídas, preferencialmente, em
+estrutura de alvenaria, com espaço adequado para o desenvolvimento das atividades de prensagem e
+enfardamento dos recicláveis;
+i) os fardos devem estar separados por tipo de material e empilhados de maneira organizada nas
+respectivas baias; essa área deve ser posicionada em local de fácil acesso aos veículos que coletam os
+materiais para comercialização;
+j) as unidades de reciclagem devem ser providas de balança, devendo ser realizado o controle do
+quantitativo de resíduos;
+O pátio de compostagem deve ter piso impermeabilizado, possuir sistema de drenagem pluvial e cobertura,
+conforme Diretriz Técnica nº 07/2021 – DIRTEC da Fepam, ou as suas atualizações, ou instrumentos
+normativos que a sucederem;
+a) a estocagem do composto maturado deve ser feita em local coberto e sobre piso pavimentado, visando
+resguardar a sua qualidade; e
+b) as unidades de apoio compreendem as instalações e os equipamentos do escritório (mesas, cadeiras,
+armários e congêneres), copa/cozinha (pia, fogão, geladeira, bebedouro/filtro, mesa e cadeiras para
+refeições e congêneres), vestiários (chuveiros, instalações sanitárias, lavatórios e armários individuais para
+os funcionários, dentre outras instalações congêneres) e área de serviço (tanque e secador/varal).
+A atividade de triagem poderá ser realizada nas modalidades manual ou mecanizada, compatível com os
+tipos de resíduos sólidos que serão processados e para o fim projetado.
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 27
+Os resíduos sólidos urbanos passíveis de tratamento serão aqueles que tenham esgotadas as possibilidades
+locais de reutilização e reciclagem.
+Após a devida triagem, e quando nenhuma outra alternativa técnica demonstrar viabilidade econômico-
+financeira para tratamento e recuperação do material coletado, os rejeitos oriundos das atividades que
+integram os serviços de limpeza urbana e de manejo de resíduos sólidos urbanos deverão ser dispostos em
+aterros sanitários devidamente licenciados pelo órgão ambiental competente.
+4.6 Da Disposição Final dos Rejeitos
+A disposição final dos rejeitos deve ocorrer em instalações adequadas, em locais e por métodos
+devidamente licenciados pelos órgãos ambientais competentes, em conformidade com a legislação em
+vigor.
+O prestador de serviços públicos deverá atender às metas progressivas para redução da disposição de
+resíduos sólidos em aterros sanitários, definidas no PMSB e no PGIRS, e contratos.
+O responsável pela operação dos aterros sanitários deve executar os serviços em estrita conformidade com
+a legislação, normas e especificações técnicas aplicáveis. O aterro sanitário deve operar de modo a garantir
+proteção ao meio ambiente, evitando a contaminação das águas subterrâneas pelo chorume e o acúmulo do
+biogás resultante da decomposição anaeróbia dos resíduos no interior do aterro.
+Quando da existência de unidade que trate resíduos de saúde pública, esta unidade deve estar isolada e
+devidamente identificada, seguindo-se as determinações da ANVISA (Agência Nacional de Vigilância
+Sanitária).
+São proibidas, nas áreas de disposição final de rejeitos, as seguintes atividades:
+a) a utilização de resíduos sólidos como alimentação;
+b) a catação de resíduos sólidos em qualquer hipótese;
+c) a criação de animais domésticos; e
+d) a fixação de habitações temporárias ou permanentes.
+Para disposição final dos rejeitos, deve ser priorizada a iniciativa de soluções consorciadas ou
+compartilhadas com vistas à elevação das escalas de aproveitamento e à redução dos custos envolvidos.
+A recuperação energética dos resíduos sólidos urbanos está condicionada à comprovação de sua
+viabilidade técnica, ambiental e econômico-financeira e à implantação de programa de monitoramento de
+emissão de gases tóxicos aprovado pelo órgão ambiental competente, nos termos da legislação em vigor.
+4.7 Da Varrição, Asseio e Conservação Urbana
+Os serviços de varrição, asseio e conservação urbana têm por objetivo evitar problemas sanitários para a
+comunidade, interferências perigosas no trânsito de veículos, riscos de acidentes para pedestres, prejuízos
+ao turismo e inundações das ruas pelo entupimento dos ralos. Os resíduos originários dos serviços de
+limpeza urbana deverão ser dispostos nos logradouros públicos afastados de dispositivos de drenagem das
+águas pluviais urbanas, devidamente acondicionados para coleta, de modo a impedir vazamentos, rupturas
+e espalhamento dos resíduos.
+Os serviços de varrição de vias e logradouros públicos consistem na operação manual ou mecanizada da
+varrição na superfície dos passeios pavimentados, sarjetas, canteiros centrais, dos locais de grande
+circulação de pedestres e onde se realizem feiras públicas e outros eventos de acesso aberto ao público,
+bem como no esvaziamento das lixeiras públicas (papeleiras) e acondicionamento dos resíduos recolhidos.
+O prestador de serviços deve elaborar e manter atualizado plano de varrição contemplando minimamente
+os seguintes itens:
+a) determinação do nível de serviço;
+b) definição do método de varrição;
+c) velocidade de varrição;
+d) extensão de sarjeta a ser varrida;
+e) mão de obra direta para varredura; e
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 28
+f) itinerário.
+A frequência da varrição deverá observar o uso e ocupação do solo, fluxo de pessoas e veículos, áreas com
+vocação turística, áreas com maior suscetibilidade a enchentes e tipo de arborização existente.
+A varrição das calçadas será limitada àquelas definidas no plano operacional de prestação dos serviços.
+Assim, os serviços de varrição deverão ser executados nas vias e logradouros públicos elencados no plano
+de varrição, de acordo com as frequências e horários determinados para cada local. A atividade de varrição
+pode ser realizada nas modalidades manual ou mecanizada, devendo ser escolhida em função das
+características do local e da eficiência na prestação.
+Os resíduos originários da atividade de varrição deverão ser acondicionados e disponibilizados para coleta,
+de forma a impedir vazamentos, rupturas e espalhamento desses resíduos, em pontos que não
+comprometam o trânsito de pessoas e veículos e a estética urbana. Os resíduos da varrição deverão ser
+transportados até sua unidade de destinação para triagem dos materiais que possam ter seu aterramento
+evitado.
+As papeleiras ou lixeiras públicas devem:
+a) ser instaladas em áreas públicas para disposição de pequenas quantidades de resíduos, para uso dos
+pedestres;
+b) possuir tamanho adequado para não atrapalhar o trânsito de pedestres pelas calçadas;
+c) ser duráveis, de bom aspecto e integradas com os equipamentos urbanos já existentes;
+d) ser possíveis de usá-las evitando o contato manual;
+e) ser fáceis de esvaziar diretamente nos equipamentos auxiliares dos varredores; e
+f) atender aos padrões definidos pelo titular dos serviços públicos e estar localizadas de acordo com as
+normas legais e regulamentares pertinentes.
+Os resíduos das lixeiras públicas deverão ser acondicionados e disponibilizados para a atividade de coleta
+de resíduos sólidos urbanos.
+Os serviços de asseio compreendem a limpeza e lavagem de equipamentos urbanos e bens públicos, como
+monumentos, abrigos de ônibus, sanitários públicos e escadarias, entre outros.
+Para a execução dos serviços de asseio, o prestador deverá priorizar a utilização de água de reúso e manter
+esses locais livres de resíduos e odores desagradáveis.
+A limpeza de bueiros, bocas de lobo e correlatos tem por objetivo garantir o perfeito escoamento das
+águas pluviais e impedir que o material sólido, retido durante as chuvas, seja levado para os ramais e
+galerias.
+A limpeza de bocas de lobo ou caixas de ralo é uma atividade que deve ser executada regularmente, sendo
+intensificada nos seguintes locais e/ou situações:
+a) cotas mais baixas;
+b) áreas próximas a morros e favelas; e
+c) períodos chuvosos e após chuvas fortes.
+Os resíduos resultantes das atividades de desobstrução e limpeza de bueiros, bocas de lobo e correlatos
+devem ser encaminhados para local de destinação final ambientalmente adequada, respeitada sua natureza
+e composição e em concordância com o PMSB, PGIRS e demais normas municipais.
+A atividade de desobstrução e limpeza de bueiros, bocas de lobo e correlatos poderá ser realizada pelo
+prestador do serviço público de drenagem e manejo das águas pluviais urbanas.
+Os serviços de limpeza de logradouros públicos onde se realizam feiras livres compreendem a coleta dos
+resíduos sólidos pelo prestador dos serviços, bem como a varrição e posterior higienização das vias.
+Para executar uma limpeza eficiente é recomendado:
+a) iniciar o serviço tão logo a feira termine;
+b) varrer toda a área utilizada, e não, como frequentemente ocorre, apenas a faixa das sarjetas;
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 29
+c) varrer o resíduo do passeio e do centro da rua para as sarjetas, de onde será removido (feiras instaladas
+em ruas);
+d) recolher o resíduo, à medida que for varrendo, através de equipamento adequado (caminhão basculante,
+por exemplo);
+e) lavar o logradouro após a varredura e remoção (quando o piso for pavimentado); e
+f) aplicar desodorizante no setor de venda de peixe.
+A manutenção, a conservação e a limpeza da área de uso individual serão de responsabilidade dos
+feirantes. Os feirantes deverão segregar os resíduos gerados em sua atividade em, no mínimo, úmidos e
+secos, e disponibilizá-los para coleta em local indicado pelo prestador de serviços. Os recipientes
+destinados ao recolhimento segregado dos resíduos gerados pelos consumidores deverão estar dispostos
+em espaços visíveis e acessíveis ao público.
+Os resíduos resultantes de serviços de capina, roçagem, poda e supressão de árvores em áreas públicas,
+bem como aqueles de limpeza corretiva, devem ser destinados para unidades de compostagem ou outras
+unidades de tratamento, bem como de destinação adequada. Os resíduos sólidos gerados da atividade de
+poda devem ser acondicionados de forma segregada de outros resíduos para disponibilização ao SMRSU.
+Os resíduos recolhidos em áreas verdes públicas devem ser acondicionados de forma segregada e
+igualmente encaminhados para unidades de tratamento.
+As deposições irregulares, conhecidas como pontos viciados ou pontos de descarte irregular, caracterizam-
+se pelo acúmulo de conjunto heterogêneo de resíduos (entulho, resíduos volumosos inservíveis e resíduos
+domiciliares), misturados e dispostos em locais impróprios, sem nenhum tipo de controle, que se
+transformam em ambientes de criação de vetores de doenças e risco de acidentes, e degradam a paisagem
+urbana, demandando um processo continuado de limpeza corretiva por parte do titular e, em caso de
+outorga ou delegação, do prestador dos serviços, caso a área seja de sua competência.
+O prestador de serviços públicos deverá programar a limpeza corretiva priorizando as deposições
+irregulares que comprometam o sistema de drenagem de águas pluviais, os mananciais utilizados nos
+serviços públicos de abastecimento de água e aquelas de maior porte e persistência.
+As atividades de capina, raspagem e roçada podem ser realizadas nas modalidades manual ou mecanizada,
+devendo ser escolhida em função das características do local e da eficiência na prestação.
+Pode ser incluída na atividade de roçada a limpeza de margens e calhas de cursos d’água em leito natural
+ou em canal aberto em áreas urbanas. A atividade de roçada de áreas particulares quando executada pelo
+prestador de serviço deverá ser remunerada pelos proprietários dos imóveis.
+A atividade de remoção de resíduos em logradouros públicos consiste no recolhimento, limpeza e
+transporte de resíduos sólidos ali depositados. As atividades de remoção de resíduos em logradouros
+públicos podem ser realizadas nas modalidades manual ou mecanizada, devendo ser escolhida em função
+das características do local, da quantidade de resíduos e da eficiência na prestação.
+Quando possível, a remoção de resíduos sólidos em logradouros públicos deverá ser executada de forma
+seletiva, com triagem preliminar dos diferentes tipos de resíduos presentes no local, visando à sua
+recuperação e a redução da disposição de resíduos em aterros. Os resíduos sólidos dispostos em locais
+irregulares deverão ser coletados e as suas localizações deverão ser mapeadas e informadas ao titular e ao
+regulador. Os resíduos sólidos recolhidos em vias e logradouros públicos, constituídos principalmente por
+resíduos da construção civil ou volumosos, deverão ser encaminhados para as respectivas unidades de
+transbordo, triagem e reciclagem.
+4.8 Do Atendimento aos Usuários
+O prestador de serviço deve dispor de atendimento telefônico e eletrônico, acessível a todos os usuários,
+que permita o recebimento de reclamações, solicitações, denúncias, sugestões e elogios quanto à prestação
+dos serviços. O prestador deve atender aos prazos de resposta e de espera para atendimento do usuário,
+conforme definição do regulador.
+O prestador de serviço deverá informar o prazo máximo para o atendimento das solicitações feitas pelos
+usuários. Todos os atendimentos deverão ser registrados em sistema ou formulário próprio, com números
+de protocolo que serão disponibilizados aos usuários, independente de solicitação. O prestador de serviço
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 30
+deve disponibilizar as informações solicitadas pelo usuário referentes à prestação dos serviços. O prestador
+de serviço deverá dispor de equipamentos e de equipe capacitada em quantidades suficientes e necessárias
+ao atendimento satisfatório dos usuários.
+Deverão ser disponibilizados de forma digital, nos canais eletrônicos, ou de forma física, nos locais de
+atendimento presencial, em ponto de destaque e de fácil acesso, cópias do Manual de Prestação do Serviço
+e de Atendimento ao Usuário previsto neste manual, do Código de Defesa do Consumidor e de demais
+normas do regulador que versem sobre os direitos e deveres dos usuários.
+4.9 Dos Planos de Trabalho e Manuais de Prestação de Serviço e de Atendimento ao Usuário
+O plano operacional de prestação dos serviços é o instrumento que define as estratégias de operação e
+manutenção, bem como a execução dos investimentos prudentes e necessários para o atendimento dos
+objetivos e metas estabelecidos nos planos de saneamento básico e de resíduos sólidos, para garantir a
+prestação adequada dos serviços. O plano operacional de ser aprovado pelo regulador. O plano operacional
+poderá ser único ou específico para cada serviço, e abrangerá, no mínimo:
+a) dimensionamento, localização e descrição dos serviços e atividades;
+b) detalhamento das instalações, da mão de obra a ser empregada e dos equipamentos com as suas
+condições de utilização, observando-se as exigências e requisitos contidos nas normas regulamentadoras;
+c) tipo e origem dos resíduos sólidos a serem geridos nas atividades;
+d) programação da execução dos serviços e atividades, contendo o mapeamento das vias e logradouros
+públicos, rotas, frequência e os horários que os serviços estarão disponíveis aos usuários, incluindo as
+áreas para varrição de calçadas;
+e) identificar os produtos e embalagens sujeitos aos sistemas de logística reversa;
+f) ações e programas para a capacitação e treinamento da mão de obra;
+g) condições específicas das cooperativas ou de outras formas de associação de catadores de materiais
+reutilizáveis e recicláveis para a atividade de coleta seletiva de resíduos sólidos urbanos;
+h) especificações técnicas, condições de instalação, operação e manutenção de lixeiras públicas;
+i) diretrizes específicas para serviços e atividades realizadas nas zonas urbanas e rurais com a apresentação
+detalhada dos itinerários de coleta para cada área;
+j) ações de comunicação quanto aos itinerários, dias e horários das coletas seletivas e indiferenciadas, à
+interrupção dos serviços, à programação dos serviços especiais de podas e roçadas, e às ações de educação
+ambiental com foco na gestão dos resíduos; e
+h) ações para emergência e contingência, que permitam a continuidade dos serviços para resguardar a
+saúde pública.
+O plano operacional para as atividades de coleta seletiva e de triagem, para fins de reutilização ou
+reciclagem, priorizará a participação de cooperativas ou de outras formas de associação de catadores de
+materiais reutilizáveis e recicláveis, constituídas por pessoas físicas de baixa renda.
+O manual de prestação do serviço e de atendimento ao usuário é o instrumento dedicado a disciplinar a
+relação entre prestador de serviço e usuários. O prestador de serviço elaborará o manual de prestação do
+serviço e de atendimento ao usuário, que deverá ser encaminhado ao regulador para aprovação, que
+abrangerá, no mínimo:
+a) direitos e deveres dos usuários;
+b) regras sobre a prestação do serviço e atendimento destes;
+c) orientações aos usuários com vistas a utilização adequada dos serviços;
+d) dias e horários que os serviços serão prestados;
+e) soluções para problemas decorrentes de eventualidades, em casos de emergência e contingência, que
+possam prejudicar a regularidade, a continuidade e a segurança dos serviços, descrevendo as medidas as
+serem adotadas; e
+f) canais de atendimento ao usuário, detalhando dias e horários de atendimento. O manual de prestação do
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 31
+serviço e de atendimento ao usuário deve ser apresentado de forma objetiva e adequada a sua
+compreensão, sendo as informações traduzidas em linguagem simples e acessível, quando possíveis por
+ilustrações e demais técnicas de comunicação visual, de modo a esclarecer as regras da prestação dos
+serviços. O regulador deverá dar conhecimento ao titular quanto à aprovação do manual de prestação do
+serviço e de atendimento ao usuário.
+4.10 Da Educação Ambiental
+A educação ambiental não formal deverá ser promovida pelo prestador de serviço com vistas a orientar os
+usuários sobre os procedimentos a serem observados por todos os envolvidos na cadeia de manejo de
+resíduos sólidos urbanos, sem prejuízo de atividades educativas promovidas pelo titular ou pelo regulador.
+O prestador de serviço poderá desenvolver ações e projetos de educação ambiental voltado ao público
+escolar, em parceria com as instituições de ensino para disseminação do conteúdo.
+4.11 Da Logística Reversa
+Os serviços públicos de limpeza urbana e de manejo de resíduos sólidos urbanos não integram o sistema
+de logística reversa, conforme previsto no art. 33 da Lei nº 12.305, de 2010, sendo responsabilidade dos
+fabricantes, importadores, distribuidores e comerciantes sua estruturação e implementação. Os produtos e
+embalagens sujeitos aos sistemas de logística reversa deverão ser entregues pelos geradores nos locais
+adequados, destinados à sua recepção.
+O prestador de serviço poderá executar atividades de responsabilidade dos fabricantes, importadores,
+distribuidores e comerciantes nos sistemas de logística reversa dos produtos e embalagens, mediante
+contrato com a devida remuneração pelos custos desse serviço, observados os acordos setoriais e os termos
+de compromisso firmados entre o titular do serviço e o setor empresarial.
+5. PROCEDIMENTOS DE FISCALIZAÇÃO DOS SERVIÇOS PÚBLICOS DE DRENAGEM
+URBANA E MANEJO DE ÁGUAS PLUVIAIS
+A fiscalização deve visar os aspectos principais que envolvem a atividade de drenagem urbana e manejo
+de águas pluviais de responsabilidade do prestador dos serviços. Cabe à equipe de fiscalização informar ao
+prestador de serviços a necessidade de envio das informações destacadas neste capítulo.
+5.1 Organograma do Prestador
+A fiscalização deverá ter ciência da estrutura organizacional do prestador apresentada através do
+respectivo organograma.
+5.2 Configuração do Sistema de Drenagem e Manejo de Águas Pluviais Urbanas
+Para o caso de novos sistemas, de reestruturação de sistemas existentes ou sua ampliação futura, a
+fiscalização deverá receber e analisar previamente ao ato fiscalizatório o estudo de concepção do sistema
+de drenagem e manejo de águas pluviais urbanas demonstrando os arranjos escolhidos sob o ponto de vista
+qualitativo e quantitativo das diferentes partes do sistema, organizadas de modo a formarem um todo
+integrado, justificando a escolha da solução adotada sob os pontos de vista técnico, econômico, financeiro
+e social, considerando, quando for o caso, os contratos de programa ou contratos de concessão. Os Estudos
+de Concepção devem atender às condições gerais elencadas nos itens 4 e 5 da NBR-ABNT 12.211/94 e
+seus anexos A, B e C, no que couber. Para o caso de novos sistemas ou de sistemas existentes deverão ser
+apresentadas, além das exigências previstas acima, as demais informações relativas aos projetos de acordo
+com as normas específicas.
+5.3 Mercado Consumidor
+A fiscalização deverá avaliar a evolução do mercado consumidor do prestador através da análise das
+informações detalhadas a seguir, devendo o prestador apresentar, obrigatoriamente, o faturamento
+referente aos serviços de drenagem urbana e manejo de águas pluviais relativo aos últimos 24 (vinte e
+quatro) meses.
+5.4 Plano de Obras e Investimentos
+A fiscalização deverá receber os relatórios das obras realizadas nos últimos 12 meses e demais
+investimentos do prestador no(s) município(s), incluindo os projetos executivos em meio digital (formato
+DWG, ou compatível) e os cronogramas físico-financeiros (em formato Excel, ou compatível),
+comparando-os com os compromissos constantes nos contratos de concessão ou nos contratos de
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 32
+programa, se existentes, bem como os existentes nos planos municipais de saneamento básico e Plano
+Estadual de Saneamento. No caso da gestão associada e regionalizada, o prestador deverá informar os
+municípios cujos contratos de programas ou planos municipais contêm os planos de investimentos
+apresentados.
+O prestador também deverá apresentar o plano de obras e investimentos previstos e realizados nos últimos
+48 meses, bem como os previstos para os próximos 24 meses para o(s) município(s). Esses planos serão
+apresentados em planilhas distintas para os sistemas de distribuição de água tratada e os sistemas de coleta
+e tratamento de esgotos sanitários.
+A partir da análise destas informações serão planejadas as vistorias
+in loco
+a serem realizadas pela equipe
+de fiscalização, com o acompanhamento de técnicos do próprio prestador com conhecimento das
+operações em nível local.
+Para o caso da gestão associada e regionalizada, a escolha das obras a serem fiscalizadas terá como base a
+relevância e abrangência destas para o conjunto do sistema relativamente ao valor dos investimentos, o
+número de municípios e a população beneficiada, avaliadas a cada ciclo de fiscalização pelo ente
+regulador, dando-se ênfase para aquelas obras previstas nos contratos de programa ou de concessão, nos
+planos municipais, nos planos regionais e no Plano Estadual de Saneamento. Durante as fiscalizações,
+devem ser verificados os itens afetos. Todos os aspectos apontados no relatório de fiscalização deverão ser
+identificados, documentados através de fotografias e localizados, em planta, de preferência com o uso de
+equipamento GPS (
+Global Positioning System
+), bem com registro do respectivo endereço quando
+necessário.
+5.5 Operação do Sistema
+A fiscalização deverá avaliar a estrutura operacional dos sistemas de drenagem urbana e manejo de águas
+pluviais, a qual deverá ser apresentada de forma documentada em meio digital (no formato Excel ou
+compatível), contendo no mínimo:
+a) o número de funcionários que atuam na área de operação, por cargo e função, alocados no(s)
+município(s);
+b) a relação de ocorrências (falhas) operacionais registradas no sistema de drenagem urbana e manejo de
+águas pluviais, elencando os respectivos municípios e o número de consumidores atingidos, nos últimos
+12 meses, conforme o caso;
+c) estatística das causas das falhas operacionais registradas no sistema de drenagem urbana e manejo de
+águas pluviais, nos últimos 24 meses.
+5.6 Programas de Monitoramento
+A fiscalização deverá avaliar os programas de monitoramento da operação dos sistemas de drenagem
+urbana e manejo de águas pluviais, a qual deverá ser apresentada pelo prestador, tais como:
+a) programas de conservação do sistema;
+b) programas de educação ambiental;
+c) programas de controle e combate a enchentes;
+d) programas de controle de áreas de risco.
+5.7 Vistorias
+A fim de analisar a efetividade das atividades de operação dos sistemas de drenagem urbana e manejo de
+águas pluviais, deverão ser realizadas vistorias
+in loco
+nos sistemas situados no(s) município(s)
+regulado(s). A partir da análise da relação de ocorrências (falhas) operacionais informadas pelo prestador,
+serão planejadas as vistorias
+in loco
+a serem realizadas pela equipe de fiscalização, com o
+acompanhamento de técnicos do prestador.
+5.8 Manutenção do Sistema
+A fiscalização deverá analisar os programas de manutenção preventiva e corretiva dos sistemas de
+drenagem urbana e manejo de água pluviais, previstos e executados nos últimos 12 meses. Para tal, o
+prestador deverá informar, para cada sistema e para o(s) município(s) regulado(s), no mínimo:
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 33
+a) as ações previstas e realizadas;
+b) os custos previstos e custos incorridos; e
+c) as principais dificuldades para o cumprimento dos programas de manutenção planejados.
+5.9 Aspectos a serem observados no decorrer das fiscalizações
+in loco
+As fiscalizações
+in loco
+serão realizadas com dois objetivos principais:
+a) verificar a execução das obras planejadas, em atendimento aos contratos de programa ou de concessão
+firmado(s) com o(s) município(s), se existentes, bem como dos planos municipais, planos regionais e
+Plano Estadual de Saneamento; e
+a) verificar as condições operacionais dos sistemas de drenagem urbana e manejo de águas pluviais.
+Serão analisados, de forma amostral, alguns componentes dos sistemas não identificáveis visualmente, por
+estarem enterrados, ou ocultos, ou por não se dispor de informações técnicas e cadastrais que permitam a
+sua localização e individualização.
+Tais fatos deverão ser apontados no relatório de fiscalização, pois implicam limitações da ação
+fiscalizadora. Deve-se salientar no relatório de fiscalização que a não constatação de não-conformidades a
+partir dos fatos observados não implica em atestar a inexistência de desvios em relação aos padrões e
+normas vigentes e não exime o prestador de monitorá-los e corrigi-los permanentemente.
+Previamente às fiscalizações das obras, a equipe de fiscalização deverá analisar os respectivos projetos
+executivos requisitados ao prestador, os quais deverão ser confrontados, sempre que possível (e visíveis),
+com as obras executadas.
+No caso de obras em andamento, verificar o cumprimento do cronograma físico, questionando as causas
+dos eventuais atrasos, e o cumprimento das normas de segurança do trabalho e da qualidade dos serviços
+executados confrontando-os com os relatórios de fiscalização eventualmente realizados por parte do poder
+concedente, se for o caso. A seguir, serão apontados os principais aspectos a serem analisados pela
+fiscalização em cada sistema a ser vistoriado.
+5.9.1 Gestão e planejamento
+Deverão ser verificados os seguintes tópicos:
+a) Plano diretor de desenvolvimento urbano e ambiental;
+b) Gestão econômico-financeira;
+c) Gestão de investimentos;
+d) Gestão operacional do sistema;
+e) Gestão de riscos do sistema;
+5.9.2 Microdrenagem
+Deverão ser verificados os seguintes tópicos:
+a) Cadastro das redes e componentes;
+b) Conservação dos sistemas;
+c) Pontos críticos dos sistemas;
+d) Ligações pelos usuários ao sistema;
+e) Tratamento da água coletada;
+f) Sistema de drenagem na fonte.
+5.9.3 Macrodrenagem
+Deverão ser verificados os seguintes tópicos:
+a) Cadastro das redes e componentes;
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 34
+b) Conservação dos sistemas;
+c) Pontos críticos dos sistemas;
+d) Tratamento da água coletada;
+e) Pontos de alagamento;
+5.9.4 Manejo de águas pluviais
+Deverão ser verificados os seguintes tópicos:
+a) Pontos de enchentes;
+b) Bacias de amortecimento;
+c) Áreas de risco;
+d) Área topográficas que favorecem enchentes;
+6. CONSIDERAÇÕES FINAIS
+As definições não previstas neste manual de fiscalização da AGERO serão determinadas pela respectiva
+Diretoria, podendo o Prestador de Serviço solicitar recurso à Diretoria Colegiada, caso não esteja de
+acordo com a definição. As aplicações de não-conformidades, notificações, advertências e demais sanções
+serão realizadas pela respectiva Diretoria, conforme estatuto ou resolução específica do programa.
+SILVIA LUCAS DA SILVA DIAS
+Diretora Presidente
+Decreto 24021/2023 (0042689157)
+Documento assinado
+eletronicamente por
+SILVIA LUCAS DA SILVA DIAS
+,
+Presidente
+, em
+27/07/2026, às
+14:38, conforme horário oficial de Brasília, com fundamento no artigo 18 caput e seus §§
+1º e 2º, do
+Decreto nº 21.794, de 5 Abril de 2017.
+A autenticidade deste
+documento pode ser conferida no site
+portal do SEI
+, informando o código
+verificador
+74750619
+e o
+código CRC
+E9360A73
+.
+Referência:
+Caso responda esta Resolução, indicar expressamente o Processo nº 0001.068525/2022-56
+SEI nº 74750619
+Resolução 99 - Manual de Fiscalização (74750619) SEI 0001.068525/2022-56 / pg. 35
