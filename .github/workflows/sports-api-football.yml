@@ -2,7 +2,7 @@ name: Sports (API-Football) Pipeline & Detectors
 
 on:
   schedule:
-    - cron: '30 5 * * *' # Executa diariamente às 05:30 UTC
+    - cron: '30 5 * * *'
   workflow_dispatch:
     inputs:
       snapshot_id:
@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Validate authored sports registry
+        run: uv run okf-parser check knowledge/sports/registry
+
       - name: Run Sports Pipeline
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -41,7 +44,28 @@ jobs:
           if [ -z "$SNAP" ]; then
             SNAP=$(date -u +%Y-%m-%d)
           fi
+          echo "SNAP=$SNAP" >> "$GITHUB_ENV"
           uv run scripts/sports/run_sports_pipeline.py --snapshot-id "$SNAP" --output-dir data/output/sports
+
+      - name: Materialize sports signals as OKF leads
+        run: |
+          uv run scripts/sports/materialize_signal_leads.py \
+            --signals data/output/sports/sports-signals.jsonl \
+            --output-dir knowledge/sports/leads
+          uv run okf-parser check knowledge/sports/leads
+
+      - name: Persist new sports leads
+        run: |
+          git config user.name "O Vigia Sports Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add knowledge/sports/leads
+          if git diff --cached --quiet; then
+            echo "Nenhum sinal esportivo novo para persistir."
+            exit 0
+          fi
+          git commit -m "data(sports): materialize signals ${SNAP}"
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Upload Sports Parquet Artifacts
         uses: actions/upload-artifact@v4
