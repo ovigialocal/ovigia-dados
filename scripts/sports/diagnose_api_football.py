@@ -4,12 +4,29 @@
 """Sonda descartável: descobre plano, cobertura e IDs reais na API-Football."""
 
 import json
+import os
 import sys
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
 from ovigia_dados.sports.client import ApiFootballAuthError, ApiFootballClient
+
+# A mesma assinatura é vendida por dois canais, com host e header próprios.
+# A chave só vale no canal onde foi emitida, então o erro é idêntico ao de uma
+# chave inválida quando ela é apresentada ao canal errado.
+CHANNELS = {
+    "direto (api-sports)": (
+        "https://v3.football.api-sports.io/status",
+        "x-apisports-key",
+    ),
+    "rapidapi": (
+        "https://api-football-v1.p.rapidapi.com/v3/status",
+        "x-rapidapi-key",
+    ),
+}
 
 TEAM_NAMES = [
     "Porto Velho",
@@ -27,6 +44,33 @@ def show(label: str, payload: dict) -> None:
     print(f"results={payload.get('results')} errors={payload.get('errors')}", flush=True)
 
 
+def probe_channels(key: str) -> None:
+    """Apresenta a mesma chave aos dois canais e relata qual a reconhece."""
+    for label, (url, header) in CHANNELS.items():
+        headers = {header: key, "Accept": "application/json"}
+        if "rapidapi" in url:
+            headers["x-rapidapi-host"] = "api-football-v1.p.rapidapi.com"
+
+        request = urllib.request.Request(url, headers=headers)
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as http_error:
+            print(f"{label}: HTTP {http_error.code} {http_error.reason}", flush=True)
+            continue
+        except Exception as failure:  # noqa: BLE001 - a sonda relata qualquer falha
+            print(f"{label}: {failure}", flush=True)
+            continue
+
+        errors = payload.get("errors")
+        if errors:
+            print(f"{label}: recusada — {errors}", flush=True)
+            continue
+
+        account = payload.get("response", {})
+        print(f"{label}: ACEITA — {json.dumps(account, ensure_ascii=False)}", flush=True)
+
+
 def main() -> int:
     # A sonda faz nove requests e precisa caber na janela antes de qualquer kill,
     # então dispensa o throttle conservador do pipeline diário.
@@ -36,7 +80,11 @@ def main() -> int:
         status = client.get("status")
     except ApiFootballAuthError as refusal:
         # Relatar a recusa é o resultado da sonda, não uma falha dela.
-        print(f"=== chave recusada\n{refusal}", flush=True)
+        print(f"=== chave recusada no canal do pipeline\n{refusal}", flush=True)
+        raw_key = os.environ.get("API_FOOTBALL_KEY") or ""
+        if raw_key:
+            print("\n=== qual canal reconhece esta chave", flush=True)
+            probe_channels(raw_key)
         return 0
 
     print("=== status", flush=True)

@@ -131,7 +131,7 @@ class ApiFootballClient:
                     continue
                 elif e.code in (401, 403):
                     logger.error(f"Erro de autenticação HTTP {e.code} na API-Football.")
-                    raise PermissionError(
+                    raise ApiFootballAuthError(
                         "Chave de API inválida ou sem permissão para este recurso."
                     ) from e
                 else:

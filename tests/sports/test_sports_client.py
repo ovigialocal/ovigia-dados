@@ -1,5 +1,6 @@
 import io
 import json
+import urllib.error
 
 import pytest
 
@@ -79,3 +80,50 @@ def test_genuinely_empty_answer_is_returned(monkeypatch):
     client = _client_answering(monkeypatch, payload)
 
     assert client.get("teams", {"id": 999999}) == payload
+
+
+def test_http_401_raises_the_same_auth_error_as_a_refused_payload(monkeypatch):
+    """A refused key is one condition, so it gets one exception type.
+
+    API-Sports signals refusal both ways: HTTP 200 with errors.token, and a
+    bare 401/403. Callers that catch the specific error should not miss half
+    of them.
+    """
+    client = ApiFootballClient(api_keys=["key1"], requests_per_minute=6000)
+
+    def _refuse(request, timeout=None):
+        raise urllib.error.HTTPError(
+            url="https://v3.football.api-sports.io/status",
+            code=401,
+            msg="Unauthorized",
+            hdrs=None,
+            fp=None,
+        )
+
+    monkeypatch.setattr("urllib.request.urlopen", _refuse)
+
+    with pytest.raises(ApiFootballAuthError):
+        client.get("status")
+
+
+def test_http_403_is_not_retried(monkeypatch):
+    """Repeating a refused request cannot change the answer."""
+    client = ApiFootballClient(api_keys=["key1"], requests_per_minute=6000)
+    attempts = []
+
+    def _refuse(request, timeout=None):
+        attempts.append(1)
+        raise urllib.error.HTTPError(
+            url="https://v3.football.api-sports.io/status",
+            code=403,
+            msg="Forbidden",
+            hdrs=None,
+            fp=None,
+        )
+
+    monkeypatch.setattr("urllib.request.urlopen", _refuse)
+
+    with pytest.raises(ApiFootballAuthError):
+        client.get("status")
+
+    assert len(attempts) == 1
