@@ -45,14 +45,13 @@ jobs:
             SNAP=$(date -u +%Y-%m-%d)
           fi
           echo "SNAP=$SNAP" >> "$GITHUB_ENV"
-          uv run scripts/sports/run_sports_pipeline.py --snapshot-id "$SNAP" --output-dir data/output/sports
+          uv run scripts/sports/run_sports_pipeline.py \
+            --snapshot-id "$SNAP" \
+            --output-dir data/output/sports \
+            --leads-dir knowledge/sports/leads
 
-      - name: Materialize sports signals as OKF leads
-        run: |
-          uv run scripts/sports/materialize_signal_leads.py \
-            --signals data/output/sports/sports-signals.jsonl \
-            --output-dir knowledge/sports/leads
-          uv run okf-parser check knowledge/sports/leads
+      - name: Validate persistent sports leads
+        run: uv run okf-parser check knowledge/sports/leads
 
       - name: Persist new sports leads
         run: |
