@@ -44,6 +44,31 @@ def test_materialize_decoded_html_keeps_raw_append_only(tmp_path: Path) -> None:
     assert (tmp_path / written[0]).read_text() == "<html><body>archived</body></html>"
 
 
+def test_materialize_legacy_encoded_html_as_utf8_projection(tmp_path: Path) -> None:
+    html = "<html><body>Porto Velho – Kids esgotado</body></html>".encode("windows-1252")
+    raw = gzip.compress(html)
+    _write(tmp_path, "raw/wayback/replays/legacy.html", raw)
+    _write(
+        tmp_path,
+        "raw/wayback/replays/legacy.json",
+        json.dumps(
+            {
+                "archive_content_type": "text/html",
+                "replay_body_path": "raw/wayback/replays/legacy.html",
+            }
+        )
+        + "\n",
+    )
+
+    written = materialize_decoded_text_replays(tmp_path)
+
+    assert written == ["raw/wayback/replays/legacy.decoded.html"]
+    assert (tmp_path / written[0]).read_text(encoding="utf-8") == (
+        "<html><body>Porto Velho – Kids esgotado</body></html>"
+    )
+    assert (tmp_path / "raw/wayback/replays/legacy.html").read_bytes() == raw
+
+
 def test_binary_replay_with_text_content_type_is_left_raw(tmp_path: Path) -> None:
     binary = b"PK\x03\x04\xda\xff\x00binary-xlsx"
     _write(tmp_path, "raw/wayback/replays/sheet.html", binary)
