@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/queimadas-inpe-focos-2024-05-csv",
+  "source_url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/focos_mensal_br_202405.csv",
+  "archive_url": "https://web.archive.org/web/20260904184340/https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/focos_mensal_br_202405.csv",
+  "verified_at": "2026-09-05T01:34:11Z",
+  "archive_content_type": "text/csv",
+  "archive_size": 24287947,
+  "archive_sha256": "f5bf4745b42d7041ed5a9fdbf2f68817cb3e7ca515a70b4a6fb4a18fbe6611be",
+  "source_content_type": "text/csv",
+  "source_size": 24287947,
+  "source_sha256": "f5bf4745b42d7041ed5a9fdbf2f68817cb3e7ca515a70b4a6fb4a18fbe6611be",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/queimadas-inpe-focos-2024-05-csv.csv"
+}
