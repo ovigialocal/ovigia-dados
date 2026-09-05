@@ -44,6 +44,19 @@ def show(label: str, payload: dict) -> None:
     print(f"results={payload.get('results')} errors={payload.get('errors')}", flush=True)
 
 
+def describe_key(key: str) -> str:
+    """Descreve o formato da chave sem nunca revelar o valor.
+
+    Chave direta da API-Sports e chave da RapidAPI têm comprimentos e
+    alfabetos distintos, então o formato sozinho já indica a origem.
+    """
+    if not key:
+        return "ausente"
+
+    shape = "hexadecimal" if all(c in "0123456789abcdefABCDEF" for c in key) else "alfanumérica"
+    return f"{len(key)} caracteres, {shape}"
+
+
 def probe_channels(key: str) -> None:
     """Apresenta a mesma chave aos dois canais e relata qual a reconhece."""
     for label, (url, header) in CHANNELS.items():
@@ -56,7 +69,15 @@ def probe_channels(key: str) -> None:
             with urllib.request.urlopen(request, timeout=30) as response:
                 payload = json.loads(response.read().decode("utf-8"))
         except urllib.error.HTTPError as http_error:
-            print(f"{label}: HTTP {http_error.code} {http_error.reason}", flush=True)
+            # O corpo é o que distingue "chave recusada" de "endpoint errado".
+            try:
+                detail = http_error.read().decode("utf-8", errors="replace")[:300]
+            except Exception:  # noqa: BLE001 - o código HTTP ainda informa
+                detail = "(sem corpo)"
+            print(
+                f"{label}: HTTP {http_error.code} {http_error.reason} — {detail}",
+                flush=True,
+            )
             continue
         except Exception as failure:  # noqa: BLE001 - a sonda relata qualquer falha
             print(f"{label}: {failure}", flush=True)
@@ -81,7 +102,8 @@ def main() -> int:
     except ApiFootballAuthError as refusal:
         # Relatar a recusa é o resultado da sonda, não uma falha dela.
         print(f"=== chave recusada no canal do pipeline\n{refusal}", flush=True)
-        raw_key = os.environ.get("API_FOOTBALL_KEY") or ""
+        raw_key = (os.environ.get("API_FOOTBALL_KEY") or "").strip()
+        print(f"\n=== formato da chave recebida: {describe_key(raw_key)}", flush=True)
         if raw_key:
             print("\n=== qual canal reconhece esta chave", flush=True)
             probe_channels(raw_key)
