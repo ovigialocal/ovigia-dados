@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
-from ovigia_dados.sports.client import ApiFootballClient
+from ovigia_dados.sports.client import ApiFootballAuthError, ApiFootballClient
 
 TEAM_NAMES = [
     "Porto Velho",
@@ -27,12 +27,18 @@ def show(label: str, payload: dict) -> None:
     print(f"results={payload.get('results')} errors={payload.get('errors')}", flush=True)
 
 
-def main() -> None:
+def main() -> int:
     # A sonda faz nove requests e precisa caber na janela antes de qualquer kill,
     # então dispensa o throttle conservador do pipeline diário.
     client = ApiFootballClient(requests_per_minute=60)
 
-    status = client.get("status")
+    try:
+        status = client.get("status")
+    except ApiFootballAuthError as refusal:
+        # Relatar a recusa é o resultado da sonda, não uma falha dela.
+        print(f"=== chave recusada\n{refusal}", flush=True)
+        return 0
+
     print("=== status", flush=True)
     print(json.dumps(status.get("response", {}), ensure_ascii=False, indent=2), flush=True)
 
@@ -58,6 +64,8 @@ def main() -> None:
                 flush=True,
             )
 
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

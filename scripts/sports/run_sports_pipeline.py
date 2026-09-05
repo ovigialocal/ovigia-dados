@@ -126,7 +126,13 @@ def mock_records(snapshot_id: str):
     teams_records = [
         normalize_team(
             {
-                "team": {"id": 7780, "name": "Porto Velho EC", "code": "PVO", "country": "Brazil", "founded": 2018},
+                "team": {
+                    "id": 7780,
+                    "name": "Porto Velho EC",
+                    "code": "PVO",
+                    "country": "Brazil",
+                    "founded": 2018,
+                },
                 "venue": {"id": 1001, "name": "Estádio Aluízio Ferreira", "city": "Porto Velho"},
             },
             uf="RO",
@@ -134,7 +140,13 @@ def mock_records(snapshot_id: str):
         ),
         normalize_team(
             {
-                "team": {"id": 7779, "name": "Ji-Paraná FC", "code": "JIP", "country": "Brazil", "founded": 1991},
+                "team": {
+                    "id": 7779,
+                    "name": "Ji-Paraná FC",
+                    "code": "JIP",
+                    "country": "Brazil",
+                    "founded": 1991,
+                },
                 "venue": {"id": 1002, "name": "Estádio Biancão", "city": "Ji-Paraná"},
             },
             uf="RO",
@@ -144,9 +156,22 @@ def mock_records(snapshot_id: str):
     fixtures_records = [
         normalize_fixture(
             {
-                "fixture": {"id": 10001, "date": "2026-09-01T20:00:00Z", "status": {"short": "FT", "elapsed": 90}, "venue": {"name": "Aluizão", "city": "Porto Velho"}},
-                "league": {"id": 662, "name": "Rondoniense", "season": 2026, "round": "Final - Ida"},
-                "teams": {"home": {"id": 7780, "name": "Porto Velho EC"}, "away": {"id": 7779, "name": "Ji-Paraná FC"}},
+                "fixture": {
+                    "id": 10001,
+                    "date": "2026-09-01T20:00:00Z",
+                    "status": {"short": "FT", "elapsed": 90},
+                    "venue": {"name": "Aluizão", "city": "Porto Velho"},
+                },
+                "league": {
+                    "id": 662,
+                    "name": "Rondoniense",
+                    "season": 2026,
+                    "round": "Final - Ida",
+                },
+                "teams": {
+                    "home": {"id": 7780, "name": "Porto Velho EC"},
+                    "away": {"id": 7779, "name": "Ji-Paraná FC"},
+                },
                 "goals": {"home": 5, "away": 0},
                 "score": {"halftime": {"home": 2, "away": 0}},
             },
@@ -173,12 +198,30 @@ def mock_records(snapshot_id: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Executa pipeline de dados esportivos (API-Football)")
-    parser.add_argument("--snapshot-id", default=datetime.now(UTC).strftime("%Y-%m-%d"), help="Identificador do snapshot (ex: 2026-09-02)")
-    parser.add_argument("--output-dir", default="data/output/sports", help="Diretório de saída dos artefatos")
-    parser.add_argument("--registry-dir", default="knowledge/sports/registry", help="Bundle OKF que define regiões, competições e equipes monitoradas")
-    parser.add_argument("--leads-dir", default="knowledge/sports/leads", help="Bundle OKF persistente de sinais editoriais")
-    parser.add_argument("--mock-sample", action="store_true", help="Usa dados simulados para teste local e CI")
+    parser = argparse.ArgumentParser(
+        description="Executa pipeline de dados esportivos (API-Football)"
+    )
+    parser.add_argument(
+        "--snapshot-id",
+        default=datetime.now(UTC).strftime("%Y-%m-%d"),
+        help="Identificador do snapshot (ex: 2026-09-02)",
+    )
+    parser.add_argument(
+        "--output-dir", default="data/output/sports", help="Diretório de saída dos artefatos"
+    )
+    parser.add_argument(
+        "--registry-dir",
+        default="knowledge/sports/registry",
+        help="Bundle OKF que define regiões, competições e equipes monitoradas",
+    )
+    parser.add_argument(
+        "--leads-dir",
+        default="knowledge/sports/leads",
+        help="Bundle OKF persistente de sinais editoriais",
+    )
+    parser.add_argument(
+        "--mock-sample", action="store_true", help="Usa dados simulados para teste local e CI"
+    )
     args = parser.parse_args()
 
     out_dir = Path(args.output_dir)
@@ -192,7 +235,9 @@ def main():
         teams_records, fixtures_records, standings_records = mock_records(args.snapshot_id)
     else:
         logger.info("Executando coleta real da API-Football para entidades monitoradas em OKF.")
-        teams_records, fixtures_records, standings_records = collect_live_records(ApiFootballClient(), config, args.snapshot_id)
+        teams_records, fixtures_records, standings_records = collect_live_records(
+            ApiFootballClient(), config, args.snapshot_id
+        )
 
     teams_file = out_dir / "teams.parquet"
     fixtures_file = out_dir / "fixtures.parquet"
@@ -215,15 +260,27 @@ def main():
     manifest_file.write_text(manifest.model_dump_json(indent=2), encoding="utf-8")
 
     signals = []
-    signals.extend(LocalTeamImportantResultDetector(monitored_team_ids=monitored_team_ids).run(fixtures_file, snapshot_id=args.snapshot_id))
-    signals.extend(LocalTeamStandingsMovementDetector(monitored_team_ids=monitored_team_ids).run(standings_file, snapshot_id=args.snapshot_id))
+    signals.extend(
+        LocalTeamImportantResultDetector(monitored_team_ids=monitored_team_ids).run(
+            fixtures_file, snapshot_id=args.snapshot_id
+        )
+    )
+    signals.extend(
+        LocalTeamStandingsMovementDetector(monitored_team_ids=monitored_team_ids).run(
+            standings_file, snapshot_id=args.snapshot_id
+        )
+    )
 
     signal_records = [signal.__dict__ for signal in signals]
     created = materialize_signal_concepts(signal_records, args.leads_dir)
 
     logger.info(
         "Pipeline esportivo concluído: teams=%s fixtures=%s standings=%s signals=%s new_leads=%s",
-        len(teams_records), len(fixtures_records), len(standings_records), len(signals), len(created),
+        len(teams_records),
+        len(fixtures_records),
+        len(standings_records),
+        len(signals),
+        len(created),
     )
 
 
