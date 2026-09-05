@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/alero-frequencia-parlamentar-2026",
+  "source_url": "https://www.al.ro.leg.br/atividade-parlamentar/frequencia-parlamentar/",
+  "archive_url": "https://web.archive.org/web/20260905123828/https://www.al.ro.leg.br/atividade-parlamentar/frequencia-parlamentar/",
+  "verified_at": "2026-09-05T12:45:26Z",
+  "archive_content_type": "text/html",
+  "archive_size": 67481,
+  "archive_sha256": "4e85d84faa5a4f68dcea99a80c39577f2963d75c85ad2eb3a508fd4e4ff507ee",
+  "source_content_type": "text/html",
+  "source_size": 67481,
+  "source_sha256": "8aa3a1796d1db95c3627e07512420f765cbb75fefc1f7d5396bd561d12a172e7",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/alero-frequencia-parlamentar-2026.html"
+}
