@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/emdur-pregao030-termo-pdf",
+  "source_url": "https://licita.emdurportovelho.com.br/?jet_download=c0217fb7933a7bdbea2253901730ad88040f469f",
+  "archive_url": "https://web.archive.org/web/20260905033909/https://licita.emdurportovelho.com.br/?jet_download=c0217fb7933a7bdbea2253901730ad88040f469f",
+  "verified_at": "2026-09-05T05:10:52Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 710359,
+  "archive_sha256": "44e59dc82d77736ea322544f7425e83228014ca034e257e8e1f9a866c2185267",
+  "source_content_type": "application/pdf",
+  "source_size": 755742,
+  "source_sha256": "0db16e60893d6215e3fe05412eb6c200359f612f073d1f1bc85f0597f0171060",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/emdur-pregao030-termo-pdf.pdf"
+}

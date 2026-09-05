@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/emdur-ata007-2025-concreto",
+  "source_url": "https://licita.emdurportovelho.com.br/?jet_download=12c61d04b705ddc87a1ee9a4a979340ad7141417",
+  "archive_url": "https://web.archive.org/web/20260905034341/https://licita.emdurportovelho.com.br/?jet_download=12c61d04b705ddc87a1ee9a4a979340ad7141417",
+  "verified_at": "2026-09-05T05:10:49Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 985072,
+  "archive_sha256": "39ebb8df50a8f704864389b66207fa45f99aaf76049f18bacbc06305503de7a6",
+  "source_content_type": "application/pdf",
+  "source_size": 1041324,
+  "source_sha256": "1431ffdc4a7377da61a10709f2345475e00fb4e8752592397d59c457047411e6",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/emdur-ata007-2025-concreto.pdf"
+}
