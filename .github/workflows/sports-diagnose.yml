@@ -1,0 +1,32 @@
+name: Sports API-Football Diagnose (temporary)
+
+on:
+  push:
+    branches:
+      - claude/api-football-project-qou81l
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    name: Probe API-Football plan, coverage and real entity IDs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Setup Python
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Probe API-Football
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_KEYS: ${{ secrets.API_FOOTBALL_KEYS }}
+          PYTHONUNBUFFERED: "1"
+        run: uv run scripts/sports/diagnose_api_football.py
