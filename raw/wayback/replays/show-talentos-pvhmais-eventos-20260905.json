@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/show-talentos-pvhmais-eventos-20260905",
+  "source_url": "https://pvhmais.portovelho.ro.gov.br/site/eventos",
+  "archive_url": "https://web.archive.org/web/20260905083459/https://pvhmais.portovelho.ro.gov.br/site/eventos",
+  "verified_at": "2026-09-05T09:07:34Z",
+  "archive_content_type": "text/html",
+  "archive_size": 387956,
+  "archive_sha256": "d42e01e153072fbcc385e801f696026fdecad2556d14d6ded891fadd02a5ac42",
+  "source_content_type": "text/html",
+  "source_size": 387956,
+  "source_sha256": "2e92856ec6d87b29e261d8a9d1ec0405aead39f55c1e429c3ecc254cae906e83",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/show-talentos-pvhmais-eventos-20260905.html"
+}
