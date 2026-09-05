@@ -5,6 +5,7 @@
 #     "pyarrow>=15.0.0",
 #     "pydantic>=2.0.0",
 #     "internetarchive>=4.0.0",
+#     "okf-parser==0.45.2",
 # ]
 # ///
 """Pipeline esportivo para API-Football v3 com extração, normalização e detecção."""
@@ -35,6 +36,7 @@ from ovigia_dados.sports.detectors.sports_detectors import (
     LocalTeamImportantResultDetector,
     LocalTeamStandingsMovementDetector,
 )
+from ovigia_dados.sports.registry import load_sports_registry
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -215,6 +217,11 @@ def main():
         "--output-dir", default="data/output/sports", help="Diretório de saída dos artefatos"
     )
     parser.add_argument(
+        "--registry-dir",
+        default="knowledge/sports/registry",
+        help="Bundle OKF que define regiões, competições e equipes monitoradas",
+    )
+    parser.add_argument(
         "--mock-sample", action="store_true", help="Usa dados simulados para teste local e CI"
     )
     args = parser.parse_args()
@@ -222,19 +229,14 @@ def main():
     out_dir = Path(args.output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    config_path = Path("datasets/sports/config/monitored_entities.json")
-    config = (
-        json.loads(config_path.read_text(encoding="utf-8"))
-        if config_path.exists()
-        else {"teams": [], "leagues": []}
-    )
+    config = load_sports_registry(args.registry_dir)
     monitored_team_ids = [int(t["team_id"]) for t in config.get("teams", [])]
 
     if args.mock_sample:
         logger.info("Executando pipeline esportivo com fixture mock explícita.")
         teams_records, fixtures_records, standings_records = mock_records(args.snapshot_id)
     else:
-        logger.info("Executando coleta real da API-Football para entidades monitoradas.")
+        logger.info("Executando coleta real da API-Football para entidades monitoradas em OKF.")
         teams_records, fixtures_records, standings_records = collect_live_records(
             ApiFootballClient(), config, args.snapshot_id
         )
