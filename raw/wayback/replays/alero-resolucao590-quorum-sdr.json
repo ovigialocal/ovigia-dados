@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/alero-resolucao590-quorum-sdr",
+  "source_url": "https://www.al.ro.leg.br/media/legislacao_compilada/resolucao_590.pdf",
+  "archive_url": "https://web.archive.org/web/20260905124208/https://www.al.ro.leg.br/media/legislacao_compilada/resolucao_590.pdf",
+  "verified_at": "2026-09-05T22:59:38Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1326011,
+  "archive_sha256": "d8b6b3c7fbd72e229ad34678773c479ad87850fcc02b8cbfc8e775a771c80ca0",
+  "source_content_type": "application/pdf",
+  "source_size": 1326011,
+  "source_sha256": "d8b6b3c7fbd72e229ad34678773c479ad87850fcc02b8cbfc8e775a771c80ca0",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/alero-resolucao590-quorum-sdr.pdf"
+}
