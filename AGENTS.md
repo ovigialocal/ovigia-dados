@@ -36,6 +36,14 @@ observe/task
 - Every dataset/detector implementation should feed the loop: execution produces evidence; evidence updates the wiki; wiki may evolve skills.
 - `okf-parser` remains the structural authority for OKF bundles/specs and should be used when modeling new knowledge contracts.
 
+### Canonical persistence formats
+
+Use OKF Markdown as the default persistent format for semantic state: configuration, registries, entities, signals, queues, decisions, manifests and other knowledge that benefits from identity, provenance or relations. For large tabular/analytical datasets, prefer Parquet; use CSV when simple tabular interoperability is the stronger requirement.
+
+JSON/JSONL may exist at an external API or transiently inside a process, but must not become a new authored or canonical persistence surface. Do not add persistent JSON/JSONL when OKF, Parquet or CSV expresses the same contract. When touching a legacy persistent JSON/JSONL boundary, prefer migrating it rather than extending it, provided immutable historical evidence is not rewritten.
+
+Raw evidence preserves what was actually observed: this rule does not require rewriting immutable historical payloads received as JSON, nor does it prohibit decoding JSON returned by an external API in memory.
+
 ### Wayback preservation queue
 
 `ovigia-dados` is the public execution boundary for Wayback preservation requested by O Vigia. The queue is represented only as OKF concepts under `knowledge/wayback/`:
