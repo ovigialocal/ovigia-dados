@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/concurso-semed-semusa-termo-dispensa-2026",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/9203/33287/SEI_1448924_Termo_de_Dispensa_de_Licitacao_10-(1)-(1).pdf",
+  "archive_url": "https://web.archive.org/web/20260905115005/https://anexos.portovelho.ro.gov.br/compras/9203/33287/SEI_1448924_Termo_de_Dispensa_de_Licitacao_10-(1)-(1).pdf",
+  "verified_at": "2026-09-05T11:57:43Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 234727,
+  "archive_sha256": "9bae6c62fe277928ce9d23c1ea776ebe87f14a77582092376f61b841b2cfb20b",
+  "source_content_type": "application/pdf",
+  "source_size": 235392,
+  "source_sha256": "d5092fceba844b025793d70c331ea18f8ccee562bf8fdab26b130b425e05b44f",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/concurso-semed-semusa-termo-dispensa-2026.pdf"
+}

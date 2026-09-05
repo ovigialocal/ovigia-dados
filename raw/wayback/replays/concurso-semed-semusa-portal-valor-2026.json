@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/concurso-semed-semusa-portal-valor-2026",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/9203",
+  "archive_url": "https://web.archive.org/web/20260905114942/https://transparencia.portovelho.ro.gov.br/despesas/compras/9203",
+  "verified_at": "2026-09-05T11:57:39Z",
+  "archive_content_type": "text/html",
+  "archive_size": 40485,
+  "archive_sha256": "9794ee892d2729a1767187a4eb786680d9975d917aa14537b1f2ca48674cbde1",
+  "source_content_type": "text/html",
+  "source_size": 436171,
+  "source_sha256": "9834728bba04dac1374112c9e6fdc0ac59fb1c2772a9f70aa87ed680b2929745",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/concurso-semed-semusa-portal-valor-2026.html"
+}
