@@ -7,6 +7,23 @@ from collections.abc import Iterable
 from pathlib import Path
 from typing import Any
 
+from okf_parser.parser import DocumentParseError, parse_document_text
+from okf_parser.write_support import RawDocument, render_raw
+
+
+class SignalSerializationError(RuntimeError):
+    """Um sinal não produziu um concept OKF válido.
+
+    Sinal é dado que o próprio pipeline montou, então concept inválido é
+    invariante violado — nunca fluxo esperado. Falhar aqui impede que bytes
+    malformados cheguem ao bundle.
+    """
+
+    def __init__(self, signal_id: str, reason: str):
+        self.signal_id = signal_id
+        self.reason = reason
+        super().__init__(f"Sinal {signal_id} não serializa como concept OKF: {reason}")
+
 
 def _yaml_json(value: object) -> str:
     """Render JSON syntax, which is also valid YAML, without ambiguous scalars."""
@@ -44,12 +61,24 @@ def render_signal_concept(signal: dict[str, Any]) -> str:
     frontmatter = "\n".join(f"{key}: {_yaml_json(value)}" for key, value in fields.items())
     title = f"Sinal esportivo {fields['signal_id']}"
     reasons = ", ".join(fields["reason_codes"])
-    return (
-        f"---\n{frontmatter}\n---\n\n"
-        f"# {title}\n\n"
+    body = (
+        f"\n# {title}\n\n"
         f"Detector `{fields['detector_id']}` emitiu este sinal a partir do snapshot "
         f"`{fields['source_snapshot']}`. Reason codes: {reasons}.\n"
     )
+
+    # Os bytes são montados e revalidados pelo okf-parser, que é a autoridade
+    # de serialização do bundle. Concatenar delimitadores à mão aqui criaria um
+    # segundo formatador, divergindo do parser no primeiro caso de borda.
+    raw = RawDocument(bom=b"", crlf=False, frontmatter_text=frontmatter, body_text=body)
+    text = render_raw(raw, frontmatter).decode("utf-8")
+
+    try:
+        parse_document_text(Path(f"{fields['signal_id']}.md"), text)
+    except (DocumentParseError, ValueError) as invalid:
+        raise SignalSerializationError(fields["signal_id"], str(invalid)) from invalid
+
+    return text
 
 
 def materialize_signal_concepts(

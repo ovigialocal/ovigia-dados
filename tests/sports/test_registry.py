@@ -13,18 +13,19 @@ def test_repository_registry_projects_expected_entities():
             "municipality_code": "1100205",
         }
     ]
-    assert {league["league_id"] for league in registry["leagues"]} == {662, 73, 74, 598}
+    # IDs conferidos contra a API-Football em 2026-09-05 (ver PR).
+    assert {league["league_id"] for league in registry["leagues"]} == {615, 73, 76, 843}
     assert {team["team_id"] for team in registry["teams"]} == {
-        7780,
-        7779,
-        7784,
-        7781,
-        7782,
-        7783,
-        7785,
+        12946,
+        10675,
+        2219,
+        1229,
+        12943,
+        12947,
+        12281,
     }
     assert {team["team_id"] for team in registry["teams"] if team["city"] == "Porto Velho"} == {
-        7780,
-        7781,
+        12946,
+        1229,
     }
     assert all(team["is_local_focus"] for team in registry["teams"])

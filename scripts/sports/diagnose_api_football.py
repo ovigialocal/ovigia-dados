@@ -112,7 +112,7 @@ def main() -> int:
     print("=== status", flush=True)
     print(json.dumps(status.get("response", {}), ensure_ascii=False, indent=2), flush=True)
 
-    leagues = client.get("leagues", {"country": "Brazil", "search": "Rondoniense"})
+    leagues = client.get("leagues", {"search": "Rondoniense"})
     show("leagues search=Rondoniense", leagues)
     for item in leagues.get("response", []):
         league = item.get("league", {})

@@ -13,7 +13,7 @@
 import argparse
 import logging
 import sys
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
 from ovigia_dados.archive.publisher import compute_sha256
 from ovigia_dados.schemas import SnapshotManifest
-from ovigia_dados.sports.client import ApiFootballClient
+from ovigia_dados.sports.client import ApiFootballClient, ApiFootballPlanError
 from ovigia_dados.sports.collectors.normalizer import (
     FIXTURES_SCHEMA,
     STANDINGS_SCHEMA,
@@ -42,11 +42,43 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 
+# A API-Football só aceita fixtures por data dentro de uma janela estreita nos
+# planos sem assinatura paga. Um dia para trás fecha jogos que viraram a noite,
+# um dia para frente é toda a agenda que o plano enxerga.
+FIXTURE_WINDOW_DAYS_BACK = 1
+FIXTURE_WINDOW_DAYS_AHEAD = 1
+COLLECTION_TIMEZONE = "America/Porto_Velho"
+
+
 def _season_from_snapshot(snapshot_id: str) -> int:
     try:
         return int(snapshot_id[:4])
     except (TypeError, ValueError):
         return datetime.now(UTC).year
+
+
+def _snapshot_date(snapshot_id: str) -> date:
+    try:
+        return date.fromisoformat(snapshot_id[:10])
+    except (TypeError, ValueError):
+        return datetime.now(UTC).date()
+
+
+def fixture_window(snapshot_id: str) -> list[str]:
+    """Datas ISO que a coleta de fixtures percorre, uma requisição por data."""
+    anchor = _snapshot_date(snapshot_id)
+    span = range(-FIXTURE_WINDOW_DAYS_BACK, FIXTURE_WINDOW_DAYS_AHEAD + 1)
+    return [(anchor + timedelta(days=offset)).isoformat() for offset in span]
+
+
+def _fixture_involves(raw: dict[str, Any], team_ids: set[int]) -> bool:
+    sides = raw.get("teams", {}) or {}
+    playing = {
+        side.get("id")
+        for side in (sides.get("home") or {}, sides.get("away") or {})
+        if side.get("id") is not None
+    }
+    return bool(playing & team_ids)
 
 
 def _flatten_standings(payload: dict[str, Any]) -> list[dict[str, Any]]:
@@ -67,21 +99,27 @@ def collect_live_records(
     season = _season_from_snapshot(snapshot_id)
     team_configs = config.get("teams", [])
     league_configs = config.get("leagues", [])
+    monitored_team_ids = {int(team_cfg["team_id"]) for team_cfg in team_configs}
 
     teams_records: list[dict[str, Any]] = []
     fixtures_by_id: dict[int, dict[str, Any]] = {}
     standings_records: list[dict[str, Any]] = []
 
     for team_cfg in team_configs:
-        team_id = int(team_cfg["team_id"])
-        team_payload = client.get("teams", {"id": team_id})
+        team_payload = client.get("teams", {"id": int(team_cfg["team_id"])})
         for raw in team_payload.get("response", []):
             teams_records.append(
                 normalize_team(raw, uf=team_cfg.get("uf"), snapshot_id=snapshot_id)
             )
 
-        fixture_payload = client.get("fixtures", {"team": team_id, "season": season})
+    # Uma requisição por data cobre todas as competições de uma vez, e não
+    # depende de season — que os planos sem assinatura recusam na temporada
+    # corrente. O recorte por time monitorado é nosso, sobre a resposta.
+    for day in fixture_window(snapshot_id):
+        fixture_payload = client.get("fixtures", {"date": day, "timezone": COLLECTION_TIMEZONE})
         for raw in fixture_payload.get("response", []):
+            if not _fixture_involves(raw, monitored_team_ids):
+                continue
             normalized = normalize_fixture(raw, snapshot_id=snapshot_id)
             fixture_id = normalized.get("fixture_id")
             if fixture_id is not None:
@@ -89,7 +127,9 @@ def collect_live_records(
 
     for league_cfg in league_configs:
         league_id = int(league_cfg["league_id"])
-        coverage_payload = client.get("leagues", {"id": league_id, "season": season})
+        # Sem season: a API devolve todas as temporadas da liga e o filtro é
+        # local, então a consulta de cobertura não esbarra no plano.
+        coverage_payload = client.get("leagues", {"id": league_id})
         has_standings = False
         for response_item in coverage_payload.get("response", []):
             for season_info in response_item.get("seasons", []) or []:
@@ -108,7 +148,19 @@ def collect_live_records(
         if not has_standings:
             continue
 
-        standings_payload = client.get("standings", {"league": league_id, "season": season})
+        try:
+            standings_payload = client.get("standings", {"league": league_id, "season": season})
+        except ApiFootballPlanError as refusal:
+            # Classificação é enriquecimento, não a coleta. Perdê-la por
+            # limite de plano é resultado legítimo; perdê-la em silêncio não.
+            logger.warning(
+                "Standings indisponíveis para league=%s season=%s: %s",
+                league_id,
+                season,
+                refusal.detail,
+            )
+            continue
+
         for raw in _flatten_standings(standings_payload):
             standings_records.append(
                 normalize_standing_entry(
