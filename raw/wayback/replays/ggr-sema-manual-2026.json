@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ggr-sema-manual-2026",
+  "source_url": "https://sema.portovelho.ro.gov.br/noticias/57893",
+  "archive_url": "https://web.archive.org/web/20260905104522/https://sema.portovelho.ro.gov.br/noticias/57893",
+  "verified_at": "2026-09-05T11:47:28Z",
+  "archive_content_type": "text/html",
+  "archive_size": 34368,
+  "archive_sha256": "b23ae6cafb6eaa8d3a3b5598a2ebf7e8263a65bf094e0a4b0dadcd49d0c10f25",
+  "source_content_type": "text/html",
+  "source_size": 247975,
+  "source_sha256": "0bc71def911681ef5aec44aa01861d981c132ea62b5e6e733116c8d14ca4ec60",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/ggr-sema-manual-2026.html"
+}

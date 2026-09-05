@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/upa-leste-tce-dm0108-2026",
+  "source_url": "https://www.tce.ro.gov.br/doe/arquivos/Diario_03538_2026-4-9-17-0-17.pdf",
+  "archive_url": "https://web.archive.org/web/20260905114445/https://www.tce.ro.gov.br/doe/arquivos/Diario_03538_2026-4-9-17-0-17.pdf",
+  "verified_at": "2026-09-05T11:47:41Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1964567,
+  "archive_sha256": "951def52559d34bec78742c8f652a02d827e226dbafd87b29376fd9e306efd86",
+  "source_content_type": "application/pdf",
+  "source_size": 1964567,
+  "source_sha256": "951def52559d34bec78742c8f652a02d827e226dbafd87b29376fd9e306efd86",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/upa-leste-tce-dm0108-2026.pdf"
+}
