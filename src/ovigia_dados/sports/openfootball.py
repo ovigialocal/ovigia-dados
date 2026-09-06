@@ -9,7 +9,6 @@ from pathlib import Path
 from typing import Any
 
 import requests
-
 from ovigia_dados.sports.official_sources import DEFAULT_USER_AGENT
 
 SOUTH_AMERICA_BRAZIL_API = (
