@@ -10,6 +10,7 @@ from okf_parser import concept, load_bundle, resolve_relations
 from okf_parser.models import ConceptRecord
 
 _WAYBACK_PREFIX = "knowledge/wayback/"
+_RETRYABLE_HTTP_CODES = {429}
 
 
 class WaybackQueueError(ValueError):
@@ -29,7 +30,7 @@ class ArchiveRequest:
 
 @dataclass(frozen=True, slots=True)
 class ArchiveResult:
-    """Validated terminal preservation result."""
+    """Validated preservation result."""
 
     concept_id: str
     path: str
@@ -37,11 +38,12 @@ class ArchiveResult:
     source_url: str
     status: str
     archive_url: str | None = None
+    failure_code: str | None = None
 
 
 @dataclass(frozen=True, slots=True)
 class WaybackQueue:
-    """Projection of requests minus terminal results."""
+    """Projection of requests minus genuine terminal results."""
 
     pending: tuple[ArchiveRequest, ...]
     archived: tuple[ArchiveResult, ...]
@@ -119,6 +121,7 @@ def _result(bundle, record: ConceptRecord, requests: dict[str, ArchiveRequest]) 
     status = _required_text(meta, "status", path=record.path)
 
     archive_url: str | None = None
+    failure_code: str | None = None
     if status == "archived":
         archive_url = _required_text(meta, "archive_url", path=record.path)
         if not archive_url.startswith("https://web.archive.org/web/"):
@@ -133,7 +136,7 @@ def _result(bundle, record: ConceptRecord, requests: dict[str, ArchiveRequest]) 
         failure = meta.get("failure")
         if not isinstance(failure, dict):
             raise WaybackQueueError(f"{record.path}: failed result requires failure mapping")
-        _required_text(failure, "code", path=f"{record.path}: failure")
+        failure_code = _required_text(failure, "code", path=f"{record.path}: failure")
         _required_text(failure, "detail", path=f"{record.path}: failure")
     else:
         raise WaybackQueueError(f"{record.path}: status must be archived or failed")
@@ -145,11 +148,25 @@ def _result(bundle, record: ConceptRecord, requests: dict[str, ArchiveRequest]) 
         source_url=source_url,
         status=status,
         archive_url=archive_url,
+        failure_code=failure_code,
     )
 
 
+def _legacy_retryable(result: ArchiveResult) -> bool:
+    """Interpret historical failed results for transient HTTP responses as pending."""
+    if result.status != "failed" or not result.failure_code:
+        return False
+    if not result.failure_code.startswith("http-"):
+        return False
+    try:
+        status = int(result.failure_code.removeprefix("http-"))
+    except ValueError:
+        return False
+    return status in _RETRYABLE_HTTP_CODES or 500 <= status < 600
+
+
 def load_wayback_queue(bundle_root: Path) -> WaybackQueue:
-    """Load and validate the public append-only Wayback queue."""
+    """Load requests and ignore legacy terminal markers for retryable IA responses."""
     bundle = load_bundle(bundle_root)
     _require_wayback_okf_conformance(bundle)
     requests: dict[str, ArchiveRequest] = {}
@@ -169,6 +186,8 @@ def load_wayback_queue(bundle_root: Path) -> WaybackQueue:
     terminal: dict[str, ArchiveResult] = {}
     for record in result_records:
         result = _result(bundle, record, requests)
+        if _legacy_retryable(result):
+            continue
         if result.request_concept_id in terminal:
             raise WaybackQueueError(
                 f"{record.path}: archive-request already has a terminal archive-result"
