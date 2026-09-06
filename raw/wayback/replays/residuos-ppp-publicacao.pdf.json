@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-ppp-publicacao.pdf",
+  "source_url": "https://www-storage.voxtecnologia.com.br/?f=269&i=publicado_116059_2026-05-06_ea307e619759232ed98614b1a6eaf601.pdf&m=sigpub.publicacao",
+  "archive_url": "https://web.archive.org/web/20260902215036/https://www-storage.voxtecnologia.com.br/?f=269&i=publicado_116059_2026-05-06_ea307e619759232ed98614b1a6eaf601.pdf&m=sigpub.publicacao",
+  "verified_at": "2026-09-06T17:46:59Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 3764058,
+  "archive_sha256": "67204845b3ff25410155f61009896d704103409f2791813452becd11de4d94f5",
+  "source_content_type": "application/pdf",
+  "source_size": 3764058,
+  "source_sha256": "67204845b3ff25410155f61009896d704103409f2791813452becd11de4d94f5",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/residuos-ppp-publicacao.pdf.pdf"
+}

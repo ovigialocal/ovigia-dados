@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/giro-saude-cem-2026-09-05",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58102",
+  "archive_url": "https://web.archive.org/web/20260906164522/https://www.portovelho.ro.gov.br/noticias/58102",
+  "verified_at": "2026-09-06T17:43:15Z",
+  "archive_content_type": "text/html",
+  "archive_size": 19624,
+  "archive_sha256": "8333990a3951dca731c012b06815cca2b5776b42e327a5078bef3eb1306b9ec0",
+  "source_content_type": "text/html",
+  "source_size": 118537,
+  "source_sha256": "d45622e63dc1e301ff34ae33aec5747d51675e3653df8b0230bdec7a974e2c0d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/giro-saude-cem-2026-09-05.html"
+}

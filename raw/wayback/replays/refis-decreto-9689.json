@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/refis-decreto-9689",
+  "source_url": "https://sapl.portovelho.ro.leg.br/ta/9689/text",
+  "archive_url": "https://web.archive.org/web/20260906165900/https://sapl.portovelho.ro.leg.br/ta/9689/text",
+  "verified_at": "2026-09-06T17:46:52Z",
+  "archive_content_type": "text/html",
+  "archive_size": 5197,
+  "archive_sha256": "55218038f94d79daf4370dc9984275444b07ce12f2f2c03e9cbb03face919d3c",
+  "source_content_type": "text/html",
+  "source_size": 21490,
+  "source_sha256": "e7f51d2a07b0f69ee7238b83f224185670f564203d03d0613ac30e581d69035a",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/refis-decreto-9689.html"
+}

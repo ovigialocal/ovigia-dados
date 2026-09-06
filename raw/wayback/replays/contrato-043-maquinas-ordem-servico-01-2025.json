@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/contrato-043-maquinas-ordem-servico-01-2025",
+  "source_url": "https://www-storage.voxtecnologia.com.br/?f=269&i=publicado_108188_2025-09-19_1cfe589f3c0c8c4947c7b58bf6c840e8.pdf&m=sigpub.publicacao",
+  "archive_url": "https://web.archive.org/web/20260903033758/https://www-storage.voxtecnologia.com.br/?f=269&i=publicado_108188_2025-09-19_1cfe589f3c0c8c4947c7b58bf6c840e8.pdf&m=sigpub.publicacao",
+  "verified_at": "2026-09-06T17:42:54Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 4775956,
+  "archive_sha256": "d3aa4649accdfa568a450ad29b443ae5b428ec7262e0e8310323888039f9a650",
+  "source_content_type": "application/pdf",
+  "source_size": 4775956,
+  "source_sha256": "d3aa4649accdfa568a450ad29b443ae5b428ec7262e0e8310323888039f9a650",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/contrato-043-maquinas-ordem-servico-01-2025.pdf"
+}
