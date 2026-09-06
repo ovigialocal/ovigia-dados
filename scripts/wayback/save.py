@@ -1,7 +1,8 @@
 # /// script
-# requires-python = ">=3.11"
+# requires-python = ">=3.12"
 # dependencies = [
 #     "ovigia-dados",
+#     "tenacity>=9.0",
 # ]
 # [tool.uv.sources]
 # ovigia-dados = { path = "../.." }
