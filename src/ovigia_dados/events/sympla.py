@@ -16,6 +16,7 @@ from typing import Any, Literal
 from urllib.parse import unquote, urljoin, urlparse, urlunparse
 
 from pydantic import BaseModel, Field
+
 import requests
 
 logger = logging.getLogger(__name__)
