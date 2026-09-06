@@ -4,12 +4,19 @@ on:
   schedule:
     - cron: '45 6 * * 1'
   workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/ovigia_dados/sports/openfootball.py'
+      - 'scripts/sports/audit_openfootball.py'
+      - 'tests/sports/test_openfootball.py'
+      - '.github/workflows/sports-openfootball-audit.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: sports-openfootball-audit
+  group: sports-openfootball-audit-${{ github.event.pull_request.number || 'main' }}
   cancel-in-progress: false
 
 jobs:
@@ -37,7 +44,12 @@ jobs:
             --summary-output datasets/sports/quality/openfootball-rondonia.csv \
             --teams-output datasets/sports/quality/openfootball-rondonia-teams.csv
 
+      - name: Verify bootstrap quality projection is current
+        if: github.event_name == 'pull_request'
+        run: git diff --exit-code -- datasets/sports/quality/openfootball-rondonia.csv datasets/sports/quality/openfootball-rondonia-teams.csv
+
       - name: Persist changed quality assessment
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "O Vigia Sports Data Bot"
           git config user.email "actions@users.noreply.github.com"
