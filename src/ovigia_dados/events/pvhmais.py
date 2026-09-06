@@ -12,7 +12,6 @@ from typing import Any
 from urllib.parse import urljoin, urlparse, urlunparse
 
 import requests
-
 from ovigia_dados.events.shared import EventObservation, event_content_hash, fetch_text
 
 PVHMAIS_EVENTS_URL = "https://pvhmais.portovelho.ro.gov.br/site/eventos"
