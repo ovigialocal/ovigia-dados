@@ -16,7 +16,13 @@ Fonte de agenda/resultados do Campeonato Rondoniense 2026:
 
 - `https://ffer.com.br/Publicacao.aspx?id=640220`
 
-A página reúne classificação e tabelas por rodada com número do jogo, data, hora, mandante, placar, visitante, estádio e acesso a SÚM/BOR/REL. A mesma linha serve antes do jogo como agenda e depois do jogo como registro de resultado. Isso permite coleta determinística sem API comercial.
+A página reúne classificação e tabelas por rodada com número do jogo, data, hora, mandante, placar, visitante, estádio e acesso a SÚM/BOR/REL. A mesma linha serve antes do jogo como agenda e depois do jogo como registro de resultado. Isso permite coleta determinística sem API comercial quando a origem aceita a requisição.
+
+### Disponibilidade para automação
+
+Em 6 de setembro de 2026, a página pública respondeu **HTTP 403** a requisições originadas em runners do GitHub Actions. Esse estado é observado e persistido em `datasets/sports/quality/ffer-rondoniense-source.csv`. Ele não autoriza substituir a FFER por outra fonte como autoridade e não deve apagar uma projeção de agenda já coletada.
+
+O coletor distingue, portanto, três situações: fonte disponível e parseável; fonte disponível com HTML inesperado (erro de parser); e fonte temporariamente indisponível ao runner (`401/403/429/5xx`). Somente a primeira atualiza agenda/resultados. A terceira preserva a projeção anterior e registra a degradação. Isso evita transformar bloqueio de automação em falsa agenda vazia.
 
 Catálogo oficial de clubes profissionais:
 
@@ -42,7 +48,7 @@ Além da página indicada pela FFER, o clube mantém site próprio atual:
 - site: `https://ecportovelho.com/`
 - agenda: `https://ecportovelho.com/agenda/`
 
-A agenda do clube informa próximos jogos e resultados anteriores. Ela é boa fonte de confirmação e de contexto de primeira parte. Quando houver diferença com FFER/CBF sobre partida organizada por essas entidades, registrar a divergência e usar a organizadora como autoridade do fixture.
+A agenda do clube informa próximos jogos e resultados anteriores. Ela é boa fonte de confirmação e de contexto de primeira parte. Em 5 de setembro de 2026 a página declarava explicitamente que não havia partidas agendadas, coerente com o encerramento da participação do clube na Série D. Quando houver diferença com FFER/CBF sobre partida organizada por essas entidades, registrar a divergência e usar a organizadora como autoridade do fixture.
 
 ## Ji-Paraná e Guaporé
 
@@ -85,4 +91,5 @@ API-Football permanece temporariamente como compatibilidade para detectores e co
 - Preservar a URL exata da fonte e, quando material para publicação, enfileirar a página/documento no fluxo Wayback existente.
 - Não transformar automaticamente todo resultado em notícia: o `signal` é lead factual. A Redação decide relevância e reapura contexto.
 - Se a estrutura HTML mudar e zero partidas forem reconhecidas, falhar sem sobrescrever a projeção anterior. Zero partidas extraídas não equivale a agenda vazia.
+- Se a fonte recusar automação por HTTP, registrar a indisponibilidade e manter o último estado conhecido em vez de fabricar vazio ou degradar autoridade.
 - Tratar qualidade de open data como propriedade observável: licença, recência, competições presentes e cobertura dos clubes locais devem ser medidas, não presumidas.
