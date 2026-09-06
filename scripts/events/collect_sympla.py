@@ -9,7 +9,6 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 import requests
-
 from ovigia_dados.events.sympla import (
     SYMPLA_LISTING_URL,
     SymplaParseError,
