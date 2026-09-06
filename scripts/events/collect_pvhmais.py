@@ -38,8 +38,7 @@ def main() -> int:
         format="%(levelname)s %(message)s",
     )
     observed_at = datetime.now(UTC)
-    session = requests.Session()
-    listing = fetch_text(args.listing_url, session)
+    listing = fetch_text(args.listing_url)
     event_ids = scan_ids_from_listing(
         listing,
         bootstrap_max=max(1, args.bootstrap_max),
@@ -51,7 +50,7 @@ def main() -> int:
 
     def fetch_one(event_id: int):
         try:
-            return hydrate_event(event_id, session=session, observed_at=observed_at)
+            return hydrate_event(event_id, observed_at=observed_at)
         except (requests.RequestException, PvhMaisParseError):
             return None
 
