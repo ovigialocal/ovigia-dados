@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/saneamento-plano-negocio-final-pdf",
+  "source_url": "https://rondonia.ro.gov.br/wp-content/uploads/2026/07/1.-Plano-de-Negocio-Referencial-atual.pdf",
+  "archive_url": "https://web.archive.org/web/20260906003526/https://rondonia.ro.gov.br/wp-content/uploads/2026/07/1.-Plano-de-Negocio-Referencial-atual.pdf",
+  "verified_at": "2026-09-06T01:03:00Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1205399,
+  "archive_sha256": "59083172b82766cc93e46dcfe8b34f7a68e70613dfee70bbbe7eae8b99320e1e",
+  "source_content_type": "application/pdf",
+  "source_size": 1205399,
+  "source_sha256": "59083172b82766cc93e46dcfe8b34f7a68e70613dfee70bbbe7eae8b99320e1e",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/saneamento-plano-negocio-final-pdf.pdf"
+}

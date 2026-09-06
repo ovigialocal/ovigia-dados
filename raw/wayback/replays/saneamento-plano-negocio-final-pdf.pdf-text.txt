@@ -1,0 +1,1445 @@
+Plano de Nego cios Referencial da
+Concessa o do Projeto Rondo nia
+Banco Nacional de Desenvolvimento Econômico e Social -
+BNDES
+SUMÁRIO
+1 Contextualização do Projeto RO ________________________________________________________5
+1.1 Objeto da Concessão_________________________________________________________________________ 5
+1.2 Escopo de Atuação ___________________________________________________________________________ 5
+2 Premissas e projeções ____________________________________________________________________9
+2.1 Gerais __________________________________________________________________________________________ 9
+2.2 Cenário Macroeconômico __________________________________________________________________ 9
+2.3 Projeção populacional ____________________________________________________________________ 10
+2.4 Produção, demanda e faturamento de água ___________________________________________ 12
+2.5 Faturamento e contribuição de esgoto _________________________________________________ 15
+2.6 Número de ligações e extensão da rede ________________________________________________ 17
+2.7 Divisão das projeções de faturamento entre tipos de usuário _____________________ 19
+2.8 Tarifas _______________________________________________________________________________________ 22
+2.9 Receitas _____________________________________________________________________________________ 26
+2.10 Custos Operacionais _______________________________________________________________________ 28
+2.11 Despesas ____________________________________________________________________________________ 31
+2.12 Encargo Setorial ___________________________________________________________________________ 33
+2.13 Investimentos e Amortização ____________________________________________________________ 33
+2.14 Financiamentos ____________________________________________________________________________ 38
+2.15 Necessidade de capital de giro ___________________________________________________________ 40
+2.16 Impostos e deduções ______________________________________________________________________ 40
+3 Anexos ____________________________________________________________________________________ 41
+3.1 Projeções populacionais por município _______________________________________________ 41
+3.2 Projeções de demanda de água e cobertura de esgoto por município ____________ 41
+3.3 Projeções do número de ligações e da extensão da rede de água e de esgoto ___ 41
+3.4 Projeções de receitas ______________________________________________________________________ 41
+3.5 Projeções de custos e despesas __________________________________________________________ 41
+3.6 Projeções de investimentos ______________________________________________________________ 41
+LISTA DE FIGURAS
+Figura 1 – Mapa da Área da Concessão do Projeto RO .......................................................................................... 8
+Figura 2 - Estrutura Administrativa proposta .......................................................................................................... 32
+LISTA DE GRÁFICOS
+Gráfico 1 – Projeções de população e de índices de cobertura da Área de Concessão do Projeto RO ................ 12
+Gráfico 2 – Projeção do volume produzido e faturado de água na Área de Concessão (mil m³) ........................... 15
+Gráfico 3 – Projeção do volume de contribuição e faturado de esgoto na Área de Concessão (mil m³) ................ 17
+Gráfico 4 – Projeção do número de ligações de água e esgoto na Área de Concessão ....................................... 18
+Gráfico 5 – Projeção da extensão da rede de água e esgoto na Área de Concessão ........................................... 18
+Gráfico 6 – Histórico da proporção da população do estado de Rondônia que tem direito à tarifa social .............. 21
+Gráfico 7 – Curva global de inadimplência ............................................................................................................. 27
+Gráfico 8 – Projeções de receitas (R$’000, data base abr/2025) ........................................................................... 28
+Gráfico 9 – Projeções de custos (R$’000, data base abr/2025) ............................................................................. 31
+Gráfico 10 – Projeções de despesas (R$’000, data base abr/2025) ...................................................................... 33
+Gráfico 11 – Projeções de investimentos (R$’000, data base abr/2025) ............................................................... 38
+LISTA DE TABELAS
+Tabela 1 – Relação de distritos/povoados da área de concessão ........................................................................... 5
+Tabela 2 - Resumo de Índices Macroeconômicos ................................................................................................... 9
+Tabela 3 – Proporção do volume faturado de água por tipologia de usuário por município ................................... 19
+Tabela 4 – Tarifas médias de partida empregadas na avaliação econômico -financeira (R$/m³ faturado de água)
+............................................................................................................................................................................... 22
+Tabela 5 – Tarifas referenciais para a convergência tarifária (R$/m³ faturado de água) ....................................... 24
+Tabela 6 – Tarifas CAERD a partir de dezembro de 2024 – data-base abril/2025 ................................................ 25
+Tabela 7 – Projeções de investimentos (R$’000, data base abr/2025) .................................................................. 38
+Tabela 8 – Taxa de Juros....................................................................................................................................... 39
+Tabela 9 – Dados Projeção .................................................................................................................................... 39
+1 Contextualização do Projeto RO
+Nesta seção, se encontram informações iniciais sobre o Projeto RO, com o intuito de contextualizá -lo
+e de relacionar suas características. Inicialmente são indicados o objeto da concessão , o escopo de
+atuação do Concessionário e os municípios integrantes da Área de Concessão. Em seguida, são ana-
+lisadas características demográficas, socioeconômicas e estruturais da Área de Concessão. Além
+disso, é descrito o panorama do mercado de saneamento no Brasil.
+As subseções a seguir abordam esses temas.
+1.1 Objeto da Concessão
+A Concessão do Projeto RO tem como objeto a prestação regionalizada dos serviços, com exclusivi-
+dade, na Área de Concessão, por meio da exploração das infraestruturas integrantes do sistema de
+água e esgoto, de acordo com a descrição, as características e as especificações técnicas detalhadas
+no Edital, no Contrato de Concessão e em seus respectivos Anexos, no Plano M icrorregional de Água
+e Esgoto, no Regulamento Geral dos Serviços Públicos de Abastecimento de Água e Esgotamento
+Sanitário, emitido pela AGERO, assim como na legislação e na regulamentação aplicáveis.
+1.2 Escopo de Atuação
+O concessionário atuará como prestador dos serviços de abastecimento de água e de esgotamento
+sanitário no âmbito da área de concessão. A área de concessão é composta pelos distritos e povoados
+pertencentes aos municípios listados na tabela a seguir.
+Tabela 1 – Relação de distritos/povoados da área de concessão
+Município Distrito/Povoado
+Alta Floresta D'Oeste
+Sede
+Nova Gease d'Oeste
+Filadélfia d'Oeste
+Santo Antônio d'Oeste
+Izidolândia
+Alto Alegre dos Parecis Sede
+Flor da Serra
+Alto Paraíso Sede
+Cabixi
+Sede
+Distrito Planalto São Luiz
+Distrito Guaporé - Vila Neide
+Distrito Guaporé - Vila São João
+Cacaulândia Sede
+Campo Novo de Rondônia Sede
+Candeias do Jamari Sede
+Triunfo/Rio Preto do Candeias
+Município Distrito/Povoado
+Castanheiras
+Sede
+Jardinópolis
+Agrovila da Linha 184
+Chupinguaia
+Sede
+Guaporé
+Corgão
+Boa Esperança
+Novo Plano
+Assentamento Zé Bentão
+Colorado do Oeste Sede
+Corumbiara Sede
+Costa Marques Sede
+Real Forte Príncipe da Beira
+Cujubim Sede
+Espigão D'Oeste
+Sede
+Nova Esperança
+Novo Paraíso
+Boa Vista do Pacarana
+Governador Jorge Teixeira Sede
+Colina Verde
+Guajará-Mirim
+Sede
+Iata
+Surpresa
+Itapuã Do Oeste Sede
+Ji-Paraná
+Sede
+Nova Londrina
+Nova Colina
+Machadinho D'Oeste Sede
+Quinto Bec
+Ministro Andreazza Sede
+Mirante da Serra Sede
+Monte Negro Sede
+Nova Brasilândia D'Oeste Sede
+Nova Mamoré
+Sede
+Araras
+Jacynópolis
+Nova Dimensão
+Palmeiras
+Nova União Sede
+Novo Horizonte do Oeste Sede
+Migrantinópolis
+Ouro Preto do Oeste Sede
+Rondominas
+Parecis Sede
+Pimenteiras do Oeste Sede
+Porto Velho Sede
+Município Distrito/Povoado
+Abunã
+Extrema
+Jaci Paraná
+Nova Mutum Paraná
+Fortaleza do Abunã
+Vista Alegre do Abunã
+União Bandeirantes/Mutum Paraná
+Distrito de Reassentamento Novo Engenho Velho
+Distrito de Reassentamento Riacho Azul e São Domingos
+Distrito de Reassentamento Vila Nova Teotônio
+Distrito de Calama
+Distrito de Demarcação
+Distrito de Nazaré
+Distrito de Nova Califórnia
+Distrito de São Carlos
+Distrito de Rio Pardo
+Primavera de Rondônia
+Sede
+Querência
+Setor Chacareiro
+Rio Crespo Sede
+Santa Luzia D'Oeste Sede
+São Felipe D'Oeste Sede
+Novo Paraíso
+Seringueiras Sede
+Teixeirópolis Sede
+Theobroma Sede
+Urupá Sede
+Vale do Anari Sede
+Vale do Paraíso Sede
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER
+O mapa a seguir permite a visualização da Área da Concessão.
+Figura 1 – Mapa da Área da Concessão do Projeto RO
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER
+2 Premissas e projeções
+Nesta seção se encontram as premissas consideradas para a projeção de fluxo de caixa da Concessão
+de prestação de serviços de água e de esgoto, contemplando atendimento na área da concessão, no
+contexto do Projeto RO.
+2.1 Gerais
+O Projeto RO é o empreendimento que versa sobre a participação da iniciativa privada na prestação
+dos serviços de saneamento, visando a sua universalização, e dos serviços operacionais, nos termos
+da Lei 11.445/07, de 05 de janeiro de 2007, nos municípios (40 municípios do estado de Rondônia,
+sendo 31 atendidos pela Companhia de Águas e Esgoto de Rondônia – CAERD e 9 por outros agentes
+locais).
+A data base da avaliação econômico -financeira estruturada para o Projeto RO é o dia 30 de abril de
+2025. A avaliação é configurada de forma a contemplar período de concessão de 35 anos , represen-
+tando o prazo médio de concessões públicas de saneamento no contexto atual mercadológico brasi-
+leiro.
+2.2 Cenário Macroeconômico
+Para as projeções macroeconômicas, foram utilizados os índices e valores apresentados na tabela a
+seguir.
+Tabela 2 - Resumo de Índices Macroeconômicos
+2025 2026 2027 2028 2029+
+IPCA 5,51% 4,50% 4,00% 3,80% 3,73%
+IGP-M 4,98% 4,60% 4,00% 4,00% 4,00%
+Selic 14,75% 12,50% 10,50% 10,00% 9,75%
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER, com base no Sistema de Expectativas de
+Mercado do BCB, Projeções do dia 09/05/2025.
+Os indicadores IPCA, IGP-M e Selic foram estimados com base nas projeções do Focus - Sistema de
+expectativas de mercado, com referência no dia 09/05/2025. Foram considerados as medianas das
+projeções anuais. Para a projeção do CDI utilizou -se a projeção da Taxa Selic, posta a proximidade
+entre essas taxas.
+2.3 Projeção populacional
+As projeções dos volumes de demanda de água e de contribuição de esgoto contemplam, como base,
+a projeção populacional referencial para a Área da Concessão.
+A projeção populacional adotada é originada do Atlas Águas: segurança hídrica do abastecimento ur-
+bano1, publicado em 2021. As projeções do Atlas Águas são aderentes às projeções populacionais do
+IBGE de 20182 e possibilitam, adicionalmente, a segregação entre população total e população urbana.
+Em síntese, o Atlas Águas contempla as seguintes premissas:
+• Para os anos de 2010 a 2018 adotou-se o Censo 2010 e as estimativas populacionais (2014 e
+2018) estabelecidas pelo IBGE. Assim, avaliou -se a série populacional do IBGE caso a caso
+de cada município;
+• Aplicação de curva logística e método geométrico combinados para as projeções, devido a
+tendência de redução populacional: em municípios com população crescente até 2018, aplicou-
+se a curva logística até o ponto de saturação e, então, utilizou-se o método geométrico;
+• Utilizaram-se as taxas de crescimento estaduais das projeções do IBGE para o cálculo das
+taxas de decrescimento dos municípios que atingiram o ponto de saturação;
+• Foi utilizada como controle a projeção do IBGE nos anos de 2030, 2035 e 2050 para o total dos
+estados;
+• Foram utilizadas as populações urbana e rural projetadas pelo Atlas Esgotos (2017) para pro-
+jeção do grau de urbanização. Há dados do Atlas Esgotos para a série de 2011 a 2035, em
+que se utilizou também a metodologia da curva logística, limitando-se os decrescimentos.
+A partir das premissas mencionadas, apuram-se projeções para as populações totais de cada município
+da Área da Concessão.
+Para os valores de população total atendida com abastecimento de água e de contribuição de esgoto
+foram considerados os valores obtidos do SNIS referentes ao ano de 2022 (SNIS 2023), do Censo
+2022, ou mais recentes disponíveis, além de dados obtidos de Planos de Saneamento Municipais.
+1 https://metadados.snirh.gov.br/geonetwork/srv/api/records/d77a2d01 -0578-4c71-a57e-87f5c565aacf.
+Acesso em 04 de janeiro de 2024.
+2 https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html. Acesso em 04 de
+janeiro de 2024.
+Para projetar a população atendida pelos serviços de água e pelos serviços de esgoto, é necessário
+considerar os índices de cobertura desses serviços de partida e as metas de atendimento preconizadas
+pelo Marco Legal do Saneamento Básico (Lei nº 14.026/202 0), que estabelece índice de 99% da po-
+pulação abastecida pelos serviços de água até 2033 e 90% da população atendida pelos serviços de
+esgoto até 2033. Sendo assim, foi considerada a elevação do índice de atendimento de seus patamares
+atuais até as metas definidas no Novo Marco Legal de Saneamento, de forma linear. Após atingidas as
+metas em 2033, são mantidos estáveis os índices de 99% para a água e 90% para o esgoto.
+A norma de referência nº 8/2024, aprovada pela resolução ANA nº 192, de 8 de maio de 2024, estabe-
+lece que, para fins de monitoramento e avaliação das metas de universalização, o atendimento e a
+cobertura dos serviços de água e esgoto por município devem at ingir, respectivamente, os patamares
+de 99% e 90% até 31 de dezembro de 2033. Para tanto, a referida norma apresenta as fórmulas que
+devem ser utilizadas para o cálculo dos indicadores.
+De forma resumida, o cálculo do atendimento considera as economias residenciais atendidas por sis-
+tema coletivo ou solução alternativa em relação ao total de economias residenciais. Já a cobertura
+utiliza o total de economias ativas, inativas, factíveis, re sidenciais ou não, atendidas por solução cole-
+tiva ou alternativa em relação ao total de economias existentes.
+Uma vez que o presente estudo foi elaborado considerando a cobertura em função de habitantes totais
+atendidos, com a evolução do sistema em função de ligações totais, estão incluídas neste indicador
+todas as economias, independentemente da classe de consumo . Contudo, ressalta-se que os indica-
+dores podem apresentar divergências nos casos em que a localidade apresente variação elevada em
+densidade demográfica em seu território, fato que pode levar à desconsideração de parcelas de áreas
+menos adensadas. Cuidado especial deve ser tomado em relação aos sistemas de esgoto, onde a
+maior margem dada ao sistema (necessidade de atender apenas 90%) pode apresentar divergências
+maiores.
+O gráfico a seguir sintetiza a projeção populacional e dos índices de cobertura da Área de Concessão.
+A projeção detalhada se encontra no arquivo anexo indicado na seção 3.1. Cabe destacar que, em
+conformidade com o escopo de atuação da Concessão, indicado na seção 1.2, as projeções contem-
+plam somente os montantes relativos ao atendimento à área de concessão.
+Gráfico 1 – Projeções de população e de índices de cobertura da Área de Concessão do Pro-
+jeto RO
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+2.4 Produção, demanda e faturamento de água
+As projeções da demanda de água para o abastecimento nos municípios foram estabelecidas apli-
+cando-se os coeficientes de consumo per capita de água obtidos para as populações atuais e projeta-
+das.
+Para se determinar o valor de consumo per capita, inicialmente os municípios foram classificados em
+três faixas de população: até 20 mil habitantes; entre 20 e 40 mil habitantes; e superior a 40 mil habi-
+tantes. Paralelamente, levantaram -se os valores dispo níveis nos seguintes canais de consulta: Atlas
+Águas, SNIS 2023, informações disponibilizadas pela CAERD para a prévia do SNIS 2022 e o Projeto
+Saber Viver da FUNASA.
+A partir dos dados fornecidos pela CAERD , foi possível calcular o consumo per capita do SNIS que é
+representado pelo indicador IN022.
+Diante desses dados, foi adotado o referencial de 150 L/habitante dia, demonstrando -se aderente ao
+intervalo entre a média nacional (SNIS 202 3), de 148 L/hab.dia e da média da Região Norte (SNIS
+2023): 146 L/hab.dia. Cabe destacar que o valor recomendado pela Organização Mundial da Saúde
+como mínimo para garantia de que necessidades básicas sejam atendidas é de 50 a 100 L/hab.dia.
+51%
+99%
+15%
+90%
+0%
+20%
+40%
+60%
+80%
+100%
+-
+500
+1.000
+1.500
+2.000
+Ano 1
+Ano 3
+Ano 5
+Ano 7
+Ano 9
+Ano 11
+Ano 13
+Ano 15
+Ano 17
+Ano 19
+Ano 21
+Ano 23
+Ano 25
+Ano 27
+Ano 29
+Ano 31
+Ano 33
+Ano 35
+Proporção de atendimento
+Mil habitantes
+População Total (mil habitantes) População Abastecida - Água (mil habitantes)
+População Atendida - esgoto (mil habitantes) Proporção de atendimento da população - água
+Proporção de atendimento da população - esgoto
+Ao se considerar o referencial de consumo per capita e a projeção de população atendida com abas-
+tecimento de água, foram projetada s as vazões médias de cada ano para cada município da Área de
+Concessão, em acordo com a equação a seguir.
+𝑄𝑚é𝑑 = 𝐶𝑜𝑛𝑠𝑢𝑚𝑜 𝑝𝑒𝑟 𝑐𝑎𝑝𝑖𝑡𝑎 × 𝐴𝐺001
+86.400
+Em que 𝑄𝑚é𝑑 é a vazão de demanda média de água, em L/s ; 𝐶𝑜𝑛𝑠𝑢𝑚𝑜 𝑝𝑒𝑟 𝑐𝑎𝑝𝑖𝑡𝑎 é o referencial de
+150 L/hab.dia já mencionados e 𝐴𝐺001 é a população total atendida com abastecimento de água , em
+número de habitantes (conforme método adotado pelo SNIS).
+As demandas máximas diárias e horárias foram apuradas ao se considerar coeficiente K1 = 1,2 e K2 =
+1,5, que são valores conservadores frequentemente util izados em projetos de sistema de abasteci-
+mento de água. Desse modo, a vazão máxi ma diária e a vazão máxima horária são obtida s por meio
+das fórmulas a seguir.
+𝑄𝑚𝑎𝑥.𝑑𝑖𝑎. = 𝑄𝑚é𝑑 × 𝐾1
+𝑄𝑚𝑎𝑥.ℎ𝑜𝑟. = 𝑄𝑚é𝑑 × 𝐾1 × 𝐾2
+Além da projeção dos volumes demandados de água pela população atendida, é necessário estimar
+os volumes efetivamente produzidos de água pela Concessionária e o efeito de perdas na distribuição
+de água. Similarmente ao levantamento do consumo per capita de água, também foi realizado levan-
+tamento nos principais canais de consulta: Atlas Águas, SNIS 2023, informações disponibilizadas pela
+CAERD nas fichas de dados operacionais dos municípios para o ano de exercício 2021, Projeto Saber
+Viver da FUNASA e dados do SINISA 2024. Desta forma, a modelagem de perdas se deu a partir de
+duas alternativas:
+• Alternativa 1: Adoção do caso mais crítico (maior valor) entre as opções; e
+• Alternativa 2: Valores mais recentes disponibilizados no SINISA 2024 ajustados pela adoção
+de intervalos de corte para os valores de perdas, sendo 25% o limite inferior e 65% o limite
+superior, conforme metodologia empregada no Atlas Águas.
+Desse modo se estabeleceram os parâmetros de partida das perdas de distribuição de água. Para a
+projeção desse parâmetro, adotou-se como referência a meta de redução de perdas definida pela Por-
+taria MCID n° 788, de 1 de agosto de 2024, que estabelece os procedimentos gerais para o cumpri-
+mento do disposto no inciso IV do caput do art. 50 da Lei n. 11.445, de 5 de janeiro de 2007, e no inciso
+IV do caput do art. 4º do Decreto n. 10.588, de 24 de dezembro de 2020, fixando o limite de 25% até o
+ano de 2033.
+Os percentuais de perdas foram considerados constantes entre os anos de 2024 e 2026 – abordagem
+conservadora – com redução linear apenas a partir do ano 1 da concessão (2027), até atingir a meta
+de 25% em 2033. Assim, para os municípios com índices superio res a esse valor, propõe -se uma re-
+dução linear até o cumprimento da meta; já para aqueles cujas perdas já sejam iguais ou inferiores a
+25%, propõe-se sua manutenção em conformidade com esse limite ao longo de todo o período anali-
+sado.
+A partir do índice de perdas, é possível calcular a vazão de perdas na distribuição, conforme equação
+a seguir.
+𝑄𝑝𝑒𝑟𝑑𝑎𝑠 = 𝐼𝑃𝐷 × 𝑄𝑚é𝑑
+(1 − 𝐼𝑃𝐷)
+Onde 𝑄𝑝𝑒𝑟𝑑𝑎𝑠 é a vazão de perdas na distribuição de água, em L/s; 𝑄𝑚é𝑑 é a vazão de demanda média
+de água, em L/s e 𝐼𝑃𝐷 é o índice de perdas na distribuição de água, em porcentagem. Sendo assim, a
+demanda total de água para as vazões médias , máximas diárias e horárias são definidas conforme
+equações a seguir.
+𝑄𝑚𝑒𝑑,𝑡 = 𝑄𝑚é𝑑 + 𝑄𝑝𝑒𝑟𝑑𝑎𝑠
+𝑄𝑚𝑎𝑥.𝑑𝑖𝑎.,𝑡 = 𝑄𝑚𝑎𝑥.𝑑𝑖𝑎. + 𝑄𝑝𝑒𝑟𝑑𝑎𝑠
+𝑄𝑚𝑎𝑥.ℎ𝑜𝑟.,𝑡 = 𝑄𝑚𝑎𝑥.ℎ𝑜𝑟. + 𝑄𝑝𝑒𝑟𝑑𝑎𝑠
+Além das perdas na distribuição (perdas físicas), há também as perdas comerciais (perdas aparentes),
+relacionadas às ligações irregulares ou clandestinas, ligações sem hidrômetros ou com hidrômetros
+defeituosos, erros de leitura e erros cadastrais. Sendo assim, neste estudo, levantou -se o valor de
+perdas no faturamento (IN013 do SNIS 2023) para cada município da Área de Concessão.
+Partindo dos volumes produzidos de água, aplicando-se as perdas de distribuição, apura-se o montante
+demandado de água pela Área de Concessão. A partir do volume demandado, emprega-se o índice de
+perda de faturamento, para estimar o volume efetivamente faturado da Área de Concessão.
+O gráfico a seguir sintetiza a projeção dos volumes produzidos e faturados de água para a Área de
+Concessão. A projeção detalhada se encontra no arquivo anexo indicado na seção 3.2. Cabe destacar
+que as projeções contemplam somente os montantes relativos ao atendimento da área de concessão ,
+indicada na seção 1.2.
+Gráfico 2 – Projeção do volume produzido e faturado de água na Área de Concessão (mil m³)
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+2.5 Faturamento e contribuição de esgoto
+As projeções de contribuição do esgoto para o abastecimento nos municípios foram estabelecidas apli-
+cando-se os coeficientes de contribuição per capita de esgoto. No caso, a contribuição per capita de
+esgoto é obtida utilizando-se o coeficiente de retorno de 80% sobre o consumo médio efetivo de água
+per capita. Este coeficiente, recomendado pela NBR 9.649/1986, é largamente adotado para estimativa
+do volume de esgoto produzido. Assim, a partir do valor de consumo per capita de água adotado, igual
+a 150 L/hab .dia, e do coeficiente de retorno, obteve -se a contribuição per capita de esgoto de 120
+L/hab.dia para todos os municípios do projeto.
+Ao se considerar o referencial de contribuição per capita e a projeção de população atendida pelos
+serviços de esgoto , foram projetadas as contribuições médias de cada ano para cada município da
+Área de Concessão, em acordo com a equação a seguir.
+𝑄𝑚é𝑑 = 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑖çã𝑜 𝑝𝑒𝑟 𝑐𝑎𝑝𝑖𝑡𝑎 × 𝐸𝑆001
+86.400
+Em que 𝑄𝑚é𝑑 é a vazão de contribuição média de esgoto, em L/s; 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑖çã𝑜 𝑝𝑒𝑟 𝑐𝑎𝑝𝑖𝑡𝑎 é o referen-
+cial de 120 L/hab.dia já mencionados e 𝐸𝑆001 é a população total atendida com esgotamento sanitário,
+em número de habitantes (conforme método adotado pelo SNIS).
+51.310
+88.921
+29.228
+66.691
+43,04%
+25,00% 25,00%
+15,00%
+20,00%
+25,00%
+30,00%
+35,00%
+40,00%
+45,00%
+-
+10.000
+20.000
+30.000
+40.000
+50.000
+60.000
+70.000
+80.000
+90.000
+100.000
+Ano 1
+Ano 3
+Ano 5
+Ano 7
+Ano 9
+Ano 11
+Ano 13
+Ano 15
+Ano 17
+Ano 19
+Ano 21
+Ano 23
+Ano 25
+Ano 27
+Ano 29
+Ano 31
+Ano 33
+Ano 35
+Perda
+Volume em mil m³
+Volume Produzido de Água (mil m³) Volume Faturado de Água (mil m³) Perda de água
+As contribuições máximas diárias e horárias foram apuradas ao se considerar coeficiente K1 = 1,2 e
+K2 = 1,5, que são valores conservadores frequentemente utilizados em projetos de sistema de abaste-
+cimento de água. Desse modo, a vazão máxima diária e a vazão máxima horária são obtidas por meio
+das fórmulas a seguir.
+𝑄𝑚𝑎𝑥.𝑑𝑖𝑎. = 𝑄𝑚é𝑑 × 𝐾1
+𝑄𝑚𝑎𝑥.ℎ𝑜𝑟. = 𝑄𝑚é𝑑 × 𝐾1 × 𝐾2
+Por sua vez, os valores de vazão de infiltração na rede são definidos a partir da extensão total do
+sistema de coleta e afastamento e da taxa de contribuição de infiltração na rede que, de acordo com a
+NBR 9.649/1986, estão compreendidos entre 0,05 e 1,0 L/s.km. Foi ad otado o valor de 0,20 L/s.km,
+tradicionalmente utilizado em projetos de rede coletora de esgoto, conforme indicação da literatura
+técnica3. A equação a seguir apresenta o método de cálculo das vazões de infiltração.
+𝑄𝑖𝑛𝑓 = 𝐸𝑆001 × 𝑡𝑎𝑥𝑎 𝑑𝑒 𝑖𝑛𝑓𝑖𝑙𝑡𝑟𝑎çã𝑜 𝑛𝑎 𝑟𝑒𝑑𝑒
+Em que 𝑄𝑖𝑛𝑓 é a vazão de infiltração da rede, em L/s e 𝐸𝑆001 é a população total atendida com esgo-
+tamento sanitário, em número de habitantes (conforme método adotado pelo SNIS). Sendo assim, a
+contribuição total de esgoto para as vazões médias, máximas diárias e horárias são definidas conforme
+equações a seguir.
+𝑄𝑚𝑒𝑑,𝑡 = 𝑄𝑚é𝑑 + 𝑄𝑖𝑛𝑓
+𝑄𝑚𝑎𝑥.𝑑𝑖𝑎.,𝑡 = 𝑄𝑚𝑎𝑥.𝑑𝑖𝑎. + 𝑄𝑖𝑛𝑓
+𝑄𝑚𝑎𝑥.ℎ𝑜𝑟.,𝑡 = 𝑄𝑚𝑎𝑥.ℎ𝑜𝑟. + 𝑄𝑖𝑛𝑓
+Para apurar o volume faturado de esgoto, foi considerado como equivalente a 1,25 vezes o volume de
+contribuição de esgoto, uma vez que foi considerado coeficiente de retorno de 80%.
+3 TSUTIYA, M. T.; SOBRINHO, P. A. Coleta e Transporte de Esgoto Sanitário. 3ª ed. São Paulo: ABES, 2011. 548 p
+O gráfico a seguir sintetiza a projeção dos volumes de contribuição e faturados de esgoto para a Área
+de Concessão. A projeção detalhada se encontra no arquivo anexo indicado na seção 3.2. Cabe des-
+tacar que as projeções contemplam somente os montantes relativos à área de concessão, indicada na
+seção 1.2.
+Gráfico 3 – Projeção do volume de contribuição e faturado de esgoto na Área de Concessão
+(mil m³)
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+2.6 Número de ligações e extensão da rede
+Para estimativa da evolução de implantação da rede de distribuição, considerou -se o indicador de ex-
+tensão total por ligação, calculado a partir da relação entre a extensão total de rede e o número de
+ligações ativas para cada município. Para se efetuar o c álculo, foram adotadas as informações cons-
+tantes no SNIS 2023.
+Com a aplicação do indicador de extensão total por ligação de cada município, foi possível estimar a
+quantidade de rede que deverá estar implantada para cada ano do horizonte de planejamento para
+acompanhar o crescimento vegetativo e a evolução das demandas.
+Os gráficos a seguir sintetizam (i) a projeção do número de ligações de água e de esgoto para a Área
+de Concessão e (ii) a projeção da extensão da rede de água e de esgoto para a Área de Concessão.
+As projeções detalhadas se encontram no arquivo anexo indicado na seção 3.3.
+8.956
+60.481
+7.165
+48.384
+-
+10.000
+20.000
+30.000
+40.000
+50.000
+60.000
+70.000
+Ano 1
+Ano 3
+Ano 5
+Ano 7
+Ano 9
+Ano 11
+Ano 13
+Ano 15
+Ano 17
+Ano 19
+Ano 21
+Ano 23
+Ano 25
+Ano 27
+Ano 29
+Ano 31
+Ano 33
+Ano 35
+Volume em mil m³
+Volume Faturado de Esgoto (mil m³) Volume Contribuição de Esgoto (mil m³)
+Gráfico 4 – Projeção do número de ligações de água e esgoto na Área de Concessão
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+Gráfico 5 – Projeção da extensão da rede de água e esgoto na Área de Concessão (m)
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+207
+359
+387
+72
+308
+333
+-
+50
+100
+150
+200
+250
+300
+350
+400
+450
+Ano 1
+Ano 2
+Ano 3
+Ano 4
+Ano 5
+Ano 6
+Ano 7
+Ano 8
+Ano 9
+Ano 10
+Ano 11
+Ano 12
+Ano 13
+Ano 14
+Ano 15
+Ano 16
+Ano 17
+Ano 18
+Ano 19
+Ano 20
+Ano 21
+Ano 22
+Ano 23
+Ano 24
+Ano 25
+Ano 26
+Ano 27
+Ano 28
+Ano 29
+Ano 30
+Ano 31
+Ano 32
+Ano 33
+Ano 34
+Ano 35
+Mil ligações
+Número de ligações totais de água Número de ligações totais de esgoto
+4.018
+5.157
+5.444
+758
+2.971 3.212
+-
+1.000
+2.000
+3.000
+4.000
+5.000
+6.000
+Ano 1
+Ano 2
+Ano 3
+Ano 4
+Ano 5
+Ano 6
+Ano 7
+Ano 8
+Ano 9
+Ano 10
+Ano 11
+Ano 12
+Ano 13
+Ano 14
+Ano 15
+Ano 16
+Ano 17
+Ano 18
+Ano 19
+Ano 20
+Ano 21
+Ano 22
+Ano 23
+Ano 24
+Ano 25
+Ano 26
+Ano 27
+Ano 28
+Ano 29
+Ano 30
+Ano 31
+Ano 32
+Ano 33
+Ano 34
+Quilômetros
+Extensão da rede de água (km) Extensão da rede de esgoto (km)
+2.7 Divisão das projeções de faturamento entre tipos de usuário
+As projeções de receitas realizadas nesta avaliação econômico -financeira são realizadas de forma di-
+ferenciada conforme a tipologia dos usuários dos serviços de água e de esgotamento analisados. No
+caso, as tipologias de usuário, ou classes de consumo, são (i) Residencial, (ii) Comercial, (iii) Industrial
+e (iv) Pública. Foram consideradas, também, subdivisões dessas classes de consumo a depender das
+classes tarifárias. Desse modo, as subdivisões completas são as listadas a seguir (essas subdivisões
+são oriundas da estrutura tarifária atual da CAERD).
+• Residencial Convencional
+• Residencial Social
+• Comercial Convencional
+• Comercial Pequenos Comércios
+• Industrial Convencional
+• Pública Convencional
+• Pública Concessões
+Para a separação dos volumes projetados de produção e de faturamento de água e de esgoto para as
+concessões analisadas, foi considerado como referência o histórico de 2017 a 2021 do controle geren-
+cial de volumes da CAERD. No caso, não houve acesso a dados históricos dos 9 municípios do Projeto
+RO que não são operadas pela CAERD, de modo que, para esses casos, foi considerada a média
+global das concessões da CAERD.
+A tabela a seguir contém a abertura aplicada ao volume faturado de água diferenciado por tipologia de
+usuário para cada município da Área de Concessão , para o esgotamento sanitário, foi considerada a
+mesma abertura.
+Tabela 3 – Proporção do volume faturado de água por tipologia de usuário por município
+Município Residencial Residencial
+Social Comercial Industrial Pública
+Alta Floresta D'Oeste* 86,93% 0,32% 6,43% 0,15% 6,18%
+Alto Alegre dos Parecis* 86,93% 0,32% 6,43% 0,15% 6,18%
+Alto Paraíso 82,08% 0,06% 7,22% 0,02% 10,62%
+Cabixi 92,06% 0,24% 3,03% 0,03% 4,64%
+Cacaulândia 89,10% 0,33% 6,80% 0,04% 3,73%
+Campo Novo de Rondônia* 86,93% 0,32% 6,43% 0,15% 6,18%
+Candeias do Jamari 93,55% 0,17% 2,25% 0,00% 4,03%
+Castanheiras 84,29% 0,58% 4,47% 0,14% 10,53%
+Chupinguaia* 86,93% 0,32% 6,43% 0,15% 6,18%
+Colorado do Oeste 90,93% 0,18% 5,02% 0,09% 3,78%
+Corumbiara 89,84% 0,17% 4,33% 0,01% 5,64%
+Costa Marques 84,42% 0,30% 6,74% 0,03% 8,52%
+Cujubim 78,01% 0,08% 15,02% 0,06% 6,84%
+Município Residencial Residencial
+Social Comercial Industrial Pública
+Espigão D'Oeste 91,80% 0,05% 5,85% 0,15% 2,14%
+Governador Jorge Teixeira* 86,93% 0,32% 6,43% 0,15% 6,18%
+Guajará-Mirim 87,72% 0,01% 5,85% 0,40% 6,02%
+Itapuã do Oeste* 86,93% 0,32% 6,43% 0,15% 6,18%
+Ji-Paraná 91,68% 0,07% 5,31% 0,83% 2,12%
+Machadinho D'Oeste 91,26% 0,06% 5,20% 0,58% 2,89%
+Ministro Andreazza 88,56% 1,70% 5,92% 0,00% 3,81%
+Mirante da Serra 85,82% 0,31% 7,84% 0,00% 6,03%
+Monte Negro 88,66% 0,06% 6,62% 0,07% 4,59%
+Nova Brasilândia D'Oeste* 86,61% 1,15% 8,44% 0,11% 3,68%
+Nova Mamoré 80,55% 0,30% 10,38% 0,13% 8,64%
+Nova União 82,91% 0,18% 7,01% 0,85% 9,04%
+Novo Horizonte do Oeste 87,80% 0,92% 6,93% 0,00% 4,35%
+Ouro Preto do Oeste 89,86% 0,22% 4,68% 0,43% 4,81%
+Parecis 86,75% 1,14% 8,53% 0,32% 3,26%
+Pimenteiras do Oeste 90,43% 0,06% 2,73% 0,00% 6,79%
+Porto Velho 86,68% 0,22% 7,62% 0,16% 5,31%
+Primavera de Rondônia* 86,93% 0,32% 6,43% 0,15% 6,18%
+Rio Crespo 75,11% 0,28% 7,77% 0,00% 16,84%
+Santa Luzia D'Oeste 87,50% 0,32% 4,02% 0,14% 8,02%
+São Felipe D'Oeste 86,82% 0,13% 7,77% 0,00% 5,27%
+Seringueiras 85,67% 0,16% 8,21% 0,09% 5,87%
+Teixeirópolis 87,09% 0,23% 5,38% 0,00% 7,30%
+Theobroma 88,69% 0,32% 2,71% 0,01% 8,27%
+Urupá 90,08% 0,35% 7,07% 0,28% 2,22%
+Vale do Anari 83,24% 0,04% 5,93% 0,00% 10,79%
+Vale do Paraíso 86,93% 0,32% 6,43% 0,15% 6,18%
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER
+*Municípios não atendidos pela CAERD.
+Foi considerado o aumento do número de economias do tipo Residencial Social como premissa da
+projeção do Projeto RO. No caso , foi empregado do ano 1 (2027) ao ano 7 (2033) crescimento anual
+do número de economias da classe residencial social até representar 25% das economias residenciais
+totais no ano 7 (2033).
+Os 25% são a proporção média da população de Rondônia que t em o direito de ser beneficiada pela
+aplicação de tarifa social em suas faturas pelos serviços de saneamento, em conformidade com a Lei
+Nº 14.898/2024, ou seja, é a proporção dos domicílios que apresentam renda per capita inferior a 50%
+do salário-mínimo4. Para apurar a renda per capita, a base de dados utilizada foi a Pesquisa Nacional
+por Amostra de Domicílios (PNAD), compondo dados trimestrais desde o primeiro trimestre de 2023
+até o primeiro trimestre de 2024 para as variáveis (A) rendimento efetivamente recebido5 e (B) número
+de pessoas por domicílio6, sendo a renda per capita por domicílio calculada por meio da divisão (A)/(B).
+Para estimar a proporção dos domicílios que tem direito a se beneficiar pela tarifa social, foi calculado,
+para cada trimestre, (i) o número de casos em que a renda per capita domiciliar é inferior a 50% do
+salário-mínimo do período analisado, dividido por (ii) o número de domicílios abordados pela PNAD. O
+gráfico a seguir contém os resultados da proporção histórica da população com direito à tarifa social,
+por trimestre, além da média do período analisado (24,58%).
+Gráfico 6 – Histórico da proporção da população do estado de Rondônia que tem direito à ta-
+rifa social
+Fonte: PNAD. Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+Após 2033, é mantido esse patamar de 25% até o término da projeção.
+4 R$ 1.302,00 de 01/01/2023 a 30/04/2023 (MP 1143/2022), R$ 1.320,00 de 01/04/2023 a 31/12/2023 (Lei
+14.663/2023) e R$ 1.412,00 a partir de 01/01/2024.
+5 VD4017 – Rendimento efetivamente recebido no trabalho principal para pessoas de 14 anos ou mais de idade
+(apenas para pessoas que receberam em dinheiro, produtos ou mercadorias no trabalho principal).
+6 VD2003 – Número de componentes do domicílio (exclusive as pessoas cuja condição na família era pensio-
+nista, empregado doméstico ou parente do empregado doméstico).
+23,85%
+26,00%
+24,46%
+22,53%
+26,06%
+24,58%
+20,00%
+21,00%
+22,00%
+23,00%
+24,00%
+25,00%
+26,00%
+27,00%
+1T23 2T23 3T23 4T23 1T24
+Proporção da população do estado
+de RO
+proporção pop RO com direito à tarfia social de água e esgoto média
+2.8 Tarifas
+As tarifas projetadas nesta avaliação representam o valor médio por m³ de volume faturado de água e
+de esgoto, separado conforme tipologia de usuário (tipologia indicada na seção 2.8), sendo desconsi-
+derada a abertura por faixas de consumo (ou seja, os valores das tabelas tarifárias foram convertidos
+para suas correspondências efetivas totais por m³).
+Similarmente ao tratamento realizado nas projeções operacionais, para a separação das tarifas médias
+de água e de esgoto para as concessões analisadas, foi considerado como referência o histórico de
+2017 a 2021 do controle gerencial de volumes da CAERD e, para a tarifa Residencial Social, o banco
+de dados de 2022 disponibilizado pela CAERD.
+Os dados disponibilizados contemplam informações de volumes faturados em m³ e de valores faturados
+em R$. Para a apuração das tarifas de partida, foram considerados os valores médios do intervalo
+analisado, considerando a divisão entre valor faturado em R$ e volume faturado em m³, de modo a se
+obter tarifas médias em R$/m³.
+No caso, não houve acesso a dados históricos dos 9 municípios do Projeto RO que não são operados
+pela CAERD, de modo que, para esses casos, foi considerad o parâmetro apurado no SNIS de 2021,
+especificamente a relação média entre a receita operacional direta de água (FN002) e o volume de
+água faturado (AG011) . A separação entre as tipologias de consumidor foi feita em termos da média
+global dos municípios cujos dados foram disponibilizados pela CAERD.
+As tarifas médias de partida se encontram na tabela a seguir. A partir do ano 1 (2027), foi empregado
+ajuste inflacionário anual aos patamares indicados, refletindo a variação do IPCA desde a data -base
+de jan/2023 (período de referência final considerado pela Resolução N. 70/2023/AGERO-PRES).
+Tabela 4 – Tarifas médias de partida empregadas na avaliação econômico -financeira (R$/m³ fa-
+turado de água)
+Município Residencial Residencial
+Social Comercial Industrial Pública
+Alta Floresta D'Oeste* 2,84 1,34 4,82 6,53 10,02
+Alto Alegre dos Parecis* 2,75 1,3 4,66 6,31 9,69
+Alto Paraíso 4,28 1,85 7,06 11,56 15,38
+Cabixi 4,36 2,11 7,48 10,92 15,46
+Cacaulândia 4,3 2,03 6,22 11,56 16,78
+Campo Novo de Rondônia* 4,24 2 7,2 9,74 14,95
+Candeias do Jamari 4,38 2,17 7,11 11,56 15,24
+Castanheiras 4,32 2,45 7,61 9,87 15,77
+Chupinguaia* 1,15 0,54 1,96 2,65 4,07
+Colorado do Oeste 4,31 2,03 7,13 9,5 15,26
+Corumbiara 4,35 1,97 7,75 11,2 15,39
+Costa Marques 4,33 2,17 7,53 10,58 14,06
+Município Residencial Residencial
+Social Comercial Industrial Pública
+Cujubim 4,44 1,86 7,09 9,9 14,16
+Espigão D'Oeste 4,36 2,35 7,35 9,49 15,59
+Governador Jorge Teixeira* 4,24 2 7,2 9,74 14,95
+Guajará-Mirim 4,4 1,93 7,36 9,25 15,21
+Itapuã do Oeste* 4,24 2 7,2 9,74 14,95
+Ji-Paraná 3,01 1,76 4,79 7,22 11,58
+Machadinho D'Oeste 4,39 2,32 7,05 10,86 15,2
+Ministro Andreazza 4,24 2,05 7,34 9,72 15,6
+Mirante da Serra 4,38 2,06 7,31 10,04 15,57
+Monte Negro 4,36 2,22 6,64 11,3 15,39
+Nova Brasilândia D'Oeste* 4,2 2,04 7,35 9,72 15,38
+Nova Mamoré 3,08 1,45 7,45 1,54 10,32
+Nova União 4,35 2,1 7,58 8,88 14,13
+Novo Horizonte do Oeste 4,23 1,94 7,62 9,72 15,48
+Ouro Preto do Oeste 4,35 2,15 7,22 9,27 12,48
+Parecis 4,12 1,96 6,5 9,38 15,99
+Pimenteiras do Oeste 4,24 1,8 7,5 9,72 15,69
+Porto Velho 4,36 2,09 7,44 9,69 15,08
+Primavera de Rondônia* 4,24 2 7,2 9,74 14,95
+Rio Crespo 4,32 2,04 7,01 9,92 15,45
+Santa Luzia D'Oeste 4,36 2,11 7,12 9,81 15,39
+São Felipe D'Oeste 4,26 1,89 6,99 9,78 14,57
+Seringueiras 4,33 1,88 7,64 9,25 15,41
+Teixeirópolis 4,1 1,8 7,63 9,41 15,4
+Theobroma 4,31 2,03 7,26 9,82 15,41
+Urupá 4,19 1,86 6,98 9,54 15,58
+Vale do Anari 4,36 2,13 7,47 10 15,33
+Vale do Paraíso 4,24 2 7,2 9,74 14,95
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER
+*Municípios não atendidos pela CAERD.
+Os dados históricos analisados refletem informações em período anterior ao ajuste tarifário aprovado
+pela Agência de Regulação dos Serviços Públicos de Rondônia (AGERO) em maio de 2023 . No caso,
+foi aprovado ajuste de forma escalonada, sendo a primeira atualização vigente a partir de junho de
+2023 e a segunda atualização vigente a partir de dezembro 2023. Até a atualização aprovada , vigente
+a partir de dezembro , ou seja, antes do início das projeções do Projeto RO, as tarifas se elevam em
+70% quando comparadas às tarifas vigentes em maio de 2023. Diante disso, foi necessário empregar
+a elevação das tarifas médias dos municípios atualmente atendidos pela CAERD em 70% ( uma vez
+que o primeiro ano da nova Concessão é 2027).
+Para o caso das tarifas dos 9 municípios não atendidos pela CAERD, foi considerado efeito de conver-
+gência de tabelas tarifárias de cada município com a tabela tarifária da CAERD, ou seja, foi considerado
+que as tarifas efetivas apuradas nesses municípios são gradualmente alteradas até alcançarem o pa-
+tamar da tarifa efetiva alvo, que é a média apurada nos municípios atendidos pela CAERD. O reajuste
+das tarifas efetivas desses municípios não atendidos pela CAERD seguiu a metodologia da taxa de
+crescimento anual composta (CAGR), de forma que o incremento tarifário ao ano é dado pelo seguinte
+fator:
+𝐹𝑎𝑡𝑜𝑟 𝑑𝑒 𝑎𝑗𝑢𝑠𝑡𝑒𝑎.𝑎. = √ 𝑇𝑎𝑟𝑖𝑓𝑎 𝑒𝑓𝑒𝑡𝑖𝑣𝑎 𝑎𝑙𝑣𝑜
+𝑇𝑎𝑟𝑖𝑓𝑎 𝑒𝑓𝑒𝑡𝑖𝑣𝑎 𝑑𝑒 𝑝𝑎𝑟𝑡𝑖𝑑𝑎
+5
+− 1
+No caso o fator de ajuste é aplicado ao longo dos cinco primeiros anos da concessão, ou seja, desde
+2027 até 2031.
+Partindo das tarifas efetivas de partida dos municípios não atendidos pela CAERD indicadas na Tabela
+4, a apuração da tarifa efetiva alvo para cada modalidade de consumo calcula o valor efetivo médio de
+todos os municípios atendidos pela CAERD após a aplicação do ajuste a utorizado pela Resolução Nº
+70/2023 – AGERO (70% de aumento nas tarifas até dezembro de 2023) e após o impacto médio na
+tarifa efetiva para a categoria residencial social da CAERD, decorrente da Lei 14.898/2024 (a partir da
+razão entre a média das tarifas sociais efetivas considerando o impacto da Lei e a média das tarifas
+sociais efetivas antes da vigência da Lei, tendo em vista apenas os municípios atendidos pela CAERD).
+Tabela 5 – Tarifas referenciais para a convergência tarifária (R$/m³ faturado de água)
+Modalidade
+Tarifa efe-
+tiva de Par-
+tida da CA-
+ERD
+Após
+Ajuste
+AGERO
+(70%)l
+Após Efeito
+da Lei
+14.898/2024
+Tarifa refe-
+rencial para
+convergên-
+cia
+Residencial 4,24 7,22 7,22 7,22
+Residencial Social 2,03 3,44 3,52 3,52
+Comercial 7,20 12,23 12,23 12,23
+Industrial 9,72 16,53 16,53 16,53
+Pública 14,95 25,42 25,42 25,42
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER
+Em termos da tabela tarifária, c onforme a Resolução N. 70/2023/AGERO -PRES, além do ajuste acu-
+mulado de 70%, a faixa de consumo inicial por economia para a classe residencial foi alterada de 0 m³
+a 7 m³ para o intervalo de 0 m³ a 10 m³. Cabe destacar que foi considerado que as tarifas de esgoto
+são idênticas às tarifas de água. Além disso, a Lei 14.898/2024 define que a tarifa social deve ser
+correspondente a 50% da tarifa convencional para o intervalo de até 15 m³ de consumo. Sendo assim,
+a tabela a seguir contempla a adaptação da tabela atual da CAERD à Lei 14.898/2024, que entra em
+vigor passados 180 dias de sua publicação7 (como foi publicada em 14/06/2024, suas condições entram
+em vigor a partir do dia 11/12/2024).
+Tabela 6 – Tarifas CAERD a partir de dezembro de 2024 – data-base abril/2025
+Faixa (m³) Tarifa (R$/m³)
+Concessionária Categoria LI* LS** Normal Social Peq Comércios Concessões
+CAERD Residencial 0 10 61,58 30,79
+CAERD Residencial 10 15 6,98 3,08
+CAERD Residencial 15 20 7,68 7,68
+CAERD Residencial 20 25 9,22 9,22
+CAERD Residencial 25 30 10,57 10,57
+CAERD Residencial 30 50 12,66 12,66
+CAERD Residencial 50 75 15,18 15,18
+CAERD Residencial 75 150 15,18 15,18
+CAERD Residencial 150 15,18 15,18
+CAERD Comercial 0 10 103,20 66,52
+CAERD Comercial 10 20 12,38 12,38
+CAERD Comercial 20 50 17,13 17,13
+CAERD Comercial 50 19,46 19,46
+CAERD Industrial 0 10 153,76
+CAERD Industrial 10 50 16,02
+CAERD Industrial 50 16,19
+CAERD Pública 0 10 235,30 235,30
+CAERD Pública 10 50 28,00 19,50
+CAERD Pública 50 28,54 14,22
+Fonte: Resolução N. 70/2023/AGERO-PRES
+*Limite Inferior
+**Limite Superior.
+7 As disposições da Lei de Tarifa Social são autoaplicáveis e independem de regulamentação específica pela ANA
+ou pela AGERO. Entretanto, o que a Lei de Tarifa Social aponta é que, para sua aplicação, seja observada a Norma
+de Referência ANA nº 6/2024, que dispõe sobre os modelos de regulação tarifária dos serviços públicos de abas-
+tecimento de água e esgotamento sanitário (arts. 6º e 7º) e, caso a AGERO não adira à norma de referência da
+ANA sobre estrutura tarifária, que ela edite normativo próprio e o disp onibilize em seu sítio eletrônico. Outros-
+sim, como a própria Lei de Tarifa Social aponta, ela estabelece padrões mínimos a serem observados pelos titu-
+lares dos serviços públicos de água e esgoto, sem implicar revogação ou invalidação de regras, critérios o u des-
+contos tarifários já instituídos em seus territórios, tampouco os direitos adquiridos pelos prestadores de serviços.
+2.9 Receitas
+Foram consideradas as seguintes modalidades de receitas na avaliação econômico -financeira do Pro-
+jeto RO, conforme estrutura histórica da CAERD.
+• Receita de faturamento de água
+• Receita de faturamento de esgoto
+• Devoluções e cancelamentos (efeito da inadimplência)
+• Receitas indiretas do serviço (serviços de ligação, religação, conservação e reparo de hidrô-
+metros e multas de atraso de pagamento)
+• Receitas não operacionais (recuperação de faturamentos atrasados renegociados)
+A receita de faturamento de água e a receita de faturamento de esgoto foram apuradas a partir da
+multiplicação entre as projeções operacionais da s seções 2.4 e 2.5 e das tarifas analisadas na seção
+2.8, considerando adesão pelos serviços de 95% das economias alcançadas, e representam o recebi-
+mento pelos serviços de água e esgotamento prestados no contexto do Projeto RO.
+As devoluções e cancelamentos (efeito da inadimplência) foram estimadas, a partir de relatório geren-
+cial de 2022 disponibilizado pela CAERD, contemplando a diferença entre o valor cobrado e valor arre-
+cadado para cada município atendido. Para os municípios não atendidos pela CAERD, foi considerado
+o patamar de inadimplência global médio observado na CAERD em 2022 (7,19%).
+Cabe destacar que a média atual de inadimplência relacionada ao saneamento do estado de Rondônia,
+calculada por meio do histórico do Índice de evasão de receitas (IN029) do SNIS (dados históricos de
+2018 a 2022) é de 8,66% das receitas de saneamento, no entanto, considerando tanto o efeito da
+universalização da cobertura de água e esgoto, a expansão dos serviços, a mudança no faturamento
+do esgoto (que passa a considerar 100% da tarifa de água , além dos casos nos quais não há , atual-
+mente, cobrança pelos ser viços de esgoto ) e a ampliação da proporção de economias às quais se
+incidirá a tarifa social, foi considerado possível que a inadimplência tende a se elevar até a universali-
+zação.
+Diante disso, foi considerado que a taxa de evasão de receitas de cada município assumiria, até 2033,
+o maior valor entre o dobro da inadimplência atual e a inadimplência referencial da CAERD de 7,19% .
+A partir de 2034 até 2043, foi considerada redução dos patamares de inadimplência até que seja al-
+cançada a meta de 5%. O gráfico a seguir demonstra a estimativa da curva global de inadimplência
+para todos os municípios da Área de Concessão:
+Gráfico 7 – Curva global de inadimplência
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER
+As receitas indiretas de serviços, que contemplam serviços de ligação, religação, conservação e reparo
+de hidrômetros e multas de atraso de pagamento, foram consolidadas e parametrizadas em função do
+número de ligações projetados de cada concessão, sendo equivalente a R$ 2,13 por ligação (data base
+jun/2022). Esse parâmetro foi apurado no balancete histórico da CAERD de 2017 a 2021.
+Por sua vez, as receitas não operacionais, que representam principalmente a recuperação de fatura-
+mentos atrasados renegociados, foram estimadas em 0,78% do faturamento de água e de esgoto,
+conforme histórico médio da CAERD de 2017 a 2021 (com base nos bala ncetes contábeis disponibili-
+zados).
+As projeções sintéticas de receitas se encontram a seguir. As projeções detalhadas, por município, se
+encontram no arquivo anexo indicado na seção 3.4.
+Gráfico 8 – Projeções de receitas (R$’000, data base abr/2025)
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+2.10 Custos Operacionais
+As projeções de custos operacionais vinculados à operação dos serviços de água e esgotamento foram
+estimadas e detalhadas no Relatório de Anteprojeto de Engenharia. Nesta seção se encontram resu-
+midos os patamares projetados, de forma consolidada para todos os 40 municípios da Área de Con-
+cessão.
+As projeções foram realizadas de modo a possibilitar a separação das projeções de água das projeções
+de esgoto e de modo a separar as projeções de sistemas integrados das projeções de sistemas isola-
+dos, (que são, principalmente, os atendimentos a áreas rurais. Nesta avaliação não são considerados
+os efeitos de custos com sistemas isolados.
+Os custos projetados no Relatório de Anteprojeto de Engenharia são:
+• Sistemas integrados de água (produção):
+o Energia elétrica
+o Produtos químicos
+o Tratamento de lodo
+o Pessoal operacional
+o O&M
+(400.000)
+(200.000)
+-
+200.000
+400.000
+600.000
+800.000
+1.000.000
+1.200.000
+Ano 1
+Ano 3
+Ano 5
+Ano 7
+Ano 9
+Ano 11
+Ano 13
+Ano 15
+Ano 17
+Ano 19
+Ano 21
+Ano 23
+Ano 25
+Ano 27
+Ano 29
+Ano 31
+Ano 33
+Ano 35
+R$'000 - abr/2025
+Receita Faturamento Água Receita Faturamento Esgoto Devoluções e cancelamentos
+Receitas indiretas de serviços Receitas não operacionais
+• Sistemas integrados de água (distribuição):
+o Pessoal operacional
+o O&M
+o Licenças
+• Sistemas integrados de esgotamento:
+o Energia elétrica
+o Produtos químicos
+o Pessoal operacional
+o Tratamento de lodo
+o O&M
+o Licenças
+Em sequência, são apresentadas, de forma resumida, as premissas consideradas para cada rubrica
+que compõe os custos operacionais.
+Energia Elétrica
+Para calcular a demanda e consumo de energia elétrica em estações elevatórias de água e esgoto,
+foram considerados a potência nominal dos motores e o número de conjuntos instalados. Nas estações
+de tratamento, foram consideradas as potências consumidas e o tempo de funcionamento. Foi consi-
+derada modalidade tarifaria de alta tensão, fora de ponta (A4), utilizando tabela tarifária da Energisa.
+Adicionalmente, foi prevista redução de 20% na tarifa de consumo até 2062 em função de melhorias
+operacionais e da compra de energia no Mercado Livre de Energia.
+Produtos Químicos
+Para abastecimento de água e esgotamento sanitário, foram considerados os produtos químicos em-
+pregados para tratamento da água nas ETAs e poços; e para tratamento de lodo e desinfecção nas
+ETEs. A estimativa de custo foi calculada a partir das vazões médias projetadas e das dosagens de
+cada produto a ser empregado.
+• Abastecimento de Água:
+o Sulfato de alumínio (coagulante): 1,32 kg/m³.
+o Hipoclorito de cálcio (desinfetante): 1,50 g/m³.
+o Polímero: 0,70 g/m³.
+o Cal hidratado: 20,00 g/m³.
+o Flúor: 3,40 mL/m³.
+• Poços:
+o Hipoclorito de cálcio e flúor com dosagens semelhantes aos das ETAs.
+• Esgotamento Sanitário:
+o Polímero para lodo: 10 g/kg SS.
+o Desinfecção calculada em função de número de habitantes atendidos por ano.
+Tratamento e Disposição Final de Lodos
+Os custos de tratamento de lodo referem -se ao desaguamento, transporte e disposição final e foram
+obtidos internamente a partir de valores de serviços praticados por terceiros em projetos com a partici-
+pação do CONSÓRCIO.
+Os custos de coleta, transporte e disposição final foram obtidos da análise de editais de concorrência
+pública. Estão incluídos os serviços de armazenamento, transporte e disposição final em aterro sanitá-
+rio ou unidade de gerenciamento de lodo devidamente licenciada.
+Mão de Obra
+A estimativa de custos com mão de obra operacional foi realizada a partir da elaboração de um custo
+unitário por ligação atendida pelos sistemas a partir do Banco de preços SINAPI não desonerado para
+Rondônia, data base de setembro de 2022.
+Operação e Manutenção (O&M)
+Inicialmente, os investimentos em renovação de ativos são classificados como CAPEX e, posterior-
+mente, como OPEX para manutenção contínua. O percentual de manutenção adotado é de 0,25% do
+CAPEX total. O cálculo do custo unitário por ligação é baseado no CAP EX total e no número máximo
+de ligações atendidas.
+Licenças
+Para a renovação de licença de operação foram considerados os custos referentes à necessidade de
+renovação tendo como base o ano de 2024 e considerando periodicidade de 4 anos. Os valores foram
+obtidos da legislação estadual e das respectivas normas municipais, analisadas caso a caso.
+As projeções sintéticas de custos se encontram a seguir. As projeções detalhadas, por município, se
+encontram no arquivo anexo indicado na seção 3.5.
+Gráfico 9 – Projeções de custos (R$’000, data base abr/2025)
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+2.11 Despesas
+Além dos custos projetados no Anteprojeto de Engenharia, há de se considerar as despesas adminis-
+trativas da Concessão bem como serviços de terceiros e outras despesas gerais.
+As despesas com serviços de terceiros foram estimadas em 0,15 R$/ligação total de água , conforme
+histórico médio de 2017 a 2021 das demonstrações contábeis da CAERD. No caso, se encontram
+contempladas as rubricas Comerciais, Técnicos, Manutenção de Veículos, Processamento de Dados,
+Publicidade e Propaganda, Logística, Veículos e Outros serviços.
+Por sua vez, as despesas gerais foram estimadas equivalentes a 0,03 R$/ligação total de água do
+faturamento, conforme histórico médio de 2017 a 2021 das demonstrações contábeis da CAERD. Es-
+sas despesas contemplam as rubricas Viagens e Condução, Taxas de Contribuições e Outras despe-
+sas gerais.
+As despesas administrativas foram apuradas referências de salários e encargos para a estrutura admi-
+nistrativa indicada na tabela a seguir, que na partida totaliza 133 funcionários.
+-
+20.000
+40.000
+60.000
+80.000
+100.000
+120.000
+140.000
+160.000
+180.000
+Ano 1
+Ano 3
+Ano 5
+Ano 7
+Ano 9
+Ano 11
+Ano 13
+Ano 15
+Ano 17
+Ano 19
+Ano 21
+Ano 23
+Ano 25
+Ano 27
+Ano 29
+Ano 31
+Ano 33
+Ano 35
+R$'000 - abr/2025
+Opex Água Opex Esgoto
+Figura 2 - Estrutura Administrativa proposta
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER, com base no Plano de Negócios para a con-
+cessão de serviços públicos de abastecimento de água e esgoto para o Estado do Amapá
+Foi considerado que o patamar da estrutura administrativa é mantido em 133 funcionários durante toda
+a vigência da Concessão, posto que áreas de finanças, regulação, jurídico, dentre outras administrati-
+vas, não devem se expandir com a universalização. É i mportante mencionar que, por outro lado, as
+equipes operacionais se elevam diretamente em função da ampliação das áreas de atendimento e do
+alcance das metas de universalização, sendo este efeito já contemplado no orçamento de custos ope-
+racionais.
+Para a estimativa dos custos associados aos funcionários da alçada administrativa, os cargos propos-
+tos para cada uma das áreas do organograma foram associados a cargos já existentes na CAERD, a
+nível individual, a fim de garantir uma estimativa salarial adequada. Posteriormente, levando em conta
+as proposições do Relatório de Avaliação de Recursos Humanos, a remuneração base associada a
+cada um dos cargos foi reduzida em aproximadamente 20%, visando melhor refletir a média praticada
+por outras empresas do setor. F inalmente, a despesa com cada cargo é resultante do salário anual,
+adicionados os respectivos custos com encargos trabalhistas e benefícios, calculados a partir dos cus-
+tos médios identificados nos balancetes e arquivos gerenciais, representando, em média, uma despesa
+adicional de 1,14 vezes a remuneração anual.
+As projeções sintéticas de despesas administrativas, terceiros e gerais se encontram a seguir. As pro-
+jeções detalhadas, por município, se encontram no arquivo anexo indicado na seção 3.5. Cabe destacar
+que o custo com pessoal administrativo foi rateado, para cada município, em função da população
+atendida pelos serviços de água.
+Gráfico 10 – Projeções de despesas (R$’000, data base abr/2025)
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+2.12 Encargo Setorial
+Em conformidade com a Resolução AGERO nº 001/2016 e Resolução AGERO nº 070/2023, foi consi-
+derado pagamento de Taxa de Fiscalização sobre Serviços Públicos de Abastecimento de Água e Es-
+goto (TFS) equivalente a 1% do valor faturado desses serviços durante toda a vigência da concessão.
+A projeção da TFS se encontra no Gráfico 10 (seção 2.11).
+2.13 Investimentos e Amortização
+Foi considerado que as estruturas atualmente empregadas ao atendimento da população atrelada a
+cada concessão analisada serão transferidas à futura Concessionária . Desse modo, foi considerado
+um intangível líquido de partida representativo dessa estrutura, equivalente ao direito de usa da infra-
+estrutura existente, cuja amortização é incidente sobre a base tributária da concess ão no contexto do
+Projeto RO.
+Para estimar o valor do intangível líquido de partida, foi considerado o valor da Outorga Fixa referencial
+da Concessão. Além disso, foi adotada uma taxa de amortização de 2,86%, de modo que o saldo líquido
+será integralmente depreciado em 35 anos, ou seja, até o término das concessões.
+As projeções de investimentos necessários à expansão, operação e atendimento das metas de univer-
+salização dos serviços de água e esgotamento foram estimadas e detalhadas no Relatório de Antepro-
+jeto de Engenharia.
+-
+20.000
+40.000
+60.000
+80.000
+100.000
+120.000
+Ano 1
+Ano 3
+Ano 5
+Ano 7
+Ano 9
+Ano 11
+Ano 13
+Ano 15
+Ano 17
+Ano 19
+Ano 21
+Ano 23
+Ano 25
+Ano 27
+Ano 29
+Ano 31
+Ano 33
+Ano 35
+R$'000 - abr/2025
+Pessoal Administrativo Serviços Terceiros e despesas gerais Taxa de Fiscalização dos Serviços
+Para cada investimento foi considerado uma taxa de amortização proporcional ao prazo remanescente
+da Concessão, desse modo, todos saldos são integralmente amortizados até o final da Concessão .
+Após o término da concessão, foi considerado que não haverá indenização ao Concessionário pela
+estrutura a ser entregue ao Poder Concedente.
+Os investimentos projetados no Relatório de Anteprojeto de Engenharia , necessários para o atendi-
+mento às soluções coletivas de água e esgoto são:
+• Sistemas integrados de água (produção):
+o Poços
+o Adutoras de água bruta
+o Estações elevatórias de água bruta
+o Estações de tratamento de água
+o CMB – Água Bruta
+• Sistemas integrados de água (distribuição):
+o Reservatórios
+o Adutoras de água tratada
+o Estações elevatórias de água tratada
+o Rede de Distribuição
+o Ligações de água
+o Substituições de hidrômetros
+o CMB – Água Tratada
+o Programa de Redução de Perdas
+o Projetos e Estudos
+o Licenças e Regularização Ambiental
+o Segurança Hídrica – ESG
+• Sistemas integrados de esgotamento:
+o Coletores tronco, interceptores e emissários
+o Estações elevatórias
+o Linhas de recalque e emissários sob pressão
+o Estações de tratamento de esgoto
+o Rede Coletora
+o Ligações de Esgoto
+o CMB e geradores
+o Estudos e projetos
+o Licenças
+Em sequência, são apresentadas, de forma resumida, as premissas consideradas para cada rubrica
+que compõe os investimentos preconizados. Todos os custos foram atualizados pelo INCC para a data
+base de setembro de 2022.
+Adutoras de água bruta e tratada
+Como premissa para a estimação de custos das adutoras de água bruta e tratada, foram consideradas:
+• Adutoras com diâmetro até 700 mm em PEAD;
+• Adutoras com diâmetro maior ou igual a 800 mm em aço carbono ou ferro fundido;
+• Percentuais de escoramento segundo valores médios baseados em projetos já elaborados pelo
+CONSÓRCIO; e
+• Utilização de custos unitários provenientes de estudo de custo de empreendimentos fornecido
+pela SABESP (2019).
+Rede de Abastecimento
+O custo unitário para redes de abastecimento utilizou como base a curva de custos da SABESP (2019)
+e as seguintes premissas:
+• Materiais: Tubulações de PVC.
+• Distribuição de Diâmetros: 50 mm (70%), 75 mm (15%), 100 mm (10%), 150 mm (5%).
+• Tipos de Escoramento: 20% sem escoramento, 60% pontaleteamento, 20% descontínuo.
+Ligações Domiciliares e Hidrometração
+O custo unitário para ligações domiciliares, hidrometração e cadastro de redes utilizou como base a
+curva de custos da SABESP (2019). Adicionalmente, foi considerado ciclo de vida útil para os hidrôme-
+tros, com a troca sendo realizada em ciclos de acordo com o porte populacional de cada município.
+Programa de Redução de Perdas e Desperdícios de Água
+A determinação da estimativa de custos do Programa de Redução de Perdas e Desperdícios utilizou
+como base valores baseados em programa análogo proposto pelo CONSÓRCIO para o município de
+Indaiatuba-SP. O programa visa a redução de perdas, manutenção, pesqu isa de vazamentos e reabi-
+litação de redes.
+Obras Localizadas de Abastecimento de Água
+Foram utilizados como base o estudo de custos de empreendimentos da SABESP (2019) para elabo-
+ração das curvas de custo para poços profundos e reservatórios e o banco de preços utilizados em
+projetos do CONSÓRCIO para estações elevatórias de água bruta e tratada, conjuntos motobomba e
+estações de tratamento de água.
+Soluções Individuais de Abastecimento de Água
+O custo das soluções individuais de água foi obtido com base em processos licitatórios de Prefeituras
+Municipais com ano base de abril de 2018 e setembro de 2020, para a implantação dos poços. Já para
+o reservatório, utilizou-se o preço médio praticado no mercado, com valores consultados em janeiro de
+2021. Abaixo se relacionam as unidades previstas para as soluções individuais de abastecimento de
+água:
+• Sistema de Abastecimento de Água – perfuração tubular com profundidade entre 18 e 30 me-
+tros, instalação de bomba submers ível, quadro de comando, ligações hidráulicas e elétricas e
+análise de água e implantação de caixa d’água de polietileno com capacidade de 500 L;
+Estudos de Segurança Hídrica (ESG)
+Face o risco associado às alterações climáticas, elaborou-se uma análise dos principais riscos associ-
+ados ao projeto quanto a este tema, com vistas a quantificar e valorar estruturas resilientes para garantir
+a prestação dos serviços ofertados mesmo com a mudança climática em todos os municípios objetos
+deste Projeto. Neste contexto, foram identificados 8 municípios vulneráveis à eventos climáticos extre-
+mos: Alta Floresta D’Oeste, Espigão D’Oeste, Guajará -Mirim, Ji-Paraná, Nova Brasilândia D’Oeste,
+Nova União, Ouro Preto do Oeste e Porto Velho.
+Desta forma, foram incluídos estudos complementares para enfrentamento das mudanças climáticas
+para as localidades supracitadas.
+Ramal Domiciliar
+A determinação do custo de implantação dos ramais domiciliares de esgoto foi realizada a partir dos
+custos disponibilizados pela SABESP (2019). Os valores levam em consideração o percentual de pa-
+vimentação de cada localidade, estimado com auxílios de bases do OpenStreetMaps (2022).
+Rede Coletora
+O custo médio foi obtido a partir dos dados disponibilizados pela SABESP (2019), em função da com-
+posição de custos feita a partir do diâmetro, tipo de pavimento da via e material, conforme a seguinte
+consideração de uma porcentagem média de cada tipo de escoramento:
+• Materiais: Tubulações de PVC;
+• Distribuição de diâmetros: 150 mm (70%) e 200 mm (30%); e
+• Tipos de escoramento: 20% sem escoramento, 45% de pontaleteamento, 20% descontínuo,
+10% contínuo e 5% especial.
+Coletores-Tronco
+Como premissa para a estimação de custos dos coletores-tronco, foram considerados:
+• Coletores-tronco em PVC;
+• Percentuais de escoramento segundo valores médios baseados em projetos já elaborados pelo
+CONSÓRCIO; e
+• Utilização de custos unitários provenientes de estudo de custo de empreendimentos fornecido
+pela SABESP (2019).
+Obras Localizadas de Esgotamento Sanitário
+Foram utilizados como base o estudo de custos de empreendimentos da SABESP (2019) para elabo-
+ração das curvas de custo das estações elevatórias de esgoto, o banco de preços utilizado em projetos
+pelo CONSÓRCIO para geradores de emergência e dados provenient es de literatura especializada
+(VON SPERLING, 2005, 2016) para estações de tratamento de esgoto.
+Soluções Individuais de Esgotamento Sanitário
+Para determinação dos custos das soluções individuais foi utilizada a Composição de Custos de Aqui-
+sição e Instalação de USIs, de agosto de 2019, fornecida pela Secretaria de Infraestrutura e Meio Am-
+biente – SIMA do Estado de São Paulo. O documento consiste em orçamento estimado para duas
+alternativas de USIs, conforme apresentado a seguir:
+• Tipo 1 – caixa de gordura, caixa de inspeção, fossa séptica, filtro anaeróbio, materiais diversos
+(tubulação, brita, reposição de piso e concreto para base), mão de obra e equipamentos (retro-
+escavadeira, ajudante e pedreiro);
+• Tipo 2 – caixa de gordura, caixa de inspeção, fossa séptica, sumidouro, materiais diversos
+(tubulação, brita, reposição de piso e concreto para base), mão de obra e equipamentos (retro-
+escavadeira, ajudante e pedreiro).
+Foi considerado, também, a incidência de Lucro e Despesas Indiretas (LDI) de 28% na contratação de
+terceiros para a realização dos serviços. Desse modo, para a estimativa de custo foi adotado o valor
+médio entre os dois tipos de USI descritos.
+Licenças e Regularização Ambiental
+Para a obtenção de licenças prévia e de instalação, similar ao aplicado para os custos de operação,
+foram considerados os custos referentes à necessidade de cada intervenção ou unidade, tendo como
+base o ano de 2024. Os valores foram obtidos da legislação estadual e das respectivas normas muni-
+cipais, analisadas caso a caso.
+A Tabela 7 e o Gráfico 11 a seguir cont êm os patamares projetados de investimentos consolidados
+para toda a Área de Concessão . As projeções detalhadas, por município, se encontram no arquivo
+anexo indicado na seção 3.6. Ao todo são estimados R $ 4,22 bilhões em investimentos (data-base
+abr/2025), sendo R$ 2,96 bilhões necessários para a prestação dos serviços de esgotamento compa-
+tível com a meta de universalização de 90% até 2033.
+Tabela 7 – Projeções de investimentos (R$’000, data base abr/2025)
+Modalidade Ano 1 Ano 5 Ano 10 Ano 20 Ano 35
+Água Produção - 17.432 - 3.101 -
+Água Distribuição 10.441 77.126 18.782 3.133 12.522
+Ambiental/Outros 25.421 19.068 3.755 3.577 2.928
+Esgoto 107.762 255.764 11.892 6.568 3.798
+Total 143.624 369.390 34.429 16.379 19.247
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+Gráfico 11 – Projeções de investimentos (R$’000, data base abr/2025)
+Elaboração: Consórcio CERES-ENGECORPS-MACHADO MEYER.
+2.14 Financiamentos
+Se encontram simuladas, neste Plano de Negócios duas estruturas de endividamento derivadas do
+perfil de investimentos projetados. A primeira estrutura contempla alavancagem dos investimentos
+ocorridos do primeiro ano de projeção até o quarto ano de projeçã o. A segunda estrutura contempla
+alavancagem dos investimentos previstos do quinto ano de projeção até o décimo terceiro ano de pro-
+jeção. Investimento após esse período são cobertos pela geração de recursos própria das concessões.
+143.624
+763.880
+785.051
+818.784
+369.390
+388.248
+418.411
+21.480
+37.364
+34.429
+29.619
+18.659
+17.848
+17.400
+16.473
+19.300
+35.759
+30.857
+27.618
+16.379
+19.463
+15.126
+14.498
+9.984
+27.143
+22.085
+18.595
+6.793
+6.084
+5.408
+4.977
+4.628
+22.429
+17.298
+19.247
+-
+200.000
+400.000
+600.000
+800.000
+1.000.000
+Ano 1
+Ano 3
+Ano 5
+Ano 7
+Ano 9
+Ano 11
+Ano 13
+Ano 15
+Ano 17
+Ano 19
+Ano 21
+Ano 23
+Ano 25
+Ano 27
+Ano 29
+Ano 31
+Ano 33
+Ano 35
+R$'000 - abr/2025
+Água Produção Água Distribuição Ambiental/Outros Esgoto Total
+Foi considerada alavancagem por meio de captações no BNDES, por ser a que apresenta menores
+despesas financeiras para o projeto, sendo simulado captação equivalente a 60% do investimento,
+alavancado a uma taxa equivalente a IPCA + 7,52% (convertido da TLP, com adicional de 1,5%).
+O BNDES oferece a linha de financiamento Finem – Saneamento Ambiental e Recursos Hídricos, vol-
+tada para projetos de investimentos públicos ou privados que estejam focados na universalização do
+acesso aos serviços de saneamento básico e à recuperação de áreas ambientalmente degradadas.
+A participação do banco para estados e municípios é de até 90% do valor total do projeto, sendo limi-
+tada a 100% dos itens financiáveis. Para os demais clientes, o percentual vai para 95% do valor total
+do projeto. Os financiamentos disponibilizados são a partir de R$ 20 milhões e as taxas de juros cobra-
+das são compostas conforme tabela a seguir.
+Tabela 8 – Taxa de Juros
+Operação Itens
+Financiados
+Custo
+Financeiro
+Remuneração
+BNDES
+Taxa do Agente
+Financeiro
+Direta Tratamento de resíduos sólidos e esgoto TLP A partir de 1,1% a.a. - Demais investimentos A partir de 1,5% a.a.
+Indireta Tratamento de resíduos sólidos e esgoto TLP 1,05% a.a. Negociada entre a institui-
+ção e o cliente Demais investimentos 1,45% a.a.
+Fonte: BNDES
+O prazo máximo de financiamento é de 34 anos, compreendendo o prazo de carência - de até 6 meses
+após entrada do projeto em operação comercial - e de amortização. Os juros podem ser capitalizados
+ou pagos pelo cliente e as garantias reais e/ou pessoais.
+A periodicidade de pagamentos normalmente é mensal, mas pode ocorrer de forma trimestral ou se-
+mestral. No geral o BNDES utiliza o Sistema de Amortização Constante (SAC).
+No setor de saneamento básico , o BNDES oferece complementaridade do uso de debêntures, subs-
+crevendo até 50% do valor das emissões pelo beneficiário para execução do projeto. A soma do valor
+financiado e das debêntures subscritas não pode ultrapassar 80% do valor total dos itens financi áveis.
+A seguir constam os valores considerados na projeção financeira.
+Tabela 9 – Dados Projeção
+Custo
+Finan-
+ceiro
+Remuneração
+BNDES Prazo Carência Pagamento Amortização % Investi-
+mento
+TLP 1,5% a.a. 34 anos 6 meses mensal SAC 90%
+Fonte: Consórcio CERES-ENGECORPS-MACHADO MEYER
+2.15 Necessidade de capital de giro
+A variação da necessidade de capital de giro foi simulada em termos de prazos médios de recebimento
+e de pagamento.
+No caso, ambos foram parametrizados, por simplificação, em termos da Receita Operacional Bruta
+(ROB) da Concessão. Foi considerado prazo médio de recebimento equivalente a 30 dias de ROB e
+prazo médio de pagamento equivalente a 15 dias de ROB.
+2.16 Impostos e deduções
+Foi considerado o regime de lucro real para apuração de impostos na valoração do Projeto RO. Desse
+modo, foram consideradas deduções de 9,25% do faturamento, em relação às alíquotas de PIS/CO-
+FINS. Para a apuração do IRPJ e CSLL, foi aplicada a alíquota de 34% incidentes sobre a base tribu-
+tável.
+.
+3 Anexos
+3.1 Projeções populacionais por município
+As projeções detalhadas de população por município se encontram no arquivo denominado PN Refe-
+rencial - Anexo I - População.xlsx, disponibilizado como anexo a este Plano de Negócios Referencial.
+3.2 Projeções de demanda de água e cobertura de esgoto por município
+As projeções detalhadas de água em termos de volume produzido, faturado e perdas , bem como as
+projeções de esgoto em termos de volume de contribuição, faturado e infiltração, ambas por município,
+se encontram no arquivo denominado PN Referencial - Anexo II – Demanda e Cobertura.xlsx, disponi-
+bilizado como anexo a este Plano de Negócios Referencial.
+3.3 Projeções do número de ligações e da extensão da rede de água e de
+esgoto
+As projeções detalhadas do número de ligações de água e de esgoto, bem como da extensão da rede
+de água e de esgoto, por município, se encontram no arquivo denominado PN Referencial - Anexo III
+– Ligações e Rede.xlsx, disponibilizado como anexo a este Plano de Negócios Referencial.
+3.4 Projeções de receitas
+As projeções detalhadas das receitas, por município, se encontram no arquivo denominado PN Refe-
+rencial - Anexo IV - Receitas.xlsx, disponibilizado como anexo a este Plano de Negócios Referencial.
+3.5 Projeções de custos e despesas
+As projeções detalhadas dos custos e despesas, por município, se encontram no arquivo denominado
+PN Referencial - Anexo V – Custos e Despesas.xlsx, disponibilizado como anexo a este Plano de Ne-
+gócios Referencial.
+3.6 Projeções de investimentos
+As projeções detalhadas dos investimentos, por município, se encontram no arquivo denominado PN
+Referencial - Anexo VI - Investimentos.xlsx, disponibilizado como anexo a este Plano de Negócios Re-
+ferencial.
