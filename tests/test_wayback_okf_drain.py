@@ -173,9 +173,9 @@ def test_legacy_503_result_is_requeued(tmp_path: Path) -> None:
 
     assert drain_wayback_queue(tmp_path, save=save) == []
     assert attempted == ["https://example.com/"]
-    assert "http-503" in (
-        tmp_path / "knowledge/wayback/results/example.md"
-    ).read_text(encoding="utf-8")
+    assert "http-503" in (tmp_path / "knowledge/wayback/results/example.md").read_text(
+        encoding="utf-8"
+    )
 
 
 def test_terminal_request_is_idempotently_skipped(tmp_path: Path) -> None:
