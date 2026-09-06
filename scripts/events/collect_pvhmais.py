@@ -10,7 +10,6 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 import requests
-
 from ovigia_dados.events.pvhmais import (
     PVHMAIS_EVENTS_URL,
     PvhMaisParseError,
