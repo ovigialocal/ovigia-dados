@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from datetime import UTC, date, datetime, time
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, urlunparse
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -18,6 +19,7 @@ FIERO_LISTINGS = (
     "https://portal.fiero.org.br/imprensa",
     "https://portal.fiero.org.br/sesi/imprensa",
 )
+PORTO_VELHO_TZ = ZoneInfo("America/Porto_Velho")
 _ARTICLE_RE = re.compile(
     r"^/(?:sesi/)?imprensa/noticia/(?P<year>\d{4})/(?P<month>\d{2})/[^/?#]+/(?P<id>\d+)$",
     re.I,
@@ -187,7 +189,7 @@ def _publication_datetime(text: str) -> datetime:
         int(match.group(1)),
         int(match.group(4)),
         int(match.group(5)),
-        tzinfo=UTC,
+        tzinfo=PORTO_VELHO_TZ,
     )
 
 
@@ -329,7 +331,9 @@ def parse_article(
     address = _field(parser.visible, "Endereço") or _field(parser.visible, "Endereco")
     event_time = _clock(parser.visible)
     starts_at = (
-        datetime.combine(candidate.value, event_time, tzinfo=UTC) if event_time is not None else None
+        datetime.combine(candidate.value, event_time, tzinfo=PORTO_VELHO_TZ)
+        if event_time is not None
+        else None
     )
     return EventObservation(
         event_id=f"fiero-{article_id_from_url(canonical)}",
