@@ -36,9 +36,9 @@ Fonte municipal:
 - `https://pvhmais.portovelho.ro.gov.br/site/eventos`
 - páginas individuais em `https://pvhmais.portovelho.ro.gov.br/site/eventos/<id>`.
 
-A superfície foi observada publicamente em setembro de 2026. A listagem se apresenta como a agenda completa de eventos e atividades da cidade. Páginas individuais estáveis expõem eventos por ID numérico; por exemplo, o Fórum de Contabilidade de 2026 foi observado em `/site/eventos/16`. O identificador canônico adotado pelo dataset é `pvhmais-<id>`.
+A superfície foi observada publicamente em setembro de 2026. A listagem se apresenta como a agenda completa de eventos e atividades da cidade. Páginas individuais estáveis expõem eventos por ID numérico; por exemplo, o Fórum de Contabilidade de 2026 foi observado em `/site/eventos/16`. O identificador adotado pelo dataset é `pvhmais-<id>`.
 
-O portal é uma SPA. O HTML inicial contém um `data-parameters` público usado para iniciar a aplicação, mas a lista completa é hidratada no cliente. O coletor deliberadamente **não depende de XHR ou API interna não documentada**. Ele usa somente a listagem e as páginas públicas `/site/eventos/<id>`:
+O portal é uma SPA. O HTML inicial contém um `data-parameters` público usado para iniciar a aplicação, mas a lista completa é hidratada no cliente. O coletor deliberadamente não depende de XHR ou API interna não documentada. Ele usa somente a listagem e as páginas públicas `/site/eventos/<id>`:
 
 1. lê o bootstrap público e coleta IDs de objetos explicitamente marcados como `Event` quando presentes;
 2. mantém uma faixa inicial conservadora de IDs e pequena janela de lookahead para descobrir páginas públicas adicionais;
@@ -48,7 +48,7 @@ O portal é uma SPA. O HTML inicial contém um `data-parameters` público usado 
 6. trata Porto Velho/RO como escopo da agenda municipal quando a página não repete município/UF no objeto;
 7. persiste pelo mesmo materializador e hash usados pelas demais fontes.
 
-A sondagem numérica é diária, limitada e concorrente em poucos workers. Ela existe para evitar dependência de uma rota interna instável; não deve virar varredura ampla ou agressiva. O teto inicial e o lookahead são parâmetros explícitos do workflow.
+A sondagem numérica é diária, limitada e concorrente em poucos workers. O teto inicial e o lookahead são parâmetros explícitos do workflow.
 
 ## Wayback/CDX como memória e backfill
 
@@ -57,13 +57,13 @@ O Internet Archive complementa a coleta live em duas funções:
 - recuperar URLs de eventos vistas em snapshots antigos de superfícies de discovery quando o HTML arquivado contém essas URLs;
 - reconstruir estados arquivados de páginas individuais quando houver URL pública conhecida.
 
-O coletor Sympla já usa o índice CDX em `https://web.archive.org/cdx/search/cdx`, limita a respostas HTTP 200 e colapsa snapshots pelo digest. O mesmo padrão pode ser aplicado por outros adaptadores quando trouxer benefício real.
+O coletor Sympla usa o índice CDX em `https://web.archive.org/cdx/search/cdx`, limita a respostas HTTP 200 e colapsa snapshots pelo digest. O mesmo padrão pode ser aplicado por outros adaptadores quando trouxer benefício real.
 
 Wayback não é pré-requisito da descoberta live. Falha do CDX ou ausência de snapshot não invalida observação pública feita diretamente na fonte. Da mesma forma, a existência de um snapshot não transforma automaticamente a página em fonte material de uma matéria; preservação editorial segue o contrato próprio da fila `archive-request` quando aquela URL efetivamente sustentar publicação.
 
 ## Superfícies verificadas para expansão
 
-Estas fontes já possuem presença pública relevante, mas ainda exigem definir o melhor mecanismo de discovery antes de ganhar um adapter automático:
+Estas fontes já possuem presença pública relevante, mas ainda exigem definir o melhor mecanismo de discovery antes de ganhar um adapter automático.
 
 ### Funcultural
 
@@ -95,23 +95,26 @@ O portal publica eventos realizados em Porto Velho, inclusive competições e en
 
 Permanecem como candidatos prioritários. Antes de automatizar, localizar uma listagem/feed institucional estável e documentar sua semântica. Não inferir endpoint ou catálogo por analogia.
 
+## Reconciliação entre fontes
+
+A reconciliação roda sobre a observação mais recente de cada identidade source-specific e produz dois tipos derivados:
+
+- `event-reconciliation`: evidência append-only da comparação entre dois estados observados;
+- `event-entity`: identidade canônica acima de `sympla-*`, `pvhmais-*` e futuras fontes.
+
+A regra usa título normalizado, data local, local e organizador. Título sozinho nunca basta para equivalência automática. Ausência de data produz no máximo `review`; data divergente com sinais muito fortes também vira `review`, pois pode indicar remarcação. Somente pares temporalmente compatíveis e com similaridade forte alimentam automaticamente uma `event-entity`.
+
+O `reconciliation_id` incorpora os hashes das duas observações. Quando uma fonte muda data, local, título, organizador ou status, a nova rodada produz nova evidência em vez de reescrever a decisão anterior.
+
+`event-entity` preserva seu `canonical_event_id` quando uma terceira fonte é ligada depois. Se uma nova equivalência tentaria unir duas entidades canônicas já existentes, a consolidação automática não acontece; o caso fica para revisão explícita.
+
+Divergências permanecem visíveis nas observações originais. A entidade canônica serve para navegação, agrupamento e publicação de agenda, não como substituto da proveniência.
+
 ## Limites deliberados
 
 - Adaptadores não devem depender de endpoint interno não documentado quando uma superfície pública estável atende à aquisição.
 - Evento sem localização verificável em fonte de escopo amplo não entra automaticamente na agenda local.
 - Identidade entre plataformas diferentes não é inferida apenas por semelhança de título.
-- Reconciliação futura deve usar data, local, organizador e outras evidências.
 - O estado `unknown` é preferível a inventar status quando a fonte não o publica de forma confiável.
 - Fonte de notícias exige distinguir anúncio futuro, mudança/cancelamento e cobertura pós-evento antes de materializar eventos.
-
-## Reconciliação futura
-
-A próxima camada deve comparar identidades source-specific (`sympla-*`, `pvhmais-*` etc.) e produzir evidência de equivalência sem apagar nenhuma origem. Bons sinais incluem:
-
-- título normalizado semelhante;
-- data/hora compatível;
-- mesmo local/endereço;
-- mesmo organizador/produtor;
-- links cruzados entre as fontes.
-
-Matching por título sozinho nunca é suficiente. Divergência entre fontes deve permanecer visível como dado investigável, não ser resolvida silenciosamente por overwrite.
+- Reconciliação é derivada e reversível pela evidência; nunca apaga nem reescreve o que cada fonte publicou.
