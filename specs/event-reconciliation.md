@@ -7,7 +7,7 @@ target_type: "event-reconciliation"
 fields:
   reconciliation_id:
     type: string
-    description: "Identificador determinístico da comparação entre dois eventos source-specific."
+    description: "Identificador determinístico da comparação entre dois estados observados de eventos source-specific."
   left_event_id:
     type: string
     description: "Primeiro city-event comparado."
@@ -32,6 +32,12 @@ fields:
   organizer_similarity:
     type: number
     description: "Similaridade do organizador quando ambos o publicam."
+  left_content_hash:
+    type: string
+    description: "Hash do estado normalizado da observação esquerda usada na decisão."
+  right_content_hash:
+    type: string
+    description: "Hash do estado normalizado da observação direita usada na decisão."
   evaluated_at:
     type: string
     description: "Timestamp ISO 8601 UTC em que a reconciliação foi materializada."
@@ -39,4 +45,6 @@ fields:
 
 # Reconciliação de evento
 
-`event-reconciliation` é evidência derivada e reproduzível. Ele nunca substitui as observações originais. A decisão `equivalent` pode alimentar uma identidade `event-entity`; a decisão `review` mantém a ambiguidade explícita para revisão posterior.
+`event-reconciliation` é evidência derivada e reproduzível. Ele nunca substitui as observações originais. O identificador incorpora os hashes dos dois estados comparados, então uma mudança material nas fontes produz uma nova evidência em vez de reescrever a anterior.
+
+A decisão `equivalent` pode alimentar uma identidade `event-entity`; a decisão `review` mantém a ambiguidade explícita para revisão posterior.
