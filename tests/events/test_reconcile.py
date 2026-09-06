@@ -134,7 +134,9 @@ def test_reconciliation_is_append_only_per_observed_state(tmp_path) -> None:
 
     changed = right.model_copy(update={"venue_name": "Teatro Guaporé", "content_hash": ""})
     changed.model_post_init(None)
-    second = reconcile_observations([left, changed], evaluated_at=datetime(2026, 9, 7, 10, tzinfo=UTC))
+    second = reconcile_observations(
+        [left, changed], evaluated_at=datetime(2026, 9, 7, 10, tzinfo=UTC)
+    )
     created_again = materialize_reconciliations(second, tmp_path)
 
     assert len(created_again) == 1
