@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/sine-vagas-porto-velho-2026-09-04",
+  "source_url": "https://www.portovelho.ro.gov.br/sine/vagas",
+  "archive_url": "https://web.archive.org/web/20260906170957/https://www.portovelho.ro.gov.br/sine/vagas",
+  "verified_at": "2026-09-06T17:13:59Z",
+  "archive_content_type": "text/html",
+  "archive_size": 17083,
+  "archive_sha256": "7135e33561da1e9d4d3a6c8fc6f25fda5292d6cbc3129928b47721aa6ea4327b",
+  "source_content_type": "text/html",
+  "source_size": 141939,
+  "source_sha256": "7a3014bfb99ea66fd21f9058208f7c9bf5dd5096cc066cf9fde5df77c3436a0f",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/sine-vagas-porto-velho-2026-09-04.html"
+}

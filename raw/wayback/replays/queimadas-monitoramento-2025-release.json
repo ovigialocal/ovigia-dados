@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/queimadas-monitoramento-2025-release",
+  "source_url": "https://www.portovelho.ro.gov.br/artigo/50556/monitoramento-2025-medidas-estrategicas-da-prefeitura-reduzem-as-queimadas-em-quase-85-em-porto-velho",
+  "archive_url": "https://web.archive.org/web/20260906165345/https://www.portovelho.ro.gov.br/noticias/monitoramento-2025-medidas-estrategicas-da-prefeitura-reduzem-as-queimadas-em-quase-85-em-porto-velho",
+  "verified_at": "2026-09-06T17:13:49Z",
+  "archive_content_type": "text/html",
+  "archive_size": 20090,
+  "archive_sha256": "ede7221c665e34a547b0b856e5e6930a144890f6f4eee336ec74608e55742bca",
+  "source_content_type": "text/html",
+  "source_size": 121421,
+  "source_sha256": "5be1066ef3571db716eb7790071582ed3be77b58568977fd75a6703f100df53b",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/queimadas-monitoramento-2025-release.html"
+}

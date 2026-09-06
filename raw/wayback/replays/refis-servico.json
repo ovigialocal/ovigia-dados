@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/refis-servico",
+  "source_url": "https://servicos.portovelho.ro.gov.br/semec/refis",
+  "archive_url": "https://web.archive.org/web/20260902194253/https://servicos.portovelho.ro.gov.br/semec/refis",
+  "verified_at": "2026-09-06T17:13:55Z",
+  "archive_content_type": "text/html",
+  "archive_size": 24708,
+  "archive_sha256": "64fb2708059bad0b79805b537fdc375aef45c77d4ed426b9e471bf92afce9aca",
+  "source_content_type": "text/html",
+  "source_size": 147374,
+  "source_sha256": "738ed63c631ebc8961d59dd7e5f014a9bf29601a0b6f7199c5e6d15f06ddcda6",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/refis-servico.html"
+}

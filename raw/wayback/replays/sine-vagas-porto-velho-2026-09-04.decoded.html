@@ -1,0 +1,1523 @@
+<!doctype html>
+<html lang="pt-BR" class="h-full">
+<head>
+    <meta name="theme-color" content="#223f99">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Prefeitura de Porto Velho</title>   
+    <link rel="icon" href="/favicon.png" sizes="any">
+
+    <meta name="description" content="Portal Oficial da Prefeitura Municipal de Porto Velho.">
+<meta property="og:site_name" content="Prefeitura de Porto Velho">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Portal Oficial da Prefeitura de Porto Velho">
+<meta property="og:description" content="Portal Oficial da Prefeitura Municipal de Porto Velho.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.portovelho.ro.gov.br">
+<meta property="og:image" content="https://www.portovelho.ro.gov.br/images/Prefeitura_Horizontal_Azul.svg">
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preload" as="style" href="https://www.portovelho.ro.gov.br/build/assets/app-OmgyliQR.css" /><link rel="modulepreload" as="script" href="https://www.portovelho.ro.gov.br/build/assets/app-DMRtMKZ6.js" /><link rel="stylesheet" href="https://www.portovelho.ro.gov.br/build/assets/app-OmgyliQR.css" data-navigate-track="reload" /><script type="module" src="https://www.portovelho.ro.gov.br/build/assets/app-DMRtMKZ6.js" data-navigate-track="reload"></script>    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
+</head>
+
+<body class="min-h-full text-gray-900 bg-[#f8f8f8] antialiased">
+
+
+<div id="app" class="min-h-screen flex flex-col">
+    <div class="bg-[#223f99] text-white py-1.5 w-full">
+    <div class="container flex justify-between items-center text-xs sm:text-sm font-medium px-4">
+        <!-- Lado Esquerdo (Desktop) -->
+        <div class="hidden md:flex items-center gap-4 lg:gap-6">
+            <a href="https://www.portovelho.ro.gov.br/e-sic/" target="_blank" >Acesso à informação</a>
+            <span class="text-white/50">|</span>
+            <a href="https://transparencia.portovelho.ro.gov.br/" target="_blank">Transparência</a>
+            <span class="text-white/50">|</span>
+            <a href="https://transparencia.portovelho.ro.gov.br/perguntas-frequentes" target="_blank">Perguntas
+                Frequentes</a>
+            <span class="text-white/50">|</span>
+            <a href="https://sapl.portovelho.ro.leg.br/norma/pesquisar?page=1&tipo=&numero=&ano=&data_0=&data_1=&data_publicacao_0=&data_publicacao_1=&ementa=&assuntos=1728&data_vigencia_0=&data_vigencia_1=&o=&indexacao="
+               target="_blank">Legislação</a>
+            <span class="text-white/50">|</span>
+            <a href="https://ouvidoria.portovelho.ro.gov.br/" target="_blank">Ouvidoria</a>
+            <span class="text-white/50 hidden sm:inline">|</span>
+            <a href="https://www.portovelho.ro.gov.br/dom" target="_blank">Diário Oficial</a>
+        </div>
+
+        <!-- Lado Direito -->
+        <div class="flex items-center gap-4 lg:gap-6">
+            <!-- Controles de Acessibilidade -->
+            <div class="flex items-center gap-6">
+                <span class="text-white/50 hidden sm:inline">|</span>
+                <button onclick="decreaseFont()" class="hover:text-yellow-300 transition-colors" title="Diminuir Fonte">
+                    A-
+                </button>
+                <button onclick="resetAccessibility()" class="hover:text-yellow-300 transition-colors"
+                        title="Tamanho Normal">A
+                </button>
+                <button onclick="increaseFont()" class="hover:text-yellow-300 transition-colors" title="Aumentar Fonte">
+                    A+
+                </button>
+                <button onclick="toggleContrast()" class="hover:text-yellow-300 transition-colors"
+                        title="Alto Contraste">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 18a6 6 0 0 0 0-12v12z"/>
+                    </svg>
+                </button>
+                <!-- Botão de Acessibilidade (Abre Dropdown) -->
+                <div x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false" class="relative">
+                    <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="16" cy="4" r="1"></circle>
+                        <path d="m18 19 1-7-6 1"></path>
+                        <path d="m5 8 3-3 5.5 3-2.36 3.5"></path>
+                        <path d="M4.24 14.5a5 5 0 0 0 6.88 6"></path>
+                        <path d="M13.76 17.5a5 5 0 0 0-6.88-6"></path>
+                    </svg>
+                    <!-- Dropdown de Acessibilidade -->
+                    <div x-show="open"
+     x-transition:enter="transition ease-out duration-200"
+     x-transition:enter-start="transform opacity-0 translate-y-2"
+     x-transition:enter-end="transform opacity-100 translate-y-0"
+     x-transition:leave="transition ease-in duration-150"
+     x-transition:leave-start="transform opacity-100 translate-y-0"
+     x-transition:leave-end="transform opacity-0 translate-y-2"
+     @click.outside="open = false"
+     class="absolute right-0 top-full mt-2 w-80 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden z-[200]"
+>
+
+    <div class="px-4 py-3 bg-[#223f99] text-white border-b border-gray-100 flex items-center justify-between">
+        <span class="font-bold text-sm uppercase tracking-wider">Acessibilidade</span>
+        <button @click="open = false" onclick="resetAccessibility(); resetCustomA11y();" class="text-white hover:text-yellow-300 transition-colors" title="Redefinir Acessibilidade">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        </button>
+    </div>
+
+    <div class="max-h-[70vh] overflow-y-auto text-[#223f99] font-medium text-sm">
+        <!-- Fonte e Zoom -->
+        <div class="px-4 py-3 border-b border-gray-100 bg-gray-50 flex items-center justify-between">
+            <span>Tamanho da fonte</span>
+            <div class="flex gap-1">
+                <button @click="open = false" onclick="decreaseFont()" class="w-8 h-8 rounded-md bg-white border border-gray-200 flex items-center justify-center hover:border-[#6CBE54] hover:text-[#6CBE54] transition-colors" title="Diminuir Fonte">A-</button>
+                <button @click="open = false" onclick="increaseFont()" class="w-8 h-8 rounded-md bg-white border border-gray-200 flex items-center justify-center hover:border-[#6CBE54] hover:text-[#6CBE54] transition-colors" title="Aumentar Fonte">A+</button>
+            </div>
+        </div>
+
+        <div class="px-4 py-3 border-b border-gray-100 bg-gray-50 flex items-center justify-between">
+            <span>Zoom da página</span>
+            <div class="flex gap-1">
+                <button @click="open = false" onclick="decreaseZoom()" class="w-8 h-8 rounded-md bg-white border border-gray-200 flex items-center justify-center hover:border-[#6CBE54] hover:text-[#6CBE54] transition-colors" title="Diminuir Zoom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/><line x1="8" x2="14" y1="11" y2="11"/></svg>
+                </button>
+                <button @click="open = false" onclick="increaseZoom()" class="w-8 h-8 rounded-md bg-white border border-gray-200 flex items-center justify-center hover:border-[#6CBE54] hover:text-[#6CBE54] transition-colors" title="Aumentar Zoom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/><line x1="11" x2="11" y1="8" y2="14"/><line x1="8" x2="14" y1="11" y2="11"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Botões Rápidos -->
+        <button @click="open = false" onclick="toggleContrast()" class="flex items-center gap-3 w-full px-4 py-3 border-b border-gray-100 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 18a6 6 0 0 0 0-12v12z"/></svg>
+            <span>Alto contraste</span>
+        </button>
+        <button @click="open = false" onclick="document.querySelector('[vw-access-button]').click()" class="flex items-center gap-3 w-full px-4 py-3 border-b border-gray-100 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"/><path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"/><path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/><path d="M6 10V6a2 2 0 0 1 4 0v4.5"/></svg>
+            <span>Tradutor para Libras</span>
+        </button>
+        <button @click="open = false" id="btn-a11y-reader" onclick="toggleTextReader()" class="flex items-center gap-3 w-full px-4 py-3 border-b border-gray-100 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+            <span>Leitor de Áudio</span>
+        </button>
+        <button @click="open = false" id="btn-a11y-links" onclick="toggleHighlightLinksCustom()" class="flex items-center gap-3 w-full px-4 py-3 border-b border-gray-100 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <span>Destacar Links</span>
+        </button>
+        <button @click="open = false" id="btn-a11y-guide" onclick="toggleReadingGuide()" class="flex items-center gap-3 w-full px-4 py-3 border-b border-gray-100 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+            <span>Guia de Leitura</span>
+        </button>
+        <button @click="open = false" id="btn-a11y-mask" onclick="toggleReadingMask()" class="flex items-center gap-3 w-full px-4 py-3 border-b border-gray-100 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8V5c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v3"/><path d="M5 16v3c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-3"/><line x1="4" x2="20" y1="12" y2="12"/></svg>
+            <span>Máscara de Leitura</span>
+        </button>
+
+        <!-- Links Especiais -->
+        <a href="/acessibilidade" @click="open = false" class="flex items-center justify-between w-full px-4 py-3 border-b border-gray-100 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left bg-gray-50">
+            <span class="flex items-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Teclas de Atalho
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <a href="/mapa-do-site" @click="open = false" class="flex items-center justify-between w-full px-4 py-3 hover:bg-gray-50 hover:text-[#6CBE54] transition-colors text-left bg-gray-50">
+            <span class="flex items-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+                Mapa do site
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <header id="main-menu" class="">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between min-h-20 sm:min-h-24 md:min-h-32 gap-2">
+                
+                <a href="/" class="flex items-center">
+                    <div class="flex items-center">
+                        <img alt="Cidade de Porto Velho" class="h-10 sm:h-18 w-auto shrink-0"
+                             src="https://www.portovelho.ro.gov.br/logo/prefeitura_horizontal_azul.png">
+                    </div>
+                                            <div class="w-px h-12 bg-gray-300 mx-4 hidden sm:block"></div>
+                        <div class="flex-col hidden sm:flex">
+                            <span class="font-bold text-2xl leading-tight text-[#223f99]">Portal Prefeitura de Porto Velho</span>
+                            <p class="text-xs text-gray-600">Prefeitura Municipal de Porto Velho</p>
+                        </div>
+                                    </a>
+                <div class="flex items-center space-x-6">
+                    <div class="hidden lg:flex items-center space-x-4">
+                        <div class="relative">
+
+                            <form id="" class=""
+                                  action="https://www.portovelho.ro.gov.br/busca" method="GET"
+                                  x-data="{ searchInput: '' }"
+                                  @search-updated.window="searchInput = $event.detail.search">
+                                <input type="text" name="busca"
+                                       class="flex h-10 border bg-background px-3 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm w-64 pl-4 pr-12 py-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBE54] focus:border-transparent"
+                                       placeholder="Buscar no portal..."
+                                       x-model="searchInput">
+                                <button type="submit"
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 font-medium rounded-lg absolute right-1 top-1/2 -translate-y-1/2 h-8 w-8 p-0 bg-[#6CBE54] hover:bg-[#6CBE54]/90 text-white cursor-pointer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                         stroke-linejoin="round" class="lucide lucide-search w-4 h-4">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.3-4.3"></path>
+                                    </svg>
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <button
+                        x-data
+                        @click="$dispatch('open-mobile-menu')"
+                        class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:opacity-50 shrink-0 h-9 w-9 lg:hidden text-[#223f99]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="lucide lucide-menu">
+                            <line x1="4" x2="20" y1="12" y2="12"></line>
+                            <line x1="4" x2="20" y1="6" y2="6"></line>
+                            <line x1="4" x2="20" y1="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div aria-hidden="true" class="h-2 w-full border-b-4 border-b-[#FFDD00] bg-[#70B643]"></div>
+
+    </header>
+
+        <div wire:snapshot="{&quot;data&quot;:{&quot;menus&quot;:[null,{&quot;keys&quot;:[],&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Collection&quot;,&quot;modelClass&quot;:null,&quot;s&quot;:&quot;elcln&quot;}],&quot;sistemaId&quot;:46,&quot;sistema&quot;:[null,{&quot;class&quot;:&quot;App\\Models\\Sistema&quot;,&quot;key&quot;:46,&quot;s&quot;:&quot;mdl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;ex3J90y9bYkmj7V4fgSB&quot;,&quot;name&quot;:&quot;menu-principal&quot;,&quot;path&quot;:&quot;sine\/vagas&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;pt_BR&quot;},&quot;checksum&quot;:&quot;1c7a8f55091970e80cf13398c3aa5429c3b01fd81ec049a438ddb0dca1546c8c&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="ex3J90y9bYkmj7V4fgSB" x-data="{ mobileMenuOpen: false }" @open-mobile-menu.window="mobileMenuOpen = true">
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--></div>
+
+    <main id="main-content" class="flex-1">
+        <div wire:snapshot="{&quot;data&quot;:{&quot;search&quot;:&quot;&quot;,&quot;showPcdOnly&quot;:false,&quot;showModal&quot;:false,&quot;selectedVacancy&quot;:null,&quot;nome&quot;:&quot;&quot;,&quot;cpf&quot;:&quot;&quot;,&quot;dt_nascimento&quot;:&quot;&quot;,&quot;n_ct&quot;:&quot;&quot;,&quot;serie_ct&quot;:&quot;&quot;,&quot;pis&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;telefone&quot;:&quot;&quot;,&quot;escolaridade&quot;:&quot;&quot;,&quot;sexo&quot;:&quot;&quot;},&quot;memo&quot;:{&quot;id&quot;:&quot;CTOtnBBKHuZZYIB8KURD&quot;,&quot;name&quot;:&quot;sine.vagas-page&quot;,&quot;path&quot;:&quot;sine\/vagas&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;pt_BR&quot;},&quot;checksum&quot;:&quot;373818773974323ff774bc97211046e7c278172a1395805e2fa9b738f96a96f4&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="CTOtnBBKHuZZYIB8KURD" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="mb-8">
+        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-2xl [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2 mb-2" data-flux-heading>SINE Municipal - Vagas de Emprego</div>
+        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70" data-flux-text >Confira as vagas disponíveis e envie seu currículo diretamente pelo nosso portal.</p>    </div>
+
+    <!-- Filters -->
+    <div class="flex flex-col md:flex-row gap-4 mb-8 items-end">
+        <div class="flex-1 w-full">
+            <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <div class="w-full relative block group/input" data-flux-input>
+                            <div class="pointer-events-none absolute top-0 bottom-0 border-s border-transparent flex items-center justify-center text-xs text-zinc-400/75 dark:text-white/60 ps-3 start-0">
+                    <svg class="shrink-0 [:where(&amp;)]:size-5" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd"/>
+</svg>
+
+                        </div>
+            
+            <input
+                type="text"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-10 pe-10 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" wire:model.live.debounce.300ms="search" placeholder="Buscar por cargo, área ou formação..."
+                 name="search"                                                                                                 data-flux-control
+                data-flux-group-target
+                 wire:loading.class="pe-16"                  wire:target="search"             >
+
+                            <div class="absolute top-0 bottom-0 flex items-center gap-x-1.5 pe-2 border-e border-transparent end-0 text-xs text-zinc-400">
+                    
+                                            <svg class="shrink-0 [:where(&amp;)]:size-5 animate-spin" wire:loading="" wire:target="search" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                            
+                                            <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-8 text-sm rounded-md w-8 inline-flex -ms-1.5 -me-1.5 bg-transparent hover:bg-zinc-800/5 dark:hover:bg-white/15 text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-white      -me-1 [[data-flux-input]:has(input:placeholder-shown)_&amp;]:hidden [[data-flux-input]:has(input[disabled])_&amp;]:hidden" data-flux-button="data-flux-button" x-data="fluxInputClearable" x-on:click="clear()" tabindex="-1" aria-label="Clear input" data-flux-clear-button="data-flux-clear-button">
+        <svg class="shrink-0 [:where(&amp;)]:size-5" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"/>
+</svg>
+    </button>
+                    
+                    
+                    
+                    
+                    
+                                    </div>
+                    </div>
+</ui-field>
+        </div>
+        <div>
+            <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 grid gap-x-3 gap-y-1.5 has-[[data-flux-label]~[data-flux-control]]:grid-cols-[1fr_auto] has-[[data-flux-control]~[data-flux-label]]:grid-cols-[auto_1fr] [&amp;&gt;[data-flux-control]~[data-flux-description]]:row-start-2 [&amp;&gt;[data-flux-control]~[data-flux-description]]:col-start-2 [&amp;&gt;[data-flux-control]~[data-flux-error]]:col-span-2 [&amp;&gt;[data-flux-control]~[data-flux-error]]:mt-1 [&amp;&gt;[data-flux-label]~[data-flux-control]]:row-start-1 [&amp;&gt;[data-flux-label]~[data-flux-control]]:col-start-2" data-flux-field>
+    <ui-checkbox class="flex size-[1.125rem] rounded-[.3rem] mt-px outline-offset-2" wire:model.live="showPcdOnly" label="Apenas vagas para PCD"  data-flux-control data-flux-checkbox>
+        <div class="shrink-0 size-[1.125rem] rounded-[.3rem] flex justify-center items-center text-sm text-zinc-700 dark:text-zinc-800 shadow-xs [ui-checkbox[disabled]_&amp;]:opacity-75 [ui-checkbox[data-checked][disabled]_&amp;]:opacity-50 [ui-checkbox[disabled]_&amp;]:shadow-none [ui-checkbox[data-checked]_&amp;]:shadow-none [ui-checkbox[data-indeterminate]_&amp;]:shadow-none [ui-checkbox[data-checked]:not([data-indeterminate])_&amp;&gt;svg:first-child]:block [ui-checkbox[data-indeterminate]_&amp;&gt;svg:last-child]:block border border-zinc-300 dark:border-white/10 [ui-checkbox[disabled]_&amp;]:border-zinc-200 dark:[ui-checkbox[disabled]_&amp;]:border-white/5 [ui-checkbox[data-checked]_&amp;]:border-transparent [ui-checkbox[data-indeterminate]_&amp;]:border-transparent [ui-checkbox[disabled][data-checked]_&amp;]:border-transparent [ui-checkbox[disabled][data-indeterminate]_&amp;]:border-transparent [print-color-adjust:exact] bg-white dark:bg-white/10 [ui-checkbox[data-checked]_&amp;]:bg-[var(--color-accent)] hover:[ui-checkbox[data-checked]_&amp;]:bg-(--color-accent) focus:[ui-checkbox[data-checked]_&amp;]:bg-(--color-accent) [ui-checkbox[data-indeterminate]_&amp;]:bg-[var(--color-accent)] hover:[ui-checkbox[data-indeterminate]_&amp;]:bg-(--color-accent) focus:[ui-checkbox[data-indeterminate]_&amp;]:bg-(--color-accent)" data-flux-checkbox-indicator>
+    <svg class="shrink-0 [:where(&amp;)]:size-4 hidden text-[var(--color-accent-foreground)]" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clip-rule="evenodd"/>
+</svg>
+
+            <svg class="shrink-0 [:where(&amp;)]:size-4 hidden text-[var(--color-accent-foreground)]" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M3.75 7.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z"/>
+</svg>
+
+        </div>
+    </ui-checkbox>
+
+                    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Apenas vagas para PCD
+
+    
+    
+    </ui-label>
+        
+        
+                    <div role="alert" aria-live="polite" aria-atomic="true" class="mt-3 text-sm font-medium text-red-500 dark:text-red-400 hidden" data-flux-error>
+    </div>
+</ui-field>
+
+        </div>
+    </div>
+
+    <!-- Alerts -->
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+    <!-- Vacancies List -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!--[if BLOCK]><![endif]-->            <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>AUXILIAR DE RH</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 1
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Superior Incompleto
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Atuar no suporte às atividades de Recursos Humanos e Departamento Pessoal, auxiliando nos processos administrativos, organização de documentos, atendimento aos colaboradores e rotinas do setor. É necessário ter conhecimento em Pacote Office, especialmente Word e Excel, boa comunicação, organização e facilidade para trabalhar em equipe.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 01/10/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5828)" wire:loading.attr="data-flux-loading" wire:click="openModal(5828)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>OPERADOR DE TELEMARKETING</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 1
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Médio Completo
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Operador de Central de Atendimento de Telefonia. Necessária boa comunicação, informática básica e disponibilidade para trabalhar em escala 12x36.
+
+Atuar no atendimento telefônico ao público, prestando informações, registrando solicitações e realizando o direcionamento das demandas. 
+
+Desejável experiência com atendimento ao público, atendimento remoto e rotinas administrativas.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 01/10/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5827)" wire:loading.attr="data-flux-loading" wire:click="openModal(5827)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>AUXILIAR DE LAVANDERIA</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 1
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Sem instrução
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Que tenha experiência na função e disponibilidade de horário.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 10/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5825)" wire:loading.attr="data-flux-loading" wire:click="openModal(5825)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>MECÂNICO SOLDADOR</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 1
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Sem instrução
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Que tenha experiência na função e disponibilidade de horário.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 08/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5823)" wire:loading.attr="data-flux-loading" wire:click="openModal(5823)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>SOLDADOR</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 5
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Sem instrução
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Que tenha experiência na função e disponibilidade de horário.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 08/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5822)" wire:loading.attr="data-flux-loading" wire:click="openModal(5822)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>ROÇADOR</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 5
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Sem instrução
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Que tenha experiência na função, responsável pela operação e inspeção de equipamentos para corte de mato, grama e vegetação rasteira. Realizar manutenção básica e limpeza dos equipamentos após o uso, seguindo corretamente as normas de segurança e utilização dos EPIs obrigatórios.
+
+VAGA PARA JACY PARANÁ</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 08/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5819)" wire:loading.attr="data-flux-loading" wire:click="openModal(5819)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>AJUDANTE DE MARMORISTA</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 1
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Médio Completo
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Que tenha experiência na função, responsável pela entrega de materiais, limpeza e organização de pátio, além de realizar o polimento e dar brilho em pedras.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 08/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5818)" wire:loading.attr="data-flux-loading" wire:click="openModal(5818)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>PEIXEIRO</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 3
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Fundamental Incompleto
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Que tenha experiência na função, responsável pela limpeza, corte, filetagem e preparo de peixes, organização e abastecimento do setor, atendimento ao cliente e manutenção da higiene e qualidade dos produtos. Desejável experiência na função, agilidade, organização e comprometimento.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 08/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5807)" wire:loading.attr="data-flux-loading" wire:click="openModal(5807)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>VENDEDOR INTERNO</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-amber-700 [&amp;_button]:text-amber-700! dark:text-amber-200 dark:[&amp;_button]:text-amber-200! bg-amber-400/25 dark:bg-amber-400/40 [&amp;:is(button)]:hover:bg-amber-400/40 dark:[button]:hover:bg-amber-400/50">
+        PCD: 8
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Médio Completo
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >VAGA DESTINADA A CANDITATOS PCD.
+
+Experiência na função, boa comunicação, proatividade e foco no atendimento ao cliente. 
+Atuar no atendimento e vendas, demonstração de produtos, organização, reposição e precificação de mercadorias, controle de estoque e inventário, mantendo o ambiente de vendas organizado e prestando um atendimento de qualidade.
+Facilidade para trabalhar em equipe e alcançar metas será um diferencial.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 30/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5796)" wire:loading.attr="data-flux-loading" wire:click="openModal(5796)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+                    <div class="[:where(&amp;)]:bg-white dark:[:where(&amp;)]:bg-white/10 border border-zinc-200 dark:border-white/10 [:where(&amp;)]:p-6 [:where(&amp;)]:rounded-xl flex flex-col h-full" data-flux-card>
+    <div class="mb-4 flex-1">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>FARMACÊUTICO</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <!--[if BLOCK]><![endif]-->                            <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-zinc-700 [&amp;_button]:text-zinc-700! dark:text-zinc-200 dark:[&amp;_button]:text-zinc-200! bg-zinc-400/15 dark:bg-zinc-400/40 [&amp;:is(button)]:hover:bg-zinc-400/25 dark:[button]:hover:bg-zinc-400/50">
+        Vagas: 1
+    </div>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <div data-flux-badge="data-flux-badge" class="inline-flex items-center font-medium whitespace-nowrap  [print-color-adjust:exact] text-sm py-1 **:data-flux-badge-icon:me-1.5 rounded-md px-2 text-blue-800 [&amp;_button]:text-blue-800! dark:text-blue-200 dark:[&amp;_button]:text-blue-200! bg-blue-400/20 dark:bg-blue-400/40 [&amp;:is(button)]:hover:bg-blue-400/30 dark:[button]:hover:bg-blue-400/50">
+        Superior Completo
+    </div>
+                    </div>
+
+                    <!--[if BLOCK]><![endif]-->                        <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-sm" data-flux-text >Experiência em Drogaria e/ou Farmácia.
+Graduação completa em Farmácia.
+Registro Ativo no Conselho Regional de Farmácia (CRF).
+Disponibilidade de horário, inclusive finais de semana.</p>                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-auto border-t pt-4 border-zinc-200 dark:border-zinc-700 flex justify-between items-center">
+                    <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70 text-xs" data-flux-text >Até: 08/09/2026</p>                    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target" wire:target="openModal(5793)" wire:loading.attr="data-flux-loading" wire:click="openModal(5793)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Concorrer</span>
+    </button>
+                </div>
+</div>
+        <!--[if ENDBLOCK]><![endif]-->    </div>
+
+    <!-- Application Modal -->
+    <ui-modal wire:model.self="showModal" data-flux-modal>
+    
+    <dialog
+        wire:ignore.self 
+        class="p-6 [:where(&amp;)]:max-w-xl [:where(&amp;)]:min-w-xs shadow-lg rounded-xl bg-white dark:bg-zinc-800 ring ring-black/5 dark:ring-zinc-700 shadow-lg rounded-xl md:w-3/4 lg:w-1/2"
+                                        x-data="fluxModal(null, 'CTOtnBBKHuZZYIB8KURD')"
+                x-on:modal-show.document="handleShow($event)"
+        x-on:modal-close.document="handleClose($event)"
+    >
+                    <form action="https://www.portovelho.ro.gov.br/sine/candidatar" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_token" value="eQ9wCTCQ9AYe8BIMvKiqla6F2KRu2UIfcMqVtDrf" autocomplete="off">            <input type="hidden" name="vacancy_id" value="">
+
+            <div class="mb-6">
+                <div class="font-medium [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white text-base [&amp;:has(+[data-flux-subheading])]:mb-2 [[data-flux-subheading]+&amp;]:mt-2" data-flux-heading>Concorrer à Vaga</div>
+                <p class="[:where(&amp;)]:font-normal [:where(&amp;)]:text-sm [:where(&amp;)]:text-zinc-500 [:where(&amp;)]:dark:text-white/70" data-flux-text >Preencha os dados abaixo para a vaga de <strong></strong>.</p>            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Nome Completo
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="text"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" required="required"
+                 name="nome"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    CPF
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="text"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" x-mask="999.999.999-99" placeholder="000.000.000-00" required="required"
+                 name="cpf"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Data de Nascimento
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="date"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" required="required"
+                 name="dt_nascimento"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    E-mail
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="email"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" required="required"
+                 name="email"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Sexo
+
+    
+    
+    </ui-label>
+                    <select
+    class="appearance-none [:where(&amp;)]:w-full ps-3 pe-10 block h-10 py-2 text-base sm:text-sm leading-[1.375rem] rounded-lg shadow-xs border bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 dark:text-zinc-300 disabled:text-zinc-500 dark:disabled:text-zinc-400 has-[option.placeholder:checked]:text-zinc-400 dark:has-[option.placeholder:checked]:text-zinc-400 dark:[&amp;&gt;option]:bg-zinc-700 dark:[&amp;&gt;option]:text-white disabled:shadow-none border border-zinc-200 border-b-zinc-300/80 dark:border-white/10" required="required"
+         name="sexo"         data-flux-control
+    data-flux-select-native
+    data-flux-group-target
+>
+    
+    <option value="">Selecione...</option>
+                        <option value="Masculino" >Masculino</option>
+                        <option value="Feminino" >Feminino</option>
+</select>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Telefone
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="text"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" x-mask="(99) 99999-9999" placeholder="(00) 00000-0000" required="required"
+                 name="telefone"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    PIS
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="text"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" required="required"
+                 name="pis"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Nº Carteira de Trabalho
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="text"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" required="required"
+                 name="n_ct"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Série CT
+
+    
+    
+    </ui-label>
+                    <div class="w-full relative block group/input" data-flux-input>
+            
+            <input
+                type="text"
+                
+                class="w-full border rounded-lg block disabled:shadow-none dark:shadow-none appearance-none text-base sm:text-sm py-2 h-10 leading-[1.375rem] ps-3 pe-3 bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 disabled:text-zinc-500 placeholder-zinc-400 disabled:placeholder-zinc-400/70 dark:text-zinc-300 dark:disabled:text-zinc-400 dark:placeholder-zinc-400 dark:disabled:placeholder-zinc-500 shadow-xs border-zinc-200 border-b-zinc-300/80 disabled:border-b-zinc-200 dark:border-white/10 dark:disabled:border-white/5 data-invalid:shadow-none data-invalid:border-red-500 dark:data-invalid:border-red-500 disabled:data-invalid:border-red-500 dark:disabled:data-invalid:border-red-500" value="" required="required"
+                 name="serie_ct"                                                                                                 data-flux-control
+                data-flux-group-target
+                                            >
+
+                    </div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex" data-flux-label>
+    Escolaridade
+
+    
+    
+    </ui-label>
+                    <select
+    class="appearance-none [:where(&amp;)]:w-full ps-3 pe-10 block h-10 py-2 text-base sm:text-sm leading-[1.375rem] rounded-lg shadow-xs border bg-white dark:bg-white/10 dark:disabled:bg-white/[7%] text-zinc-700 dark:text-zinc-300 disabled:text-zinc-500 dark:disabled:text-zinc-400 has-[option.placeholder:checked]:text-zinc-400 dark:has-[option.placeholder:checked]:text-zinc-400 dark:[&amp;&gt;option]:bg-zinc-700 dark:[&amp;&gt;option]:text-white disabled:shadow-none border border-zinc-200 border-b-zinc-300/80 dark:border-white/10" required="required"
+         name="escolaridade"         data-flux-control
+    data-flux-select-native
+    data-flux-group-target
+>
+    
+    <option value="">Selecione...</option>
+                        <option value="Sem instrução" >Sem instrução</option>
+                        <option value="Ensino Fundamental Incompleto" >Ensino Fundamental Incompleto</option>
+                        <option value="Ensino Fundamental Completo" >Ensino Fundamental Completo</option>
+                        <option value="Ensino Médio Incompleto" >Ensino Médio Incompleto</option>
+                        <option value="Ensino Médio Completo" >Ensino Médio Completo</option>
+                        <option value="Superior Incompleto" >Superior Incompleto</option>
+                        <option value="Superior Completo" >Superior Completo</option>
+                        <option value="Pós-Graduação/Especialização" >Pós-Graduação/Especialização</option>
+</select>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+
+                <ui-field class="min-w-0 [&amp;:not(:has([data-flux-field])):has([data-flux-control][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-radio-group][disabled])&gt;[data-flux-label]]:opacity-50 [&amp;:has(&gt;[data-flux-checkbox-group][disabled])&gt;[data-flux-label]]:opacity-50 block *:data-flux-label:mb-3 [&amp;&gt;[data-flux-label]:has(+[data-flux-description])]:mb-2 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mt-0 [&amp;&gt;[data-flux-label]+[data-flux-description]]:mb-3 [&amp;&gt;*:not([data-flux-label])+[data-flux-description]]:mt-3 col-span-full border-2 border-dashed border-zinc-300 dark:border-zinc-700 rounded-lg p-6 text-center mt-2" data-flux-field>
+    <ui-label class="inline-flex items-center text-sm font-medium  [:where(&amp;)]:text-zinc-800 [:where(&amp;)]:dark:text-white [&amp;:has([data-flux-label-trailing])]:flex block mb-2" data-flux-label>
+    Currículo (Apenas PDF, máx 5MB)
+
+    
+    
+    </ui-label>
+                    <input type="file" name="curriculum" accept=".pdf" class="block w-full text-sm text-zinc-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-zinc-50 file:text-zinc-700 hover:file:bg-zinc-100 dark:file:bg-zinc-800 dark:file:text-zinc-300" required />
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+</ui-field>
+            </div>
+
+            <div class="flex justify-end gap-2 mt-6">
+                <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-transparent hover:bg-zinc-800/5 dark:hover:bg-white/15 text-zinc-800 dark:text-white    *:transition-opacity [&amp;[data-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-flux-loading]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[data-loading]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[data-flux-loading]&gt;[data-flux-loading-indicator]]:opacity-100 data-loading:pointer-events-none data-flux-loading:pointer-events-none" data-flux-button="data-flux-button" wire:target="$set('showModal', false)" wire:loading.attr="data-flux-loading" wire:click="$set('showModal', false)">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Cancelar</span>
+    </button>
+                <button type="submit" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-10 text-sm rounded-lg ps-4 pe-4 inline-flex  bg-[var(--color-accent)] hover:bg-[color-mix(in_oklab,_var(--color-accent),_transparent_10%)] text-[var(--color-accent-foreground)] border border-black/10 dark:border-0 shadow-[inset_0px_1px_--theme(--color-white/.2)] [[data-flux-button-group]_&amp;]:border-e-0 [:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-[1px] dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-e-0 dark:[:is([data-flux-button-group]&gt;&amp;:last-child,_[data-flux-button-group]_:last-child&gt;&amp;)]:border-s-[1px] [:is([data-flux-button-group]&gt;&amp;:not(:first-child),_[data-flux-button-group]_:not(:first-child)&gt;&amp;)]:border-s-[color-mix(in_srgb,var(--color-accent-foreground),transparent_85%)] *:transition-opacity [&amp;[disabled]&gt;:not([data-flux-loading-indicator])]:opacity-0 [&amp;[disabled]&gt;[data-flux-loading-indicator]]:opacity-100 [&amp;[disabled]]:pointer-events-none" data-flux-button="data-flux-button" data-flux-group-target="data-flux-group-target">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0" data-flux-loading-indicator>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 animate-spin" data-flux-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true" data-slot="icon">
+    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+</svg>
+                    </div>
+        
+        
+                    
+            
+            <span>Enviar Currículo</span>
+    </button>
+            </div>
+        </form>
+
+                            <div class="absolute top-0 end-0 mt-4 me-4">
+                    <ui-close data-flux-modal-close >
+    <button type="button" class="relative items-center font-medium justify-center gap-2 whitespace-nowrap disabled:opacity-75 dark:disabled:opacity-75 disabled:cursor-default disabled:pointer-events-none justify-center h-8 text-sm rounded-md w-8 inline-flex  bg-transparent hover:bg-zinc-800/5 dark:hover:bg-white/15 text-zinc-800 dark:text-white      text-zinc-400! hover:text-zinc-800! dark:text-zinc-500! dark:hover:text-white!" data-flux-button="data-flux-button" aria-label="Close modal">
+        <svg class="shrink-0 [:where(&amp;)]:size-5" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"/>
+</svg>
+    </button>
+</ui-close>
+                </div>
+                        </dialog>
+</ui-modal>
+</div>
+    </main>
+
+        <footer wire:snapshot="{&quot;data&quot;:{&quot;sistemaId&quot;:3,&quot;secretariaInfo&quot;:[null,{&quot;class&quot;:&quot;App\\Models\\SecretariaInfo&quot;,&quot;key&quot;:14,&quot;s&quot;:&quot;mdl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;mMpSIWoHpxjTrFeWENW8&quot;,&quot;name&quot;:&quot;footer&quot;,&quot;path&quot;:&quot;sine\/vagas&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;pt_BR&quot;},&quot;checksum&quot;:&quot;0d85dff8aafa07693e8f471d9dab7137a65d37fab8838e201e546f98ae8b0208&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="mMpSIWoHpxjTrFeWENW8" class="bg-[#223f99] text-white mt-12">
+    <!-- (Barra) -->
+    <div>
+    <div
+        class="h-10 bg-[url('/public/images/barra_de_icones.png')] bg-repeat-x bg-left-top [background-size:auto_40px]"></div>
+</div>
+    <div class="container mx-auto px-4 py-12 lg:py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+            <div class="lg:col-span-1">
+                <div class="flex justify-center mb-6">
+                    <img alt="Cidade de Porto Velho" class="h-48 w-48 object-contain" src="/logo/prefeitura_vertical_branco.png">
+                </div>
+                <div class="space-y-4 justify-center">
+                    <div class="flex items-start space-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="lucide lucide-map-pin w-5 h-5 text-[#fedc0b] mt-1 flex-shrink-0">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div>
+                            <!--[if BLOCK]><![endif]-->                                <address>
+                                    Avenida 7 de Setembro
+                                    , 237
+                                    <br>Centro
+                                    <br>Porto Velho - Rondônia
+                                    <br>CEP: 76801020
+                                </address>
+                            <!--[if ENDBLOCK]><![endif]-->                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="lucide lucide-phone w-5 h-5 text-[#fedc0b] flex-shrink-0">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <p class="text-white/90">
+                            <!--[if BLOCK]><![endif]-->                                (69) 8473-2524
+                            <!--[if ENDBLOCK]><![endif]-->                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="lucide lucide-mail w-5 h-5 text-[#fedc0b] flex-shrink-0">
+                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        <p class="text-white/90">
+                            <!--[if BLOCK]><![endif]-->                                                                <a href="mailto:gabineteprefeitopvh@gmail.com">gabineteprefeitopvh@gmail.com</a>
+                            <!--[if ENDBLOCK]><![endif]-->                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="lucide lucide-clock w-5 h-5 text-[#fedc0b] flex-shrink-0">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <p class="text-white/90">
+                            <!--[if BLOCK]><![endif]-->                                Segunda a Sexta: 08:00
+                                às 14:00
+                            <!--[if ENDBLOCK]><![endif]-->                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center md:text-left lg:col-span-1">
+                <h3 class="text-xl font-bold text-white mb-6">Links Rápidos</h3>
+                <ul class="space-y-3">
+                    <li><a href="https://agencia.portovelho.ro.gov.br/"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Notícias</span></a>
+                    </li>
+                    <li><a href="/arquivos"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Arquivos</span></a>
+                    </li>
+                    <li><a href="/galerias"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Galerias</span></a>
+                    </li>
+                    <li class="border-t border-gray-500 w-full md:w-[50%]"></li>
+                    <li><a href="https://servicos.portovelho.ro.gov.br/"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Serviços Online</span></a>
+                    </li>
+                    <li><a href="https://transparencia.portovelho.ro.gov.br/"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Transparência</span></a>
+                    </li>
+                    <li><a href="https://transparencia.portovelho.ro.gov.br/despesas/compras"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Licitações</span></a>
+                    </li>
+                    <li><a href="https://www.portovelho.ro.gov.br/arquivos/lista/58/concursos"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Concursos</span></a>
+                    </li>
+                    <li><a href="https://ouvidoria.portovelho.ro.gov.br/"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Ouvidoria</span></a>
+                    </li>
+                    <li><a href="https://sapl.portovelho.ro.leg.br/norma/pesquisar?page=1&tipo=&numero=&ano=&data_0=&data_1=&data_publicacao_0=&data_publicacao_1=&ementa=&assuntos=1728&data_vigencia_0=&data_vigencia_1=&o=&indexacao="
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Legislação</span></a>
+                    </li>
+                    <li><a href="/mapa-do-site"
+                           class="text-white/90 hover:text-[#fedc0b] transition-colors duration-200 group"><span
+                                class="group-hover:translate-x-1 transition-transform duration-200">Mapa do Site</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-center md:text-left lg:col-span-1">
+                <h3 class="text-xl font-bold text-white mb-6">Redes Sociais</h3>
+                <p class="text-white/90 mb-6 leading-relaxed">Siga-nos nas redes sociais e
+                    fique por dentro de todas as novidades da nossa cidade.</p>
+                
+                <div class="flex space-x-4 justify-center md:justify-start">
+                    <!--[if BLOCK]><![endif]-->                        <!--[if BLOCK]><![endif]-->                            <a href="https://www.facebook.com/PrefeituraPVH/" target="_blank" rel="noopener noreferrer"
+                               class="w-12 h-12 bg-white/10 hover:bg-[#fedc0b] rounded-lg flex items-center justify-center
+                               transition-all duration-300 hover:scale-110 group"
+                               title="Seguir no Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round"
+                                     class="lucide lucide-facebook w-6 h-6 text-white group-hover:text-[#223f99] transition-colors duration-300">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                        <!--[if ENDBLOCK]><![endif]-->                                            <!--[if BLOCK]><![endif]-->                            <a href="https://www.instagram.com/prefeitura.pvh/" target="_blank" rel="noopener noreferrer"
+                               class="w-12 h-12 bg-white/10 hover:bg-[#fedc0b] rounded-lg flex items-center justify-center
+                               transition-all duration-300 hover:scale-110 group"
+                               title="Seguir no Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round"
+                                     class="lucide lucide-instagram w-6 h-6 text-white group-hover:text-[#223f99] transition-colors duration-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram w-6 h-6 text-white group-hover:text-[#223f99] transition-colors duration-300">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                        </svg>
+                                </svg>
+                            </a>
+                        <!--[if ENDBLOCK]><![endif]-->                                            <!--[if BLOCK]><![endif]-->                            <a href="https://www.youtube.com/@prefeitura_pvh" target="_blank" rel="noopener noreferrer"
+                               class="w-12 h-12 bg-white/10 hover:bg-[#fedc0b] rounded-lg flex items-center justify-center
+                               transition-all duration-300 hover:scale-110 group"
+                               title="Seguir no YouTube">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round"
+                                     class="lucide lucide-youtube w-6 h-6 text-white group-hover:text-[#223f99] transition-colors duration-300">
+                                    <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path>
+                                </svg>
+                            </a>
+                        <!--[if ENDBLOCK]><![endif]-->                    <!--[if ENDBLOCK]><![endif]-->                </div>
+
+                <div class="mt-6 p-4 bg-white/5 rounded-lg">
+                    <p class="text-white/80 text-sm text-center"><strong>+150K</strong>
+                        seguidores nas redes sociais</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-t border-white/20">
+        <div class="container py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-white/80 text-sm text-center md:text-left">© 2026.
+                    Prefeitura de Porto
+                    Velho. Todos os direitos reservados.</p>
+                <div class="flex items-center space-x-0 space-y-2 md:space-x-6 md:space-y-0 text-sm flex-col md:flex-row">
+                    <a href="/politica-de-cookies"
+                       class="text-white/80 hover:text-[#fedc0b] transition-colors duration-200">
+                        Política de Cookies
+                    </a>
+                    <a href="https://wiki-smti.portovelho.ro.gov.br/pt-br/home/cgpdp/politica_privacidade"
+                       class="text-white/80 hover:text-[#fedc0b] transition-colors duration-200">
+                        Política de Privacidade
+                    </a>
+                    <a href="/termos-uso"
+                       class="text-white/80 hover:text-[#fedc0b] transition-colors duration-200">
+                        Termos de Uso
+                    </a>
+                    <a href="/acessibilidade"
+                       class="text-white/80 hover:text-[#fedc0b] transition-colors duration-200">
+                        Acessibilidade
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+<div x-data="{
+        show: false,
+        showPreferences: false,
+        categories: { essential: true, analytics: false, marketing: false },
+
+        init() {
+            const saved = localStorage.getItem('cookie_consent');
+            if (saved) {
+                try {
+                    const data = JSON.parse(saved);
+                    this.categories = { ...this.categories, ...data.categories };
+                } catch (e) {
+                    this.show = true;
+                }
+            } else {
+                setTimeout(() => this.show = true, 1000);
+            }
+        },
+
+        acceptAll() {
+            this.categories = { essential: true, analytics: true, marketing: true };
+            this.save();
+        },
+
+        declineAll() {
+            this.categories = { essential: true, analytics: false, marketing: false };
+            this.save();
+        },
+
+        savePreferences() {
+            this.save();
+        },
+
+        save() {
+            const data = {
+                categories: { ...this.categories },
+                timestamp: new Date().toISOString(),
+                version: '1.0'
+            };
+            localStorage.setItem('cookie_consent', JSON.stringify(data));
+            this.show = false;
+            this.showPreferences = false;
+            this.dispatchEvent();
+        },
+
+        dispatchEvent() {
+            window.dispatchEvent(new CustomEvent('cookieConsentUpdated', {
+                detail: { ...this.categories }
+            }));
+        },
+
+        reopenPreferences() {
+            this.showPreferences = true;
+        }
+    }"
+    class="fixed z-50"
+>
+    
+    <button
+        x-show="!show && !showPreferences"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-x-full"
+        x-transition:enter-end="opacity-100 translate-x-0"
+        x-transition:leave="transition ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-x-0"
+        x-transition:leave-end="opacity-0 translate-x-full"
+        @click="reopenPreferences()"
+        class="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 flex items-center gap-2 px-4 py-2.5 bg-white border border-gray-200 shadow-lg rounded-full text-sm font-medium text-gray-700 hover:shadow-xl hover:border-[#223f99] hover:text-[#223f99] transition-all duration-200 cursor-pointer"
+        aria-label="Gerenciar cookies"
+    >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+            <path d="M2 12h20"></path>
+        </svg>
+        Gerenciar Cookies
+    </button>
+
+    
+    <div
+        x-show="show && !showPreferences"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-full"
+        x-transition:enter-end="opacity-100 translate-y-0"
+        x-transition:leave="transition ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0"
+        x-transition:leave-end="opacity-0 translate-y-full"
+        class="fixed bottom-0 left-0 right-0 p-4 sm:p-6"
+        role="dialog"
+        aria-label="Política de Cookies"
+    >
+        <div class="max-w-5xl mx-auto bg-white border border-gray-200 shadow-2xl rounded-2xl p-6 sm:p-8">
+            <div class="flex flex-col lg:flex-row gap-6 lg:gap-8 items-start">
+                <div class="flex-1">
+                    <h3 class="font-bold text-lg text-[#223f99] mb-3">
+                        Política de Cookies e Privacidade
+                    </h3>
+                    <p class="text-sm text-gray-600 leading-relaxed mb-3">
+                        Utilizamos cookies e tecnologias semelhantes para melhorar a sua experiência em nosso portal,
+                        entender como você interage com nossos conteúdos e personalizar anúncios de campanhas institucionais.
+                    </p>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Ao continuar navegando, você concorda com nossa
+                        <a href="/politica-de-cookies" class="text-[#223f99] underline hover:text-[#1a3075] font-medium">Política de Cookies</a>
+                        e com a
+                        <a href="/politica-privacidade" class="text-[#223f99] underline hover:text-[#1a3075] font-medium">Política de Privacidade</a>.
+                    </p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-3 min-w-max w-full lg:w-auto">
+                    <button
+                        @click="declineAll()"
+                        class="px-5 py-2.5 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors cursor-pointer"
+                    >
+                        Recusar Todos
+                    </button>
+                    <button
+                        @click="showPreferences = true"
+                        class="px-5 py-2.5 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors cursor-pointer"
+                    >
+                        Gerenciar Preferências
+                    </button>
+                    <button
+                        @click="acceptAll()"
+                        class="px-5 py-2.5 text-sm font-medium text-white bg-[#223f99] hover:bg-[#1a3075] rounded-lg transition-colors cursor-pointer"
+                    >
+                        Aceitar Todos
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div
+        x-show="showPreferences"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-full"
+        x-transition:enter-end="opacity-100 translate-y-0"
+        x-transition:leave="transition ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0"
+        x-transition:leave-end="opacity-0 translate-y-full"
+        class="fixed bottom-0 left-0 right-0 p-4 sm:p-6"
+        role="dialog"
+        aria-label="Preferências de Cookies"
+    >
+        <div class="max-w-5xl mx-auto bg-white border border-gray-200 shadow-2xl rounded-2xl p-6 sm:p-8 max-h-[80vh] overflow-y-auto">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="font-bold text-lg text-[#223f99]">
+                    Preferências de Cookies
+                </h3>
+                <button
+                    @click="showPreferences = false"
+                    class="p-1 text-gray-400 hover:text-gray-600 transition-colors cursor-pointer"
+                    aria-label="Fechar"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 6 6 18"></path>
+                        <path d="m6 6 12 12"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <p class="text-sm text-gray-600 mb-6">
+                Selecione as categorias de cookies que deseja aceitar. Cookies essenciais são necessários para o
+                funcionamento do site e não podem ser desativados.
+            </p>
+
+            <div class="space-y-4 mb-6">
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg border border-gray-100">
+                    <div class="flex-1 mr-4">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="inline-block w-2.5 h-2.5 bg-green-500 rounded-full shrink-0"></span>
+                            <span class="font-semibold text-sm text-gray-800">
+                                Cookies Essenciais
+                            </span>
+                            <span class="text-xs text-gray-500 bg-gray-200 px-2 py-0.5 rounded-full">
+                                Sempre ativos
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-500">
+                            Necessários para o funcionamento básico do site. Não podem ser desativados.
+                        </p>
+                    </div>
+                    <div class="shrink-0">
+                        <div class="w-10 h-5 bg-green-500 rounded-full flex items-center justify-end px-0.5">
+                            <div class="w-4 h-4 bg-white rounded-full shadow-sm"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200">
+                    <div class="flex-1 mr-4">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="inline-block w-2.5 h-2.5 bg-blue-500 rounded-full shrink-0"></span>
+                            <span class="font-semibold text-sm text-gray-800">
+                                Cookies Analíticos
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-500">
+                            Coletam informações anônimas sobre como você usa o site para nos ajudar a melhorar.
+                        </p>
+                    </div>
+                    <div class="shrink-0">
+                        <button
+                            type="button"
+                            @click="categories.analytics = !categories.analytics"
+                            :class="categories.analytics ? 'bg-[#223f99]' : 'bg-gray-300'"
+                            class="relative w-10 h-5 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#223f99] focus:ring-offset-2 cursor-pointer"
+                            role="switch"
+                            :aria-checked="categories.analytics.toString()"
+                            aria-label="Cookies Analíticos"
+                        >
+                            <span
+                                :class="categories.analytics ? 'translate-x-5' : 'translate-x-0.5'"
+                                class="absolute top-0.5 left-0 w-4 h-4 bg-white rounded-full shadow-sm transition-transform duration-200"
+                            ></span>
+                        </button>
+                    </div>
+                </div>
+
+                
+                <div class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200">
+                    <div class="flex-1 mr-4">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="inline-block w-2.5 h-2.5 bg-orange-500 rounded-full shrink-0"></span>
+                            <span class="font-semibold text-sm text-gray-800">
+                                Cookies de Marketing
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-500">
+                            Utilizados para exibir anúncios relevantes e medir a eficácia de campanhas.
+                        </p>
+                    </div>
+                    <div class="shrink-0">
+                        <button
+                            type="button"
+                            @click="categories.marketing = !categories.marketing"
+                            :class="categories.marketing ? 'bg-[#223f99]' : 'bg-gray-300'"
+                            class="relative w-10 h-5 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#223f99] focus:ring-offset-2 cursor-pointer"
+                            role="switch"
+                            :aria-checked="categories.marketing.toString()"
+                            aria-label="Cookies de Marketing"
+                        >
+                            <span
+                                :class="categories.marketing ? 'translate-x-5' : 'translate-x-0.5'"
+                                class="absolute top-0.5 left-0 w-4 h-4 bg-white rounded-full shadow-sm transition-transform duration-200"
+                            ></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3 justify-end">
+                <a
+                    href="/politica-de-cookies"
+                    class="px-4 py-2 text-sm font-medium text-[#223f99] hover:text-[#1a3075] underline transition-colors text-center"
+
+                >
+                    Ver Política de Cookies
+                </a>
+                <button
+                    @click="savePreferences()"
+                    class="px-5 py-2.5 text-sm font-medium text-white bg-[#223f99] hover:bg-[#1a3075] rounded-lg transition-colors cursor-pointer"
+
+                >
+                    Salvar Preferências
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/livewire/livewire.min.js?id=42cd7fd5"   data-csrf="eQ9wCTCQ9AYe8BIMvKiqla6F2KRu2UIfcMqVtDrf" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+<script src="https://www.portovelho.ro.gov.br/flux/flux.min.js?id=f705ecf0" data-navigate-once></script>
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget({
+        rootPath: 'https://vlibras.gov.br/app/',
+        position: 'R'
+    });
+</script>
+
+
+
+<script>
+    document.addEventListener('livewire:init', () => {
+        Livewire.hook('morph.updated', ({ el }) => {
+            if (el.querySelector('[vw]')) return; // Ignora se DIV intacta
+        });
+    });
+</script>
+
+<script src="/js/vendor/yaccessibility.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        yAccessibility({
+            language: 'pt',
+            verticalPosition: 'bottom',
+            verticalOffset: 20
+        });
+    });
+</script>
+
+<script src="/js/accessibility-custom.js"></script>
+
+
+<style>
+    /* Esconde o botão flutuante padrão */
+    #y-accessibility-shadow-host {
+        display: none !important;
+    }
+
+    /* Estilos de Alto Contraste (.gov.br) */
+    body.y-accessibility-contrast {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+
+    body.y-accessibility-contrast * {
+        background-color: #000 !important;
+        color: #fff !important;
+        border-color: #fff !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    body.y-accessibility-contrast a,
+    body.y-accessibility-contrast button,
+    body.y-accessibility-contrast a *,
+    body.y-accessibility-contrast button * {
+        color: #ffff00 !important;
+        text-decoration: underline !important;
+    }
+
+    body.y-accessibility-contrast img,
+    body.y-accessibility-contrast video,
+    body.y-accessibility-contrast iframe {
+        filter: grayscale(100%) contrast(150%) !important;
+    }
+
+    body.y-accessibility-contrast .a11y-controls,
+    body.y-accessibility-contrast .a11y-controls * {
+        background-color: #000 !important;
+        color: #ffff00 !important;
+        border-color: #ffff00 !important;
+    }
+</style>
+
+</body>
+
+</html>

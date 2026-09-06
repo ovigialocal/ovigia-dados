@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-suturas-90013-quadro-precos",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8138/28343/3.-QUADRO-COMPARATIVO-DE-PRE%C3%87O.pdf",
+  "archive_url": "https://web.archive.org/web/20260906165030/https://anexos.portovelho.ro.gov.br/compras/8138/28343/3.-QUADRO-COMPARATIVO-DE-PRE%C3%87O.pdf",
+  "verified_at": "2026-09-06T17:13:44Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 317499,
+  "archive_sha256": "8f9f92e0293825dd64fb6398654a25df509acfd0e8db17911b7e28cc6d928b52",
+  "source_content_type": "application/pdf",
+  "source_size": 584223,
+  "source_sha256": "d14c841c55d8d4b2c4c4f7e61046504ad997ddf3205048b7c04b589a4cfdb0d0",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-suturas-90013-quadro-precos.pdf"
+}
