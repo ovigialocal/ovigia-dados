@@ -55,6 +55,10 @@ def main() -> None:
     previous = read_fixture_csv(output)
 
     html = fetch_public_html(args.url)
+    raw_output = Path(args.raw_output)
+    raw_output.parent.mkdir(parents=True, exist_ok=True)
+    raw_output.write_text(html, encoding="utf-8")
+
     records = parse_ffer_fixture_table(
         html,
         source_url=args.url,
@@ -65,10 +69,6 @@ def main() -> None:
         raise SystemExit(
             "A fonte oficial respondeu, mas nenhuma partida reconhecível foi extraída."
         )
-
-    raw_output = Path(args.raw_output)
-    raw_output.parent.mkdir(parents=True, exist_ok=True)
-    raw_output.write_text(html, encoding="utf-8")
 
     signals = finished_transitions(previous, records, snapshot_id=args.snapshot_id)
     write_fixture_csv(records, output)
