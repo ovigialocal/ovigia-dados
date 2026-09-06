@@ -6,9 +6,9 @@ external_id: "10675"
 name: "Ji-Paraná"
 city: "Ji-Paraná"
 uf: "RO"
-is_local_focus: "false"
+is_local_focus: "true"
 official_site: "http://www.jipafc.com.br/"
 federation_registry_url: "https://ffer.com.br/Publicacao.aspx?id=393357"
 ---
 
-# Ji-Paraná Futebol Clube
+# Ji-Paraná FC
