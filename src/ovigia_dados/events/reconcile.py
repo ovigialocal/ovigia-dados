@@ -9,7 +9,7 @@ import unicodedata
 from collections import defaultdict
 from collections.abc import Iterable
 from dataclasses import dataclass
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Literal
@@ -84,6 +84,12 @@ def _pair_id(left: EventObservation, right: EventObservation) -> str:
     return f"reconciliation-{hashlib.sha256(raw.encode()).hexdigest()[:16]}"
 
 
+def _start_date(event: EventObservation) -> date | None:
+    if event.starts_at:
+        return event.starts_at.date()
+    return event.starts_on
+
+
 def evaluate_pair(
     left: EventObservation,
     right: EventObservation,
@@ -96,8 +102,8 @@ def evaluate_pair(
     title = text_similarity(left.title, right.title)
     venue = text_similarity(left.venue_name, right.venue_name)
     organizer = text_similarity(left.organizer, right.organizer)
-    left_date = left.starts_at.date() if left.starts_at else None
-    right_date = right.starts_at.date() if right.starts_at else None
+    left_date = _start_date(left)
+    right_date = _start_date(right)
     same_date = bool(left_date and right_date and left_date == right_date)
 
     decision: Literal["equivalent", "review"] | None = None
