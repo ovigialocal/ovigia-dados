@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/praca-biblia-concorrencia-90618-supel",
+  "source_url": "https://rondonia.ro.gov.br/licitacao/971386/",
+  "archive_url": "https://web.archive.org/web/20260906154254/https://rondonia.ro.gov.br/licitacao/971386/",
+  "verified_at": "2026-09-06T18:05:50Z",
+  "archive_content_type": "text/html",
+  "archive_size": 31880,
+  "archive_sha256": "260b0c9c528b9e422cbeec56f99ab9af6047101a76c96661d5655688a3537cab",
+  "source_content_type": "text/html",
+  "source_size": 182955,
+  "source_sha256": "1e6b75c59a33702a579d8edae23e728a27389cdaa006449e27d9396a9acc0abf",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/praca-biblia-concorrencia-90618-supel.html"
+}
