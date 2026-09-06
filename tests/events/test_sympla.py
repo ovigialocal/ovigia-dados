@@ -18,9 +18,7 @@ def test_extract_event_urls_deduplicates_and_removes_tracking():
     <a href="https://example.com/evento/outro/999">fora</a>
     <a href="/eventos/porto-velho-ro/para-voce">lista</a>
     """
-    assert extract_event_urls(html) == [
-        "https://www.sympla.com.br/evento/show-em-porto-velho/123"
-    ]
+    assert extract_event_urls(html) == ["https://www.sympla.com.br/evento/show-em-porto-velho/123"]
 
 
 def test_canonicalize_wayback_rewritten_event_url():
@@ -28,13 +26,11 @@ def test_canonicalize_wayback_rewritten_event_url():
         "https://web.archive.org/web/20260801010203/"
         "https://www.sympla.com.br/evento/festival/456?utm_source=x"
     )
-    assert canonicalize_event_url(archived) == (
-        "https://www.sympla.com.br/evento/festival/456"
-    )
+    assert canonicalize_event_url(archived) == ("https://www.sympla.com.br/evento/festival/456")
 
 
 def test_parse_json_ld_event_and_hash_is_state_based():
-    html = '''<html><head><script type="application/ld+json">
+    html = """<html><head><script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Event",
@@ -54,7 +50,7 @@ def test_parse_json_ld_event_and_hash_is_state_based():
       },
       "organizer": {"@type": "Organization", "name": "Produtora PVH"}
     }
-    </script></head><body><h1>Festival do Madeira</h1></body></html>'''
+    </script></head><body><h1>Festival do Madeira</h1></body></html>"""
     url = "https://www.sympla.com.br/evento/festival-do-madeira/321"
     first = parse_event_page(
         html,
@@ -112,9 +108,7 @@ def test_materialize_only_when_public_state_changes(tmp_path):
     )
     assert len(first) == 2
 
-    same_state = event.model_copy(
-        update={"observed_at": datetime(2026, 9, 5, 21, tzinfo=UTC)}
-    )
+    same_state = event.model_copy(update={"observed_at": datetime(2026, 9, 5, 21, tzinfo=UTC)})
     same_state.content_hash = event_content_hash(same_state)
     assert (
         materialize_observations(
