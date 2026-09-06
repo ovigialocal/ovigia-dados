@@ -1,5 +1,10 @@
 # /// script
 # requires-python = ">=3.12"
+# dependencies = [
+#     "requests>=2.31.0",
+#     "pyrate-limiter>=3.7",
+#     "tenacity>=9.0",
+# ]
 # ///
 """Sonda descartável: descobre plano, cobertura e IDs reais na API-Football."""
 

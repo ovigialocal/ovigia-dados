@@ -42,12 +42,41 @@ requisição: 32 hexadecimais = API-Sports; 50 alfanuméricos = RapidAPI.
    seguinte resolve; o cliente levanta `ApiFootballQuotaError` na hora.
 4. **Teto por execução.** O plano gratuito dá 100 requisições por dia. Nenhum
    run isolado deve poder gastar as 100 — `--budget` (padrão 60) garante
-   margem para reprocessar.
+   margem para reprocessar, e `daily_reserve` (padrão 10) impede que a cota
+   chegue a zero.
 5. **Sondas não rodam a cada push.** O workflow de diagnose gastava ~9 buscas
    por commit; virou `workflow_dispatch`, com as buscas por nome atrás de
    `SEARCH_ENTITIES=true`.
 6. **Leia a cota em vez de adivinhá-la.** `x-ratelimit-requests-limit` e
    `-remaining` saíram do DEBUG e aparecem no log de cada execução.
+
+## Cadência e rate limit
+
+A cadência não é escrita à mão. `pyrate-limiter` aplica as taxas e `tenacity`
+aplica o retry; o que o repositório define é só a política.
+
+**Duas taxas, não uma.** `Rate(10, minuto)` é o limite que a API conta, mas
+sozinho ele permite disparar as dez de uma vez e ficar cinquenta segundos
+calado. `Rate(1, 6 segundos)` espalha as requisições dentro do minuto. Rajada
+é a forma mais fácil de esbarrar em guarda por segundo que a API não
+documenta — e a RapidAPI não publica limite por minuto em header nenhum, então
+o número conservador (10/min) vale para os dois canais. Não vale descobrir o
+teto empiricamente: cada tentativa de descobrir é mais uma requisição recusada
+no histórico da conta.
+
+**O limitador bloqueia, e é de propósito.** A alternativa é receber "não pode
+agora" e decidir o que fazer, que é exatamente a decisão que se erra.
+
+**Espera por motivo, não por tentativa.** 429 sem header de reset espera o
+minuto virar (60s × tentativa), porque o limite por minuto só zera quando o
+minuto passa; repetir em 11 segundos gasta requisição para colher a mesma
+recusa. Falha de rede espera 2s × tentativa, que é transitória de verdade e
+não merece o mesmo castigo. Jitter em cima das duas: cadência perfeitamente
+periódica vinda de IP de CI é assinatura de robô e custa segundos remover.
+
+**A execução para antes de zerar.** `daily_reserve` (padrão 10) faz o run
+parar com dez requisições sobrando. Chegar a zero é o que antecede a rajada
+de 429, e é a rajada — não o esgotamento — que motiva bloqueio.
 
 ## Orçamento do pipeline diário
 

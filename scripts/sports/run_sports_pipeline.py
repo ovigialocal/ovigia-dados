@@ -6,6 +6,9 @@
 #     "pydantic>=2.0.0",
 #     "internetarchive>=4.0.0",
 #     "okf-parser==0.45.2",
+#     "requests>=2.31.0",
+#     "pyrate-limiter>=3.7",
+#     "tenacity>=9.0",
 # ]
 # ///
 """Pipeline esportivo para API-Football v3 com extração, normalização e detecção."""
