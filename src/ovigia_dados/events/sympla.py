@@ -8,14 +8,15 @@ import json
 import logging
 import re
 import unicodedata
+from collections.abc import Iterable
 from datetime import UTC, datetime
 from html.parser import HTMLParser
 from pathlib import Path
-from typing import Any, Iterable, Literal
+from typing import Any, Literal
 from urllib.parse import unquote, urljoin, urlparse, urlunparse
 
-import requests
 from pydantic import BaseModel, Field
+import requests
 
 logger = logging.getLogger(__name__)
 SYMPLA_LISTING_URL = "https://www.sympla.com.br/eventos/porto-velho-ro/para-voce"
@@ -474,7 +475,9 @@ def materialize_observations(
                 "Identidade estável de evento público.",
                 "",
             ]
-            identity.write_text("\n".join(line for line in lines if line), encoding="utf-8")
+            identity.write_text(
+                "\n".join(line for line in lines if line), encoding="utf-8"
+            )
             created.append(identity)
 
         if hashes.get(event.event_id) == event.content_hash:
