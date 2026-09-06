@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pregao-90054-supel-post-session",
+  "source_url": "https://rondonia.ro.gov.br/licitacao/980312/",
+  "archive_url": "https://web.archive.org/web/20260906043304/https://rondonia.ro.gov.br/licitacao/980312/",
+  "verified_at": "2026-09-06T05:59:55Z",
+  "archive_content_type": "text/html",
+  "archive_size": 32034,
+  "archive_sha256": "7df25c237869f5de6e4037d19e418daac747aef24493bcbe4a19b0f909fff189",
+  "source_content_type": "text/html",
+  "source_size": 183032,
+  "source_sha256": "201cce0bfe6d4eaf200597eea1c62d175b4fe1cd65b00e20fec2366680bb5fd8",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pregao-90054-supel-post-session.html"
+}
