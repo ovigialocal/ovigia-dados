@@ -28,7 +28,7 @@ def _failure_code(result: WaybackSaveResult) -> str:
 
 
 def _render_result(request: ArchiveRequest, result: WaybackSaveResult) -> str | None:
-    if result.status == "infrastructure_error":
+    if result.status in {"infrastructure_error", "retryable_error"}:
         return None
     if result.timestamp is None:
         raise ValueError("terminal Wayback result requires timestamp")
@@ -82,7 +82,7 @@ def drain_wayback_queue(
     save: Callable[[str], WaybackSaveResult] = save_to_wayback,
     request_paths: set[str] | None = None,
 ) -> list[str]:
-    """Attempt pending requests, optionally restricted to explicit repo-relative paths."""
+    """Attempt pending requests, including legacy retryable result markers."""
     queue = load_wayback_queue(bundle_root)
     pending = queue.pending
     if request_paths is not None:
@@ -96,9 +96,10 @@ def drain_wayback_queue(
             continue
         relative = _result_path(request)
         path = bundle_root / relative
-        if path.exists():
-            raise FileExistsError(path)
         path.parent.mkdir(parents=True, exist_ok=True)
+        # If this request is pending while a result path already exists, queue loading
+        # has classified that existing result as a legacy retryable marker. Replace it
+        # only when a genuine terminal result is now available.
         path.write_text(rendered, encoding="utf-8")
         written.append(relative)
     return written
