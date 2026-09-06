@@ -1,0 +1,71 @@
+name: Sports Official Sources
+
+on:
+  schedule:
+    - cron: '15 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sports-official-sources
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    name: Agenda oficial e fechamento pós-jogo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: uv sync --locked --all-extras --dev
+
+      - name: Collect FFER Rondoniense schedule and results
+        run: |
+          SNAP=$(date -u +%Y-%m-%dT%H-%M-%SZ)
+          echo "SNAP=$SNAP" >> "$GITHUB_ENV"
+          uv run python scripts/sports/collect_official_schedule.py \
+            --snapshot-id "$SNAP" \
+            --url 'https://ffer.com.br/Publicacao.aspx?id=640220' \
+            --competition 'Rondoniense' \
+            --season 2026 \
+            --output datasets/sports/current/rondoniense-2026.csv \
+            --raw-output data/output/sports-official/ffer-rondoniense-2026.html \
+            --leads-dir knowledge/sports/leads
+
+      - name: Validate sports knowledge
+        run: |
+          uv run okf-parser check knowledge/sports/registry
+          uv run okf-parser check knowledge/sports/leads
+
+      - name: Persist changed agenda and new post-match leads
+        run: |
+          git config user.name "O Vigia Sports Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add datasets/sports/current/rondoniense-2026.csv knowledge/sports/leads
+          if git diff --cached --quiet; then
+            echo "Agenda sem mudança material e nenhum lead pós-jogo novo."
+            exit 0
+          fi
+          git commit -m "data(sports): update official agenda ${SNAP}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Upload raw official observation
+        uses: actions/upload-artifact@v4
+        with:
+          name: sports-official-${{ env.SNAP }}
+          path: |
+            data/output/sports-official/
+            datasets/sports/current/rondoniense-2026.csv
+          retention-days: 30
