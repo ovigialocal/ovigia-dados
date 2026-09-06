@@ -11,11 +11,13 @@ from typing import Any
 
 from ovigia_dados.events.sympla import (
     CdxSnapshot,
-    EventObservation as _BaseEventObservation,
     event_content_hash,
     fetch_text,
     is_porto_velho,
     query_cdx,
+)
+from ovigia_dados.events.sympla import (
+    EventObservation as _BaseEventObservation,
 )
 
 
