@@ -1,0 +1,75 @@
+name: City Events (PVH Mais)
+
+on:
+  schedule:
+    - cron: '37 5 * * *'
+  workflow_dispatch:
+    inputs:
+      bootstrap_max:
+        description: 'Maior ID inicial a sondar na primeira faixa pública'
+        required: false
+        default: '150'
+        type: string
+      lookahead:
+        description: 'IDs adicionais acima do maior evento promovido no bootstrap'
+        required: false
+        default: '30'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: city-events-pvhmais
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    name: Collect PVH Mais public events
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: uv sync --locked --all-extras --dev
+
+      - name: Collect PVH Mais events
+        run: |
+          BOOTSTRAP="${{ inputs.bootstrap_max }}"
+          LOOKAHEAD="${{ inputs.lookahead }}"
+          if [ -z "$BOOTSTRAP" ]; then BOOTSTRAP=150; fi
+          if [ -z "$LOOKAHEAD" ]; then LOOKAHEAD=30; fi
+          uv run scripts/events/collect_pvhmais.py \
+            --bootstrap-max "$BOOTSTRAP" \
+            --lookahead "$LOOKAHEAD"
+
+      - name: Validate event concepts
+        run: |
+          uv run okf-parser check specs
+          if [ -d knowledge/events/events ]; then
+            uv run okf-parser check knowledge/events/events
+          fi
+          if [ -d knowledge/events/observations ]; then
+            uv run okf-parser check knowledge/events/observations
+          fi
+
+      - name: Persist changed observations
+        run: |
+          git config user.name "O Vigia Events Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add knowledge/events
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança material na agenda PVH+."
+            exit 0
+          fi
+          git commit -m "data(events): update PVH Mais city agenda"
+          git pull --rebase origin main
+          git push origin HEAD:main
