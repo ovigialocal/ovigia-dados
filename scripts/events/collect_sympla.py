@@ -53,7 +53,9 @@ def main() -> int:
             logger.warning("Falha ao hidratar %s: %s", event_url, exc)
             continue
         if not is_porto_velho(event):
-            logger.info("Descartado fora de Porto Velho ou sem localização verificável: %s", event_url)
+            logger.info(
+                "Descartado fora de Porto Velho ou sem localização verificável: %s", event_url
+            )
             continue
         observations.append(event)
 
