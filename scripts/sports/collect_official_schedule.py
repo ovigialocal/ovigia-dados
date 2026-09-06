@@ -62,7 +62,9 @@ def main() -> None:
         competition_name=args.competition,
     )
     if not records:
-        raise SystemExit("A fonte oficial respondeu, mas nenhuma partida reconhecível foi extraída.")
+        raise SystemExit(
+            "A fonte oficial respondeu, mas nenhuma partida reconhecível foi extraída."
+        )
 
     raw_output = Path(args.raw_output)
     raw_output.parent.mkdir(parents=True, exist_ok=True)
