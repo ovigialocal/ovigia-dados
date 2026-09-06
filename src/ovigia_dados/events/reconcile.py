@@ -79,11 +79,8 @@ def text_similarity(left: str | None, right: str | None) -> float:
 
 def _pair_id(left: EventObservation, right: EventObservation) -> str:
     event_ids = sorted((left.event_id, right.event_id))
-    hashes = {
-        left.event_id: left.content_hash,
-        right.event_id: right.content_hash,
-    }
-    raw = "|".join([*(event_ids), *(hashes[event_id] for event_id in event_ids)])
+    hashes = {left.event_id: left.content_hash, right.event_id: right.content_hash}
+    raw = "|".join([*event_ids, *(hashes[event_id] for event_id in event_ids)])
     return f"reconciliation-{hashlib.sha256(raw.encode()).hexdigest()[:16]}"
 
 
@@ -157,7 +154,10 @@ def _frontmatter(path: Path) -> dict[str, object]:
     match = re.match(r"\A---\s*\n(.*?)\n---(?:\n|\Z)", text, re.S)
     if not match:
         return {}
-    payload = yaml.safe_load(match.group(1)) or {}
+    try:
+        payload = yaml.safe_load(match.group(1)) or {}
+    except yaml.YAMLError:
+        return {}
     return payload if isinstance(payload, dict) else {}
 
 
@@ -208,6 +208,8 @@ def materialize_reconciliations(
             f"same_local_date: {'true' if item.same_local_date else 'false'}",
             f"venue_similarity: {item.venue_similarity}",
             f"organizer_similarity: {item.organizer_similarity}",
+            _json_line("left_content_hash", item.left_content_hash),
+            _json_line("right_content_hash", item.right_content_hash),
             _json_line("evaluated_at", item.evaluated_at.isoformat()),
             "---",
             "",
@@ -317,7 +319,7 @@ def materialize_entities(
             'type: "event-entity"',
             _json_line("canonical_event_id", canonical_id),
             "member_event_ids:",
-            *[_json_line("  -", member) for member in sorted(members)],
+            *[f"  - {json.dumps(member, ensure_ascii=False)}" for member in sorted(members)],
             _json_line("created_at", created_at),
             _json_line("updated_at", now.isoformat()),
             "---",
