@@ -221,7 +221,12 @@ def write_fixture_csv(records: list[dict[str, Any]], path: str | Path) -> None:
         writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS)
         writer.writeheader()
         for record in records:
-            writer.writerow({field: "" if record.get(field) is None else record.get(field) for field in CSV_FIELDS})
+            writer.writerow(
+                {
+                    field: "" if record.get(field) is None else record.get(field)
+                    for field in CSV_FIELDS
+                }
+            )
 
 
 def finished_transitions(
