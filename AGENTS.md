@@ -35,6 +35,7 @@ observe/task
 - Every accepted skill update should identify the wiki evidence that motivated it and the validation that justified acceptance.
 - Every dataset/detector implementation should feed the loop: execution produces evidence; evidence updates the wiki; wiki may evolve skills.
 - `okf-parser` remains the structural authority for OKF bundles/specs and should be used when modeling new knowledge contracts.
+- `ovigialocal/ovigialocal.github.io` owns the canonical `PublicEdition` registry and its `default_edition_id`. Data collectors and detectors may declare an `edition_id` consumer scope, but this repository must not copy the registry or decide the public fallback.
 
 ### Canonical persistence formats
 
