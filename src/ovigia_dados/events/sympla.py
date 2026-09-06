@@ -431,8 +431,10 @@ def _latest_hashes(root: Path) -> dict[str, str]:
         text = path.read_text(encoding="utf-8")
         event = re.search(r'^event_id:\s*["\']?([^"\'\n]+)', text, re.M)
         digest = re.search(r'^content_hash:\s*["\']?([^"\'\n]+)', text, re.M)
-        if event and digest and (
-            event.group(1) not in latest or path.name > latest[event.group(1)][0]
+        if (
+            event
+            and digest
+            and (event.group(1) not in latest or path.name > latest[event.group(1)][0])
         ):
             latest[event.group(1)] = (path.name, digest.group(1))
     return {key: value[1] for key, value in latest.items()}
@@ -476,9 +478,7 @@ def materialize_observations(
                 "Identidade estável de evento público.",
                 "",
             ]
-            identity.write_text(
-                "\n".join(line for line in lines if line), encoding="utf-8"
-            )
+            identity.write_text("\n".join(line for line in lines if line), encoding="utf-8")
             created.append(identity)
 
         if hashes.get(event.event_id) == event.content_hash:
