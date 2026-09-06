@@ -47,22 +47,26 @@ jobs:
             --competition 'Rondoniense' \
             --season 2026 \
             --output datasets/sports/current/rondoniense-2026.csv \
+            --health-output datasets/sports/quality/ffer-rondoniense-source.csv \
             --raw-output data/output/sports-official/ffer-rondoniense-2026.html \
-            --leads-dir knowledge/sports/leads
+            --leads-dir knowledge/sports/leads \
+            --allow-source-unavailable
 
       - name: Validate sports knowledge
         run: |
           uv run okf-parser check knowledge/sports/registry
           uv run okf-parser check knowledge/sports/leads
 
-      - name: Persist changed agenda and new post-match leads
+      - name: Persist changed agenda, source health and new post-match leads
         if: github.event_name != 'pull_request'
         run: |
           git config user.name "O Vigia Sports Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add datasets/sports/current/rondoniense-2026.csv knowledge/sports/leads
+          git add datasets/sports/current/rondoniense-2026.csv \
+                  datasets/sports/quality/ffer-rondoniense-source.csv \
+                  knowledge/sports/leads
           if git diff --cached --quiet; then
-            echo "Agenda sem mudança material e nenhum lead pós-jogo novo."
+            echo "Agenda, disponibilidade da fonte e leads sem mudança material."
             exit 0
           fi
           git commit -m "data(sports): update official agenda ${SNAP}"
@@ -77,5 +81,6 @@ jobs:
           path: |
             data/output/sports-official/
             datasets/sports/current/rondoniense-2026.csv
+            datasets/sports/quality/ffer-rondoniense-source.csv
           if-no-files-found: warn
           retention-days: 30
