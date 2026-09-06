@@ -1,22 +1,22 @@
 ---
 okf_version: "0.2"
 title: "Especificação de fonte esportiva"
-description: "Catálogo de superfícies públicas oficiais usadas para agenda, resultado e contexto de primeira parte."
+description: "Catálogo de superfícies públicas usadas para agenda, resultado, contexto e dados abertos complementares."
 type: "specification"
 target_type: "sports-source"
 fields:
   source_kind:
     type: string
-    description: "Classe da fonte, como organizer_schedule, organizer_registry ou team_page."
+    description: "Classe da fonte, como organizer_schedule, organizer_registry, team_page ou open_dataset."
   authority:
     type: string
-    description: "Papel da fonte: primary para organizadora ou first_party_complementary para clube."
+    description: "Papel da fonte: primary, first_party_complementary ou open_data_complementary."
   scope:
     type: string
-    description: "Escopo semântico da fonte: competition, team ou registry."
+    description: "Escopo semântico da fonte: competition, team, registry ou dataset."
   entity_name:
     type: string
-    description: "Competição, equipe ou catálogo representado."
+    description: "Competição, equipe, catálogo ou dataset representado."
   url:
     type: string
     description: "URL pública canônica observada."
@@ -32,11 +32,14 @@ fields:
   parser:
     type: string
     description: "Adaptador determinístico usado para fonte estruturada quando aplicável."
+  license:
+    type: string
+    description: "Licença declarada pela fonte quando aplicável."
   enabled:
     type: string
-    description: "Booleano textual para fontes de coleta automática."
+    description: "Booleano textual para fontes de coleta ou auditoria automática."
 ---
 
 # Fontes esportivas
 
-Cada superfície oficial relevante é um concept próprio para que descoberta, autoridade e URL não fiquem enterradas em código. Fontes `primary` pertencem à entidade organizadora da competição. Fontes `first_party_complementary` pertencem aos clubes e servem para confirmação/contexto, sem substituir a organizadora em conflito de fixture.
+Cada superfície relevante é um concept próprio para que descoberta, autoridade, licença e URL não fiquem enterradas em código. Fontes `primary` pertencem à entidade organizadora da competição. Fontes `first_party_complementary` pertencem aos clubes e servem para confirmação/contexto. Fontes `open_data_complementary` podem enriquecer histórico e normalização, mas sua cobertura deve ser medida antes de uso operacional e nunca substitui a organizadora em conflito de fixture.
