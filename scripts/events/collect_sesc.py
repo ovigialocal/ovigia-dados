@@ -10,8 +10,12 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 import requests
-
-from ovigia_dados.events.sesc import SESC_ARCHIVES, SescParseError, discover_event_urls, hydrate_event
+from ovigia_dados.events.sesc import (
+    SESC_ARCHIVES,
+    SescParseError,
+    discover_event_urls,
+    hydrate_event,
+)
 from ovigia_dados.events.shared import materialize_observations
 
 logger = logging.getLogger("ovigia.events.sesc")
@@ -19,7 +23,7 @@ logger = logging.getLogger("ovigia.events.sesc")
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--pages", type=int, default=3)
+    parser.add_argument("--pages", type=int, default=1)
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--identities-dir", default="knowledge/events/events")
     parser.add_argument("--observations-dir", default="knowledge/events/observations")
@@ -38,7 +42,7 @@ def main() -> int:
             archives=SESC_ARCHIVES,
             pages=max(1, args.pages),
         )
-    except requests.RequestException as exc:
+    except (requests.RequestException, SescParseError) as exc:
         logger.error("Sesc: falha ao descobrir páginas públicas: %s", exc)
         return 1
 
