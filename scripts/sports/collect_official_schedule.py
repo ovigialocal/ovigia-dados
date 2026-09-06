@@ -25,7 +25,9 @@ from ovigia_dados.sports.official_sources import (
 DEFAULT_FFER_RONDONIENSE_2026 = "https://ffer.com.br/Publicacao.aspx?id=640220"
 
 
-def _write_health(path: str | Path, *, url: str, availability: str, http_status: int | None) -> None:
+def _write_health(
+    path: str | Path, *, url: str, availability: str, http_status: int | None
+) -> None:
     destination = Path(path)
     destination.parent.mkdir(parents=True, exist_ok=True)
     with destination.open("w", encoding="utf-8", newline="") as handle:
