@@ -1,0 +1,34 @@
+{
+  "get": "teams",
+  "parameters": {
+    "id": "12947"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 12947,
+        "name": "União Cacoalense",
+        "code": null,
+        "country": "Brazil",
+        "founded": 1982,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/12947.png"
+      },
+      "venue": {
+        "id": 8264,
+        "name": "Estádio Municipal Aglair Tonelli Nogueira",
+        "address": "Avenida São Paulo 2861, Bairro Centro",
+        "city": "Cacoal, Rondônia",
+        "capacity": 8000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/8264.png"
+      }
+    }
+  ]
+}

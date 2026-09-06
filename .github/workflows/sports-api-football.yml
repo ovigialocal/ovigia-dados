@@ -53,11 +53,13 @@ jobs:
       - name: Validate persistent sports leads
         run: uv run okf-parser check knowledge/sports/leads
 
-      - name: Persist new sports leads
+      - name: Persist new sports leads and raw payloads
         run: |
           git config user.name "O Vigia Sports Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add knowledge/sports/leads
+          # Os payloads brutos entram junto: um time novo no registry é
+          # buscado uma vez, e sem commit ele seria rebuscado todo dia.
+          git add knowledge/sports/leads raw/sports
           if git diff --cached --quiet; then
             echo "Nenhum sinal esportivo novo para persistir."
             exit 0
@@ -73,6 +75,14 @@ jobs:
           path: data/output/sports/
           retention-days: 30
 
+      - name: Pack raw API-Football payloads
+        run: |
+          # Os payloads brutos viajam junto do snapshot para que repórteres
+          # usem o dado sem chave e sem consultar a API.
+          if [ -d raw/sports/api-football ]; then
+            zip -qr data/output/sports/raw-api-football.zip raw/sports/api-football
+          fi
+
       - name: Publish Sports Snapshot to Internet Archive
         if: env.IA_ACCESS_KEY != '' && env.IA_SECRET_KEY != ''
         env:
@@ -84,4 +94,5 @@ jobs:
             --manifest data/output/sports/manifest.json \
             --parquet data/output/sports/fixtures.parquet \
             --dictionary datasets/sports/dictionary.md \
-            --catalog datasets/sports/catalog.sql
+            --catalog datasets/sports/catalog.sql \
+            --raw data/output/sports/raw-api-football.zip

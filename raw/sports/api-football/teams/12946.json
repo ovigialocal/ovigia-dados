@@ -1,0 +1,34 @@
+{
+  "get": "teams",
+  "parameters": {
+    "id": "12946"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 12946,
+        "name": "Porto Velho",
+        "code": null,
+        "country": "Brazil",
+        "founded": 2018,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/12946.png"
+      },
+      "venue": {
+        "id": 2943,
+        "name": "Estádio Aluízio Ferreira de Oliveira",
+        "address": "Rua Rui Barbosa 953",
+        "city": "Porto Velho, Rondônia",
+        "capacity": 8000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/2943.png"
+      }
+    }
+  ]
+}

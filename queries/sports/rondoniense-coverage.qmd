@@ -13,10 +13,19 @@ Esta consulta é uma sonda reproduzível da API-Football. Ela não decide o que 
 from datetime import UTC, datetime
 
 from ovigia_dados.sports.client import ApiFootballClient
+from ovigia_dados.sports.registry import load_sports_registry
+
+# O league_id vem do registry OKF, que é onde ele é autorado. Buscar por nome
+# toda execução gastava uma requisição para redescobrir uma constante — e
+# ainda deixava a sonda dependente de como a API grafa "Rondoniense".
+registry = load_sports_registry("knowledge/sports/registry")
+league_id = next(
+    league["league_id"] for league in registry["leagues"] if league["name"] == "Rondoniense"
+)
 
 client = ApiFootballClient()
 observed_at = datetime.now(UTC).isoformat()
-payload = client.get("leagues", {"search": "Rondoniense"})
+payload = client.get("leagues", {"id": league_id})
 
 rows = []
 for item in payload.get("response", []):

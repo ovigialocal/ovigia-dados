@@ -92,15 +92,36 @@ de 429, e é a rajada — não o esgotamento — que motiva bloqueio.
 
 Com o registry atual (7 times, 4 competições), um run consome:
 
-| chamada | quantidade |
-| --- | --- |
-| `teams?id=` | 7 |
-| `fixtures?team=&last=`/`&next=` | 14 |
-| `leagues?id=` | 4 |
-| `standings?league=&season=` | até 4 |
-| **total** | **~29 de 100** |
+| chamada | antes | agora |
+| --- | --- | --- |
+| `teams?id=` | 7 | 0 — lido de `raw/` |
+| `fixtures?team=&last=`/`&next=` | 14 | 14 |
+| `leagues?id=` (sondagem de cobertura) | 4 | 0 — removida |
+| `standings?league=&season=` | até 4 | até 4 |
+| **total** | **~29 de 100** | **18 de 100** |
 
-Próxima economia disponível, ainda não implementada: `teams?id=` e
-`leagues?id=` devolvem dados que praticamente não mudam. Cacheá-los (ou
-projetá-los do registry OKF) tira ~11 requisições por dia, mais de um terço do
-consumo, sem perder nada de editorial.
+## Onde o dado bruto mora
+
+Time e competição são entidades estáveis: nome, fundação, estádio e cidade não
+mudam de um dia para o outro. O payload da API fica em
+`raw/sports/api-football/teams/<id>.json`, versionado, e o pipeline lê de lá.
+Só `--refresh-static` rebusca, e aí o diff mostra o que a fonte mudou.
+
+Três camadas, cada uma para um consumidor:
+
+- **`raw/` no git** é o caminho de leitura em tempo de execução. É o que
+  compra a economia, e é reproduzível fora do CI.
+- **Cache do Actions** foi descartado: é evictável — sete dias sem uso e some
+  — e o miss vira requisição silenciosa contra a mesma cota que se queria
+  proteger. Economia que falha calada não é economia.
+- **Internet Archive** é a cópia pública e durável. Os payloads brutos vão
+  zipados junto do snapshot, pelo `--raw` que o publisher já aceitava, para
+  que repórteres usem o dado sem chave e sem consultar a API.
+
+Transcrever esses campos para o frontmatter do registry seria pior que as três:
+o registry é autoria editorial, e misturar nele dado copiado da fonte cria
+divergência silenciosa no dia em que a fonte mudar.
+
+A sondagem de cobertura (`leagues?id=`) saiu porque custava uma requisição por
+competição para prever uma recusa que a própria chamada de `standings` já
+informa — e que o pipeline já tratava sem derrubar a coleta.
