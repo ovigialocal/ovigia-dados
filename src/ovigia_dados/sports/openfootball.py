@@ -16,8 +16,7 @@ SOUTH_AMERICA_BRAZIL_API = (
 )
 SOUTH_AMERICA_RAW = "https://raw.githubusercontent.com/openfootball/south-america/master/brazil"
 BRAZIL_CLUBS_URL = (
-    "https://raw.githubusercontent.com/openfootball/clubs/master/"
-    "south-america/brazil/br.clubs.txt"
+    "https://raw.githubusercontent.com/openfootball/clubs/master/south-america/brazil/br.clubs.txt"
 )
 
 EXPECTED_BRAZIL_FILES = {
