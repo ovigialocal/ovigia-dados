@@ -143,11 +143,11 @@ def write_quality_csvs(
     teams_destination.parent.mkdir(parents=True, exist_ok=True)
 
     with summary_destination.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=SUMMARY_FIELDS)
+        writer = csv.DictWriter(handle, fieldnames=SUMMARY_FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerow(summary)
 
     with teams_destination.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=TEAM_FIELDS)
+        writer = csv.DictWriter(handle, fieldnames=TEAM_FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(team_rows)
