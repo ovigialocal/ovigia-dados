@@ -10,6 +10,8 @@ import urllib.request
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 
+from tenacity import Retrying, RetryCallState, before_sleep_log, retry_if_exception, stop_after_attempt
+
 logger = logging.getLogger(__name__)
 
 USER_AGENT = (
@@ -56,14 +58,34 @@ def _snapshot_url(response) -> str | None:
     return None
 
 
-def _retry_delay(headers, attempt: int, initial_backoff: float) -> float:
-    retry_after = headers.get("Retry-After") if headers else None
-    if retry_after:
-        try:
-            return max(float(retry_after), 0.0)
-        except ValueError:
-            pass
-    return initial_backoff * (2 ** (attempt - 1))
+def _is_retryable_http(status: int) -> bool:
+    """Return whether an IA response means retry later rather than terminal refusal."""
+    return status == 429 or 500 <= status < 600
+
+
+def _is_retryable_exception(exc: BaseException) -> bool:
+    if isinstance(exc, urllib.error.HTTPError):
+        return _is_retryable_http(exc.code)
+    return isinstance(exc, (urllib.error.URLError, TimeoutError, OSError))
+
+
+def _retry_wait(initial_backoff: float):
+    """Build a Tenacity wait function honoring Retry-After when IA provides it."""
+
+    def wait(retry_state: RetryCallState) -> float:
+        outcome = retry_state.outcome
+        exc = outcome.exception() if outcome is not None and outcome.failed else None
+        if isinstance(exc, urllib.error.HTTPError):
+            retry_after = exc.headers.get("Retry-After") if exc.headers else None
+            if retry_after:
+                try:
+                    return min(max(float(retry_after), 0.0), 60.0)
+                except ValueError:
+                    pass
+        attempt = retry_state.attempt_number
+        return min(initial_backoff * (2 ** (attempt - 1)), 60.0)
+
+    return wait
 
 
 def materialize_snapshot(result: WaybackSaveResult, root: Path) -> WaybackSaveResult:
@@ -90,91 +112,86 @@ def materialize_snapshot(result: WaybackSaveResult, root: Path) -> WaybackSaveRe
         return replace(result, snapshot_fetch_error=str(exc))
 
 
-def _is_retryable_http(status: int) -> bool:
-    """Return whether an IA response means retry later rather than terminal refusal."""
-    return status == 429 or 500 <= status < 600
+def _attempt_save(url: str) -> WaybackSaveResult:
+    save_endpoint = f"{WAYBACK_ROOT}/save/{url}"
+    req = urllib.request.Request(
+        save_endpoint,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json, text/html",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as response:  # noqa: S310
+        snapshot = _snapshot_url(response)
+        if snapshot is None:
+            return WaybackSaveResult(
+                url=url,
+                status="accepted_unverified",
+                http_status=response.status,
+                timestamp=_now(),
+                reached_archive=True,
+                error_message="Save Page Now responded without a concrete snapshot URL",
+            )
+        return WaybackSaveResult(
+            url=url,
+            status="verified",
+            archive_url=snapshot,
+            http_status=response.status,
+            timestamp=_now(),
+            reached_archive=True,
+        )
 
 
 def save_to_wayback(
     url: str, max_retries: int = 3, initial_backoff: float = 2.0
 ) -> WaybackSaveResult:
-    """Attempt Save Page Now without confusing retryable states with terminal refusals."""
-    save_endpoint = f"{WAYBACK_ROOT}/save/{url}"
+    """Attempt Save Page Now using Tenacity for bounded in-run retries."""
+    retrying = Retrying(
+        stop=stop_after_attempt(max_retries),
+        wait=_retry_wait(initial_backoff),
+        retry=retry_if_exception(_is_retryable_exception),
+        before_sleep=before_sleep_log(logger, logging.WARNING),
+        reraise=True,
+    )
 
-    for attempt in range(1, max_retries + 1):
-        req = urllib.request.Request(
-            save_endpoint,
-            headers={
-                "User-Agent": USER_AGENT,
-                "Accept": "application/json, text/html",
-            },
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=30) as response:  # noqa: S310
-                snapshot = _snapshot_url(response)
-                if snapshot is None:
-                    return WaybackSaveResult(
-                        url=url,
-                        status="accepted_unverified",
-                        http_status=response.status,
-                        timestamp=_now(),
-                        reached_archive=True,
-                        error_message="Save Page Now responded without a concrete snapshot URL",
-                    )
-                return WaybackSaveResult(
-                    url=url,
-                    status="verified",
-                    archive_url=snapshot,
-                    http_status=response.status,
-                    timestamp=_now(),
-                    reached_archive=True,
-                )
-        except urllib.error.HTTPError as exc:
-            if _is_retryable_http(exc.code):
-                if attempt < max_retries:
-                    time.sleep(min(_retry_delay(exc.headers, attempt, initial_backoff), 60.0))
-                    continue
-                logger.warning(
-                    "Internet Archive pediu retry posterior para %s após %s tentativas: HTTP %s",
-                    url,
-                    max_retries,
-                    exc.code,
-                )
-                return WaybackSaveResult(
-                    url=url,
-                    status="retryable_error",
-                    http_status=exc.code,
-                    error_message=f"Save Page Now returned retryable HTTP {exc.code}: {exc.reason}",
-                    timestamp=_now(),
-                    reached_archive=True,
-                    archive_failure=False,
-                )
+    try:
+        return retrying(_attempt_save, url)
+    except urllib.error.HTTPError as exc:
+        if _is_retryable_http(exc.code):
+            logger.warning(
+                "Internet Archive pediu retry posterior para %s após %s tentativas: HTTP %s",
+                url,
+                max_retries,
+                exc.code,
+            )
             return WaybackSaveResult(
                 url=url,
-                status="terminal_failure",
+                status="retryable_error",
                 http_status=exc.code,
-                error_message=f"Save Page Now returned HTTP {exc.code}: {exc.reason}",
+                error_message=f"Save Page Now returned retryable HTTP {exc.code}: {exc.reason}",
                 timestamp=_now(),
                 reached_archive=True,
-                archive_failure=True,
-            )
-        except (urllib.error.URLError, TimeoutError, OSError) as exc:
-            logger.warning(
-                "Infraestrutura local falhou antes de resposta do IA para %s: %s", url, exc
-            )
-            if attempt < max_retries:
-                time.sleep(initial_backoff * (2 ** (attempt - 1)))
-                continue
-            return WaybackSaveResult(
-                url=url,
-                status="infrastructure_error",
-                error_message=str(exc),
-                timestamp=_now(),
-                reached_archive=False,
                 archive_failure=False,
             )
-
-    raise AssertionError("unreachable")
+        return WaybackSaveResult(
+            url=url,
+            status="terminal_failure",
+            http_status=exc.code,
+            error_message=f"Save Page Now returned HTTP {exc.code}: {exc.reason}",
+            timestamp=_now(),
+            reached_archive=True,
+            archive_failure=True,
+        )
+    except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        logger.warning("Infraestrutura local falhou antes de resposta do IA para %s: %s", url, exc)
+        return WaybackSaveResult(
+            url=url,
+            status="infrastructure_error",
+            error_message=str(exc),
+            timestamp=_now(),
+            reached_archive=False,
+            archive_failure=False,
+        )
 
 
 def main() -> None:
