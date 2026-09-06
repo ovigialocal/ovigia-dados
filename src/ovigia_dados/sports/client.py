@@ -110,10 +110,16 @@ def _payload_errors(data: dict[str, Any]) -> dict[str, Any]:
 def detect_channel(api_key: str) -> str:
     """Descobre o canal pelo formato da chave, sem gastar requisição.
 
-    Chave emitida pela API-Sports tem 32 caracteres hexadecimais; a da
-    RapidAPI tem 50 alfanuméricos. O formato é decidível localmente, e usar
-    isso evita a rodada de descoberta que gastava cota para redescobrir todo
-    dia a mesma coisa.
+    O único formato que identifica positivamente é o da API-Sports: 32
+    caracteres hexadecimais. A RapidAPI não emite um formato único — a chave
+    de 50 alfanuméricos é a mais comum, mas o secret em produção neste
+    repositório tem 32 caracteres não hexadecimais e é aceito lá. Por isso a
+    regra é "hexadecimal de 32 é direto, o resto é RapidAPI", e não uma
+    dicotomia entre dois formatos conhecidos.
+
+    Errar aqui não é silencioso: o canal escolhido aparece no log e na
+    mensagem de recusa, que é o que faltava para distinguir chave inválida
+    de chave no canal errado.
     """
     key = (api_key or "").strip()
     if len(key) == 32 and all(c in "0123456789abcdefABCDEF" for c in key):

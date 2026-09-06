@@ -2,8 +2,8 @@
 
 ## O diagnóstico
 
-A chave nunca foi suspensa. Ela é uma chave **RapidAPI** (50 caracteres
-alfanuméricos) e estava sendo apresentada ao **canal direto** da API-Sports
+A chave nunca foi suspensa. Ela é reconhecida pela **RapidAPI** e estava
+sendo apresentada ao **canal direto** da API-Sports
 (`v3.football.api-sports.io`, header `x-apisports-key`), que não a emitiu.
 
 A mesma assinatura é vendida por dois canais com host, header e prefixo de
@@ -17,15 +17,25 @@ caminho próprios:
 O canal errado devolve HTTP 200 com `errors.token` — texto idêntico ao de
 uma chave inválida. Daí a leitura de "chave suspensa".
 
-Verificação em 6 de setembro de 2026, com a mesma chave:
+Verificação em 6 de setembro de 2026, com o secret `API_FOOTBALL_KEY` do
+repositório, em runner do GitHub Actions:
 
 - `v3.football.api-sports.io/status` → `errors.token: Error/Missing application key`
-- `api-football-v1.p.rapidapi.com/v3/timezone` → `results: 427`, cota `98/100`
-- `api-football-v1.p.rapidapi.com/v3/teams?search=Porto Velho` → `results: 3`,
-  `team_id=12946`
+- `api-football-v1.p.rapidapi.com/v3/timezone` → **aceita**, cota `99/100`
 
-O formato da chave decide o canal e é verificável localmente, sem gastar
-requisição: 32 hexadecimais = API-Sports; 50 alfanuméricos = RapidAPI.
+### Sobre o formato da chave
+
+O formato decide o canal localmente, sem gastar requisição, mas a regra não é
+uma dicotomia limpa. **32 caracteres hexadecimais** identifica positivamente
+uma chave da API-Sports. Tudo o mais vai para a RapidAPI, que não emite um
+formato único: a chave de 50 alfanuméricos é a mais comum, e o secret deste
+repositório tem 32 caracteres **não** hexadecimais e é aceito lá.
+
+Uma sonda anterior (5 de setembro) leu esses 32 caracteres, concluiu
+"chave de outro canal ou conta não ativada" e parou — porque testava a
+RapidAPI em `/v3/status`, endpoint que não existe naquele canal, e o 404
+foi lido como recusa. Endpoint errado produz o mesmo silêncio que chave
+errada; é por isso que a sonda agora usa `/v3/timezone`.
 
 ## O que fazer para não ser suspenso
 
