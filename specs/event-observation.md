@@ -31,10 +31,16 @@ fields:
     description: "Título público do evento."
   starts_at:
     type: string
-    description: "Data e hora de início publicadas, quando disponíveis."
+    description: "Data e hora de início publicadas, quando a fonte informa horário."
   ends_at:
     type: string
-    description: "Data e hora de término publicadas, quando disponíveis."
+    description: "Data e hora de término publicadas, quando a fonte informa horário."
+  starts_on:
+    type: string
+    description: "Data civil de início publicada quando a fonte informa o dia sem horário; não inventar 00:00."
+  ends_on:
+    type: string
+    description: "Data civil final publicada em intervalos sem horário, quando disponível."
   venue_name:
     type: string
     description: "Nome do local publicado, quando disponível."
@@ -43,10 +49,10 @@ fields:
     description: "Endereço público do evento, quando disponível."
   city:
     type: string
-    description: "Município informado na página individual do evento."
+    description: "Município informado na página individual do evento ou confirmado pela semântica da própria fonte."
   state:
     type: string
-    description: "UF ou estado informado na página individual do evento."
+    description: "UF ou estado informado na página individual do evento ou confirmado pela semântica da própria fonte."
   organizer:
     type: string
     description: "Organizador ou produtor publicado, quando disponível."
@@ -58,5 +64,7 @@ fields:
 # Observação de evento
 
 Cada `event-observation` preserva um estado público materialmente distinto do mesmo evento. A observação é append-only: alteração posterior de data, local, produtor ou status gera novo concept em vez de reescrever a observação anterior.
+
+Use `starts_at`/`ends_at` somente quando a fonte publicar horário. Quando ela publicar apenas a data civil, use `starts_on`/`ends_on`. Não converter uma data sem hora em meia-noite artificialmente.
 
 A rota geográfica usada para descobrir o evento não basta para afirmar que ele ocorre em Porto Velho. A localização precisa ser confirmada na página individual ou em evidência equivalente da própria fonte.
