@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/saneamento-estrutura-tarifaria-final-pdf",
+  "source_url": "https://rondonia.ro.gov.br/wp-content/uploads/2026/07/7.-Contrato-RO-Anexo-VIII-Estrutura-Tarifaria-e-Servicos-Complementares-.pdf",
+  "archive_url": "https://web.archive.org/web/20260906003206/https://rondonia.ro.gov.br/wp-content/uploads/2026/07/7.-Contrato-RO-Anexo-VIII-Estrutura-Tarifaria-e-Servicos-Complementares-.pdf",
+  "verified_at": "2026-09-06T04:36:01Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 622970,
+  "archive_sha256": "a360f58a9f864fa5b051de833895021102129c4eb361065f87e620991e8e31a7",
+  "source_content_type": "application/pdf",
+  "source_size": 622970,
+  "source_sha256": "a360f58a9f864fa5b051de833895021102129c4eb361065f87e620991e8e31a7",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/saneamento-estrutura-tarifaria-final-pdf.pdf"
+}
