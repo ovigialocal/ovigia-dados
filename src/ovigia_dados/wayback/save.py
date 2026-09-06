@@ -90,10 +90,15 @@ def materialize_snapshot(result: WaybackSaveResult, root: Path) -> WaybackSaveRe
         return replace(result, snapshot_fetch_error=str(exc))
 
 
+def _is_retryable_http(status: int) -> bool:
+    """Return whether an IA response means retry later rather than terminal refusal."""
+    return status == 429 or 500 <= status < 600
+
+
 def save_to_wayback(
     url: str, max_retries: int = 3, initial_backoff: float = 2.0
 ) -> WaybackSaveResult:
-    """Attempt Save Page Now without confusing local failures with IA refusals."""
+    """Attempt Save Page Now without confusing retryable states with terminal refusals."""
     save_endpoint = f"{WAYBACK_ROOT}/save/{url}"
 
     for attempt in range(1, max_retries + 1):
@@ -125,10 +130,25 @@ def save_to_wayback(
                     reached_archive=True,
                 )
         except urllib.error.HTTPError as exc:
-            if exc.code == 429 or 500 <= exc.code < 600:
+            if _is_retryable_http(exc.code):
                 if attempt < max_retries:
                     time.sleep(min(_retry_delay(exc.headers, attempt, initial_backoff), 60.0))
                     continue
+                logger.warning(
+                    "Internet Archive pediu retry posterior para %s após %s tentativas: HTTP %s",
+                    url,
+                    max_retries,
+                    exc.code,
+                )
+                return WaybackSaveResult(
+                    url=url,
+                    status="retryable_error",
+                    http_status=exc.code,
+                    error_message=f"Save Page Now returned retryable HTTP {exc.code}: {exc.reason}",
+                    timestamp=_now(),
+                    reached_archive=True,
+                    archive_failure=False,
+                )
             return WaybackSaveResult(
                 url=url,
                 status="terminal_failure",

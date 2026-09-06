@@ -87,6 +87,41 @@ def test_dns_or_transport_failure_is_infrastructure_error_not_archive_failure():
     assert result.archive_failure is False
 
 
+def test_rate_limit_remains_retryable_after_local_retry_budget():
+    headers = Message()
+    headers["Retry-After"] = "10"
+    error = HTTPError(
+        "https://web.archive.org/save/https://example.com",
+        429,
+        "Too Many Requests",
+        headers,
+        None,
+    )
+    with patch("ovigia_dados.wayback.save.urllib.request.urlopen", side_effect=error):
+        result = save_to_wayback("https://example.com", max_retries=1)
+
+    assert result.status == "retryable_error"
+    assert result.http_status == 429
+    assert result.reached_archive is True
+    assert result.archive_failure is False
+
+
+def test_transient_5xx_remains_retryable_after_local_retry_budget():
+    error = HTTPError(
+        "https://web.archive.org/save/https://example.com",
+        503,
+        "Service Unavailable",
+        Message(),
+        None,
+    )
+    with patch("ovigia_dados.wayback.save.urllib.request.urlopen", side_effect=error):
+        result = save_to_wayback("https://example.com", max_retries=1)
+
+    assert result.status == "retryable_error"
+    assert result.http_status == 503
+    assert result.archive_failure is False
+
+
 def test_terminal_http_refusal_is_real_archive_failure():
     headers = Message()
     error = HTTPError(
