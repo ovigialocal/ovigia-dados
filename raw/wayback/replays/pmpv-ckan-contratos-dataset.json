@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pmpv-ckan-contratos-dataset",
+  "source_url": "https://dados.portovelho.ro.gov.br/dataset/api-contratos",
+  "archive_url": "https://web.archive.org/web/20260906154221/https://dados.portovelho.ro.gov.br/dataset/api-contratos",
+  "verified_at": "2026-09-06T16:05:54Z",
+  "archive_content_type": "text/html",
+  "archive_size": 5005,
+  "archive_sha256": "b7da9326b92fbf5897a5d828cd0b367556ef9b1f6cc259a24b8d46c994d3d9a7",
+  "source_content_type": "text/html",
+  "source_size": 21861,
+  "source_sha256": "b1ef02bee4918afd555dc709c57592ec04480dd3fdd13c66db007601d9b67aa1",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pmpv-ckan-contratos-dataset.html"
+}

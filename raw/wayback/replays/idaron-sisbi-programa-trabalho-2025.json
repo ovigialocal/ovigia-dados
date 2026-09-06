@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idaron-sisbi-programa-trabalho-2025",
+  "source_url": "https://www.idaron.ro.gov.br/wp-content/uploads/2025/01/SISBI_POA_Programa_Trabalho_Atualizacao_2025._10AA_edicao_assinado.pdf",
+  "archive_url": "https://web.archive.org/web/20250513004816/https://www.idaron.ro.gov.br/wp-content/uploads/2025/01/SISBI_POA_Programa_Trabalho_Atualizacao_2025._10AA_edicao_assinado.pdf",
+  "verified_at": "2026-09-06T16:05:36Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 5242880,
+  "archive_sha256": "712fda0a101bb71b98489aa8346996f5291720e6c3a534b71e6332f57b89b878",
+  "source_content_type": "application/pdf",
+  "source_size": 8101619,
+  "source_sha256": "799068b6ac422720a911c650b7f392f56beed2853fdd25ea7727bc02e50b157d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/idaron-sisbi-programa-trabalho-2025.pdf"
+}

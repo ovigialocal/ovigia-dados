@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="pt_BR" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt_BR"  > <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+      <meta name="csrf_field_name" content="_csrf_token" />
+      <meta name="_csrf_token" content="IjcxYjZmMjE1OGQ1YjlhNWNmZDU1YmZmOWFhMGM4NDFmZGVlYWZiNmYi.ap2J3Q.A1OJ0MqaJrGUWCQ_TKlp4jDlRz4" />
+
+      <meta name="generator" content="ckan 2.11.5" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contratos - Conjunto de dados - Portal de Dados Abertos</title>
+
+    
+    <link rel="shortcut icon" href="/base/images/ckan.ico" />
+    
+  
+      
+      
+      
+    
+  
+
+
+    
+    <link href="/webassets/base/51d427fe_main.css" rel="stylesheet"/>
+<link href="/webassets/pvh_theme/009cdec1_pvh-theme.css" rel="stylesheet"/>
+    
+    
+  
+  <meta property="og:title" content="Contratos - Portal de Dados Abertos">
+  <meta property="og:description" content="Lista de Contratos Categoria: Contratos. Fonte: API de Dados Abertos da Prefeitura de Porto Velho. Parâmetros de consulta documentados: ano, secretaria, modelo, vigencia, classificacao, por-pagina,...">
+
+
+  </head>
+
+  
+  <body data-site-root="https://dados.portovelho.ro.gov.br/" data-locale-root="https://dados.portovelho.ro.gov.br/" >
+
+    
+    <div class="visually-hidden-focusable"><a href="#content">Ir para o conteúdo principal</a></div>
+  
+
+  
+    
+
+
+  
+    <div class="account-masthead pvh-access-bar">
+      <div class="container">
+        <div class="pvh-access-links" aria-label="Links de acesso público">
+          <a href="https://www.portovelho.ro.gov.br/e-sic/">Acesso à informação</a>
+          <span aria-hidden="true">|</span>
+          <a href="https://transparencia.portovelho.ro.gov.br/">Transparência</a>
+          <span aria-hidden="true">|</span>
+          <a href="https://ouvidoria.portovelho.ro.gov.br/">Ouvidoria</a>
+          <span aria-hidden="true">|</span>
+          <a href="https://www.portovelho.ro.gov.br/dom">Diário Oficial</a>
+        </div>
+
+        
+          
+            <nav class="account not-authed" aria-label="Conta">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="/user/login">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    Entrar
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          
+        
+      </div>
+    </div>
+  
+
+  <header class="masthead pvh-site-header">
+    <div class="pvh-brand-row">
+      <div class="container">
+        <div class="pvh-brand">
+          <a class="pvh-brand-logo" href="/">
+            <img
+              src="/pvh_theme/images/prefeitura_horizontal_azul.png"
+              alt="Prefeitura de Porto Velho"
+            >
+          </a>
+          <span class="pvh-brand-divider" aria-hidden="true"></span>
+          <div class="pvh-brand-copy">
+            <strong>Portal de Dados Abertos</strong>
+            <span>Prefeitura Municipal de Porto Velho</span>
+          </div>
+        </div>
+
+        <form class="pvh-header-search" action="/dataset/" method="get">
+          <label class="visually-hidden" for="field-sitewide-search">
+            Buscar conjuntos de dados
+          </label>
+          <input
+            id="field-sitewide-search"
+            class="form-control"
+            type="text"
+            name="q"
+            placeholder="Buscar dados no portal..."
+          >
+          <button class="btn" type="submit" aria-label="Buscar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="pvh-color-line" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+
+    <nav class="navbar navbar-expand-lg pvh-main-nav" aria-label="Navegação principal">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-navigation-toggle"
+          aria-controls="main-navigation-toggle"
+          aria-expanded="false"
+          aria-label="Abrir navegação"
+        >
+          <span class="fa fa-bars" aria-hidden="true"></span>
+        </button>
+
+        <div class="main-navbar collapse navbar-collapse" id="main-navigation-toggle">
+          <ul class="navbar-nav">
+            
+            
+            <li><a href="/">Início</a></li><li class="active"><a href="/dataset/">Conjuntos de dados</a></li><li><a href="/organization/">Organizações</a></li><li><a href="/group/">Grupos</a></li><li><a href="/about">Sobre o portal</a></li>
+          </ul>
+          <a class="pvh-api-link" href="https://api.portovelho.ro.gov.br/docs/api">
+            <i class="fa fa-code" aria-hidden="true"></i>
+            Portal API
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+    <div class="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar" role="navigation" aria-label="Rastro de navegação">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/" aria-label="Início"><i class="fa fa-home"></i><span> Início</span></a></li>
+                    
+  
+    
+    
+      
+      
+      <li><a href="/organization/">Organizações</a></li>
+      <li><a href="/organization/smcl" title="SMCL">SMCL</a></li>
+    
+    <li class="active"><a href="/dataset/api-contratos" title="Contratos">Contratos</a></li>
+  
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+            
+            
+            
+
+            
+              <aside class="secondary col-md-3">
+                
+                
+
+  
+
+  
+    
+
+  
+    <section id="package-info" class="module module-narrow">
+      <div class="module context-info">
+        <div class="module-content">
+          
+            
+              <h1 class="heading">Contratos</h1>
+            
+            
+              
+            
+          
+        </div>
+      </div>
+    </section>
+  
+
+  
+
+  
+    
+      
+      
+
+
+
+
+
+  <section id="organization-info" class="module module-narrow">
+    <div class="module context-info">
+    <div class="module-content">
+      
+      
+        <div class="image">
+          <a href="/organization/smcl">
+            <img src="https://dados.portovelho.ro.gov.br/uploads/group/2026-07-31-052044.612093SMCL4x.png" width="200" alt="smcl" />
+          </a>
+        </div>
+      
+      
+      <h1 class="heading">SMCL
+        
+      </h1>
+      
+      
+      
+        <p class="description">
+          Secretaria Municipal de Contratos, Convênios e Licitações
+        </p>
+        <p class="read-more">
+          <a href="/organization/about/smcl">leia mais</a>
+        </p>
+      
+      
+      
+      
+      </div>
+    </div>
+  </section>
+  
+    
+  
+
+  
+    
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="fa fa-share-square"></i> Social</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://dados.portovelho.ro.gov.br/dataset/api-contratos" target="_blank"><i class="fa-brands fa-twitter-square"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://dados.portovelho.ro.gov.br/dataset/api-contratos" target="_blank"><i class="fa-brands fa-facebook-square"></i> Facebook</a></li>
+      </ul>
+    
+  </section>
+
+  
+
+  
+    
+
+
+  
+      
+        <section class="module module-narrow module-shallow license">
+          
+            <h2 class="module-heading"><i class="fa fa-lock"></i> Licença</h2>
+          
+          
+            <p class="module-content">
+              
+                
+  
+    
+      <span>Nenhuma Licença Fornecida</span>
+    
+  
+
+                
+              
+            </p>
+          
+        </section>
+      
+  
+
+  
+
+
+              </aside>
+            
+
+            
+              <div class="primary  col-md-9  col-xs-12" role="main">
+                
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                        <ul class="nav nav-tabs">
+                          
+  <li class="active"><a href="/dataset/api-contratos"><i class="fa fa-sitemap"></i> Conjunto de dados</a></li>
+  <li><a href="/dataset/groups/api-contratos"><i class="fa fa-users"></i> Grupos</a></li>
+
+                        </ul>
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  
+                      
+  
+    
+    <h1>
+      
+        Contratos
+        
+        
+      
+    </h1>
+    
+      
+        <div class="notes embedded-content">
+          <p>Lista de Contratos</p>
+<p>Categoria: Contratos.
+Fonte: API de Dados Abertos da Prefeitura de Porto Velho.
+Parâmetros de consulta documentados: ano, secretaria, modelo, vigencia, classificacao, por-pagina, contratante, situacao, categoria.</p>
+        </div>
+      
+    
+  
+
+  
+    
+
+<section id="dataset-resources" class="resources">
+  <h2>Dados e recursos</h2>
+  
+    
+      <ul class="resource-list">
+        
+          
+          
+            
+
+
+
+<li class="resource-item" data-id="4c9f3036-dc4a-478a-a333-9ec3a282a660">
+  
+  <a class="heading" href="/dataset/api-contratos/resource/4c9f3036-dc4a-478a-a333-9ec3a282a660" title="Lista de Contratos — API JSON">
+    Lista de Contratos — API JSON<span class="format-label" property="dc:format" data-format="json">JSON</span>
+  </a>
+  
+  
+    <p class="description">
+      
+        Endpoint público GET para lista de contratos. Parâmetros de consulta...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Explorar
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/dataset/api-contratos/resource/4c9f3036-dc4a-478a-a333-9ec3a282a660">
+              
+                <i class="fa fa-info-circle"></i>
+                Mais informações
+              
+            </a>
+          </li>
+        
+
+        
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://api.portovelho.ro.gov.br/api/v1/contratos" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Ir para recurso
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="ebcbac11-c21f-49b2-9639-42d6bac20ef4">
+  
+  <a class="heading" href="/dataset/api-contratos/resource/ebcbac11-c21f-49b2-9639-42d6bac20ef4" title="Documentação da API">
+    Documentação da API<span class="format-label" property="dc:format" data-format="html">HTML</span>
+  </a>
+  
+  
+    <p class="description">
+      
+        Documentação oficial da API de Dados Abertos da Prefeitura de Porto Velho....
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Explorar
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/dataset/api-contratos/resource/ebcbac11-c21f-49b2-9639-42d6bac20ef4">
+              
+                <i class="fa fa-info-circle"></i>
+                Mais informações
+              
+            </a>
+          </li>
+        
+
+        
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://api.portovelho.ro.gov.br/docs/api" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Ir para recurso
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+        
+      </ul>
+    
+  
+</section>
+  
+
+  
+    
+
+  <section class="tags">
+    
+
+
+  <ul class="tag-list">
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=api" title="api">api</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=contratos" title="contratos">contratos</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=dados-abertos" title="dados-abertos">dados-abertos</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=json" title="json">json</a>
+      </li>
+    
+  </ul>
+
+  </section>
+
+  
+
+  
+    <section class="additional-info">
+  <h3>Informações Adicionais</h3>
+  <table class="table table-striped table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th scope="col">Campo</th>
+        <th scope="col">Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        
+
+        
+
+        
+
+        
+
+        
+        
+          <tr>
+            <th scope="row" class="dataset-label">Última Atualização</th>
+            <td class="dataset-details">
+                
+<span class="automatic-local-datetime" data-datetime="2026-07-31T04:12:45-0400">
+    julho 31, 2026, 04:12 (AMT)
+</span>
+            </td>
+          </tr>
+        
+        
+          <tr>
+            <th scope="row" class="dataset-label">Criado</th>
+
+            <td class="dataset-details">
+                
+<span class="automatic-local-datetime" data-datetime="2026-07-31T00:53:18-0400">
+    julho 31, 2026, 00:53 (AMT)
+</span>
+            </td>
+          </tr>
+        
+
+      
+        
+          
+          <tr rel="dc:relation" resource="_:extra">
+            <th scope="row" class="dataset-label" property="rdfs:label">categoria_api</th>
+            <td class="dataset-details" property="rdf:value">Contratos</td>
+          </tr>
+        
+          
+          <tr rel="dc:relation" resource="_:extra">
+            <th scope="row" class="dataset-label" property="rdfs:label">endpoint_path</th>
+            <td class="dataset-details" property="rdf:value">/contratos</td>
+          </tr>
+        
+          
+          <tr rel="dc:relation" resource="_:extra">
+            <th scope="row" class="dataset-label" property="rdfs:label">http_method</th>
+            <td class="dataset-details" property="rdf:value">GET</td>
+          </tr>
+        
+          
+          <tr rel="dc:relation" resource="_:extra">
+            <th scope="row" class="dataset-label" property="rdfs:label">operation_id</th>
+            <td class="dataset-details" property="rdf:value">v1.contratos.</td>
+          </tr>
+        
+          
+          <tr rel="dc:relation" resource="_:extra">
+            <th scope="row" class="dataset-label" property="rdfs:label">query_parameters</th>
+            <td class="dataset-details" property="rdf:value">[{&#34;name&#34;:&#34;ano&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:[&#34;integer&#34;,&#34;null&#34;]}},{&#34;name&#34;:&#34;secretaria&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;]}},{&#34;name&#34;:&#34;modelo&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;]}},{&#34;name&#34;:&#34;vigencia&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;],&#34;enum&#34;:[&#34;S&#34;,&#34;N&#34;]}},{&#34;name&#34;:&#34;classificacao&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;],&#34;enum&#34;:[&#34;Geral&#34;,&#34;Covid-19&#34;]}},{&#34;name&#34;:&#34;por-pagina&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:[&#34;integer&#34;,&#34;null&#34;]}},{&#34;name&#34;:&#34;contratante&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:&#34;string&#34;}},{&#34;name&#34;:&#34;situacao&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:&#34;string&#34;}},{&#34;name&#34;:&#34;categoria&#34;,&#34;in&#34;:&#34;query&#34;,&#34;schema&#34;:{&#34;type&#34;:&#34;string&#34;}}]</td>
+          </tr>
+        
+          
+          <tr rel="dc:relation" resource="_:extra">
+            <th scope="row" class="dataset-label" property="rdfs:label">response</th>
+            <td class="dataset-details" property="rdf:value">{&#34;status&#34;:200,&#34;mediaType&#34;:&#34;application/json&#34;,&#34;description&#34;:&#34;Paginated set of `ContratoResource`&#34;,&#34;schema&#34;:{&#34;type&#34;:&#34;object&#34;,&#34;properties&#34;:{&#34;data&#34;:{&#34;type&#34;:&#34;array&#34;,&#34;items&#34;:{&#34;$ref&#34;:&#34;#/components/schemas/ContratoResource&#34;}},&#34;links&#34;:{&#34;type&#34;:&#34;object&#34;,&#34;properties&#34;:{&#34;first&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;]},&#34;last&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;]},&#34;prev&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;]},&#34;next&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;]}},&#34;required&#34;:[&#34;first&#34;,&#34;last&#34;,&#34;prev&#34;,&#34;next&#34;]},&#34;meta&#34;:{&#34;type&#34;:&#34;object&#34;,&#34;properties&#34;:{&#34;current_page&#34;:{&#34;type&#34;:&#34;integer&#34;,&#34;minimum&#34;:1},&#34;from&#34;:{&#34;type&#34;:[&#34;integer&#34;,&#34;null&#34;],&#34;minimum&#34;:1},&#34;last_page&#34;:{&#34;type&#34;:&#34;integer&#34;,&#34;minimum&#34;:1},&#34;links&#34;:{&#34;type&#34;:&#34;array&#34;,&#34;description&#34;:&#34;Generated paginator links.&#34;,&#34;items&#34;:{&#34;type&#34;:&#34;object&#34;,&#34;properties&#34;:{&#34;url&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;]},&#34;label&#34;:{&#34;type&#34;:&#34;string&#34;},&#34;active&#34;:{&#34;type&#34;:&#34;boolean&#34;}},&#34;required&#34;:[&#34;url&#34;,&#34;label&#34;,&#34;active&#34;]}},&#34;path&#34;:{&#34;type&#34;:[&#34;string&#34;,&#34;null&#34;],&#34;description&#34;:&#34;Base path for paginator generated URLs.&#34;},&#34;per_page&#34;:{&#34;type&#34;:&#34;integer&#34;,&#34;description&#34;:&#34;Number of items shown per page.&#34;,&#34;minimum&#34;:0},&#34;to&#34;:{&#34;type&#34;:[&#34;integer&#34;,&#34;null&#34;],&#34;description&#34;:&#34;Number of the last item in the slice.&#34;,&#34;minimum&#34;:1},&#34;total&#34;:{&#34;type&#34;:&#34;integer&#34;,&#34;description&#34;:&#34;Total number of items being paginated.&#34;,&#34;minimum&#34;:0}},&#34;required&#34;:[&#34;current_page&#34;,&#34;from&#34;,&#34;last_page&#34;,&#34;links&#34;,&#34;path&#34;,&#34;per_page&#34;,&#34;to&#34;,&#34;total&#34;]}},&#34;required&#34;:[&#34;data&#34;,&#34;links&#34;,&#34;meta&#34;]}}</td>
+          </tr>
+        
+      
+
+      
+    </tbody>
+  </table>
+</section>
+  
+
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    <footer class="site-footer pvh-footer">
+  <div class="container">
+    
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <img
+            class="pvh-footer-logo"
+            src="/pvh_theme/images/prefeitura_vertical_branco.png"
+            alt="Prefeitura de Porto Velho"
+          >
+          <p class="pvh-footer-summary">
+            Portal de Dados Abertos da Prefeitura Municipal de Porto Velho.
+          </p>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h2>Dados abertos</h2>
+          <ul class="list-unstyled">
+            <li><a href="/dataset/">Conjuntos</a></li>
+            <li><a href="/organization/">Organizações</a></li>
+            <li><a href="/group/">Grupos</a></li>
+            <li><a href="/about">Sobre</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <h2>Serviços públicos</h2>
+          <ul class="list-unstyled">
+            <li><a href="https://www.portovelho.ro.gov.br/">Portal da Prefeitura</a></li>
+            <li><a href="https://transparencia.portovelho.ro.gov.br/">Transparência</a></li>
+            <li><a href="https://ouvidoria.portovelho.ro.gov.br/">Ouvidoria</a></li>
+            <li><a href="https://www.portovelho.ro.gov.br/e-sic/">Acesso à informação</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h2>Atendimento</h2>
+          <address>
+            Avenida 7 de Setembro, 237 — Centro<br>
+            Porto Velho — Rondônia<br>
+            CEP 76801-020<br>
+            Segunda a sexta, das 8h às 14h
+          </address>
+        </div>
+      </div>
+
+      <div class="pvh-footer-bottom">
+        <span>© Prefeitura de Porto Velho. Todos os direitos reservados.</span>
+        <span>
+          Desenvolvido com <a href="https://ckan.org/">CKAN</a>
+        </span>
+      </div>
+    
+  </div>
+</footer>
+  
+  
+  
+  
+    
+
+
+    
+    
+    <link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/53df638c_fontawesome.css" rel="stylesheet"/>
+    <script src="/webassets/vendor/240e5086_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/773d6354_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/6d1ad7e6_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/vendor/529a0eb7_htmx.js" type="text/javascript"></script>
+<script src="/webassets/base/a65ea3a0_main.js" type="text/javascript"></script>
+<script src="/webassets/base/78ac888d_ckan.js" type="text/javascript"></script>
+  </body>
+</html>

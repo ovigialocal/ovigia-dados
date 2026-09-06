@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/alero-folha-presenca-2026-08-12",
+  "source_url": "https://www.al.ro.leg.br/media/frequencia_parlamentar/FOLHA_DE_PRESEN%C3%87A_12.08.2026.pdf",
+  "archive_url": "https://web.archive.org/web/20260905133933/https://www.al.ro.leg.br/media/frequencia_parlamentar/FOLHA_DE_PRESEN%C3%87A_12.08.2026.pdf",
+  "verified_at": "2026-09-06T16:05:16Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 412411,
+  "archive_sha256": "a0ec9dbf026514c9225d764b487f27da13193df0d5dcbda7e21d34b335adbcf1",
+  "source_content_type": "application/pdf",
+  "source_size": 412411,
+  "source_sha256": "a0ec9dbf026514c9225d764b487f27da13193df0d5dcbda7e21d34b335adbcf1",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/alero-folha-presenca-2026-08-12.pdf"
+}
