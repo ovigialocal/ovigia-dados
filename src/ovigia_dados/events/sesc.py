@@ -136,21 +136,33 @@ def discover_event_urls(
     return sorted(urls)
 
 
+def _field_value(values: list[str], label: str, start: int = 0) -> tuple[str, int]:
+    pattern = re.compile(rf"^{re.escape(label)}\s*:\s*(.*)$", re.I)
+    for index in range(start, len(values)):
+        match = pattern.match(values[index])
+        if not match:
+            continue
+        inline = match.group(1).strip()
+        if inline:
+            return inline, index
+        if index + 1 < len(values):
+            return values[index + 1].strip(), index
+        break
+    raise SescParseError(f"campo editorial ausente: {label}")
+
+
 def _manual_fields(page: str) -> tuple[str, str, str]:
     parser = _Parser()
     parser.feed(page)
-    visible = "\n".join(parser.visible)
-    match = re.search(
-        r"(?:^|\n)Evento\s*:\s*(?P<title>.*?)\s*\n?Data\s*:\s*(?P<date>.*?)"
-        r"\s*\n?Local\s*:\s*(?P<location>.*?)(?=\n(?:Data|Hor[aá]rio)\s*:|\nAdicionar ao calend[aá]rio|\nNos acompanhe|\Z)",
-        visible,
-        re.I | re.S,
-    )
-    if not match:
-        raise SescParseError("página sem trio editorial Evento/Data/Local")
-    title = re.sub(r"\s+", " ", match.group("title")).strip(" -–—")
-    date_text = re.sub(r"\s+", " ", match.group("date")).strip(" -–—")
-    location = re.sub(r"\s+", " ", match.group("location")).strip(" -–—")
+    try:
+        title, event_index = _field_value(parser.visible, "Evento")
+        date_text, date_index = _field_value(parser.visible, "Data", event_index + 1)
+        location, _ = _field_value(parser.visible, "Local", date_index + 1)
+    except SescParseError as exc:
+        raise SescParseError("página sem trio editorial Evento/Data/Local") from exc
+    title = re.sub(r"\s+", " ", title).strip(" -–—")
+    date_text = re.sub(r"\s+", " ", date_text).strip(" -–—")
+    location = re.sub(r"\s+", " ", location).strip(" -–—")
     if not title or not date_text or not location:
         raise SescParseError("trio editorial incompleto")
     return title, date_text, location
