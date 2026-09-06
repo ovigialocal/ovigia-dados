@@ -10,7 +10,6 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, urlunparse
 
 import requests
-
 from ovigia_dados.events.shared import EventObservation, fetch_text
 
 SESC_BASE_URL = "https://sescro.com.br"
