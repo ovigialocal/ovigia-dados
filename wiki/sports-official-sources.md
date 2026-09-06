@@ -59,11 +59,24 @@ Para Série D, Copa Verde, Copa do Brasil e competições nacionais de base/femi
 
 O adaptador FFER é o primeiro coletor oficial implementado porque a tabela estadual concentra toda a agenda em uma página estável. O contrato do pipeline é deliberadamente source-neutral para que um adaptador CBF produza os mesmos estados (`scheduled`/`finished`) sem reintroduzir IDs proprietários de API comercial como identidade canônica.
 
-## API-Football e bases abertas
+## OpenFootball / football.db
+
+OpenFootball é uma fonte aberta complementar especialmente atraente porque os dados e o schema são publicados em CC0/domínio público e podem ser incorporados, transformados e redistribuídos sem chave de API.
+
+A qualidade precisa ser separada em duas perguntas:
+
+1. **qualidade onde existe cobertura** — alta para o objetivo de fixtures/resultados simples;
+2. **cobertura de Rondônia** — atualmente insuficiente.
+
+Na auditoria de 5 de setembro de 2026, o repositório `openfootball/south-america` tinha `brazil/2026_br1.txt` com agenda/resultados da Série A 2026 acompanhando a temporada corrente, inclusive fixtures de 5 e 6 de setembro. Isso demonstra boa atualidade para a competição coberta.
+
+Por outro lado, para 2026 não havia arquivos equivalentes de Série B, Série C, Série D ou Copa do Brasil no diretório brasileiro. O catálogo `openfootball/clubs` também não continha nenhum dos sete clubes atualmente monitorados no registry do O Vigia: Genus, Guajará, Ji-Paraná, Porto Velho, Real Desportivo Ariquemes, União Cacoalense e Vilhena. Como consequência, a cobertura corrente medida para Rondônia é `0/7` clubes no catálogo e `0/7` em partidas brasileiras 2026.
+
+Isso torna OpenFootball excelente como **open data complementar e histórico**, mas inadequado hoje como fonte operacional principal para futebol rondoniense. O pipeline registra a fonte como `open_data_complementary` e roda auditoria semanal. Se Série D ou clubes de Rondônia surgirem no dataset, a mudança aparecerá automaticamente em `datasets/sports/quality/openfootball-rondonia*.csv` e poderá justificar promoção de uso.
+
+## API-Football e migração
 
 API-Football permanece temporariamente como compatibilidade para detectores e consultas legadas, mas não é mais a fonte de autoridade para agenda/resultados.
-
-OpenFootball/football.db é útil como base aberta/histórica quando houver cobertura, mas não substitui CBF/FFER para a operação corrente local.
 
 ## Observações operacionais
 
@@ -72,3 +85,4 @@ OpenFootball/football.db é útil como base aberta/histórica quando houver cobe
 - Preservar a URL exata da fonte e, quando material para publicação, enfileirar a página/documento no fluxo Wayback existente.
 - Não transformar automaticamente todo resultado em notícia: o `signal` é lead factual. A Redação decide relevância e reapura contexto.
 - Se a estrutura HTML mudar e zero partidas forem reconhecidas, falhar sem sobrescrever a projeção anterior. Zero partidas extraídas não equivale a agenda vazia.
+- Tratar qualidade de open data como propriedade observável: licença, recência, competições presentes e cobertura dos clubes locais devem ser medidas, não presumidas.
