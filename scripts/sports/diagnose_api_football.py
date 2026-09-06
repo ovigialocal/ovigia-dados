@@ -1,5 +1,10 @@
 # /// script
 # requires-python = ">=3.12"
+# dependencies = [
+#     "requests>=2.31.0",
+#     "pyrate-limiter>=3.7",
+#     "tenacity>=9.0",
+# ]
 # ///
 """Sonda descartável: descobre plano, cobertura e IDs reais na API-Football."""
 
@@ -12,18 +17,25 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
-from ovigia_dados.sports.client import ApiFootballAuthError, ApiFootballClient
+from ovigia_dados.sports.client import (
+    ApiFootballAuthError,
+    ApiFootballClient,
+    ApiFootballQuotaError,
+    detect_channel,
+)
 
 # A mesma assinatura é vendida por dois canais, com host e header próprios.
 # A chave só vale no canal onde foi emitida, então o erro é idêntico ao de uma
 # chave inválida quando ela é apresentada ao canal errado.
+# /status só existe no canal direto; na RapidAPI a cota vem nos headers de
+# qualquer endpoint, e /v3/timezone é o mais barato que responde a todos.
 CHANNELS = {
     "direto (api-sports)": (
         "https://v3.football.api-sports.io/status",
         "x-apisports-key",
     ),
     "rapidapi": (
-        "https://api-football-v1.p.rapidapi.com/v3/status",
+        "https://api-football-v1.p.rapidapi.com/v3/timezone",
         "x-rapidapi-key",
     ),
 }
@@ -93,24 +105,41 @@ def probe_channels(key: str) -> None:
 
 
 def main() -> int:
-    # A sonda faz nove requests e precisa caber na janela antes de qualquer kill,
-    # então dispensa o throttle conservador do pipeline diário.
-    client = ApiFootballClient(requests_per_minute=60)
+    # A sonda gasta da mesma cota diária do pipeline: por padrão faz duas
+    # requisições, e só busca IDs por nome quando explicitamente pedido.
+    client = ApiFootballClient(requests_per_minute=60, run_budget=12)
+    raw_key = (os.environ.get("API_FOOTBALL_KEY") or "").strip()
+    print(f"=== chave: {describe_key(raw_key)} -> canal {detect_channel(raw_key)}", flush=True)
+    print(f"=== canal do cliente: {client.channel} ({client.base_url})", flush=True)
+
+    # /status não existe na RapidAPI: pedi-lo lá devolve 'endpoint does not
+    # exist' e faz uma chave boa parecer recusada.
+    ping = "status" if client.channel == "apisports" else "timezone"
 
     try:
-        status = client.get("status")
+        status = client.get(ping)
+    except ApiFootballQuotaError as exhausted:
+        print(f"=== cota esgotada antes da sonda: {exhausted}", flush=True)
+        return 0
     except ApiFootballAuthError as refusal:
         # Relatar a recusa é o resultado da sonda, não uma falha dela.
         print(f"=== chave recusada no canal do pipeline\n{refusal}", flush=True)
-        raw_key = (os.environ.get("API_FOOTBALL_KEY") or "").strip()
-        print(f"\n=== formato da chave recebida: {describe_key(raw_key)}", flush=True)
         if raw_key:
             print("\n=== qual canal reconhece esta chave", flush=True)
             probe_channels(raw_key)
         return 0
 
-    print("=== status", flush=True)
-    print(json.dumps(status.get("response", {}), ensure_ascii=False, indent=2), flush=True)
+    print(f"=== {ping}: aceita", flush=True)
+    if ping == "status":
+        print(json.dumps(status.get("response", {}), ensure_ascii=False, indent=2), flush=True)
+    print(
+        f"=== cota: {client.daily_remaining} de {client.daily_limit} restantes hoje",
+        flush=True,
+    )
+
+    if os.environ.get("SEARCH_ENTITIES", "").strip().lower() not in ("1", "true", "yes"):
+        print("\n(buscas por nome desligadas; SEARCH_ENTITIES=true para ligar)", flush=True)
+        return 0
 
     leagues = client.get("leagues", {"search": "Rondoniense"})
     show("leagues search=Rondoniense", leagues)

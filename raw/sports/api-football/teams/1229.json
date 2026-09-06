@@ -1,0 +1,34 @@
+{
+  "get": "teams",
+  "parameters": {
+    "id": "1229"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 1229,
+        "name": "Genus",
+        "code": "GEN",
+        "country": "Brazil",
+        "founded": 1981,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1229.png"
+      },
+      "venue": {
+        "id": 2943,
+        "name": "Estádio Aluízio Ferreira de Oliveira",
+        "address": "Rua Rui Barbosa 953",
+        "city": "Porto Velho, Rondônia",
+        "capacity": 8000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/2943.png"
+      }
+    }
+  ]
+}

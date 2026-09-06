@@ -7,16 +7,38 @@ execute:
   warning: false
 ---
 
-Esta consulta é uma sonda reproduzível da API-Football. Ela não decide o que é matéria: apenas registra quais competições encontradas para `Rondoniense` estão disponíveis e quais coberturas a API declara para as temporadas retornadas.
+Esta consulta é uma sonda reproduzível da API-Football. Ela não decide o que é matéria: apenas registra quais coberturas a API declara para as temporadas da competição autorada no registry.
+
+A cobertura declarada muda por temporada, não por dia. O payload fica versionado em `raw/sports/api-football/leagues/`, e a sonda lê de lá — este relatório compartilha a mesma cota diária do pipeline, e uma sonda que gasta requisição para reconfirmar a mesma resposta todo dia é justamente o que a economia removeu. Para rebuscar na fonte, renderize com `REFRESH_LEAGUE_COVERAGE=true`; o diff em `raw/` mostra o que mudou.
 
 ```{python}
+import os
 from datetime import UTC, datetime
 
 from ovigia_dados.sports.client import ApiFootballClient
+from ovigia_dados.sports.raw_cache import DEFAULT_RAW_ROOT, read_cached, write_cached
+from ovigia_dados.sports.registry import load_sports_registry
 
-client = ApiFootballClient()
-observed_at = datetime.now(UTC).isoformat()
-payload = client.get("leagues", {"search": "Rondoniense"})
+# O league_id vem do registry OKF, que é onde ele é autorado. Buscar por nome
+# toda execução gastava uma requisição para redescobrir uma constante — e
+# ainda deixava a sonda dependente de como a API grafa "Rondoniense".
+registry = load_sports_registry("knowledge/sports/registry")
+league_id = next(
+    league["league_id"] for league in registry["leagues"] if league["name"] == "Rondoniense"
+)
+
+refresh = os.environ.get("REFRESH_LEAGUE_COVERAGE", "").strip().lower() in ("1", "true", "yes")
+payload = None if refresh else read_cached(DEFAULT_RAW_ROOT, "leagues", league_id)
+
+if payload is None:
+    payload = ApiFootballClient().get("leagues", {"id": league_id})
+    write_cached(DEFAULT_RAW_ROOT, "leagues", league_id, payload)
+    source = "API-Football (rebuscado nesta renderização)"
+else:
+    source = "raw/sports/api-football (payload versionado; a data está no git log)"
+
+rendered_at = datetime.now(UTC).isoformat()
+print(f"Fonte da cobertura: {source}")
 
 rows = []
 for item in payload.get("response", []):
@@ -26,7 +48,11 @@ for item in payload.get("response", []):
         coverage = season.get("coverage", {}) or {}
         rows.append(
             {
-                "observed_at": observed_at,
+                # Renderização e observação deixaram de ser a mesma coisa: com
+                # payload versionado, carimbar a hora do render como
+                # observed_at seria afirmar uma frescura que o dado não tem.
+                "rendered_at": rendered_at,
+                "coverage_source": source,
                 "league_id": league.get("id"),
                 "league": league.get("name"),
                 "country": country.get("name"),
@@ -42,4 +68,4 @@ for item in payload.get("response", []):
 rows
 ```
 
-A ausência de uma competição ou de uma cobertura nesta resposta significa apenas que ela não foi observada nesta consulta da API-Football; não prova inexistência da competição ou do dado em outra fonte.
+A ausência de uma competição ou de uma cobertura nesta resposta significa apenas que ela não foi observada na consulta que originou o payload; não prova inexistência da competição ou do dado em outra fonte. Quando `coverage_source` aponta para `raw/`, a observação é a do payload versionado, não a deste render.

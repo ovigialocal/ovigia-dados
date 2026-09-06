@@ -6,6 +6,9 @@
 #     "pydantic>=2.0.0",
 #     "internetarchive>=4.0.0",
 #     "okf-parser==0.45.2",
+#     "requests>=2.31.0",
+#     "pyrate-limiter>=3.7",
+#     "tenacity>=9.0",
 # ]
 # ///
 """Pipeline esportivo para API-Football v3 com extração, normalização e detecção."""
@@ -21,7 +24,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
 from ovigia_dados.archive.publisher import compute_sha256
 from ovigia_dados.schemas import SnapshotManifest
-from ovigia_dados.sports.client import ApiFootballClient, ApiFootballPlanError
+from ovigia_dados.sports.client import (
+    DEFAULT_RUN_BUDGET,
+    ApiFootballClient,
+    ApiFootballPlanError,
+)
 from ovigia_dados.sports.collectors.normalizer import (
     FIXTURES_SCHEMA,
     STANDINGS_SCHEMA,
@@ -36,6 +43,7 @@ from ovigia_dados.sports.detectors.sports_detectors import (
     LocalTeamStandingsMovementDetector,
 )
 from ovigia_dados.sports.leads import materialize_signal_concepts
+from ovigia_dados.sports.raw_cache import DEFAULT_RAW_ROOT, read_cached, write_cached
 from ovigia_dados.sports.registry import load_sports_registry
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -65,10 +73,33 @@ def _flatten_standings(payload: dict[str, Any]) -> list[dict[str, Any]]:
     return rows
 
 
+def team_payload(
+    client: ApiFootballClient,
+    team_id: int,
+    raw_root: Path,
+    refresh_static: bool,
+) -> dict[str, Any]:
+    """Payload do time, do repositório quando já houver um guardado.
+
+    Nome, fundação, estádio e cidade não mudam de um dia para o outro:
+    pedi-los todo dia é gastar cota para reconfirmar constante.
+    """
+    if not refresh_static:
+        cached = read_cached(raw_root, "teams", team_id)
+        if cached is not None:
+            return cached
+
+    payload = client.get("teams", {"id": team_id})
+    write_cached(raw_root, "teams", team_id, payload)
+    return payload
+
+
 def collect_live_records(
     client: ApiFootballClient,
     config: dict[str, Any],
     snapshot_id: str,
+    raw_root: Path = DEFAULT_RAW_ROOT,
+    refresh_static: bool = False,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     """Collect current API-Football data only for configured entities."""
     season = _season_from_snapshot(snapshot_id)
@@ -81,8 +112,8 @@ def collect_live_records(
     standings_records: list[dict[str, Any]] = []
 
     for team_cfg in team_configs:
-        team_payload = client.get("teams", {"id": int(team_cfg["team_id"])})
-        for raw in team_payload.get("response", []):
+        payload = team_payload(client, int(team_cfg["team_id"]), raw_root, refresh_static)
+        for raw in payload.get("response", []):
             teams_records.append(
                 normalize_team(raw, uf=team_cfg.get("uf"), snapshot_id=snapshot_id)
             )
@@ -102,27 +133,9 @@ def collect_live_records(
 
     for league_cfg in league_configs:
         league_id = int(league_cfg["league_id"])
-        # Sem season: a API devolve todas as temporadas da liga e o filtro é
-        # local, então a consulta de cobertura não esbarra no plano.
-        coverage_payload = client.get("leagues", {"id": league_id})
-        has_standings = False
-        for response_item in coverage_payload.get("response", []):
-            for season_info in response_item.get("seasons", []) or []:
-                if int(season_info.get("year", -1)) == season:
-                    coverage = season_info.get("coverage", {}) or {}
-                    fixtures_coverage = coverage.get("fixtures", {}) or {}
-                    has_standings = bool(coverage.get("standings"))
-                    logger.info(
-                        "Coverage league=%s season=%s fixtures=%s standings=%s",
-                        league_id,
-                        season,
-                        bool(fixtures_coverage),
-                        has_standings,
-                    )
-
-        if not has_standings:
-            continue
-
+        # Sem sondagem de cobertura antes: ela custava uma requisição por
+        # competição para prever uma recusa que a própria chamada de
+        # standings já informa, e que o except abaixo já trata.
         try:
             standings_payload = client.get("standings", {"league": league_id, "season": season})
         except ApiFootballPlanError as refusal:
@@ -249,6 +262,28 @@ def main():
     parser.add_argument(
         "--mock-sample", action="store_true", help="Usa dados simulados para teste local e CI"
     )
+    parser.add_argument(
+        "--raw-dir",
+        default=str(DEFAULT_RAW_ROOT),
+        help="Diretório versionado dos payloads brutos de entidades estáveis",
+    )
+    parser.add_argument(
+        "--refresh-static",
+        action="store_true",
+        help=(
+            "Rebusca times na API mesmo havendo payload guardado. Use quando a fonte "
+            "mudar (estádio, fundação, nome); o diff em raw/ mostra o que mudou."
+        ),
+    )
+    parser.add_argument(
+        "--budget",
+        type=int,
+        default=DEFAULT_RUN_BUDGET,
+        help=(
+            "Teto de requisições à API-Football nesta execução. O plano gratuito dá 100 por "
+            "dia; um run que possa gastar as 100 deixa o dia sem margem para reprocessar."
+        ),
+    )
     args = parser.parse_args()
 
     out_dir = Path(args.output_dir)
@@ -262,9 +297,29 @@ def main():
         teams_records, fixtures_records, standings_records = mock_records(args.snapshot_id)
     else:
         logger.info("Executando coleta real da API-Football para entidades monitoradas em OKF.")
-        teams_records, fixtures_records, standings_records = collect_live_records(
-            ApiFootballClient(), config, args.snapshot_id
+        client = ApiFootballClient(run_budget=args.budget)
+        logger.info(
+            "Canal da API-Football em uso: %s (%s)",
+            client.channel,
+            client.base_url,
         )
+        try:
+            teams_records, fixtures_records, standings_records = collect_live_records(
+                client,
+                config,
+                args.snapshot_id,
+                raw_root=Path(args.raw_dir),
+                refresh_static=args.refresh_static,
+            )
+        finally:
+            # O consumo é o dado operacional que faltava: sem ele, só se
+            # descobre que a cota acabou quando a coleta já falhou.
+            logger.info(
+                "Consumo API-Football nesta execução: %s requisições; restantes hoje: %s de %s",
+                client.requests_made,
+                client.daily_remaining if client.daily_remaining is not None else "?",
+                client.daily_limit if client.daily_limit is not None else "?",
+            )
 
     teams_file = out_dir / "teams.parquet"
     fixtures_file = out_dir / "fixtures.parquet"
