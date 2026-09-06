@@ -103,9 +103,11 @@ def evaluate_pair(
     decision: Literal["equivalent", "review"] | None = None
     if same_date:
         score = (0.68 * title) + 0.22 + (0.07 * venue) + (0.03 * organizer)
-        if title >= 0.78 and score >= 0.84:
+        strong_title = title >= 0.84 and score >= 0.80
+        title_and_venue = title >= 0.72 and venue >= 0.75 and score >= 0.79
+        if strong_title or title_and_venue:
             decision = "equivalent"
-        elif title >= 0.65 and score >= 0.70:
+        elif title >= 0.62 and score >= 0.68:
             decision = "review"
     elif left_date is None or right_date is None:
         score = (0.8 * title) + (0.15 * venue) + (0.05 * organizer)
@@ -293,7 +295,9 @@ def materialize_entities(
     changed: list[Path] = []
 
     for component in _components(reconciliations):
-        existing_ids = {member_to_entity[member] for member in component if member in member_to_entity}
+        existing_ids = {
+            member_to_entity[member] for member in component if member in member_to_entity
+        }
         if len(existing_ids) > 1:
             continue
         canonical_id = next(iter(existing_ids), _canonical_id(component))
