@@ -261,9 +261,7 @@ def discover_promoted_event_ids(page: str) -> list[int]:
     return sorted(ids)
 
 
-def scan_ids_from_listing(
-    page: str, *, bootstrap_max: int = 150, lookahead: int = 30
-) -> list[int]:
+def scan_ids_from_listing(page: str, *, bootstrap_max: int = 150, lookahead: int = 30) -> list[int]:
     promoted = discover_promoted_event_ids(page)
     ceiling = max([bootstrap_max, *(event_id + lookahead for event_id in promoted)])
     return list(range(1, ceiling + 1))
