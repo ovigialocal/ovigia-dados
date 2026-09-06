@@ -44,13 +44,9 @@ class FakeClient:
                 ]
             }
         if endpoint == "fixtures":
-            # O endpoint por data devolve o mundo inteiro; o recorte é nosso.
-            return {
-                "response": [
-                    _fixture(int(params["date"].replace("-", "")), MONITORED_TEAM, OTHER_TEAM),
-                    _fixture(90000, UNRELATED_TEAM, 34),
-                ]
-            }
+            team = params["team"]
+            offset = 1 if "last" in params else 2
+            return {"response": [_fixture(team * 10 + offset, team, OTHER_TEAM)]}
         if endpoint == "leagues":
             return {
                 "response": [
@@ -93,27 +89,50 @@ CONFIG = {
 }
 
 
-def test_fixtures_sao_coletados_por_data_e_nao_por_season():
+def test_fixtures_sao_pedidos_por_time_sem_season():
     client = FakeClient()
 
     module.collect_live_records(client, CONFIG, "2026-09-05")
 
     fixture_calls = [params for endpoint, params in client.calls if endpoint == "fixtures"]
-    assert [params["date"] for params in fixture_calls] == [
-        "2026-09-04",
-        "2026-09-05",
-        "2026-09-06",
+    assert fixture_calls == [
+        {"team": MONITORED_TEAM, "last": module.RECENT_FIXTURES_PER_TEAM},
+        {"team": MONITORED_TEAM, "next": module.UPCOMING_FIXTURES_PER_TEAM},
     ]
-    assert not any("season" in params for params in fixture_calls)
+    assert not any("season" in params or "date" in params for params in fixture_calls)
 
 
-def test_coleta_por_data_descarta_jogos_de_times_nao_monitorados():
+def test_uma_requisicao_por_time_e_nao_uma_varredura_do_dia():
     client = FakeClient()
+    config = {
+        "teams": [{"team_id": MONITORED_TEAM, "uf": "RO"}, {"team_id": OTHER_TEAM, "uf": "RO"}],
+        "leagues": [{"league_id": 615}],
+    }
 
-    _, fixtures, _ = module.collect_live_records(client, CONFIG, "2026-09-05")
+    _, fixtures, _ = module.collect_live_records(client, config, "2026-09-05")
 
-    assert {row["fixture_id"] for row in fixtures} == {20260904, 20260905, 20260906}
-    assert all(MONITORED_TEAM in (row["home_team_id"], row["away_team_id"]) for row in fixtures)
+    fixture_calls = [params for endpoint, params in client.calls if endpoint == "fixtures"]
+    assert len(fixture_calls) == 4
+    assert {params["team"] for params in fixture_calls} == {MONITORED_TEAM, OTHER_TEAM}
+    assert len(fixtures) == 4
+
+
+def test_jogo_repetido_entre_dois_times_monitorados_conta_uma_vez():
+    class Derby(FakeClient):
+        def get(self, endpoint, params=None):
+            if endpoint == "fixtures":
+                self.calls.append((endpoint, params))
+                return {"response": [_fixture(777, MONITORED_TEAM, OTHER_TEAM)]}
+            return super().get(endpoint, params)
+
+    config = {
+        "teams": [{"team_id": MONITORED_TEAM, "uf": "RO"}, {"team_id": OTHER_TEAM, "uf": "RO"}],
+        "leagues": [{"league_id": 615}],
+    }
+
+    _, fixtures, _ = module.collect_live_records(Derby(), config, "2026-09-05")
+
+    assert [row["fixture_id"] for row in fixtures] == [777]
 
 
 def test_cobertura_da_liga_e_consultada_sem_season():

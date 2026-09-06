@@ -13,7 +13,7 @@
 import argparse
 import logging
 import sys
-from datetime import UTC, date, datetime, timedelta
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -42,12 +42,11 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 
-# A API-Football só aceita fixtures por data dentro de uma janela estreita nos
-# planos sem assinatura paga. Um dia para trás fecha jogos que viraram a noite,
-# um dia para frente é toda a agenda que o plano enxerga.
-FIXTURE_WINDOW_DAYS_BACK = 1
-FIXTURE_WINDOW_DAYS_AHEAD = 1
-COLLECTION_TIMEZONE = "America/Porto_Velho"
+# Os filtros last e next não exigem season, que é o campo que os planos sem
+# assinatura paga recusam na temporada corrente. Pedir por time devolve só os
+# jogos monitorados, em vez da varredura do dia inteiro do mundo.
+RECENT_FIXTURES_PER_TEAM = 5
+UPCOMING_FIXTURES_PER_TEAM = 3
 
 
 def _season_from_snapshot(snapshot_id: str) -> int:
@@ -55,30 +54,6 @@ def _season_from_snapshot(snapshot_id: str) -> int:
         return int(snapshot_id[:4])
     except (TypeError, ValueError):
         return datetime.now(UTC).year
-
-
-def _snapshot_date(snapshot_id: str) -> date:
-    try:
-        return date.fromisoformat(snapshot_id[:10])
-    except (TypeError, ValueError):
-        return datetime.now(UTC).date()
-
-
-def fixture_window(snapshot_id: str) -> list[str]:
-    """Datas ISO que a coleta de fixtures percorre, uma requisição por data."""
-    anchor = _snapshot_date(snapshot_id)
-    span = range(-FIXTURE_WINDOW_DAYS_BACK, FIXTURE_WINDOW_DAYS_AHEAD + 1)
-    return [(anchor + timedelta(days=offset)).isoformat() for offset in span]
-
-
-def _fixture_involves(raw: dict[str, Any], team_ids: set[int]) -> bool:
-    sides = raw.get("teams", {}) or {}
-    playing = {
-        side.get("id")
-        for side in (sides.get("home") or {}, sides.get("away") or {})
-        if side.get("id") is not None
-    }
-    return bool(playing & team_ids)
 
 
 def _flatten_standings(payload: dict[str, Any]) -> list[dict[str, Any]]:
@@ -112,18 +87,18 @@ def collect_live_records(
                 normalize_team(raw, uf=team_cfg.get("uf"), snapshot_id=snapshot_id)
             )
 
-    # Uma requisição por data cobre todas as competições de uma vez, e não
-    # depende de season — que os planos sem assinatura recusam na temporada
-    # corrente. O recorte por time monitorado é nosso, sobre a resposta.
-    for day in fixture_window(snapshot_id):
-        fixture_payload = client.get("fixtures", {"date": day, "timezone": COLLECTION_TIMEZONE})
-        for raw in fixture_payload.get("response", []):
-            if not _fixture_involves(raw, monitored_team_ids):
-                continue
-            normalized = normalize_fixture(raw, snapshot_id=snapshot_id)
-            fixture_id = normalized.get("fixture_id")
-            if fixture_id is not None:
-                fixtures_by_id[int(fixture_id)] = normalized
+    # Pedir por time traz só o que interessa: cada resposta tem os jogos de um
+    # time monitorado, e não os ~1500 do mundo inteiro naquele dia. O clássico
+    # entre dois monitorados chega duas vezes e é deduplicado pelo fixture_id.
+    for team_id in sorted(monitored_team_ids):
+        for scope in ("last", "next"):
+            limit = RECENT_FIXTURES_PER_TEAM if scope == "last" else UPCOMING_FIXTURES_PER_TEAM
+            fixture_payload = client.get("fixtures", {"team": team_id, scope: limit})
+            for raw in fixture_payload.get("response", []):
+                normalized = normalize_fixture(raw, snapshot_id=snapshot_id)
+                fixture_id = normalized.get("fixture_id")
+                if fixture_id is not None:
+                    fixtures_by_id[int(fixture_id)] = normalized
 
     for league_cfg in league_configs:
         league_id = int(league_cfg["league_id"])
