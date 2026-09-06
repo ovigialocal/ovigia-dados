@@ -28,6 +28,25 @@ def _request(root: Path) -> str:
     return concept_id
 
 
+def _legacy_failed_result(root: Path, request_id: str, code: str) -> None:
+    _write(
+        root,
+        "knowledge/wayback/results/example.md",
+        "---\n"
+        "type: archive-result\n"
+        f"request_concept_id: '{request_id}'\n"
+        "source_url: 'https://example.com/'\n"
+        "attempted_at: '2026-09-02T12:01:00Z'\n"
+        "status: failed\n"
+        "failure:\n"
+        f"  code: '{code}'\n"
+        "  detail: 'legacy transient response'\n"
+        "sources:\n"
+        f"  - resource: '{request_id}'\n"
+        "---\n",
+    )
+
+
 def test_verified_save_writes_archive_result_with_request_concept_id(tmp_path: Path) -> None:
     request_id = _request(tmp_path)
 
@@ -91,6 +110,72 @@ def test_infrastructure_error_leaves_request_pending_and_writes_no_result(tmp_pa
 
     assert written == []
     assert not (tmp_path / "knowledge/wayback/results/example.md").exists()
+
+
+def test_retryable_error_leaves_request_pending_and_writes_no_result(tmp_path: Path) -> None:
+    _request(tmp_path)
+
+    def save(_url: str) -> WaybackSaveResult:
+        return WaybackSaveResult(
+            url="https://example.com/",
+            status="retryable_error",
+            http_status=429,
+            error_message="rate limited",
+            timestamp="2026-09-02T12:01:00Z",
+            attempted=True,
+            reached_archive=True,
+            archive_failure=False,
+        )
+
+    assert drain_wayback_queue(tmp_path, save=save) == []
+    assert not (tmp_path / "knowledge/wayback/results/example.md").exists()
+
+
+def test_legacy_429_result_is_requeued_and_replaced_by_archived_result(tmp_path: Path) -> None:
+    request_id = _request(tmp_path)
+    _legacy_failed_result(tmp_path, request_id, "http-429")
+
+    def save(_url: str) -> WaybackSaveResult:
+        return WaybackSaveResult(
+            url="https://example.com/",
+            status="verified",
+            archive_url="https://web.archive.org/web/20260906150000/https://example.com/",
+            timestamp="2026-09-06T15:00:00Z",
+            attempted=True,
+            reached_archive=True,
+        )
+
+    written = drain_wayback_queue(tmp_path, save=save)
+
+    assert written == ["knowledge/wayback/results/example.md"]
+    text = (tmp_path / written[0]).read_text(encoding="utf-8")
+    assert "status: archived" in text
+    assert "http-429" not in text
+
+
+def test_legacy_503_result_is_requeued(tmp_path: Path) -> None:
+    request_id = _request(tmp_path)
+    _legacy_failed_result(tmp_path, request_id, "http-503")
+    attempted: list[str] = []
+
+    def save(url: str) -> WaybackSaveResult:
+        attempted.append(url)
+        return WaybackSaveResult(
+            url=url,
+            status="retryable_error",
+            http_status=503,
+            error_message="still unavailable",
+            timestamp="2026-09-06T15:00:00Z",
+            attempted=True,
+            reached_archive=True,
+            archive_failure=False,
+        )
+
+    assert drain_wayback_queue(tmp_path, save=save) == []
+    assert attempted == ["https://example.com/"]
+    assert "http-503" in (
+        tmp_path / "knowledge/wayback/results/example.md"
+    ).read_text(encoding="utf-8")
 
 
 def test_terminal_request_is_idempotently_skipped(tmp_path: Path) -> None:
