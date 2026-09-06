@@ -1,9 +1,16 @@
 name: Sports API-Football Diagnose (temporary)
 
+# Disparo manual apenas. Rodar a cada push gastava ~9 requisições de busca
+# por commit em um orçamento diário de 100, o que sozinho explica dias
+# inteiros sem cota para o pipeline.
 on:
-  push:
-    branches:
-      - claude/api-football-project-qou81l
+  workflow_dispatch:
+    inputs:
+      search_entities:
+        description: 'Também buscar IDs de times por nome (gasta ~7 requisições)'
+        required: false
+        default: 'false'
+        type: string
 
 permissions:
   contents: read
@@ -29,4 +36,5 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           API_FOOTBALL_KEYS: ${{ secrets.API_FOOTBALL_KEYS }}
           PYTHONUNBUFFERED: "1"
+          SEARCH_ENTITIES: ${{ inputs.search_entities }}
         run: uv run scripts/sports/diagnose_api_football.py

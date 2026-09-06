@@ -21,7 +21,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
 from ovigia_dados.archive.publisher import compute_sha256
 from ovigia_dados.schemas import SnapshotManifest
-from ovigia_dados.sports.client import ApiFootballClient, ApiFootballPlanError
+from ovigia_dados.sports.client import (
+    DEFAULT_RUN_BUDGET,
+    ApiFootballClient,
+    ApiFootballPlanError,
+)
 from ovigia_dados.sports.collectors.normalizer import (
     FIXTURES_SCHEMA,
     STANDINGS_SCHEMA,
@@ -249,6 +253,15 @@ def main():
     parser.add_argument(
         "--mock-sample", action="store_true", help="Usa dados simulados para teste local e CI"
     )
+    parser.add_argument(
+        "--budget",
+        type=int,
+        default=DEFAULT_RUN_BUDGET,
+        help=(
+            "Teto de requisições à API-Football nesta execução. O plano gratuito dá 100 por "
+            "dia; um run que possa gastar as 100 deixa o dia sem margem para reprocessar."
+        ),
+    )
     args = parser.parse_args()
 
     out_dir = Path(args.output_dir)
@@ -262,9 +275,25 @@ def main():
         teams_records, fixtures_records, standings_records = mock_records(args.snapshot_id)
     else:
         logger.info("Executando coleta real da API-Football para entidades monitoradas em OKF.")
-        teams_records, fixtures_records, standings_records = collect_live_records(
-            ApiFootballClient(), config, args.snapshot_id
+        client = ApiFootballClient(run_budget=args.budget)
+        logger.info(
+            "Canal da API-Football em uso: %s (%s)",
+            client.channel,
+            client.base_url,
         )
+        try:
+            teams_records, fixtures_records, standings_records = collect_live_records(
+                client, config, args.snapshot_id
+            )
+        finally:
+            # O consumo é o dado operacional que faltava: sem ele, só se
+            # descobre que a cota acabou quando a coleta já falhou.
+            logger.info(
+                "Consumo API-Football nesta execução: %s requisições; restantes hoje: %s de %s",
+                client.requests_made,
+                client.daily_remaining if client.daily_remaining is not None else "?",
+                client.daily_limit if client.daily_limit is not None else "?",
+            )
 
     teams_file = out_dir / "teams.parquet"
     fixtures_file = out_dir / "fixtures.parquet"

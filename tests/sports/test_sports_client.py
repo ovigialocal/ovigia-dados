@@ -5,9 +5,13 @@ import urllib.error
 import pytest
 
 from ovigia_dados.sports.client import (
+    RAPIDAPI_BASE_URL,
+    RAPIDAPI_HOST,
     ApiFootballAuthError,
     ApiFootballClient,
     ApiFootballPlanError,
+    ApiFootballQuotaError,
+    detect_channel,
 )
 
 
@@ -144,3 +148,117 @@ def test_errors_plan_levanta_plan_error_com_atributos(monkeypatch):
 
     assert refusal.value.endpoint == "standings"
     assert "Free plans" in refusal.value.detail
+
+
+def test_detect_channel_pelo_formato_da_chave():
+    """O canal é decidível localmente, sem gastar requisição para descobrir."""
+    assert detect_channel("a" * 32) == "apisports"
+    assert detect_channel("0123456789abcdef0123456789abcdef") == "apisports"
+    assert detect_channel("d7" + "x" * 48) == "rapidapi"
+    assert detect_channel("") == "rapidapi"
+
+
+def test_chave_rapidapi_usa_host_e_header_do_canal_certo(monkeypatch):
+    """Apresentar chave da RapidAPI ao host direto é recusa garantida.
+
+    Era o defeito que fazia a chave parecer suspensa: todo request do cron
+    caía em errors.token porque ia ao canal que não a emitiu.
+    """
+    client = ApiFootballClient(api_keys=["k" * 50], requests_per_minute=6000)
+    assert client.channel == "rapidapi"
+    assert client.base_url == RAPIDAPI_BASE_URL
+
+    seen = {}
+
+    def _capture(request, timeout=None):
+        seen["url"] = request.full_url
+        seen["headers"] = dict(request.headers)
+        return _FakeResponse({"response": [], "errors": []})
+
+    monkeypatch.setattr("urllib.request.urlopen", _capture)
+    client.get("teams", {"id": 12946})
+
+    assert seen["url"].startswith("https://api-football-v1.p.rapidapi.com/v3/teams")
+    assert seen["headers"]["X-rapidapi-key"] == "k" * 50
+    assert seen["headers"]["X-rapidapi-host"] == RAPIDAPI_HOST
+    assert "X-apisports-key" not in seen["headers"]
+
+
+def test_chave_apisports_mantem_canal_direto(monkeypatch):
+    client = ApiFootballClient(api_keys=["a" * 32], requests_per_minute=6000)
+    assert client.channel == "apisports"
+
+    seen = {}
+
+    def _capture(request, timeout=None):
+        seen["headers"] = dict(request.headers)
+        return _FakeResponse({"response": [], "errors": []})
+
+    monkeypatch.setattr("urllib.request.urlopen", _capture)
+    client.get("status")
+
+    assert seen["headers"]["X-apisports-key"] == "a" * 32
+    assert "X-rapidapi-key" not in seen["headers"]
+
+
+def test_cota_diaria_esgotada_nao_e_repetida(monkeypatch):
+    """429 com reset em horas é cota do dia: insistir só atrai bloqueio."""
+    client = ApiFootballClient(api_keys=["a" * 32], requests_per_minute=6000)
+    attempts = []
+
+    def _refuse(request, timeout=None):
+        attempts.append(1)
+        raise urllib.error.HTTPError(
+            url="https://v3.football.api-sports.io/teams",
+            code=429,
+            msg="Too Many Requests",
+            hdrs={"x-ratelimit-requests-reset": "29829"},
+            fp=None,
+        )
+
+    monkeypatch.setattr("urllib.request.urlopen", _refuse)
+
+    with pytest.raises(ApiFootballQuotaError) as esgotada:
+        client.get("teams", {"id": 12946})
+
+    assert len(attempts) == 1
+    assert esgotada.value.reset_seconds == 29829
+
+
+def test_teto_por_execucao_impede_gastar_a_cota_do_dia(monkeypatch):
+    """Nenhuma execução isolada pode consumir o orçamento diário inteiro."""
+    client = ApiFootballClient(api_keys=["a" * 32], requests_per_minute=6000, run_budget=2)
+    monkeypatch.setattr(
+        "urllib.request.urlopen",
+        lambda request, timeout=None: _FakeResponse({"response": [], "errors": []}),
+    )
+
+    client.get("teams", {"id": 1})
+    client.get("teams", {"id": 2})
+
+    with pytest.raises(ApiFootballQuotaError):
+        client.get("teams", {"id": 3})
+
+
+def test_headers_de_cota_ficam_visiveis_para_quem_chama(monkeypatch):
+    """Saber quanto resta é o que permite decidir sem apanhar da API."""
+    client = ApiFootballClient(api_keys=["a" * 32], requests_per_minute=6000)
+
+    def _answer(request, timeout=None):
+        response = _FakeResponse({"response": [], "errors": []})
+        response.headers = {
+            "x-ratelimit-requests-limit": "100",
+            "x-ratelimit-requests-remaining": "7",
+        }
+        return response
+
+    monkeypatch.setattr("urllib.request.urlopen", _answer)
+    client.get("teams", {"id": 1})
+
+    assert client.daily_limit == 100
+    assert client.daily_remaining == 7
+
+    # Com a cota zerada nos headers, a próxima pergunta nem sai.
+    client.daily_remaining = 0
+    with pytest.raises(ApiFootballQuotaError):
+        client.get("teams", {"id": 2})
