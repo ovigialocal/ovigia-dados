@@ -10,7 +10,13 @@ import urllib.request
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 
-from tenacity import Retrying, RetryCallState, before_sleep_log, retry_if_exception, stop_after_attempt
+from tenacity import (
+    RetryCallState,
+    Retrying,
+    before_sleep_log,
+    retry_if_exception,
+    stop_after_attempt,
+)
 
 logger = logging.getLogger(__name__)
 
