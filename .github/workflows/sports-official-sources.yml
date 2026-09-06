@@ -4,12 +4,19 @@ on:
   schedule:
     - cron: '15 */3 * * *'
   workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/ovigia_dados/sports/official_sources.py'
+      - 'scripts/sports/collect_official_schedule.py'
+      - 'tests/sports/test_official_sources.py'
+      - '.github/workflows/sports-official-sources.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: sports-official-sources
+  group: sports-official-sources-${{ github.event.pull_request.number || 'main' }}
   cancel-in-progress: false
 
 jobs:
@@ -49,6 +56,7 @@ jobs:
           uv run okf-parser check knowledge/sports/leads
 
       - name: Persist changed agenda and new post-match leads
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "O Vigia Sports Data Bot"
           git config user.email "actions@users.noreply.github.com"
