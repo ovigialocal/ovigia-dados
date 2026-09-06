@@ -263,8 +263,31 @@ class ApiFootballClient:
             )
         return _int("x-ratelimit-requests-reset")
 
+    def _guard_budget(self, endpoint: str) -> None:
+        """Recusa a tentativa que não cabe no orçamento.
+
+        Roda antes de cada tentativa física, e não uma vez por chamada: a
+        conta que importa é de requisições emitidas, e um retry emite outra.
+        A resposta anterior é também quem revela que a cota chegou na
+        reserva, então reler aqui é o que impede o retry de passar por cima
+        dela.
+        """
+        if self.requests_made >= self.run_budget:
+            raise ApiFootballQuotaError(
+                endpoint,
+                f"teto de {self.run_budget} requisições por execução atingido",
+            )
+        if self.daily_remaining is not None and self.daily_remaining <= self.daily_reserve:
+            raise ApiFootballQuotaError(
+                endpoint,
+                f"restam {self.daily_remaining} requisições e a reserva é "
+                f"{self.daily_reserve}: a execução para antes de zerar a cota",
+            )
+
     def _attempt(self, endpoint: str, url: str, params: dict[str, Any] | None) -> dict[str, Any]:
         """Uma requisição: devolve o payload ou levanta a recusa que couber."""
+        self._guard_budget(endpoint)
+
         # O limitador segura aqui, antes de a requisição existir. Bloqueante
         # de propósito: a alternativa é decidir por conta própria o que fazer
         # com um "não pode agora", que é a decisão que se erra.
@@ -328,18 +351,6 @@ class ApiFootballClient:
 
     def get(self, endpoint: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
         """Executa requisição GET ao endpoint da API-Football v3."""
-        if self.requests_made >= self.run_budget:
-            raise ApiFootballQuotaError(
-                endpoint,
-                f"teto de {self.run_budget} requisições por execução atingido",
-            )
-        if self.daily_remaining is not None and self.daily_remaining <= self.daily_reserve:
-            raise ApiFootballQuotaError(
-                endpoint,
-                f"restam {self.daily_remaining} requisições e a reserva é "
-                f"{self.daily_reserve}: a execução para antes de zerar a cota",
-            )
-
         url = f"{self.base_url}/{endpoint.lstrip('/')}"
 
         retrying = Retrying(

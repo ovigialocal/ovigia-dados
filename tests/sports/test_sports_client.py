@@ -296,3 +296,52 @@ def test_limitador_espalha_as_requisicoes_dentro_do_minuto():
 
     # 10/min significa uma a cada seis segundos, e o limitador segura mesmo.
     assert decorrido >= 5.5
+
+
+def test_retry_nao_atravessa_o_teto_por_execucao(monkeypatch):
+    """A guarda vale por tentativa física, não por chamada.
+
+    Checar só na entrada de get() deixava uma chamada iniciada em 59/60
+    consumir 60, 61 e 62 nas repetições de uma falha transitória.
+    """
+    monkeypatch.setattr("tenacity.nap.time.sleep", lambda _: None)
+
+    client, session = _client(
+        _FakeResponse({}, status_code=503),
+        _FakeResponse({}, status_code=503),
+        _FakeResponse({}, status_code=503),
+        run_budget=2,
+        max_retries=3,
+    )
+
+    with pytest.raises(ApiFootballQuotaError, match="teto"):
+        client.get("teams", {"id": 1})
+
+    # Duas tentativas cabem no teto; a terceira é barrada antes de sair.
+    assert len(session.calls) == 2
+    assert client.requests_made == 2
+
+
+def test_retry_nao_atravessa_a_reserva_diaria(monkeypatch):
+    """A reserva também é lida a cada tentativa.
+
+    A primeira resposta é quem revela que a cota chegou na reserva; sem
+    reler antes da repetição, o retry passa por cima dela.
+    """
+    monkeypatch.setattr("tenacity.nap.time.sleep", lambda _: None)
+
+    na_reserva = {
+        "x-ratelimit-requests-limit": "100",
+        "x-ratelimit-requests-remaining": "10",
+    }
+    client, session = _client(
+        _FakeResponse({}, status_code=503, headers=na_reserva),
+        _FakeResponse({"response": [], "errors": []}, headers=na_reserva),
+        daily_reserve=10,
+        max_retries=3,
+    )
+
+    with pytest.raises(ApiFootballQuotaError, match="reserva"):
+        client.get("teams", {"id": 1})
+
+    assert len(session.calls) == 1

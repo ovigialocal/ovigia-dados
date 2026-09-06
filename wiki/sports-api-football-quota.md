@@ -100,6 +100,19 @@ Com o registry atual (7 times, 4 competições), um run consome:
 | `standings?league=&season=` | até 4 | até 4 |
 | **total** | **~29 de 100** | **18 de 100** |
 
+A conta acima é só do pipeline. O orçamento que importa é o da conta, somando
+todos os workflows que dividem a mesma cota:
+
+| workflow | cadência | requisições |
+| --- | --- | --- |
+| `sports-api-football.yml` | diário 05:30 UTC | 18 |
+| `sports-quarto-queries.yml` | diário 06:15 UTC | 0 — lê de `raw/` |
+| `sports-diagnose.yml` | sob demanda | 2 (mais 7 com `SEARCH_ENTITIES`) |
+
+Uma sonda que gasta requisição para reconfirmar a mesma resposta todo dia é
+exatamente o que a economia removeu, então a cobertura declarada da liga
+também mora em `raw/`. `REFRESH_LEAGUE_COVERAGE=true` rebusca.
+
 ## Onde o dado bruto mora
 
 Time e competição são entidades estáveis: nome, fundação, estádio e cidade não
