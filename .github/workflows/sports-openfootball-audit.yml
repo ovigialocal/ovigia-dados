@@ -1,0 +1,64 @@
+name: Sports OpenFootball Coverage Audit
+
+on:
+  schedule:
+    - cron: '45 6 * * 1'
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/ovigia_dados/sports/openfootball.py'
+      - 'scripts/sports/audit_openfootball.py'
+      - 'tests/sports/test_openfootball.py'
+      - '.github/workflows/sports-openfootball-audit.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sports-openfootball-audit-${{ github.event.pull_request.number || 'main' }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    name: Open data quality for Rondônia
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: uv sync --locked --all-extras --dev
+
+      - name: Audit OpenFootball coverage
+        run: |
+          uv run python scripts/sports/audit_openfootball.py \
+            --season 2026 \
+            --summary-output datasets/sports/quality/openfootball-rondonia.csv \
+            --teams-output datasets/sports/quality/openfootball-rondonia-teams.csv
+
+      - name: Verify bootstrap quality projection is current
+        if: github.event_name == 'pull_request'
+        run: git diff --exit-code -- datasets/sports/quality/openfootball-rondonia.csv datasets/sports/quality/openfootball-rondonia-teams.csv
+
+      - name: Persist changed quality assessment
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "O Vigia Sports Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add datasets/sports/quality/openfootball-rondonia.csv \
+                  datasets/sports/quality/openfootball-rondonia-teams.csv
+          if git diff --cached --quiet; then
+            echo "Cobertura OpenFootball sem mudança material."
+            exit 0
+          fi
+          git commit -m "data(sports): refresh OpenFootball coverage"
+          git pull --rebase origin main
+          git push origin HEAD:main

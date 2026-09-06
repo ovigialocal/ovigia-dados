@@ -7,6 +7,8 @@ name: "Vilhena"
 city: "Vilhena"
 uf: "RO"
 is_local_focus: "true"
+official_facebook: "https://www.facebook.com/Vilhenense"
+federation_registry_url: "https://ffer.com.br/Publicacao.aspx?id=393357"
 ---
 
 # Vilhenense

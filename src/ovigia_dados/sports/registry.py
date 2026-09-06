@@ -16,8 +16,15 @@ def _required(frontmatter: dict[str, Any], field: str, path: Path) -> str:
     return value.strip()
 
 
+def _optional_string(frontmatter: dict[str, Any], field: str) -> str | None:
+    value = frontmatter.get(field)
+    if not isinstance(value, str) or not value.strip():
+        return None
+    return value.strip()
+
+
 def load_sports_registry(root: str | Path) -> dict[str, list[dict[str, Any]]]:
-    """Project sports-monitor concepts into the API-Football collector configuration."""
+    """Project authored sports-monitor concepts into collector configuration."""
     registry_root = Path(root)
     regions: list[dict[str, Any]] = []
     leagues: list[dict[str, Any]] = []
@@ -63,6 +70,13 @@ def load_sports_registry(root: str | Path) -> dict[str, list[dict[str, Any]]]:
                     "city": _required(metadata, "city", path),
                     "uf": _required(metadata, "uf", path),
                     "is_local_focus": metadata.get("is_local_focus", "false") == "true",
+                    "official_site": _optional_string(metadata, "official_site"),
+                    "official_agenda_url": _optional_string(metadata, "official_agenda_url"),
+                    "official_facebook": _optional_string(metadata, "official_facebook"),
+                    "official_instagram": _optional_string(metadata, "official_instagram"),
+                    "federation_registry_url": _optional_string(
+                        metadata, "federation_registry_url"
+                    ),
                 }
             )
         else:

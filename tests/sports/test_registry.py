@@ -29,3 +29,11 @@ def test_repository_registry_projects_expected_entities():
         1229,
     }
     assert all(team["is_local_focus"] for team in registry["teams"])
+
+    porto_velho = next(team for team in registry["teams"] if team["team_id"] == 12946)
+    assert porto_velho["official_site"] == "https://ecportovelho.com/"
+    assert porto_velho["official_agenda_url"] == "https://ecportovelho.com/agenda/"
+    assert porto_velho["official_facebook"] == "https://www.facebook.com/portovelhoec"
+    assert porto_velho["federation_registry_url"] == (
+        "https://ffer.com.br/Publicacao.aspx?id=393357"
+    )
