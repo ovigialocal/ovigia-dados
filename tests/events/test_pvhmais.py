@@ -9,7 +9,9 @@ from ovigia_dados.events.pvhmais import (
 
 
 def _page(parameters: str, body: str = "") -> str:
-    return f'''<html><body><div id="root" data-parameters='{parameters}'></div>{body}</body></html>'''
+    return (
+        f"""<html><body><div id="root" data-parameters='{parameters}'></div>{body}</body></html>"""
+    )
 
 
 def test_canonicalize_event_url() -> None:
