@@ -8,6 +8,9 @@ fields:
   detector_id:
     type: string
     description: "Identificador do detector (ex: large-local-contract)."
+  edition_id:
+    type: string
+    description: "Edição pública que consome prioritariamente os sinais; deve existir no registry canônico do site."
   version:
     type: string
     description: "Versão do algoritmo de detecção."
