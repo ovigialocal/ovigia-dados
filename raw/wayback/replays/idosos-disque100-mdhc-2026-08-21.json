@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idosos-disque100-mdhc-2026-08-21",
+  "source_url": "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/defeso-eleitoral/agosto/voce-sabe-como-denunciar-a-violencia-contra-pessoas-idosas",
+  "archive_url": "https://web.archive.org/web/20260906185740/https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/defeso-eleitoral/agosto/voce-sabe-como-denunciar-a-violencia-contra-pessoas-idosas",
+  "verified_at": "2026-09-24T16:20:53Z",
+  "archive_content_type": "text/html",
+  "archive_size": 32577,
+  "archive_sha256": "a7c4ddcaf7f07b3d9c6f10f72c90566d45382df1c3f4a9f6140db580f025183f",
+  "source_content_type": "text/html",
+  "source_size": 210813,
+  "source_sha256": "ffc6dfb2f2815b5b3a479899ad9c75f2aae54492453acdf24d420d987efe59cd",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/idosos-disque100-mdhc-2026-08-21.html"
+}

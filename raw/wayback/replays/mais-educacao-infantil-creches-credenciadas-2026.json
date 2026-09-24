@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/mais-educacao-infantil-creches-credenciadas-2026",
+  "source_url": "https://semed.portovelho.ro.gov.br/arquivos?folder=82965",
+  "archive_url": "https://web.archive.org/web/20260906190151/https://semed.portovelho.ro.gov.br/arquivos?folder=82965",
+  "verified_at": "2026-09-24T16:21:15Z",
+  "archive_content_type": "text/html",
+  "archive_size": 16087,
+  "archive_sha256": "a925ff52e9ee5dad9af039d31970fe576a3175f103a441678ba693e716f24a63",
+  "source_content_type": "text/html",
+  "source_size": 133621,
+  "source_sha256": "76b3f6b0bdaebf1de9529e6e918937f387dc95edc9f0b6974753825215fc6614",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/mais-educacao-infantil-creches-credenciadas-2026.html"
+}
