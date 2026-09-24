@@ -3,7 +3,7 @@ okf_version: "0.2"
 type: archive-request
 source_url: "https://www.gov.br/ana/pt-br/assuntos/saneamento-basico/tarifa-social-de-agua-e-esgoto/lista-positiva"
 requested_at: "2026-09-07T03:40:00Z"
-resource_kind: web-page
+resource_kind: webpage
 reason: material-source
 ---
 

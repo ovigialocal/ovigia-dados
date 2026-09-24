@@ -150,3 +150,12 @@ def test_failed_result_requires_failure_and_never_archive_url(tmp_path: Path) ->
 
     with pytest.raises(WaybackQueueError, match="failed result"):
         load_wayback_queue(tmp_path)
+
+
+def test_committed_knowledge_queue_loads() -> None:
+    """The governed queue in this repository must load, or the hourly drain stops for every request."""
+    root = Path(__file__).resolve().parents[1]
+
+    queue = load_wayback_queue(root)
+
+    assert queue is not None
