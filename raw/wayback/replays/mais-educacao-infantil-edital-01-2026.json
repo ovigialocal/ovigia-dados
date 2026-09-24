@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/mais-educacao-infantil-edital-01-2026",
+  "source_url": "https://www.diariomunicipal.com.br/arom/materia/6C20CF88/878d359a1ded48bbcb23b488e9b870fa878d359a1ded48bbcb23b488e9b870fa",
+  "archive_url": "https://web.archive.org/web/20260906190211/https://www.diariomunicipal.com.br/arom/materia/6C20CF88/878d359a1ded48bbcb23b488e9b870fa878d359a1ded48bbcb23b488e9b870fa",
+  "verified_at": "2026-09-24T14:23:50Z",
+  "archive_content_type": "text/html",
+  "archive_size": 24892,
+  "archive_sha256": "ce5280ef3c9ffe34dd7e12a5f50cac34cb476cb359b67a4be32263f4b52c1313",
+  "source_content_type": "text/html",
+  "source_size": 153145,
+  "source_sha256": "1277d5b983feecd8a2ebd855f73f57b796e4389d70e607bfeb77e193fe867c19",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/mais-educacao-infantil-edital-01-2026.html"
+}
