@@ -2,7 +2,7 @@
 okf_version: "0.2"
 type: archive-request
 source_url: "https://www.idaron.ro.gov.br/wp-content/uploads/2026/09/SEI_76063578_Edital_3.pdf"
-requested_at: "2026-09-25T13:55:00Z"
+requested_at: "2026-09-25T13:27:00Z"
 resource_kind: pdf
 reason: material-source
 ---

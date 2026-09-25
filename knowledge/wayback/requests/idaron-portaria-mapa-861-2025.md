@@ -2,7 +2,7 @@
 okf_version: "0.2"
 type: archive-request
 source_url: "https://www.idaron.ro.gov.br/wp-content/uploads/2026/06/Portaria_MAPA_861-de-13.11.2025.pdf"
-requested_at: "2026-09-25T14:05:00Z"
+requested_at: "2026-09-25T13:29:00Z"
 resource_kind: pdf
 reason: material-source
 ---
