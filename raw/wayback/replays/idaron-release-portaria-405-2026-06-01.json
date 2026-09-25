@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idaron-release-portaria-405-2026-06-01",
+  "source_url": "https://www.idaron.ro.gov.br/index.php/2026/06/01/empresas-privadas-poderao-se-credenciar-na-idaron-para-inspecao-sanitaria-em-frigorificos-de-rondonia/",
+  "archive_url": "https://web.archive.org/web/20260925143828/https://www.idaron.ro.gov.br/index.php/2026/06/01/empresas-privadas-poderao-se-credenciar-na-idaron-para-inspecao-sanitaria-em-frigorificos-de-rondonia/",
+  "verified_at": "2026-09-25T15:09:39Z",
+  "archive_content_type": "text/html",
+  "archive_size": 219555,
+  "archive_sha256": "4b8893ea31ebd9a864c1ae5c2fff3cbbb9a55604ad1348f6806894bca6cb4b22",
+  "source_content_type": "text/html",
+  "source_size": 219555,
+  "source_sha256": "4b8893ea31ebd9a864c1ae5c2fff3cbbb9a55604ad1348f6806894bca6cb4b22",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/idaron-release-portaria-405-2026-06-01.html"
+}
