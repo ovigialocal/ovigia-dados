@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/refis-lei-8321",
+  "source_url": "https://sapl.portovelho.ro.leg.br/ta/8321/text",
+  "archive_url": "https://web.archive.org/web/20260906173222/https://sapl.portovelho.ro.leg.br/ta/8321/text",
+  "verified_at": "2026-09-25T09:11:37Z",
+  "archive_content_type": "text/html",
+  "archive_size": 11636,
+  "archive_sha256": "fe3e34243f7e63fbec03520c9ba5f5ffcc9747c285f640a8ddb1f4dcf88d582a",
+  "source_content_type": "text/html",
+  "source_size": 68209,
+  "source_sha256": "6b0c5fd7dc5d8c41a0b2201ab7bf50efd1d355c4f194857e232d63459e045d3d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/refis-lei-8321.html"
+}

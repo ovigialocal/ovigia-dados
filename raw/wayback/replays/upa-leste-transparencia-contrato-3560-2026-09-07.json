@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/upa-leste-transparencia-contrato-3560-2026-09-07",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/3560",
+  "archive_url": "https://web.archive.org/web/20260925090449/https://transparencia.portovelho.ro.gov.br/contratos/3560",
+  "verified_at": "2026-09-25T09:13:46Z",
+  "archive_content_type": "text/html",
+  "archive_size": 41461,
+  "archive_sha256": "8c7e9b6844530ea98a10867112bf9a8f33ae4d03fe536c6e828ff49b6ba5cfca",
+  "source_content_type": "text/html",
+  "source_size": 452210,
+  "source_sha256": "7a453fa848f30113b561767430bfaeeedfb26a96fc5fa0f276085ae28551def4",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/upa-leste-transparencia-contrato-3560-2026-09-07.html"
+}

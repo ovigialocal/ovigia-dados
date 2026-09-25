@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/mais-educacao-infantil-release-2026-09-04",
+  "source_url": "https://agencia.portovelho.ro.gov.br/noticias/58154",
+  "archive_url": "https://web.archive.org/web/20260906175533/https://agencia.portovelho.ro.gov.br/noticias/58154",
+  "verified_at": "2026-09-25T09:10:29Z",
+  "archive_content_type": "text/html",
+  "archive_size": 17450,
+  "archive_sha256": "ffe375ebbf901af5dfcd69dc398df0fcf1eb1ed70c003965b057b4294c1bbea0",
+  "source_content_type": "text/html",
+  "source_size": 116897,
+  "source_sha256": "6de66613f68b5ec90207c949a11806ade5a03df1fd54990498cd3ef34171ca31",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/mais-educacao-infantil-release-2026-09-04.html"
+}

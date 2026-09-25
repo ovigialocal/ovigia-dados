@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/fhemeron-edital-268-2026-segep-publicacoes",
+  "source_url": "https://rondonia.ro.gov.br/segep/publicacoes/",
+  "archive_url": "https://web.archive.org/web/20260925080958/https://rondonia.ro.gov.br/segep/publicacoes/",
+  "verified_at": "2026-09-25T09:08:20Z",
+  "archive_content_type": "text/html",
+  "archive_size": 31509,
+  "archive_sha256": "a3927fb4ebca3e595b4789f76de2c79d93696533289b919aff5cc67d17d458b6",
+  "source_content_type": "text/html",
+  "source_size": 200413,
+  "source_sha256": "40fabaeebec2ea4854bcb323fe327ad5b88d6093927e3b3319840eac0c7eeea0",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/fhemeron-edital-268-2026-segep-publicacoes.html"
+}

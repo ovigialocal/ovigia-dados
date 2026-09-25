@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/semusa-rdqa-1q-2026-regulacao",
+  "source_url": "https://transp-arquivos.portovelho.ro.gov.br/uploads/arquivos/1%C2%BA%20Relat%C3%B3rio%20Detalhado%20do%20Quadrimestre%20Anterior%20-%20RDQA%202026.pdf",
+  "archive_url": "https://web.archive.org/web/20260925084916/https://transp-arquivos.portovelho.ro.gov.br/uploads/arquivos/1%C2%BA%20Relat%C3%B3rio%20Detalhado%20do%20Quadrimestre%20Anterior%20-%20RDQA%202026.pdf",
+  "verified_at": "2026-09-25T09:12:42Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1775478,
+  "archive_sha256": "af105447fd82bdb2fb55377f1a5040fdd9aedea9b065c2565044aa539e0fe1be",
+  "source_content_type": "application/pdf",
+  "source_size": 2826213,
+  "source_sha256": "caf4dbbc6b5cfe60ad83e40bdd58803d2b88f4a2af3ba75e0cd4c6f6e4f0d63b",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/semusa-rdqa-1q-2026-regulacao.pdf"
+}

@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/giro-saude-zona-leste-2026-08-22",
+  "source_url": "https://semusa.portovelho.ro.gov.br/noticias/57998",
+  "archive_url": "https://web.archive.org/web/20260925081409/https://semusa.portovelho.ro.gov.br/noticias/57998",
+  "verified_at": "2026-09-25T09:08:22Z",
+  "archive_content_type": "text/html",
+  "archive_size": 26264,
+  "archive_sha256": "396e3baea2fc1072e34f87f78dbb7d1c4ee20e089e1b1416a44c4d704675a1db",
+  "source_content_type": "text/html",
+  "source_size": 213840,
+  "source_sha256": "ac43231f50ed0a3ca6f52d64fa761a58e90706ac56c7b929f1cbfee90931d2bb",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/giro-saude-zona-leste-2026-08-22.html"
+}

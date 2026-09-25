@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/caerd-tarifa-social-orientacao-publica-2026",
+  "source_url": "https://caerd.ro.gov.br/tarifa-social",
+  "archive_url": "https://web.archive.org/web/20260925080216/https://caerd.ro.gov.br/tarifa-social",
+  "verified_at": "2026-09-25T09:08:14Z",
+  "archive_content_type": "text/html",
+  "archive_size": 11853,
+  "archive_sha256": "e7b2b41f5d6c3badaa2af961659f00a99fd5bf89eb71cda0acae7059a17527e5",
+  "source_content_type": "text/html",
+  "source_size": 53700,
+  "source_sha256": "0f5122cb9705b838179d85b6db23a3f42b6335c4702e994ccc8e7251ffa26e0c",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/caerd-tarifa-social-orientacao-publica-2026.html"
+}

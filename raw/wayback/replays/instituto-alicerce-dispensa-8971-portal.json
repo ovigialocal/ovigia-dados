@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/instituto-alicerce-dispensa-8971-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8971",
+  "archive_url": "https://web.archive.org/web/20260925081928/https://transparencia.portovelho.ro.gov.br/despesas/compras/8971",
+  "verified_at": "2026-09-25T09:10:27Z",
+  "archive_content_type": "text/html",
+  "archive_size": 40969,
+  "archive_sha256": "9a6f78eaf7f292fd91516a07ab5147d71738bc24b71383b075780c2930eaff85",
+  "source_content_type": "text/html",
+  "source_size": 458516,
+  "source_sha256": "ff86218b2da7a515411356b9be86da2bc96b0c821e084642442b041f6e308adc",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/instituto-alicerce-dispensa-8971-portal.html"
+}

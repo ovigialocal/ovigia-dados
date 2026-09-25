@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/corrida-112-ata-007-2025",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/atas/1480",
+  "archive_url": "https://web.archive.org/web/20260925080531/https://transparencia.portovelho.ro.gov.br/despesas/atas/1480",
+  "verified_at": "2026-09-25T09:08:16Z",
+  "archive_content_type": "text/html",
+  "archive_size": 43386,
+  "archive_sha256": "6b60b6174c92d6c9522941a6da16013f6706afb4e54d0b122c8d90523eadcda6",
+  "source_content_type": null,
+  "source_size": null,
+  "source_sha256": null,
+  "byte_identical_to_source": null,
+  "replay_body_path": "raw/wayback/replays/corrida-112-ata-007-2025.html"
+}

@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="light">
+
+<head>
+    <title>Caerd - Tarifa Social</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Portal CAERD">
+    <meta property="og:description" content="Portal CAERD">
+        <meta property="og:url" content="https://caerd.ro.gov.br">
+    <link rel="icon" type="image/x-icon" href="./assets/images/interface/icon.ico">
+    <script src="./assets/plugins/jquery/jquery-3.7.1.min.js"></script>
+    <link href="./assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <script src="./assets/js/theme.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/plugins/ckeditor5-build-classic/build/ckeditor.js"></script>
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css" />
+    <script src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/plugins/video-js/video-js.css" />
+    <script src="./assets/plugins/video-js/video.min.js"></script>
+    <script src="./assets/js/cookie.js"></script>
+    <link href="./assets/plugins/DataTables/datatables.min.css" rel="stylesheet">
+    <script src="./assets/plugins/DataTables/datatables.min.js"></script>
+    <link rel="manifest" href="./assets/pwa/manifest.json" />	
+    <script src="./assets/js/pwa-install.js"></script>
+    <script async="" defer="" src="https://webchat.tatodesk.com/webchat-inject.js?app=501a41eb-b0c6-4c89-8aa4-08cd28ee83f3"></script> 
+    <!-- <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/assets/js/service-worker.js')
+          .then(function(registration) {
+            console.log('Service Worker registrado com sucesso:', registration);
+          })
+          .catch(function(error) {
+            console.log('Falha ao registrar o Service Worker:', error);
+          });
+      }
+    </script> -->
+    <script type="module">
+        import { Notify} from './assets/js/utils.js';
+        window.Notify = Notify
+    </script>
+<script>
+
+function scrollToTop(position) {
+    window.scrollTo({
+        top: position,
+        behavior: 'smooth'
+    });
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    scrollToTop(0)
+    var modalContent = `
+        <div class="align-items-center justify-content-center rounded-circle position-fixed bottom-0 start-0 bg-secondary" id="scrollToTopButton" style="display:none;width: 40px; height: 40px;cursor:pointer;margin-bottom: 4rem;margin-left: 1rem;z-index: 10000;"
+            onclick="scrollToTop(0)">
+            <i class="bi bi-arrow-up text-white fs-5"></i>
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', modalContent);
+
+    var scrollToTopButton = document.getElementById('scrollToTopButton');
+
+    function handleScroll() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+        var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+
+        if (scrollTop > clientHeight) {
+            scrollToTopButton.style.display = 'flex';
+        } else {
+            scrollToTopButton.style.display = 'none';
+        }
+    }
+    document.addEventListener('scroll', handleScroll);
+    setTimeout(() => {
+        const openLauncher = document.querySelector('.open-launcher');
+        openLauncher.src = './assets/images/interface/pingo.png';
+    }, 1000);
+})
+</script>
+</head>
+
+<body>
+
+<style>
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+</style>
+
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="check2" viewBox="0 0 16 16">
+        <path
+            d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z">
+        </path>
+    </symbol>
+    <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+    </symbol>
+    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path
+            d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z">
+        </path>
+        <path
+            d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z">
+        </path>
+    </symbol>
+    <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path
+            d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z">
+        </path>
+    </symbol>
+</svg>
+
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script> new window.VLibras.Widget('https://vlibras.gov.br/app') </script>
+
+<div class="position-fixed top-50 end-0" style="z-index: 99999;">
+    <div class="d-flex justify-content-center align-items-start h-100 gap-0">
+        <div class="d-flex flex-column gap-1 m-0 p-0">
+            <button id="btn-acessibilidade" class="btn border-0 text-white bg-secondary rounded-0 rounded-start px-2 px-lg-3">
+                <i class="bi bi-universal-access-circle fs-5"></i>
+            </button>
+            <button onclick="showInstallModal()" id="installButton" class="btn border-0 text-white bg-secondary rounded-0 rounded-start px-2 px-lg-3" style="display: none;">
+                <i class="bi bi-window-sidebar fs-5"></i>
+            </button>
+        </div>
+        
+        <div id="acessibilidade" class="d-none gap-0 flex-column bg-secondary px-1 py-1" style="border-radius: 0px 0px 0px 6px;">
+            <button id="openVlibras" class="btn text-primary d-flex justify-content-start align-items-center gap-2 bg-background-menu m-1 p-1">
+                <img class="bg-secondary text-white rounded" src="assets/images/interface/sign-language.svg" alt="VLibras" width="36" height="36" />
+                <span class="text-color px-1">Libras</span>
+            </button>
+            <div class="btn-group dropstart">
+                <button class="btn border-0 text-primary d-flex justify-content-start align-items-center gap-2 bg-background-menu m-1 p-1 rounded-2" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle theme (dark)">
+                    <svg class="bi py-2 px-2 theme-icon-active text-white bg-secondary rounded" width="36" height="36">
+                        <use href="#moon-stars-fill"></use>
+                    </svg>
+                    <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+                    <span class="text-color px-1">Tema</span>
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="bd-theme-text">
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+                            aria-pressed="false">
+                            <svg class="bi me-2 theme-icon" width="1em" height="1em">
+                                <use href="#sun-fill"></use>
+                            </svg>
+                            Light
+                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                <use href="#check2"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center active" id="bd-theme" data-bs-theme-value="dark"
+                            aria-pressed="true">
+                            <svg class="bi me-2 theme-icon" width="1em" height="1em">
+                                <use href="#moon-stars-fill"></use>
+                            </svg>
+                            Dark
+                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                <use href="#check2"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="contraste"
+                            aria-pressed="false">
+                            <svg class="bi me-2 theme-icon" width="1em" height="1em">
+                                <use href="#circle-half"></use>
+                            </svg>
+                            Alto Contraste
+                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                <use href="#check2"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn border-0 text-primary d-flex justify-content-start align-items-center gap-2 bg-background-menu m-1 p-1" onclick="changeFontSize(1.1)">
+                <i class="bi bi-zoom-in fs-5 bg-secondary text-white rounded px-2 py-1"></i>
+                <span class="text-color px-1">Aumentar Fonte</span>
+            </button>
+            <button class="btn border-0 text-primary d-flex justify-content-start align-items-center gap-2 bg-background-menu m-1 p-1" onclick="changeFontSize(0.9)">
+                <i class="bi bi-zoom-out fs-5 bg-secondary text-white rounded px-2 py-1"></i>
+                <span class="text-color px-1">Diminuir Fonte</span>
+            </button>
+            <button class="btn border-0 text-primary d-flex justify-content-start align-items-center gap-2 bg-background-menu m-1 p-1" onclick="changeFontSize(0.0)">
+                <i class="bi bi-arrow-clockwise fs-5 bg-secondary text-white rounded px-2 py-1"></i>
+                <span class="text-color px-1">Redefinir Fonte</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div vw class="enabled contraste" style="z-index: 5 !important;">
+    <div vw-access-button class="active d-none" id="vlibras"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+
+<script type="module">
+    import { getStorage, setStorage } from './assets/js/utils.js';
+
+    var status = false;
+    var btnAcessibilidade = document.getElementById('btn-acessibilidade');
+    var acessibilidade = document.getElementById('acessibilidade');
+
+    btnAcessibilidade.addEventListener('click', function() {
+        status = !status;
+        if (status) {
+            acessibilidade.classList.remove('d-none');
+            acessibilidade.classList.add('d-flex');
+        } else {
+            acessibilidade.classList.remove('d-flex');
+            acessibilidade.classList.add('d-none');
+        }
+    });
+
+    window.changeFontSize = (factor) => {
+        var body = document.body;
+
+        if (factor === 0.0) {
+            body.style.fontSize = '1rem';
+            setStorage('fontSize', 16.0);
+            return 
+        }
+        var currentSize = parseFloat(window.getComputedStyle(body).fontSize);
+        var newSize = currentSize * factor;
+
+        if (newSize < 19.5 && newSize > 12.0) {
+            body.style.fontSize = newSize + 'px';
+            setStorage('fontSize', newSize);
+        }
+    }
+
+    addEventListener('DOMContentLoaded', function() {
+        var fontSize = getStorage('fontSize');
+        if (fontSize) document.body.style.fontSize = fontSize + 'px';
+    });
+
+    document.getElementById('openVlibras').addEventListener('click', function() {
+        document.getElementById('vlibras').click();
+        acessibilidade.classList.remove('d-flex');
+        acessibilidade.classList.add('d-none');
+    });
+</script><div class="container-fluid overflow-hidden">
+    <div class="row p-0">
+        <div class="col-12 p-0">
+            
+<style>
+#main-menu {
+    border-bottom:var(--border-imputs) solid 1px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid transparent;
+    transition: 0.4s;
+    height: 60px;
+}
+
+.navbar-nav .nav-item:hover,
+.navbar-nav .nav-item.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-menu-top);
+    border-bottom: 3px solid var(--secondary);
+    border-radius: 5px 5px 0px 0px;
+    transition: 0.1s;
+}
+
+.navbar-nav .nav-item a {
+    font-size: .9rem;
+    color: var(--text-secundary-menu);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-inline: .4rem !important;
+}
+</style>
+
+<div class="bg-background-menu contraste" id="main-menu">
+    <nav class="navbar-nav navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-0 col-md-1 p-0 d-none d-md-block">
+                    <a href="/" class="d-flex justify-content-center align-items-center h-100 p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="7rem" height="5rem"
+                            version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 29700 21000" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+                            <g style="fill: var(--color-logo);">
+                                <path d="M14030.14 3508.13c-169.55,40.23 -477.04,212.66 -686.82,385.08 -534.52,442.55 -1123.63,1339.15 -1500.09,2284.61 -149.43,373.58 -502.9,1359.27 -491.4,1370.76 5.75,5.75 83.34,-123.56 175.29,-284.5 1040.29,-1830.55 1646.65,-2531.74 2526.01,-2922.57 428.18,-189.67 591.98,-336.23 591.98,-534.52 0,-258.63 -255.76,-382.2 -614.97,-298.87l0 0.01z"/>
+                                <path d="M5069.87 4039.77c-158.06,48.85 -327.61,227.02 -356.34,379.34 -48.85,258.63 160.93,505.77 569,666.7 494.28,195.41 709.81,336.22 1066.15,686.82 738.55,721.3 1140.87,1425.37 1399.51,2454.15 57.48,232.78 112.07,431.07 120.7,436.81 54.6,54.6 -255.76,-1488.59 -399.45,-1980 -189.66,-660.95 -471.29,-1293.17 -770.15,-1738.6 -278.75,-413.82 -781.66,-810.39 -1149.49,-908.1 -206.91,-51.73 -301.74,-51.73 -479.91,2.87l-0.02 0.01z"/>
+                                <path d="M9460.91 5703.66c-20.11,390.82 -100.58,847.74 -232.77,1304.67 -232.77,813.26 -540.26,1390.88 -1275.93,2399.55 -658.07,902.35 -810.38,1172.48 -928.2,1643.77 -113.5,460.29 -105.94,1138.83 70.3,1614.64 116.48,314.57 305.99,580.91 538.93,819.4 356.33,373.59 836.24,658.09 1373.63,813.27 135.07,37.35 247.14,66.09 252.89,60.34 2.87,-2.87 -112.08,-66.09 -255.76,-140.81 -2552.44,-1194.35 -1433.33,-4476.77 990.03,-4389.53 694.01,24.98 1265.53,247.99 1745.78,742.76 -84.02,109.15 -873.55,1173.06 -905.72,1181.11 -715.12,-536.32 -1632.37,-365.41 -1649.8,556.7 163.35,900.35 1232.3,805.8 1690.51,247.94l727.05 1043.16 157.1 -89.9c-1176.1,-1548.18 48.29,-2817.34 400.43,-3114.24 -19.72,-153.38 -762.39,-1099.92 -847.78,-1215.64 -1140.87,-1477.09 -1663.88,-2569.1 -1778.83,-3721.47 -10.64,-108.48 -19.71,-161.86 -29.51,-162.45 -24.48,-1.46 -40.97,378.71 -42.35,406.73zm-2520.14 7299.23c-1122.24,157.91 -3267.69,519.79 -4060.68,1393.77 -482.79,534.52 -163.8,1160.98 830.51,1638.02 2877.03,1370.55 9273.53,1434.31 11974.8,40.23 670.53,-348.35 1095.75,-725.69 939.71,-1505.83l-977.06 0c76.05,652.01 -162.98,903.21 -750.05,1206.97 -1997.24,1043.15 -7514.78,1100.63 -9994.8,103.45 -551.76,-221.28 -962.7,-511.52 -1097.76,-773.03 -221.28,-436.81 178.16,-933.96 994.3,-1241.45 783.6,-295.52 1512.57,-416.02 2336.62,-560.42 -84.34,-108.38 -148.03,-207.01 -195.59,-301.71z"/>
+                                <path d="M2348.45 7706.64c-301.74,149.43 -316.11,500.02 -25.86,698.31 112.07,77.59 247.14,120.7 698.31,227.02 500.03,117.83 1025.92,399.45 1594.92,850.62 393.7,316.12 778.78,744.3 1103.51,1229.96 169.55,258.63 206.91,281.62 117.83,77.59 -221.28,-500.03 -1094.89,-1750.1 -1560.43,-2232.88 -686.82,-712.68 -1491.47,-1066.16 -1928.27,-850.62l-0.01 0z"/>
+                                <path d="M25987.7 8034.25c-33.7,33.7 -11.09,2339.21 -31.61,2339.21 -88.78,0 -556.66,-229.18 -979.93,-232.78 -373.59,0 -658.09,63.23 -951.2,212.66 -698.32,356.34 -1106.38,1028.79 -1112.13,1830.56 -2.88,629.35 209.78,1129.38 658.08,1551.81 353.47,333.35 790.27,511.52 1304.67,537.39 393.7,20.11 649.46,-34.49 1002.92,-209.79 468.42,-229.89 890.86,-715.56 1040.29,-1189.72 256.79,-807.06 102.56,-3694.38 97.72,-4842.22 -347.19,-5.91 -685.45,2.88 -1028.81,2.88zm-681.07 3218.57c273.01,89.08 517.27,336.22 614.97,623.6 165.35,496.04 -97.41,1098.48 -594.86,1278.8 -479.91,181.05 -1020.17,-34.48 -1255.82,-497.16 -133.21,-262.27 -148.61,-614.59 -22.98,-882.23 221.27,-477.04 741.42,-692.56 1258.69,-523.02l0 0.01z"/>
+                                <path d="M7892.69 12338.13c118.57,1616.7 2130.49,2257.53 3486.43,1460.7 -28.3,-65.44 -468.17,-681.62 -551.81,-783.6 -573.97,440.21 -1207.43,311.47 -1568.42,41.75 -1165.82,-871.05 154.51,-2657.25 1525.88,-1679.74l590.95 -783.38c-1473.96,-1087.65 -3624.06,-178.67 -3483.03,1744.27z"/>
+                                <path d="M18153.93 10149.3c-1063.28,135.07 -1827.69,1060.41 -1775.96,2149.55 60.34,1235.7 1120.75,2132.3 2319.1,1957.01 258.63,-40.23 551.75,-135.07 750.04,-247.14 146.56,-80.47 370.7,-264.39 370.7,-304.61 0,-20.12 -505.77,-732.8 -577.61,-813.27 -57.1,46.81 -281.24,187.39 -379.33,232.78 -541.84,260.04 -1296.76,-36.12 -1396.63,-623.6l1505.84 0 1502.96 0c165.64,-1372.56 -912.42,-2533.12 -2319.1,-2350.7l-0.01 -0.02zm890.85 1232.83c89.09,63.22 255.76,270.13 255.76,318.98 0,28.57 -1551.4,22.99 -1755.84,22.99 299.93,-559.85 991.47,-723.52 1500.08,-341.97z"/>
+                                <path d="M20724.73 11712.77l-47.67 2568.94 1034.54 0c5.74,-742.42 42.61,-1567.33 50.28,-2309.74 64.42,-933.87 980.13,-777 976.58,-798.5l-9.56 -1035.68c-1300.18,-44.89 -1989.67,793.37 -2004.17,1574.98z"/>
+                                <path d="M11629.78 12186.77c-11.4,1427.16 1358.55,2435.92 2684.85,2000.12 437.43,-148.57 606,-324.52 925.34,-620.73l255.76 701.19 1071.9 14.37c-345.8,-957.62 -730.62,-2221.75 -1109.25,-3112.24 -357.97,-693.57 -1144.43,-1077.57 -1906.68,-1015.02 -1090.1,89.44 -1913.23,942.29 -1921.92,2032.31zm3041.28 3.42c18.52,604.82 -389.23,1013.88 -1003.01,1013.88 -614.7,0 -999.01,-423.28 -968.44,-1034.54 26.84,-554.81 396.18,-983.91 962.71,-985.22 600.34,-1.41 990.98,426.34 1008.74,1005.88z"/>
+                                <path d="M5308.38 14913.94c301.75,301.74 1270.19,557.5 2885.22,761.54 758.66,94.83 796.02,89.08 172.43,-31.62 -1692.62,-324.73 -2382.32,-758.66 -2109.31,-1324.79 66.09,-137.93 244.26,-307.48 497.15,-474.16 125.17,-80.83 192.35,-125 183.34,-133.28 -13.02,-11.95 -2176.72,654.36 -1628.83,1202.31z"/>
+                                <path d="M14263.1 14642.54c47.77,164.05 36.66,183.87 -57.67,323.12 -294.12,449.83 -1707.94,684.83 -1760.93,739.03 -6.62,6.78 50.66,3.79 145.9,-3.36 534.52,-37.36 1275.93,-172.42 1649.51,-301.74 681.07,-232.77 850,-524.97 608.64,-962.7 -65.88,22.46 -493.14,192.89 -585.45,205.65z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-11 px-0 px-md-4">
+                    <div class="row m-0">
+                        <div class="col-12 pt-0 pb-1">
+                            <div class="d-flex justify-content-between align-items-center h-100 gap-3 gap-md-3 p-0">
+                                <div class="d-flex justify-content-start align-items-center h-100 gap-3 gap-md-3 p-0">
+                                    <a href="/" class="d-flex d-md-none justify-content-center align-items-center h-100 p-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5rem" height="4rem"
+                                            version="1.1"
+                                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                                            viewBox="0 0 29700 21000" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+                                            <g style="fill: var(--color-logo);">
+                                                <path d="M14030.14 3508.13c-169.55,40.23 -477.04,212.66 -686.82,385.08 -534.52,442.55 -1123.63,1339.15 -1500.09,2284.61 -149.43,373.58 -502.9,1359.27 -491.4,1370.76 5.75,5.75 83.34,-123.56 175.29,-284.5 1040.29,-1830.55 1646.65,-2531.74 2526.01,-2922.57 428.18,-189.67 591.98,-336.23 591.98,-534.52 0,-258.63 -255.76,-382.2 -614.97,-298.87l0 0.01z"/>
+                                                <path d="M5069.87 4039.77c-158.06,48.85 -327.61,227.02 -356.34,379.34 -48.85,258.63 160.93,505.77 569,666.7 494.28,195.41 709.81,336.22 1066.15,686.82 738.55,721.3 1140.87,1425.37 1399.51,2454.15 57.48,232.78 112.07,431.07 120.7,436.81 54.6,54.6 -255.76,-1488.59 -399.45,-1980 -189.66,-660.95 -471.29,-1293.17 -770.15,-1738.6 -278.75,-413.82 -781.66,-810.39 -1149.49,-908.1 -206.91,-51.73 -301.74,-51.73 -479.91,2.87l-0.02 0.01z"/>
+                                                <path d="M9460.91 5703.66c-20.11,390.82 -100.58,847.74 -232.77,1304.67 -232.77,813.26 -540.26,1390.88 -1275.93,2399.55 -658.07,902.35 -810.38,1172.48 -928.2,1643.77 -113.5,460.29 -105.94,1138.83 70.3,1614.64 116.48,314.57 305.99,580.91 538.93,819.4 356.33,373.59 836.24,658.09 1373.63,813.27 135.07,37.35 247.14,66.09 252.89,60.34 2.87,-2.87 -112.08,-66.09 -255.76,-140.81 -2552.44,-1194.35 -1433.33,-4476.77 990.03,-4389.53 694.01,24.98 1265.53,247.99 1745.78,742.76 -84.02,109.15 -873.55,1173.06 -905.72,1181.11 -715.12,-536.32 -1632.37,-365.41 -1649.8,556.7 163.35,900.35 1232.3,805.8 1690.51,247.94l727.05 1043.16 157.1 -89.9c-1176.1,-1548.18 48.29,-2817.34 400.43,-3114.24 -19.72,-153.38 -762.39,-1099.92 -847.78,-1215.64 -1140.87,-1477.09 -1663.88,-2569.1 -1778.83,-3721.47 -10.64,-108.48 -19.71,-161.86 -29.51,-162.45 -24.48,-1.46 -40.97,378.71 -42.35,406.73zm-2520.14 7299.23c-1122.24,157.91 -3267.69,519.79 -4060.68,1393.77 -482.79,534.52 -163.8,1160.98 830.51,1638.02 2877.03,1370.55 9273.53,1434.31 11974.8,40.23 670.53,-348.35 1095.75,-725.69 939.71,-1505.83l-977.06 0c76.05,652.01 -162.98,903.21 -750.05,1206.97 -1997.24,1043.15 -7514.78,1100.63 -9994.8,103.45 -551.76,-221.28 -962.7,-511.52 -1097.76,-773.03 -221.28,-436.81 178.16,-933.96 994.3,-1241.45 783.6,-295.52 1512.57,-416.02 2336.62,-560.42 -84.34,-108.38 -148.03,-207.01 -195.59,-301.71z"/>
+                                                <path d="M2348.45 7706.64c-301.74,149.43 -316.11,500.02 -25.86,698.31 112.07,77.59 247.14,120.7 698.31,227.02 500.03,117.83 1025.92,399.45 1594.92,850.62 393.7,316.12 778.78,744.3 1103.51,1229.96 169.55,258.63 206.91,281.62 117.83,77.59 -221.28,-500.03 -1094.89,-1750.1 -1560.43,-2232.88 -686.82,-712.68 -1491.47,-1066.16 -1928.27,-850.62l-0.01 0z"/>
+                                                <path d="M25987.7 8034.25c-33.7,33.7 -11.09,2339.21 -31.61,2339.21 -88.78,0 -556.66,-229.18 -979.93,-232.78 -373.59,0 -658.09,63.23 -951.2,212.66 -698.32,356.34 -1106.38,1028.79 -1112.13,1830.56 -2.88,629.35 209.78,1129.38 658.08,1551.81 353.47,333.35 790.27,511.52 1304.67,537.39 393.7,20.11 649.46,-34.49 1002.92,-209.79 468.42,-229.89 890.86,-715.56 1040.29,-1189.72 256.79,-807.06 102.56,-3694.38 97.72,-4842.22 -347.19,-5.91 -685.45,2.88 -1028.81,2.88zm-681.07 3218.57c273.01,89.08 517.27,336.22 614.97,623.6 165.35,496.04 -97.41,1098.48 -594.86,1278.8 -479.91,181.05 -1020.17,-34.48 -1255.82,-497.16 -133.21,-262.27 -148.61,-614.59 -22.98,-882.23 221.27,-477.04 741.42,-692.56 1258.69,-523.02l0 0.01z"/>
+                                                <path d="M7892.69 12338.13c118.57,1616.7 2130.49,2257.53 3486.43,1460.7 -28.3,-65.44 -468.17,-681.62 -551.81,-783.6 -573.97,440.21 -1207.43,311.47 -1568.42,41.75 -1165.82,-871.05 154.51,-2657.25 1525.88,-1679.74l590.95 -783.38c-1473.96,-1087.65 -3624.06,-178.67 -3483.03,1744.27z"/>
+                                                <path d="M18153.93 10149.3c-1063.28,135.07 -1827.69,1060.41 -1775.96,2149.55 60.34,1235.7 1120.75,2132.3 2319.1,1957.01 258.63,-40.23 551.75,-135.07 750.04,-247.14 146.56,-80.47 370.7,-264.39 370.7,-304.61 0,-20.12 -505.77,-732.8 -577.61,-813.27 -57.1,46.81 -281.24,187.39 -379.33,232.78 -541.84,260.04 -1296.76,-36.12 -1396.63,-623.6l1505.84 0 1502.96 0c165.64,-1372.56 -912.42,-2533.12 -2319.1,-2350.7l-0.01 -0.02zm890.85 1232.83c89.09,63.22 255.76,270.13 255.76,318.98 0,28.57 -1551.4,22.99 -1755.84,22.99 299.93,-559.85 991.47,-723.52 1500.08,-341.97z"/>
+                                                <path d="M20724.73 11712.77l-47.67 2568.94 1034.54 0c5.74,-742.42 42.61,-1567.33 50.28,-2309.74 64.42,-933.87 980.13,-777 976.58,-798.5l-9.56 -1035.68c-1300.18,-44.89 -1989.67,793.37 -2004.17,1574.98z"/>
+                                                <path d="M11629.78 12186.77c-11.4,1427.16 1358.55,2435.92 2684.85,2000.12 437.43,-148.57 606,-324.52 925.34,-620.73l255.76 701.19 1071.9 14.37c-345.8,-957.62 -730.62,-2221.75 -1109.25,-3112.24 -357.97,-693.57 -1144.43,-1077.57 -1906.68,-1015.02 -1090.1,89.44 -1913.23,942.29 -1921.92,2032.31zm3041.28 3.42c18.52,604.82 -389.23,1013.88 -1003.01,1013.88 -614.7,0 -999.01,-423.28 -968.44,-1034.54 26.84,-554.81 396.18,-983.91 962.71,-985.22 600.34,-1.41 990.98,426.34 1008.74,1005.88z"/>
+                                                <path d="M5308.38 14913.94c301.75,301.74 1270.19,557.5 2885.22,761.54 758.66,94.83 796.02,89.08 172.43,-31.62 -1692.62,-324.73 -2382.32,-758.66 -2109.31,-1324.79 66.09,-137.93 244.26,-307.48 497.15,-474.16 125.17,-80.83 192.35,-125 183.34,-133.28 -13.02,-11.95 -2176.72,654.36 -1628.83,1202.31z"/>
+                                                <path d="M14263.1 14642.54c47.77,164.05 36.66,183.87 -57.67,323.12 -294.12,449.83 -1707.94,684.83 -1760.93,739.03 -6.62,6.78 50.66,3.79 145.9,-3.36 534.52,-37.36 1275.93,-172.42 1649.51,-301.74 681.07,-232.77 850,-524.97 608.64,-962.7 -65.88,22.46 -493.14,192.89 -585.45,205.65z"/>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-end align-items-center h-100 gap-3 gap-md-3 p-0">
+                                    <div class="d-flex gap-1 h-100 me-lg-3">
+                                        <a class="btn h-75 bg-primary text-white d-flex justify-content-center align-items-center gap-2 px-3 rounded-bottom rounded-0" href="contato" target="_blank">
+                                            <i class="bi bi-telephone-fill"></i>
+                                            <span class="d-none d-md-inline">Fale conosco</span>
+                                        </a>
+                                        <a class="btn h-75 bg-secondary text-white d-flex justify-content-center align-items-center gap-2 px-3 rounded-bottom rounded-0"
+                                            href="https://caerdrh.procenge.com.br/portalrh/WPortalRH.dll/$/" target="_blank">
+                                            <i class="bi bi-people-fill"></i>
+                                            <span class="d-none d-md-inline">Portal do Colaborador</span>
+                                        </a>
+                                    </div>
+                                    <a href="https://www.facebook.com/caerdemacao/">
+                                        <i class="bi bi-facebook fs-3" style="color: #2F7BFF"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/caerdrondonia/">
+                                        <i class="bi bi-instagram fs-3 " style="color: #EE1960;"></i>
+                                    </a>
+                                    <a href="https://twitter.com/CaerdRO">
+                                        <i class="bi bi-twitter-x fs-3" style="color: var(--text-secundary);"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-lg-9">
+                                    <div class="d-flex justify-content-center align-items-center h-100 px-1">
+                                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                            <ul class="navbar-nav gap-0 gap-xl-2 p-0">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="/">Início</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="ouvidoria">Ouvidoria</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="decreto">Decreto</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="diretoria">Diretoria</a>
+                                                </li>
+                                                <li class="nav-item dropdown relative ">
+                                                    <a class="nav-link dropdown-toggle" href="#">
+                                                        Meio Ambiente
+                                                    </a>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="politica-ambiental">Política
+                                                            Ambiental</a>
+                                                        <a class="dropdown-item"
+                                                            href="licenciamento-ambiental">Licenciamento
+                                                            Ambiental</a>
+                                                        <a class="dropdown-item" href="mata-ciliar">Mata Ciliar</a>
+                                                        <a class="dropdown-item" href="aguas-subteaneos">Águas
+                                                            Subterrâneos</a>
+                                                        <a class="dropdown-item" href="educacao-ambiental">Educação
+                                                            Ambiental</a>
+                                                        <a class="dropdown-item"
+                                                            href="mananciais-subterraneos">Outorgas
+                                                            - Mananciais Subterrâneos</a>
+                                                        <a class="dropdown-item"
+                                                            href="mananciais-superficiais">Outorgas
+                                                            - Mananciais Superficiais</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown ">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button">
+                                                        Multimidia
+                                                    </a>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="galeria">Galeria de Fotos</a>
+                                                        <a class="dropdown-item" href="caerd-tv">Caerd TV</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="gerencias">Gerencias</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-1 col-lg-0">
+                                    <div class="d-flex justify-content-start align-items-center h-100">
+                                        <button class="navbar-toggler text-color" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-controls="collapseWidthExample">
+                                            <i class="bi bi-list text-color fs-2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-11 col-lg-2">
+                                    <div class="d-flex justify-content-end align-items-center h-100 py-2 py-lg-3">
+                                        <form name="busca" action="noticias" method="get">
+                                            <div class="input-group" style="width: 240px; height: 44px">
+                                                <button class="btn btn-group-custom" type="submit" value="Pesquisar"><i
+                                                        class="bi bi-search text-color"></i></button>
+                                                <input class="form-control" type="text" id="search" name="search"
+                                                    placeholder="Pesquisar">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>        </div>
+        <div class="col-12 p-0 container-content">
+            <div class="row m-0 h-100 p-0 contraste">
+                <div class="col-12 py-3 px-0 px-lg-3" style="background: var(--background-color)">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                                <div class="p-3" style="min-height:calc(100vh - 60px)">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-column">
+                                <h3 class="text-color text-start">Estrutura Tarifaria</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            <div class="ck-content text-color">
+                                <p><span style="font-size:small;">A Tarifa Social é um beneficio para as pessoas de baixa renda cadastradas na categoria residencial, aplicando-se exclusivamente a unidades habitacionais unifamiliares, ou seja, uma única ligação vinculada ao cliente responsável cadastrado na CAERD.</span></p><p> </p><p><span style="font-size:small;"><strong>Critérios Exigidos para que o cliente possa realizar a solicitação do benefício de tarifa social:</strong></span></p><p><br> </p><p><span style="font-size:small;">Ser cliente e possuir cadastrado classificado na categoria residencial; Estar cadastrado e recebendo algum programa do Governo Federal, Estadual e/ou Municipal.</span></p><p> </p><p><span style="font-size:small;">Na falta desses poderá apresentar o registro do cadastro único para Programas Sociais, desde que comprove renda familiar de até meio salário mínimo por pessoa, limitando-se ao total de até 02 (dois) salários mínimos de renda familiar;</span></p><p><br><span style="font-size:small;">Não possuir débito na CAERD no ato do cadastramento. Se houver, o cliente pode efetuar o acordo para pagamento dos débitos existentes, em conformidade com a Instrução Normativa de Parcelamento de Débitos;</span></p><p><br><span style="font-size:small;">A ligação de água existente no imóvel deve estar de acordo com padrão e condições vigentes no regulamento da CAERD, tendo em seu imóvel um reservatório de no mínimo 500 (quinhentos) litros, equipado com bóia.</span></p><p> </p><p><span style="font-size:small;"><strong>Para Gozo do beneficio e sendo atendidos os critérios estabelecidos no artigo anterior, os clientes deverão:</strong></span></p><p><br> </p><p><span style="font-size:small;">Comparecer a uma Unidade de Negócios da CAERD e preencher um formulário especifico de solicitação da Tarifa Social;</span><br><span style="font-size:small;">Apresentar cópias e originais dos documentos pessoais (RG e CPF);</span><br><span style="font-size:small;">Apresentar cópia e original da carteira de beneficiário do Programa Social do Governo Federal/Estadual/Municipal ou registro do Cadastro Único;</span></p><p> </p><p><span style="font-size:small;">Apresentar cópia e original da documentação do imóvel ou do contrato de locação com reconhecimento de firma das assina-turas;</span></p><p> </p><p><span style="font-size:small;">Cópia e original do último comprovante do valor recebido do benefício;</span><br><span style="font-size:small;">certidão negativa de débitos com a CAERD.</span></p><p> </p><p><span style="font-size:small;"><strong>Ocorrerá a perda do beneficio, quando:</strong></span></p><p><br> </p><p><span style="font-size:small;">O beneficiário da Tarifa Social estiver em debito com a CAERD com 02 (duas) faturas vencidas;</span><br><span style="font-size:small;">Quando comprovado pela CAERD, fraude de qualquer natureza;</span><br><span style="font-size:small;">Mudança da categoria residencial para comercial;</span><br><span style="font-size:small;">Quando o cliente não providenciar a renovação.</span></p><p> </p><p> </p><p><span style="font-size:small;">Av. Pinheiro Machado 2112 – São Cristóvão – Porto Velho</span></p><p><span style="font-size:small;">Fone: (69) 3216 1760</span></p><p> </p><p class="has-text-color has-medium-font-size has-vivid-cyan-blue-color"><a href="https://transparencia.caerd.ro.gov.br/tarifa-social"><span style="font-size:small;"><strong>Veja aqui!</strong></span></a></p>                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>            </div>
+        </div>
+        <div class="col-12 p-0 contraste">
+            <footer class="bg-footer bg-background contraste" style="border-top: 1px solid var(--border-imputs);">
+	<div class="footer-upper pt-100 pb-80">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-md-2">
+                    <a href="/" class="d-flex justify-content-center align-items-center h-100 p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.5rem" height="5rem"
+                            version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 29700 21000" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+                            <g style="fill: var(--color-logo);">
+                                <path d="M14030.14 3508.13c-169.55,40.23 -477.04,212.66 -686.82,385.08 -534.52,442.55 -1123.63,1339.15 -1500.09,2284.61 -149.43,373.58 -502.9,1359.27 -491.4,1370.76 5.75,5.75 83.34,-123.56 175.29,-284.5 1040.29,-1830.55 1646.65,-2531.74 2526.01,-2922.57 428.18,-189.67 591.98,-336.23 591.98,-534.52 0,-258.63 -255.76,-382.2 -614.97,-298.87l0 0.01z"/>
+                                <path d="M5069.87 4039.77c-158.06,48.85 -327.61,227.02 -356.34,379.34 -48.85,258.63 160.93,505.77 569,666.7 494.28,195.41 709.81,336.22 1066.15,686.82 738.55,721.3 1140.87,1425.37 1399.51,2454.15 57.48,232.78 112.07,431.07 120.7,436.81 54.6,54.6 -255.76,-1488.59 -399.45,-1980 -189.66,-660.95 -471.29,-1293.17 -770.15,-1738.6 -278.75,-413.82 -781.66,-810.39 -1149.49,-908.1 -206.91,-51.73 -301.74,-51.73 -479.91,2.87l-0.02 0.01z"/>
+                                <path d="M9460.91 5703.66c-20.11,390.82 -100.58,847.74 -232.77,1304.67 -232.77,813.26 -540.26,1390.88 -1275.93,2399.55 -658.07,902.35 -810.38,1172.48 -928.2,1643.77 -113.5,460.29 -105.94,1138.83 70.3,1614.64 116.48,314.57 305.99,580.91 538.93,819.4 356.33,373.59 836.24,658.09 1373.63,813.27 135.07,37.35 247.14,66.09 252.89,60.34 2.87,-2.87 -112.08,-66.09 -255.76,-140.81 -2552.44,-1194.35 -1433.33,-4476.77 990.03,-4389.53 694.01,24.98 1265.53,247.99 1745.78,742.76 -84.02,109.15 -873.55,1173.06 -905.72,1181.11 -715.12,-536.32 -1632.37,-365.41 -1649.8,556.7 163.35,900.35 1232.3,805.8 1690.51,247.94l727.05 1043.16 157.1 -89.9c-1176.1,-1548.18 48.29,-2817.34 400.43,-3114.24 -19.72,-153.38 -762.39,-1099.92 -847.78,-1215.64 -1140.87,-1477.09 -1663.88,-2569.1 -1778.83,-3721.47 -10.64,-108.48 -19.71,-161.86 -29.51,-162.45 -24.48,-1.46 -40.97,378.71 -42.35,406.73zm-2520.14 7299.23c-1122.24,157.91 -3267.69,519.79 -4060.68,1393.77 -482.79,534.52 -163.8,1160.98 830.51,1638.02 2877.03,1370.55 9273.53,1434.31 11974.8,40.23 670.53,-348.35 1095.75,-725.69 939.71,-1505.83l-977.06 0c76.05,652.01 -162.98,903.21 -750.05,1206.97 -1997.24,1043.15 -7514.78,1100.63 -9994.8,103.45 -551.76,-221.28 -962.7,-511.52 -1097.76,-773.03 -221.28,-436.81 178.16,-933.96 994.3,-1241.45 783.6,-295.52 1512.57,-416.02 2336.62,-560.42 -84.34,-108.38 -148.03,-207.01 -195.59,-301.71z"/>
+                                <path d="M2348.45 7706.64c-301.74,149.43 -316.11,500.02 -25.86,698.31 112.07,77.59 247.14,120.7 698.31,227.02 500.03,117.83 1025.92,399.45 1594.92,850.62 393.7,316.12 778.78,744.3 1103.51,1229.96 169.55,258.63 206.91,281.62 117.83,77.59 -221.28,-500.03 -1094.89,-1750.1 -1560.43,-2232.88 -686.82,-712.68 -1491.47,-1066.16 -1928.27,-850.62l-0.01 0z"/>
+                                <path d="M25987.7 8034.25c-33.7,33.7 -11.09,2339.21 -31.61,2339.21 -88.78,0 -556.66,-229.18 -979.93,-232.78 -373.59,0 -658.09,63.23 -951.2,212.66 -698.32,356.34 -1106.38,1028.79 -1112.13,1830.56 -2.88,629.35 209.78,1129.38 658.08,1551.81 353.47,333.35 790.27,511.52 1304.67,537.39 393.7,20.11 649.46,-34.49 1002.92,-209.79 468.42,-229.89 890.86,-715.56 1040.29,-1189.72 256.79,-807.06 102.56,-3694.38 97.72,-4842.22 -347.19,-5.91 -685.45,2.88 -1028.81,2.88zm-681.07 3218.57c273.01,89.08 517.27,336.22 614.97,623.6 165.35,496.04 -97.41,1098.48 -594.86,1278.8 -479.91,181.05 -1020.17,-34.48 -1255.82,-497.16 -133.21,-262.27 -148.61,-614.59 -22.98,-882.23 221.27,-477.04 741.42,-692.56 1258.69,-523.02l0 0.01z"/>
+                                <path d="M7892.69 12338.13c118.57,1616.7 2130.49,2257.53 3486.43,1460.7 -28.3,-65.44 -468.17,-681.62 -551.81,-783.6 -573.97,440.21 -1207.43,311.47 -1568.42,41.75 -1165.82,-871.05 154.51,-2657.25 1525.88,-1679.74l590.95 -783.38c-1473.96,-1087.65 -3624.06,-178.67 -3483.03,1744.27z"/>
+                                <path d="M18153.93 10149.3c-1063.28,135.07 -1827.69,1060.41 -1775.96,2149.55 60.34,1235.7 1120.75,2132.3 2319.1,1957.01 258.63,-40.23 551.75,-135.07 750.04,-247.14 146.56,-80.47 370.7,-264.39 370.7,-304.61 0,-20.12 -505.77,-732.8 -577.61,-813.27 -57.1,46.81 -281.24,187.39 -379.33,232.78 -541.84,260.04 -1296.76,-36.12 -1396.63,-623.6l1505.84 0 1502.96 0c165.64,-1372.56 -912.42,-2533.12 -2319.1,-2350.7l-0.01 -0.02zm890.85 1232.83c89.09,63.22 255.76,270.13 255.76,318.98 0,28.57 -1551.4,22.99 -1755.84,22.99 299.93,-559.85 991.47,-723.52 1500.08,-341.97z"/>
+                                <path d="M20724.73 11712.77l-47.67 2568.94 1034.54 0c5.74,-742.42 42.61,-1567.33 50.28,-2309.74 64.42,-933.87 980.13,-777 976.58,-798.5l-9.56 -1035.68c-1300.18,-44.89 -1989.67,793.37 -2004.17,1574.98z"/>
+                                <path d="M11629.78 12186.77c-11.4,1427.16 1358.55,2435.92 2684.85,2000.12 437.43,-148.57 606,-324.52 925.34,-620.73l255.76 701.19 1071.9 14.37c-345.8,-957.62 -730.62,-2221.75 -1109.25,-3112.24 -357.97,-693.57 -1144.43,-1077.57 -1906.68,-1015.02 -1090.1,89.44 -1913.23,942.29 -1921.92,2032.31zm3041.28 3.42c18.52,604.82 -389.23,1013.88 -1003.01,1013.88 -614.7,0 -999.01,-423.28 -968.44,-1034.54 26.84,-554.81 396.18,-983.91 962.71,-985.22 600.34,-1.41 990.98,426.34 1008.74,1005.88z"/>
+                                <path d="M5308.38 14913.94c301.75,301.74 1270.19,557.5 2885.22,761.54 758.66,94.83 796.02,89.08 172.43,-31.62 -1692.62,-324.73 -2382.32,-758.66 -2109.31,-1324.79 66.09,-137.93 244.26,-307.48 497.15,-474.16 125.17,-80.83 192.35,-125 183.34,-133.28 -13.02,-11.95 -2176.72,654.36 -1628.83,1202.31z"/>
+                                <path d="M14263.1 14642.54c47.77,164.05 36.66,183.87 -57.67,323.12 -294.12,449.83 -1707.94,684.83 -1760.93,739.03 -6.62,6.78 50.66,3.79 145.9,-3.36 534.52,-37.36 1275.93,-172.42 1649.51,-301.74 681.07,-232.77 850,-524.97 608.64,-962.7 -65.88,22.46 -493.14,192.89 -585.45,205.65z"/>
+                            </g>
+                        </svg>
+                    </a>
+				</div>
+				<div class="col-6 col-md-2">
+                    <a href="https://www.ro.gov.br/" class="d-flex justify-content-center align-items-center h-100 p-2">
+                        <img src="assets/images/interface/logos/newgovro.svg" alt="Logo Gov" style="width: 6rem; height: 6rem;">
+                    </a>
+				</div>
+                <div class="col-12 col-md-8">
+                    <div class="d-flex justify-content-center justify-content-md-end align-items-center h-100 px-0 px-md-2 py-2">
+                        <a class="p-2" href="https://goo.gl/maps/ecVUPQXtsAvZUvHX6">    
+                            <i class="bi bi-geo-alt-fill fs-2" style="color: var(--primary)"></i>
+                        </a>
+                        <p class="text-color fs-7 text-start mt-3">
+                            Av. Pinheiro Machado, 2112 - São Cristovão <br> Porto Velho-RO, CEP 76.804-04 
+                        </p>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer-lower" style="height:55px;background: var(--background-menu);">
+		<div class="container">
+			<div class="footer-lower-grid">
+				<div class="footer-lower-item footer-lower-info" style="position:absolute">
+					<div class="footer-copyright-text pt-3">
+						<p style="color: #FFFFFFED;">Copyright © 2024 CTIN/CAERD</p>
+					</div>
+				</div>
+				<div class="footer-lower-item d-flex justify-content-end pt-3"> 
+					<div id="visitante">
+		
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+        </div>
+    </div>
+</body>
+
+<div class="modal fade" id="modal-processo">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: 1px solid var(--border-imputs)">
+                <h4 class="modal-title text-color">Processo Seletivo</h4>
+                <button type="button" class="btn-close text-color" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <button type="button" class="btn btn-primary"
+                    onclick="window.location.href='https://forms.gle/QnCZ7G4U7ZyYD8wQA'" disabled>
+                    <svg style="margin-top:-5px" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path
+                            d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                    </svg>
+                    Inscrição
+                </button>
+
+                <button type="button" class="btn btn-primary"
+                    onclick="window.location.href='https://transparencia.caerd.ro.gov.br/processo-seletivo-2023'">
+                    <svg style="margin-top:-5px" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z">
+                        </path>
+                    </svg>
+                    Edital
+                </button>
+            </div>
+            <div class="modal-footer" style="border-top: 1px solid var(--border-imputs)">
+                <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade no-select" id="modal-image">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content p-1">
+            <img class="rounded-2" id="content-image" src="" width="100%" alt="" />
+        </div>
+    </div>
+</div><div class="toast-container position-fixed top-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="background:var(--background-toast);color:var(--text-secundary); backdrop-filter: blur(5px);border:var(--border-imputs) solid 1px;box-shadow: 1px 1px 6px 1px var(--boxshadow-menu);">
+        <div class="toast-header" style="background:var(--background-login);color:var(--text-secundary);">
+            <span id="toast-icon" class="me-2"></span>
+            <strong class="me-auto"><span id="toast-title"></span></strong>
+            <button type="button" class="btn btn-dark bg-transparent border-0" data-bs-dismiss="toast" aria-label="Close">
+                <i class="bi bi-x-lg text-color"></i>
+            </button>
+        </div>
+        <div class="toast-body">
+            <span id="toast-message"></span>
+        </div>
+    </div>
+</div><script>
+    const menu = document.querySelector('#main-menu');
+    const content = document.querySelector('.container-content');
+    content.style.marginTop = `${menu.offsetHeight}px`;
+</script>
+</html>

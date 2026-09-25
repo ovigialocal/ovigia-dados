@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/ana-lista-positiva-tarifa-social-julho-2026",
+  "source_url": "https://www.gov.br/ana/pt-br/assuntos/saneamento-basico/tarifa-social-de-agua-e-esgoto/lista-positiva",
+  "archive_url": "https://web.archive.org/web/20260925075937/https://www.gov.br/ana/pt-br/assuntos/saneamento-basico/tarifa-social-de-agua-e-esgoto/lista-positiva",
+  "verified_at": "2026-09-25T09:08:12Z",
+  "archive_content_type": "text/html",
+  "archive_size": 42181,
+  "archive_sha256": "db3d71138af4f0b64ddb116f41d8d10269142b290a50692a7e87ed2f533e9c0e",
+  "source_content_type": "text/html",
+  "source_size": 339764,
+  "source_sha256": "bca80107a6a2ebf3b6f46047bde610369c15b031d4247cb38342f8daf83efe45",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/ana-lista-positiva-tarifa-social-julho-2026.html"
+}
