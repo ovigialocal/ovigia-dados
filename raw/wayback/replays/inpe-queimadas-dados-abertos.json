@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/inpe-queimadas-dados-abertos",
+  "source_url": "https://data.inpe.br/queimadas/portal/pages/secao_downloads/dados-abertos/",
+  "archive_url": "https://web.archive.org/web/20260925134917/https://data.inpe.br/queimadas/portal/pages/secao_downloads/dados-abertos/",
+  "verified_at": "2026-09-25T23:09:20Z",
+  "archive_content_type": "text/html",
+  "archive_size": 17342,
+  "archive_sha256": "8ef7fa3ff01be0842dc57b54cea2ec1cce24863980696ae17325379cd07f1c4b",
+  "source_content_type": "text/html",
+  "source_size": 17342,
+  "source_sha256": "8ef7fa3ff01be0842dc57b54cea2ec1cce24863980696ae17325379cd07f1c4b",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/inpe-queimadas-dados-abertos.html"
+}

@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/caerd-estrutura-tarifaria-julho-2025",
+  "source_url": "https://caerd.ro.gov.br/file/cloudfiles/687e726cce089.pdf",
+  "archive_url": "https://web.archive.org/web/20260925143322/https://caerd.ro.gov.br/file/cloudfiles/687e726cce089.pdf",
+  "verified_at": "2026-09-25T23:09:19Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 133393,
+  "archive_sha256": "9f3596c216a8603db0222c7e5282190dcb8d93eae2f2068a359f7726b974c46b",
+  "source_content_type": "application/pdf",
+  "source_size": 133393,
+  "source_sha256": "9f3596c216a8603db0222c7e5282190dcb8d93eae2f2068a359f7726b974c46b",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/caerd-estrutura-tarifaria-julho-2025.pdf"
+}
