@@ -2,7 +2,7 @@
 okf_version: "0.2"
 type: archive-request
 source_url: "https://www.idaron.ro.gov.br/index.php/2026/06/01/empresas-privadas-poderao-se-credenciar-na-idaron-para-inspecao-sanitaria-em-frigorificos-de-rondonia/"
-requested_at: "2026-09-25T13:41:00Z"
+requested_at: "2026-09-25T13:40:00Z"
 resource_kind: webpage
 reason: material-source
 ---
