@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idosos-ilpi-risco-sanitario-pvh",
+  "source_url": "https://visa.portovelho.ro.gov.br/noticias/classificacao-de-risco-sanitario-e-relacao-de-documentos-necessarios-ao-alvara-sanitario",
+  "archive_url": "https://web.archive.org/web/20260906164806/https://visa.portovelho.ro.gov.br/noticias/classificacao-de-risco-sanitario-e-relacao-de-documentos-necessarios-ao-alvara-sanitario",
+  "verified_at": "2026-09-25T02:42:46Z",
+  "archive_content_type": "text/html",
+  "archive_size": 17100,
+  "archive_sha256": "262910808e0a927420facc6718874c10f88ea59ec81b372387927b9534eade71",
+  "source_content_type": "text/html",
+  "source_size": 132172,
+  "source_sha256": "a028058ce6dd0cf1bdd233705e0b294aaf0ee407aa23012a72edf20f32d81cda",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/idosos-ilpi-risco-sanitario-pvh.html"
+}
