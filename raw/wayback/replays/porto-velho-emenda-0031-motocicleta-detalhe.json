@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/porto-velho-emenda-0031-motocicleta-detalhe",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/emendas-parlamentares/municipais/164",
+  "archive_url": "https://web.archive.org/web/20260925082256/https://transparencia.portovelho.ro.gov.br/emendas-parlamentares/municipais/164",
+  "verified_at": "2026-09-25T14:27:58Z",
+  "archive_content_type": "text/html",
+  "archive_size": 39272,
+  "archive_sha256": "f453f0f09ea68182210a33f0f0229784b135a923de41ae47810ef93106144584",
+  "source_content_type": "text/html",
+  "source_size": 411438,
+  "source_sha256": "df08379cd74f0e954f10628e11142e9ad95055d56515971af745cb7f9ca4059a",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/porto-velho-emenda-0031-motocicleta-detalhe.html"
+}

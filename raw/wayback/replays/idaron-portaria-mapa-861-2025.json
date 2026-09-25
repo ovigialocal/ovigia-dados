@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idaron-portaria-mapa-861-2025",
+  "source_url": "https://www.idaron.ro.gov.br/wp-content/uploads/2026/06/Portaria_MAPA_861-de-13.11.2025.pdf",
+  "archive_url": "https://web.archive.org/web/20260925134315/https://www.idaron.ro.gov.br/wp-content/uploads/2026/06/Portaria_MAPA_861-de-13.11.2025.pdf",
+  "verified_at": "2026-09-25T14:25:55Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 408225,
+  "archive_sha256": "122c2fbe5c95211ecd7cfc4286da4c4cc4d15b04189c4edd1524f2668bcc2802",
+  "source_content_type": "application/pdf",
+  "source_size": 408225,
+  "source_sha256": "122c2fbe5c95211ecd7cfc4286da4c4cc4d15b04189c4edd1524f2668bcc2802",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/idaron-portaria-mapa-861-2025.pdf"
+}

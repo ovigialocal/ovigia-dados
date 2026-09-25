@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idaron-edital-3-2026-credenciamento-inspecao",
+  "source_url": "https://www.idaron.ro.gov.br/wp-content/uploads/2026/09/SEI_76063578_Edital_3.pdf",
+  "archive_url": "https://web.archive.org/web/20260925134309/https://www.idaron.ro.gov.br/wp-content/uploads/2026/09/SEI_76063578_Edital_3.pdf",
+  "verified_at": "2026-09-25T14:25:52Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 122045,
+  "archive_sha256": "320e6702db4ece381b8086855b0f5870a85007166770cc2e08d9be36a28f392a",
+  "source_content_type": "application/pdf",
+  "source_size": 122045,
+  "source_sha256": "320e6702db4ece381b8086855b0f5870a85007166770cc2e08d9be36a28f392a",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/idaron-edital-3-2026-credenciamento-inspecao.pdf"
+}

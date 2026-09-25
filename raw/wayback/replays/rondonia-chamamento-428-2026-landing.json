@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/rondonia-chamamento-428-2026-landing",
+  "source_url": "https://rondonia.ro.gov.br/publicacao/edital-de-chamamento-publico-no-428-2026/",
+  "archive_url": "https://web.archive.org/web/20260925140541/https://rondonia.ro.gov.br/publicacao/edital-de-chamamento-publico-no-428-2026/",
+  "verified_at": "2026-09-25T14:27:59Z",
+  "archive_content_type": "text/html",
+  "archive_size": 31664,
+  "archive_sha256": "c0e82fa1782ac773ae0c5d9bdf001f8a5ac7daa0eb91186b99274022d0da5a59",
+  "source_content_type": "text/html",
+  "source_size": 190421,
+  "source_sha256": "92aab3050214af4d9e597b25c79208b41d0d7c9d61b136b133f1652efdb2d8ae",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/rondonia-chamamento-428-2026-landing.html"
+}

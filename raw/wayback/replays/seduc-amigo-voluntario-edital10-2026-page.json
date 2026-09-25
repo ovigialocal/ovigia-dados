@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/seduc-amigo-voluntario-edital10-2026-page",
+  "source_url": "https://rondonia.ro.gov.br/publicacao/edital-no-10-2026-seduc-gplad/",
+  "archive_url": "https://web.archive.org/web/20260925084230/https://rondonia.ro.gov.br/publicacao/edital-no-10-2026-seduc-gplad/",
+  "verified_at": "2026-09-25T14:28:02Z",
+  "archive_content_type": "text/html",
+  "archive_size": 31128,
+  "archive_sha256": "0bd1079f56d75f82b6eb2b9c5e67224e3d765776999ab9d7b1d8c7e42541a25f",
+  "source_content_type": "text/html",
+  "source_size": 186876,
+  "source_sha256": "01da5ea13285bcf7934470427cad7704677af54bf4a07f0cd6041d26fbaa94ef",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/seduc-amigo-voluntario-edital10-2026-page.html"
+}

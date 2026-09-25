@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/agevisa-simposio-2026-unir-register",
+  "source_url": "https://periodicos.unir.br/index.php/propesq/user/register",
+  "archive_url": "https://web.archive.org/web/20260925133841/https://periodicos.unir.br/index.php/propesq/user/register",
+  "verified_at": "2026-09-25T14:25:51Z",
+  "archive_content_type": "text/html",
+  "archive_size": 5741,
+  "archive_sha256": "963adacee3798351ccf7d89a36396e65abea055373272a24640badff7bbce5cb",
+  "source_content_type": "text/html",
+  "source_size": 24393,
+  "source_sha256": "5d00673605229d2888e1cbfb7590ff3b0dea5b62bd29b5c0b3ef0590cf662908",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/agevisa-simposio-2026-unir-register.html"
+}
