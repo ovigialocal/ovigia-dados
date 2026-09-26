@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-release-indice-transparencia-2025",
+  "source_url": "https://newsrondonia.com.br/noticias/2025/08/08/prefeitura-de-porto-velho-atinge-9591-pontos-e-se-mantem-entre-as-mais-transparentes-do-brasil/",
+  "archive_url": "https://web.archive.org/web/20260926172643/https://newsrondonia.com.br/noticias/2025/08/08/prefeitura-de-porto-velho-atinge-9591-pontos-e-se-mantem-entre-as-mais-transparentes-do-brasil/",
+  "verified_at": "2026-09-26T17:50:31Z",
+  "archive_content_type": "text/html",
+  "archive_size": 30126,
+  "archive_sha256": "462ca77d01f4bc7054bda8f3994ec2038a32b8be1538400c1d52a5f78cd50515",
+  "source_content_type": "text/html",
+  "source_size": 247119,
+  "source_sha256": "c82ecf2a6c3963f59134d0b3f18d5ba0d3d20f763976fc2b50f0f05759369659",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-release-indice-transparencia-2025.html"
+}
