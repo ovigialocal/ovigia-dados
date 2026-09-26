@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/semusa-rdqa-2q-2025-regulacao",
+  "source_url": "https://semusa.portovelho.ro.gov.br/uploads/arquivos/2025/12/63571/17649472462-rdqa-2025-versao-digisus-com-anexos.pdf",
+  "archive_url": "https://web.archive.org/web/20260925022653/https://semusa.portovelho.ro.gov.br/uploads/arquivos/2025/12/63571/17649472462-rdqa-2025-versao-digisus-com-anexos.pdf",
+  "verified_at": "2026-09-26T08:16:13Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 2575082,
+  "archive_sha256": "00d6560fb9e74469eb253987f533efc045aa884a4b8567d73f7740b0ae1daf7f",
+  "source_content_type": "application/pdf",
+  "source_size": 2941990,
+  "source_sha256": "5d288d786306d7d85d05f3216116390d50d23d65b97b849624eb576c488984dd",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/semusa-rdqa-2q-2025-regulacao.pdf"
+}
