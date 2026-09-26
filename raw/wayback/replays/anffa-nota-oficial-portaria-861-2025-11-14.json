@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/anffa-nota-oficial-portaria-861-2025-11-14",
+  "source_url": "https://anffasindical.org.br/nota-oficial-portaria-mapa-861/",
+  "archive_url": "https://web.archive.org/web/20260925222527/https://anffasindical.org.br/nota-oficial-portaria-mapa-861/",
+  "verified_at": "2026-09-26T02:22:48Z",
+  "archive_content_type": "text/html",
+  "archive_size": 35767,
+  "archive_sha256": "5b6345de44d700b2fa5403e6202cc184c1a37ca53a7ca9d29b3bb65180558c94",
+  "source_content_type": "text/html",
+  "source_size": 180002,
+  "source_sha256": "27305c1312f3a4c2d2383ec2d5e4bfd91204334b6b68e137806b1e98bb26e1cd",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/anffa-nota-oficial-portaria-861-2025-11-14.html"
+}

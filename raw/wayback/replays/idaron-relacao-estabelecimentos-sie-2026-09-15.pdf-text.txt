@@ -1,0 +1,275 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N° SIE N° Nome Fantasia Categoria Sub-Categoria Classificação Município-Ro Integração ao
+SISBI-POA
+1 021 Frigocal Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Cacoal
+2 027 Frigorífico Magnata Abatedouro Frigorífico - Suínos Abatedouro Frigorífico Indústria Ji-Paraná
+3 031 Produtos Campo
+Grande
+Unidade de Beneficiamento de
+Carne e produtos cárneos
+Unidade de
+Beneficiamento Agroindústria Pimenta Bueno Não Integrado
+4 034 Superm. Irmãos
+Gonçalves
+Unidade de Beneficiamento de
+Carne e produtos cárneos
+Unidade de
+Beneficiamento Indústria Jaru, Rondônia Não Integrado
+5 038 Nova Rover Unidade de Beneficiamento de
+Carne e produtos cárneos
+Unidade de
+Beneficiamento Indústria Porto Velho Não Integrado
+6 048 Magnata Foods Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Ariquemes
+7 049 Asprol Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Alta Floresta d'Oeste Não Integrado
+8 055 Yogo Milk Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Cacoal Não Integrado
+9 057 Agroind. Bom
+Princípio
+Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Vale do Paraíso,
+Rondônia Não Integrado
+10 058 Laticínios Jamari Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Candeias do Jamari
+11 064 Frigokrause Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Alta Floresta d'Oeste
+12 066 Laticínios Novalac Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Nova Mamoré Não Integrado
+13 071 Agroind. Ishiybom Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Presidente Médici,
+Rondônia Não Integrado
+14 072 Agroind. Rirr Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Ouro Preto do Oeste Não Integrado
+15 075 Laticínio Paraíso Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Guajará-Mirim Não Integrado
+16 077 Laticínio Tainara Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Presidente Médici,
+Rondônia Não Integrado
+17 078 Granja Carijó Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Agroindústria Vilhena Não Integrado
+18 082 Manteiga Nordestina Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Ouro Preto do Oeste Não Integrado
+19 091 Agroind. Marcon Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Presidente Médici,
+Rondônia Não Integrado
+20 093 Pescado Rodrigues Unidade de Beneficiamento de
+Pescado e derivados
+Unidade de
+Beneficiamento Indústria Vale do Paraíso,
+Rondônia
+21 094 Frigorífico Areia
+Branca
+Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Porto Velho
+22 097 Granja Brasil III Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Agroindústria Vilhena Não Integrado
+23 098 Progresso Pescado Unidade de Beneficiamento de
+Pescado e derivados
+Unidade de
+Beneficiamento Agroindústria Porto Velho Não Integrado
+24 099 O Porcão Unidade de Beneficiamento de
+Carne e produtos cárneos
+Unidade de
+Beneficiamento Indústria Porto Velho Não Integrado
+25 101 Laticínio Mercandeli Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Teixeirópolis Não Integrado
+26 102 Frigoisa Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Rolim de Moura
+27 103 Frigoraça Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Porto Velho
+28 104 Frig. Norte Carnes
+Ltda
+Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Machadinho d'Oeste
+29 106 Coopercacoal - Apr3 Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Indústria Cacoal Não Integrado
+30 112 Unirlac Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Nova União,
+Rondônia Não Integrado
+31 113 Laticínio Margori
+LTDA
+Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Ouro Preto do Oeste Não Integrado
+N° SIE N° Nome Fantasia Categoria Sub-Categoria Classificação Município-Ro Integração ao
+SISBI-POA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32 114 Mel Flor Da Amazonia
+Unidade de Beneficiamento de
+Produtos de Abelhas e
+derivados
+Unidade de
+Beneficiamento Agroindústria Novo Horizonte do
+Oeste Não Integrado
+33 119 Laticínios Quatro
+Irmãos LTDA
+Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Agroindústria Teixeirópolis Não Integrado
+34 120 Kadão Alimentos Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Ji-Paraná
+35 121 Mercado Santa
+Helena
+Unidade de Beneficiamento de
+Carne e produtos cárneos
+Unidade de
+Beneficiamento Indústria Rolim de Moura Não Integrado
+36 123 Frigorífico Dallas Abatedouro Frigorífico -
+Bovinos Abatedouro Frigorífico Indústria Ariquemes
+37 124 Alimentos Da Hora
+LTDA
+Unidade de Beneficiamento de
+Carne e produtos cárneos
+Unidade de
+Beneficiamento Indústria Cacoal Não Integrado
+38 125 Cooper-Reca
+Unidade de Beneficiamento de
+Produtos de Abelhas e
+derivados
+Unidade de
+Beneficiamento Indústria Porto Velho Não Integrado
+39 126 Laticínios Miraella -
+RM
+Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Rolim de Moura
+40 127 Laticínios Miraella -
+SLO
+Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Santa Luzia d'Oeste
+41 128 Primallate Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Ji-Paraná
+42 129 Laticínios Miraella -
+NHO
+Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Novo Horizonte do
+Oeste
+43 130 Granja Nossa Sra. de
+Fátima
+Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Indústria Alto Paraíso Não Integrado
+44 131 Tradilac Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Nova Mamoré
+45 132 Laticínio Joia Unidade de Beneficiamento de
+Leite e derivados
+Unidade de
+Beneficiamento Indústria Ministro Andreazza
+46 133 Charque Riomar Unidade de Beneficiamento de
+Carne e produtos cárneos
+Unidade de
+Beneficiamento Indústria Cacoal
+47 134 Agrícola Tangará
+LTDA
+Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Indústria Cacoal
+48 135 Recanto das codornas Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Agroindústria Teixeirópolis Não Integrado
+49 136 Granja Ebenézer Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Agroindústria Ji-Paraná Não Integrado
+50 138 Ovos Boa Vista Unidade de Beneficiamento de
+Ovos e derivados
+Unidade de
+Beneficiamento Agroindústria Ji-Paraná Não Integrado
+Total 50 50
+15/09/2026
