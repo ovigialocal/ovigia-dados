@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-ppp-status-page",
+  "source_url": "https://cgp.portovelho.ro.gov.br/pagina/mip-005-2025-residuos-solidos-urbanos",
+  "archive_url": "https://web.archive.org/web/20260926020045/https://cgp.portovelho.ro.gov.br/pagina/mip-005-2025-residuos-solidos-urbanos",
+  "verified_at": "2026-09-26T14:29:37Z",
+  "archive_content_type": "text/html",
+  "archive_size": 17942,
+  "archive_sha256": "6c862ea9c42dddbfa749d182b480ea8ff9f6b583a7847f13fd44abd57043137b",
+  "source_content_type": "text/html",
+  "source_size": 123138,
+  "source_sha256": "13c6975a72c0132e8727f4559a72e81253065e6a596e3bfced5a78ad9b25cd38",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-ppp-status-page.html"
+}
