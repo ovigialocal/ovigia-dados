@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-reobservacao-9203-2026-09-26",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/9203",
+  "archive_url": "https://web.archive.org/web/20260926145808/https://transparencia.portovelho.ro.gov.br/despesas/compras/9203",
+  "verified_at": "2026-09-26T15:25:19Z",
+  "archive_content_type": "text/html",
+  "archive_size": 40489,
+  "archive_sha256": "2a4e8325a2f5080ed2bb2f10c4cf41dbd9f7b420b9dd1237d2b6e6ede5abfac8",
+  "source_content_type": "text/html",
+  "source_size": 436171,
+  "source_sha256": "4b493bc1752c4ab8d7ab4618219a1b492fa38e88d535dfecfef930e7c021e8ec",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-reobservacao-9203-2026-09-26.html"
+}

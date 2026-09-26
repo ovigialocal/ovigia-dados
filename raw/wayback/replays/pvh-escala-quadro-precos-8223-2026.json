@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-quadro-precos-8223-2026",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8223/29281/fase_2.pdf",
+  "archive_url": "https://web.archive.org/web/20260926140638/https://anexos.portovelho.ro.gov.br/compras/8223/29281/fase_2.pdf",
+  "verified_at": "2026-09-26T15:25:12Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 119987,
+  "archive_sha256": "cd5771e0d1bf8abd047e20b14882031c56700ea30055d782b7d42270a5dbb0b8",
+  "source_content_type": "application/pdf",
+  "source_size": 119957,
+  "source_sha256": "22fc4ccece59c42d37a04fb95b16009bb28ffe15b798509568f6f32da499e750",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-quadro-precos-8223-2026.pdf"
+}
