@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-homologacao-8678-2026",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8678/32823/SEI_1347905_Termo_de_Homologacao_5-(1).pdf",
+  "archive_url": "https://web.archive.org/web/20260926140105/https://anexos.portovelho.ro.gov.br/compras/8678/32823/SEI_1347905_Termo_de_Homologacao_5-(1).pdf",
+  "verified_at": "2026-09-27T18:42:02Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 36160,
+  "archive_sha256": "b90e0721a96e7c555c676356eabac582657e1faa9d816c30616873b047554f7d",
+  "source_content_type": "application/pdf",
+  "source_size": 40348,
+  "source_sha256": "c1804c1ad2b218901a3b74d7c2f7d77589dd503a2ef21f5aa6ff0f32c2aed6eb",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-homologacao-8678-2026.pdf"
+}
