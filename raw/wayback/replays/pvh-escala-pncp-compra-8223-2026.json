@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-pncp-compra-8223-2026",
+  "source_url": "https://pncp.gov.br/api/consulta/v1/orgaos/05903125000145/compras/2026/134",
+  "archive_url": "https://web.archive.org/web/20260926140113/https://pncp.gov.br/api/consulta/v1/orgaos/05903125000145/compras/2026/134",
+  "verified_at": "2026-09-27T14:23:11Z",
+  "archive_content_type": "application/json",
+  "archive_size": 2591,
+  "archive_sha256": "2b0ee38aa35f359aab15e9db16377010d30ab642813355332fee93da37bff31f",
+  "source_content_type": "application/json",
+  "source_size": 2591,
+  "source_sha256": "860440da1bcdb5ddab7516fdcc0de5b6adb037ecc2de5f26d9471d057480a21d",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}
