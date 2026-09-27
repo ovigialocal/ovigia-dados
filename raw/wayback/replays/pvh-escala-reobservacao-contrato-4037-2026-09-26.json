@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-reobservacao-contrato-4037-2026-09-26",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/4037",
+  "archive_url": "https://web.archive.org/web/20260927015003/https://transparencia.portovelho.ro.gov.br/contratos/4037",
+  "verified_at": "2026-09-27T02:23:32Z",
+  "archive_content_type": "text/html",
+  "archive_size": 40997,
+  "archive_sha256": "01ae8ada9459af8d0e9a7843a5905e505b07aac1c396a4435d23a84dd1094a8d",
+  "source_content_type": "text/html",
+  "source_size": 444666,
+  "source_sha256": "a2091a63d8e25dc26492bb02f0029bd6ffb7d9fcba2ab5803e77f55132b08a97",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-reobservacao-contrato-4037-2026-09-26.html"
+}

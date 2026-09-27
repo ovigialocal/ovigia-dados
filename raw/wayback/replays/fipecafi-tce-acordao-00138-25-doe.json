@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/fipecafi-tce-acordao-00138-25-doe",
+  "source_url": "https://tce.ro.gov.br/doe/arquivos/Diario_03411_2025-9-26-15-30-36.pdf",
+  "archive_url": "https://web.archive.org/web/20260925081033/https://tce.ro.gov.br/doe/arquivos/Diario_03411_2025-9-26-15-30-36.pdf",
+  "verified_at": "2026-09-27T02:21:11Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 3387517,
+  "archive_sha256": "9b1ab4055a4946204afe7b7c7daa5630b5beacdfebe9c767d81b8a9cce66af9c",
+  "source_content_type": "application/pdf",
+  "source_size": 3387517,
+  "source_sha256": "9b1ab4055a4946204afe7b7c7daa5630b5beacdfebe9c767d81b8a9cce66af9c",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/fipecafi-tce-acordao-00138-25-doe.pdf"
+}

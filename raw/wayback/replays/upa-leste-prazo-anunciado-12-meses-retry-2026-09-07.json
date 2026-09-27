@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/upa-leste-prazo-anunciado-12-meses-retry-2026-09-07",
+  "source_url": "https://www.portovelho.ro.gov.br/artigo/51696/saude-obra-na-upa-leste-segue-dentro-do-planejamento-e-deve-melhorar-atendimento-a-populacao",
+  "archive_url": "https://web.archive.org/web/20260927021735/https://www.portovelho.ro.gov.br/noticias/saude-obra-na-upa-leste-segue-dentro-do-planejamento-e-deve-melhorar-atendimento-a-populacao",
+  "verified_at": "2026-09-27T02:25:56Z",
+  "archive_content_type": "text/html",
+  "archive_size": 22874,
+  "archive_sha256": "64a116979cd3dd718181f467e96b41dcf7265b3d3e92f8b35c94f7fcf35647cf",
+  "source_content_type": "text/html",
+  "source_size": 144380,
+  "source_sha256": "08669c0b02e22a0255f8190847312c51ba446df46ced9641f2213c6916ad930a",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/upa-leste-prazo-anunciado-12-meses-retry-2026-09-07.html"
+}

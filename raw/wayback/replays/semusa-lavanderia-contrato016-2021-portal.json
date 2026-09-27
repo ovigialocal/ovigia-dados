@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/semusa-lavanderia-contrato016-2021-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/despesas/804e9b02-6467-45d0-8984-d560d74dca98",
+  "archive_url": "https://web.archive.org/web/20260927020452/https://transparencia.portovelho.ro.gov.br/despesas/despesas/804e9b02-6467-45d0-8984-d560d74dca98",
+  "verified_at": "2026-09-27T02:23:47Z",
+  "archive_content_type": "text/html",
+  "archive_size": 43359,
+  "archive_sha256": "57f351300a580c9edf7970165ada3f7354dce4478d78c27862d31520c96ae303",
+  "source_content_type": "text/html",
+  "source_size": 486968,
+  "source_sha256": "2d1eae44a3659ad6277cc725087d0d2c19063411d9b25340c0da955cbe08237a",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/semusa-lavanderia-contrato016-2021-portal.html"
+}

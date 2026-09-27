@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/residuos-compra-7655",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/7655",
+  "archive_url": "https://web.archive.org/web/20260927015538/https://transparencia.portovelho.ro.gov.br/despesas/compras/7655",
+  "verified_at": "2026-09-27T02:23:35Z",
+  "archive_content_type": "text/html",
+  "archive_size": 43209,
+  "archive_sha256": "6b4d27bbdbc2675d2bb11ef0bc6aad57649954b28f11f32a1e1a26b34ff49c85",
+  "source_content_type": "text/html",
+  "source_size": 488890,
+  "source_sha256": "55e4bd3bd5caab08f1f7ea209a20e783d190853478fbcd555e80b63f5c09c814",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/residuos-compra-7655.html"
+}

@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idosos-alerta-pmpv-2026-09-06",
+  "source_url": "https://agencia.portovelho.ro.gov.br/noticias/58160",
+  "archive_url": "https://web.archive.org/web/20260927013605/https://agencia.portovelho.ro.gov.br/noticias/58160",
+  "verified_at": "2026-09-27T02:21:12Z",
+  "archive_content_type": "text/html",
+  "archive_size": 20956,
+  "archive_sha256": "5f442d75eec1410ef8f7a8be51a5eff7569ca3237309b8f118b9d06396881858",
+  "source_content_type": "text/html",
+  "source_size": 122508,
+  "source_sha256": "23f5c223dc42396ecc88257623f87b6751bfa9cd8b869c2f569f5f98a0c7b37e",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/idosos-alerta-pmpv-2026-09-06.html"
+}

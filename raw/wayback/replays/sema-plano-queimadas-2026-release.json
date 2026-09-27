@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/sema-plano-queimadas-2026-release",
+  "source_url": "https://sema.portovelho.ro.gov.br/noticias/58143",
+  "archive_url": "https://web.archive.org/web/20260926020342/https://sema.portovelho.ro.gov.br/noticias/58143",
+  "verified_at": "2026-09-27T02:23:42Z",
+  "archive_content_type": "text/html",
+  "archive_size": 27457,
+  "archive_sha256": "4b4a8dc2403a5c04ffcc8689e388e9d42c421a3af112c90df0d0fd0759f87c89",
+  "source_content_type": "text/html",
+  "source_size": 226930,
+  "source_sha256": "2742792b7c1a9b1d593543321abaa57d3fc8c14c1957be1cba76b30841f9b191",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/sema-plano-queimadas-2026-release.html"
+}

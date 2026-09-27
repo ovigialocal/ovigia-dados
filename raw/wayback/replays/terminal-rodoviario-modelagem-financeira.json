@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/terminal-rodoviario-modelagem-financeira",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/9186/33222/Volume-III---avalia%C3%A7%C3%A3o-econ%C3%B4mico-financeira.pdf",
+  "archive_url": "https://web.archive.org/web/20260925023526/https://anexos.portovelho.ro.gov.br/compras/9186/33222/Volume-III---avalia%C3%A7%C3%A3o-econ%C3%B4mico-financeira.pdf",
+  "verified_at": "2026-09-27T02:25:50Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1074476,
+  "archive_sha256": "bdef8357af11a7e904af3b9da135c7c7a985325a15ff7aaffb47ebfa45ce113f",
+  "source_content_type": "application/pdf",
+  "source_size": 1121545,
+  "source_sha256": "7032a312a6ef6b80b5b3e75754f88a6b656bfc248830690c4ef55224fc84a123",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/terminal-rodoviario-modelagem-financeira.pdf"
+}

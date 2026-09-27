@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/porto-velho-loa-2026",
+  "source_url": "https://www.portovelho.ro.gov.br/uploads/arquivos/2025/12/86139/1767621129lei-no-3351-de-15-de-dezembro-de-2025-loa-2026-doc-completo.pdf",
+  "archive_url": "https://web.archive.org/web/20260926015101/https://www.portovelho.ro.gov.br/uploads/arquivos/2025/12/86139/1767621129lei-no-3351-de-15-de-dezembro-de-2025-loa-2026-doc-completo.pdf",
+  "verified_at": "2026-09-27T02:21:18Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 7822365,
+  "archive_sha256": "ec2ac6ccf6f3233891a36c3f42bb2a8d85a9cf3040c12388f739587cd609ff95",
+  "source_content_type": "application/pdf",
+  "source_size": 8305361,
+  "source_sha256": "b89a6234227e873a22b2a965550e1f1d6ef627dca878dcc43253a7e65dc4d580",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/porto-velho-loa-2026.pdf"
+}

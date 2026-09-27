@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/calderita-festival-2026-programacao",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58153",
+  "archive_url": "https://web.archive.org/web/20260927013000/https://www.portovelho.ro.gov.br/noticias/58153",
+  "verified_at": "2026-09-27T02:21:06Z",
+  "archive_content_type": "text/html",
+  "archive_size": 22086,
+  "archive_sha256": "2c9322d3df4daa864052260028a3f9c3bdb7f33ab28e62c5c39ec011cb1d327f",
+  "source_content_type": "text/html",
+  "source_size": 140556,
+  "source_sha256": "d16387b3ce337166287f9ffbd05dc923dfd7050252b73f302e8872c2e0cea65a",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/calderita-festival-2026-programacao.html"
+}

@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/agevisa-simposio-2026-edital-pdf",
+  "source_url": "https://rondonia.ro.gov.br/wp-content/uploads/2026/09/SEI_76280515_Edital_I-Simposio-de-Vigilancia-em-Saude-%E2%80%93-AGEVISARO_of.pdf",
+  "archive_url": "https://web.archive.org/web/20260926013718/https://rondonia.ro.gov.br/wp-content/uploads/2026/09/SEI_76280515_Edital_I-Simposio-de-Vigilancia-em-Saude-%E2%80%93-AGEVISARO_of.pdf",
+  "verified_at": "2026-09-27T02:21:04Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 116948,
+  "archive_sha256": "d434fe7754cfc7d71291d26b2c733d5aec191b8490eeb23356813823e70d050d",
+  "source_content_type": "application/pdf",
+  "source_size": 116948,
+  "source_sha256": "d434fe7754cfc7d71291d26b2c733d5aec191b8490eeb23356813823e70d050d",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/agevisa-simposio-2026-edital-pdf.pdf"
+}

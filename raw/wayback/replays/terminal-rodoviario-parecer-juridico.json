@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/terminal-rodoviario-parecer-juridico",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/9186/33225/Parecer-jur%C3%ADdico.pdf",
+  "archive_url": "https://web.archive.org/web/20260926021603/https://anexos.portovelho.ro.gov.br/compras/9186/33225/Parecer-jur%C3%ADdico.pdf",
+  "verified_at": "2026-09-27T02:25:53Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 347338,
+  "archive_sha256": "4975b106d2e2621d387592d167b2f3d765546a8ad1b962efd99c430167029c09",
+  "source_content_type": "application/pdf",
+  "source_size": 423972,
+  "source_sha256": "38296dfef5dc2e996b107fe144293f564f8b64fa706b95aa513f8f5c00bcb14c",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/terminal-rodoviario-parecer-juridico.pdf"
+}

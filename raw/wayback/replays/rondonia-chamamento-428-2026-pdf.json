@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/rondonia-chamamento-428-2026-pdf",
+  "source_url": "https://rondonia.ro.gov.br/wp-content/uploads/2026/09/Publicacao_76133624_428.pdf",
+  "archive_url": "https://web.archive.org/web/20260926020207/https://rondonia.ro.gov.br/wp-content/uploads/2026/09/Publicacao_76133624_428.pdf",
+  "verified_at": "2026-09-27T02:23:36Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 125123,
+  "archive_sha256": "edb87175c86fd36fd2696fdbf16bc909c0d5d9b426056161c84a0ea98ca5b51e",
+  "source_content_type": "application/pdf",
+  "source_size": 125123,
+  "source_sha256": "edb87175c86fd36fd2696fdbf16bc909c0d5d9b426056161c84a0ea98ca5b51e",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/rondonia-chamamento-428-2026-pdf.pdf"
+}
