@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/tce-vilhena-acordao-2024-gestao-saude",
+  "source_url": "https://tce.ro.gov.br/doe/arquivos/Diario_03185_2024-10-21-16-10-6.pdf",
+  "archive_url": "https://web.archive.org/web/20260926151339/https://tce.ro.gov.br/doe/arquivos/Diario_03185_2024-10-21-16-10-6.pdf",
+  "verified_at": "2026-09-27T08:35:21Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 1702155,
+  "archive_sha256": "8b5b814a6b5c2d972bed209eed5d605918376c60efb3f03c9a22da2082fb8cd1",
+  "source_content_type": "application/pdf",
+  "source_size": 1702155,
+  "source_sha256": "8b5b814a6b5c2d972bed209eed5d605918376c60efb3f03c9a22da2082fb8cd1",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/tce-vilhena-acordao-2024-gestao-saude.pdf"
+}

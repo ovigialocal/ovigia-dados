@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/porto-velho-emendas-impositivas-resolucao-751-2025",
+  "source_url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2025/28504/resolucao_no_751-cmpv-2025_de_05_de_novembro_de_2025.pdf",
+  "archive_url": "https://web.archive.org/web/20260926014852/https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2025/28504/resolucao_no_751-cmpv-2025_de_05_de_novembro_de_2025.pdf",
+  "verified_at": "2026-09-27T08:35:15Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 170607,
+  "archive_sha256": "56809b44b8b944e6943bce42cd615d36d7dea84520c9ad6e02e8d98ef7e8eb6f",
+  "source_content_type": "application/pdf",
+  "source_size": 170607,
+  "source_sha256": "56809b44b8b944e6943bce42cd615d36d7dea84520c9ad6e02e8d98ef7e8eb6f",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/porto-velho-emendas-impositivas-resolucao-751-2025.pdf"
+}

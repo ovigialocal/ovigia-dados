@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-api-licitacao-9203-2026",
+  "source_url": "https://api.portovelho.ro.gov.br/api/v1/licitacoes/9203",
+  "archive_url": "https://web.archive.org/web/20260926171946/https://api.portovelho.ro.gov.br/api/v1/licitacoes/9203",
+  "verified_at": "2026-09-27T08:35:16Z",
+  "archive_content_type": "application/json",
+  "archive_size": 1373,
+  "archive_sha256": "2e6850a81cbcd66446e28ff2c681230615682c20f152547da2b62e051a88b56a",
+  "source_content_type": "application/json",
+  "source_size": 4101,
+  "source_sha256": "df847c3d66abd797b52aab9a3c81c66515b3158a24cd2a4133c15d2e1d38d874",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}
