@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-contrato-4045-pdf-2026",
+  "source_url": "https://anexos.portovelho.ro.gov.br/contratos/4045/contrato.pdf",
+  "archive_url": "https://web.archive.org/web/20260926135703/https://anexos.portovelho.ro.gov.br/contratos/4045/contrato.pdf",
+  "verified_at": "2026-09-28T01:10:58Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 297494,
+  "archive_sha256": "b3816f70e4e94a22547da5f515fccdc13bc2f0200c6ead00fc8f104b6c536b5d",
+  "source_content_type": "application/pdf",
+  "source_size": 377514,
+  "source_sha256": "45a4a18b1dac103a4c029869524ebfe9ff83d82c8e58c9bcbb6839220c10e2e5",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-contrato-4045-pdf-2026.pdf"
+}
