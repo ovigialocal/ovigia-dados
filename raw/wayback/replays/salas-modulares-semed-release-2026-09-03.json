@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/salas-modulares-semed-release-2026-09-03",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58133",
+  "archive_url": "https://web.archive.org/web/20260928010342/https://www.portovelho.ro.gov.br/noticias/58133",
+  "verified_at": "2026-09-28T22:18:02Z",
+  "archive_content_type": "text/html",
+  "archive_size": 23308,
+  "archive_sha256": "434b972ee47fc3c2c28b4f97cf7a539382ecbc0d02e9a1127a7864e57f1bcf3c",
+  "source_content_type": "text/html",
+  "source_size": 147891,
+  "source_sha256": "07f670874dd4685a2baba14e8549125c1ac0ecf1cfd3a1ae570e563ab886797b",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/salas-modulares-semed-release-2026-09-03.html"
+}
