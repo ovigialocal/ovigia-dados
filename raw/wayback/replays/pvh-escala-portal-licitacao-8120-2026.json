@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-portal-licitacao-8120-2026",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/8120",
+  "archive_url": "https://web.archive.org/web/20260928005538/https://transparencia.portovelho.ro.gov.br/despesas/compras/8120",
+  "verified_at": "2026-09-28T15:44:55Z",
+  "archive_content_type": "text/html",
+  "archive_size": 79410,
+  "archive_sha256": "935d499bf2a8d4691a71ac2520326099f293e4c7b0591f6df15876bc81191f4d",
+  "source_content_type": "text/html",
+  "source_size": 1477470,
+  "source_sha256": "289425934fbde95b4cee344539264c19da9fec36ed555f8f1ec3c47887944fcf",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-portal-licitacao-8120-2026.html"
+}

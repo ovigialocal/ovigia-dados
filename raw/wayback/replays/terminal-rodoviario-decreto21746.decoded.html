@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br">
+<!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>SAPL - CÂMARA MUNICIPAL DE PORTO VELHO</title>
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "CÂMARA MUNICIPAL DE PORTO VELHO",
+      "url" : "http://sapl.portovelho.ro.leg.br"
+    }
+  </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#343a40">
+
+    
+      <link rel="icon" href="/static/sapl/frontend/img/favicon.ico"  type="image/png">
+      
+    
+        
+        <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet" />
+<link href="/static/sapl/frontend/css/global.042f6737.css" rel="stylesheet" />
+      
+    <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet" />
+<link href="/static/sapl/frontend/css/compilacao.0baf3580.css" rel="stylesheet" />
+
+
+      
+      
+
+    
+  </head>
+
+  <body>
+    <div class="page fadein">
+
+      
+        
+          
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+
+                   
+
+
+  <ul class="navbar-nav">
+    
+      
+        
+          <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Institucional
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/mesa-diretora/">Mesa Diretora</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bancada/">Bancadas Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bloco/">Blocos Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/comissao/">Comissões</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/frente/">Frentes</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/parlamentar/">Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/audiencia/">Audiências Públicas</a></li>
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Documentos Administrativos
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/docadm/pesq-doc-adm">Pesquisar Documentos Administrativos</a></li>
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Atividade Legislativa
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/materia/pesquisar-materia">Matérias Legislativas</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pauta-sessao">Pautas das Sessões</a></li>
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/relatorios/">Relatórios</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pesquisar-sessao">Sessões Plenárias</a></li>
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Normas Jurídicas
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/norma/pesquisar">Pesquisar Normas Jurídicas</a></li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+  </ul>
+
+ 
+
+                  <ul class="nav navbar-nav justify-content-end" id="autenticacao">
+                    <li class="nav-item dropdown pesquisa">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/static/sapl/frontend/img/search.png"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">
+                            <form id="formulario-lexml" class="navbar-form search-form" method="get" action="">
+                              <input id="input-lexml" type="text" class="form-control" placeholder="Pesquisar no LexML" />
+                            </form>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link"href="/sistema/ajuda"><img src="/static/sapl/frontend/img/manual.png"></a></li>
+                    
+                      <li class="nav-item"><a class="nav-link" href="/login/"><img src="/static/sapl/frontend/img/user.png"></a></li>
+                    
+                  </ul>
+
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+          
+        
+      
+      
+        
+        
+        <header class="masthead">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">
+                <img src="/media/sapl/casa/logotipo/porto-velho.jpg"
+                alt="Logo" class="img-responsive" >
+                <span class="vcenter">CÂMARA MUNICIPAL DE PORTO VELHO
+                  <br/><small>Sistema de Apoio ao Processo Legislativo</small>
+                </span>
+              </a>
+            </div>
+            <div class="hidden-print">
+              
+  
+
+
+  <ul class="nav nav-tabs justify-content-end">
+    
+      <li class="nav-item">
+        
+          <a class="nav-link" href="/norma/28267?display" title="Dados Complementares ">Dados Complementares </a>
+        
+      </li>
+      
+        <li class="nav-item"><a class="nav-link" href="/ta/7245/publicacao">Publicações</a></li>
+      
+      
+      
+      
+    
+  </ul>
+
+
+            </div>
+          </div>
+        </header>
+        
+      
+
+      
+      
+        <main id="content" class="content page__row">
+          <div class="container">
+
+            
+            
+
+            
+            
+              <div class="clearfix">
+
+                
+
+
+
+                
+
+                
+                  <h1 class="page-header">
+                    
+                      Decreto nº 21.319, de 09 de setembro de 2025
+                    
+                  </h1>
+                
+
+              </div>
+            
+
+            
+            <div id="app"></div>
+
+            
+            
+
+  
+    
+    <div class="context-actions d-flex justify-content-between mb-4">
+      <div class="actions btn-group" role="group">
+        
+        
+      </div>
+      <div class="actions btn-group" role="group">
+        
+        
+      </div>
+    </div>
+  
+  
+
+
+  
+   
+    <fieldset class="hidden-print">
+        <legend>Identificação Básica</legend>
+        <div class="row">
+          <div class="col-md-3">
+            <div id="div_id_tipo" class="holder">
+              <label>Tipo de Texto Articulado</label>
+              <p>Norma Jurídica</p>
+            </div>
+          </div>
+
+          
+            <div class="col-md-3">
+              <div id="div_id_tipo" class="holder">
+                <label>Tipo da Norma Jurídica</label>
+                <p>Decreto</p>
+              </div>
+            </div>
+          
+
+          <div class="col-md-2">
+            <div id="div_id_numero" class="holder">
+              <label>Número</label>
+              <p>21319</p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div id="div_id_ano" class="holder">
+              <label>Ano</label>
+              <p>2025</p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div id="div_id_data" class="holder">
+              <label>Data</label>
+              <p>9 de Setembro de 2025</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="div_id_ementa" class="holder">
+              <label>Ementa</label>
+              <p>Autoriza a abertura de licitação para a concessão da modernização, operação, manutenção e exploração comercial do Terminal Rodoviário de Porto Velho – RO, revoga o Decreto nº 20.739, de 27 de dezembro de 2024 e dá providências correlatas. (Processo SEI nº 006.000008/2025-82 e Proc. 00600-00022666/2025-15-e)</p>
+            </div>
+          </div>
+        </div>
+    </fieldset>
+  
+  
+
+
+  
+      
+        <div class="actions btn-group" role="group">
+            
+            <a href="/ta/7245/text?print" class="btn btn-outline-primary" id="btn_impressao">Preparar para impressão</a>
+        </div>
+      
+
+      <div class="actions btn-group float-right" role="group">
+        <a class="btn btn-outline-primary" id="btn_font_menos" title="Diminuir tamanho da letra">a</a>
+        <a class="btn btn-outline-primary" id="btn_font_mais"  title="Aumentar tamanho da Letra">A</a>
+      </div>
+  
+
+  
+    
+
+
+
+<div class="row py-4">
+    
+      
+        
+      
+
+      
+        
+          <div class="text-info col-12 small">
+            <b>Alterado(a) pelo(a)</b>&nbsp;
+            <a href="/norma/28837">
+              Decreto nº 21.746, de 30 de janeiro de 2026
+            </a>
+          </div>
+        
+      
+
+      
+  
+
+</div>
+
+  
+
+  
+
+
+
+<div class="cp">
+  
+    
+      <ul class="cp-linha-vigencias">
+        
+          <li class="">
+            <a class="" href="/ta/7245/text/vigencia/0,2025-09-09,2026-01-29:sOfTiORbKIi65AOuYzVWOsTtdtw/" title="Vigência entre 9 de Setembro de 2025 e 29 de Janeiro de 2026">Texto<br>Original</a>
+            <span class="circle"> </span>
+          </li>
+        
+    
+  
+    
+      
+        <li class="active">
+          <a class="" href="/ta/7245/text" title="Compilação atual.&#013;Vigência a partir de 30 de Janeiro de 2026&#013;Decreto nº 21.746, de 30 de janeiro de 2026">Texto<br>Atual</a>
+          <span class="circle"> </span>
+        </li>
+        
+          </ul>
+          <span class="vigencia-active">
+
+            
+              
+                Vigência a partir de <b>30 de Janeiro de 2026</b>.
+              
+              
+            
+            <br>
+                
+                  <small>Dada por <a href="/ta/8731/text">Decreto nº 21.746, de 30 de janeiro de 2026</a></small>
+                
+          </span>
+        
+      
+    
+  
+  <div class="d-flex tipo-vigencias fixed-bottom justify-content-center">
+    <div class="btn-group btn-group-sm">
+      <a class="btn btn-primary active" onclick="textoMultiVigente(this, false);" title="Texto Compilado Sequencial">TMS</a>
+      <a class="btn btn-primary" onclick="textoMultiVigente(this, true);" title="Texto Compilado Integrado com Realce de Alterações">TMI</a>
+      <a class="btn btn-primary"  onclick="textoMultiVigente(this, false); textoVigente(this, true);" title="Texto Vigente COM Links para Textos Alteradores">TVL</a>
+      <a class="btn btn-primary"  onclick="textoVigente(this, false);" title="Texto Vigente">TVT</a>
+      <a class="btn btn-primary"  onclick="textoVigenteSemRevogados(this, false);" title="Texto Vigente Sem Dispositivos Revogados">TVR</a>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+  
+    
+
+    
+      <div class="dpt  " nivel="0">
+    
+
+    <div class="articulacao  "><div class="dptt "  id="dptt285886" ><div class="dtxt" id="d285886" pks="" pk="285886"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="ementa  "><div class="dptt "  id="dptt285887" ><a class="dpt-link" name="285887" title="285887"></a><div class="dtxt" id="d285887" pks="" pk="285887">Autoriza a abertura de licitação para a concessão da modernização, operação, manutenção e exploração comercial do Terminal Rodoviário de Porto Velho – RO, revoga o Decreto nº 20.739, de 27 de dezembro de 2024 e dá providências correlatas.</div></div><div class="dn" id="dn285887" pk="285887"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="texto_n_estruturado  "><div class="dptt "  id="dptt285888" ><a class="dpt-link" name="285888" title="285888"></a><div class="dtxt" id="d285888" pks="" pk="285888"><p>O&nbsp;<strong>PREFEITO DO MUNIC&Iacute;PIO DE PORTO VELHO</strong>, usando da atribui&ccedil;&atilde;o que lhe &eacute; conferida no art. 87, inciso IV da Lei Org&acirc;nica do Munic&iacute;pio de Porto Velho e tendo em vista o que consta no Processo n&ordm; 006.000008/2025-82.</p><p>&nbsp;</p><p><strong>CONSIDERANDO </strong>a aprova&ccedil;&atilde;o pelo Conselho Gestor do Programa de Parcerias P&uacute;blico Privadas - CGPPP, criado pela Lei Complementar n&ordm; 592, de 23 de dezembro de 2015, dos estudos de viabilidade t&eacute;cnica, econ&ocirc;mico-financeira e modelagem jur&iacute;dica para concess&atilde;o da moderniza&ccedil;&atilde;o, opera&ccedil;&atilde;o, manuten&ccedil;&atilde;o e explora&ccedil;&atilde;o comercial do Terminal Rodovi&aacute;rio de Porto Velho &ndash; RO, por ocasi&atilde;o da 63&ordf; (sexag&eacute;sima terceira) reuni&atilde;o do CGPPP, cujo extrato da ata foi publicada no Di&aacute;rio Oficial dos Munic&iacute;pios do Estado de Rond&ocirc;nia no dia 03/09/2025, ed. 4058;</p><p>&nbsp;</p><p><strong>CONSIDERANDO </strong>a decis&atilde;o n&ordm; 003/2025/GAB-PREF/PMPV, e-doc. 1A238560-e, exarada no bojo do processo n&ordm; 00600-00007273/2025-73-e, publicada no Di&aacute;rio Oficial dos Munic&iacute;pios do Estado de Rond&ocirc;nia no dia 03/09/2025, ed. 4058, que reconheceu a nulidade do termo aditivo de prorroga&ccedil;&atilde;o do Contrato n&ordm; 059/2014/GJ/DER-RO, referente &agrave; concess&atilde;o dos servi&ccedil;os de conserva&ccedil;&atilde;o, manuten&ccedil;&atilde;o e opera&ccedil;&atilde;o do Terminal Rodovi&aacute;rio de Porto Velho/RO, celebrado com a empresa ADMINISTRADORA SILVESTRE LTDA;</p><p>&nbsp;</p><p><strong>CONSIDERANDO </strong>que o princ&iacute;pio da modicidade tarif&aacute;ria, consagrado no ordenamento jur&iacute;dico brasileiro, notadamente na Lei Federal n&ordm; 8.987, de 13 de fevereiro de 1995 - Lei das Concess&otilde;es, preconiza que os servi&ccedil;os p&uacute;blicos concedidos devem ser prestados com tarifas justas e acess&iacute;veis ao usu&aacute;rio;</p><p>&nbsp;</p><p><strong>CONSIDERANDO </strong>que o Decreto n&ordm; 20.739, de 27 de dezembro de 2024, fixou valor &uacute;nico da tarifa de embarque a ser cobrada no Terminal Rodovi&aacute;rio de Porto Velho &ndash; RO em R$ 14,25 (quatorze reais e vinte e cinco centavos), baseado em estudo unilateral apresentado pela parte interessada, sem qualquer avalia&ccedil;&atilde;o econ&ocirc;mico-financeira realizada por parte da Prefeitura que pudesse convalidar o referido estudo e sem manifesta&ccedil;&atilde;o t&eacute;cnica dos respectivos &oacute;rg&atilde;os munic&iacute;pais;</p><p>&nbsp;</p><p><strong>CONSIDERANDO</strong>&nbsp;que o aumento da tarifa n&atilde;o observou as condi&ccedil;&otilde;es t&eacute;cnicas, operacionais e econ&ocirc;micas para o Munic&iacute;pio da nova estrutura da rodovi&aacute;ria;</p><p>&nbsp;</p><p><strong>CONSIDERANDO </strong>que os estudos aprovados pelo Conselho Gestor do Programa de Parcerias P&uacute;blico Privadas - CGPPP, na 63&ordf; (sexag&eacute;sima terceira) reuni&atilde;o do CGPPP, notadamente o volume 3 - avalia&ccedil;&atilde;o econ&ocirc;mico-financeira, prop&otilde;e tarifas diferenciadas de acordo com o perfil do deslocamento, sendo R$ 5,10 (cinco reais e dez centavos) para embarques para deslocamentos intermunicipais e R$ 10,20 (dez reais e vinte centavos) para embarques para deslocamentos interestaduais; e</p><p>&nbsp;</p><p><strong>CONSIDERANDO </strong>que os projetos aprovados pelo Conselho Gestor do Programa de Parcerias P&uacute;blico Privadas - CGPPP devem ser submetidos &agrave; aprecia&ccedil;&atilde;o do Prefeito, na forma do art. 15 do Decreto n&ordm; 14.191, de 05 de maio de 2016.</p><p>&nbsp;</p><p><strong>DECRETA:</strong></p></div></div><div class="dn" id="dn285888" pk="285888"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="0">
+    
+
+    <div class="articulacao  "><div class="dptt "  id="dptt285889" ><div class="dtxt" id="d285889" pks="" pk="285889"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="ementa  "><div class="dptt "  id="dptt285890" ><a class="dpt-link" name="285890"></a><div class="dtxt" id="d285890" pks="" pk="285890">&nbsp;</div></div><div class="dn" id="dn285890" pk="285890"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285891" ><div class="dtxt" id="d285891" pks="" pk="285891"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285892" ><a class="dpt-link" name="285892">Art. 1º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285892" pks="" pk="285892"><p>Fica autorizada a abertura de processo licitat&oacute;rio, na modalidade concorr&ecirc;ncia, tipo maior valor de outorga, para a concess&atilde;o da moderniza&ccedil;&atilde;o, opera&ccedil;&atilde;o, manuten&ccedil;&atilde;o e explora&ccedil;&atilde;o comercial do Terminal Rodovi&aacute;rio de Porto Velho &ndash; RO.</p></div></div><div class="dn" id="dn285892" pk="285892"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="2">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt307394" ><a class="dpt-link" name="307394" title="307394">§ 1º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d307394" pks="" pk="307394">O prazo da concessão será de 25 (vinte e cinco) anos, a contar do início das operações, podendo ser prorrogado por igual período, a critério do Poder Concedente.</div><a class="nota-alteracao" href="/ta/8731/text#307365">
+              
+              Inclusão feita pelo Art. 1º. - Decreto nº 21.746, de 30 de janeiro de 2026.
+              
+              
+            </a></div><div class="dn" id="dn307394" pk="307394"><ul class="dnl"></ul></div></div><div class="clearfix"></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="2">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt307395" ><a class="dpt-link" name="307395" title="307395">§ 2º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d307395" pks="" pk="307395">O presente Decreto se consubstancia como ato justificador de outorga de concessão na forma do art. 5º da Lei nº 8.987, de 13 de fevereiro de 1995.</div><a class="nota-alteracao" href="/ta/8731/text#307365">
+              
+              Inclusão feita pelo Art. 1º. - Decreto nº 21.746, de 30 de janeiro de 2026.
+              
+              
+            </a></div><div class="dn" id="dn307395" pk="307395"><ul class="dnl"></ul></div></div><div class="clearfix"></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285893" ><div class="dtxt" id="d285893" pks="" pk="285893"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285894" ><a class="dpt-link" name="285894">Art. 2º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285894" pks="" pk="285894"><p>A licita&ccedil;&atilde;o de que trata o art. 1&ordm; deste Decreto ser&aacute; realizada pela Secretaria Municipal de Contratos, Conv&ecirc;nios e Licita&ccedil;&otilde;es - SMCL.</p></div></div><div class="dn" id="dn285894" pk="285894"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285895" ><div class="dtxt" id="d285895" pks="" pk="285895"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285896" ><a class="dpt-link" name="285896">Art. 3º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285896" pks="" pk="285896"><p>Competir&aacute; &agrave; Secretaria Municipal de Infraestrutura - SEINFRA representar o Munic&iacute;pio de Porto Velho, na condi&ccedil;&atilde;o de Poder Concedente, na pr&aacute;tica dos atos a este reservados por lei, regulamento ou contrato, em rela&ccedil;&atilde;o &agrave; concess&atilde;o de que trata este Decreto.</p></div></div><div class="dn" id="dn285896" pk="285896"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285899" ><div class="dtxt" id="d285899" pks="" pk="285899"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285900" ><a class="dpt-link" name="285900">Art. 4º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285900" pks="" pk="285900"><p>As tarifas de embarque no Terminal Rodovi&aacute;rio de Porto Velho ficam fixadas em:</p></div></div><div class="dn" id="dn285900" pk="285900"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt285901" ><a class="dpt-link" name="285901" title="285901">I</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285901" pks="" pk="285901"><p>R$ 5,10 (cinco reais e dez centavos) para embarques intermunicipais;</p></div></div><div class="dn" id="dn285901" pk="285901"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="3">
+    
+
+    <div class="inciso indent  "><div class="dptt "  id="dptt285902" ><a class="dpt-link" name="285902" title="285902">II</a>&nbsp;&ndash;&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285902" pks="" pk="285902"><p>R$ 10,20 (dez reais e vinte centavos) para embarques interestaduais e internacionais.</p></div></div><div class="dn" id="dn285902" pk="285902"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt indent " nivel="2">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt285903" ><a class="dpt-link" name="285903" title="285903">§ 1º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285903" pks="" pk="285903"><p>As novas tarifas t&ecirc;m aplica&ccedil;&atilde;o imediata e devem ser observadas pela atual prestadora dos servi&ccedil;os de conserva&ccedil;&atilde;o, manuten&ccedil;&atilde;o e opera&ccedil;&atilde;o do Terminal Rodovi&aacute;rio de Porto Velho.</p></div></div><div class="dn" id="dn285903" pk="285903"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt indent " nivel="2">
+    
+
+    <div class="paragrafo indent  "><div class="dptt "  id="dptt285904" ><a class="dpt-link" name="285904" title="285904">§ 2º</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285904" pks="" pk="285904"><p>A Ag&ecirc;ncia Reguladora dos Servi&ccedil;os P&uacute;blicos Delegados e de Desenvolvimento do Munic&iacute;pio de Porto Velho &ndash; ARDPV dever&aacute; fiscalizar o cumprimento do disposto neste artigo, bem como providenciar a ampla divulga&ccedil;&atilde;o aos usu&aacute;rios.</p></div></div><div class="dn" id="dn285904" pk="285904"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285905" ><div class="dtxt" id="d285905" pks="" pk="285905"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285906" ><a class="dpt-link" name="285906">Art. 5º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285906" pks="" pk="285906"><p>As tarifas de embarque de que trata o artigo anterior ser&atilde;o reajustadas anualmente pelo Poder Concedente, mediante estudos elaborados pela ARDPV, observando as regras do contrato de concess&atilde;o.</p></div></div><div class="dn" id="dn285906" pk="285906"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285907" ><div class="dtxt" id="d285907" pks="" pk="285907"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285908" ><a class="dpt-link" name="285908">Art. 6º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285908" pks="" pk="285908"><p>Os estudos e os documentos jur&iacute;dicos dever&atilde;o ser encaminhados ao Tribunal de Contas para cumprimento da Instru&ccedil;&atilde;o Normativa n&ordm; 83/2025/TCE-RO.</p></div></div><div class="dn" id="dn285908" pk="285908"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285909" ><div class="dtxt" id="d285909" pks="" pk="285909"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285910" ><a class="dpt-link" name="285910">Art. 7º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285910" pks="" pk="285910"><p>Este Decreto entra em vigor na data de sua publica&ccedil;&atilde;o.</p></div></div><div class="dn" id="dn285910" pk="285910"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div></div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="artigo  "><div class="dptt "  id="dptt285911" ><div class="dtxt" id="d285911" pks="" pk="285911"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="2">
+    
+
+    <div class="caput  "><div class="dptt "  id="dptt285912" ><a class="dpt-link" name="285912">Art. 8º.</a>&nbsp;
+            
+
+          
+
+          <div class="dtxt" id="d285912" pks="" pk="285912"><p>Revoga-se o Decreto n&ordm; 20.739, de 27 de dezembro de 2024.</p></div></div><div class="dn" id="dn285912" pk="285912"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt bloco_alteracao " nivel="2">
+    
+
+    <div class="bloco_alteracao  "><div class="dptt "  id="dptt286222" ><div class="dtxt" id="d286222" pks="" pk="286222"></div></div></div>
+    
+      
+        
+
+  <div class="dpt " id="d286223" nivel="1"><div class="ementa" id="id286223" nivel="1"><a name="286223" href="/ta/4677/text#286223">
+                
+                (Revogado)
+              </a></div></div>
+
+  <div class="dpt " id="d286224" nivel="1"><div class="texto_n_estruturado" id="id286224" nivel="1"><a name="286224" href="/ta/4677/text#286224">
+                
+                (Revogado)
+              </a></div></div>
+
+  <div class="dpt " id="d286225" nivel="1"><div class="ementa" id="id286225" nivel="1"><a name="226695" href="/ta/4677/text#226695"></a>
+              
+            
+            
+            
+              
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+  <div class="dpt " id="d286226" nivel="1"><div class="artigo" id="id286226" nivel="1"><a name="286226" href="/ta/4677/text#286226">Art. 1º.</a>
+              &nbsp;
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+  <div class="dpt " id="d286227" nivel="2"><div class="caput" id="id286227" nivel="2"><a name="286226" href="/ta/4677/text#286226">Art. 1º.</a>
+                &nbsp;
+              
+            
+            
+            
+              
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+  <div class="dpt " id="d286228" nivel="1"><div class="artigo" id="id286228" nivel="1"><a name="286228" href="/ta/4677/text#286228">Art. 2º.</a>
+              &nbsp;
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+  <div class="dpt " id="d286229" nivel="2"><div class="caput" id="id286229" nivel="2"><a name="286228" href="/ta/4677/text#286228">Art. 2º.</a>
+                &nbsp;
+              
+            
+            
+            
+              
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+  <div class="dpt " id="d286230" nivel="1"><div class="artigo" id="id286230" nivel="1"><a name="286230" href="/ta/4677/text#286230">Art. 3º.</a>
+              &nbsp;
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+  <div class="dpt " id="d286231" nivel="2"><div class="caput" id="id286231" nivel="2"><a name="286230" href="/ta/4677/text#286230">Art. 3º.</a>
+                &nbsp;
+              
+            
+            
+            
+              
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+  <div class="dpt " id="d286232" nivel="1"><div class="artigo" id="id286232" nivel="1"><a name="286232" href="/ta/4677/text#286232">Art. 4º.</a>
+              &nbsp;
+              (Revogado)
+            
+
+            
+
+          </div></div>
+
+
+      
+    
+    
+  
+
+  
+    
+      </div></div></div>
+    
+
+    
+      <div class="dpt  " nivel="0">
+    
+
+    <div class="articulacao  "><div class="dptt "  id="dptt285913" ><div class="dtxt" id="d285913" pks="" pk="285913"></div></div></div>
+    
+    
+  
+
+  
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="ementa  "><div class="dptt "  id="dptt285914" ><a class="dpt-link" name="285914"></a><div class="dtxt" id="d285914" pks="" pk="285914">&nbsp;</div></div><div class="dn" id="dn285914" pk="285914"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+  
+    
+      </div>
+    
+
+    
+      <div class="dpt  " nivel="1">
+    
+
+    <div class="texto_n_estruturado  "><div class="dptt "  id="dptt285915" ><a class="dpt-link" name="285915" title="285915"></a><div class="dtxt" id="d285915" pks="" pk="285915"><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><strong><em>LEONARDO BARRETO DE MORAES</em></strong></p><p style="text-align: center;">Prefeito</p><p style="text-align: center;">&nbsp;</p><hr><p style="text-align: center;">&nbsp;</p></div></div><div class="dn" id="dn285915" pk="285915"><ul class="dnl"></ul></div></div>
+    
+    
+  
+
+
+
+  </div></div>
+
+
+</div>
+
+  <div class="dont-break-out"></div>
+
+
+
+
+          </div>
+        </main>
+
+      
+
+      
+
+
+      
+      <footer id="footer" class="footer page__row hidden-print">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+
+              <a class="footer__logo" href="#">
+                <a href="http://www.interlegis.leg.br/">
+                  <img src="/static/sapl/frontend/img/logo_interlegis.png" alt="Logo do Interlegis ">
+                </a>
+              </a>
+              <p>
+                <small>
+                  Desenvolvido pelo <a href="http://www.interlegis.leg.br/">Interlegis</a> em software livre e aberto.
+                </small>
+		<span>Release: 3.1.165-RC3</span>
+              </p>
+
+            </div>
+            <div class="col-md-4">
+              <a class="footer__logo" href="#">
+                <img src="/static/sapl/frontend/img/logo_cc.png" alt="Logo do Creative Commons BY SA">
+              </a>
+              <p>
+                <small>
+                  Conteúdo e dados sob licença <a href="https://creativecommons.org">Creative Commons</a> 4.0<br><a href="https://creativecommons.org/licenses/by/4.0/">Atribuir Fonte - Compartilhar Igual</a>
+                </small>
+              </p>
+            </div>
+            <div class="col-md-4">
+              
+              <address>
+                <small>
+                  <strong>
+                    <span class="org">CÂMARA MUNICIPAL DE PORTO VELHO</span>
+                  </strong>
+                  <br>
+                  <span class="street-address">RUA BELÉM, N° 139</span>
+                  <br>
+                  CEP: <span class="postal-code">76820-734</span>
+                  |
+                  Telefone: <span>(69) 3217-8038</span>
+                  <br>
+                  <small><a href="/api/schema/swagger-ui/">OpenAPI</a></small> |
+                  <a href="http://www.portovelho.ro.leg.br/" class="url">Site</a> |
+                  <a href="mailto:informatica@portovelho.ro.leg.br" class="email">Fale Conosco</a>
+                </small>
+              </address>
+              
+
+
+
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+
+    <div vw class="enabled btn-vlibras">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    
+
+          
+    
+        
+        <script src="/static/sapl/frontend/js/chunk-vendors.f2d6067d.js" ></script>
+<script src="/static/sapl/frontend/js/global.d557d20c.js" ></script>
+      
+    <script src="/static/sapl/frontend/js/chunk-vendors.f2d6067d.js" ></script>
+<script src="/static/sapl/frontend/js/compilacao.148cb66b.js" ></script>
+
+
+      
+      
+
+      
+
+      <script type="text/javascript" >
+        function inIframe () {
+          try {
+              return window.location !== window.parent.location
+          } catch (e) {
+              return true;
+          }
+        }
+        $(document).ready(function(){
+          let iframe_set_backend = false
+          if (iframe_set_backend && !inIframe() ) {
+            location.href = location.origin + '?iframe=0'
+          }
+
+          var form = document.getElementById("formulario-lexml");
+          $("#input-lexml").change(function(){
+            let value = $("#input-lexml").val();
+            let url = "/sistema/lexml/request_search/xxx/"
+            url = url.replace('xxx', value)
+            form.action = url;
+          });
+
+        });
+      </script>
+
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+      
+    
+
+    
+  </body>
+</html>

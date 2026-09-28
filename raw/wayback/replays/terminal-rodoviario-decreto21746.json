@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/terminal-rodoviario-decreto21746",
+  "source_url": "https://sapl.portovelho.ro.leg.br/ta/7245/text",
+  "archive_url": "https://web.archive.org/web/20260926021418/https://sapl.portovelho.ro.leg.br/ta/7245/text",
+  "verified_at": "2026-09-28T15:45:59Z",
+  "archive_content_type": "text/html",
+  "archive_size": 7623,
+  "archive_sha256": "48cc7fca04401d01c346fb4f2f49b3c3f7ad4887c1cdd9fe2d4023fc24dc9ef1",
+  "source_content_type": "text/html",
+  "source_size": 36620,
+  "source_sha256": "82396d9851c5b1be5e56f84dbc588691802314d7118088ce46561311e81a7d8d",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/terminal-rodoviario-decreto21746.html"
+}
