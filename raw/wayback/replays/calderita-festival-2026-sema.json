@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/calderita-festival-2026-sema",
+  "source_url": "https://sema.portovelho.ro.gov.br/noticias/58128",
+  "archive_url": "https://web.archive.org/web/20260928005035/https://sema.portovelho.ro.gov.br/noticias/58128",
+  "verified_at": "2026-09-29T02:10:37Z",
+  "archive_content_type": "text/html",
+  "archive_size": 26572,
+  "archive_sha256": "e334207be8d7ed775df504b44fd7ac032bea0a7137aa96f42222a67252f79256",
+  "source_content_type": "text/html",
+  "source_size": 223434,
+  "source_sha256": "c3cde2285ae4e677758c69df344766b2feb0131f10befdf201ce071b24fd24db",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/calderita-festival-2026-sema.html"
+}

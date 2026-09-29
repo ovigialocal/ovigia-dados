@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/giro-saude-cem-resultado-2026-09-06",
+  "source_url": "https://semusa.portovelho.ro.gov.br/noticias/58158",
+  "archive_url": "https://web.archive.org/web/20260929015952/https://semusa.portovelho.ro.gov.br/noticias/58158",
+  "verified_at": "2026-09-29T02:10:40Z",
+  "archive_content_type": "text/html",
+  "archive_size": 24885,
+  "archive_sha256": "abfb445c4135f4534f3b59c89c3ab999b59952c8e64497525ec182fd3f4c86e2",
+  "source_content_type": "text/html",
+  "source_size": 207392,
+  "source_sha256": "a338a4fe2ab0fc79cb1774fb08ac488f5236087cf7d98518bfc0bc5068df5047",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/giro-saude-cem-resultado-2026-09-06.html"
+}
