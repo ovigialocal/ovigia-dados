@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/semusa-lavanderia-cgm-raaci-2022",
+  "source_url": "https://cgm.portovelho.ro.gov.br/uploads/arquivos/2023/07/22011/1690479985raaci-2022.pdf",
+  "archive_url": "https://web.archive.org/web/20260927020155/https://cgm.portovelho.ro.gov.br/uploads/arquivos/2023/07/22011/1690479985raaci-2022.pdf",
+  "verified_at": "2026-09-29T20:59:37Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 239815,
+  "archive_sha256": "0901a2fede545fb6bc4462b8ca87d813cef1111c4ec66004a85bdd6deeb49fa2",
+  "source_content_type": "application/pdf",
+  "source_size": 239775,
+  "source_sha256": "bc8d49dcfc886bab784ee3f145ab5a5b6d732215cd7d35ec7611d3b4686208c4",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/semusa-lavanderia-cgm-raaci-2022.pdf"
+}
