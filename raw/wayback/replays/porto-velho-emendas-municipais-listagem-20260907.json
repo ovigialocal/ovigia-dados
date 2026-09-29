@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/porto-velho-emendas-municipais-listagem-20260907",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/emendas-parlamentares/municipais",
+  "archive_url": "https://web.archive.org/web/20260928005328/https://transparencia.portovelho.ro.gov.br/emendas-parlamentares/municipais",
+  "verified_at": "2026-09-29T16:04:18Z",
+  "archive_content_type": "text/html",
+  "archive_size": 56535,
+  "archive_sha256": "b37b95fd802e393c3e2a54ffdb26ec991ff423aecf1e19040cd3b8fa445a4d52",
+  "source_content_type": "text/html",
+  "source_size": 690159,
+  "source_sha256": "3cb2248a1b6e9d725db7d160ba0e22395633ea1f45b0a8653c77db8ede101c36",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/porto-velho-emendas-municipais-listagem-20260907.html"
+}

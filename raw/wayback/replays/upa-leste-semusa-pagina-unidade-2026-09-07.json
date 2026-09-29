@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/upa-leste-semusa-pagina-unidade-2026-09-07",
+  "source_url": "https://semusa.portovelho.ro.gov.br/pagina/upa-leste",
+  "archive_url": "https://web.archive.org/web/20260929084105/https://semusa.portovelho.ro.gov.br/pagina/upa-leste",
+  "verified_at": "2026-09-29T16:04:39Z",
+  "archive_content_type": "text/html",
+  "archive_size": 24661,
+  "archive_sha256": "5f208ca31170a86446f62c475194909b401f91ac4720083928e6398fe28fe1fb",
+  "source_content_type": "text/html",
+  "source_size": 206464,
+  "source_sha256": "9a1c7c22cae8f31f6372dcb390fae28f1bf3b453dd6b7314775c428dcb30f82e",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/upa-leste-semusa-pagina-unidade-2026-09-07.html"
+}
