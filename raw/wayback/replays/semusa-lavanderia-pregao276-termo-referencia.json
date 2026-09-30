@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/semusa-lavanderia-pregao276-termo-referencia",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/9235/33349/TERMO-DE-REFER%C3%8ANCIA.pdf",
+  "archive_url": "https://web.archive.org/web/20260926020817/https://anexos.portovelho.ro.gov.br/compras/9235/33349/TERMO-DE-REFER%C3%8ANCIA.pdf",
+  "verified_at": "2026-09-30T00:38:21Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 409722,
+  "archive_sha256": "f1763df535ecc8555a840b7d3ce882f3789a5bc3600d422c068e8b5f220ec762",
+  "source_content_type": "application/pdf",
+  "source_size": 433458,
+  "source_sha256": "c4ef09f4edef1bc775f494217ac7fb5a22adb8f3e10985ac53c38b53c5ea0e38",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/semusa-lavanderia-pregao276-termo-referencia.pdf"
+}
