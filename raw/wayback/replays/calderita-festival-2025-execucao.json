@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/calderita-festival-2025-execucao",
+  "source_url": "https://www.portovelho.ro.gov.br/artigo/50894",
+  "archive_url": "https://web.archive.org/web/20260926013932/https://www.portovelho.ro.gov.br/artigo/50894",
+  "verified_at": "2026-09-30T23:57:02Z",
+  "archive_content_type": "text/html",
+  "archive_size": 24178,
+  "archive_sha256": "6240e66583f4ab79d718d768b8b519a51cbdf7d702237f0d7dbcc7355f004c00",
+  "source_content_type": "text/html",
+  "source_size": 159396,
+  "source_sha256": "0adf0635f9a20f8535dfae9d5e3f6323627ba91108ae598e2a1fb62969901fe1",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/calderita-festival-2025-execucao.html"
+}
