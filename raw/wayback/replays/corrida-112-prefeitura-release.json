@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/corrida-112-prefeitura-release",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58108",
+  "archive_url": "https://web.archive.org/web/20260926135143/https://www.portovelho.ro.gov.br/noticias/58108",
+  "verified_at": "2026-09-30T06:55:06Z",
+  "archive_content_type": "text/html",
+  "archive_size": 21363,
+  "archive_sha256": "2deafe6fbbea814ca2a4979658270af39ae4497200d3cda591b4146c3dc70b41",
+  "source_content_type": "text/html",
+  "source_size": 137059,
+  "source_sha256": "957a33b1f9ad8011e04ced6508dfb43c269abc0ca696251edeb1e93b4ca9c255",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/corrida-112-prefeitura-release.html"
+}

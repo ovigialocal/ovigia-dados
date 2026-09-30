@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/semusa-lavanderia-pregao276-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/despesas/compras/9235",
+  "archive_url": "https://web.archive.org/web/20260930003447/https://transparencia.portovelho.ro.gov.br/despesas/compras/9235",
+  "verified_at": "2026-09-30T06:55:14Z",
+  "archive_content_type": "text/html",
+  "archive_size": 42448,
+  "archive_sha256": "74c7a3408531baef0aa7e5c4227729fdcf8cfbc9b58391fbe16fd096177a01ac",
+  "source_content_type": "text/html",
+  "source_size": 461137,
+  "source_sha256": "6a612320d07964f40c552e1c174b3f22ff0e3ea81e2fc9b7f8ed482bc04250f2",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/semusa-lavanderia-pregao276-portal.html"
+}
