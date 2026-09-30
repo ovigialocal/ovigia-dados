@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/queimadas-plano-municipal-2026-release",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/58143",
+  "archive_url": "https://web.archive.org/web/20260926015357/https://www.portovelho.ro.gov.br/noticias/58143",
+  "verified_at": "2026-09-30T13:55:29Z",
+  "archive_content_type": "text/html",
+  "archive_size": 23152,
+  "archive_sha256": "b96a31a1a208d0c0cca63c4048209ed51522e89aa381cf178e9a4a9b354feb12",
+  "source_content_type": "text/html",
+  "source_size": 144644,
+  "source_sha256": "10cdb3e857af9cbe90dad88ec955942f7ab76765a9f35068ff13c1bf20763b34",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/queimadas-plano-municipal-2026-release.html"
+}
