@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pncp-ata-0068-2026-csc-am-fundagres",
+  "source_url": "https://pncp.gov.br/app/atas/03930106000182/2026/51/1",
+  "archive_url": "https://web.archive.org/web/20260925134937/https://pncp.gov.br/app/atas/03930106000182/2026/51/1",
+  "verified_at": "2026-10-01T13:27:55Z",
+  "archive_content_type": "text/html",
+  "archive_size": 13538,
+  "archive_sha256": "9652c2404f5d5d2a9f20a0a7115f41e868a72fc7e717aff1a1fb91c6bcc3c1ed",
+  "source_content_type": null,
+  "source_size": null,
+  "source_sha256": null,
+  "byte_identical_to_source": null,
+  "replay_body_path": "raw/wayback/replays/pncp-ata-0068-2026-csc-am-fundagres.html"
+}

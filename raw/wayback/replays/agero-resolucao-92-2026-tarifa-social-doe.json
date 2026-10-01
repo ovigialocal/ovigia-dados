@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/agero-resolucao-92-2026-tarifa-social-doe",
+  "source_url": "https://diof.ro.gov.br/data/uploads/2026/03/DOE-31-03-2026.pdf",
+  "archive_url": "https://web.archive.org/web/20260926013621/https://diof.ro.gov.br/data/uploads/2026/03/DOE-31-03-2026.pdf",
+  "verified_at": "2026-10-01T13:27:51Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 9742292,
+  "archive_sha256": "e63b661e8e0be286305249a0da15f0667e2ef30e234bf72bb3798edb5bc6151d",
+  "source_content_type": "application/pdf",
+  "source_size": 9742292,
+  "source_sha256": "e63b661e8e0be286305249a0da15f0667e2ef30e234bf72bb3798edb5bc6151d",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/agero-resolucao-92-2026-tarifa-social-doe.pdf"
+}
