@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/agevisa-simposio-2026-edital-landing",
+  "source_url": "https://rondonia.ro.gov.br/publicacao/edital-no-1-2026-agevisa-npevs/",
+  "archive_url": "https://web.archive.org/web/20260925133512/https://rondonia.ro.gov.br/publicacao/edital-no-1-2026-agevisa-npevs/",
+  "verified_at": "2026-10-01T19:39:11Z",
+  "archive_content_type": "text/html",
+  "archive_size": 31129,
+  "archive_sha256": "845965a982275a66dc6b8810d05410ca03e29e49ffaa6ebea922bbf4ac8c5fdb",
+  "source_content_type": "text/html",
+  "source_size": 185269,
+  "source_sha256": "43f2d8e76bfbd87be53c779e73beb0237556c3e075608c80875dd672d94d96f5",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/agevisa-simposio-2026-edital-landing.html"
+}

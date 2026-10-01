@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/inpe-queimadas-csv-mensal-brasil",
+  "source_url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/",
+  "archive_url": "https://web.archive.org/web/20260925081711/https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/",
+  "verified_at": "2026-10-01T19:39:13Z",
+  "archive_content_type": "text/html",
+  "archive_size": 1506,
+  "archive_sha256": "70b2a358a984d1345ae571f7d95b4bfee79ccac55787d4e588b482ee8cc6a451",
+  "source_content_type": "text/html",
+  "source_size": 15656,
+  "source_sha256": "dbe1a73995fe0f33c9c019a635b9aa48d4f8e6e062ebfc5c525b299767c21d63",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/inpe-queimadas-csv-mensal-brasil.html"
+}
