@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/tce-dm0230-2026-seduc-ifma-rondoniadinamica",
+  "source_url": "https://www.rondoniadinamica.com/noticias/2026/06/tce-de-rondonia-mantem-suspensa-adesao-da-seduc-para-contratacao-de-mais-de-r-50-milhoes,247873.shtml",
+  "archive_url": "https://web.archive.org/web/20260925225934/https://www.rondoniadinamica.com/noticias/2026/06/tce-de-rondonia-mantem-suspensa-adesao-da-seduc-para-contratacao-de-mais-de-r-50-milhoes,247873.shtml",
+  "verified_at": "2026-10-01T06:05:19Z",
+  "archive_content_type": "text/html",
+  "archive_size": 13122,
+  "archive_sha256": "20f85ff9d704544384af8c5c1c0f9683b6e2ba2500b6a5ad44281b2852f027f9",
+  "source_content_type": "text/html",
+  "source_size": 54796,
+  "source_sha256": "ae38947d1f026cd9e3e8fac656b494d819aa03f9a6ff93aa03fddf3ec0c67fbe",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/tce-dm0230-2026-seduc-ifma-rondoniadinamica.html"
+}
