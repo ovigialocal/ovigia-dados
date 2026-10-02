@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/agevisa-simposio-2026-even3",
+  "source_url": "https://www.even3.com.br/simposio-agevisa-769767/",
+  "archive_url": "https://web.archive.org/web/20260925075602/https://www.even3.com.br/simposio-agevisa-769767/",
+  "verified_at": "2026-10-02T18:32:04Z",
+  "archive_content_type": "text/plain",
+  "archive_size": 104628,
+  "archive_sha256": "bdae587fc693dcbd827c03fae42b95ce47dd2eee4e8e6312173d43338991f0e5",
+  "source_content_type": "text/plain",
+  "source_size": 104551,
+  "source_sha256": "6e2458eec8df588250365a95876d046553ed18f80f4234e788be0a5a595f52e8",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/agevisa-simposio-2026-even3.html"
+}
