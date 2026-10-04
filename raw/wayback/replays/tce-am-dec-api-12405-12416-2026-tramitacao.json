@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/tce-am-dec-api-12405-12416-2026-tramitacao",
+  "source_url": "https://dec-api.tceam.tc.br/api/v1/consultas-publicas/processos/detalhes/tramitacao/4098882",
+  "archive_url": "https://web.archive.org/web/20260925022726/https://dec-api.tceam.tc.br/api/v1/consultas-publicas/processos/detalhes/tramitacao/4098882",
+  "verified_at": "2026-10-04T13:16:56Z",
+  "archive_content_type": "application/xhtml+xml",
+  "archive_size": 6197,
+  "archive_sha256": "5c9b4c015cc19feb30232f5569fb4070e4e3eab247852f1ca4183646ee1e1861",
+  "source_content_type": "application/json",
+  "source_size": 5110,
+  "source_sha256": "fcd13506c5a21fd201890ab574650d1ba12b3ec844a319eef03f04abd4fac66b",
+  "byte_identical_to_source": false,
+  "replay_body_path": null
+}
