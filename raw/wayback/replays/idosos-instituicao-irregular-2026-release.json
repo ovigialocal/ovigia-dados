@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idosos-instituicao-irregular-2026-release",
+  "source_url": "https://agencia.portovelho.ro.gov.br/noticias/58116",
+  "archive_url": "https://web.archive.org/web/20260906153942/https://agencia.portovelho.ro.gov.br/noticias/58116",
+  "verified_at": "2026-10-04T17:42:11Z",
+  "archive_content_type": "text/html",
+  "archive_size": 17105,
+  "archive_sha256": "9727098a94262ffa9c1a6ae5b946adc9f85b053c7d274f6e2dee0510b688d663",
+  "source_content_type": "text/html",
+  "source_size": 116370,
+  "source_sha256": "29b8534deeafb6a2458be9c7cdf9360aaaa8b3b99ad857d83ada551f4cdf1c8a",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/idosos-instituicao-irregular-2026-release.html"
+}

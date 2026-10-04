@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/alero-regimento-interno-quorum-abertura",
+  "source_url": "https://www.al.ro.leg.br/downloads/regimento-interno",
+  "archive_url": "https://web.archive.org/web/20260906152617/https://www.al.ro.leg.br/downloads/regimento-interno",
+  "verified_at": "2026-10-04T17:42:09Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 2229157,
+  "archive_sha256": "3591b110548ee6bdbc31b8d93a2068285413ce89379079e414ea1609220e96e6",
+  "source_content_type": "application/pdf",
+  "source_size": 2229157,
+  "source_sha256": "3591b110548ee6bdbc31b8d93a2068285413ce89379079e414ea1609220e96e6",
+  "byte_identical_to_source": true,
+  "replay_body_path": "raw/wayback/replays/alero-regimento-interno-quorum-abertura.pdf"
+}
