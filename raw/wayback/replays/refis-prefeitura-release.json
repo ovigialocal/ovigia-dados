@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/refis-prefeitura-release",
+  "source_url": "https://www.portovelho.ro.gov.br/noticias/57820",
+  "archive_url": "https://web.archive.org/web/20260906155413/https://www.portovelho.ro.gov.br/noticias/57820",
+  "verified_at": "2026-10-04T00:45:43Z",
+  "archive_content_type": "text/html",
+  "archive_size": 21756,
+  "archive_sha256": "99cf7c068c984a245af5f4372bb026f97101f63fbffca87f0529c69d56fb9b94",
+  "source_content_type": "text/html",
+  "source_size": 165796,
+  "source_sha256": "ea56fc211398eacd6d274324c4190624114ec5a3c614e49d1e707f25414ac89c",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/refis-prefeitura-release.html"
+}
