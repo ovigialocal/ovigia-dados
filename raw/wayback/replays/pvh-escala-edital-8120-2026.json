@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/pvh-escala-edital-8120-2026",
+  "source_url": "https://anexos.portovelho.ro.gov.br/compras/8120/30996/1-EDITAL-RETIFICADO.pdf",
+  "archive_url": "https://web.archive.org/web/20260930003014/https://anexos.portovelho.ro.gov.br/compras/8120/30996/1-EDITAL-RETIFICADO.pdf",
+  "verified_at": "2026-10-05T22:45:46Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 543128,
+  "archive_sha256": "e0cd26e4ec272e1ce4ee4c3e3f4b0f5ede42cdfb992b5041362e42b7cc7d6940",
+  "source_content_type": "application/pdf",
+  "source_size": 588244,
+  "source_sha256": "13267477a5c2944f9b91786d7c815e1c0a935d03f1d0d51ede9c4c19d4856ce0",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/pvh-escala-edital-8120-2026.pdf"
+}
