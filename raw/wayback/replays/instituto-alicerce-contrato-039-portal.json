@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/instituto-alicerce-contrato-039-portal",
+  "source_url": "https://transparencia.portovelho.ro.gov.br/contratos/3916",
+  "archive_url": "https://web.archive.org/web/20260904143957/https://transparencia.portovelho.ro.gov.br/contratos/3916",
+  "verified_at": "2026-10-08T02:00:39Z",
+  "archive_content_type": "text/html",
+  "archive_size": 42652,
+  "archive_sha256": "cbd3ae640653934e16f28d411eb135ebc9c1dbfe3b90a1fb6382c8ba61865ed7",
+  "source_content_type": "text/html",
+  "source_size": 499793,
+  "source_sha256": "a2fa515d9994bc3120f5284f1db7b9c0d4dc6ba8fcdba98b1202797fd2ddac09",
+  "byte_identical_to_source": false,
+  "replay_body_path": "raw/wayback/replays/instituto-alicerce-contrato-039-portal.html"
+}
