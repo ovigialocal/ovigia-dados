@@ -1,0 +1,14 @@
+{
+  "result_concept_id": "knowledge/wayback/results/idaron-portaria-405-2026",
+  "source_url": "https://www.idaron.ro.gov.br/wp-content/uploads/2026/06/SEI_72746275_Portaria_405-3.pdf",
+  "archive_url": "https://web.archive.org/web/20260609024620/https://www.idaron.ro.gov.br/wp-content/uploads/2026/06/SEI_72746275_Portaria_405-3.pdf",
+  "verified_at": "2026-10-08T22:09:55Z",
+  "archive_content_type": "application/pdf",
+  "archive_size": 80160,
+  "archive_sha256": "b21726fe414b6cdbbbfa90282609dc63eb3e5d71717ddc845869903c4e897298",
+  "source_content_type": null,
+  "source_size": null,
+  "source_sha256": null,
+  "byte_identical_to_source": null,
+  "replay_body_path": "raw/wayback/replays/idaron-portaria-405-2026.pdf"
+}
